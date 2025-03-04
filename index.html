@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Search every pro football team or find your fate—logos, trophies, and more!">
+    <title>Forever Football</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; font-family: Arial; background: #f0f0f0; }
+        .container { display: flex; height: 100vh; }
+        .ad-left, .ad-right { width: 160px; height: 600px; position: fixed; top: 50%; transform: translateY(-50%); }
+        .ad-left { left: 10px; } .ad-right { right: 10px; }
+        .main { flex: 1; text-align: center; padding: 20px; }
+        #search, #quiz-btn { padding: 10px; font-size: 16px; margin: 10px; }
+        #search { width: 300px; }
+        #quiz-btn { background: #FF4500; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        #quiz-btn:hover { background: #FFA500; }
+        #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
+        #results { margin-top: 20px; font-size: 18px; }
+        .team { padding: 10px; border-bottom: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <div class="ad-left"><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9925950012374716" data-ad-slot="FOREVER_LEFT_ID"></ins></div>
+    <div class="container">
+        <div class="main">
+            <h1>Forever Football</h1>
+            <input id="search" type="text" placeholder="Country, league, team, or city...">
+            <button id="quiz-btn" onclick="getFate()">Find Your Football Fate</button>
+            <div id="map"></div>
+            <div id="results"></div>
+        </div>
+    </div>
+    <div class="ad-right"><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9925950012374716" data-ad-slot="FOREVER_RIGHT_ID"></ins></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+
+        let clickCount = 0;
+        const teams = [
+            { name: "Real Madrid", country: "Spain", league: "La Liga", city: "Madrid", lat: 40.4168, lon: -3.7038, founded: 1902, stadium: "Santiago Bernabeu", trophies: 35, funFact: "Most Champions League wins (14)." },
+            { name: "Barcelona", country: "Spain", league: "La Liga", city: "Barcelona", lat: 41.3851, lon: 2.1734, founded: 1899, stadium: "Camp Nou", trophies: 27, funFact: "Messi’s kingdom." },
+            { name: "Santos FC", country: "Brazil", league: "Serie A", city: "Santos", lat: -23.5505, lon: -46.6333, founded: 1912, stadium: "Vila Belmiro", trophies: 9, funFact: "Pele’s home club." },
+            { name: "Manchester United", country: "England", league: "Premier League", city: "Manchester", lat: 53.4831, lon: -2.2446, founded: 1878, stadium: "Old Trafford", trophies: 20, funFact: "The Red Devils." }
+        ];
+
+        const map = L.map('map').setView([20, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+        teams.forEach(team => {
+            L.marker([team.lat, team.lon]).addTo(map)
+                .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+        });
+
+        const search = document.getElementById('search');
+        const results = document.getElementById('results');
+        search.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = teams.filter(t => 
+                t.name.toLowerCase().includes(query) || 
+                t.country.toLowerCase().includes(query) || 
+                t.league.toLowerCase().includes(query) || 
+                t.city.toLowerCase().includes(query)
+            );
+            results.innerHTML = filtered.map(t => `
+                <div class="team">
+                    <strong>${t.name}</strong> (${t.country})<br>
+                    League: ${t.league} | City: ${t.city}<br>
+                    Founded: ${t.founded} | Stadium: ${t.stadium}<br>
+                    Trophies: ${t.trophies} | Fun Fact: ${t.funFact}
+                </div>
+            `).join('');
+        });
+
+        function getFate() {
+            clickCount++;
+            const rand = Math.floor(Math.random() * teams.length);
+            const team = teams[rand];
+            results.innerHTML = `
+                <div class="team">
+                    <h2>Your Football Fate:</h2>
+                    <strong>${team.name}</strong> (${team.country})<br>
+                    League: ${team.league} | City: ${t.city}<br>
+                    Founded: ${team.founded} | Stadium: ${team.stadium}<br>
+                    Trophies: ${team.trophies} | Fun Fact: ${team.funFact}
+                </div>
+            `;
+            if (clickCount % 2 === 0) refreshAds();
+        }
+
+        function refreshAds() {
+            document.querySelector('.ad-left ins').innerHTML = '';
+            const adLeft = document.createElement('ins');
+            adLeft.className = 'adsbygoogle';
+            adLeft.style.display = 'inline-block';
+            adLeft.style.width = '160px';
+            adLeft.style.height = '600px';
+            adLeft.setAttribute('data-ad-client', 'ca-pub-9925950012374716');
+            adLeft.setAttribute('data-ad-slot', 'FOREVER_LEFT_ID');
+            document.querySelector('.ad-left').appendChild(adLeft);
+
+            document.querySelector('.ad-right ins').innerHTML = '';
+            const adRight = document.createElement('ins');
+            adRight.className = 'adsbygoogle';
+            adRight.style.display = 'inline-block';
+            adRight.style.width = '160px';
+            adRight.style.height = '600px';
+            adRight.setAttribute('data-ad-client', 'ca-pub-9925950012374716');
+            adRight.setAttribute('data-ad-slot', 'FOREVER_RIGHT_ID');
+            document.querySelector('.ad-right').appendChild(adRight);
+
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+    </script>
+</body>
+</html>
