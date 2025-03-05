@@ -20,7 +20,6 @@
         #team-select { margin-bottom: 20px; }
         select { padding: 10px; font-size: 16px; margin-right: 10px; }
         #team-details { font-size: 18px; }
-        #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
     </style>
 </head>
 <body>
@@ -47,107 +46,117 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
     <script>
-        console.log('Script started');
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        console.log('Main script started');
 
-        // Tab Switching
         function showTab(tabId) {
             console.log('Tab clicked:', tabId);
-            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
-            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            const contents = document.querySelectorAll('.tab-content');
+            const buttons = document.querySelectorAll('.tab-btn');
+            contents.forEach(tab => tab.classList.remove('active'));
+            buttons.forEach(btn => btn.classList.remove('active'));
             document.getElementById(tabId).classList.add('active');
-            document.querySelector(`[onclick="showTab('${tabId}')"]`).classList.add('active');
+            document.querySelector(`button[onclick="showTab('${tabId}')"]`).classList.add('active');
             if (tabId === 'map') initMap();
         }
 
-        // Map Init
         let mapInitialized = false;
         function initMap() {
             console.log('Map init called');
-            if (!mapInitialized) {
+            if (!mapInitialized && typeof L !== 'undefined') {
                 const map = L.map('map').setView([20, 0], 2);
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
-                teams.forEach(team => {
-                    L.marker([team.lat, team.lon]).addTo(map)
-                        .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
-                });
+                if (typeof teams !== 'undefined') {
+                    teams.forEach(team => {
+                        L.marker([team.lat, team.lon]).addTo(map)
+                            .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                    });
+                }
                 mapInitialized = true;
             }
         }
 
-        // Dropdowns
-        console.log('Checking teams:', typeof teams);
-        if (typeof teams === 'undefined') {
-            console.error('teams.js not loaded!');
-        } else {
-            console.log('Teams loaded, count:', teams.length);
-            const countrySelect = document.getElementById('country');
-            const citySelect = document.getElementById('city');
-            const teamSelect = document.getElementById('team');
-            const details = document.getElementById('team-details');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                (adsbygoogle = window.adsbygoogle || []).push({});
 
-            const countries = [...new Set(teams.map(t => t.country))].sort();
-            console.log('Countries:', countries);
-            countries.forEach(country => {
-                const option = document.createElement('option');
-                option.value = country;
-                option.textContent = country;
-                countrySelect.appendChild(option);
-            });
-
-            countrySelect.onchange = function() {
-                console.log('Country changed to:', this.value);
-                citySelect.innerHTML = '<option value="">Select City</option>';
-                teamSelect.innerHTML = '<option value="">Select Team</option>';
-                details.innerHTML = '';
-                if (this.value) {
-                    const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
-                    console.log('Cities:', cities);
-                    cities.forEach(city => {
-                        const option = document.createElement('option');
-                        option.value = city;
-                        option.textContent = city;
-                        citySelect.appendChild(option);
-                    });
+                console.log('Teams check:', typeof teams);
+                if (typeof teams === 'undefined') {
+                    console.error('teams.js not loaded!');
+                    return;
                 }
-            };
 
-            citySelect.onchange = function() {
-                console.log('City changed to:', this.value);
-                teamSelect.innerHTML = '<option value="">Select Team</option>';
-                details.innerHTML = '';
-                if (this.value) {
-                    const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
-                    console.log('Teams:', teamList.map(t => t.name));
-                    teamList.forEach(team => {
-                        const option = document.createElement('option');
-                        option.value = team.name;
-                        option.textContent = team.name;
-                        teamSelect.appendChild(option);
-                    });
-                }
-            };
+                console.log('Teams count:', teams.length);
+                const countrySelect = document.getElementById('country');
+                const citySelect = document.getElementById('city');
+                const teamSelect = document.getElementById('team');
+                const details = document.getElementById('team-details');
 
-            teamSelect.onchange = function() {
-                console.log('Team changed to:', this.value);
-                details.innerHTML = '';
-                if (this.value) {
-                    const team = teams.find(t => t.name === this.value);
-                    details.innerHTML = `
-                        <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
-                        <div><strong>Country:</strong> ${team.country}</div>
-                        <div><strong>League:</strong> ${team.league}</div>
-                        <div><strong>City:</strong> ${team.city}</div>
-                        <div><strong>Founded:</strong> ${team.founded}</div>
-                        <div><strong>Stadium:</strong> ${team.stadium}</div>
-                        <div><strong>Trophies:</strong> ${team.trophies} - ${team.funFact}</div>
-                        <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
-                        <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
-                    `;
-                }
-            };
-        }
+                const countries = [...new Set(teams.map(t => t.country))].sort();
+                console.log('Countries:', countries);
+                countries.forEach(country => {
+                    const option = document.createElement('option');
+                    option.value = country;
+                    option.textContent = country;
+                    countrySelect.appendChild(option);
+                });
+
+                countrySelect.onchange = function() {
+                    console.log('Country changed:', this.value);
+                    citySelect.innerHTML = '<option value="">Select City</option>';
+                    teamSelect.innerHTML = '<option value="">Select Team</option>';
+                    details.innerHTML = '';
+                    if (this.value) {
+                        const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
+                        console.log('Cities:', cities);
+                        cities.forEach(city => {
+                            const option = document.createElement('option');
+                            option.value = city;
+                            option.textContent = city;
+                            citySelect.appendChild(option);
+                        });
+                    }
+                };
+
+                citySelect.onchange = function() {
+                    console.log('City changed:', this.value);
+                    teamSelect.innerHTML = '<option value="">Select Team</option>';
+                    details.innerHTML = '';
+                    if (this.value) {
+                        const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
+                        console.log('Teams:', teamList.map(t => t.name));
+                        teamList.forEach(team => {
+                            const option = document.createElement('option');
+                            option.value = team.name;
+                            option.textContent = team.name;
+                            teamSelect.appendChild(option);
+                        });
+                    }
+                };
+
+                teamSelect.onchange = function() {
+                    console.log('Team changed:', this.value);
+                    details.innerHTML = '';
+                    if (this.value) {
+                        const team = teams.find(t => t.name === this.value);
+                        details.innerHTML = `
+                            <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                            <div><strong>Country:</strong> ${team.country}</div>
+                            <div><strong>League:</strong> ${team.league}</div>
+                            <div><strong>City:</strong> ${team.city}</div>
+                            <div><strong>Founded:</strong> ${team.founded}</div>
+                            <div><strong>Stadium:</strong> ${team.stadium}</div>
+                            <div><strong>Trophies:</strong> ${team.trophies} - ${team.funFact}</div>
+                            <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
+                            <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                        `;
+                    }
+                };
+            } catch (e) {
+                console.error('Script error:', e);
+            }
+        });
     </script>
 </body>
 </html>
