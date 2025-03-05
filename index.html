@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https://* data:">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
     <title>Forever Football</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Forever Football</h1>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="teams">Teams</button>
+                <button class="tab-btn" data-tab="map">Map</button>
+            </div>
+            <div id="teams" class="tab-content active">
+                <div id="team-select">
+                    <select id="country" autocomplete="off"><option value="">Select Country</option></select>
+                    <select id="city" autocomplete="off"><option value="">Select City</option></select>
+                    <select id="team" autocomplete="off"><option value="">Select Team</option></select>
+                </div>
+                <div id="team-details"></div>
+            </div>
+            <div id="map" class="tab-content"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="teams.js"></script>
     <style>
         body { margin: 0; font-family: Arial; background: #f0f0f0; }
         .container { display: flex; height: 100vh; }
@@ -19,29 +42,6 @@
         #team-details { font-size: 18px; }
         #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
     </style>
-</head>
-<body>
-    <div class="container">
-        <div class="main">
-            <h1>Forever Football</h1>
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="teams">Teams</button>
-                <button class="tab-btn" data-tab="map">Map</button>
-            </div>
-            <div id="teams" class="tab-content active">
-                <div id="team-select">
-                    <select id="country"><option value="">Select Country</option></select>
-                    <select id="city"><option value="">Select City</option></select>
-                    <select id="team"><option value="">Select Team</option></select>
-                </div>
-                <div id="team-details"></div>
-            </div>
-            <div id="map" class="tab-content">
-                Map placeholder
-            </div>
-        </div>
-    </div>
-    <script src="teams.js"></script>
     <script>
         console.log('Script started');
 
@@ -59,8 +59,24 @@
                         document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
                         document.getElementById(this.dataset.tab).classList.add('active');
                         this.classList.add('active');
+                        if (this.dataset.tab === 'map') initMap();
                     });
                 });
+
+                // Map
+                let mapInitialized = false;
+                function initMap() {
+                    console.log('Map init called');
+                    if (!mapInitialized && typeof L !== 'undefined') {
+                        const map = L.map('map').setView([20, 0], 2);
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+                        teams.forEach(team => {
+                            L.marker([team.lat, team.lon]).addTo(map)
+                                .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                        });
+                        mapInitialized = true;
+                    }
+                }
 
                 // Dropdowns
                 console.log('Teams check:', typeof teams);
