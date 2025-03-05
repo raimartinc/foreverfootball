@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com https://unpkg.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https://* data:">
     <title>Forever Football</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         body { margin: 0; font-family: Arial; background: #f0f0f0; }
         .container { display: flex; height: 100vh; }
-        .ad-left, .ad-right { width: 160px; height: 600px; position: fixed; top: 50%; transform: translateY(-50%); }
-        .ad-left { left: 10px; } .ad-right { right: 10px; }
         .main { flex: 1; padding: 20px; }
         .tabs { display: flex; gap: 10px; margin-bottom: 20px; }
         .tab-btn { padding: 10px 20px; background: #FF4500; color: white; border: none; border-radius: 5px; cursor: pointer; }
@@ -21,16 +17,16 @@
         #team-select { margin-bottom: 20px; }
         select { padding: 10px; font-size: 16px; margin-right: 10px; }
         #team-details { font-size: 18px; }
+        #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
     </style>
 </head>
 <body>
-    <div class="ad-left"><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9925950012374716" data-ad-slot="1870038338"></ins></div>
     <div class="container">
         <div class="main">
             <h1>Forever Football</h1>
             <div class="tabs">
-                <button class="tab-btn active" onclick="showTab('teams')">Teams</button>
-                <button class="tab-btn" onclick="showTab('map')">Map</button>
+                <button class="tab-btn active" data-tab="teams">Teams</button>
+                <button class="tab-btn" data-tab="map">Map</button>
             </div>
             <div id="teams" class="tab-content active">
                 <div id="team-select">
@@ -40,48 +36,33 @@
                 </div>
                 <div id="team-details"></div>
             </div>
-            <div id="map" class="tab-content"></div>
+            <div id="map" class="tab-content">
+                Map placeholder
+            </div>
         </div>
     </div>
-    <div class="ad-right"><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9925950012374716" data-ad-slot="5222722308"></ins></div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
     <script>
-        console.log('Main script started');
+        console.log('Script started');
 
-        function showTab(tabId) {
-            console.log('Tab clicked:', tabId);
-            const contents = document.querySelectorAll('.tab-content');
-            const buttons = document.querySelectorAll('.tab-btn');
-            contents.forEach(tab => tab.classList.remove('active'));
-            buttons.forEach(btn => btn.classList.remove('active'));
-            document.getElementById(tabId).classList.add('active');
-            document.querySelector(`button[onclick="showTab('${tabId}')"]`).classList.add('active');
-            if (tabId === 'map') initMap();
-        }
+        try {
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('DOM loaded');
 
-        let mapInitialized = false;
-        function initMap() {
-            console.log('Map init called');
-            if (!mapInitialized && typeof L !== 'undefined') {
-                const map = L.map('map').setView([20, 0], 2);
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
-                if (typeof teams !== 'undefined') {
-                    teams.forEach(team => {
-                        L.marker([team.lat, team.lon]).addTo(map)
-                            .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                // Tabs
+                console.log('Setting up tabs');
+                const tabs = document.querySelectorAll('.tab-btn');
+                tabs.forEach(tab => {
+                    tab.addEventListener('click', function() {
+                        console.log('Tab clicked:', this.dataset.tab);
+                        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                        document.getElementById(this.dataset.tab).classList.add('active');
+                        this.classList.add('active');
                     });
-                }
-                mapInitialized = true;
-            }
-        }
+                });
 
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('DOM loaded');
-            try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                (adsbygoogle = window.adsbygoogle || []).push({});
-
+                // Dropdowns
                 console.log('Teams check:', typeof teams);
                 if (typeof teams === 'undefined') {
                     console.error('teams.js not loaded!');
@@ -94,6 +75,7 @@
                 const teamSelect = document.getElementById('team');
                 const details = document.getElementById('team-details');
 
+                console.log('Populating countries');
                 const countries = [...new Set(teams.map(t => t.country))].sort();
                 console.log('Countries:', countries);
                 countries.forEach(country => {
@@ -103,7 +85,7 @@
                     countrySelect.appendChild(option);
                 });
 
-                countrySelect.onchange = function() {
+                countrySelect.addEventListener('change', function() {
                     console.log('Country changed:', this.value);
                     citySelect.innerHTML = '<option value="">Select City</option>';
                     teamSelect.innerHTML = '<option value="">Select Team</option>';
@@ -118,9 +100,9 @@
                             citySelect.appendChild(option);
                         });
                     }
-                };
+                });
 
-                citySelect.onchange = function() {
+                citySelect.addEventListener('change', function() {
                     console.log('City changed:', this.value);
                     teamSelect.innerHTML = '<option value="">Select Team</option>';
                     details.innerHTML = '';
@@ -134,9 +116,9 @@
                             teamSelect.appendChild(option);
                         });
                     }
-                };
+                });
 
-                teamSelect.onchange = function() {
+                teamSelect.addEventListener('change', function() {
                     console.log('Team changed:', this.value);
                     details.innerHTML = '';
                     if (this.value) {
@@ -153,11 +135,11 @@
                             <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
                         `;
                     }
-                };
-            } catch (e) {
-                console.error('Script error:', e);
-            }
-        });
+                });
+            });
+        } catch (e) {
+            console.error('Script error:', e);
+        }
     </script>
 </body>
 </html>
