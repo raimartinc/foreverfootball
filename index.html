@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Search every pro football team or find your fate—logos, trophies, and more!">
+    <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
     <title>Forever Football</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -11,16 +11,16 @@
         .container { display: flex; height: 100vh; }
         .ad-left, .ad-right { width: 160px; height: 600px; position: fixed; top: 50%; transform: translateY(-50%); }
         .ad-left { left: 10px; } .ad-right { right: 10px; }
-        .main { flex: 1; text-align: center; padding: 20px; }
-        #search, #quiz-btn, #legends-btn { padding: 10px; font-size: 16px; margin: 10px; }
-        #search { width: 300px; }
-        #quiz-btn, #legends-btn { background: #FF4500; color: white; border: none; border-radius: 5px; cursor: pointer; }
-        #quiz-btn:hover, #legends-btn:hover { background: #FFA500; }
-        #legends-btn { background: #666; }
-        #legends-btn:hover { background: #999; }
+        .main { flex: 1; padding: 20px; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+        .tab-btn { padding: 10px 20px; background: #FF4500; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        .tab-btn.active { background: #FFA500; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        #team-select { margin-bottom: 20px; }
+        select { padding: 10px; font-size: 16px; margin-right: 10px; }
+        #team-details { font-size: 18px; }
         #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
-        #results { margin-top: 20px; font-size: 18px; }
-        .team { padding: 10px; border-bottom: 1px solid #ccc; }
     </style>
 </head>
 <body>
@@ -28,104 +28,126 @@
     <div class="container">
         <div class="main">
             <h1>Forever Football</h1>
-            <input id="search" type="text" placeholder="Country, league, team, or city...">
-            <button id="quiz-btn">Find Your Football Fate</button>
-            <button id="legends-btn">Lost Legends</button>
-            <div id="map"></div>
-            <div id="results"></div>
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('teams')">Teams</button>
+                <button class="tab-btn" onclick="showTab('map')">Map</button>
+            </div>
+            <div id="teams" class="tab-content active">
+                <div id="team-select">
+                    <select id="country"><option value="">Select Country</option></select>
+                    <select id="city"><option value="">Select City</option></select>
+                    <select id="team"><option value="">Select Team</option></select>
+                </div>
+                <div id="team-details"></div>
+            </div>
+            <div id="map" class="tab-content"></div>
         </div>
     </div>
     <div class="ad-right"><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9925950012374716" data-ad-slot="5222722308"></ins></div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
     <script>
+        console.log('Script started');
         (adsbygoogle = window.adsbygoogle || []).push({});
         (adsbygoogle = window.adsbygoogle || []).push({});
 
-        let clickCount = 0;
-
-        const map = L.map('map').setView([20, 0], 2);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
-        teams.forEach(team => {
-            L.marker([team.lat, team.lon]).addTo(map)
-                .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
-        });
-
-        const search = document.getElementById('search');
-        const results = document.getElementById('results');
-        search.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            const filtered = teams.filter(t => 
-                t.name.toLowerCase().includes(query) || 
-                t.country.toLowerCase().includes(query) || 
-                t.league.toLowerCase().includes(query) || 
-                t.city.toLowerCase().includes(query)
-            );
-            results.innerHTML = filtered.map(t => `
-                <div class="team">
-                    <strong>${t.name}</strong> (${t.country}) ${t.active ? '' : '- DEFUNCT'}<br>
-                    League: ${t.league} | City: ${t.city}<br>
-                    Founded: ${t.founded} | Stadium: ${t.stadium}<br>
-                    Trophies: ${t.trophies} | Fun Fact: ${t.funFact}
-                </div>
-            `).join('');
-        });
-
-        function getFate() {
-            clickCount++;
-            const rand = Math.floor(Math.random() * teams.length);
-            const team = teams[rand];
-            results.innerHTML = `
-                <div class="team">
-                    <h2>Your Football Fate:</h2>
-                    <strong>${team.name}</strong> (${team.country}) ${team.active ? '' : '- DEFUNCT'}<br>
-                    League: ${team.league} | City: ${team.city}<br>
-                    Founded: ${team.founded} | Stadium: ${team.stadium}<br>
-                    Trophies: ${team.trophies} | Fun Fact: ${team.funFact}
-                </div>
-            `;
-            if (clickCount % 2 === 0) refreshAds();
+        // Tab Switching
+        function showTab(tabId) {
+            console.log('Tab clicked:', tabId);
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            document.querySelector(`[onclick="showTab('${tabId}')"]`).classList.add('active');
+            if (tabId === 'map') initMap();
         }
 
-        function refreshAds() {
-            document.querySelector('.ad-left ins').innerHTML = '';
-            const adLeft = document.createElement('ins');
-            adLeft.className = 'adsbygoogle';
-            adLeft.style.display = 'inline-block';
-            adLeft.style.width = '160px';
-            adLeft.style.height = '600px';
-            adLeft.setAttribute('data-ad-client', 'ca-pub-9925950012374716');
-            adLeft.setAttribute('data-ad-slot', '1870038338');
-            document.querySelector('.ad-left').appendChild(adLeft);
-
-            document.querySelector('.ad-right ins').innerHTML = '';
-            const adRight = document.createElement('ins');
-            adRight.className = 'adsbygoogle';
-            adRight.style.display = 'inline-block';
-            adRight.style.width = '160px';
-            adRight.style.height = '600px';
-            adRight.setAttribute('data-ad-client', 'ca-pub-9925950012374716');
-            adRight.setAttribute('data-ad-slot', '5222722308');
-            document.querySelector('.ad-right').appendChild(adRight);
-
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            (adsbygoogle = window.adsbygoogle || []).push({});
+        // Map Init
+        let mapInitialized = false;
+        function initMap() {
+            console.log('Map init called');
+            if (!mapInitialized) {
+                const map = L.map('map').setView([20, 0], 2);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+                teams.forEach(team => {
+                    L.marker([team.lat, team.lon]).addTo(map)
+                        .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                });
+                mapInitialized = true;
+            }
         }
 
-        function showLegends() {
-            const legends = teams.filter(t => !t.active);
-            results.innerHTML = legends.map(t => `
-                <div class="team">
-                    <strong>${t.name}</strong> (${t.country}) - DEFUNCT<br>
-                    League: ${t.league} | City: ${t.city}<br>
-                    Founded: ${t.founded} | Stadium: ${t.stadium}<br>
-                    Trophies: ${t.trophies} | Fun Fact: ${t.funFact}
-                </div>
-            `).join('');
-        }
+        // Dropdowns
+        console.log('Checking teams:', typeof teams);
+        if (typeof teams === 'undefined') {
+            console.error('teams.js not loaded!');
+        } else {
+            console.log('Teams loaded, count:', teams.length);
+            const countrySelect = document.getElementById('country');
+            const citySelect = document.getElementById('city');
+            const teamSelect = document.getElementById('team');
+            const details = document.getElementById('team-details');
 
-        document.getElementById('quiz-btn').addEventListener('click', getFate);
-        document.getElementById('legends-btn').addEventListener('click', showLegends);
+            const countries = [...new Set(teams.map(t => t.country))].sort();
+            console.log('Countries:', countries);
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
+            });
+
+            countrySelect.onchange = function() {
+                console.log('Country changed to:', this.value);
+                citySelect.innerHTML = '<option value="">Select City</option>';
+                teamSelect.innerHTML = '<option value="">Select Team</option>';
+                details.innerHTML = '';
+                if (this.value) {
+                    const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
+                    console.log('Cities:', cities);
+                    cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city;
+                        option.textContent = city;
+                        citySelect.appendChild(option);
+                    });
+                }
+            };
+
+            citySelect.onchange = function() {
+                console.log('City changed to:', this.value);
+                teamSelect.innerHTML = '<option value="">Select Team</option>';
+                details.innerHTML = '';
+                if (this.value) {
+                    const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
+                    console.log('Teams:', teamList.map(t => t.name));
+                    teamList.forEach(team => {
+                        const option = document.createElement('option');
+                        option.value = team.name;
+                        option.textContent = team.name;
+                        teamSelect.appendChild(option);
+                    });
+                }
+            };
+
+            teamSelect.onchange = function() {
+                console.log('Team changed to:', this.value);
+                details.innerHTML = '';
+                if (this.value) {
+                    const team = teams.find(t => t.name === this.value);
+                    details.innerHTML = `
+                        <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                        <div><strong>Country:</strong> ${team.country}</div>
+                        <div><strong>League:</strong> ${team.league}</div>
+                        <div><strong>City:</strong> ${team.city}</div>
+                        <div><strong>Founded:</strong> ${team.founded}</div>
+                        <div><strong>Stadium:</strong> ${team.stadium}</div>
+                        <div><strong>Trophies:</strong> ${team.trophies} - ${team.funFact}</div>
+                        <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
+                        <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                    `;
+                }
+            };
+        }
     </script>
 </body>
 </html>
