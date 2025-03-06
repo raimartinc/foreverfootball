@@ -1,3 +1,4 @@
+// @ts-nocheck
 const teams = [
     {
         "name": "AC Milan",
@@ -3316,7 +3317,7 @@ const teams = [
     }
 ];
 
-// Make teams global for index.html
+// Expose globally for index.html
 window.teams = teams;
 
 // Export for team-info.html
