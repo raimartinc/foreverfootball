@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://pagead2.googlesyndication.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
     <title>Forever Football</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Your HTML body content unchanged up to the script -->
     <div class="container">
         <div class="main">
             <h1>Forever Football</h1>
@@ -30,6 +31,7 @@
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
+    <!-- Your styles unchanged -->
     <style>
         body { 
             margin: 0; 
@@ -50,8 +52,8 @@
         #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
         .map-message { 
             text-align: center; 
-            font-size: 24px; /* Up from 18px to 24px - two steps bigger */
-            color: #000000; /* Black instead of #FF4500 */
+            font-size: 24px; 
+            color: #000000; 
             margin: 10px 0; 
             display: none; 
         }
@@ -79,11 +81,18 @@
     <script>
         console.log('Script started');
 
+        // Global navigation function for ad refresh
+        function navigateWithAdRefresh(url) {
+            console.log('Navigating to:', url);
+            window.location.href = url;
+            // Auto Ads refresh on page load
+        }
+
         try {
             document.addEventListener('DOMContentLoaded', function() {
                 console.log('DOM loaded');
 
-                // Tabs
+                // Tabs setup
                 console.log('Setting up tabs');
                 const tabs = document.querySelectorAll('.tab-btn');
                 const mapMessage = document.getElementById('map-message');
@@ -224,14 +233,9 @@
                             <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
                             <button class="more-info-btn" onclick="navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
                         `;
+                        console.log(`More Info URL set: team-info.html?team=${encodeURIComponent(team.name)}`);
                     }
                 });
-
-                // Ad refresh function
-                function navigateWithAdRefresh(url) {
-                    window.location.href = url;
-                    // Auto Ads refresh on new page load
-                }
             });
         } catch (e) {
             console.error('Script error:', e);
