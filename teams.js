@@ -2970,21 +2970,6 @@ const teams = [
         "uniform": "uniforms/tigres.png"
     },
     {
-        "name": "Tigres UANL",
-        "country": "Mexico",
-        "league": "Liga MX",
-        "city": "Monterrey",
-        "lat": 25.7225,
-        "lon": -100.3121,
-        "founded": 1960,
-        "stadium": "Estadio Universitario",
-        "trophies": "Liga MX: 8, CONCACAF Champions League: 1, Copa México: 3",
-        "mustKnowFact": "Fierce northern tigers dominate.",
-        "active": true,
-        "logo": "logos/tigres-uanl.png",
-        "uniform": "uniforms/tigres-uanl.png"
-    },
-    {
         "name": "Tijuana",
         "country": "Mexico",
         "league": "Liga MX",
@@ -3330,3 +3315,5 @@ const teams = [
         "uniform": "uniforms/aguilas-doradas.png"
     }
 ];
+
+export default teams;

@@ -20,9 +20,10 @@
         <a href="contact.html">Contact</a> | 
         <a href="privacy-policy.html">Privacy Policy</a>
     </footer>
-    <script src="teams.js"></script>
-    <script src="team-highlights.js"></script>
-    <script>
+    <script type="module">
+        import teams from './teams.js';
+        import highlights from './team-highlights.js';
+
         console.log('Team Info script started');
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -30,7 +31,7 @@
             console.log('Team param:', teamName);
 
             const teamInfoDiv = document.getElementById('team-info');
-            if (!teamName || typeof teams === 'undefined' || typeof highlights === 'undefined') {
+            if (!teamName || !teams || !highlights) {
                 teamInfoDiv.innerHTML = '<p>Team not found or data not loaded!</p>';
                 return;
             }
@@ -55,8 +56,13 @@
                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
             `;
-            // Trigger initial ad load
-            (adsbygoogle = window.adsbygoogle || []).push({});
+
+            // Trigger initial ad load with error handling
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error('AdSense push failed:', e);
+            }
         });
 
         // Ad refresh function
