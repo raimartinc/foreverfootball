@@ -840,7 +840,7 @@ const teams = [
         "uniform": "uniforms/chelsea.png"
     },
     {
-        "name": "Chivas Guadalajara",
+        "name": "Chivas",
         "country": "Mexico",
         "league": "Liga MX",
         "city": "Guadalajara",
@@ -851,8 +851,8 @@ const teams = [
         "trophies": "Liga MX: 12, CONCACAF Champions League: 2, Copa México: 4",
         "mustKnowFact": "Mexico-only player policy.",
         "active": true,
-        "logo": "logos/chivas-guadalajara.png",
-        "uniform": "uniforms/chivas-guadalajara.png"
+        "logo": "logos/chivas.png",
+        "uniform": "uniforms/chivas.png"
     },
     {
         "name": "Club América",
@@ -1170,10 +1170,10 @@ const teams = [
         "uniform": "uniforms/fc_nantes.png"
     },
     {
-        "name": "FamalicÃ£o",
+        "name": "Famalicão",
         "country": "Portugal",
         "league": "Primeira Liga",
-        "city": "Vila Nova de FamalicÃ£o",
+        "city": "Vila Nova de Famalicão",
         "lat": 41.4075,
         "lon": -8.5198,
         "founded": 1931,
@@ -2460,7 +2460,7 @@ const teams = [
         "uniform": "uniforms/puebla.png"
     },
     {
-        "name": "Pumas UNAM",
+        "name": "Pumas",
         "country": "Mexico",
         "league": "Liga MX",
         "city": "Mexico City",
@@ -2471,8 +2471,8 @@ const teams = [
         "trophies": "Liga MX: 7, CONCACAF Champions League: 3",
         "mustKnowFact": "University-backed puma pride.",
         "active": true,
-        "logo": "logos/pumas-unam.png",
-        "uniform": "uniforms/pumas-unam.png"
+        "logo": "logos/pumas.png",
+        "uniform": "uniforms/pumas.png"
     },
     {
         "name": "Querétaro",
@@ -2953,6 +2953,21 @@ const teams = [
         "active": true,
         "logo": "logos/tigre.png",
         "uniform": "uniforms/tigre.png"
+    },
+    {
+        "name": "Tigres",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Monterrey",
+        "lat": 25.7225,
+        "lon": -100.3121,
+        "founded": 1960,
+        "stadium": "Estadio Universitario",
+        "trophies": "Liga MX: 8, CONCACAF Champions League: 1, Copa México: 3",
+        "mustKnowFact": "Fierce northern tigers dominate.",
+        "active": true,
+        "logo": "logos/tigres.png",
+        "uniform": "uniforms/tigres.png"
     },
     {
         "name": "Tigres UANL",
