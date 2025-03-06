@@ -12,7 +12,7 @@ const teams = [
         "mustKnowFact": "Most Champions League titles in history.",
         "active": true,
         "logo": "logos/real_madrid.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Real_Madrid_2023-24_Home_Kit.png/200px-Real_Madrid_2023-24_Home_Kit.png"
+        "uniform": "uniforms/real_madrid.png"
     },
     {
         "name": "Barcelona",
@@ -27,7 +27,7 @@ const teams = [
         "mustKnowFact": "Messi\u00e2\u20ac\u2122s legendary career began here.",
         "active": true,
         "logo": "logos/barcelona.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/FC_Barcelona_2023-24_Home_Kit.png/200px-FC_Barcelona_2023-24_Home_Kit.png"
+        "uniform": "uniforms/barcelona.png"
     },
     {
         "name": "Atletico Madrid",
@@ -42,7 +42,7 @@ const teams = [
         "mustKnowFact": "Simeone turned them into giants.",
         "active": true,
         "logo": "logos/atletico_madrid.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atletico_Madrid_2023-24_Home_Kit.png/200px-Atletico_Madrid_2023-24_Home_Kit.png"
+        "uniform": "uniforms/atletico_madrid.png"
     },
     {
         "name": "Real Sociedad",
@@ -57,7 +57,7 @@ const teams = [
         "mustKnowFact": "Basque pride runs deep.",
         "active": true,
         "logo": "logos/real_sociedad.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Real_Sociedad_2023-24_Home_Kit.png/200px-Real_Sociedad_2023-24_Home_Kit.png"
+        "uniform": "uniforms/real_sociedad.png"
     },
     {
         "name": "Villarreal",
@@ -72,7 +72,7 @@ const teams = [
         "mustKnowFact": "The Yellow Submarine shocked Europe.",
         "active": true,
         "logo": "logos/villarreal.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Villarreal_CF_2023-24_Home_Kit.png/200px-Villarreal_CF_2023-24_Home_Kit.png"
+        "uniform": "uniforms/villarreal.png"
     },
     {
         "name": "Real Betis",
@@ -87,7 +87,7 @@ const teams = [
         "mustKnowFact": "Green and white fervor.",
         "active": true,
         "logo": "logos/real_betis.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Real_Betis_2023-24_Home_Kit.png/200px-Real_Betis_2023-24_Home_Kit.png"
+        "uniform": "uniforms/real_betis.png"
     },
     {
         "name": "Sevilla",
@@ -102,7 +102,7 @@ const teams = [
         "mustKnowFact": "Europa League masters.",
         "active": true,
         "logo": "logos/sevilla.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sevilla_FC_2023-24_Home_Kit.png/200px-Sevilla_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/sevilla.png"
     },
     {
         "name": "Athletic Bilbao",
@@ -117,7 +117,7 @@ const teams = [
         "mustKnowFact": "Only signs Basque players.",
         "active": true,
         "logo": "logos/athletic_bilbao.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Athletic_Bilbao_2023-24_Home_Kit.png/200px-Athletic_Bilbao_2023-24_Home_Kit.png"
+        "uniform": "uniforms/athletic_bilbao.png"
     },
     {
         "name": "Valencia",
@@ -132,7 +132,7 @@ const teams = [
         "mustKnowFact": "The bat logo is iconic.",
         "active": true,
         "logo": "logos/valencia.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Valencia_CF_2023-24_Home_Kit.png/200px-Valencia_CF_2023-24_Home_Kit.png"
+        "uniform": "uniforms/valencia.png"
     },
     {
         "name": "Getafe",
@@ -147,7 +147,7 @@ const teams = [
         "mustKnowFact": "Madrid\u00e2\u20ac\u2122s gritty underdogs.",
         "active": true,
         "logo": "logos/getafe.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Getafe_CF_2023-24_Home_Kit.png/200px-Getafe_CF_2023-24_Home_Kit.png"
+        "uniform": "uniforms/getafe.png"
     },
     {
         "name": "Celta Vigo",
@@ -162,7 +162,7 @@ const teams = [
         "mustKnowFact": "Galician tenacity shines.",
         "active": true,
         "logo": "logos/celta_vigo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Celta_Vigo_2023-24_Home_Kit.png/200px-Celta_Vigo_2023-24_Home_Kit.png"
+        "uniform": "uniforms/celta_vigo.png"
     },
     {
         "name": "Osasuna",
@@ -177,7 +177,7 @@ const teams = [
         "mustKnowFact": "Navarre\u00e2\u20ac\u2122s red warriors.",
         "active": true,
         "logo": "logos/osasuna.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CA_Osasuna_2023-24_Home_Kit.png/200px-CA_Osasuna_2023-24_Home_Kit.png"
+        "uniform": "uniforms/osasuna.png"
     },
     {
         "name": "Girona",
@@ -192,7 +192,7 @@ const teams = [
         "mustKnowFact": "City Football Group\u00e2\u20ac\u2122s Catalan star.",
         "active": true,
         "logo": "logos/girona.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Girona_FC_2023-24_Home_Kit.png/200px-Girona_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/girona.png"
     },
     {
         "name": "Rayo Vallecano",
@@ -207,7 +207,7 @@ const teams = [
         "mustKnowFact": "Vallecas\u00e2\u20ac\u2122 working-class heroes.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Rayo_Vallecano_2023-24_Home_Kit.png/200px-Rayo_Vallecano_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Mallorca",
@@ -222,7 +222,7 @@ const teams = [
         "mustKnowFact": "Island grit in La Liga.",
         "active": true,
         "logo": "logos/mallorca.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/RCD_Mallorca_2023-24_Home_Kit.png/200px-RCD_Mallorca_2023-24_Home_Kit.png"
+        "uniform": "uniforms/mallorca.png"
     },
     {
         "name": "Espanyol",
@@ -237,7 +237,7 @@ const teams = [
         "mustKnowFact": "Barcelona\u00e2\u20ac\u2122s quieter rival.",
         "active": true,
         "logo": "logos/espanyol.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/RCD_Espanyol_2023-24_Home_Kit.png/200px-RCD_Espanyol_2023-24_Home_Kit.png"
+        "uniform": "uniforms/espanyol.png"
     },
     {
         "name": "Alaves",
@@ -252,7 +252,7 @@ const teams = [
         "mustKnowFact": "Basque underdogs punch above.",
         "active": true,
         "logo": "logos/alaves.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Deportivo_Alaves_2023-24_Home_Kit.png/200px-Deportivo_Alaves_2023-24_Home_Kit.png"
+        "uniform": "uniforms/alaves.png"
     },
     {
         "name": "Leganes",
@@ -267,7 +267,7 @@ const teams = [
         "mustKnowFact": "Madrid\u00e2\u20ac\u2122s southern minnows.",
         "active": true,
         "logo": "logos/leganes.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CD_Leganes_2023-24_Home_Kit.png/200px-CD_Leganes_2023-24_Home_Kit.png"
+        "uniform": "uniforms/leganes.png"
     },
     {
         "name": "Real Valladolid",
@@ -282,7 +282,7 @@ const teams = [
         "mustKnowFact": "Ronaldo\u00e2\u20ac\u2122s ownership dream.",
         "active": true,
         "logo": "logos/real_valladolid.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Real_Valladolid_2023-24_Home_Kit.png/200px-Real_Valladolid_2023-24_Home_Kit.png"
+        "uniform": "uniforms/real_valladolid.png"
     },
     {
         "name": "Las Palmas",
@@ -297,7 +297,7 @@ const teams = [
         "mustKnowFact": "Canary Islands\u00e2\u20ac\u2122 sunny flair.",
         "active": true,
         "logo": "logos/las_palmas.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/UD_Las_Palmas_2023-24_Home_Kit.png/200px-UD_Las_Palmas_2023-24_Home_Kit.png"
+        "uniform": "uniforms/las_palmas.png"
     },
     {
         "name": "Manchester United",
@@ -312,7 +312,7 @@ const teams = [
         "mustKnowFact": "Global fanbase giants.",
         "active": true,
         "logo": "logos/manchester_united.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Manchester_United_2023-24_Home_Kit.png/200px-Manchester_United_2023-24_Home_Kit.png"
+        "uniform": "uniforms/manchester_united.png"
     },
     {
         "name": "Manchester City",
@@ -327,7 +327,7 @@ const teams = [
         "mustKnowFact": "Pep\u00e2\u20ac\u2122s tactical revolution.",
         "active": true,
         "logo": "logos/manchester_city.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Manchester_City_2023-24_Home_Kit.png/200px-Manchester_City_2023-24_Home_Kit.png"
+        "uniform": "uniforms/manchester_city.png"
     },
     {
         "name": "Liverpool",
@@ -342,7 +342,7 @@ const teams = [
         "mustKnowFact": "You\u00e2\u20ac\u2122ll Never Walk Alone anthem.",
         "active": true,
         "logo": "logos/liverpool.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Liverpool_FC_2023-24_Home_Kit.png/200px-Liverpool_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/liverpool.png"
     },
     {
         "name": "Chelsea",
@@ -357,7 +357,7 @@ const teams = [
         "mustKnowFact": "Abramovich\u00e2\u20ac\u2122s trophy era.",
         "active": true,
         "logo": "logos/chelsea.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Chelsea_FC_2023-24_Home_Kit.png/200px-Chelsea_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/chelsea.png"
     },
     {
         "name": "Arsenal",
@@ -372,7 +372,7 @@ const teams = [
         "mustKnowFact": "The Invincibles of 2003-04.",
         "active": true,
         "logo": "logos/arsenal.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Arsenal_FC_2023-24_Home_Kit.png/200px-Arsenal_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/arsenal.png"
     },
     {
         "name": "Tottenham Hotspur",
@@ -387,7 +387,7 @@ const teams = [
         "mustKnowFact": "New stadium, big dreams.",
         "active": true,
         "logo": "logos/tottenham_hotspur.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tottenham_Hotspur_2023-24_Home_Kit.png/200px-Tottenham_Hotspur_2023-24_Home_Kit.png"
+        "uniform": "uniforms/tottenham_hotspur.png"
     },
     {
         "name": "Newcastle United",
@@ -402,7 +402,7 @@ const teams = [
         "mustKnowFact": "Geordie passion runs wild.",
         "active": true,
         "logo": "logos/newcastle_united.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Newcastle_United_2023-24_Home_Kit.png/200px-Newcastle_United_2023-24_Home_Kit.png"
+        "uniform": "uniforms/newcastle_united.png"
     },
     {
         "name": "Aston Villa",
@@ -417,7 +417,7 @@ const teams = [
         "mustKnowFact": "1982 European champs.",
         "active": true,
         "logo": "logos/aston_villa.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Aston_Villa_2023-24_Home_Kit.png/200px-Aston_Villa_2023-24_Home_Kit.png"
+        "uniform": "uniforms/aston_villa.png"
     },
     {
         "name": "West Ham United",
@@ -432,7 +432,7 @@ const teams = [
         "mustKnowFact": "Hammers conquered Europe in 2023.",
         "active": true,
         "logo": "logos/west_ham_united.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/West_Ham_United_2023-24_Home_Kit.png/200px-West_Ham_United_2023-24_Home_Kit.png"
+        "uniform": "uniforms/west_ham_united.png"
     },
     {
         "name": "Everton",
@@ -447,7 +447,7 @@ const teams = [
         "mustKnowFact": "Toffees\u00e2\u20ac\u2122 historic Goodison.",
         "active": true,
         "logo": "logos/everton.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Everton_FC_2023-24_Home_Kit.png/200px-Everton_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/everton.png"
     },
     {
         "name": "Brighton & Hove Albion",
@@ -462,7 +462,7 @@ const teams = [
         "mustKnowFact": "Seagulls soaring in style.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Brighton_%26_Hove_Albion_2023-24_Home_Kit.png/200px-Brighton_%26_Hove_Albion_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Wolverhampton Wanderers",
@@ -477,7 +477,7 @@ const teams = [
         "mustKnowFact": "Wolves\u00e2\u20ac\u2122 golden old days.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wolverhampton_Wanderers_2023-24_Home_Kit.png/200px-Wolverhampton_Wanderers_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Crystal Palace",
@@ -492,7 +492,7 @@ const teams = [
         "mustKnowFact": "Eagles of Selhurst soar.",
         "active": true,
         "logo": "logos/crystal_palace.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Palace_2023-24_Home_Kit.png/200px-Crystal_Palace_2023-24_Home_Kit.png"
+        "uniform": "uniforms/crystal_palace.png"
     },
     {
         "name": "Brentford",
@@ -507,7 +507,7 @@ const teams = [
         "mustKnowFact": "Bees buzz in the top flight.",
         "active": true,
         "logo": "logos/brentford.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Brentford_FC_2023-24_Home_Kit.png/200px-Brentford_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/brentford.png"
     },
     {
         "name": "Nottingham Forest",
@@ -522,7 +522,7 @@ const teams = [
         "mustKnowFact": "Back-to-back European champs.",
         "active": true,
         "logo": "logos/nottingham_forest.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nottingham_Forest_2023-24_Home_Kit.png/200px-Nottingham_Forest_2023-24_Home_Kit.png"
+        "uniform": "uniforms/nottingham_forest.png"
     },
     {
         "name": "Bournemouth",
@@ -537,7 +537,7 @@ const teams = [
         "mustKnowFact": "Cherries\u00e2\u20ac\u2122 coastal comeback.",
         "active": true,
         "logo": "logos/bournemouth.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/AFC_Bournemouth_2023-24_Home_Kit.png/200px-AFC_Bournemouth_2023-24_Home_Kit.png"
+        "uniform": "uniforms/bournemouth.png"
     },
     {
         "name": "Fulham",
@@ -552,7 +552,7 @@ const teams = [
         "mustKnowFact": "Riverside charm lives on.",
         "active": true,
         "logo": "logos/fulham.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fulham_FC_2023-24_Home_Kit.png/200px-Fulham_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/fulham.png"
     },
     {
         "name": "Southampton",
@@ -567,7 +567,7 @@ const teams = [
         "mustKnowFact": "Saints march back up.",
         "active": true,
         "logo": "logos/southampton.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Southampton_FC_2023-24_Home_Kit.png/200px-Southampton_FC_2023-24_Home_Kit.png"
+        "uniform": "uniforms/southampton.png"
     },
     {
         "name": "Leicester City",
@@ -582,7 +582,7 @@ const teams = [
         "mustKnowFact": "2016\u00e2\u20ac\u2122s fairy-tale champs.",
         "active": true,
         "logo": "logos/leicester_city.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Leicester_City_2023-24_Home_Kit.png/200px-Leicester_City_2023-24_Home_Kit.png"
+        "uniform": "uniforms/leicester_city.png"
     },
     {
         "name": "Ipswich Town",
@@ -597,7 +597,7 @@ const teams = [
         "mustKnowFact": "Tractor Boys return.",
         "active": true,
         "logo": "logos/ipswich_town.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ipswich_Town_2023-24_Home_Kit.png/200px-Ipswich_Town_2023-24_Home_Kit.png"
+        "uniform": "uniforms/ipswich_town.png"
     },
     {
         "name": "Flamengo",
@@ -612,7 +612,7 @@ const teams = [
         "mustKnowFact": "Brazil\u00e2\u20ac\u2122s most popular club.",
         "active": true,
         "logo": "logos/flamengo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flamengo_2023_Home_Kit.png/200px-Flamengo_2023_Home_Kit.png"
+        "uniform": "uniforms/flamengo.png"
     },
     {
         "name": "Palmeiras",
@@ -627,7 +627,7 @@ const teams = [
         "mustKnowFact": "First club world champs.",
         "active": true,
         "logo": "logos/palmeiras.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Palmeiras_2023_Home_Kit.png/200px-Palmeiras_2023_Home_Kit.png"
+        "uniform": "uniforms/palmeiras.png"
     },
     {
         "name": "Santos FC",
@@ -642,7 +642,7 @@ const teams = [
         "mustKnowFact": "Pele\u00e2\u20ac\u2122s iconic home.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Santos_FC_2023_Home_Kit.png/200px-Santos_FC_2023_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Corinthians",
@@ -657,7 +657,7 @@ const teams = [
         "mustKnowFact": "Tim\u00c3\u00a3o\u00e2\u20ac\u2122s loyal army.",
         "active": true,
         "logo": "logos/corinthians.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Corinthians_2023_Home_Kit.png/200px-Corinthians_2023_Home_Kit.png"
+        "uniform": "uniforms/corinthians.png"
     },
     {
         "name": "Sao Paulo",
@@ -672,7 +672,7 @@ const teams = [
         "mustKnowFact": "Three-time world champs.",
         "active": true,
         "logo": "logos/sao_paulo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sao_Paulo_FC_2023_Home_Kit.png/200px-Sao_Paulo_FC_2023_Home_Kit.png"
+        "uniform": "uniforms/sao_paulo.png"
     },
     {
         "name": "Fluminense",
@@ -687,7 +687,7 @@ const teams = [
         "mustKnowFact": "Tricolor elegance rules.",
         "active": true,
         "logo": "logos/fluminense.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fluminense_FC_2023_Home_Kit.png/200px-Fluminense_FC_2023_Home_Kit.png"
+        "uniform": "uniforms/fluminense.png"
     },
     {
         "name": "Gremio",
@@ -702,7 +702,7 @@ const teams = [
         "mustKnowFact": "Imortal Tricolor fights on.",
         "active": true,
         "logo": "logos/gremio.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gremio_2023_Home_Kit.png/200px-Gremio_2023_Home_Kit.png"
+        "uniform": "uniforms/gremio.png"
     },
     {
         "name": "Internacional",
@@ -717,7 +717,7 @@ const teams = [
         "mustKnowFact": "Colorado giants rise.",
         "active": true,
         "logo": "logos/internacional.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Internacional_2023_Home_Kit.png/200px-Internacional_2023_Home_Kit.png"
+        "uniform": "uniforms/internacional.png"
     },
     {
         "name": "Atletico Mineiro",
@@ -732,7 +732,7 @@ const teams = [
         "mustKnowFact": "Galo\u00e2\u20ac\u2122s fierce roar.",
         "active": true,
         "logo": "logos/atletico_mineiro.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atletico_Mineiro_2023_Home_Kit.png/200px-Atletico_Mineiro_2023_Home_Kit.png"
+        "uniform": "uniforms/atletico_mineiro.png"
     },
     {
         "name": "Cruzeiro",
@@ -747,7 +747,7 @@ const teams = [
         "mustKnowFact": "Raposa\u00e2\u20ac\u2122s trophy haul.",
         "active": true,
         "logo": "logos/cruzeiro.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cruzeiro_2023_Home_Kit.png/200px-Cruzeiro_2023_Home_Kit.png"
+        "uniform": "uniforms/cruzeiro.png"
     },
     {
         "name": "Botafogo",
@@ -762,7 +762,7 @@ const teams = [
         "mustKnowFact": "Lone Star shines again.",
         "active": true,
         "logo": "logos/botafogo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Botafogo_2023_Home_Kit.png/200px-Botafogo_2023_Home_Kit.png"
+        "uniform": "uniforms/botafogo.png"
     },
     {
         "name": "Vasco da Gama",
@@ -777,7 +777,7 @@ const teams = [
         "mustKnowFact": "Cross of Malta legacy.",
         "active": true,
         "logo": "logos/vasco_da_gama.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Vasco_da_Gama_2023_Home_Kit.png/200px-Vasco_da_Gama_2023_Home_Kit.png"
+        "uniform": "uniforms/vasco_da_gama.png"
     },
     {
         "name": "Bahia",
@@ -792,7 +792,7 @@ const teams = [
         "mustKnowFact": "Tricolor de A\u00c3\u00a7o\u00e2\u20ac\u2122s steel.",
         "active": true,
         "logo": "logos/bahia.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/EC_Bahia_2023_Home_Kit.png/200px-EC_Bahia_2023_Home_Kit.png"
+        "uniform": "uniforms/bahia.png"
     },
     {
         "name": "Athletico Paranaense",
@@ -807,7 +807,7 @@ const teams = [
         "mustKnowFact": "Furac\u00c3\u00a3o\u00e2\u20ac\u2122s storming force.",
         "active": true,
         "logo": "logos/athletico_paranaense.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Athletico_Paranaense_2023_Home_Kit.png/200px-Athletico_Paranaense_2023_Home_Kit.png"
+        "uniform": "uniforms/athletico_paranaense.png"
     },
     {
         "name": "Fortaleza",
@@ -822,7 +822,7 @@ const teams = [
         "mustKnowFact": "Lion of the Northeast.",
         "active": true,
         "logo": "logos/fortaleza.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fortaleza_EC_2023_Home_Kit.png/200px-Fortaleza_EC_2023_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Bragantino",
@@ -837,7 +837,7 @@ const teams = [
         "mustKnowFact": "Red Bull\u00e2\u20ac\u2122s Brazilian boost.",
         "active": true,
         "logo": "logos/bragantino.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Red_Bull_Bragantino_2023_Home_Kit.png/200px-Red_Bull_Bragantino_2023_Home_Kit.png"
+        "uniform": "uniforms/bragantino.png"
     },
     {
         "name": "Cuiaba",
@@ -852,7 +852,7 @@ const teams = [
         "mustKnowFact": "Golden Dourado rises.",
         "active": true,
         "logo": "logos/cuiaba.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cuiaba_EC_2023_Home_Kit.png/200px-Cuiaba_EC_2023_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Vitoria",
@@ -867,7 +867,7 @@ const teams = [
         "mustKnowFact": "Red and black revival.",
         "active": true,
         "logo": "logos/vitoria.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/EC_Vitoria_2023_Home_Kit.png/200px-EC_Vitoria_2023_Home_Kit.png"
+        "uniform": "uniforms/vitoria.png"
     },
     {
         "name": "Atletico Goianiense",
@@ -882,7 +882,7 @@ const teams = [
         "mustKnowFact": "Dragon\u00e2\u20ac\u2122s fiery ascent.",
         "active": true,
         "logo": "logos/atletico_goianiense.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atletico_Goianiense_2023_Home_Kit.png/200px-Atletico_Goianiense_2023_Home_Kit.png"
+        "uniform": "uniforms/atletico_goianiense.png"
     },
     {
         "name": "Juventude",
@@ -897,7 +897,7 @@ const teams = [
         "mustKnowFact": "Green resurgence in Serie A.",
         "active": true,
         "logo": "logos/juventude.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/EC_Juventude_2023_Home_Kit.png/200px-EC_Juventude_2023_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Juventus",
@@ -912,7 +912,7 @@ const teams = [
         "mustKnowFact": "Italy\u00e2\u20ac\u2122s most successful club.",
         "active": true,
         "logo": "logos/juventus.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Juventus_2023-24_Home_Kit.png/200px-Juventus_2023-24_Home_Kit.png"
+        "uniform": "uniforms/juventus.png"
     },
     {
         "name": "AC Milan",
@@ -927,7 +927,7 @@ const teams = [
         "mustKnowFact": "Seven-time European champs.",
         "active": true,
         "logo": "logos/ac_milan.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AC_Milan_2023-24_Home_Kit.png/200px-AC_Milan_2023-24_Home_Kit.png"
+        "uniform": "uniforms/ac_milan.png"
     },
     {
         "name": "Inter Milan",
@@ -942,7 +942,7 @@ const teams = [
         "mustKnowFact": "The Nerazzurri\u00e2\u20ac\u2122s treble in 2010.",
         "active": true,
         "logo": "logos/inter_milan.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Inter_Milan_2023-24_Home_Kit.png/200px-Inter_Milan_2023-24_Home_Kit.png"
+        "uniform": "uniforms/inter_milan.png"
     },
     {
         "name": "Napoli",
@@ -957,7 +957,7 @@ const teams = [
         "mustKnowFact": "Maradona\u00e2\u20ac\u2122s Naples legacy.",
         "active": true,
         "logo": "logos/napoli.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Napoli_2023-24_Home_Kit.png/200px-Napoli_2023-24_Home_Kit.png"
+        "uniform": "uniforms/napoli.png"
     },
     {
         "name": "AS Roma",
@@ -972,7 +972,7 @@ const teams = [
         "mustKnowFact": "Totti\u00e2\u20ac\u2122s one-club legend.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AS_Roma_2023-24_Home_Kit.png/200px-AS_Roma_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Lazio",
@@ -987,7 +987,7 @@ const teams = [
         "mustKnowFact": "Eagles of Rome soar.",
         "active": true,
         "logo": "logos/lazio.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lazio_2023-24_Home_Kit.png/200px-Lazio_2023-24_Home_Kit.png"
+        "uniform": "uniforms/lazio.png"
     },
     {
         "name": "Fiorentina",
@@ -1002,7 +1002,7 @@ const teams = [
         "mustKnowFact": "Viola\u00e2\u20ac\u2122s purple passion.",
         "active": true,
         "logo": "logos/fiorentina.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fiorentina_2023-24_Home_Kit.png/200px-Fiorentina_2023-24_Home_Kit.png"
+        "uniform": "uniforms/fiorentina.png"
     },
     {
         "name": "Atalanta",
@@ -1017,7 +1017,7 @@ const teams = [
         "mustKnowFact": "Underdog giant-killers.",
         "active": true,
         "logo": "logos/atalanta.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atalanta_2023-24_Home_Kit.png/200px-Atalanta_2023-24_Home_Kit.png"
+        "uniform": "uniforms/atalanta.png"
     },
     {
         "name": "Torino",
@@ -1032,7 +1032,7 @@ const teams = [
         "mustKnowFact": "Grande Torino\u00e2\u20ac\u2122s tragic legacy.",
         "active": true,
         "logo": "logos/torino.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Torino_2023-24_Home_Kit.png/200px-Torino_2023-24_Home_Kit.png"
+        "uniform": "uniforms/torino.png"
     },
     {
         "name": "Bologna",
@@ -1047,7 +1047,7 @@ const teams = [
         "mustKnowFact": "Historic Italian pioneers.",
         "active": true,
         "logo": "logos/bologna.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bologna_2023-24_Home_Kit.png/200px-Bologna_2023-24_Home_Kit.png"
+        "uniform": "uniforms/bologna.png"
     },
     {
         "name": "Udinese",
@@ -1062,7 +1062,7 @@ const teams = [
         "mustKnowFact": "Friuli\u00e2\u20ac\u2122s black-and-white.",
         "active": true,
         "logo": "logos/udinese.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Udinese_2023-24_Home_Kit.png/200px-Udinese_2023-24_Home_Kit.png"
+        "uniform": "uniforms/udinese.png"
     },
     {
         "name": "Sassuolo",
@@ -1077,7 +1077,7 @@ const teams = [
         "mustKnowFact": "Green-and-black overachievers.",
         "active": true,
         "logo": "logos/sassuolo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sassuolo_2023-24_Home_Kit.png/200px-Sassuolo_2023-24_Home_Kit.png"
+        "uniform": "uniforms/sassuolo.png"
     },
     {
         "name": "Empoli",
@@ -1092,7 +1092,7 @@ const teams = [
         "mustKnowFact": "Tuscany\u00e2\u20ac\u2122s blue battlers.",
         "active": true,
         "logo": "logos/empoli.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Empoli_2023-24_Home_Kit.png/200px-Empoli_2023-24_Home_Kit.png"
+        "uniform": "uniforms/empoli.png"
     },
     {
         "name": "Salernitana",
@@ -1107,7 +1107,7 @@ const teams = [
         "mustKnowFact": "Granata\u00e2\u20ac\u2122s southern spirit.",
         "active": true,
         "logo": "logos/salernitana.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Salernitana_2023-24_Home_Kit.png/200px-Salernitana_2023-24_Home_Kit.png"
+        "uniform": "uniforms/salernitana.png"
     },
     {
         "name": "Monza",
@@ -1122,7 +1122,7 @@ const teams = [
         "mustKnowFact": "Berlusconi\u00e2\u20ac\u2122s late project.",
         "active": true,
         "logo": "logos/monza.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Monza_2023-24_Home_Kit.png/200px-Monza_2023-24_Home_Kit.png"
+        "uniform": "uniforms/monza.png"
     },
     {
         "name": "Genoa",
@@ -1137,7 +1137,7 @@ const teams = [
         "mustKnowFact": "Italy\u00e2\u20ac\u2122s oldest club.",
         "active": true,
         "logo": "logos/genoa.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Genoa_2023-24_Home_Kit.png/200px-Genoa_2023-24_Home_Kit.png"
+        "uniform": "uniforms/genoa.png"
     },
     {
         "name": "Cagliari",
@@ -1152,7 +1152,7 @@ const teams = [
         "mustKnowFact": "Sardinia\u00e2\u20ac\u2122s lone champs.",
         "active": true,
         "logo": "logos/cagliari.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cagliari_2023-24_Home_Kit.png/200px-Cagliari_2023-24_Home_Kit.png"
+        "uniform": "uniforms/cagliari.png"
     },
     {
         "name": "Hellas Verona",
@@ -1167,7 +1167,7 @@ const teams = [
         "mustKnowFact": "1985\u00e2\u20ac\u2122s shock Scudetto.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hellas_Verona_2023-24_Home_Kit.png/200px-Hellas_Verona_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Parma",
@@ -1182,7 +1182,7 @@ const teams = [
         "mustKnowFact": "90s European glory.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Parma_2023-24_Home_Kit.png/200px-Parma_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Lecce",
@@ -1197,7 +1197,7 @@ const teams = [
         "mustKnowFact": "Apulia\u00e2\u20ac\u2122s yellow-and-red.",
         "active": true,
         "logo": "logos/lecce.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lecce_2023-24_Home_Kit.png/200px-Lecce_2023-24_Home_Kit.png"
+        "uniform": "uniforms/lecce.png"
     },
     {
         "name": "Bayern Munich",
@@ -1212,7 +1212,7 @@ const teams = [
         "mustKnowFact": "Germany\u00e2\u20ac\u2122s dominant force.",
         "active": true,
         "logo": "logos/bayern_munich.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bayern_Munich_2023-24_Home_Kit.png/200px-Bayern_Munich_2023-24_Home_Kit.png"
+        "uniform": "uniforms/bayern_munich.png"
     },
     {
         "name": "Borussia Dortmund",
@@ -1227,7 +1227,7 @@ const teams = [
         "mustKnowFact": "The Yellow Wall roars.",
         "active": true,
         "logo": "logos/borussia_dortmund.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Borussia_Dortmund_2023-24_Home_Kit.png/200px-Borussia_Dortmund_2023-24_Home_Kit.png"
+        "uniform": "uniforms/borussia_dortmund.png"
     },
     {
         "name": "RB Leipzig",
@@ -1242,7 +1242,7 @@ const teams = [
         "mustKnowFact": "Red Bull\u00e2\u20ac\u2122s rapid rise.",
         "active": true,
         "logo": "logos/rb_leipzig.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RB_Leipzig_2023-24_Home_Kit.png/200px-RB_Leipzig_2023-24_Home_Kit.png"
+        "uniform": "uniforms/rb_leipzig.png"
     },
     {
         "name": "Bayer Leverkusen",
@@ -1257,7 +1257,7 @@ const teams = [
         "mustKnowFact": "Xabi Alonso\u00e2\u20ac\u2122s 2024 triumph.",
         "active": true,
         "logo": "logos/bayer_leverkusen.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bayer_Leverkusen_2023-24_Home_Kit.png/200px-Bayer_Leverkusen_2023-24_Home_Kit.png"
+        "uniform": "uniforms/bayer_leverkusen.png"
     },
     {
         "name": "Borussia Monchengladbach",
@@ -1272,7 +1272,7 @@ const teams = [
         "mustKnowFact": "70s German dynasty.",
         "active": true,
         "logo": "logos/borussia_monchengladbach.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Borussia_Monchengladbach_2023-24_Home_Kit.png/200px-Borussia_Monchengladbach_2023-24_Home_Kit.png"
+        "uniform": "uniforms/borussia_monchengladbach.png"
     },
     {
         "name": "VfB Stuttgart",
@@ -1287,7 +1287,7 @@ const teams = [
         "mustKnowFact": "Swabian pride endures.",
         "active": true,
         "logo": "logos/vfb_stuttgart.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/VfB_Stuttgart_2023-24_Home_Kit.png/200px-VfB_Stuttgart_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Eintracht Frankfurt",
@@ -1302,7 +1302,7 @@ const teams = [
         "mustKnowFact": "2022 Europa kings.",
         "active": true,
         "logo": "logos/eintracht_frankfurt.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Eintracht_Frankfurt_2023-24_Home_Kit.png/200px-Eintracht_Frankfurt_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Wolfsburg",
@@ -1317,7 +1317,7 @@ const teams = [
         "mustKnowFact": "VW\u00e2\u20ac\u2122s football venture.",
         "active": true,
         "logo": "logos/wolfsburg.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wolfsburg_2023-24_Home_Kit.png/200px-Wolfsburg_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Freiburg",
@@ -1332,7 +1332,7 @@ const teams = [
         "mustKnowFact": "Black Forest overachievers.",
         "active": true,
         "logo": "logos/freiburg.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Freiburg_2023-24_Home_Kit.png/200px-Freiburg_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Mainz 05",
@@ -1347,7 +1347,7 @@ const teams = [
         "mustKnowFact": "Carnival club\u00e2\u20ac\u2122s grit.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mainz_05_2023-24_Home_Kit.png/200px-Mainz_05_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Hoffenheim",
@@ -1362,7 +1362,7 @@ const teams = [
         "mustKnowFact": "Village club\u00e2\u20ac\u2122s miracle.",
         "active": true,
         "logo": "logos/hoffenheim.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hoffenheim_2023-24_Home_Kit.png/200px-Hoffenheim_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Augsburg",
@@ -1377,7 +1377,7 @@ const teams = [
         "mustKnowFact": "Bavarian underdogs thrive.",
         "active": true,
         "logo": "logos/augsburg.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Augsburg_2023-24_Home_Kit.png/200px-Augsburg_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Werder Bremen",
@@ -1392,7 +1392,7 @@ const teams = [
         "mustKnowFact": "Green-and-white tradition.",
         "active": true,
         "logo": "logos/werder_bremen.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Werder_Bremen_2023-24_Home_Kit.png/200px-Werder_Bremen_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Union Berlin",
@@ -1407,7 +1407,7 @@ const teams = [
         "mustKnowFact": "East Berlin\u00e2\u20ac\u2122s cult heroes.",
         "active": true,
         "logo": "logos/union_berlin.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Union_Berlin_2023-24_Home_Kit.png/200px-Union_Berlin_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Bochum",
@@ -1422,7 +1422,7 @@ const teams = [
         "mustKnowFact": "Ruhr\u00e2\u20ac\u2122s blue-and-white.",
         "active": true,
         "logo": "logos/bochum.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bochum_2023-24_Home_Kit.png/200px-Bochum_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Koln",
@@ -1437,7 +1437,7 @@ const teams = [
         "mustKnowFact": "The Billy Goats\u00e2\u20ac\u2122 spirit.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Koln_2023-24_Home_Kit.png/200px-Koln_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Heidenheim",
@@ -1452,7 +1452,7 @@ const teams = [
         "mustKnowFact": "Tiny town\u00e2\u20ac\u2122s big dream.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Heidenheim_2023-24_Home_Kit.png/200px-Heidenheim_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Holstein Kiel",
@@ -1467,7 +1467,7 @@ const teams = [
         "mustKnowFact": "Northern newcomers in 2024.",
         "active": true,
         "logo": "logos/holstein_kiel.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Holstein_Kiel_2023-24_Home_Kit.png/200px-Holstein_Kiel_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Schalke 04",
@@ -1482,7 +1482,7 @@ const teams = [
         "mustKnowFact": "Miners\u00e2\u20ac\u2122 blue legacy.",
         "active": true,
         "logo": "logos/schalke_04.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schalke_04_2023-24_Home_Kit.png/200px-Schalke_04_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Hamburg SV",
@@ -1497,7 +1497,7 @@ const teams = [
         "mustKnowFact": "Northern giants aim back.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hamburg_SV_2023-24_Home_Kit.png/200px-Hamburg_SV_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Benfica",
@@ -1512,7 +1512,7 @@ const teams = [
         "mustKnowFact": "Eagles dominate Portugal.",
         "active": true,
         "logo": "logos/benfica.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Benfica_2023-24_Home_Kit.png/200px-Benfica_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Porto",
@@ -1527,7 +1527,7 @@ const teams = [
         "mustKnowFact": "Dragons\u00e2\u20ac\u2122 European glory.",
         "active": true,
         "logo": "logos/porto.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Porto_2023-24_Home_Kit.png/200px-Porto_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Sporting CP",
@@ -1542,7 +1542,7 @@ const teams = [
         "mustKnowFact": "Lions roar in green.",
         "active": true,
         "logo": "logos/sporting_cp.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sporting_CP_2023-24_Home_Kit.png/200px-Sporting_CP_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Braga",
@@ -1557,7 +1557,7 @@ const teams = [
         "mustKnowFact": "The Arsenalists challenge big three.",
         "active": true,
         "logo": "logos/braga.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Braga_2023-24_Home_Kit.png/200px-Braga_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Vitoria Guimaraes",
@@ -1572,7 +1572,7 @@ const teams = [
         "mustKnowFact": "Conquerors of the north.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Vitoria_Guimaraes_2023-24_Home_Kit.png/200px-Vitoria_Guimaraes_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Boavista",
@@ -1587,7 +1587,7 @@ const teams = [
         "mustKnowFact": "Panthers\u00e2\u20ac\u2122 2001 surprise.",
         "active": true,
         "logo": "logos/boavista.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Boavista_2023-24_Home_Kit.png/200px-Boavista_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Famalic\u00c3\u00a3o",
@@ -1602,7 +1602,7 @@ const teams = [
         "mustKnowFact": "Northern upstarts climb.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Famalicao_2023-24_Home_Kit.png/200px-Famalicao_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Gil Vicente",
@@ -1617,7 +1617,7 @@ const teams = [
         "mustKnowFact": "Roosters crow in Barcelos.",
         "active": true,
         "logo": "logos/gil_vicente.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gil_Vicente_2023-24_Home_Kit.png/200px-Gil_Vicente_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Moreirense",
@@ -1632,7 +1632,7 @@ const teams = [
         "mustKnowFact": "Small town, big heart.",
         "active": true,
         "logo": "logos/moreirense.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Moreirense_2023-24_Home_Kit.png/200px-Moreirense_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Estoril",
@@ -1647,7 +1647,7 @@ const teams = [
         "mustKnowFact": "Coastal yellow-and-blue.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Estoril_2023-24_Home_Kit.png/200px-Estoril_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Santa Clara",
@@ -1662,7 +1662,7 @@ const teams = [
         "mustKnowFact": "Azores\u00e2\u20ac\u2122 lone warriors.",
         "active": true,
         "logo": "logos/santa_clara.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Santa_Clara_2023-24_Home_Kit.png/200px-Santa_Clara_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Rio Ave",
@@ -1677,7 +1677,7 @@ const teams = [
         "mustKnowFact": "River Ave\u00e2\u20ac\u2122s green stripes.",
         "active": true,
         "logo": "logos/rio_ave.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Rio_Ave_2023-24_Home_Kit.png/200px-Rio_Ave_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Arouca",
@@ -1692,7 +1692,7 @@ const teams = [
         "mustKnowFact": "Small-town yellow surprise.",
         "active": true,
         "logo": "logos/arouca.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Arouca_2023-24_Home_Kit.png/200px-Arouca_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Casa Pia",
@@ -1707,7 +1707,7 @@ const teams = [
         "mustKnowFact": "Geese fly in Lisbon.",
         "active": true,
         "logo": "logos/casa_pia.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Casa_Pia_2023-24_Home_Kit.png/200px-Casa_Pia_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Farense",
@@ -1722,7 +1722,7 @@ const teams = [
         "mustKnowFact": "Algarve\u00e2\u20ac\u2122s lions roar.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Farense_2023-24_Home_Kit.png/200px-Farense_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Estrela da Amadora",
@@ -1737,7 +1737,7 @@ const teams = [
         "mustKnowFact": "Stars shine near Lisbon.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Estrela_da_Amadora_2023-24_Home_Kit.png/200px-Estrela_da_Amadora_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Nacional",
@@ -1751,8 +1751,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Madeira\u00e2\u20ac\u2122s black-and-white.",
         "active": true,
-        "logo": "logos/nacional.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nacional_2023-24_Home_Kit.png/200px-Nacional_2023-24_Home_Kit.png"
+        "logo": "https://via.placeholder.com/200?text=Logo",
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "AVS",
@@ -1767,7 +1767,7 @@ const teams = [
         "mustKnowFact": "New kids from Aves.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AVS_2023-24_Home_Kit.png/200px-AVS_2023-24_Home_Kit.png"
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Belenenses",
@@ -1781,8 +1781,8 @@ const teams = [
         "trophies": "Primeira Liga: 1, Taca de Portugal: 3",
         "mustKnowFact": "Historic Lisbon blues.",
         "active": true,
-        "logo": "logos/belenenses.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Belenenses_2023-24_Home_Kit.png/200px-Belenenses_2023-24_Home_Kit.png"
+        "logo": "https://via.placeholder.com/200?text=Logo",
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
         "name": "Maritimo",
@@ -1796,7 +1796,7 @@ const teams = [
         "trophies": "Taca de Portugal: 1",
         "mustKnowFact": "Madeira\u00e2\u20ac\u2122s green-and-red.",
         "active": true,
-        "logo": "logos/maritimo.png",
-        "uniform": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Maritimo_2023-24_Home_Kit.png/200px-Maritimo_2023-24_Home_Kit.png"
+        "logo": "https://via.placeholder.com/200?text=Logo",
+        "uniform": "https://via.placeholder.com/200?text=Uniform"
     }
 ];
