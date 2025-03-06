@@ -1200,21 +1200,6 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
-        "name": "HuracÃ¡n",
-        "country": "Argentina",
-        "league": "Primera División",
-        "city": "Buenos Aires",
-        "lat": -34.6431,
-        "lon": -58.3976,
-        "founded": 1908,
-        "stadium": "Estadio TomÃ¡s Adolfo Ducó",
-        "trophies": "Primera División: 5",
-        "mustKnowFact": "The Balloon flies in Parque Patricios.",
-        "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
-    },
-    {
         "name": "Huracán",
         "country": "Argentina",
         "league": "Primera División",
