@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Forever Football - Team Info <nav><a href="index.html">Back to Home</a></nav></h1>
+        <h1>Forever Football - Team Info <nav><a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Back to Home</a></nav></h1>
     </header>
     <main>
         <div id="team-info"></div>
@@ -55,7 +55,15 @@
                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
             `;
+            // Trigger initial ad load
+            (adsbygoogle = window.adsbygoogle || []).push({});
         });
+
+        // Ad refresh function
+        function navigateWithAdRefresh(url) {
+            window.location.href = url;
+            // Auto Ads refresh on new page load
+        }
     </script>
     <style>
         body { 
@@ -87,13 +95,13 @@
             text-decoration: underline; 
         }
         main { 
-            padding: 10px 20px; /* Reduced top padding from 20px to 10px */
+            padding: 10px 20px; 
             background: rgba(255, 255, 255, 0.4); 
             min-height: 80vh; 
         }
         #team-info h1 { 
             font-size: 36px; 
-            margin-top: 0; /* Already snug, stays up */
+            margin-top: 0; 
         }
         #team-info h2 { 
             font-size: 28px; 

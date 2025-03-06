@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://pagead2.googlesyndication.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
     <title>Forever Football</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
@@ -207,10 +207,16 @@
                             <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
                             <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                             <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
-                            <button class="more-info-btn" onclick="window.location.href='team-info.html?team=${encodeURIComponent(team.name)}'">More Info</button>
+                            <button class="more-info-btn" onclick="navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
                         `;
                     }
                 });
+
+                // Ad refresh function
+                function navigateWithAdRefresh(url) {
+                    window.location.href = url;
+                    // Auto Ads refresh on new page load
+                }
             });
         } catch (e) {
             console.error('Script error:', e);
