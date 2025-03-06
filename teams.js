@@ -90,6 +90,36 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "AZ Alkmaar",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Alkmaar",
+        "lat": 52.6129,
+        "lon": 4.7419,
+        "founded": 1967,
+        "stadium": "AFAS Stadion",
+        "trophies": "Eredivisie: 2, KNVB Cup: 4, Johan Cruyff Shield: 1",
+        "mustKnowFact": "Cheese city's giant-killers.",
+        "active": true,
+        "logo": "logos/az_alkmaar.png",
+        "uniform": "uniforms/az_alkmaar.png"
+    },
+    {
+        "name": "Ajax",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Amsterdam",
+        "lat": 52.3143,
+        "lon": 4.9419,
+        "founded": 1900,
+        "stadium": "Johan Cruyff Arena",
+        "trophies": "Eredivisie: 36, KNVB Cup: 20, Johan Cruyff Shield: 9, Champions League: 4, UEFA Cup: 1, UEFA Super Cup: 3",
+        "mustKnowFact": "Total Football's birthplace.",
+        "active": true,
+        "logo": "logos/ajax.png",
+        "uniform": "uniforms/ajax.png"
+    },
+    {
         "name": "Alaves",
         "country": "Spain",
         "league": "La Liga",
@@ -103,6 +133,51 @@ const teams = [
         "active": true,
         "logo": "logos/alaves.png",
         "uniform": "uniforms/alaves.png"
+    },
+    {
+        "name": "Alianza FC",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Valledupar",
+        "lat": 10.4631,
+        "lon": -73.2532,
+        "founded": 1991,
+        "stadium": "Estadio Armando Maestre Pavajeau",
+        "trophies": "Primera B: 2",
+        "mustKnowFact": "Northern oilmen in yellow.",
+        "active": true,
+        "logo": "logos/alianza_fc.png",
+        "uniform": "uniforms/alianza_fc.png"
+    },
+    {
+        "name": "Almere City",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Almere",
+        "lat": 52.3933,
+        "lon": 5.3131,
+        "founded": 2001,
+        "stadium": "Yanmar Stadion",
+        "trophies": "",
+        "mustKnowFact": "New city's red-black rise.",
+        "active": true,
+        "logo": "logos/almere-city.png",
+        "uniform": "uniforms/almere-city.png"
+    },
+    {
+        "name": "América de Cali",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Cali",
+        "lat": 3.4266,
+        "lon": -76.5411,
+        "founded": 1927,
+        "stadium": "Estadio Pascual Guerrero",
+        "trophies": "Primera A: 15, Copa Colombia: 1",
+        "mustKnowFact": "Red devils of Cali.",
+        "active": true,
+        "logo": "logos/america_de_cali.png",
+        "uniform": "uniforms/america_de_cali.png"
     },
     {
         "name": "Angers SCO",
@@ -225,6 +300,21 @@ const teams = [
         "uniform": "uniforms/athletico_paranaense.png"
     },
     {
+        "name": "Atlas",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Guadalajara",
+        "lat": 20.6619,
+        "lon": -103.3496,
+        "founded": 1916,
+        "stadium": "Estadio Jalisco",
+        "trophies": "Liga MX: 3, Copa México: 4",
+        "mustKnowFact": "Foxes ended a 70-year drought in 2021.",
+        "active": true,
+        "logo": "logos/atlas.png",
+        "uniform": "uniforms/atlas.png"
+    },
+    {
         "name": "Atletico Goianiense",
         "country": "Brazil",
         "league": "Serie A",
@@ -268,6 +358,51 @@ const teams = [
         "active": true,
         "logo": "logos/atletico_mineiro.png",
         "uniform": "uniforms/atletico_mineiro.png"
+    },
+    {
+        "name": "Atlético Bucaramanga",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Bucaramanga",
+        "lat": 7.1193,
+        "lon": -73.1227,
+        "founded": 1949,
+        "stadium": "Estadio Alfonso López",
+        "trophies": "Primera A: 1",
+        "mustKnowFact": "Leopards rare 2024 title.",
+        "active": true,
+        "logo": "logos/atletico_bucaramanga.png",
+        "uniform": "uniforms/atletico_bucaramanga.png"
+    },
+    {
+        "name": "Atlético Nacional",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Medellín",
+        "lat": 6.2567,
+        "lon": -75.5898,
+        "founded": 1947,
+        "stadium": "Estadio Atanasio Girardot",
+        "trophies": "Primera A: 17, Copa Colombia: 5, Superliga Colombiana: 3, Copa Libertadores: 2, Recopa Sudamericana: 1",
+        "mustKnowFact": "First Colombian Libertadores champ.",
+        "active": true,
+        "logo": "logos/atletico_nacional.png",
+        "uniform": "uniforms/atletico_nacional.png"
+    },
+    {
+        "name": "Atlético San Luis",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "San Luis Potosí",
+        "lat": 22.1411,
+        "lon": -100.9833,
+        "founded": 2013,
+        "stadium": "Estadio Alfonso Lastras",
+        "trophies": "",
+        "mustKnowFact": "Atlético Madrid's Mexican cousin.",
+        "active": true,
+        "logo": "logos/atletico-san-luis.png",
+        "uniform": "uniforms/atletico-san-luis.png"
     },
     {
         "name": "Atlético Tucumán",
@@ -555,6 +690,21 @@ const teams = [
         "uniform": "uniforms/bournemouth.png"
     },
     {
+        "name": "Boyacá Chicó",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Tunja",
+        "lat": 5.5353,
+        "lon": -73.3678,
+        "founded": 2002,
+        "stadium": "Estadio La Independencia",
+        "trophies": "Primera A: 1",
+        "mustKnowFact": "Chessboard upset in 2008.",
+        "active": true,
+        "logo": "logos/boyaca_chico.png",
+        "uniform": "uniforms/boyaca_chico.png"
+    },
+    {
         "name": "Braga",
         "country": "Portugal",
         "league": "Primeira Liga",
@@ -690,6 +840,36 @@ const teams = [
         "uniform": "uniforms/chelsea.png"
     },
     {
+        "name": "Chivas Guadalajara",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Guadalajara",
+        "lat": 20.6815,
+        "lon": -103.3918,
+        "founded": 1906,
+        "stadium": "Estadio Akron",
+        "trophies": "Liga MX: 12, CONCACAF Champions League: 2, Copa México: 4",
+        "mustKnowFact": "Mexico-only player policy.",
+        "active": true,
+        "logo": "logos/chivas-guadalajara.png",
+        "uniform": "uniforms/chivas-guadalajara.png"
+    },
+    {
+        "name": "Club América",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Mexico City",
+        "lat": 19.3029,
+        "lon": -99.1505,
+        "founded": 1916,
+        "stadium": "Estadio Azteca",
+        "trophies": "Liga MX: 14, CONCACAF Champions League: 7, Copa México: 6, Campeón de Campeones: 6",
+        "mustKnowFact": "Most decorated club in Mexican football.",
+        "active": true,
+        "logo": "logos/club-america.png",
+        "uniform": "uniforms/club-america.png"
+    },
+    {
         "name": "Corinthians",
         "country": "Brazil",
         "league": "Serie A",
@@ -703,6 +883,21 @@ const teams = [
         "active": true,
         "logo": "logos/corinthians.png",
         "uniform": "uniforms/corinthians.png"
+    },
+    {
+        "name": "Cruz Azul",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Mexico City",
+        "lat": 19.3029,
+        "lon": -99.1505,
+        "founded": 1927,
+        "stadium": "Estadio Azteca",
+        "trophies": "Liga MX: 9, CONCACAF Champions League: 6, Copa México: 4",
+        "mustKnowFact": "Broke a 23-year title drought in 2021.",
+        "active": true,
+        "logo": "logos/cruz_azul.png",
+        "uniform": "uniforms/cruz_azul.png"
     },
     {
         "name": "Cruzeiro",
@@ -765,6 +960,66 @@ const teams = [
         "uniform": "uniforms/defensa_y_justicia.png"
     },
     {
+        "name": "Deportes Tolima",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Ibagué",
+        "lat": 4.4389,
+        "lon": -75.2322,
+        "founded": 1954,
+        "stadium": "Estadio Manuel Murillo Toro",
+        "trophies": "Primera A: 3, Copa Colombia: 1, Superliga Colombiana: 1",
+        "mustKnowFact": "Pijao warriors climb high.",
+        "active": true,
+        "logo": "logos/deportes_tolima.png",
+        "uniform": "uniforms/deportes_tolima.png"
+    },
+    {
+        "name": "Deportivo Cali",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Cali",
+        "lat": 3.5176,
+        "lon": -76.5176,
+        "founded": 1912,
+        "stadium": "Estadio Deportivo Cali",
+        "trophies": "Primera A: 10, Copa Colombia: 1",
+        "mustKnowFact": "Sugar city's green giants.",
+        "active": true,
+        "logo": "logos/deportivo_cali.png",
+        "uniform": "uniforms/deportivo_cali.png"
+    },
+    {
+        "name": "Deportivo Pasto",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Pasto",
+        "lat": 1.2136,
+        "lon": -77.2811,
+        "founded": 1949,
+        "stadium": "Estadio Departamental Libertad",
+        "trophies": "Primera A: 1",
+        "mustKnowFact": "Volcanic spirit near Ecuador.",
+        "active": true,
+        "logo": "logos/deportivo_pasto.png",
+        "uniform": "uniforms/deportivo_pasto.png"
+    },
+    {
+        "name": "Deportivo Pereira",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Pereira",
+        "lat": 4.8133,
+        "lon": -75.6961,
+        "founded": 1944,
+        "stadium": "Estadio Hernán Ramírez Villegas",
+        "trophies": "Primera A: 1",
+        "mustKnowFact": "First title in 2022 after 78 years.",
+        "active": true,
+        "logo": "logos/deportivo_pereira.png",
+        "uniform": "uniforms/deportivo_pereira.png"
+    },
+    {
         "name": "Deportivo Riestra",
         "country": "Argentina",
         "league": "Primera División",
@@ -808,6 +1063,21 @@ const teams = [
         "active": true,
         "logo": "logos/empoli.png",
         "uniform": "uniforms/empoli.png"
+    },
+    {
+        "name": "Envigado",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Envigado",
+        "lat": 6.1759,
+        "lon": -75.5917,
+        "founded": 1989,
+        "stadium": "Estadio Polideportivo Sur",
+        "trophies": "",
+        "mustKnowFact": "Youth factory in orange.",
+        "active": true,
+        "logo": "logos/envigado.png",
+        "uniform": "uniforms/envigado.png"
     },
     {
         "name": "Espanyol",
@@ -930,6 +1200,21 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Feyenoord",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Rotterdam",
+        "lat": 51.8939,
+        "lon": 4.5231,
+        "founded": 1908,
+        "stadium": "De Kuip",
+        "trophies": "Eredivisie: 16, KNVB Cup: 13, Johan Cruyff Shield: 4, European Cup: 1, UEFA Cup: 2",
+        "mustKnowFact": "Rotterdam's red-and-white heart.",
+        "active": true,
+        "logo": "logos/feyenoord.png",
+        "uniform": "uniforms/feyenoord.png"
+    },
+    {
         "name": "Fiorentina",
         "country": "Italy",
         "league": "Serie A",
@@ -988,6 +1273,36 @@ const teams = [
         "active": true,
         "logo": "logos/fortaleza.png",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Fortaleza CEIF",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Bogotá",
+        "lat": 4.7457,
+        "lon": -74.0269,
+        "founded": 2010,
+        "stadium": "Estadio Municipal de Cota",
+        "trophies": "Primera B: 1",
+        "mustKnowFact": "Bogotá's rising fortress.",
+        "active": true,
+        "logo": "logos/fortaleza_ceif.png",
+        "uniform": "uniforms/fortaleza-ceif.png"
+    },
+    {
+        "name": "Fortuna Sittard",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Sittard",
+        "lat": 50.9965,
+        "lon": 5.8506,
+        "founded": 1968,
+        "stadium": "Fortuna Sittard Stadion",
+        "trophies": "",
+        "mustKnowFact": "Limburg's yellow-green grit.",
+        "active": true,
+        "logo": "logos/fortuna_sittard.png",
+        "uniform": "uniforms/fortuna_sittard.png"
     },
     {
         "name": "Freiburg",
@@ -1095,6 +1410,21 @@ const teams = [
         "uniform": "uniforms/girona.png"
     },
     {
+        "name": "Go Ahead Eagles",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Deventer",
+        "lat": 52.2571,
+        "lon": 6.1639,
+        "founded": 1902,
+        "stadium": "De Adelaarshorst",
+        "trophies": "Eredivisie: 4",
+        "mustKnowFact": "Historic eagles soar again.",
+        "active": true,
+        "logo": "logos/go_ahead_eagles.png",
+        "uniform": "uniforms/go_ahead_eagles.png"
+    },
+    {
         "name": "Godoy Cruz",
         "country": "Argentina",
         "league": "Primera División",
@@ -1125,6 +1455,21 @@ const teams = [
         "uniform": "uniforms/gremio.png"
     },
     {
+        "name": "Groningen",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Groningen",
+        "lat": 53.2194,
+        "lon": 6.5665,
+        "founded": 1971,
+        "stadium": "Euroborg",
+        "trophies": "KNVB Cup: 1",
+        "mustKnowFact": "Northern green-white pride.",
+        "active": true,
+        "logo": "logos/groningen.png",
+        "uniform": "uniforms/groningen.png"
+    },
+    {
         "name": "Hamburg SV",
         "country": "Germany",
         "league": "Bundesliga",
@@ -1138,6 +1483,21 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Heerenveen",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Heerenveen",
+        "lat": 52.9606,
+        "lon": 5.9185,
+        "founded": 1920,
+        "stadium": "Abe Lenstra Stadion",
+        "trophies": "KNVB Cup: 1",
+        "mustKnowFact": "Frisian blue-and-white pump hearts.",
+        "active": true,
+        "logo": "logos/heerenveen.png",
+        "uniform": "uniforms/heerenveen.png"
     },
     {
         "name": "Heidenheim",
@@ -1168,6 +1528,21 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Heracles Almelo",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Almelo",
+        "lat": 52.357,
+        "lon": 6.663,
+        "founded": 1903,
+        "stadium": "Erve Asito",
+        "trophies": "Eredivisie: 2",
+        "mustKnowFact": "Black-white heroes endure.",
+        "active": true,
+        "logo": "logos/heracles-almelo.png",
+        "uniform": "uniforms/heracles-almelo.png"
     },
     {
         "name": "Hoffenheim",
@@ -1230,6 +1605,36 @@ const teams = [
         "uniform": "uniforms/independiente.png"
     },
     {
+        "name": "Independiente Medellín",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Medellín",
+        "lat": 6.2567,
+        "lon": -75.5898,
+        "founded": 1913,
+        "stadium": "Estadio Atanasio Girardot",
+        "trophies": "Primera A: 6, Copa Colombia: 3",
+        "mustKnowFact": "The Powerful One of the Mountain.",
+        "active": true,
+        "logo": "logos/independiente_medellin.png",
+        "uniform": "uniforms/independiente_medellin.png"
+    },
+    {
+        "name": "Independiente Santa Fe",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Bogotá",
+        "lat": 4.6459,
+        "lon": -74.0776,
+        "founded": 1941,
+        "stadium": "Estadio El Campín",
+        "trophies": "Primera A: 9, Copa Colombia: 2, Superliga Colombiana: 3, Copa Sudamericana: 1",
+        "mustKnowFact": "First Colombian champs in 1948.",
+        "active": true,
+        "logo": "logos/independiente_santa_fe.png",
+        "uniform": "uniforms/independiente_santa_fe.png"
+    },
+    {
         "name": "Instituto ACC",
         "country": "Argentina",
         "league": "Primera División",
@@ -1290,6 +1695,36 @@ const teams = [
         "uniform": "uniforms/ipswich_town.png"
     },
     {
+        "name": "Jaguares de Córdoba",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Montería",
+        "lat": 8.7479,
+        "lon": -75.8814,
+        "founded": 2012,
+        "stadium": "Estadio Jaraguay",
+        "trophies": "",
+        "mustKnowFact": "Cordoba's jaguar hunters.",
+        "active": true,
+        "logo": "logos/jaguares_de_cordoba.png",
+        "uniform": "uniforms/jaguares_de_cordoba.png"
+    },
+    {
+        "name": "Junior",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Barranquilla",
+        "lat": 10.9941,
+        "lon": -74.8069,
+        "founded": 1924,
+        "stadium": "Estadio Metropolitano",
+        "trophies": "Primera A: 10, Copa Colombia: 2, Superliga Colombiana: 2",
+        "mustKnowFact": "Caribbean coast's sharks.",
+        "active": true,
+        "logo": "logos/junior.png",
+        "uniform": "uniforms/junior.png"
+    },
+    {
         "name": "Juventude",
         "country": "Brazil",
         "league": "Serie A",
@@ -1320,6 +1755,21 @@ const teams = [
         "uniform": "uniforms/juventus.png"
     },
     {
+        "name": "Juárez",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Ciudad Juárez",
+        "lat": 31.6904,
+        "lon": -106.4245,
+        "founded": 2015,
+        "stadium": "Estadio Olímpico Benito Juárez",
+        "trophies": "",
+        "mustKnowFact": "Border town's young braves.",
+        "active": true,
+        "logo": "logos/juarez.png",
+        "uniform": "uniforms/juarez.png"
+    },
+    {
         "name": "Koln",
         "country": "Germany",
         "league": "Bundesliga",
@@ -1333,6 +1783,21 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "La Equidad",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Bogotá",
+        "lat": 4.6927,
+        "lon": -74.0718,
+        "founded": 1982,
+        "stadium": "Estadio Metropolitano de Techo",
+        "trophies": "Copa Colombia: 1",
+        "mustKnowFact": "Insurers green ambition.",
+        "active": true,
+        "logo": "logos/la_equidad.png",
+        "uniform": "uniforms/la_equidad.png"
     },
     {
         "name": "Lanús",
@@ -1440,6 +1905,21 @@ const teams = [
         "uniform": "uniforms/leicester_city.png"
     },
     {
+        "name": "León",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "León",
+        "lat": 21.1154,
+        "lon": -101.657,
+        "founded": 1944,
+        "stadium": "Estadio León",
+        "trophies": "Liga MX: 8, Copa México: 5",
+        "mustKnowFact": "Green lions roar in Guanajuato.",
+        "active": true,
+        "logo": "logos/leon.png",
+        "uniform": "uniforms/leon.png"
+    },
+    {
         "name": "Lille OSC",
         "country": "France",
         "league": "Ligue 1",
@@ -1545,6 +2025,51 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Mazatlán",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Mazatlán",
+        "lat": 23.2494,
+        "lon": -106.4111,
+        "founded": 2020,
+        "stadium": "Estadio Mazatlán",
+        "trophies": "",
+        "mustKnowFact": "Newest club on the coast.",
+        "active": true,
+        "logo": "logos/mazatlan.png",
+        "uniform": "uniforms/mazatlan.png"
+    },
+    {
+        "name": "Millonarios",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Bogotá",
+        "lat": 4.6459,
+        "lon": -74.0776,
+        "founded": 1946,
+        "stadium": "Estadio El Campín",
+        "trophies": "Primera A: 16, Copa Colombia: 2, Superliga Colombiana: 2",
+        "mustKnowFact": "Bogotá's blue millionaires.",
+        "active": true,
+        "logo": "logos/millonarios.png",
+        "uniform": "uniforms/millonarios.png"
+    },
+    {
+        "name": "Monterrey",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Monterrey",
+        "lat": 25.6689,
+        "lon": -100.2446,
+        "founded": 1945,
+        "stadium": "Estadio BBVA",
+        "trophies": "Liga MX: 5, CONCACAF Champions League: 5, Copa México: 2",
+        "mustKnowFact": "Rayados' modern steel fortress.",
+        "active": true,
+        "logo": "logos/monterrey.png",
+        "uniform": "uniforms/monterrey.png"
+    },
+    {
         "name": "Montpellier HSC",
         "country": "France",
         "league": "Ligue 1",
@@ -1590,6 +2115,36 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "NAC Breda",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Breda",
+        "lat": 51.5952,
+        "lon": 4.7749,
+        "founded": 1912,
+        "stadium": "Rat Verlegh Stadion",
+        "trophies": "Eredivisie: 1, KNVB Cup: 1",
+        "mustKnowFact": "Yellow army's 2024 return.",
+        "active": true,
+        "logo": "logos/nac_breda.png",
+        "uniform": "uniforms/nac_breda.png"
+    },
+    {
+        "name": "NEC Nijmegen",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Nijmegen",
+        "lat": 51.8426,
+        "lon": 5.8428,
+        "founded": 1900,
+        "stadium": "Goffertstadion",
+        "trophies": "",
+        "mustKnowFact": "Red-green-black battlers.",
+        "active": true,
+        "logo": "logos/nec_nijmegen.png",
+        "uniform": "uniforms/nec_nijmegen.png"
+    },
+    {
         "name": "Nacional",
         "country": "Portugal",
         "league": "Primeira Liga",
@@ -1618,6 +2173,21 @@ const teams = [
         "active": true,
         "logo": "logos/napoli.png",
         "uniform": "uniforms/napoli.png"
+    },
+    {
+        "name": "Necaxa",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Aguascalientes",
+        "lat": 21.8853,
+        "lon": -102.2916,
+        "founded": 1923,
+        "stadium": "Estadio Victoria",
+        "trophies": "Liga MX: 3, Copa México: 4",
+        "mustKnowFact": "Lightning strikes in red and white.",
+        "active": true,
+        "logo": "logos/necaxa.png",
+        "uniform": "uniforms/necaxa.png"
     },
     {
         "name": "Newcastle United",
@@ -1710,6 +2280,21 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Once Caldas",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Manizales",
+        "lat": 5.0703,
+        "lon": -75.5138,
+        "founded": 1961,
+        "stadium": "Estadio Palogrande",
+        "trophies": "Primera A: 4, Copa Libertadores: 1",
+        "mustKnowFact": "2004 Libertadores surprise winners.",
+        "active": true,
+        "logo": "logos/once_caldas.png",
+        "uniform": "uniforms/once_caldas.png"
+    },
+    {
         "name": "Osasuna",
         "country": "Spain",
         "league": "La Liga",
@@ -1723,6 +2308,51 @@ const teams = [
         "active": true,
         "logo": "logos/osasuna.png",
         "uniform": "uniforms/osasuna.png"
+    },
+    {
+        "name": "PEC Zwolle",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Zwolle",
+        "lat": 52.5156,
+        "lon": 6.1184,
+        "founded": 1910,
+        "stadium": "MAC³PARK Stadion",
+        "trophies": "KNVB Cup: 1",
+        "mustKnowFact": "Blue fingers hold firm.",
+        "active": true,
+        "logo": "logos/pec_zwolle.png",
+        "uniform": "uniforms/pec_zwolle.png"
+    },
+    {
+        "name": "PSV",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Eindhoven",
+        "lat": 51.4416,
+        "lon": 5.4678,
+        "founded": 1913,
+        "stadium": "Philips Stadion",
+        "trophies": "Eredivisie: 25, KNVB Cup: 11, Johan Cruyff Shield: 14, European Cup: 1, UEFA Cup: 1",
+        "mustKnowFact": "Philips-powered champions.",
+        "active": true,
+        "logo": "logos/psv.png",
+        "uniform": "uniforms/psv.png"
+    },
+    {
+        "name": "Pachuca",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Pachuca",
+        "lat": 20.105,
+        "lon": -98.7759,
+        "founded": 1892,
+        "stadium": "Estadio Hidalgo",
+        "trophies": "Liga MX: 7, CONCACAF Champions League: 5, Copa Sudamericana: 1",
+        "mustKnowFact": "Oldest club in Mexico.",
+        "active": true,
+        "logo": "logos/pachuca.png",
+        "uniform": "uniforms/pachuca.png"
     },
     {
         "name": "Palmeiras",
@@ -1770,6 +2400,21 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Patriotas",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Tunja",
+        "lat": 5.5353,
+        "lon": -73.3678,
+        "founded": 2003,
+        "stadium": "Estadio La Independencia",
+        "trophies": "",
+        "mustKnowFact": "High-altitude Boyacá battlers.",
+        "active": true,
+        "logo": "logos/patriotas.png",
+        "uniform": "uniforms/patriotas.png"
+    },
+    {
         "name": "Platense",
         "country": "Argentina",
         "league": "Primera División",
@@ -1798,6 +2443,51 @@ const teams = [
         "active": true,
         "logo": "logos/porto.png",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Puebla",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Puebla",
+        "lat": 19.0633,
+        "lon": -98.2076,
+        "founded": 1944,
+        "stadium": "Estadio Cuauhtémoc",
+        "trophies": "Liga MX: 2, Copa México: 5",
+        "mustKnowFact": "La Franja's historic resilience.",
+        "active": true,
+        "logo": "logos/puebla.png",
+        "uniform": "uniforms/puebla.png"
+    },
+    {
+        "name": "Pumas UNAM",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Mexico City",
+        "lat": 19.3318,
+        "lon": -99.1926,
+        "founded": 1954,
+        "stadium": "Estadio Olímpico Universitario",
+        "trophies": "Liga MX: 7, CONCACAF Champions League: 3",
+        "mustKnowFact": "University-backed puma pride.",
+        "active": true,
+        "logo": "logos/pumas-unam.png",
+        "uniform": "uniforms/pumas-unam.png"
+    },
+    {
+        "name": "Querétaro",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Querétaro",
+        "lat": 20.5888,
+        "lon": -100.3833,
+        "founded": 1950,
+        "stadium": "Estadio Corregidora",
+        "trophies": "Copa México: 1",
+        "mustKnowFact": "Gallos Blancos fight on.",
+        "active": true,
+        "logo": "logos/queretaro.png",
+        "uniform": "uniforms/queretaro.png"
     },
     {
         "name": "RB Leipzig",
@@ -1843,6 +2533,21 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "RKC Waalwijk",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Waalwijk",
+        "lat": 51.6854,
+        "lon": 5.0771,
+        "founded": 1940,
+        "stadium": "Mandemakers Stadion",
+        "trophies": "",
+        "mustKnowFact": "Small-town yellow-blue survivors.",
+        "active": true,
+        "logo": "logos/rkc_waalwijk.png",
+        "uniform": "uniforms/rkc_waalwijk.png"
     },
     {
         "name": "Racing Club",
@@ -2040,6 +2745,21 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Santos Laguna",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Torreón",
+        "lat": 25.5356,
+        "lon": -103.4038,
+        "founded": 1983,
+        "stadium": "Estadio Corona",
+        "trophies": "Liga MX: 6, Copa México: 1",
+        "mustKnowFact": "Desert warriors strike gold.",
+        "active": true,
+        "logo": "logos/santos_laguna.png",
+        "uniform": "uniforms/santos_laguna.png"
+    },
+    {
         "name": "Sao Paulo",
         "country": "Brazil",
         "league": "Serie A",
@@ -2128,6 +2848,21 @@ const teams = [
         "active": true,
         "logo": "logos/southampton.png",
         "uniform": "uniforms/southampton.png"
+    },
+    {
+        "name": "Sparta Rotterdam",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Rotterdam",
+        "lat": 51.9198,
+        "lon": 4.4339,
+        "founded": 1888,
+        "stadium": "Het Kasteel",
+        "trophies": "Eredivisie: 6, KNVB Cup: 3",
+        "mustKnowFact": "Oldest pro club in Holland.",
+        "active": true,
+        "logo": "logos/sparta_rotterdam.png",
+        "uniform": "uniforms/sparta_rotterdam.png"
     },
     {
         "name": "Sporting CP",
@@ -2220,6 +2955,51 @@ const teams = [
         "uniform": "uniforms/tigre.png"
     },
     {
+        "name": "Tigres UANL",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Monterrey",
+        "lat": 25.7225,
+        "lon": -100.3121,
+        "founded": 1960,
+        "stadium": "Estadio Universitario",
+        "trophies": "Liga MX: 8, CONCACAF Champions League: 1, Copa México: 3",
+        "mustKnowFact": "Fierce northern tigers dominate.",
+        "active": true,
+        "logo": "logos/tigres-uanl.png",
+        "uniform": "uniforms/tigres-uanl.png"
+    },
+    {
+        "name": "Tijuana",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Tijuana",
+        "lat": 32.5149,
+        "lon": -117.0037,
+        "founded": 2007,
+        "stadium": "Estadio Caliente",
+        "trophies": "Liga MX: 1",
+        "mustKnowFact": "Xolos northern frontier spirit.",
+        "active": true,
+        "logo": "logos/tijuana.png",
+        "uniform": "uniforms/tijuana.png"
+    },
+    {
+        "name": "Toluca",
+        "country": "Mexico",
+        "league": "Liga MX",
+        "city": "Toluca",
+        "lat": 19.2879,
+        "lon": -99.6532,
+        "founded": 1917,
+        "stadium": "Estadio Nemesio Díez",
+        "trophies": "Liga MX: 10, CONCACAF Champions League: 2, Copa México: 4",
+        "mustKnowFact": "Red devils of the highlands.",
+        "active": true,
+        "logo": "logos/toluca.png",
+        "uniform": "uniforms/toluca.png"
+    },
+    {
         "name": "Torino",
         "country": "Italy",
         "league": "Serie A",
@@ -2265,6 +3045,21 @@ const teams = [
         "uniform": "https://via.placeholder.com/200?text=Uniform"
     },
     {
+        "name": "Twente",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Enschede",
+        "lat": 52.2215,
+        "lon": 6.8937,
+        "founded": 1965,
+        "stadium": "De Grolsch Veste",
+        "trophies": "Eredivisie: 1, KNVB Cup: 3, Johan Cruyff Shield: 2",
+        "mustKnowFact": "Eastern reds upset in 2010.",
+        "active": true,
+        "logo": "logos/twente.png",
+        "uniform": "uniforms/twente.png"
+    },
+    {
         "name": "Udinese",
         "country": "Italy",
         "league": "Serie A",
@@ -2308,6 +3103,21 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Utrecht",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Utrecht",
+        "lat": 52.0889,
+        "lon": 5.1452,
+        "founded": 1970,
+        "stadium": "Stadion Galgenwaard",
+        "trophies": "KNVB Cup: 3, Johan Cruyff Shield: 1",
+        "mustKnowFact": "Never relegated since 1970.",
+        "active": true,
+        "logo": "logos/utrecht.png",
+        "uniform": "uniforms/utrecht.png"
     },
     {
         "name": "Valencia",
@@ -2370,6 +3180,21 @@ const teams = [
         "uniform": "uniforms/villarreal.png"
     },
     {
+        "name": "Vitesse",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "city": "Arnhem",
+        "lat": 51.9826,
+        "lon": 5.9118,
+        "founded": 1892,
+        "stadium": "GelreDome",
+        "trophies": "KNVB Cup: 1",
+        "mustKnowFact": "Yellow-black eagles fly steady.",
+        "active": true,
+        "logo": "logos/vitesse.png",
+        "uniform": "uniforms/vitesse.png"
+    },
+    {
         "name": "Vitoria",
         "country": "Brazil",
         "league": "Serie A",
@@ -2409,7 +3234,7 @@ const teams = [
         "founded": 1910,
         "stadium": "Estadio José Amalfitani",
         "trophies": "Primera División: 10, Copa Libertadores: 1, Intercontinental Cup: 1, Copa Interamericana: 1, Supercopa Argentina: 1, Recopa Sudamericana: 1",
-        "mustKnowFact": "FortÃ­n's blue-and-white fortress.",
+        "mustKnowFact": "Fortí­n's blue-and-white fortress.",
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
@@ -2473,5 +3298,20 @@ const teams = [
         "active": true,
         "logo": "https://via.placeholder.com/200?text=Logo",
         "uniform": "https://via.placeholder.com/200?text=Uniform"
+    },
+    {
+        "name": "Águilas Doradas",
+        "country": "Colombia",
+        "league": "Categoría Primera A",
+        "city": "Rionegro",
+        "lat": 6.1552,
+        "lon": -75.3732,
+        "founded": 2008,
+        "stadium": "Estadio Alberto Grisales",
+        "trophies": "",
+        "mustKnowFact": "Golden eagles soar quietly.",
+        "active": true,
+        "logo": "logos/aguilas-doradas.png",
+        "uniform": "uniforms/aguilas-doradas.png"
     }
 ];
