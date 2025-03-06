@@ -41,8 +41,8 @@
             }
 
             teamInfoDiv.innerHTML = `
-                <h2>${team.name} ${team.active ? '' : '(Defunct)'}</h2>
-                <h3>Highlights</h3>
+                <h1>${team.name} ${team.active ? '' : '(Defunct)'}</h1>
+                <h2>Highlights</h2>
                 <p>${highlights[team.name] || 'Highlights coming soon—stay tuned!'}</p>
                 <p><strong>Country:</strong> ${team.country}</p>
                 <p><strong>League:</strong> ${team.league}</p>
@@ -70,11 +70,34 @@
             justify-content: space-between; 
             align-items: center; 
         }
-        header h1 { margin: 0; }
-        nav { display: inline-block; }
-        nav a { color: #FF4500; text-decoration: none; }
-        nav a:hover { text-decoration: underline; }
-        main { padding: 20px; background: rgba(255, 255, 255, 0.4); min-height: 80vh; }
+        header h1 { 
+            margin: 0; 
+            font-size: 24px; /* Smaller than team name */
+        }
+        nav { 
+            display: inline-block; 
+        }
+        nav a { 
+            color: #FF4500; 
+            text-decoration: none; 
+            font-size: 16px; /* Smaller font for Back to Home */
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        main { 
+            padding: 20px; 
+            background: rgba(255, 255, 255, 0.4); 
+            min-height: 80vh; 
+        }
+        #team-info h1 { 
+            font-size: 36px; /* Two sizes up from default 24px */
+            margin-top: 0; /* Moves it up one line */
+        }
+        #team-info h2 { 
+            font-size: 28px; /* One size up from default 20px */
+            margin-top: 10px; /* Moves it up one line */
+        }
         footer { 
             text-align: center; 
             padding: 10px; 
@@ -84,8 +107,14 @@
             bottom: 0; 
             width: 100%; 
         }
-        footer a { color: #FFA500; text-decoration: none; margin: 0 10px; }
-        footer a:hover { text-decoration: underline; }
+        footer a { 
+            color: #FFA500; 
+            text-decoration: none; 
+            margin: 0 10px; 
+        }
+        footer a:hover { 
+            text-decoration: underline; 
+        }
     </style>
 </body>
 </html>
