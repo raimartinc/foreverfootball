@@ -270,21 +270,6 @@ const teams = [
         "uniform": "uniforms/atletico_mineiro.png"
     },
     {
-        "name": "Atlético TucumÃ¡n",
-        "country": "Argentina",
-        "league": "Primera División",
-        "city": "San Miguel de TucumÃ¡n",
-        "lat": -26.8083,
-        "lon": -65.2176,
-        "founded": 1902,
-        "stadium": "Estadio Monumental José Fierro",
-        "trophies": "Primera B Nacional: 2",
-        "mustKnowFact": "TucumÃ¡n's northern giants.",
-        "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
-    },
-    {
         "name": "Atlético Tucumán",
         "country": "Argentina",
         "league": "Primera División",
@@ -2088,13 +2073,13 @@ const teams = [
         "name": "Sarmiento",
         "country": "Argentina",
         "league": "Primera División",
-        "city": "JunÃ­n",
+        "city": "Juní­n",
         "lat": -34.5833,
         "lon": -60.95,
         "founded": 1911,
         "stadium": "Estadio Eva Perón",
         "trophies": "Primera B Nacional: 1",
-        "mustKnowFact": "JunÃ­n's green resilience.",
+        "mustKnowFact": "Juní­n's green resilience.",
         "active": true,
         "logo": "logos/sarmiento.png",
         "uniform": "uniforms/sarmiento.png"
