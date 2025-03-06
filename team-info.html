@@ -8,8 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Forever Football - Team Info</h1>
-        <nav><a href="index.html">Back to Home</a></nav>
+        <h1>Forever Football - Team Info <nav><a href="index.html">Back to Home</a></nav></h1>
     </header>
     <main>
         <div id="team-info"></div>
@@ -43,6 +42,8 @@
 
             teamInfoDiv.innerHTML = `
                 <h2>${team.name} ${team.active ? '' : '(Defunct)'}</h2>
+                <h3>Highlights</h3>
+                <p>${highlights[team.name] || 'Highlights coming soon—stay tuned!'}</p>
                 <p><strong>Country:</strong> ${team.country}</p>
                 <p><strong>League:</strong> ${team.league}</p>
                 <p><strong>City:</strong> ${team.city}</p>
@@ -52,8 +53,6 @@
                 <p><strong>Must Know Fact:</strong> ${team.mustKnowFact}</p>
                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
-                <h3>Highlights</h3>
-                <p>${highlights[team.name] || 'Highlights coming soon—stay tuned!'}</p>
             `;
         });
     </script>
@@ -64,8 +63,15 @@
             background: url('images/footbg.jpg') no-repeat center center fixed; 
             background-size: cover; 
         }
-        header { padding: 20px; background: rgba(255, 255, 255, 0.4); }
-        nav { margin-top: 10px; }
+        header { 
+            padding: 20px; 
+            background: rgba(255, 255, 255, 0.4); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { margin: 0; }
+        nav { display: inline-block; }
         nav a { color: #FF4500; text-decoration: none; }
         nav a:hover { text-decoration: underline; }
         main { padding: 20px; background: rgba(255, 255, 255, 0.4); min-height: 80vh; }
