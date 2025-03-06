@@ -57,6 +57,15 @@
         }
         footer a { color: #FFA500; text-decoration: none; margin: 0 10px; }
         footer a:hover { text-decoration: underline; }
+        .more-info-btn { 
+            margin-top: 10px; 
+            padding: 8px 16px; 
+            background: #FFA500; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
     </style>
     <script>
         console.log('Script started');
@@ -81,15 +90,15 @@
 
                 // Map with football pin
                 let map, markers = [];
-                const MIN_ZOOM_FOR_MARKERS = 4; // Show pins at zoom 4+
+                const MIN_ZOOM_FOR_MARKERS = 4;
                 const footballPin = L.icon({
-                    iconUrl: 'images/football-pin.png', // Your 200x200px local file
+                    iconUrl: 'images/football-pin.png',
                     shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-                    iconSize: [20, 20], // Resized to 20x20px
-                    shadowSize: [30, 30], // Slightly larger pin base
-                    iconAnchor: [10, 30], // Center football, point at base
-                    shadowAnchor: [10, 30], // Align shadow
-                    popupAnchor: [0, -30] // Popup above football
+                    iconSize: [20, 20],
+                    shadowSize: [30, 30],
+                    iconAnchor: [10, 30],
+                    shadowAnchor: [10, 30],
+                    popupAnchor: [0, -30]
                 });
 
                 function initMap() {
@@ -194,9 +203,10 @@
                             <div><strong>Founded:</strong> ${team.founded}</div>
                             <div><strong>Stadium:</strong> ${team.stadium}</div>
                             <div><strong>Trophies:</strong> ${team.trophies}</div>
-                            <div><strong>Must know fact:</strong> ${team.mustKnowFact}</div>
+                            <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
                             <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                             <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                            <button class="more-info-btn" onclick="window.location.href='team-info.html?team=${encodeURIComponent(team.name)}'">More Info</button>
                         `;
                     }
                 });
