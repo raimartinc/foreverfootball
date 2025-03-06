@@ -81,15 +81,15 @@
 
                 // Map with football pin
                 let map, markers = [];
-                const MIN_ZOOM_FOR_MARKERS = 6;
+                const MIN_ZOOM_FOR_MARKERS = 4; // Show pins at zoom 4+
                 const footballPin = L.icon({
                     iconUrl: 'images/football-pin.png', // Your 200x200px local file
                     shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-                    iconSize: [16, 16], // Leaflet resizes to 16x16px
-                    shadowSize: [24, 24],
-                    iconAnchor: [8, 24],
-                    shadowAnchor: [8, 24],
-                    popupAnchor: [0, -24]
+                    iconSize: [20, 20], // Resized to 20x20px
+                    shadowSize: [30, 30], // Slightly larger pin base
+                    iconAnchor: [10, 30], // Center football, point at base
+                    shadowAnchor: [10, 30], // Align shadow
+                    popupAnchor: [0, -30] // Popup above football
                 });
 
                 function initMap() {
