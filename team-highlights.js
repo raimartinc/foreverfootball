@@ -223,4 +223,5 @@ const highlights = {
     "Aguilas Doradas": "Born in 2008 in Rionegro, Aguilas' golden eagles soar quietly in Categoria Primera A with no major titles yet. Estadio Alberto Grisales cheered their 2012 Primera B runner-up finish, a Colombian ascent."
 };
 
-export default highlights;
+// Expose globally
+window.highlights = highlights;

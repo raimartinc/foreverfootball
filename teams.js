@@ -1,4 +1,3 @@
-// @ts-nocheck
 const teams = [
     {
         "name": "AC Milan",
@@ -3317,8 +3316,6 @@ const teams = [
     }
 ];
 
+
 // Expose globally for index.html
 window.teams = teams;
-
-// Export for team-info.html
-export default teams;

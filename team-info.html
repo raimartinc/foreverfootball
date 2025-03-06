@@ -20,10 +20,9 @@
         <a href="contact.html">Contact</a> | 
         <a href="privacy-policy.html">Privacy Policy</a>
     </footer>
-    <script type="module">
-        import teams from './teams.js';
-        import highlights from './team-highlights.js';
-
+    <script src="teams.js"></script>
+    <script src="team-highlights.js"></script>
+    <script>
         console.log('Team Info script started');
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -31,14 +30,16 @@
             console.log('Team param:', teamName);
 
             const teamInfoDiv = document.getElementById('team-info');
-            if (!teamName || !teams || !highlights) {
+            if (!teamName || typeof teams === 'undefined' || typeof highlights === 'undefined') {
                 teamInfoDiv.innerHTML = '<p>Team not found or data not loaded!</p>';
+                console.log('Missing data - teamName:', teamName, 'teams:', teams, 'highlights:', highlights);
                 return;
             }
 
             const team = teams.find(t => t.name === decodeURIComponent(teamName));
             if (!team) {
                 teamInfoDiv.innerHTML = '<p>Team not found!</p>';
+                console.log('Team not in list:', decodeURIComponent(teamName));
                 return;
             }
 
@@ -57,7 +58,6 @@
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
             `;
 
-            // Trigger initial ad load with error handling
             try {
                 (adsbygoogle = window.adsbygoogle || []).push({});
             } catch (e) {
@@ -65,10 +65,8 @@
             }
         });
 
-        // Ad refresh function
         function navigateWithAdRefresh(url) {
             window.location.href = url;
-            // Auto Ads refresh on new page load
         }
     </script>
     <style>
