@@ -16,6 +16,7 @@
                 <button class="tab-btn active" data-tab="teams">Teams</button>
                 <button class="tab-btn" data-tab="map">Map</button>
             </div>
+            <div id="map-message" class="map-message"></div>
             <div id="teams" class="tab-content active">
                 <div id="team-select">
                     <select id="country" autocomplete="off"><option value="">Select Country</option></select>
@@ -47,6 +48,13 @@
         select { padding: 10px; font-size: 16px; margin-right: 10px; }
         #team-details { font-size: 18px; }
         #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
+        .map-message { 
+            text-align: center; 
+            font-size: 18px; 
+            color: #FF4500; 
+            margin: 10px 0; 
+            display: none; 
+        }
         footer { 
             text-align: center; 
             padding: 10px; 
@@ -78,6 +86,7 @@
                 // Tabs
                 console.log('Setting up tabs');
                 const tabs = document.querySelectorAll('.tab-btn');
+                const mapMessage = document.getElementById('map-message');
                 tabs.forEach(tab => {
                     tab.addEventListener('click', function() {
                         console.log('Tab clicked:', this.dataset.tab);
@@ -85,7 +94,13 @@
                         document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
                         document.getElementById(this.dataset.tab).classList.add('active');
                         this.classList.add('active');
-                        if (this.dataset.tab === 'map') initMap();
+                        if (this.dataset.tab === 'map') {
+                            initMap();
+                            mapMessage.style.display = 'block';
+                            mapMessage.textContent = 'Zoom in to find your team!';
+                        } else {
+                            mapMessage.style.display = 'none';
+                        }
                     });
                 });
 
@@ -112,7 +127,7 @@
 
                         teams.forEach(team => {
                             const marker = L.marker([team.lat, team.lon], { icon: footballPin })
-                                .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                                .bindPopup(`<a href="team-info.html?team=${encodeURIComponent(team.name)}">${team.name}</a><br>${team.city}`);
                             markers.push(marker);
                         });
 
