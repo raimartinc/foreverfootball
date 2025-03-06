@@ -9,7 +9,6 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Your HTML body content unchanged up to the script -->
     <div class="container">
         <div class="main">
             <h1>Forever Football</h1>
@@ -31,7 +30,6 @@
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
-    <!-- Your styles unchanged -->
     <style>
         body { 
             margin: 0; 
@@ -47,7 +45,8 @@
         .tab-content { display: none; }
         .tab-content.active { display: block; }
         #team-select { margin-bottom: 20px; }
-        select { padding: 10px; font-size: 16px; margin-right: 10px; }
+        select { padding: 10px; font-size: 16px; margin-right: 10px; background: white; color: black; }
+        select:focus { background: #e0e0e0; outline: none; } /* Light gray instead of blue */
         #team-details { font-size: 18px; }
         #map { height: 400px; width: 80%; margin: 0 auto; background: #ddd; }
         .map-message { 
@@ -71,175 +70,167 @@
         .more-info-btn { 
             margin-top: 10px; 
             padding: 8px 16px; 
-            background: #FFA500; 
+            background: blue; 
             color: white; 
             border: none; 
             border-radius: 5px; 
             cursor: pointer; 
         }
+        .more-info-btn:active { background: darkblue; }
     </style>
     <script>
         console.log('Script started');
 
-        // Global navigation function for ad refresh
-        function navigateWithAdRefresh(url) {
+        window.navigateWithAdRefresh = function(url) {
             console.log('Navigating to:', url);
             window.location.href = url;
-            // Auto Ads refresh on page load
-        }
+        };
 
-        try {
-            document.addEventListener('DOMContentLoaded', function() {
-                console.log('DOM loaded');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
 
-                // Tabs setup
-                console.log('Setting up tabs');
-                const tabs = document.querySelectorAll('.tab-btn');
-                const mapMessage = document.getElementById('map-message');
-                tabs.forEach(tab => {
-                    tab.addEventListener('click', function() {
-                        console.log('Tab clicked:', this.dataset.tab);
-                        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-                        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-                        document.getElementById(this.dataset.tab).classList.add('active');
-                        this.classList.add('active');
-                        if (this.dataset.tab === 'map') {
-                            initMap();
-                            mapMessage.style.display = 'block';
-                            mapMessage.textContent = 'Zoom in to find your team!';
-                        } else {
-                            mapMessage.style.display = 'none';
-                        }
-                    });
-                });
+            if (typeof teams === 'undefined') {
+                console.error('teams.js not loaded!');
+                document.getElementById('team-details').innerHTML = 'Error: Team data not loaded!';
+                return;
+            }
+            console.log('Teams loaded, count:', teams.length);
 
-                // Map with football pin
-                let map, markers = [];
-                const MIN_ZOOM_FOR_MARKERS = 4;
-                const footballPin = L.icon({
-                    iconUrl: 'images/football-pin.png',
-                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-                    iconSize: [20, 20],
-                    shadowSize: [30, 30],
-                    iconAnchor: [10, 30],
-                    shadowAnchor: [10, 30],
-                    popupAnchor: [0, -30]
-                });
-
-                function initMap() {
-                    console.log('Map init called');
-                    if (!map && typeof L !== 'undefined') {
-                        map = L.map('map').setView([20, 0], 2);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
-                            attribution: '© OpenStreetMap' 
-                        }).addTo(map);
-
-                        teams.forEach(team => {
-                            const marker = L.marker([team.lat, team.lon], { icon: footballPin })
-                                .bindPopup(`<a href="team-info.html?team=${encodeURIComponent(team.name)}">${team.name}</a><br>${team.city}`);
-                            markers.push(marker);
-                        });
-
-                        function updateMarkers() {
-                            const zoom = map.getZoom();
-                            console.log('Zoom level:', zoom);
-                            if (zoom >= MIN_ZOOM_FOR_MARKERS) {
-                                markers.forEach(marker => {
-                                    if (!map.hasLayer(marker)) map.addLayer(marker);
-                                });
-                            } else {
-                                markers.forEach(marker => {
-                                    if (map.hasLayer(marker)) map.removeLayer(marker);
-                                });
-                            }
-                        }
-
-                        updateMarkers();
-                        map.on('zoomend', updateMarkers);
-                    }
-                }
-
-                // Dropdowns
-                console.log('Teams check:', typeof teams);
-                if (typeof teams === 'undefined') {
-                    console.error('teams.js not loaded!');
-                    return;
-                }
-
-                console.log('Teams count:', teams.length);
-                const countrySelect = document.getElementById('country');
-                const citySelect = document.getElementById('city');
-                const teamSelect = document.getElementById('team');
-                const details = document.getElementById('team-details');
-
-                console.log('Populating countries');
-                const countries = [...new Set(teams.map(t => t.country))].sort();
-                console.log('Countries:', countries);
-                countries.forEach(country => {
-                    const option = document.createElement('option');
-                    option.value = country;
-                    option.textContent = country;
-                    countrySelect.appendChild(option);
-                });
-
-                countrySelect.addEventListener('change', function() {
-                    console.log('Country changed:', this.value);
-                    citySelect.innerHTML = '<option value="">Select City</option>';
-                    teamSelect.innerHTML = '<option value="">Select Team</option>';
-                    details.innerHTML = '';
-                    if (this.value) {
-                        const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
-                        console.log('Cities:', cities);
-                        cities.forEach(city => {
-                            const option = document.createElement('option');
-                            option.value = city;
-                            option.textContent = city;
-                            citySelect.appendChild(option);
-                        });
-                    }
-                });
-
-                citySelect.addEventListener('change', function() {
-                    console.log('City changed:', this.value);
-                    teamSelect.innerHTML = '<option value="">Select Team</option>';
-                    details.innerHTML = '';
-                    if (this.value) {
-                        const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
-                        console.log('Teams:', teamList.map(t => t.name));
-                        teamList.forEach(team => {
-                            const option = document.createElement('option');
-                            option.value = team.name;
-                            option.textContent = team.name;
-                            teamSelect.appendChild(option);
-                        });
-                    }
-                });
-
-                teamSelect.addEventListener('change', function() {
-                    console.log('Team changed:', this.value);
-                    details.innerHTML = '';
-                    if (this.value) {
-                        const team = teams.find(t => t.name === this.value);
-                        details.innerHTML = `
-                            <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
-                            <div><strong>Country:</strong> ${team.country}</div>
-                            <div><strong>League:</strong> ${team.league}</div>
-                            <div><strong>City:</strong> ${team.city}</div>
-                            <div><strong>Founded:</strong> ${team.founded}</div>
-                            <div><strong>Stadium:</strong> ${team.stadium}</div>
-                            <div><strong>Trophies:</strong> ${team.trophies}</div>
-                            <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
-                            <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
-                            <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
-                            <button class="more-info-btn" onclick="navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
-                        `;
-                        console.log(`More Info URL set: team-info.html?team=${encodeURIComponent(team.name)}`);
+            // Tabs setup
+            const tabs = document.querySelectorAll('.tab-btn');
+            const mapMessage = document.getElementById('map-message');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    console.log('Tab clicked:', this.dataset.tab);
+                    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                    document.getElementById(this.dataset.tab).classList.add('active');
+                    this.classList.add('active');
+                    if (this.dataset.tab === 'map') {
+                        initMap();
+                        mapMessage.style.display = 'block';
+                        mapMessage.textContent = 'Zoom in to find your team!';
+                    } else {
+                        mapMessage.style.display = 'none';
                     }
                 });
             });
-        } catch (e) {
-            console.error('Script error:', e);
-        }
+
+            // Map with football pin
+            let map, markers = [];
+            const MIN_ZOOM_FOR_MARKERS = 4;
+            const footballPin = L.icon({
+                iconUrl: 'images/football-pin.png',
+                shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                iconSize: [20, 20],
+                shadowSize: [30, 30],
+                iconAnchor: [10, 30],
+                shadowAnchor: [10, 30],
+                popupAnchor: [0, -30]
+            });
+
+            function initMap() {
+                console.log('Map init called');
+                if (!map && typeof L !== 'undefined') {
+                    map = L.map('map').setView([20, 0], 2);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+                        attribution: '© OpenStreetMap' 
+                    }).addTo(map);
+
+                    teams.forEach(team => {
+                        const marker = L.marker([team.lat, team.lon], { icon: footballPin })
+                            .bindPopup(`<a href="team-info.html?team=${encodeURIComponent(team.name)}">${team.name}</a><br>${team.city}`);
+                        markers.push(marker);
+                    });
+
+                    function updateMarkers() {
+                        const zoom = map.getZoom();
+                        console.log('Zoom level:', zoom);
+                        if (zoom >= MIN_ZOOM_FOR_MARKERS) {
+                            markers.forEach(marker => {
+                                if (!map.hasLayer(marker)) map.addLayer(marker);
+                            });
+                        } else {
+                            markers.forEach(marker => {
+                                if (map.hasLayer(marker)) map.removeLayer(marker);
+                            });
+                        }
+                    }
+
+                    updateMarkers();
+                    map.on('zoomend', updateMarkers);
+                }
+            }
+
+            // Dropdowns
+            const countrySelect = document.getElementById('country');
+            const citySelect = document.getElementById('city');
+            const teamSelect = document.getElementById('team');
+            const details = document.getElementById('team-details');
+
+            const countries = [...new Set(teams.map(t => t.country))].sort();
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
+            });
+
+            countrySelect.addEventListener('change', function() {
+                citySelect.innerHTML = '<option value="">Select City</option>';
+                teamSelect.innerHTML = '<option value="">Select Team</option>';
+                details.innerHTML = '';
+                if (this.value) {
+                    const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
+                    cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city;
+                        option.textContent = city;
+                        citySelect.appendChild(option);
+                    });
+                }
+            });
+
+            citySelect.addEventListener('change', function() {
+                teamSelect.innerHTML = '<option value="">Select Team</option>';
+                details.innerHTML = '';
+                if (this.value) {
+                    const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
+                    teamList.forEach(team => {
+                        const option = document.createElement('option');
+                        option.value = team.name;
+                        option.textContent = team.name;
+                        teamSelect.appendChild(option);
+                    });
+                }
+            });
+
+            teamSelect.addEventListener('change', function() {
+                details.innerHTML = '';
+                if (this.value) {
+                    const team = teams.find(t => t.name === this.value);
+                    details.innerHTML = `
+                        <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                        <div><strong>Country:</strong> ${team.country}</div>
+                        <div><strong>League:</strong> ${team.league}</div>
+                        <div><strong>City:</strong> ${team.city}</div>
+                        <div><strong>Founded:</strong> ${team.founded}</div>
+                        <div><strong>Stadium:</strong> ${team.stadium}</div>
+                        <div><strong>Trophies:</strong> ${team.trophies}</div>
+                        <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
+                        <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
+                        <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                    `;
+                }
+            });
+
+            try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+                console.error('AdSense push failed:', e);
+            }
+        });
     </script>
     <footer>
         <a href="index.html">Home</a> | 

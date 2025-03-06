@@ -3316,4 +3316,8 @@ const teams = [
     }
 ];
 
+// Make teams global for index.html
+window.teams = teams;
+
+// Export for team-info.html
 export default teams;
