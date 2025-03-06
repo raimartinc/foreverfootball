@@ -79,18 +79,49 @@
                     });
                 });
 
-                // Map
-                let mapInitialized = false;
+                // Map with football pin
+                let map, markers = [];
+                const MIN_ZOOM_FOR_MARKERS = 6;
+                const footballPin = L.icon({
+                    iconUrl: 'images/football-pin.png', // Your 200x200px local file
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    iconSize: [16, 16], // Leaflet resizes to 16x16px
+                    shadowSize: [24, 24],
+                    iconAnchor: [8, 24],
+                    shadowAnchor: [8, 24],
+                    popupAnchor: [0, -24]
+                });
+
                 function initMap() {
                     console.log('Map init called');
-                    if (!mapInitialized && typeof L !== 'undefined') {
-                        const map = L.map('map').setView([20, 0], 2);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+                    if (!map && typeof L !== 'undefined') {
+                        map = L.map('map').setView([20, 0], 2);
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+                            attribution: '© OpenStreetMap' 
+                        }).addTo(map);
+
                         teams.forEach(team => {
-                            L.marker([team.lat, team.lon]).addTo(map)
+                            const marker = L.marker([team.lat, team.lon], { icon: footballPin })
                                 .bindPopup(`${team.name} (${team.country})<br>${team.league}<br>${team.stadium}`);
+                            markers.push(marker);
                         });
-                        mapInitialized = true;
+
+                        function updateMarkers() {
+                            const zoom = map.getZoom();
+                            console.log('Zoom level:', zoom);
+                            if (zoom >= MIN_ZOOM_FOR_MARKERS) {
+                                markers.forEach(marker => {
+                                    if (!map.hasLayer(marker)) map.addLayer(marker);
+                                });
+                            } else {
+                                markers.forEach(marker => {
+                                    if (map.hasLayer(marker)) map.removeLayer(marker);
+                                });
+                            }
+                        }
+
+                        updateMarkers();
+                        map.on('zoomend', updateMarkers);
                     }
                 }
 
