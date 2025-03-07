@@ -26,8 +26,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 4, Ligue 2: 2",
         "mustKnowFact": "Promoted back to Ligue 1 for 2024-25 after 2022 win.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/aj_auxerre.png",
+        "uniform": "uniforms/aj_auxerre.png"
     },
     {
         "name": "AS Monaco",
@@ -56,8 +56,8 @@ const teams = [
         "trophies": "Serie A: 3, Coppa Italia: 9, Supercoppa Italiana: 2, Conference League: 1",
         "mustKnowFact": "Totti's one-club legend.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/as_roma.png",
+        "uniform": "uniforms/as_roma.png"
     },
     {
         "name": "AS Saint-Étienne",
@@ -71,8 +71,8 @@ const teams = [
         "trophies": "Ligue 1: 10, Coupe de France: 6, Coupe de la Ligue: 1, Trophée des Champions: 5, Ligue 2: 3",
         "mustKnowFact": "Back in Ligue 1 for 2024-25 after two years.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/as_saint-etienne.png",
+        "uniform": "uniforms/as_saint-etienne.png"
     },
     {
         "name": "AVS",
@@ -86,8 +86,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New kids from Aves.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/avs.png",
+        "uniform": "uniforms/avs.png"
     },
     {
         "name": "AZ Alkmaar",
@@ -222,7 +222,7 @@ const teams = [
         "mustKnowFact": "Small-town yellow surprise.",
         "active": true,
         "logo": "logos/arouca.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/arouca.png"
     },
     {
         "name": "Arsenal",
@@ -432,7 +432,7 @@ const teams = [
         "mustKnowFact": "Bavarian underdogs thrive.",
         "active": true,
         "logo": "logos/augsburg.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/augsburg.png"
     },
     {
         "name": "Bahia",
@@ -536,8 +536,8 @@ const teams = [
         "trophies": "Primeira Liga: 1, Taça de Portugal: 3",
         "mustKnowFact": "Historic Lisbon blues.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/belenenses.png",
+        "uniform": "uniforms/belenenses.png"
     },
     {
         "name": "Belgrano",
@@ -567,7 +567,7 @@ const teams = [
         "mustKnowFact": "Eagles dominate Portugal.",
         "active": true,
         "logo": "logos/benfica.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/benfica.png"
     },
     {
         "name": "Boavista",
@@ -582,7 +582,7 @@ const teams = [
         "mustKnowFact": "Panthers' 2001 surprise.",
         "active": true,
         "logo": "logos/boavista.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/boavista.png"
     },
     {
         "name": "Boca Juniors",
@@ -612,7 +612,7 @@ const teams = [
         "mustKnowFact": "Ruhr's blue-and-white.",
         "active": true,
         "logo": "logos/bochum.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/bochum.png"
     },
     {
         "name": "Bologna",
@@ -717,7 +717,7 @@ const teams = [
         "mustKnowFact": "The Arsenalists challenge big three.",
         "active": true,
         "logo": "logos/braga.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/braga.png"
     },
     {
         "name": "Bragantino",
@@ -761,8 +761,8 @@ const teams = [
         "trophies": "Third Division/League One: 3, Second Division/Championship: 2",
         "mustKnowFact": "Seagulls soaring in style.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/brighton_&_hove_albion.png",
+        "uniform": "uniforms/brighton_&_hove_albion.png"
     },
     {
         "name": "Cagliari",
@@ -792,7 +792,7 @@ const teams = [
         "mustKnowFact": "Geese fly in Lisbon.",
         "active": true,
         "logo": "logos/casa_pia.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/casa_pia.png"
     },
     {
         "name": "Celta Vigo",
@@ -821,8 +821,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Railway roots in Santiago.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/central_cordoba_sde.png",
+        "uniform": "uniforms/central_cordoba_sde.png"
     },
     {
         "name": "Chelsea",
@@ -942,7 +942,7 @@ const teams = [
         "mustKnowFact": "Golden Dourado rises.",
         "active": true,
         "logo": "logos/cuiaba.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/cuiaba.png"
     },
     {
         "name": "Defensa y Justicia",
@@ -1032,7 +1032,7 @@ const teams = [
         "mustKnowFact": "Primera debutants in 2024.",
         "active": true,
         "logo": "logos/deportivo_riestra.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/deportivo_riestra.png"
     },
     {
         "name": "Eintracht Frankfurt",
@@ -1047,7 +1047,7 @@ const teams = [
         "mustKnowFact": "2022 Europa kings.",
         "active": true,
         "logo": "logos/eintracht_frankfurt.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/eintracht_frankfurt.png"
     },
     {
         "name": "Empoli",
@@ -1106,8 +1106,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Coastal yellow-and-blue.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/estoril.png",
+        "uniform": "uniforms/estoril.png"
     },
     {
         "name": "Estrela da Amadora",
@@ -1121,8 +1121,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1",
         "mustKnowFact": "Stars shine near Lisbon.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/estrela_da_amadora.png",
+        "uniform": "uniforms/estrela_da_amadora.png"
     },
     {
         "name": "Estudiantes de La Plata",
@@ -1181,8 +1181,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Northern upstarts climb.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/famalicao.png",
+        "uniform": "uniforms/famalicao.png"
     },
     {
         "name": "Farense",
@@ -1196,8 +1196,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Algarve's lions roar.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/farense.png",
+        "uniform": "uniforms/farense.png"
     },
     {
         "name": "Feyenoord",
@@ -1272,7 +1272,7 @@ const teams = [
         "mustKnowFact": "Lion of the Northeast.",
         "active": true,
         "logo": "logos/fortaleza.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/fortaleza.png"
     },
     {
         "name": "Fortaleza CEIF",
@@ -1317,7 +1317,7 @@ const teams = [
         "mustKnowFact": "Black Forest overachievers.",
         "active": true,
         "logo": "logos/freiburg.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/freiburg.png"
     },
     {
         "name": "Fulham",
@@ -1377,7 +1377,7 @@ const teams = [
         "mustKnowFact": "Roosters crow in Barcelos.",
         "active": true,
         "logo": "logos/gil_vicente.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/gil_vicente.png"
     },
     {
         "name": "Gimnasia y Esgrima La Plata",
@@ -1391,8 +1391,8 @@ const teams = [
         "trophies": "Primera División: 1, Copa Centenario: 1",
         "mustKnowFact": "Oldest club in Argentina.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/gimnasia_y_esgrima_la_plata.png",
+        "uniform": "uniforms/gimnasia_y_esgrima_la_plata.png"
     },
     {
         "name": "Girona",
@@ -1481,8 +1481,8 @@ const teams = [
         "trophies": "Bundesliga: 6, DFB-Pokal: 3, European Cup: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "Northern giants aim back.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/hamburg_sv.png",
+        "uniform": "uniforms/hamburg_sv.png"
     },
     {
         "name": "Heerenveen",
@@ -1511,8 +1511,8 @@ const teams = [
         "trophies": "2. Bundesliga: 1",
         "mustKnowFact": "Tiny town's big dream.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/heidenheim.png",
+        "uniform": "uniforms/heidenheim.png"
     },
     {
         "name": "Hellas Verona",
@@ -1526,8 +1526,8 @@ const teams = [
         "trophies": "Serie A: 1, Serie B: 3",
         "mustKnowFact": "1985's shock Scudetto.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/hellas_verona.png",
+        "uniform": "uniforms/hellas_verona.png"
     },
     {
         "name": "Heracles Almelo",
@@ -1557,7 +1557,7 @@ const teams = [
         "mustKnowFact": "Village club's miracle.",
         "active": true,
         "logo": "logos/hoffenheim.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/hoffenheim.png"
     },
     {
         "name": "Holstein Kiel",
@@ -1572,7 +1572,7 @@ const teams = [
         "mustKnowFact": "Northern newcomers in 2024.",
         "active": true,
         "logo": "logos/holstein_kiel.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/holstein_kiel.png"
     },
     {
         "name": "Huracán",
@@ -1646,8 +1646,8 @@ const teams = [
         "trophies": "Primera B Nacional: 2",
         "mustKnowFact": "Córdoba's academic fighters.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/instituto_acc.png",
+        "uniform": "uniforms/instituto_acc.png"
     },
     {
         "name": "Inter Milan",
@@ -1737,7 +1737,7 @@ const teams = [
         "mustKnowFact": "Green resurgence in Serie A.",
         "active": true,
         "logo": "logos/juventude.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/juventude.png"
     },
     {
         "name": "Juventus",
@@ -1781,8 +1781,8 @@ const teams = [
         "trophies": "Bundesliga: 3, DFB-Pokal: 4, 2. Bundesliga: 4",
         "mustKnowFact": "The Billy Goats' spirit.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/koln.png",
+        "uniform": "uniforms/koln.png"
     },
     {
         "name": "La Equidad",
@@ -1811,8 +1811,8 @@ const teams = [
         "trophies": "Primera División: 2, Copa Sudamericana: 1, Supercopa Argentina: 1, Primera B Nacional: 1",
         "mustKnowFact": "Granate's suburban success.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/lanus.png",
+        "uniform": "uniforms/lanus.png"
     },
     {
         "name": "Las Palmas",
@@ -1856,8 +1856,8 @@ const teams = [
         "trophies": "Ligue 1: 0, Coupe de France: 1, Ligue 2: 6",
         "mustKnowFact": "Oldest club in France, steady in Ligue 1.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/le_havre_ac.png",
+        "uniform": "uniforms/le_havre_ac.png"
     },
     {
         "name": "Lecce",
@@ -1961,8 +1961,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Carnival club's grit.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/mainz_05.png",
+        "uniform": "uniforms/mainz_05.png"
     },
     {
         "name": "Mallorca",
@@ -2021,8 +2021,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1",
         "mustKnowFact": "Madeira's green-and-red.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/maritimo.png",
+        "uniform": "uniforms/maritimo.png"
     },
     {
         "name": "Mazatlán",
@@ -2112,7 +2112,7 @@ const teams = [
         "mustKnowFact": "Small town, big heart.",
         "active": true,
         "logo": "logos/moreirense.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/moreirense.png"
     },
     {
         "name": "NAC Breda",
@@ -2156,8 +2156,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Madeira's black-and-white.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/nacional.png",
+        "uniform": "uniforms/nacional.png"
     },
     {
         "name": "Napoli",
@@ -2276,8 +2276,8 @@ const teams = [
         "trophies": "Ligue 1: 9, Champions League: 1, Coupe de France: 10, Coupe de la Ligue: 3, Trophée des Champions: 3, Ligue 2: 1",
         "mustKnowFact": "France's only Champions League winner (1993).",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/olympique_marseille.png",
+        "uniform": "uniforms/olympique_marseille.png"
     },
     {
         "name": "Once Caldas",
@@ -2381,8 +2381,8 @@ const teams = [
         "trophies": "Ligue 1: 12, Coupe de France: 15, Coupe de la Ligue: 10, Trophée des Champions: 12, Ligue 2: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "2024 Trophée des Champions winners over Monaco.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/paris_saint-germain.png",
+        "uniform": "uniforms/paris_saint-germain.png"
     },
     {
         "name": "Parma",
@@ -2396,8 +2396,8 @@ const teams = [
         "trophies": "Coppa Italia: 3, UEFA Cup: 2, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 1, Serie B: 4",
         "mustKnowFact": "90s European glory.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/parma.png",
+        "uniform": "uniforms/parma.png"
     },
     {
         "name": "Patriotas",
@@ -2442,7 +2442,7 @@ const teams = [
         "mustKnowFact": "Dragons' European glory.",
         "active": true,
         "logo": "logos/porto.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/porto.png"
     },
     {
         "name": "Puebla",
@@ -2531,8 +2531,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 3, Coupe de la Ligue: 3, Ligue 2: 1",
         "mustKnowFact": "Alsace's blue-and-white pride.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/rc_strasbourg_alsace.png",
+        "uniform": "uniforms/rc_strasbourg_alsace.png"
     },
     {
         "name": "RKC Waalwijk",
@@ -2576,8 +2576,8 @@ const teams = [
         "trophies": "Segunda División: 1",
         "mustKnowFact": "Vallecas' working-class heroes.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/rayo_vallecano.png",
+        "uniform": "uniforms/rayo_vallecano.png"
     },
     {
         "name": "Real Betis",
@@ -2652,7 +2652,7 @@ const teams = [
         "mustKnowFact": "River Ave's green stripes.",
         "active": true,
         "logo": "logos/rio_ave.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/rio_ave.png"
     },
     {
         "name": "River Plate",
@@ -2727,7 +2727,7 @@ const teams = [
         "mustKnowFact": "Azores' lone warriors.",
         "active": true,
         "logo": "logos/santa_clara.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/santa_clara.png"
     },
     {
         "name": "Santos FC",
@@ -2741,8 +2741,8 @@ const teams = [
         "trophies": "Série A: 7, Copa do Brasil: 1, Campeonato Paulista: 22, Copa Libertadores: 3, Intercontinental Cup: 2",
         "mustKnowFact": "Pele's iconic home.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/santos_fc.png",
+        "uniform": "uniforms/santos_fc.png"
     },
     {
         "name": "Santos Laguna",
@@ -2817,7 +2817,7 @@ const teams = [
         "mustKnowFact": "Miners' blue legacy.",
         "active": true,
         "logo": "logos/schalke_04.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/schalke_04.png"
     },
     {
         "name": "Sevilla",
@@ -2877,7 +2877,7 @@ const teams = [
         "mustKnowFact": "Lions roar in green.",
         "active": true,
         "logo": "logos/sporting_cp.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/sporting_cp.png"
     },
     {
         "name": "Stade Brestois 29",
@@ -2936,8 +2936,8 @@ const teams = [
         "trophies": "Primera División: 1, Copa CONMEBOL: 1, Primera B Nacional: 2",
         "mustKnowFact": "Córdoba's modern power.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/talleres.png",
+        "uniform": "uniforms/talleres.png"
     },
     {
         "name": "Tigre",
@@ -3041,8 +3041,8 @@ const teams = [
         "trophies": "Coupe de France: 2, Ligue 2: 4",
         "mustKnowFact": "2023 Coupe de France champs.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/toulouse_fc.png",
+        "uniform": "uniforms/toulouse_fc.png"
     },
     {
         "name": "Twente",
@@ -3087,7 +3087,7 @@ const teams = [
         "mustKnowFact": "East Berlin's cult heroes.",
         "active": true,
         "logo": "logos/union_berlin.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/union_berlin.png"
     },
     {
         "name": "Unión",
@@ -3101,8 +3101,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Santa Fe's red-and-white faithful.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/union.png",
+        "uniform": "uniforms/union.png"
     },
     {
         "name": "Utrecht",
@@ -3162,7 +3162,7 @@ const teams = [
         "mustKnowFact": "Swabian pride endures.",
         "active": true,
         "logo": "logos/vfb_stuttgart.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/vfb_stuttgart.png"
     },
     {
         "name": "Villarreal",
@@ -3221,8 +3221,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1, Supertaça Cândido de Oliveira: 1",
         "mustKnowFact": "Conquerors of the north.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/vitoria_guimaraes.png",
+        "uniform": "uniforms/vitoria_guimaraes.png"
     },
     {
         "name": "Vélez Sarsfield",
@@ -3236,8 +3236,8 @@ const teams = [
         "trophies": "Primera División: 10, Copa Libertadores: 1, Intercontinental Cup: 1, Copa Interamericana: 1, Supercopa Argentina: 1, Recopa Sudamericana: 1",
         "mustKnowFact": "Fortí­n's blue-and-white fortress.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/velez_sarsfield.png",
+        "uniform": "uniforms/velez_sarsfield.png"
     },
     {
         "name": "Werder Bremen",
@@ -3252,7 +3252,7 @@ const teams = [
         "mustKnowFact": "Green-and-white tradition.",
         "active": true,
         "logo": "logos/werder_bremen.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/werder_bremen.png"
     },
     {
         "name": "West Ham United",
@@ -3282,7 +3282,7 @@ const teams = [
         "mustKnowFact": "VW's football venture.",
         "active": true,
         "logo": "logos/wolfsburg.png",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "uniform": "uniforms/wolfsburg.png"
     },
     {
         "name": "Wolverhampton Wanderers",
@@ -3296,8 +3296,8 @@ const teams = [
         "trophies": "First Division: 3, FA Cup: 4, League Cup: 2, Community Shield: 4, Championship: 3",
         "mustKnowFact": "Wolves' golden old days.",
         "active": true,
-        "logo": "https://via.placeholder.com/200?text=Logo",
-        "uniform": "https://via.placeholder.com/200?text=Uniform"
+        "logo": "logos/wolverhampton_wanderers.png",
+        "uniform": "uniforms/wolverhampton_wanderers.png"
     },
     {
         "name": "Águilas Doradas",
@@ -3313,9 +3313,848 @@ const teams = [
         "active": true,
         "logo": "logos/aguilas-doradas.png",
         "uniform": "uniforms/aguilas-doradas.png"
+    },
+    {
+        "name": "Adana Demirspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Adana",
+        "lat": 36.9914,
+        "lon": 35.3308,
+        "founded": 1940,
+        "stadium": "Adana Stadium",
+        "trophies": "1. Lig: 2",
+        "mustKnowFact": "Blue Lightning strikes in Adana.",
+        "active": true,
+        "logo": "logos/adana_demirspor.png",
+        "uniform": "uniforms/adana_demirspor.png"
+    },
+    {
+        "name": "Alanyaspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Alanya",
+        "lat": 36.5438,
+        "lon": 32.0081,
+        "founded": 1948,
+        "stadium": "Alanya Oba Stadium",
+        "trophies": "",
+        "mustKnowFact": "Tourist town team with grit.",
+        "active": true,
+        "logo": "logos/alanyaspor.png",
+        "uniform": "uniforms/alanyaspor.png"
+    },
+    {
+        "name": "Ankaragücü",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Ankara",
+        "lat": 39.9208,
+        "lon": 32.8541,
+        "founded": 1910,
+        "stadium": "Eryaman Stadium",
+        "trophies": "Turkish Cup: 2",
+        "mustKnowFact": "Capital's yellow and navy pride.",
+        "active": true,
+        "logo": "logos/ankaragucu.png",
+        "uniform": "uniforms/ankaragucu.png"
+    },
+    {
+        "name": "Antalyaspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Antalya",
+        "lat": 36.8841,
+        "lon": 30.7056,
+        "founded": 1966,
+        "stadium": "Antalya Stadium",
+        "trophies": "",
+        "mustKnowFact": "Scorpions sting on the coast.",
+        "active": true,
+        "logo": "logos/antalyaspor.png",
+        "uniform": "uniforms/antalyaspor.png"
+    },
+    {
+        "name": "Başakşehir",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 41.1039,
+        "lon": 28.808,
+        "founded": 1990,
+        "stadium": "Başakşehir Fatih Terim Stadium",
+        "trophies": "Süper Lig: 1",
+        "mustKnowFact": "Istanbul's modern underdog champs.",
+        "active": true,
+        "logo": "logos/basaksehir.png",
+        "uniform": "uniforms/basaksehir.png"
+    },
+    {
+        "name": "Beşiktaş",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 41.039,
+        "lon": 28.9948,
+        "founded": 1903,
+        "stadium": "Vodafone Park",
+        "trophies": "Süper Lig: 16, Turkish Cup: 10",
+        "mustKnowFact": "Black Eagles soar over the Bosphorus.",
+        "active": true,
+        "logo": "logos/besiktas.png",
+        "uniform": "uniforms/besiktas.png"
+    },
+    {
+        "name": "Bodrumspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Bodrum",
+        "lat": 37.0344,
+        "lon": 27.4305,
+        "founded": 1931,
+        "stadium": "Bodrum District Stadium",
+        "trophies": "",
+        "mustKnowFact": "New kids from the resort town.",
+        "active": true,
+        "logo": "logos/bodrumspor.png",
+        "uniform": "uniforms/bodrumspor.png"
+    },
+    {
+        "name": "Eyüpspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 41.0505,
+        "lon": 28.9333,
+        "founded": 1919,
+        "stadium": "Eyüp Stadium",
+        "trophies": "",
+        "mustKnowFact": "Purple-yellow rise from Istanbul's north.",
+        "active": true,
+        "logo": "logos/eyupspor.png",
+        "uniform": "uniforms/eyupspor.png"
+    },
+    {
+        "name": "Fenerbahçe",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 40.9879,
+        "lon": 29.036,
+        "founded": 1907,
+        "stadium": "Şükrü Saracoğlu Stadium",
+        "trophies": "Süper Lig: 19, Turkish Cup: 7",
+        "mustKnowFact": "Yellow Canaries of Kadıköy.",
+        "active": true,
+        "logo": "logos/fenerbahce.png",
+        "uniform": "uniforms/fenerbahce.png"
+    },
+    {
+        "name": "Galatasaray",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 41.1028,
+        "lon": 28.9877,
+        "founded": 1905,
+        "stadium": "Türk Telekom Stadium",
+        "trophies": "Süper Lig: 24, Turkish Cup: 18, UEFA Cup: 1",
+        "mustKnowFact": "Lions roared to Europe's top in 2000.",
+        "active": true,
+        "logo": "logos/galatasaray.png",
+        "uniform": "uniforms/galatasaray.png"
+    },
+    {
+        "name": "Gaziantep",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Gaziantep",
+        "lat": 37.0662,
+        "lon": 37.3781,
+        "founded": 1969,
+        "stadium": "Gaziantep Stadium",
+        "trophies": "",
+        "mustKnowFact": "Falcons of the southeast.",
+        "active": true,
+        "logo": "logos/gaziantep.png",
+        "uniform": "uniforms/gaziantep.png"
+    },
+    {
+        "name": "Göztepe",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Izmir",
+        "lat": 38.394,
+        "lon": 27.0808,
+        "founded": 1925,
+        "stadium": "Gürsel Aksel Stadium",
+        "trophies": "Turkish Cup: 2",
+        "mustKnowFact": "Izmir's yellow-red warriors.",
+        "active": true,
+        "logo": "logos/goztepe.png",
+        "uniform": "uniforms/goztepe.png"
+    },
+    {
+        "name": "Hatayspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Hatay",
+        "lat": 36.2026,
+        "lon": 36.1605,
+        "founded": 1967,
+        "stadium": "New Hatay Stadium",
+        "trophies": "",
+        "mustKnowFact": "Resilient spirit from the south.",
+        "active": true,
+        "logo": "logos/hatayspor.png",
+        "uniform": "uniforms/hatayspor.png"
+    },
+    {
+        "name": "Kasımpaşa",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Istanbul",
+        "lat": 41.0331,
+        "lon": 28.9662,
+        "founded": 1921,
+        "stadium": "Recep Tayyip Erdoğan Stadium",
+        "trophies": "",
+        "mustKnowFact": "Apaches of Beyoğlu fight on.",
+        "active": true,
+        "logo": "logos/kasimpasa.png",
+        "uniform": "uniforms/kasimpasa.png"
+    },
+    {
+        "name": "Kayserispor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Kayseri",
+        "lat": 38.7322,
+        "lon": 35.4787,
+        "founded": 1966,
+        "stadium": "Kadir Has Stadium",
+        "trophies": "Turkish Cup: 1",
+        "mustKnowFact": "Anatolia's yellow-red stars.",
+        "active": true,
+        "logo": "logos/kayserispor.png",
+        "uniform": "uniforms/kayserispor.png"
+    },
+    {
+        "name": "Konyaspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Konya",
+        "lat": 37.876,
+        "lon": 32.4846,
+        "founded": 1922,
+        "stadium": "Konya Metropolitan Stadium",
+        "trophies": "Turkish Cup: 1",
+        "mustKnowFact": "Green-white eagles of the plains.",
+        "active": true,
+        "logo": "logos/konyaspor.png",
+        "uniform": "uniforms/konyaspor.png"
+    },
+    {
+        "name": "Rizespor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Rize",
+        "lat": 41.0201,
+        "lon": 40.5234,
+        "founded": 1953,
+        "stadium": "Çaykur Didi Stadium",
+        "trophies": "",
+        "mustKnowFact": "Black Sea's green-blue battlers.",
+        "active": true,
+        "logo": "logos/rizespor.png",
+        "uniform": "uniforms/rizespor.png"
+    },
+    {
+        "name": "Samsunspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Samsun",
+        "lat": 41.2867,
+        "lon": 36.33,
+        "founded": 1965,
+        "stadium": "Samsun 19 Mayıs Stadium",
+        "trophies": "",
+        "mustKnowFact": "Red lightning from the north coast.",
+        "active": true,
+        "logo": "logos/samsunspor.png",
+        "uniform": "uniforms/samsunspor.png"
+    },
+    {
+        "name": "Sivasspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Sivas",
+        "lat": 39.7477,
+        "lon": 37.0161,
+        "founded": 1967,
+        "stadium": "New Sivas 4 Eylül Stadium",
+        "trophies": "Süper Lig: 1, Turkish Cup: 1",
+        "mustKnowFact": "Yiğidolar's central stronghold.",
+        "active": true,
+        "logo": "logos/sivasspor.png",
+        "uniform": "uniforms/sivasspor.png"
+    },
+    {
+        "name": "Trabzonspor",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "city": "Trabzon",
+        "lat": 41.0027,
+        "lon": 39.7168,
+        "founded": 1967,
+        "stadium": "Şenol Güneş Stadium",
+        "trophies": "Süper Lig: 7, Turkish Cup: 9",
+        "mustKnowFact": "Black Sea Storm breaks Istanbul's grip.",
+        "active": true,
+        "logo": "logos/trabzonspor.png",
+        "uniform": "uniforms/trabzonspor.png"
+    },
+    {
+        "name": "Avispa Fukuoka",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Fukuoka",
+        "lat": 33.5859,
+        "lon": 130.4519,
+        "founded": 1982,
+        "stadium": "Best Denki Stadium",
+        "trophies": "",
+        "mustKnowFact": "Hornets buzz in Kyushu.",
+        "active": true,
+        "logo": "logos/avispa_fukuoka.png",
+        "uniform": "uniforms/avispa_fukuoka.png"
+    },
+    {
+        "name": "Cerezo Osaka",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Osaka",
+        "lat": 34.6139,
+        "lon": 135.5183,
+        "founded": 1957,
+        "stadium": "Yanmar Stadium Nagai",
+        "trophies": "J1 League: 4, Emperor's Cup: 4",
+        "mustKnowFact": "Cherry blossoms bloom in pink.",
+        "active": true,
+        "logo": "logos/cerezo_osaka.png",
+        "uniform": "uniforms/cerezo_osaka.png"
+    },
+    {
+        "name": "Consadole Sapporo",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Sapporo",
+        "lat": 43.015,
+        "lon": 141.4101,
+        "founded": 1935,
+        "stadium": "Sapporo Dome",
+        "trophies": "",
+        "mustKnowFact": "Hokkaido's red-black pioneers.",
+        "active": true,
+        "logo": "logos/consadole-sapporo.png",
+        "uniform": "uniforms/consadole-sapporo.png"
+    },
+    {
+        "name": "FC Tokyo",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Tokyo",
+        "lat": 35.6705,
+        "lon": 139.7176,
+        "founded": 1935,
+        "stadium": "Ajinomoto Stadium",
+        "trophies": "J.League Cup: 3",
+        "mustKnowFact": "Capital's blue-red warriors.",
+        "active": true,
+        "logo": "logos/fc_tokyo.png",
+        "uniform": "uniforms/fc_tokyo.png"
+    },
+    {
+        "name": "Gamba Osaka",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Osaka",
+        "lat": 34.8022,
+        "lon": 135.531,
+        "founded": 1980,
+        "stadium": "Panasonic Stadium Suita",
+        "trophies": "J1 League: 2, Emperor's Cup: 4, AFC Champions League: 1",
+        "mustKnowFact": "Osaka's blue-black kings.",
+        "active": true,
+        "logo": "logos/gamba_osaka.png",
+        "uniform": "uniforms/gamba_osaka.png"
+    },
+    {
+        "name": "Júbilo Iwata",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Iwata",
+        "lat": 34.7179,
+        "lon": 137.8766,
+        "founded": 1972,
+        "stadium": "Yamaha Stadium",
+        "trophies": "J1 League: 4",
+        "mustKnowFact": "Blue jubilation returns.",
+        "active": true,
+        "logo": "logos/jubilo_iwata.png",
+        "uniform": "uniforms/jubilo-iwata.png"
+    },
+    {
+        "name": "Kashima Antlers",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Kashima",
+        "lat": 35.9919,
+        "lon": 140.6438,
+        "founded": 1947,
+        "stadium": "Kashima Soccer Stadium",
+        "trophies": "J1 League: 8, Emperor's Cup: 5, AFC Champions League: 1",
+        "mustKnowFact": "Antlers dominate Japan's east.",
+        "active": true,
+        "logo": "logos/kashima_antlers.png",
+        "uniform": "uniforms/kashima_antlers.png"
+    },
+    {
+        "name": "Kashiwa Reysol",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Kashiwa",
+        "lat": 35.8652,
+        "lon": 139.9753,
+        "founded": 1940,
+        "stadium": "Sankyo Frontier Kashiwa Stadium",
+        "trophies": "J1 League: 2, Emperor's Cup: 1",
+        "mustKnowFact": "Yellow sun rises near Tokyo.",
+        "active": true,
+        "logo": "logos/kashiwa_reysol.png",
+        "uniform": "uniforms/kashiwa_reysol.png"
+    },
+    {
+        "name": "Kawasaki Frontale",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Kawasaki",
+        "lat": 35.5291,
+        "lon": 139.7162,
+        "founded": 1955,
+        "stadium": "Kawasaki Todoroki Stadium",
+        "trophies": "J1 League: 4, Emperor's Cup: 1",
+        "mustKnowFact": "Blue juggernaut of Kanagawa.",
+        "active": true,
+        "logo": "logos/kawasaki_frontale.png",
+        "uniform": "uniforms/kawasaki_frontale.png"
+    },
+    {
+        "name": "Kyoto Sanga",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Kyoto",
+        "lat": 34.9858,
+        "lon": 135.7188,
+        "founded": 1922,
+        "stadium": "Sanga Stadium by Kyocera",
+        "trophies": "Emperor's Cup: 1",
+        "mustKnowFact": "Purple heritage in ancient capital.",
+        "active": true,
+        "logo": "logos/kyoto_sanga.png",
+        "uniform": "uniforms/kyoto-sanga.png"
+    },
+    {
+        "name": "Machida Zelvia",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Machida",
+        "lat": 35.5489,
+        "lon": 139.4384,
+        "founded": 1989,
+        "stadium": "Machida GION Stadium",
+        "trophies": "",
+        "mustKnowFact": "Tokyo suburb's new stars.",
+        "active": true,
+        "logo": "logos/machida_zelvia.png",
+        "uniform": "uniforms/machida-zelvia.png"
+    },
+    {
+        "name": "Nagoya Grampus",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Nagoya",
+        "lat": 35.0844,
+        "lon": 137.1707,
+        "founded": 1939,
+        "stadium": "Toyota Stadium",
+        "trophies": "J1 League: 1, Emperor's Cup: 2",
+        "mustKnowFact": "Red whales swim in Aichi.",
+        "active": true,
+        "logo": "logos/nagoya_grampus.png",
+        "uniform": "uniforms/nagoya_grampus.png"
+    },
+    {
+        "name": "Sagan Tosu",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Tosu",
+        "lat": 33.3719,
+        "lon": 130.5201,
+        "founded": 1997,
+        "stadium": "Eksisustadion",
+        "trophies": "",
+        "mustKnowFact": "Kyushu's blue-pink fighters.",
+        "active": true,
+        "logo": "logos/sagan_tosu.png",
+        "uniform": "uniforms/sagan_tosu.png"
+    },
+    {
+        "name": "Sanfrecce Hiroshima",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Hiroshima",
+        "lat": 34.4408,
+        "lon": 132.474,
+        "founded": 1938,
+        "stadium": "EDION Peace Wing Hiroshima",
+        "trophies": "J1 League: 3, Emperor's Cup: 3",
+        "mustKnowFact": "Purple arrows strike true.",
+        "active": true,
+        "logo": "logos/sanfrecce_hiroshima.png",
+        "uniform": "uniforms/sanfrecce_hiroshima.png"
+    },
+    {
+        "name": "Shonan Bellmare",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Hiratsuka",
+        "lat": 35.343,
+        "lon": 139.342,
+        "founded": 1968,
+        "stadium": "Lemon Gas Stadium Hiratsuka",
+        "trophies": "",
+        "mustKnowFact": "Green waves crash near Tokyo.",
+        "active": true,
+        "logo": "logos/shonan_bellmare.png",
+        "uniform": "uniforms/shonan_bellmare.png"
+    },
+    {
+        "name": "Tokyo Verdy",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Tokyo",
+        "lat": 35.664,
+        "lon": 139.527,
+        "founded": 1969,
+        "stadium": "Ajinomoto Stadium",
+        "trophies": "J1 League: 2, Emperor's Cup: 4",
+        "mustKnowFact": "Green phoenix rises again.",
+        "active": true,
+        "logo": "logos/tokyo_verdy.png",
+        "uniform": "uniforms/tokyo-verdy.png"
+    },
+    {
+        "name": "Urawa Red Diamonds",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Saitama",
+        "lat": 35.9031,
+        "lon": 139.7189,
+        "founded": 1950,
+        "stadium": "Saitama Stadium 2002",
+        "trophies": "J1 League: 1, Emperor's Cup: 8, AFC Champions League: 3",
+        "mustKnowFact": "Red diamonds shine in Saitama.",
+        "active": true,
+        "logo": "logos/urawa_red_diamonds.png",
+        "uniform": "uniforms/urawa_red_diamonds.png"
+    },
+    {
+        "name": "Vissel Kobe",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Kobe",
+        "lat": 34.6823,
+        "lon": 135.169,
+        "founded": 1966,
+        "stadium": "Noevir Stadium Kobe",
+        "trophies": "J1 League: 1, Emperor's Cup: 1",
+        "mustKnowFact": "Kobe's crimson resurgence.",
+        "active": true,
+        "logo": "logos/vissel_kobe.png",
+        "uniform": "uniforms/vissel_kobe.png"
+    },
+    {
+        "name": "Yokohama F. Marinos",
+        "country": "Japan",
+        "league": "J1 League",
+        "city": "Yokohama",
+        "lat": 35.5098,
+        "lon": 139.6064,
+        "founded": 1972,
+        "stadium": "Nissan Stadium",
+        "trophies": "J1 League: 5, Emperor's Cup: 2",
+        "mustKnowFact": "Tricolor sailors rule the port.",
+        "active": true,
+        "logo": "logos/yokohama-f-marinos.png",
+        "uniform": "uniforms/yokohama-f-marinos.png"
+    },
+    {
+        "name": "Cracovia",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Kraków",
+        "lat": 50.0619,
+        "lon": 19.9369,
+        "founded": 1906,
+        "stadium": "Stadion Cracovii",
+        "trophies": "Ekstraklasa: 1, Polish Cup: 1",
+        "mustKnowFact": "Striped legacy in Kraków.",
+        "active": true,
+        "logo": "logos/cracovia.png",
+        "uniform": "uniforms/cracovia.png"
+    },
+    {
+        "name": "Górnik Zabrze",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Zabrze",
+        "lat": 50.2969,
+        "lon": 18.7858,
+        "founded": 1948,
+        "stadium": "Stadion im. Ernesta Pohla",
+        "trophies": "Ekstraklasa: 14, Polish Cup: 6",
+        "mustKnowFact": "Miners' glory days shine.",
+        "active": true,
+        "logo": "logos/gornik_zabrze.png",
+        "uniform": "uniforms/gornik_zabrze.png"
+    },
+    {
+        "name": "Jagiellonia Białystok",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Białystok",
+        "lat": 53.1325,
+        "lon": 23.1688,
+        "founded": 1920,
+        "stadium": "Stadion Miejski w Białymstoku",
+        "trophies": "Ekstraklasa: 1, Polish Cup: 1",
+        "mustKnowFact": "Northeast's yellow-red surprise.",
+        "active": true,
+        "logo": "logos/jagiellonia_białystok.png",
+        "uniform": "uniforms/jagiellonia_białystok.png"
+    },
+    {
+        "name": "Korona Kielce",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Kielce",
+        "lat": 50.8661,
+        "lon": 20.6275,
+        "founded": 1973,
+        "stadium": "Suzuki Arena",
+        "trophies": "",
+        "mustKnowFact": "Crown of Kielce fights on.",
+        "active": true,
+        "logo": "logos/korona_kielce.png",
+        "uniform": "uniforms/korona-kielce.png"
+    },
+    {
+        "name": "Lech Poznań",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Poznań",
+        "lat": 52.3978,
+        "lon": 16.9181,
+        "founded": 1922,
+        "stadium": "Stadion Poznań",
+        "trophies": "Ekstraklasa: 8, Polish Cup: 5",
+        "mustKnowFact": "Railwaymen steam through Poland.",
+        "active": true,
+        "logo": "logos/lech_poznan.png",
+        "uniform": "uniforms/lech_poznan.png"
+    },
+    {
+        "name": "Lechia Gdańsk",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Gdańsk",
+        "lat": 54.378,
+        "lon": 18.619,
+        "founded": 1945,
+        "stadium": "Stadion Gdańsk",
+        "trophies": "Polish Cup: 2",
+        "mustKnowFact": "Baltic coast's green-white hope.",
+        "active": true,
+        "logo": "logos/lechia_gdansk.png",
+        "uniform": "uniforms/lechia_gdansk.png"
+    },
+    {
+        "name": "Legia Warszawa",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Warsaw",
+        "lat": 52.2205,
+        "lon": 21.0431,
+        "founded": 1916,
+        "stadium": "Stadion Wojska Polskiego",
+        "trophies": "Ekstraklasa: 15, Polish Cup: 20",
+        "mustKnowFact": "Military might rules Warsaw.",
+        "active": true,
+        "logo": "logos/legia_warszawa.png",
+        "uniform": "uniforms/legia_warszawa.png"
+    },
+    {
+        "name": "Motor Lublin",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Lublin",
+        "lat": 51.245,
+        "lon": 22.5708,
+        "founded": 1950,
+        "stadium": "Arena Lublin",
+        "trophies": "",
+        "mustKnowFact": "Yellow engines rev up east.",
+        "active": true,
+        "logo": "logos/motor_lublin.png",
+        "uniform": "uniforms/motor-lublin.png"
+    },
+    {
+        "name": "Piast Gliwice",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Gliwice",
+        "lat": 50.3015,
+        "lon": 18.6509,
+        "founded": 1945,
+        "stadium": "Stadion Piast",
+        "trophies": "Ekstraklasa: 1",
+        "mustKnowFact": "Silesian blue-red upset in 2019.",
+        "active": true,
+        "logo": "logos/piast_gliwice.png",
+        "uniform": "uniforms/piast_gliwice.png"
+    },
+    {
+        "name": "Pogoń Szczecin",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Szczecin",
+        "lat": 53.4351,
+        "lon": 14.553,
+        "founded": 1948,
+        "stadium": "Stadion im. Floriana Krygiera",
+        "trophies": "",
+        "mustKnowFact": "Port sailors chase glory.",
+        "active": true,
+        "logo": "logos/pogon_szczecin.png",
+        "uniform": "uniforms/pogon_szczecin.png"
+    },
+    {
+        "name": "Puszcza Niepołomice",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Niepołomice",
+        "lat": 50.009,
+        "lon": 20.223,
+        "founded": 1923,
+        "stadium": "Stadion Puszczy",
+        "trophies": "",
+        "mustKnowFact": "Forest underdogs rise near Kraków.",
+        "active": true,
+        "logo": "logos/puszcza_niepołomice.png",
+        "uniform": "uniforms/puszcza-niepolomice.png"
+    },
+    {
+        "name": "Radomiak Radom",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Radom",
+        "lat": 51.4025,
+        "lon": 21.1471,
+        "founded": 1910,
+        "stadium": "Stadion im. Braci Czachorów",
+        "trophies": "",
+        "mustKnowFact": "Green pride south of Warsaw.",
+        "active": true,
+        "logo": "logos/radomiak_radom.png",
+        "uniform": "uniforms/radomiak_radom.png"
+    },
+    {
+        "name": "Raków Częstochowa",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Częstochowa",
+        "lat": 50.811,
+        "lon": 19.1209,
+        "founded": 1921,
+        "stadium": "Miejski Stadion Piłkarski Raków",
+        "trophies": "Ekstraklasa: 1, Polish Cup: 2",
+        "mustKnowFact": "Red-blue miracle in 2023.",
+        "active": true,
+        "logo": "logos/rakow_czestochowa.png",
+        "uniform": "uniforms/rakow_czestochowa.png"
+    },
+    {
+        "name": "Stal Mielec",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Mielec",
+        "lat": 50.2871,
+        "lon": 21.4239,
+        "founded": 1939,
+        "stadium": "Stadion Stali Mielec",
+        "trophies": "Ekstraklasa: 2",
+        "mustKnowFact": "Steel town's white-blue grit.",
+        "active": true,
+        "logo": "logos/stal_mielec.png",
+        "uniform": "uniforms/stal_mielec.png"
+    },
+    {
+        "name": "Śląsk Wrocław",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Wrocław",
+        "lat": 51.1195,
+        "lon": 17.0327,
+        "founded": 1947,
+        "stadium": "Stadion Wrocław",
+        "trophies": "Ekstraklasa: 2, Polish Cup: 2",
+        "mustKnowFact": "Silesian green-white resurgence.",
+        "active": true,
+        "logo": "logos/slask_wrocław.png",
+        "uniform": "uniforms/slask_wrocław.png"
+    },
+    {
+        "name": "Widzew Łódź",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Łódź",
+        "lat": 51.7592,
+        "lon": 19.456,
+        "founded": 1910,
+        "stadium": "Stadion Widzewa",
+        "trophies": "Ekstraklasa: 4, Polish Cup: 1",
+        "mustKnowFact": "Red-white heart beats again.",
+        "active": true,
+        "logo": "logos/widzew_łodz.png",
+        "uniform": "uniforms/widzew-lodz.png"
+    },
+    {
+        "name": "Zagłębie Lubin",
+        "country": "Poland",
+        "league": "Ekstraklasa",
+        "city": "Lubin",
+        "lat": 51.4009,
+        "lon": 16.2015,
+        "founded": 1945,
+        "stadium": "Stadion Zagłębia Lubin",
+        "trophies": "Ekstraklasa: 2",
+        "mustKnowFact": "Copper miners dig for wins.",
+        "active": true,
+        "logo": "logos/zagłebie_lubin.png",
+        "uniform": "uniforms/zagłebie_lubin.png"
     }
 ];
-
 
 // Expose globally for index.html
 window.teams = teams;
