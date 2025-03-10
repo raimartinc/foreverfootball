@@ -5801,8 +5801,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Blue-gold coastal classic.",
         "active": true,
-        "logo": "logos/everton-de-vina-del-mar.png",
-        "uniform": "uniforms/everton-de-vina-del-mar.png"
+        "logo": "logos/everton-de-vina.png",
+        "uniform": "uniforms/everton-de-vina.png"
     },
     {
         "name": "Cobreloa",
@@ -6656,8 +6656,8 @@ const teams = [
         "trophies": "Swiss Super League: 13, Swiss Cup: 10",
         "mustKnowFact": "White-blue Zürich classics.",
         "active": true,
-        "logo": "logos/fc_zurich.png",
-        "uniform": "uniforms/fc_zurich.png"
+        "logo": "logos/zurich.png",
+        "uniform": "uniforms/zurich.png"
     },
     {
         "name": "FC Lugano",
@@ -8711,8 +8711,8 @@ const teams = [
         "trophies": "Liga I: 4",
         "mustKnowFact": "Yellow-blue oilmen of Prahova.",
         "active": true,
-        "logo": "logos/petrolul_ploiesti.png",
-        "uniform": "uniforms/petrolul_ploiesti.png"
+        "logo": "logos/petrolul.png",
+        "uniform": "uniforms/petrolul.png"
     },
     {
         "name": "UTA Arad",
@@ -11081,8 +11081,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white natal rich boys.",
         "active": true,
-        "logo": "logos/richards_bay_fc.png",
-        "uniform": "uniforms/richards_bay_fc.png"
+        "logo": "logos/richards_bay.png",
+        "uniform": "uniforms/richards_bay.png"
     },
     {
         "name": "Royal AM",
@@ -13741,7 +13741,7 @@ const teams = [
     },
     {
         "name": "Wellington Phoenix",
-        "country": "New Zealand",
+        "country": "Australia",
         "league": "A-League Men",
         "city": "Wellington",
         "lat": -41.2865,
@@ -13771,7 +13771,7 @@ const teams = [
     },
     {
         "name": "Auckland FC",
-        "country": "New Zealand",
+        "country": "Australia",
         "league": "A-League Men",
         "city": "Auckland",
         "lat": -36.8485,
@@ -14651,8 +14651,8 @@ const teams = [
         "trophies": "SPL: 1",
         "mustKnowFact": "Blue conquerors of Al Hasa.",
         "active": true,
-        "logo": "logos/al_fateh.png",
-        "uniform": "uniforms/al_fateh.png"
+        "logo": "logos/al_fateh_fc.png",
+        "uniform": "uniforms/al_fateh_fc.png"
     },
     {
         "name": "Al Wehda",
