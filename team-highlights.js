@@ -1,4 +1,4 @@
-const teamHighlights = {
+const highlights = {
     "AC Milan": "Founded in 1899 by English expats in Milan, AC Milan's red-and-black stripes became iconic with seven Champions League titles. Their 1994 final demolition of Barcelona 4-0, capped by Savicevic's stunning lob, showcased their dominance. Known as the Rossoneri, they've thrilled San Siro with legends like Maldini.",
     "AJ Auxerre": "Born in 1905 in Auxerre, this small-town club stunned France by winning Ligue 1 in 1996. Promoted back for 2024-25 after a 2022 Ligue 2 title, their Stade de l'Abbe-Deschamps faithful cheer a gritty legacy of four Coupe de France triumphs.",
     "AS Monaco": "Founded in 1924 in the tiny principality of Monaco, AS Monaco's eight Ligue 1 titles defy their size. Their 2004 Champions League final run, upsetting giants, remains legendary. The red-and-white kit shines at Stade Louis II, facing PSG in the 2024 Trophee.",
@@ -880,4 +880,4 @@ const teamHighlights = {
 
 
 };
-window.teamHighlights = teamHighlights;
+window.highlights = highlights;
