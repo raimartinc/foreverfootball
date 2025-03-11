@@ -31,6 +31,7 @@
                         <div id="search-results" class="search-results"></div>
                     </div>
                 </div>
+                <div id="country-teams" class="country-teams"></div>
                 <div id="team-details" class="team-details"></div>
             </div>
             <div id="map" class="tab-content"></div>
@@ -38,6 +39,7 @@
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
+    <script src="team-highlights.js"></script>
     <style>
         body { 
             margin: 0; 
@@ -184,6 +186,46 @@
         .search-item:hover {
             background: #FFF3E0;
         }
+        .country-teams {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: rgba(255, 245, 238, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .country-team {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 150px; /* Ensures consistent height */
+        }
+        .country-team a {
+            color: #1E88E5;
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            transition: color 0.3s;
+            word-wrap: break-word; /* Prevents overflow */
+            max-width: 100%; /* Keeps text within cell */
+        }
+        .country-team a:hover {
+            color: #1976D2;
+            text-decoration: underline;
+        }
+        .country-team img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            transition: transform 0.3s;
+        }
+        .country-team img:hover {
+            transform: scale(1.1);
+        }
         .team-details { 
             font-size: 18px; 
             line-height: 1.6; 
@@ -192,10 +234,19 @@
             border-radius: 8px; 
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
+        .team-details .highlights {
+            background: #FFF8F0;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #FFCCBC;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
         .team-details img { 
             border-radius: 5px; 
             margin: 10px 0; 
             transition: transform 0.3s;
+            max-width: 200px;
         }
         .team-details img:hover { 
             transform: scale(1.1); 
@@ -260,8 +311,8 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             console.log('DOM loaded');
-            if (typeof teams === 'undefined') {
-                console.error('teams.js not loaded!');
+            if (typeof teams === 'undefined' || typeof highlights === 'undefined') {
+                console.error('teams.js or team-highlights.js not loaded!');
                 document.getElementById('team-details').innerHTML = 'Error: Team data not loaded!';
                 return;
             }
@@ -269,6 +320,8 @@
 
             const tabs = document.querySelectorAll('.tab-btn');
             const mapMessage = document.getElementById('map-message');
+            let mapInitialized = false;
+
             tabs.forEach(tab => {
                 tab.addEventListener('click', function() {
                     console.log('Tab clicked:', this.dataset.tab);
@@ -276,11 +329,11 @@
                     document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
                     document.getElementById(this.dataset.tab).classList.add('active');
                     this.classList.add('active');
-                    if (this.dataset.tab === 'map') {
+                    if (this.dataset.tab === 'map' && !mapInitialized) {
                         initMap();
                         mapMessage.style.display = 'block';
                         mapMessage.textContent = 'Zoom in to find your team!';
-                    } else {
+                    } else if (this.dataset.tab !== 'map') {
                         mapMessage.style.display = 'none';
                     }
                 });
@@ -300,40 +353,49 @@
 
             function initMap() {
                 console.log('Map init called');
-                if (!map && typeof L !== 'undefined') {
-                    map = L.map('map').setView([20, 0], 2);
-                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
-                        attribution: '© OpenStreetMap' 
-                    }).addTo(map);
-
-                    teams.forEach(team => {
-                        const marker = L.marker([team.lat, team.lon], { icon: footballPin })
-                            .bindPopup(`<a href="team-info.html?team=${encodeURIComponent(team.name)}">${team.name}</a><br>${team.city}`);
-                        markers.push(marker);
-                    });
-
-                    function updateMarkers() {
-                        const zoom = map.getZoom();
-                        console.log('Zoom level:', zoom);
-                        if (zoom >= MIN_ZOOM_FOR_MARKERS) {
-                            markers.forEach(marker => {
-                                if (!map.hasLayer(marker)) map.addLayer(marker);
-                            });
-                        } else {
-                            markers.forEach(marker => {
-                                if (map.hasLayer(marker)) map.removeLayer(marker);
-                            });
-                        }
-                    }
-
-                    updateMarkers();
-                    map.on('zoomend', updateMarkers);
+                if (typeof L === 'undefined') {
+                    console.error('Leaflet not loaded!');
+                    return;
                 }
+                map = L.map('map').setView([20, 0], 2);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+                    attribution: '© OpenStreetMap' 
+                }).addTo(map);
+
+                teams.forEach(team => {
+                    const marker = L.marker([team.lat, team.lon], { icon: footballPin })
+                        .bindPopup(`
+                            <strong>${team.name}</strong><br>
+                            ${team.city}, ${team.country}<br>
+                            <em>${highlights[team.name] || 'No highlights available'}</em><br>
+                            <a href="team-info.html?team=${encodeURIComponent(team.name)}">More Info</a>
+                        `);
+                    markers.push(marker);
+                });
+
+                function updateMarkers() {
+                    const zoom = map.getZoom();
+                    console.log('Zoom level:', zoom);
+                    if (zoom >= MIN_ZOOM_FOR_MARKERS) {
+                        markers.forEach(marker => {
+                            if (!map.hasLayer(marker)) map.addLayer(marker);
+                        });
+                    } else {
+                        markers.forEach(marker => {
+                            if (map.hasLayer(marker)) map.removeLayer(marker);
+                        });
+                    }
+                }
+
+                updateMarkers();
+                map.on('zoomend', updateMarkers);
+                mapInitialized = true;
             }
 
             const countrySelect = document.getElementById('country');
             const citySelect = document.getElementById('city');
             const teamSelect = document.getElementById('team');
+            const countryTeams = document.getElementById('country-teams');
             const details = document.getElementById('team-details');
             const teamSearch = document.getElementById('team-search');
             const searchResults = document.getElementById('search-results');
@@ -349,6 +411,7 @@
             countrySelect.addEventListener('change', function() {
                 citySelect.innerHTML = '<option value="">Select City</option>';
                 teamSelect.innerHTML = '<option value="">Select Team</option>';
+                countryTeams.innerHTML = '';
                 details.innerHTML = '';
                 if (this.value) {
                     const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
@@ -357,6 +420,17 @@
                         option.value = city;
                         option.textContent = city;
                         citySelect.appendChild(option);
+                    });
+
+                    const countryTeamList = teams.filter(t => t.country === this.value).sort((a, b) => a.name.localeCompare(b.name));
+                    countryTeamList.forEach(team => {
+                        const teamDiv = document.createElement('div');
+                        teamDiv.className = 'country-team';
+                        teamDiv.innerHTML = `
+                            <img src="${team.logo || 'https://via.placeholder.com/100?text=Logo'}" alt="${team.name} Logo">
+                            <a href="team-info.html?team=${encodeURIComponent(team.name)}" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}'); return false;">${team.name}</a>
+                        `;
+                        countryTeams.appendChild(teamDiv);
                     });
                 }
             });
@@ -379,27 +453,33 @@
                 details.innerHTML = '';
                 if (this.value) {
                     const team = teams.find(t => t.name === this.value);
-                    details.innerHTML = `
-                        <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
-                        <div><strong>Country:</strong> ${team.country}</div>
-                        <div><strong>League:</strong> ${team.league}</div>
-                        <div><strong>City:</strong> ${team.city}</div>
-                        <div><strong>Founded:</strong> ${team.founded}</div>
-                        <div><strong>Stadium:</strong> ${team.stadium}</div>
-                        <div><strong>Trophies:</strong> ${team.trophies}</div>
-                        <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
-                        <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
-                        <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
-                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
-                    `;
+                    if (team) {
+                        details.innerHTML = `
+                            <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                            <div><strong>Country:</strong> ${team.country}</div>
+                            <div><strong>League:</strong> ${team.league}</div>
+                            <div><strong>City:</strong> ${team.city}</div>
+                            <div><strong>Founded:</strong> ${team.founded}</div>
+                            <div><strong>Stadium:</strong> ${team.stadium}</div>
+                            <div><strong>Trophies:</strong> ${team.trophies || 'None'}</div>
+                            <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
+                            <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
+                            <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
+                            <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
+                            <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                        `;
+                    } else {
+                        console.error('Team not found:', this.value);
+                        details.innerHTML = 'Error: Team not found!';
+                    }
                 }
             });
 
             teamSearch.addEventListener('input', function() {
                 const query = this.value.toLowerCase();
                 searchResults.style.display = 'none';
-                if (query.length >= 4) {
-                    const results = teams.filter(t => t.name.toLowerCase().startsWith(query)).slice(0, 5);
+                if (query.length >= 3) {
+                    const results = teams.filter(t => t.name.toLowerCase().includes(query)).slice(0, 5);
                     if (results.length > 0) {
                         searchResults.innerHTML = results.map(t => `
                             <div class="search-item" data-team="${encodeURIComponent(t.name)}">${t.name} (${t.city}, ${t.country})</div>
@@ -407,9 +487,46 @@
                         searchResults.style.display = 'block';
                         document.querySelectorAll('.search-item').forEach(item => {
                             item.addEventListener('click', function() {
-                                const teamName = this.getAttribute('data-team');
-                                console.log('Clicked team:', teamName); // Debug log
-                                window.navigateWithAdRefresh(`team-info.html?team=${teamName}`);
+                                const teamName = decodeURIComponent(this.getAttribute('data-team'));
+                                const team = teams.find(t => t.name === teamName);
+                                if (team) {
+                                    countrySelect.value = team.country;
+                                    citySelect.innerHTML = '<option value="">Select City</option>';
+                                    const cities = [...new Set(teams.filter(t => t.country === team.country).map(t => t.city))].sort();
+                                    cities.forEach(city => {
+                                        const option = document.createElement('option');
+                                        option.value = city;
+                                        option.textContent = city;
+                                        citySelect.appendChild(option);
+                                    });
+                                    citySelect.value = team.city;
+                                    teamSelect.innerHTML = '<option value="">Select Team</option>';
+                                    const teamList = teams.filter(t => t.country === team.country && t.city === team.city).sort((a, b) => a.name.localeCompare(b.name));
+                                    teamList.forEach(t => {
+                                        const option = document.createElement('option');
+                                        option.value = t.name;
+                                        option.textContent = t.name;
+                                        teamSelect.appendChild(option);
+                                    });
+                                    teamSelect.value = teamName;
+                                    details.innerHTML = `
+                                        <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                                        <div><strong>Country:</strong> ${team.country}</div>
+                                        <div><strong>League:</strong> ${team.league}</div>
+                                        <div><strong>City:</strong> ${team.city}</div>
+                                        <div><strong>Founded:</strong> ${team.founded}</div>
+                                        <div><strong>Stadium:</strong> ${team.stadium}</div>
+                                        <div><strong>Trophies:</strong> ${team.trophies || 'None'}</div>
+                                        <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
+                                        <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
+                                        <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
+                                        <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
+                                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                                    `;
+                                    searchResults.style.display = 'none';
+                                } else {
+                                    console.error('Team not found from search:', teamName);
+                                }
                             });
                         });
                     } else {
@@ -426,10 +543,29 @@
             teamSearch.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter') {
                     const query = this.value.toLowerCase();
-                    if (query.length >= 4) {
-                        const team = teams.find(t => t.name.toLowerCase().startsWith(query));
+                    if (query.length >= 3) {
+                        const team = teams.find(t => t.name.toLowerCase().includes(query));
                         if (team) {
-                            window.navigateWithAdRefresh(`team-info.html?team=${encodeURIComponent(team.name)}`);
+                            details.innerHTML = `
+                                <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
+                                <div><strong>Country:</strong> ${team.country}</div>
+                                <div><strong>League:</strong> ${team.league}</div>
+                                <div><strong>City:</strong> ${team.city}</div>
+                                <div><strong>Founded:</strong> ${team.founded}</div>
+                                <div><strong>Stadium:</strong> ${team.stadium}</div>
+                                <div><strong>Trophies:</strong> ${team.trophies || 'None'}</div>
+                                <div><strong>Must Know Fact:</strong> ${team.mustKnowFact}</div>
+                                <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
+                                <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
+                                <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
+                                <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                            `;
+                            countrySelect.value = team.country;
+                            citySelect.value = team.city;
+                            teamSelect.value = team.name;
+                            searchResults.style.display = 'none';
+                        } else {
+                            console.error('Team not found from Enter key:', query);
                         }
                     }
                 }
