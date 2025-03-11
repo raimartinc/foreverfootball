@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Forever Football - Celebrating football teams from every FIFA nation.">
     <title>About - Forever Football</title>
     <link rel="stylesheet" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
@@ -10,13 +11,12 @@
 <body>
     <header>
         <h1>About Forever Football</h1>
-        <nav><a href="index.html">Home</a></nav>
+        <nav><a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a></nav>
     </header>
     <main>
         <h2>The Forever Football Story</h2>
-        <p>Forever Football is your pitch for the game’s immortals—166 teams, from River Plate’s haul to Brest’s rise. We’re here to keep football’s flame burning.</p>
-        <p>Crafted by a fan who breaths football like air, this site’s about legacy and just pure football data.</p>
-        <p>Want to chat teams or ideas? Drop a message below.</p>
+        <p>Welcome to <strong>foreverfootball.online</strong>, where football’s heartbeat echoes across every FIFA nation. Launched in 2025 by a lifelong fan who lives and breathes the beautiful game, this site is a tribute to teams big and small—from River Plate’s trophy-laden legacy to Brest’s gritty rise, and beyond. With over 900 teams already (and a goal of 2000!), we’re cataloging the world’s football clubs, one story at a time.</p>
+        <p>Our mission? To showcase every team from FIFA’s 211 member nations—stats, logos, uniforms, and legendary moments included. Whether it’s the roar of the Maracanã or a hidden gem in a small town, we’ve got you covered with pure football data, interactive maps, and a passion for the pitch. This isn’t just a site—it’s a living archive for fans, by a fan. Got a team to cheer or an idea to share? Drop us a line below—we’re here for it.</p>
         <form name="contact" method="POST" data-netlify="true" action="/contact-success.html">
             <input type="hidden" name="form-name" value="contact">
             <p>
@@ -24,7 +24,7 @@
                 <input type="text" id="name" name="name" placeholder="Your name">
             </p>
             <p>
-                <label for="email">Email (optional):</label><br>
+                <label for="email">Email (optional, for replies):</label><br>
                 <input type="email" id="email" name="email" placeholder="Your email">
             </p>
             <p>
@@ -37,10 +37,15 @@
         </form>
     </main>
     <footer>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About</a> | 
-        <a href="contact.html">Contact</a> | 
-        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> | 
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> | 
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> | 
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a>
     </footer>
+    <script>
+        function navigateWithAdRefresh(url) {
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>

@@ -1481,8 +1481,8 @@ const teams = [
         "trophies": "Bundesliga: 6, DFB-Pokal: 3, European Cup: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "Northern giants aim back.",
         "active": true,
-        "logo": "logos/hamburg_sv.png",
-        "uniform": "uniforms/hamburg_sv.png"
+        "logo": "logos/hamburg.png",
+        "uniform": "uniforms/hamburg.png"
     },
     {
         "name": "Heerenveen",
@@ -1961,8 +1961,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Carnival club's grit.",
         "active": true,
-        "logo": "logos/mainz_05.png",
-        "uniform": "uniforms/mainz_05.png"
+        "logo": "logos/mainz.png",
+        "uniform": "uniforms/mainz.png"
     },
     {
         "name": "Mallorca",
@@ -2216,8 +2216,8 @@ const teams = [
         "trophies": "Primera División: 6, Primera B Nacional: 1",
         "mustKnowFact": "Messi's childhood heroes.",
         "active": true,
-        "logo": "logos/newell's_old_boys.png",
-        "uniform": "uniforms/newell's_old_boys.png"
+        "logo": "logos/newells_old_boys.png",
+        "uniform": "uniforms/newells_old_boys.png"
     },
     {
         "name": "Nottingham Forest",
@@ -3311,8 +3311,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Golden eagles soar quietly.",
         "active": true,
-        "logo": "logos/aguilas-doradas.png",
-        "uniform": "uniforms/aguilas-doradas.png"
+        "logo": "logos/aguilas_doradas.png",
+        "uniform": "uniforms/aguilas_doradas.png"
     },
     {
         "name": "Adana Demirspor",
@@ -4256,8 +4256,8 @@ const teams = [
         "trophies": "MLS Cup: 4, U.S. Open Cup: 1",
         "mustKnowFact": "Dominated early MLS with four titles.",
         "active": true,
-        "logo": "logos/dc-united.png",
-        "uniform": "uniforms/dc-united.png"
+        "logo": "logos/dc_united.png",
+        "uniform": "uniforms/dc_united.png"
     },
     {
         "name": "FC Cincinnati",
@@ -4316,8 +4316,8 @@ const teams = [
         "trophies": "Leagues Cup: 1",
         "mustKnowFact": "Messi's new home lit up MLS.",
         "active": true,
-        "logo": "logos/inter-miami.png",
-        "uniform": "uniforms/inter-miami.png"
+        "logo": "logos/inter_miami.png",
+        "uniform": "uniforms/inter_miami.png"
     },
     {
         "name": "LA Galaxy",
@@ -4931,8 +4931,8 @@ const teams = [
         "trophies": "Belgian Pro League: 10",
         "mustKnowFact": "Red devils of Wallonia.",
         "active": true,
-        "logo": "logos/standard-liege.png",
-        "uniform": "uniforms/standard-liege.png"
+        "logo": "logos/standard_liege.png",
+        "uniform": "uniforms/standard_liege.png"
     },
     {
         "name": "Cercle Brugge",
@@ -4991,8 +4991,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-red scholars of Leuven.",
         "active": true,
-        "logo": "logos/oh-leuven.png",
-        "uniform": "uniforms/oh-leuven.png"
+        "logo": "logos/ohl.png",
+        "uniform": "uniforms/ohl.png"
     },
     {
         "name": "Westerlo",
@@ -5786,8 +5786,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Green Italians of La Florida.",
         "active": true,
-        "logo": "logos/audax-italiano.png",
-        "uniform": "uniforms/audax-italiano.png"
+        "logo": "logos/audax_italiano.png",
+        "uniform": "uniforms/audax_italiano.png"
     },
     {
         "name": "Everton de Viña del Mar",
@@ -6506,8 +6506,8 @@ const teams = [
         "trophies": "Superliga: 1, Danish Cup: 2",
         "mustKnowFact": "Red-yellow talent factory.",
         "active": true,
-        "logo": "logos/fc_nordsjælland.png",
-        "uniform": "uniforms/fc_nordsjælland.png"
+        "logo": "logos/fc_nordsjalland.png",
+        "uniform": "uniforms/fc_nordsjalland.png"
     },
     {
         "name": "Silkeborg IF",
@@ -6566,8 +6566,8 @@ const teams = [
         "trophies": "Superliga: 3, Danish Cup: 5",
         "mustKnowFact": "Blue-white Funen classics.",
         "active": true,
-        "logo": "logos/ob.png",
-        "uniform": "uniforms/ob.png"
+        "logo": "logos/odense_bk.png",
+        "uniform": "uniforms/odense_bk.png"
     },
     {
         "name": "AaB",
@@ -7736,8 +7736,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky-blue crusaders of Quito.",
         "active": true,
-        "logo": "logos/universidad_catolica.png",
-        "uniform": "uniforms/universidad_catolica.png"
+        "logo": "logos/ucatolica.png",
+        "uniform": "uniforms/ucatolica.png"
     },
     {
         "name": "Delfín SC",
@@ -10106,8 +10106,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white academy grit.",
         "active": true,
-        "logo": "logos/afad_djekanou.png",
-        "uniform": "uniforms/afad_djekanou.png"
+        "logo": "logos/afad.png",
+        "uniform": "uniforms/afad.png"
     },
     {
         "name": "Lys Sassandra",
@@ -12716,8 +12716,8 @@ const teams = [
         "trophies": "Girabola: 13",
         "mustKnowFact": "Red-black military might.",
         "active": true,
-        "logo": "logos/1o_de_agosto.png",
-        "uniform": "uniforms/1o_de_agosto.png"
+        "logo": "logos/1_de_agosto.png",
+        "uniform": "uniforms/1_de_agosto.png"
     },
     {
         "name": "Sagrada Esperança",

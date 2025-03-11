@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Detailed info and highlights for your favorite football teams!">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://en.wikipedia.org 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://en.wikipedia.org https://pagead2.googlesyndication.com; img-src 'self' https://* data:;">
     <title>Team Info - Forever Football</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -19,16 +20,24 @@
         </main>
     </div>
     <footer>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About</a> | 
-        <a href="contact.html">Contact</a> | 
-        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> | 
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> | 
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> | 
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> | 
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
     </footer>
     <script src="teams.js"></script>
     <script src="team-highlights.js"></script>
     <script>
         console.log('Team Info script started');
+
+        function navigateWithAdRefresh(url) {
+            console.log('Navigating to:', url);
+            window.location.href = url;
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
             const urlParams = new URLSearchParams(window.location.search);
             const teamName = urlParams.get('team');
             console.log('Team param:', teamName);
@@ -36,17 +45,19 @@
             const teamInfoDiv = document.getElementById('team-info');
             if (!teamName || typeof teams === 'undefined' || typeof highlights === 'undefined') {
                 teamInfoDiv.innerHTML = '<p>Team not found or data not loaded!</p>';
-                console.log('Missing data - teamName:', teamName, 'teams:', teams, 'highlights:', highlights);
+                console.error('Missing data - teamName:', teamName, 'teams:', typeof teams, 'highlights:', typeof highlights);
                 return;
             }
 
-            const team = teams.find(t => t.name === decodeURIComponent(teamName));
+            const decodedTeamName = decodeURIComponent(teamName);
+            const team = teams.find(t => t.name === decodedTeamName);
             if (!team) {
                 teamInfoDiv.innerHTML = '<p>Team not found!</p>';
-                console.log('Team not in list:', decodeURIComponent(teamName));
+                console.error('Team not in list:', decodedTeamName);
                 return;
             }
 
+            console.log('Team found:', team.name);
             teamInfoDiv.innerHTML = `
                 <h1>${team.name} ${team.active ? '' : '(Defunct)'}</h1>
                 <h2>Highlights</h2>
@@ -58,49 +69,83 @@
                 <p><strong>Stadium:</strong> ${team.stadium}</p>
                 <p><strong>Trophies:</strong> ${team.trophies}</p>
                 <p><strong>Must Know Fact:</strong> ${team.mustKnowFact}</p>
-                <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
-                <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
+                <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
                 <div id="wiki-summary">
                     <h2>About ${team.name}</h2>
                     <p>Loading Wikipedia summary...</p>
                 </div>
             `;
 
-            // Fetch Wikipedia summary
-            fetchWikipediaSummary(team.name);
+            fetchWikipediaSummary(team);
 
             try {
+                console.log('Attempting AdSense push');
                 (adsbygoogle = window.adsbygoogle || []).push({});
             } catch (e) {
                 console.error('AdSense push failed:', e);
             }
         });
 
-        function navigateWithAdRefresh(url) {
-            window.location.href = url;
-        }
+        async function fetchWikipediaSummary(team) {
+            const wikiDiv = document.getElementById('wiki-summary');
+            try {
+                console.log('Fetching Wikipedia for:', team.name);
+                const searchQuery = `"${team.name}" football club ${team.city || team.country}`;
+                const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(searchQuery)}&format=json&origin=*`;
+                console.log('Search URL:', searchUrl);
+                const searchResponse = await fetch(searchUrl);
+                console.log('Search response status:', searchResponse.status, searchResponse.statusText);
+                const searchData = await searchResponse.json();
+                console.log('Search data:', JSON.stringify(searchData, null, 2));
 
-        function fetchWikipediaSummary(teamName) {
-            const apiUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&explaintext&format=json&exsentences=4&titles=${encodeURIComponent(teamName)}&origin=*`;
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(data => {
-                    const pages = data.query.pages;
-                    const pageId = Object.keys(pages)[0];
-                    const summary = pages[pageId].extract || 'No Wikipedia summary available for this team.';
-                    document.getElementById('wiki-summary').innerHTML = `
-                        <h2>About ${teamName}</h2>
-                        <p>${summary}</p>
-                        <p><small>Source: <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(teamName)}" target="_blank">Wikipedia</a></small></p>
+                if (!searchData.query || !searchData.query.search || searchData.query.search.length === 0) {
+                    wikiDiv.innerHTML = `
+                        <h2>About ${team.name}</h2>
+                        <p>No Wikipedia summary available for this team.</p>
                     `;
-                })
-                .catch(error => {
-                    console.error('Wikipedia API error:', error);
-                    document.getElementById('wiki-summary').innerHTML = `
-                        <h2>About ${teamName}</h2>
-                        <p>Couldn’t load Wikipedia summary. Try again later!</p>
+                    console.log('No Wikipedia page found for:', team.name, 'Query:', searchQuery);
+                    return;
+                }
+
+                // Filter for club-related title
+                const bestMatch = searchData.query.search.find(result => {
+                    const titleLower = result.title.toLowerCase();
+                    return titleLower.includes(team.name.toLowerCase()) && 
+                           (titleLower.includes('club') || titleLower.includes('fc') || titleLower.includes('football') || titleLower.includes('soccer'));
+                }) || searchData.query.search[0];
+                const pageTitle = bestMatch.title;
+                console.log('Wikipedia page selected:', pageTitle);
+
+                const extractUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exsentences=4&explaintext&titles=${encodeURIComponent(pageTitle)}&format=json&origin=*`;
+                console.log('Extract URL:', extractUrl);
+                const extractResponse = await fetch(extractUrl);
+                console.log('Extract response status:', extractResponse.status, extractResponse.statusText);
+                const extractData = await extractResponse.json();
+                console.log('Extract data:', JSON.stringify(extractData, null, 2));
+
+                const page = Object.values(extractData.query.pages)[0];
+                if (page.extract) {
+                    const paragraphs = page.extract.split('\n').filter(p => p.trim() !== '');
+                    const summaryText = paragraphs.slice(0, 3).join('\n\n') || page.extract;
+                    wikiDiv.innerHTML = `
+                        <h2>About ${team.name}</h2>
+                        <p>${summaryText}</p>
+                        <p><small>Source: <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(pageTitle)}" target="_blank">Wikipedia</a></small></p>
                     `;
-                });
+                } else {
+                    wikiDiv.innerHTML = `
+                        <h2>About ${team.name}</h2>
+                        <p>No detailed Wikipedia summary available.</p>
+                    `;
+                }
+            } catch (error) {
+                console.error('Wikipedia fetch error:', error);
+                wikiDiv.innerHTML = `
+                    <h2>About ${team.name}</h2>
+                    <p>Couldn’t load Wikipedia summary: ${error.message}</p>
+                `;
+            }
         }
     </script>
     <style>
@@ -177,6 +222,7 @@
             border-radius: 5px; 
             margin: 10px 0; 
             transition: transform 0.3s; 
+            max-width: 250px; 
         }
         .team-details img:hover { 
             transform: scale(1.1); 
