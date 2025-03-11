@@ -25,6 +25,11 @@
                     <select id="country" autocomplete="off"><option value="">Select Country</option></select>
                     <select id="city" autocomplete="off"><option value="">Select City</option></select>
                     <select id="team" autocomplete="off"><option value="">Select Team</option></select>
+                    <div class="search-container">
+                        <input type="text" id="team-search" placeholder="or search your team here!">
+                        <span class="search-icon"></span>
+                        <div id="search-results" class="search-results"></div>
+                    </div>
                 </div>
                 <div id="team-details" class="team-details"></div>
             </div>
@@ -105,6 +110,11 @@
             gap: 10px; 
             flex-wrap: wrap; 
             justify-content: center;
+            align-items: center;
+        }
+        select, .search-container { 
+            flex: 1; 
+            min-width: 150px; 
         }
         select { 
             padding: 12px; 
@@ -119,6 +129,60 @@
             border-color: #FFA500; 
             outline: none; 
             background: #FFF3E0; 
+        }
+        .search-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        #team-search {
+            width: 100%;
+            padding: 12px 30px 12px 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 2px solid #FF4500;
+            background: white;
+            color: #333;
+            transition: border-color 0.3s;
+        }
+        #team-search:focus {
+            border-color: #FFA500;
+            outline: none;
+            background: #FFF3E0;
+        }
+        #team-search::placeholder {
+            color: #999;
+        }
+        .search-icon {
+            position: absolute;
+            right: 10px;
+            width: 16px;
+            height: 16px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23FF4500"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>') no-repeat center;
+            pointer-events: none;
+        }
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid #FF4500;
+            border-radius: 0 0 5px 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            width: 100%;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+        .search-item {
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .search-item:hover {
+            background: #FFF3E0;
         }
         .team-details { 
             font-size: 18px; 
@@ -187,7 +251,6 @@
         }
     </style>
     <script>
-        // Your existing JavaScript remains unchanged
         console.log('Script started');
 
         window.navigateWithAdRefresh = function(url) {
@@ -272,6 +335,8 @@
             const citySelect = document.getElementById('city');
             const teamSelect = document.getElementById('team');
             const details = document.getElementById('team-details');
+            const teamSearch = document.getElementById('team-search');
+            const searchResults = document.getElementById('search-results');
 
             const countries = [...new Set(teams.map(t => t.country))].sort();
             countries.forEach(country => {
@@ -327,6 +392,46 @@
                         <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
                         <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
                     `;
+                }
+            });
+
+            teamSearch.addEventListener('input', function() {
+                const query = this.value.toLowerCase();
+                searchResults.style.display = 'none';
+                if (query.length >= 4) {
+                    const results = teams.filter(t => t.name.toLowerCase().startsWith(query)).slice(0, 5);
+                    if (results.length > 0) {
+                        searchResults.innerHTML = results.map(t => `
+                            <div class="search-item" data-team="${encodeURIComponent(t.name)}">${t.name} (${t.city}, ${t.country})</div>
+                        `).join('');
+                        searchResults.style.display = 'block';
+                        document.querySelectorAll('.search-item').forEach(item => {
+                            item.addEventListener('click', function() {
+                                const teamName = this.getAttribute('data-team');
+                                console.log('Clicked team:', teamName); // Debug log
+                                window.navigateWithAdRefresh(`team-info.html?team=${teamName}`);
+                            });
+                        });
+                    } else {
+                        searchResults.innerHTML = '<div>No teams found</div>';
+                        searchResults.style.display = 'block';
+                    }
+                }
+            });
+
+            teamSearch.addEventListener('blur', function() {
+                setTimeout(() => searchResults.style.display = 'none', 200);
+            });
+
+            teamSearch.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    const query = this.value.toLowerCase();
+                    if (query.length >= 4) {
+                        const team = teams.find(t => t.name.toLowerCase().startsWith(query));
+                        if (team) {
+                            window.navigateWithAdRefresh(`team-info.html?team=${encodeURIComponent(team.name)}`);
+                        }
+                    }
                 }
             });
 

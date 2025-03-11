@@ -60,7 +60,14 @@
                 <p><strong>Must Know Fact:</strong> ${team.mustKnowFact}</p>
                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo" style="max-width: 200px;">
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform" style="max-width: 200px;">
+                <div id="wiki-summary">
+                    <h2>About ${team.name}</h2>
+                    <p>Loading Wikipedia summary...</p>
+                </div>
             `;
+
+            // Fetch Wikipedia summary
+            fetchWikipediaSummary(team.name);
 
             try {
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -71,6 +78,29 @@
 
         function navigateWithAdRefresh(url) {
             window.location.href = url;
+        }
+
+        function fetchWikipediaSummary(teamName) {
+            const apiUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&explaintext&format=json&exsentences=4&titles=${encodeURIComponent(teamName)}&origin=*`;
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const pages = data.query.pages;
+                    const pageId = Object.keys(pages)[0];
+                    const summary = pages[pageId].extract || 'No Wikipedia summary available for this team.';
+                    document.getElementById('wiki-summary').innerHTML = `
+                        <h2>About ${teamName}</h2>
+                        <p>${summary}</p>
+                        <p><small>Source: <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(teamName)}" target="_blank">Wikipedia</a></small></p>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Wikipedia API error:', error);
+                    document.getElementById('wiki-summary').innerHTML = `
+                        <h2>About ${teamName}</h2>
+                        <p>Couldn’t load Wikipedia summary. Try again later!</p>
+                    `;
+                });
         }
     </script>
     <style>
@@ -150,6 +180,14 @@
         }
         .team-details img:hover { 
             transform: scale(1.1); 
+        }
+        #wiki-summary a { 
+            color: #1E88E5; 
+            text-decoration: none; 
+        }
+        #wiki-summary a:hover { 
+            text-decoration: underline; 
+            color: #1976D2; 
         }
         footer { 
             text-align: center; 
