@@ -4,69 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Privacy Policy for Forever Football - How we handle your data while celebrating football’s legacy.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.google.com https://*.googlesyndication.com https://formspree.io; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
     <title>Privacy Policy - Forever Football</title>
-    <link rel="stylesheet" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Privacy Policy</h1>
-        <nav><a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a></nav>
-    </header>
-    <main>
-        <h2>Forever Football Privacy Policy</h2>
-        <p><strong>Last updated: March 11, 2025</strong></p>
-        <p>Welcome to <strong>foreverfootball.online</strong>, where football’s legacy thrives with over 900 teams and counting. We’re committed to keeping your privacy intact while delivering the ultimate football experience.</p>
+    <div class="container">
+        <header>
+            <h1>Forever Football - Privacy Policy</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Privacy Policy</h2>
+            <p><strong>Last updated: March 13, 2025</strong></p>
+            <p>Welcome to <strong>foreverfootball.online</strong>, a fan-driven archive celebrating football’s legacy with over 1000 teams across FIFA’s 211 nations. We’re committed to protecting your privacy while delivering team stats, logos, and stories.</p>
 
-        <h3>Information We Collect</h3>
-        <p>We don’t collect personal data directly—no sign-ups or profiles needed. Our site runs on public football stats (team names, trophies, logos) to fuel your fandom. However, we may use third-party tools like Google Analytics and Google AdSense, which collect anonymized data such as page views, device type, and location—no names or emails attached.</p>
+            <h3>Information We Collect</h3>
+            <p>We don’t collect personal data directly—no sign-ups or profiles required. Our content is built from public football data (team names, logos, trophies). However, we use Google Analytics (ID: G-3MZ66WWDR4) to track anonymized info like page views, device type, IP address, and approximate location—no names or emails involved unless you provide them. Google AdSense (ID: ca-pub-9925950012374716) may also collect data to serve ads. If you use our <a href="contact.html">Contact page</a>, we collect optional info (name, email) and required messages via Formspree, only if you choose to send us feedback.</p>
 
-        <h3>How We Use Information</h3>
-        <p>Any data we gather is for improving your experience—think better navigation, richer team details, and smarter maps. We don’t sell, trade, or share it with anyone, period. Analytics help us see what’s clicking; ads (via AdSense) keep the lights on.</p>
+            <h3>How We Use Information</h3>
+            <p>Analytics data improves your experience—better navigation, richer team details, and a smoother map. AdSense data supports relevant ads to keep the site running. Contact form data (name, email, message) is used solely to respond to your inquiries or suggestions. We don’t sell, trade, or share any of this with anyone outside these services.</p>
 
-        <h3>Cookies and Tracking</h3>
-        <p>We use cookies through Google AdSense and Analytics to enhance functionality and serve relevant ads. These track things like site visits or ad clicks, but nothing identifiable to you. Prefer to opt out? Adjust your browser settings to block cookies—no penalties here.</p>
+            <h3>Cookies and Tracking</h3>
+            <p>Google Analytics and AdSense use cookies to track site usage (e.g., visits, ad clicks). These are anonymized and don’t identify you personally unless you submit identifiable info via our <a href="contact.html">Contact page</a>. You can opt out by disabling cookies in your browser—no impact on your visit.</p>
 
-        <h3>Third-Party Services</h3>
-        <p>Our site’s hosted on Netlify—check their <a href="https://www.netlify.com/privacy/" target="_blank">Privacy Policy</a>. Google AdSense serves ads; see Google’s <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> for how they handle data. Wikipedia powers some team summaries—public data, no personal info involved.</p>
+            <h3>Third-Party Services</h3>
+            <p>We host on Netlify (see their <a href="https://www.netlify.com/privacy/" target="_blank">Privacy Policy</a>). Google Analytics and AdSense are powered by Google (check their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>). Contact form submissions are processed by Formspree (see their <a href="https://formspree.io/legal/privacy-policy" target="_blank">Privacy Policy</a>). Team logos come from TheSportsDB.com, and some summaries pull from Wikipedia—both public, non-personal sources.</p>
 
-        <h3>Your Rights</h3>
-        <p>Since we don’t collect personal data, there’s nothing to delete or request. Questions? Hit us up below—we’re all ears.</p>
+            <h3>Security</h3>
+            <p>We use a strict Content Security Policy (CSP) to protect your browsing—only trusted scripts and resources load here. Contact form data is securely handled by Formspree’s servers.</p>
 
-        <h3>Contact Us</h3>
-        <p>Got privacy concerns or ideas? Drop a message—no email required unless you want a reply.</p>
-        <form name="contact" method="POST" data-netlify="true" action="/contact-success.html">
-            <input type="hidden" name="form-name" value="contact">
-            <p>
-                <label for="name">Name (optional):</label><br>
-                <input type="text" id="name" name="name" placeholder="Your name">
-            </p>
-            <p>
-                <label for="email">Email (optional, for replies):</label><br>
-                <input type="email" id="email" name="email" placeholder="Your email">
-            </p>
-            <p>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" placeholder="What’s on your mind?" required></textarea>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
+            <h3>Your Rights</h3>
+            <p>Analytics and AdSense data is anonymized, so there’s nothing personal to delete. If you submit info via our <a href="contact.html">Contact page</a>, you can request its removal by emailing us at <a href="mailto:raimartinc@gmail.com">email@</a>. We’ll delete it promptly unless required by law to retain it.</p>
 
-        <h3>Changes to This Policy</h3>
-        <p>We might tweak this as the site grows—check back here for updates. Last change: March 11, 2025.</p>
-    </main>
+            <h3>Contact Us</h3>
+            <p>For privacy concerns or suggestions, visit our <a href="contact.html">Contact page</a> or email <a href="mailto: raimartinc@gmail.com">email@</a>. Form submissions (name, email, message) are optional and only used to reply to you.</p>
+
+            <h3>Changes to This Policy</h3>
+            <p>We may update this as the site evolves—check back for the latest. Last update: March 13, 2025.</p>
+        </main>
+    </div>
     <footer>
-        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> | 
-        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> | 
-        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> | 
-        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> |
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> |
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> |
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> |
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
     </footer>
     <script>
         function navigateWithAdRefresh(url) {
             window.location.href = url;
         }
     </script>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: 'Roboto', Arial, sans-serif; 
+            background: linear-gradient(to bottom, #2E7D32, #FFFFFF), url('images/footbg.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            background-blend-mode: overlay;
+            color: #333;
+        }
+        .container { 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        header { 
+            padding: 20px; 
+            background: rgba(255, 75, 0, 0.9); 
+            color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5em; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        nav a { 
+            color: #FFF3E0; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 0 10px; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+        main { 
+            flex: 1; 
+            padding: 30px; 
+            background: rgba(255, 255, 255, 0.85); 
+            border-radius: 10px; 
+            margin: 20px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 { 
+            font-size: 20px; 
+            color: #FF4500; 
+            margin-bottom: 10px; 
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        h3 { 
+            font-size: 18px; 
+            color: #1E88E5; 
+            margin: 15px 0 10px; 
+        }
+        p { 
+            font-size: 16px; 
+            line-height: 1.6; 
+            margin: 10px 0; 
+        }
+        a { 
+            color: #1E88E5; 
+            text-decoration: none; 
+            font-weight: 700; 
+        }
+        a:hover { 
+            color: #1976D2; 
+            text-decoration: underline; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 15px; 
+            background: rgba(0, 0, 0, 0.8); 
+            color: white; 
+            width: 100%; 
+        }
+        footer a { 
+            color: #FFA500; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 700; 
+            transition: color 0.3s; 
+        }
+        footer a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+    </style>
 </body>
 </html>

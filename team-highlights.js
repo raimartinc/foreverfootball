@@ -142,7 +142,7 @@ const highlights = {
     "Moreirense": "Since 1938 in Moreira de Conegos, Moreirense's small-town heart won the 2017 Taca da Liga. Parque de Jogos Comendador cheered their 2014 Primeira Liga return.",
     "NAC Breda": "Founded in 1912 in Breda, NAC's yellow army returned to Eredivisie in 2024. Rat Verlegh Stadion roared for their 1921 Eredivisie title, a Dutch football saga.",
     "NEC Nijmegen": "Born in 1900 in Nijmegen, NEC's red-green-black battlers hit Eredivisie with no major titles. Goffertstadion cheered their 1975 KNVB Cup final run, a gritty tale.",
-    "Nacional": "Since 1910 in Madeira, Nacional's black-and-white reached Primeira Liga in 2002. Estadio da Madeira roared for their 2009 Europa League run, an island football story.",
+    "CD Nacional": "Since 1910 in Madeira, Nacional's black-and-white reached Primeira Liga in 2002. Estadio da Madeira roared for their 2009 Europa League run, an island football story.",
     "Napoli": "Founded in 1926 in Naples, Napoli's three Serie A titles peaked with Maradona's 1987 and 1990 wins. Stadio Diego Armando Maradona cheered their 1989 UEFA Cup triumph.",
     "Necaxa": "Born in 1923 in Aguascalientes, Necaxa's lightning struck with three Liga MX titles in the '90s. Estadio Victoria roared for their four Copa Mexico wins, a red-white tale.",
     "Newcastle United": "Since 1892 in Newcastle, the Magpies' Geordie passion won four First Division titles, last in 1927. St James' Park cheered their 1955 FA Cup triumph, a black-and-white saga.",

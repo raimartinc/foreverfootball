@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Explore football teams—stats, logos, uniforms, and maps!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://unpkg.com 'unsafe-inline'; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org">
+    <meta name="description" content="Explore football teams—stats, logos, uniforms, and more!">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.tile.openstreetmap.org https://*.google.com https://*.googlesyndication.com; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
     <title>Forever Football</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -13,18 +12,23 @@
     <div class="container">
         <header>
             <h1>Forever Football</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a>
+            </nav>
         </header>
         <div class="main">
             <div class="intro">
                 <h2>Welcome to Forever Football</h2>
                 <p>Step into <strong>foreverfootball.online</strong>, where the beautiful game's heartbeat echoes from every corner of the globe. Explore over 1000 teams spanning FIFA's 211 member nations. From the roaring terraces of Camp Nou, where Barcelona's blaugrana dynasty reigns, to the gritty streets of Tunja, where Boyaca Chico's chessboard kit defied odds, we've got it all. Here, legends like Paolo Maldini, Diego Maradona, and Lionel Messi live forever alongside leyends like Sevilla's Europa League streak or Boca Juniors' 2000 Intercontinental triumph. Our mission? To catalog every club's soul—stats, logos, uniforms, and tales of glory—delivered through stats and deep dives that ignite your fandom.</p>
-                <p>This isn't just a site—it's a living archive. Picture Ajax's Total Football revolution, Arsenal's Invincibles swagger, or Corinthians' Timao army shaking Sao Paulo. We blend raw data (trophies, founding years) with the moments that define football—Zico's Flamengo flair, Totti's Roma loyalty, Henry's Arsenal magic. Whether you're chasing the giants or unearthing hidden gems like Arouca or Almere City, Forever Football is your playbook. Built for fans, by a fan, it's a celebration of the game's past, present, and future. No fuss, just pure football passion. Start your journey now: pick a country, search a team, or zoom into our map. The world's pitches are calling—where will you kick off?</p>
+                <p>This isn't just a site—it's a living archive. Picture Ajax's Total Football revolution, Arsenal's Invincibles swagger, or Corinthians' Timao army shaking Sao Paulo. We blend raw data (trophies, founding years) with the moments that define football—Zico's Flamengo flair, Totti's Roma loyalty, Henry's Arsenal magic. Whether you're chasing the giants or unearthing hidden gems like Arouca or Almere City, Forever Football is your playbook. Built for fans, by a fan, it's a celebration of the game's past, present, and future. No fuss, just pure football passion. Start your journey now: explore teams, zoom into our map, or dive into legendary highlights.</p>
             </div>
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="teams">Teams</button>
-                <button class="tab-btn" data-tab="map">Map</button>
+            <div class="navigation">
+                <button class="nav-btn" onclick="navigateWithAdRefresh('index.html')">Explore Teams</button>
+                <button class="nav-btn" onclick="navigateWithAdRefresh('map.html')">View Map</button>
+                <button class="nav-btn" onclick="navigateWithAdRefresh('highlights.html')">See Highlights</button>
             </div>
-            <div id="map-message" class="map-message"></div>
             <div id="teams" class="tab-content active">
                 <div id="team-select">
                     <select id="country" autocomplete="off"><option value="">Select Country</option></select>
@@ -38,11 +42,13 @@
                 </div>
                 <div id="country-teams" class="country-teams"></div>
                 <div id="team-details" class="team-details"></div>
+                <ins class="adsbygoogle"
+                     style="display:block; margin: 20px auto; width: 300px; height: 250px;"
+                     data-ad-client="ca-pub-9925950012374716"
+                     data-ad-slot="YOUR_AD_SLOT_ID"></ins>
             </div>
-            <div id="map" class="tab-content"></div>
         </div>
     </div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="teams.js"></script>
     <script src="team-highlights.js"></script>
     <style>
@@ -57,21 +63,35 @@
         .container { 
             display: flex; 
             flex-direction: column; 
-            min-height: 100vh; 
+            min-height: 150vh; 
             max-width: 1200px; 
             margin: 0 auto; 
         }
         header { 
-            text-align: center; 
             padding: 20px; 
             background: rgba(255, 75, 0, 0.9); 
             color: white; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
         }
-        h1 { 
+        header h1 { 
             margin: 0; 
             font-size: 2.5em; 
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        nav a { 
+            color: #FFF3E0; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 0 10px; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
         }
         .main { 
             flex: 1; 
@@ -82,30 +102,30 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
         .intro { 
-            margin-bottom: 25px; 
+            margin-bottom: 12px; 
             padding: 20px; 
             background: rgba(255, 245, 238, 0.9); 
             border-radius: 8px; 
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
         }
         .intro h2 { 
-            font-size: 28px; 
+            font-size: 20px; 
             color: #FF4500; 
             margin-bottom: 10px; 
             text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
         }
         .intro p {
-            font-size: 15px;
-            line-height: 1.5;
-            margin: 08px 0;
+            font-size: 14px;
+            line-height: 1.3;
+            margin: 8px 0;
         }
-        .tabs { 
+        .navigation { 
             display: flex; 
             gap: 15px; 
-            margin-bottom: 25px; 
+            margin-bottom: 20px; 
             justify-content: center;
         }
-        .tab-btn { 
+        .nav-btn { 
             padding: 12px 25px; 
             background: #FF4500; 
             color: white; 
@@ -115,13 +135,9 @@
             font-weight: 700; 
             transition: transform 0.2s, background 0.3s;
         }
-        .tab-btn:hover { 
-            transform: scale(1.05); 
+        .nav-btn:hover { 
+            transform: scale(1.1); 
             background: #FF5722; 
-        }
-        .tab-btn.active { 
-            background: #FFA500; 
-            transform: scale(1.05); 
         }
         .tab-content { 
             display: none; 
@@ -130,7 +146,7 @@
             display: block; 
         }
         #team-select { 
-            margin-bottom: 25px; 
+            margin-bottom: 20px; 
             display: flex; 
             gap: 10px; 
             flex-wrap: wrap; 
@@ -159,6 +175,7 @@
             position: relative;
             display: flex;
             align-items: center;
+            margin: 20px 0;
         }
         #team-search {
             width: 100%;
@@ -224,7 +241,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 150px; /* Ensures consistent height */
+            min-height: 150px;
         }
         .country-team a {
             color: #1E88E5;
@@ -232,8 +249,8 @@
             font-weight: 700;
             text-align: center;
             transition: color 0.3s;
-            word-wrap: break-word; /* Prevents overflow */
-            max-width: 100%; /* Keeps text within cell */
+            word-wrap: break-word;
+            max-width: 100%;
         }
         .country-team a:hover {
             color: #1976D2;
@@ -273,23 +290,6 @@
         }
         .team-details img:hover { 
             transform: scale(1.1); 
-        }
-        #map { 
-            height: 450px; 
-            width: 100%; 
-            margin: 20px 0; 
-            border-radius: 10px; 
-            background: #ddd; 
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .map-message { 
-            text-align: center; 
-            font-size: 26px; 
-            color: #FF4500; 
-            margin: 15px 0; 
-            font-weight: 700; 
-            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); 
-            display: none; 
         }
         footer { 
             text-align: center; 
@@ -341,87 +341,13 @@
             }
             console.log('Teams loaded, count:', teams.length);
 
-            const tabs = document.querySelectorAll('.tab-btn');
-            const mapMessage = document.getElementById('map-message');
-            let mapInitialized = false;
-
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function() {
-                    console.log('Tab clicked:', this.dataset.tab);
-                    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-                    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-                    document.getElementById(this.dataset.tab).classList.add('active');
-                    this.classList.add('active');
-                    if (this.dataset.tab === 'map' && !mapInitialized) {
-                        initMap();
-                        mapMessage.style.display = 'block';
-                        mapMessage.textContent = 'Zoom in to find your team!';
-                    } else if (this.dataset.tab !== 'map') {
-                        mapMessage.style.display = 'none';
-                    }
-                });
-            });
-
-            let map, markers = [];
-            const MIN_ZOOM_FOR_MARKERS = 4;
-            const footballPin = L.icon({
-                iconUrl: 'images/football-pin.png',
-                shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-                iconSize: [20, 20],
-                shadowSize: [30, 30],
-                iconAnchor: [10, 30],
-                shadowAnchor: [10, 30],
-                popupAnchor: [0, -30]
-            });
-
-            function initMap() {
-                console.log('Map init called');
-                if (typeof L === 'undefined') {
-                    console.error('Leaflet not loaded!');
-                    return;
-                }
-                map = L.map('map').setView([20, 0], 2);
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
-                    attribution: '© OpenStreetMap' 
-                }).addTo(map);
-
-                teams.forEach(team => {
-                    const marker = L.marker([team.lat, team.lon], { icon: footballPin })
-                        .bindPopup(`
-                            <strong>${team.name}</strong><br>
-                            ${team.city}, ${team.country}<br>
-                            <em>${highlights[team.name] || 'No highlights available'}</em><br>
-                            <a href="team-info.html?team=${encodeURIComponent(team.name)}">More Info</a>
-                        `);
-                    markers.push(marker);
-                });
-
-                function updateMarkers() {
-                    const zoom = map.getZoom();
-                    console.log('Zoom level:', zoom);
-                    if (zoom >= MIN_ZOOM_FOR_MARKERS) {
-                        markers.forEach(marker => {
-                            if (!map.hasLayer(marker)) map.addLayer(marker);
-                        });
-                    } else {
-                        markers.forEach(marker => {
-                            if (map.hasLayer(marker)) map.removeLayer(marker);
-                        });
-                    }
-                }
-
-                updateMarkers();
-                map.on('zoomend', updateMarkers);
-                mapInitialized = true;
-            }
-
             const countrySelect = document.getElementById('country');
             const citySelect = document.getElementById('city');
             const teamSelect = document.getElementById('team');
             const countryTeams = document.getElementById('country-teams');
-            const details = document.getElementById('team-details');
+            const teamDetails = document.getElementById('team-details');
             const teamSearch = document.getElementById('team-search');
-            const searchResults = document.getElementById('search-results');
+            const teamSearchResults = document.getElementById('search-results');
 
             const countries = [...new Set(teams.map(t => t.country))].sort();
             countries.forEach(country => {
@@ -431,11 +357,76 @@
                 countrySelect.appendChild(option);
             });
 
+            // Handle country parameter or default to Real Madrid
+            const urlParams = new URLSearchParams(window.location.search);
+            const countryParam = urlParams.get('country');
+            if (countryParam) {
+                countrySelect.value = countryParam;
+                const cities = [...new Set(teams.filter(t => t.country === countryParam).map(t => t.city))].sort();
+                citySelect.innerHTML = '<option value="">Select City</option>';
+                cities.forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    citySelect.appendChild(option);
+                });
+                const countryTeamList = teams.filter(t => t.country === countryParam).sort((a, b) => a.name.localeCompare(b.name));
+                countryTeamList.forEach(team => {
+                    const teamDiv = document.createElement('div');
+                    teamDiv.className = 'country-team';
+                    teamDiv.innerHTML = `
+                        <img src="${team.logo || 'https://via.placeholder.com/100?text=Logo'}" alt="${team.name} Logo">
+                        <a href="team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}'); return false;">${team.name}</a>
+                    `;
+                    countryTeams.appendChild(teamDiv);
+                });
+            } else {
+                const defaultTeam = teams.find(t => t.name === "Real Madrid");
+                if (defaultTeam) {
+                    countrySelect.value = defaultTeam.country;
+                    const cities = [...new Set(teams.filter(t => t.country === defaultTeam.country).map(t => t.city))].sort();
+                    citySelect.innerHTML = '<option value="">Select City</option>';
+                    cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city;
+                        option.textContent = city;
+                        citySelect.appendChild(option);
+                    });
+                    citySelect.value = defaultTeam.city;
+                    const teamList = teams.filter(t => t.country === defaultTeam.country && t.city === defaultTeam.city).sort((a, b) => a.name.localeCompare(b.name));
+                    teamSelect.innerHTML = '<option value="">Select Team</option>';
+                    teamList.forEach(team => {
+                        const option = document.createElement('option');
+                        option.value = team.name;
+                        option.textContent = team.name;
+                        teamSelect.appendChild(option);
+                    });
+                    teamSelect.value = defaultTeam.name;
+                    teamDetails.innerHTML = `
+                        <div><strong>Name:</strong> ${defaultTeam.name} ${defaultTeam.active ? '' : '(Defunct)'}</div>
+                        <div><strong>Country:</strong> ${defaultTeam.country}</div>
+                        <div><strong>League:</strong> ${defaultTeam.league}</div>
+                        <div><strong>City:</strong> ${defaultTeam.city}</div>
+                        <div><strong>Founded:</strong> ${defaultTeam.founded}</div>
+                        <div><strong>Stadium:</strong> ${defaultTeam.stadium}</div>
+                        <div><strong>Trophies:</strong> ${defaultTeam.trophies || 'None'}</div>
+                        <div><strong>Must Know Fact:</strong> ${defaultTeam.mustKnowFact}</div>
+                        <div class="highlights"><strong>Highlights:</strong> ${highlights[defaultTeam.name] || 'No highlights available'}</div>
+                        <img src="${defaultTeam.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${defaultTeam.name} Logo">
+                        <img src="${defaultTeam.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${defaultTeam.name} Uniform">
+                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(defaultTeam.name)}&country=${encodeURIComponent(defaultTeam.country)}')">More Info</button>
+                    `;
+                } else {
+                    console.error('Default team Real Madrid not found!');
+                    teamDetails.innerHTML = 'Error: Default team not found!';
+                }
+            }
+
             countrySelect.addEventListener('change', function() {
                 citySelect.innerHTML = '<option value="">Select City</option>';
                 teamSelect.innerHTML = '<option value="">Select Team</option>';
                 countryTeams.innerHTML = '';
-                details.innerHTML = '';
+                teamDetails.innerHTML = '';
                 if (this.value) {
                     const cities = [...new Set(teams.filter(t => t.country === this.value).map(t => t.city))].sort();
                     cities.forEach(city => {
@@ -451,7 +442,7 @@
                         teamDiv.className = 'country-team';
                         teamDiv.innerHTML = `
                             <img src="${team.logo || 'https://via.placeholder.com/100?text=Logo'}" alt="${team.name} Logo">
-                            <a href="team-info.html?team=${encodeURIComponent(team.name)}" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}'); return false;">${team.name}</a>
+                            <a href="team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}'); return false;">${team.name}</a>
                         `;
                         countryTeams.appendChild(teamDiv);
                     });
@@ -460,7 +451,7 @@
 
             citySelect.addEventListener('change', function() {
                 teamSelect.innerHTML = '<option value="">Select Team</option>';
-                details.innerHTML = '';
+                teamDetails.innerHTML = '';
                 if (this.value) {
                     const teamList = teams.filter(t => t.country === countrySelect.value && t.city === this.value).sort((a, b) => a.name.localeCompare(b.name));
                     teamList.forEach(team => {
@@ -473,11 +464,11 @@
             });
 
             teamSelect.addEventListener('change', function() {
-                details.innerHTML = '';
+                teamDetails.innerHTML = '';
                 if (this.value) {
                     const team = teams.find(t => t.name === this.value);
                     if (team) {
-                        details.innerHTML = `
+                        teamDetails.innerHTML = `
                             <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
                             <div><strong>Country:</strong> ${team.country}</div>
                             <div><strong>League:</strong> ${team.league}</div>
@@ -489,26 +480,26 @@
                             <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
                             <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
                             <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
-                            <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                            <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}')">More Info</button>
                         `;
                     } else {
                         console.error('Team not found:', this.value);
-                        details.innerHTML = 'Error: Team not found!';
+                        teamDetails.innerHTML = 'Error: Team not found!';
                     }
                 }
             });
 
             teamSearch.addEventListener('input', function() {
                 const query = this.value.toLowerCase();
-                searchResults.style.display = 'none';
+                teamSearchResults.style.display = 'none';
                 if (query.length >= 3) {
                     const results = teams.filter(t => t.name.toLowerCase().includes(query)).slice(0, 5);
                     if (results.length > 0) {
-                        searchResults.innerHTML = results.map(t => `
+                        teamSearchResults.innerHTML = results.map(t => `
                             <div class="search-item" data-team="${encodeURIComponent(t.name)}">${t.name} (${t.city}, ${t.country})</div>
                         `).join('');
-                        searchResults.style.display = 'block';
-                        document.querySelectorAll('.search-item').forEach(item => {
+                        teamSearchResults.style.display = 'block';
+                        document.querySelectorAll('#search-results .search-item').forEach(item => {
                             item.addEventListener('click', function() {
                                 const teamName = decodeURIComponent(this.getAttribute('data-team'));
                                 const team = teams.find(t => t.name === teamName);
@@ -532,7 +523,7 @@
                                         teamSelect.appendChild(option);
                                     });
                                     teamSelect.value = teamName;
-                                    details.innerHTML = `
+                                    teamDetails.innerHTML = `
                                         <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
                                         <div><strong>Country:</strong> ${team.country}</div>
                                         <div><strong>League:</strong> ${team.league}</div>
@@ -544,23 +535,21 @@
                                         <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
                                         <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
                                         <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
-                                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                                        <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}')">More Info</button>
                                     `;
-                                    searchResults.style.display = 'none';
-                                } else {
-                                    console.error('Team not found from search:', teamName);
+                                    teamSearchResults.style.display = 'none';
                                 }
                             });
                         });
                     } else {
-                        searchResults.innerHTML = '<div>No teams found</div>';
-                        searchResults.style.display = 'block';
+                        teamSearchResults.innerHTML = '<div>No teams found</div>';
+                        teamSearchResults.style.display = 'block';
                     }
                 }
             });
 
             teamSearch.addEventListener('blur', function() {
-                setTimeout(() => searchResults.style.display = 'none', 200);
+                setTimeout(() => teamSearchResults.style.display = 'none', 200);
             });
 
             teamSearch.addEventListener('keypress', function(e) {
@@ -569,7 +558,7 @@
                     if (query.length >= 3) {
                         const team = teams.find(t => t.name.toLowerCase().includes(query));
                         if (team) {
-                            details.innerHTML = `
+                            teamDetails.innerHTML = `
                                 <div><strong>Name:</strong> ${team.name} ${team.active ? '' : '(Defunct)'}</div>
                                 <div><strong>Country:</strong> ${team.country}</div>
                                 <div><strong>League:</strong> ${team.league}</div>
@@ -581,21 +570,22 @@
                                 <div class="highlights"><strong>Highlights:</strong> ${highlights[team.name] || 'No highlights available'}</div>
                                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
                                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
-                                <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}')">More Info</button>
+                                <button class="more-info-btn" onclick="window.navigateWithAdRefresh('team-info.html?team=${encodeURIComponent(team.name)}&country=${encodeURIComponent(team.country)}')">More Info</button>
                             `;
                             countrySelect.value = team.country;
                             citySelect.value = team.city;
                             teamSelect.value = team.name;
-                            searchResults.style.display = 'none';
-                        } else {
-                            console.error('Team not found from Enter key:', query);
+                            teamSearchResults.style.display = 'none';
                         }
                     }
                 }
             });
 
             try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
+                if (!window.adsbygoogleLoaded) {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    window.adsbygoogleLoaded = true;
+                }
             } catch (e) {
                 console.error('AdSense push failed:', e);
             }

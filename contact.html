@@ -3,110 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Forever Football - Share your football gems or feedback!">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.google.com https://*.googlesyndication.com https://formspree.io; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
     <title>Contact - Forever Football</title>
-    <link rel="stylesheet" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
-    <style>
-        /* Basic form styles in case styles.css doesn’t cover it */
-        main {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            color: white;
-            background: rgba(0, 0, 0, 0.8);
-            border-radius: 10px;
-        }
-        h2 {
-            color: #FFD700;
-            text-align: center;
-        }
-        p {
-            text-align: center;
-        }
-        label {
-            display: block;
-            margin: 10px 0 5px;
-            color: #FFD700;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            background: #1a1a1a;
-            border: 1px solid #FFD700;
-            border-radius: 5px;
-            color: white;
-            font-family: Arial;
-        }
-        button {
-            display: block;
-            width: 150px;
-            padding: 10px;
-            margin: 0 auto;
-            background: radial-gradient(circle, #FFD700, #DAA520);
-            color: black;
-            border: 3px solid #FFD700;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px #FFD700;
-        }
-        #form-message {
-            margin-top: 10px;
-            color: #FFD700;
-            text-align: center;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MZ66WWDR4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3MZ66WWDR4');
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Contact Forever Football</h1>
-        <nav><a href="index.html">Home</a></nav>
-    </header>
-    <main>
-        <h2>Get in Touch</h2>
-        <p>Got a football gem or feedback? Send it our way—no email required!</p>
-        <form id="contact-form" action="https://formspree.io/f/mrbpgkyp" method="POST">
-            <p>
-                <label for="name">Name (optional):</label>
-                <input type="text" id="name" name="name" placeholder="Your name">
-            </p>
-            <p>
-                <label for="email">Email (optional):</label>
-                <input type="email" id="email" name="email" placeholder="Your email">
-            </p>
-            <p>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" placeholder="What’s on your mind?" required></textarea>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
-        <div id="form-message"></div>
-        <p>We’ll reply faster than a striker’s shot!</p>
-    </main>
+    <div class="container">
+        <header>
+            <h1>Forever Football - Contact</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Get in Touch</h2>
+            <p>Got a football gem or feedback? Send it our way—no email required unless you want a reply! Reach us directly at <a href="mailto:raimartinc@gmail.com">email@</a> or use the form below.</p>
+            <form id="contact-form" action="https://formspree.io/f/mrbpgkyp" method="POST">
+                <p>
+                    <label for="name">Name (optional):</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </p>
+                <p>
+                    <label for="email">Email (optional, for replies):</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="What’s on your mind?" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+            <div id="form-message"></div>
+            <p>We’ll reply faster than a striker’s shot!</p>
+        </main>
+    </div>
     <footer>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About</a> | 
-        <a href="contact.html">Contact</a> | 
-        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> |
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> |
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> |
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> |
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
     </footer>
-
     <script>
+        function navigateWithAdRefresh(url) {
+            window.location.href = url;
+        }
+
         document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission for better feedback
             const formMessage = document.getElementById('form-message');
             formMessage.textContent = "Sending your message...";
 
-            // Clear message after a delay (Formspree handles the actual submission)
-            setTimeout(() => {
-                formMessage.textContent = "";
-            }, 2000);
+            fetch(this.action, {
+                method: 'POST',
+                body: new FormData(this),
+                headers: { 'Accept': 'application/json' }
+            })
+            .then(response => {
+                if (response.ok) {
+                    formMessage.textContent = "Message sent successfully!";
+                    this.reset(); // Clear the form
+                } else {
+                    formMessage.textContent = "Oops, something went wrong. Try again!";
+                }
+            })
+            .catch(error => {
+                formMessage.textContent = "Error: Couldn’t send message. Check your connection.";
+                console.error('Form submission error:', error);
+            });
         });
     </script>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: 'Roboto', Arial, sans-serif; 
+            background: linear-gradient(to bottom, #2E7D32, #FFFFFF), url('images/footbg.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            background-blend-mode: overlay;
+            color: #333;
+        }
+        .container { 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        header { 
+            padding: 20px; 
+            background: rgba(255, 75, 0, 0.9); 
+            color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5em; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        nav a { 
+            color: #FFF3E0; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 0 10px; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+        main { 
+            flex: 1; 
+            padding: 30px; 
+            background: rgba(255, 255, 255, 0.85); 
+            border-radius: 10px; 
+            margin: 20px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 { 
+            font-size: 20px; 
+            color: #FF4500; 
+            margin-bottom: 10px; 
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+        p { 
+            font-size: 16px; 
+            line-height: 1.6; 
+            margin: 10px 0; 
+            text-align: center;
+        }
+        a { 
+            color: #1E88E5; 
+            text-decoration: none; 
+            font-weight: 700; 
+        }
+        a:hover { 
+            color: #1976D2; 
+            text-decoration: underline; 
+        }
+        form { 
+            margin: 20px 0; 
+            max-width: 500px; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+        label { 
+            font-weight: 700; 
+            color: #333; 
+            display: block; 
+            margin: 10px 0 5px; 
+        }
+        input, textarea { 
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+            border: 2px solid #FF4500; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            background: white; 
+            color: #333; 
+        }
+        input:focus, textarea:focus { 
+            border-color: #FFA500; 
+            outline: none; 
+            background: #FFF3E0; 
+        }
+        button { 
+            display: block; 
+            width: 150px; 
+            padding: 10px; 
+            margin: 0 auto; 
+            background: #1E88E5; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-weight: 700; 
+            transition: background 0.3s, transform 0.2s; 
+        }
+        button:hover { 
+            background: #1976D2; 
+            transform: scale(1.05); 
+        }
+        #form-message { 
+            margin-top: 10px; 
+            color: #FF4500; 
+            text-align: center; 
+            font-weight: 700; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 15px; 
+            background: rgba(0, 0, 0, 0.8); 
+            color: white; 
+            width: 100%; 
+        }
+        footer a { 
+            color: #FFA500; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 700; 
+            transition: color 0.3s; 
+        }
+        footer a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+    </style>
 </body>
 </html>

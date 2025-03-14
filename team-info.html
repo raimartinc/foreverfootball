@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Detailed info and highlights for your favorite football teams!">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://en.wikipedia.org 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://en.wikipedia.org https://pagead2.googlesyndication.com; img-src 'self' https://* data:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://en.wikipedia.org 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://en.wikipedia.org https://*.tile.openstreetmap.org https://*.google.com https://*.googlesyndication.com; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
     <title>Team Info - Forever Football</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -13,10 +13,19 @@
     <div class="container">
         <header>
             <h1>Forever Football - Team Info</h1>
-            <nav><a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Back to Home</a></nav>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a>
+            </nav>
         </header>
         <main>
             <div id="team-info" class="team-details"></div>
+            <button class="back-btn" id="back-to-country" style="display: none;">Back to Country Teams</button>
+            <ins class="adsbygoogle"
+                 style="display:block; margin: 20px auto; width: 300px; height: 250px;"
+                 data-ad-client="ca-pub-9925950012374716"
+                 data-ad-slot="YOUR_AD_SLOT_ID"></ins>
         </main>
     </div>
     <footer>
@@ -39,25 +48,55 @@
         document.addEventListener('DOMContentLoaded', function() {
             console.log('DOM loaded');
             const urlParams = new URLSearchParams(window.location.search);
-            const teamName = urlParams.get('team');
-            console.log('Team param:', teamName);
-
+            let teamName = urlParams.get('team');
+            const country = urlParams.get('country');
             const teamInfoDiv = document.getElementById('team-info');
-            if (!teamName || typeof teams === 'undefined' || typeof highlights === 'undefined') {
-                teamInfoDiv.innerHTML = '<p>Team not found or data not loaded!</p>';
-                console.error('Missing data - teamName:', teamName, 'teams:', typeof teams, 'highlights:', typeof highlights);
+
+            if (typeof teams === 'undefined' || typeof highlights === 'undefined') {
+                teamInfoDiv.innerHTML = '<p>Team data not loaded! <a href="index.html">Go back to home</a></p>';
+                console.error('teams.js or team-highlights.js not loaded!');
                 return;
             }
 
-            const decodedTeamName = decodeURIComponent(teamName);
-            const team = teams.find(t => t.name === decodedTeamName);
-            if (!team) {
-                teamInfoDiv.innerHTML = '<p>Team not found!</p>';
-                console.error('Team not in list:', decodedTeamName);
-                return;
+            let team;
+            if (!teamName) {
+                console.log('No team specified, using default: Real Madrid');
+                team = teams.find(t => t.name === "Real Madrid") || teams[0];
+            } else {
+                const decodedTeamName = decodeURIComponent(teamName);
+                team = teams.find(t => t.name === decodedTeamName);
+                if (!team) {
+                    console.error('Team not found:', decodedTeamName);
+                    teamInfoDiv.innerHTML = '<p>Team not found! <a href="index.html">Go back to home</a></p>';
+                    return;
+                }
             }
 
-            console.log('Team found:', team.name);
+            renderTeamInfo(team);
+            fetchWikipediaSummary(team);
+
+            // Set up Back to Country button
+            const backBtn = document.getElementById('back-to-country');
+            if (country) {
+                backBtn.style.display = 'block';
+                backBtn.textContent = `Back to ${decodeURIComponent(country)} Teams`;
+                backBtn.onclick = () => navigateWithAdRefresh(`index.html?country=${encodeURIComponent(country)}`);
+            } else {
+                backBtn.style.display = 'none';
+            }
+
+            try {
+                if (!window.adsbygoogleLoaded) {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    window.adsbygoogleLoaded = true;
+                }
+            } catch (e) {
+                console.error('AdSense push failed:', e);
+            }
+        });
+
+        function renderTeamInfo(team) {
+            const teamInfoDiv = document.getElementById('team-info');
             teamInfoDiv.innerHTML = `
                 <h1>${team.name} ${team.active ? '' : '(Defunct)'}</h1>
                 <h2>Highlights</h2>
@@ -67,7 +106,7 @@
                 <p><strong>City:</strong> ${team.city}</p>
                 <p><strong>Founded:</strong> ${team.founded}</p>
                 <p><strong>Stadium:</strong> ${team.stadium}</p>
-                <p><strong>Trophies:</strong> ${team.trophies}</p>
+                <p><strong>Trophies:</strong> ${team.trophies || 'None'}</p>
                 <p><strong>Must Know Fact:</strong> ${team.mustKnowFact}</p>
                 <img src="${team.logo || 'https://via.placeholder.com/200?text=Logo'}" alt="${team.name} Logo">
                 <img src="${team.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${team.name} Uniform">
@@ -76,16 +115,7 @@
                     <p>Loading Wikipedia summary...</p>
                 </div>
             `;
-
-            fetchWikipediaSummary(team);
-
-            try {
-                console.log('Attempting AdSense push');
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-                console.error('AdSense push failed:', e);
-            }
-        });
+        }
 
         async function fetchWikipediaSummary(team) {
             const wikiDiv = document.getElementById('wiki-summary');
@@ -93,36 +123,28 @@
                 console.log('Fetching Wikipedia for:', team.name);
                 const searchQuery = `"${team.name}" football club ${team.city || team.country}`;
                 const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(searchQuery)}&format=json&origin=*`;
-                console.log('Search URL:', searchUrl);
                 const searchResponse = await fetch(searchUrl);
-                console.log('Search response status:', searchResponse.status, searchResponse.statusText);
                 const searchData = await searchResponse.json();
-                console.log('Search data:', JSON.stringify(searchData, null, 2));
 
                 if (!searchData.query || !searchData.query.search || searchData.query.search.length === 0) {
                     wikiDiv.innerHTML = `
                         <h2>About ${team.name}</h2>
                         <p>No Wikipedia summary available for this team.</p>
                     `;
-                    console.log('No Wikipedia page found for:', team.name, 'Query:', searchQuery);
+                    console.log('No Wikipedia page found for:', team.name);
                     return;
                 }
 
-                // Filter for club-related title
                 const bestMatch = searchData.query.search.find(result => {
                     const titleLower = result.title.toLowerCase();
                     return titleLower.includes(team.name.toLowerCase()) && 
-                           (titleLower.includes('club') || titleLower.includes('fc') || titleLower.includes('football') || titleLower.includes('soccer'));
+                           (titleLower.includes('club') || titleLower.includes('fc') || titleLower.includes('football'));
                 }) || searchData.query.search[0];
                 const pageTitle = bestMatch.title;
-                console.log('Wikipedia page selected:', pageTitle);
 
                 const extractUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exsentences=4&explaintext&titles=${encodeURIComponent(pageTitle)}&format=json&origin=*`;
-                console.log('Extract URL:', extractUrl);
                 const extractResponse = await fetch(extractUrl);
-                console.log('Extract response status:', extractResponse.status, extractResponse.statusText);
                 const extractData = await extractResponse.json();
-                console.log('Extract data:', JSON.stringify(extractData, null, 2));
 
                 const page = Object.values(extractData.query.pages)[0];
                 if (page.extract) {
@@ -182,6 +204,7 @@
             text-decoration: none; 
             font-size: 18px; 
             font-weight: 700; 
+            margin: 0 10px; 
             transition: color 0.3s; 
         }
         nav a:hover { 
@@ -234,6 +257,20 @@
         #wiki-summary a:hover { 
             text-decoration: underline; 
             color: #1976D2; 
+        }
+        .back-btn { 
+            margin: 20px 0; 
+            padding: 10px 20px; 
+            background: #1E88E5; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-weight: 700; 
+            transition: background 0.3s; 
+        }
+        .back-btn:hover { 
+            background: #1976D2; 
         }
         footer { 
             text-align: center; 
