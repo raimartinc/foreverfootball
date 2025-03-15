@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Country details - Forever Football: Highlights, tournaments, and World Cup history.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://en.wikipedia.org 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.google.com https://*.googlesyndication.com https://formspree.io https://en.wikipedia.org; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
+    <title>Country - Forever Football</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MZ66WWDR4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3MZ66WWDR4');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Forever Football - Country</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a> |
+                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a>
+            
+            </nav>
+        </header>
+        <main>
+            <div id="country-details" class="country-details"></div>
+            <button class="back-btn" onclick="navigateWithAdRefresh('worldcup.html')">Back to World Cup</button>
+            <ins class="adsbygoogle"
+                 style="display:block; margin: 20px auto; width: 300px; height: 250px;"
+                 data-ad-client="ca-pub-9925950012374716"
+                 data-ad-slot="YOUR_AD_SLOT_ID"></ins>
+        </main>
+    </div>
+    <footer>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> |
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> |
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> |
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> |
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
+    </footer>
+    <script src="countries.js"></script>
+    <script>
+        function navigateWithAdRefresh(url) {
+            window.location.href = url;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof countries === 'undefined') {
+                document.getElementById('country-details').innerHTML = 'Error: Country data not loaded!';
+                return;
+            }
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const countryName = urlParams.get('country');
+            const countryDetails = document.getElementById('country-details');
+            const country = countries.find(c => c.name === decodeURIComponent(countryName));
+
+            if (country) {
+                const tournamentsList = country.tournaments && country.tournaments.length > 0 
+                    ? country.tournaments.map(t => `<li>${t}</li>`).join('') 
+                    : '<li>No major tournaments won</li>';
+                const worldCupFinishes = country.worldCupFinishes && Object.keys(country.worldCupFinishes).length > 0 
+                    ? Object.entries(country.worldCupFinishes).map(([year, place]) => `<li>${year}: ${place}</li>`).join('') 
+                    : '<li>No notable World Cup finishes</li>';
+                const bestStrikersList = country.bestStrikers && country.bestStrikers.length > 0 
+                    ? country.bestStrikers.map(s => `<li>${s.name} - Total Goals: ${s.totalGoals}, World Cup Goals: ${s.worldCupGoals}</li>`).join('') 
+                    : '<li>No strikers listed</li>';
+
+                countryDetails.innerHTML = `
+                    <h1>${country.name}</h1>
+                    <h2>Highlight</h2>
+                    <p>${country.fullHighlight || country.highlight || 'No highlight available'}</p>
+                    <h2>World Cup Participations</h2>
+                    <p>${country.worldCupParticipations || 0}</p>
+                    <h2>Tournaments Won</h2>
+                    <ul>${tournamentsList}</ul>
+                    <h2>FIFA World Cup Finishes (Top 4)</h2>
+                    <ul>${worldCupFinishes}</ul>
+                    <h2>Best Strikers</h2>
+                    <ul>${bestStrikersList}</ul>
+                    <h2>Legendary Players</h2>
+                    <ul>
+                        <li><strong>Goalkeeper:</strong> ${country.legendaryGoalkeeper || 'None listed'}</li>
+                        <li><strong>Defender:</strong> ${country.legendaryDefender || 'None listed'}</li>
+                        <li><strong>Midfielder:</strong> ${country.legendaryMidfielder || 'None listed'}</li>
+                        <li><strong>Striker:</strong> ${country.legendaryStriker || 'None listed'}</li>
+                    </ul>
+                    <img src="${country.flag || 'https://via.placeholder.com/200?text=Flag'}" alt="${country.name} Flag">
+                    <img src="${country.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${country.name} Uniform">
+                `;
+                document.title = `${country.name} - Forever Football`;
+            } else {
+                countryDetails.innerHTML = '<p>Country not found! <a href="worldcup.html" onclick="navigateWithAdRefresh(\'worldcup.html\'); return false;">Back to World Cup</a></p>';
+            }
+
+            try {
+                if (!window.adsbygoogleLoaded) {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    window.adsbygoogleLoaded = true;
+                }
+            } catch (e) {
+                console.error('AdSense push failed:', e);
+            }
+        });
+    </script>
+    <!-- Style unchanged -->
+    <style>
+        body { margin: 0; font-family: 'Roboto', Arial, sans-serif; background: linear-gradient(to bottom, #2E7D32, #FFFFFF), url('images/footbg.jpg') no-repeat center center fixed; background-size: cover; background-blend-mode: overlay; color: #333; }
+        .container { display: flex; flex-direction: column; min-height: 100vh; max-width: 1200px; margin: 0 auto; }
+        header { padding: 20px; background: rgba(255, 75, 0, 0.9); color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); display: flex; justify-content: space-between; align-items: center; }
+        header h1 { margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+        nav a { color: #FFF3E0; text-decoration: none; font-size: 18px; font-weight: 700; margin: 0 10px; transition: color 0.3s; }
+        nav a:hover { color: #FF5722; text-decoration: underline; }
+        main { flex: 1; padding: 30px; background: rgba(255, 255, 255, 0.85); border-radius: 10px; margin: 20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .country-details { font-size: 18px; line-height: 1.6; background: rgba(255, 245, 238, 0.9); padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+        .country-details h1 { font-size: 36px; color: #FF4500; margin-top: 0; text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); }
+        .country-details h2 { font-size: 28px; color: #1E88E5; margin: 20px 0 10px; }
+        .country-details p { margin: 10px 0; }
+        .country-details ul { margin: 10px 0 20px 20px; padding-left: 20px; }
+        .country-details img { border-radius: 5px; margin: 10px 0; transition: transform 0.3s; max-width: 250px; }
+        .country-details img:hover { transform: scale(1.1); }
+        .back-btn { margin: 20px 0; padding: 10px 20px; background: #1E88E5; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: 700; transition: background 0.3s; }
+        .back-btn:hover { background: #1976D2; }
+        footer { text-align: center; padding: 15px; background: rgba(0, 0, 0, 0.8); color: white; width: 100%; }
+        footer a { color: #FFA500; text-decoration: none; margin: 0 15px; font-weight: 700; transition: color 0.3s; }
+        footer a:hover { color: #FF5722; text-decoration: underline; }
+    </style>
+</body>
+</html>

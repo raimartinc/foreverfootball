@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore FIFA World Cup nations—flags, highlights, and more!">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.google.com https://*.googlesyndication.com https://formspree.io; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
+    <title>World Cup - Forever Football</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MZ66WWDR4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3MZ66WWDR4');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Forever Football - World Cup</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a> |
+                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a>
+            
+
+            </nav>
+        </header>
+        <main>
+            <h2>FIFA World Cup Nations</h2>
+            <p>Dive into the legacy of all 211 FIFA member nations—click a country to explore its international football story.</p>
+            <div id="country-grid" class="country-grid"></div>
+        </main>
+    </div>
+    <footer>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> |
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> |
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> |
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> |
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
+    </footer>
+    <script src="countries.js"></script>
+    <script>
+        function navigateWithAdRefresh(url) {
+            window.location.href = url;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof countries === 'undefined') {
+                document.getElementById('country-grid').innerHTML = 'Error: Country data not loaded!';
+                return;
+            }
+
+            const countryGrid = document.getElementById('country-grid');
+            countries.forEach(country => {
+                const countryDiv = document.createElement('div');
+                countryDiv.className = 'country-item';
+                countryDiv.innerHTML = `
+                    <img src="${country.flag || 'https://via.placeholder.com/100?text=Flag'}" alt="${country.name} Flag">
+                    <a href="countries.html?country=${encodeURIComponent(country.name)}" onclick="navigateWithAdRefresh('countries.html?country=${encodeURIComponent(country.name)}'); return false;">${country.name}</a>
+                    <p>${country.highlight || 'No highlight available'}</p>
+                `;
+                countryGrid.appendChild(countryDiv);
+            });
+
+            try {
+                if (!window.adsbygoogleLoaded) {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    window.adsbygoogleLoaded = true;
+                }
+            } catch (e) {
+                console.error('AdSense push failed:', e);
+            }
+        });
+    </script>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: 'Roboto', Arial, sans-serif; 
+            background: linear-gradient(to bottom, #2E7D32, #FFFFFF), url('images/footbg.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            background-blend-mode: overlay;
+            color: #333;
+        }
+        .container { 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        header { 
+            padding: 20px; 
+            background: rgba(255, 75, 0, 0.9); 
+            color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5em; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        nav a { 
+            color: #FFF3E0; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 0 10px; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+        main { 
+            flex: 1; 
+            padding: 30px; 
+            background: rgba(255, 255, 255, 0.85); 
+            border-radius: 10px; 
+            margin: 20px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 { 
+            font-size: 20px; 
+            color: #FF4500; 
+            margin-bottom: 10px; 
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        p { 
+            font-size: 16px; 
+            line-height: 1.6; 
+            margin: 10px 0; 
+        }
+        .country-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 245, 238, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .country-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 150px;
+            text-align: center;
+        }
+        .country-item img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            transition: transform 0.3s;
+        }
+        .country-item img:hover {
+            transform: scale(1.1);
+        }
+        .country-item a {
+            color: #1E88E5;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+        .country-item a:hover {
+            color: #1976D2;
+            text-decoration: underline;
+        }
+        .country-item p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0 0;
+        }
+        footer { 
+            text-align: center; 
+            padding: 15px; 
+            background: rgba(0, 0, 0, 0.8); 
+            color: white; 
+            width: 100%; 
+        }
+        footer a { 
+            color: #FFA500; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 700; 
+            transition: color 0.3s; 
+        }
+        footer a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+    </style>
+</body>
+</html>

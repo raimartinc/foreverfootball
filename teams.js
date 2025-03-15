@@ -71,8 +71,8 @@ const teams = [
         "trophies": "Ligue 1: 10, Coupe de France: 6, Coupe de la Ligue: 1, Trophée des Champions: 5, Ligue 2: 3",
         "mustKnowFact": "Back in Ligue 1 for 2024-25 after two years.",
         "active": true,
-        "logo": "logos/as_saint-etienne.png",
-        "uniform": "uniforms/as_saint-etienne.png"
+        "logo": "logos/as_saint_etienne.png",
+        "uniform": "uniforms/as_saint_etienne.png"
     },
     {
         "name": "AVS",
@@ -1856,8 +1856,8 @@ const teams = [
         "trophies": "Ligue 1: 0, Coupe de France: 1, Ligue 2: 6",
         "mustKnowFact": "Oldest club in France, steady in Ligue 1.",
         "active": true,
-        "logo": "logos/le_havre_ac.png",
-        "uniform": "uniforms/le_havre_ac.png"
+        "logo": "logos/le_havre.png",
+        "uniform": "uniforms/le_havre.png"
     },
     {
         "name": "Lecce",
@@ -1931,8 +1931,8 @@ const teams = [
         "trophies": "Ligue 1: 4, Coupe de France: 6, Trophée des Champions: 1, Ligue 2: 5",
         "mustKnowFact": "2021 Ligue 1 champs holding strong.",
         "active": true,
-        "logo": "logos/lille_osc.png",
-        "uniform": "uniforms/lille_osc.png"
+        "logo": "logos/lille.png",
+        "uniform": "uniforms/lille.png"
     },
     {
         "name": "Liverpool",
@@ -2081,8 +2081,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 2, Coupe de la Ligue: 1, Ligue 2: 4",
         "mustKnowFact": "2012 Ligue 1 title remains their peak.",
         "active": true,
-        "logo": "logos/montpellier_hsc.png",
-        "uniform": "uniforms/montpellier_hsc.png"
+        "logo": "logos/montpellier.png",
+        "uniform": "uniforms/montpellier.png"
     },
     {
         "name": "Monza",
@@ -2246,8 +2246,8 @@ const teams = [
         "trophies": "Ligue 1: 4, Coupe de France: 3, Trophée des Champions: 1, Ligue 2: 4",
         "mustKnowFact": "Riviera club with INEOS backing.",
         "active": true,
-        "logo": "logos/ogc_nice.png",
-        "uniform": "uniforms/ogc_nice.png"
+        "logo": "logos/nice.png",
+        "uniform": "uniforms/nice.png"
     },
     {
         "name": "Olympique Lyonnais",
@@ -2276,8 +2276,8 @@ const teams = [
         "trophies": "Ligue 1: 9, Champions League: 1, Coupe de France: 10, Coupe de la Ligue: 3, Trophée des Champions: 3, Ligue 2: 1",
         "mustKnowFact": "France's only Champions League winner (1993).",
         "active": true,
-        "logo": "logos/olympique_marseille.png",
-        "uniform": "uniforms/olympique_marseille.png"
+        "logo": "logos/marseille.png",
+        "uniform": "uniforms/marseille.png"
     },
     {
         "name": "Once Caldas",
@@ -2381,8 +2381,8 @@ const teams = [
         "trophies": "Ligue 1: 12, Coupe de France: 15, Coupe de la Ligue: 10, Trophée des Champions: 12, Ligue 2: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "2024 Trophée des Champions winners over Monaco.",
         "active": true,
-        "logo": "logos/paris_saint-germain.png",
-        "uniform": "uniforms/paris_saint-germain.png"
+        "logo": "logos/psg.png",
+        "uniform": "uniforms/psg.png"
     },
     {
         "name": "Parma",
@@ -2531,8 +2531,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 3, Coupe de la Ligue: 3, Ligue 2: 1",
         "mustKnowFact": "Alsace's blue-and-white pride.",
         "active": true,
-        "logo": "logos/rc_strasbourg_alsace.png",
-        "uniform": "uniforms/rc_strasbourg_alsace.png"
+        "logo": "logos/rc_strasbourg.png",
+        "uniform": "uniforms/rc_strasbourg.png"
     },
     {
         "name": "RKC Waalwijk",
@@ -2788,36 +2788,6 @@ const teams = [
         "active": true,
         "logo": "logos/sarmiento.png",
         "uniform": "uniforms/sarmiento.png"
-    },
-    {
-        "name": "Sassuolo",
-        "country": "Italy",
-        "league": "Serie A",
-        "city": "Sassuolo",
-        "lat": 44.5442,
-        "lon": 10.7848,
-        "founded": 1920,
-        "stadium": "Mapei Stadium",
-        "trophies": "",
-        "mustKnowFact": "Green-and-black overachievers.",
-        "active": true,
-        "logo": "logos/sassuolo.png",
-        "uniform": "uniforms/sassuolo.png"
-    },
-    {
-        "name": "Schalke 04",
-        "country": "Germany",
-        "league": "Bundesliga",
-        "city": "Gelsenkirchen",
-        "lat": 51.555,
-        "lon": 7.0665,
-        "founded": 1904,
-        "stadium": "Veltins-Arena",
-        "trophies": "Bundesliga: 7, DFB-Pokal: 5, DFL-Supercup: 1, UEFA Cup: 1",
-        "mustKnowFact": "Miners' blue legacy.",
-        "active": true,
-        "logo": "logos/schalke_04.png",
-        "uniform": "uniforms/schalke_04.png"
     },
     {
         "name": "Sevilla",
@@ -28245,21 +28215,6 @@ const teams = [
                 "uniform": "uniforms/reggiana.png"
             },
             {
-                "name": "Salernitana",
-                "country": "Italy",
-                "league": "Serie B",
-                "city": "Salerno",
-                "lat": 40.6824,
-                "lon": 14.7681,
-                "founded": 1919,
-                "stadium": "Stadio Arechi",
-                "trophies": "Serie B: 2",
-                "mustKnowFact": "Granata of Salerno.",
-                "active": true,
-                "logo": "logos/salernitana.png",
-                "uniform": "uniforms/salernitana.png"
-            },
-            {
                 "name": "Sampdoria",
                 "country": "Italy",
                 "league": "Serie B",
@@ -28361,8 +28316,8 @@ const teams = [
                 "trophies": "Ligue 2: 2",
                 "mustKnowFact": "Bears of Corsica.",
                 "active": true,
-                "logo": "logos/ac_ajaccio.png",
-                "uniform": "uniforms/ac_ajaccio.png"
+                "logo": "logos/ajaccio.png",
+                "uniform": "uniforms/ajaccio.png"
             },
             {
                 "name": "Bastia",
@@ -28616,8 +28571,8 @@ const teams = [
                 "trophies": "Bundesliga: 1",
                 "mustKnowFact": "Lions of Braunschweig.",
                 "active": true,
-                "logo": "logos/eintracht_braunschweig.png",
-                "uniform": "uniforms/eintracht_braunschweig.png"
+                "logo": "logos/eintracht.png",
+                "uniform": "uniforms/eintracht.png"
             },
             {
                 "name": "Fortuna Düsseldorf",
@@ -28648,21 +28603,6 @@ const teams = [
                 "active": true,
                 "logo": "logos/spvgg_greuther_furth.png",
                 "uniform": "uniforms/spvgg_greuther_furth.png"
-            },
-            {
-                "name": "Hamburger SV",
-                "country": "Germany",
-                "league": "2. Bundesliga",
-                "city": "Hamburg",
-                "lat": 53.5511,
-                "lon": 9.9937,
-                "founded": 1887,
-                "stadium": "Volksparkstadion",
-                "trophies": "Bundesliga: 6, European Cup: 1",
-                "mustKnowFact": "Rothosen of Hamburg.",
-                "active": true,
-                "logo": "logos/hamburger_sv.png",
-                "uniform": "uniforms/hamburger_sv.png"
             },
             {
                 "name": "Hannover 96",
@@ -28708,21 +28648,6 @@ const teams = [
                 "active": true,
                 "logo": "logos/karlsruher_sc.png",
                 "uniform": "uniforms/karlsruher_sc.png"
-            },
-            {
-                "name": "1. FC Köln",
-                "country": "Germany",
-                "league": "2. Bundesliga",
-                "city": "Cologne",
-                "lat": 50.9375,
-                "lon": 6.9603,
-                "founded": 1948,
-                "stadium": "RheinEnergieStadion",
-                "trophies": "Bundesliga: 3, DFB-Pokal: 4",
-                "mustKnowFact": "Billy Goats of Cologne.",
-                "active": true,
-                "logo": "logos/1_fc_koln.png",
-                "uniform": "uniforms/1_fc_koln.png"
             },
             {
                 "name": "1. FC Magdeburg",
