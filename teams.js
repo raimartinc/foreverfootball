@@ -11,8 +11,8 @@ const teams = [
         "trophies": "Serie A: 19, Coppa Italia: 5, Supercoppa Italiana: 7, Champions League: 7, UEFA Super Cup: 5, Intercontinental Cup: 3",
         "mustKnowFact": "Seven-time European champs.",
         "active": true,
-        "logo": "logos/ac_milan.png",
-        "uniform": "uniforms/ac_milan.png"
+        "logo": "logos/ac_milan.webp",
+        "uniform": "uniforms/ac_milan.webp"
     },
     {
         "name": "AJ Auxerre",
@@ -26,8 +26,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 4, Ligue 2: 2",
         "mustKnowFact": "Promoted back to Ligue 1 for 2024-25 after 2022 win.",
         "active": true,
-        "logo": "logos/aj_auxerre.png",
-        "uniform": "uniforms/aj_auxerre.png"
+        "logo": "logos/aj_auxerre.webp",
+        "uniform": "uniforms/aj_auxerre.webp"
     },
     {
         "name": "AS Monaco",
@@ -41,8 +41,8 @@ const teams = [
         "trophies": "Ligue 1: 8, Coupe de France: 5, Coupe de la Ligue: 1, Trophée des Champions: 4, Ligue 2: 3",
         "mustKnowFact": "Runner-up in Ligue 1 2023-24, facing PSG in 2024 Trophée.",
         "active": true,
-        "logo": "logos/as_monaco.png",
-        "uniform": "uniforms/as_monaco.png"
+        "logo": "logos/as_monaco.webp",
+        "uniform": "uniforms/as_monaco.webp"
     },
     {
         "name": "AS Roma",
@@ -56,8 +56,8 @@ const teams = [
         "trophies": "Serie A: 3, Coppa Italia: 9, Supercoppa Italiana: 2, Conference League: 1",
         "mustKnowFact": "Totti's one-club legend.",
         "active": true,
-        "logo": "logos/as_roma.png",
-        "uniform": "uniforms/as_roma.png"
+        "logo": "logos/as_roma.webp",
+        "uniform": "uniforms/as_roma.webp"
     },
     {
         "name": "AS Saint-Étienne",
@@ -71,8 +71,8 @@ const teams = [
         "trophies": "Ligue 1: 10, Coupe de France: 6, Coupe de la Ligue: 1, Trophée des Champions: 5, Ligue 2: 3",
         "mustKnowFact": "Back in Ligue 1 for 2024-25 after two years.",
         "active": true,
-        "logo": "logos/as_saint_etienne.png",
-        "uniform": "uniforms/as_saint_etienne.png"
+        "logo": "logos/as_saint_etienne.webp",
+        "uniform": "uniforms/as_saint_etienne.webp"
     },
     {
         "name": "AVS",
@@ -86,8 +86,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New kids from Aves.",
         "active": true,
-        "logo": "logos/avs.png",
-        "uniform": "uniforms/avs.png"
+        "logo": "logos/avs.webp",
+        "uniform": "uniforms/avs.webp"
     },
     {
         "name": "AZ Alkmaar",
@@ -101,8 +101,8 @@ const teams = [
         "trophies": "Eredivisie: 2, KNVB Cup: 4, Johan Cruyff Shield: 1",
         "mustKnowFact": "Cheese city's giant-killers.",
         "active": true,
-        "logo": "logos/az_alkmaar.png",
-        "uniform": "uniforms/az_alkmaar.png"
+        "logo": "logos/az_alkmaar.webp",
+        "uniform": "uniforms/az_alkmaar.webp"
     },
     {
         "name": "Ajax",
@@ -116,8 +116,8 @@ const teams = [
         "trophies": "Eredivisie: 36, KNVB Cup: 20, Johan Cruyff Shield: 9, Champions League: 4, UEFA Cup: 1, UEFA Super Cup: 3",
         "mustKnowFact": "Total Football's birthplace.",
         "active": true,
-        "logo": "logos/ajax.png",
-        "uniform": "uniforms/ajax.png"
+        "logo": "logos/ajax.webp",
+        "uniform": "uniforms/ajax.webp"
     },
     {
         "name": "Alaves",
@@ -131,8 +131,8 @@ const teams = [
         "trophies": "Segunda División: 4",
         "mustKnowFact": "Basque underdogs punch above.",
         "active": true,
-        "logo": "logos/alaves.png",
-        "uniform": "uniforms/alaves.png"
+        "logo": "logos/alaves.webp",
+        "uniform": "uniforms/alaves.webp"
     },
     {
         "name": "Alianza FC",
@@ -146,8 +146,8 @@ const teams = [
         "trophies": "Primera B: 2",
         "mustKnowFact": "Northern oilmen in yellow.",
         "active": true,
-        "logo": "logos/alianza_fc.png",
-        "uniform": "uniforms/alianza_fc.png"
+        "logo": "logos/alianza_fc.webp",
+        "uniform": "uniforms/alianza_fc.webp"
     },
     {
         "name": "Almere City",
@@ -161,8 +161,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New city's red-black rise.",
         "active": true,
-        "logo": "logos/almere-city.png",
-        "uniform": "uniforms/almere-city.png"
+        "logo": "logos/almere_city.webp",
+        "uniform": "uniforms/almere_city.webp"
     },
     {
         "name": "América de Cali",
@@ -176,8 +176,8 @@ const teams = [
         "trophies": "Primera A: 15, Copa Colombia: 1",
         "mustKnowFact": "Red devils of Cali.",
         "active": true,
-        "logo": "logos/america_de_cali.png",
-        "uniform": "uniforms/america_de_cali.png"
+        "logo": "logos/america_de_cali.webp",
+        "uniform": "uniforms/america_de_cali.webp"
     },
     {
         "name": "Angers SCO",
@@ -191,8 +191,8 @@ const teams = [
         "trophies": "Ligue 2: 2",
         "mustKnowFact": "Promoted to Ligue 1 for 2024-25.",
         "active": true,
-        "logo": "logos/angers_sco.png",
-        "uniform": "uniforms/angers_sco.png"
+        "logo": "logos/angers_sco.webp",
+        "uniform": "uniforms/angers_sco.webp"
     },
     {
         "name": "Argentinos Juniors",
@@ -206,8 +206,8 @@ const teams = [
         "trophies": "Primera División: 3, Copa Libertadores: 1, Copa Interamericana: 1",
         "mustKnowFact": "Maradona's launchpad.",
         "active": true,
-        "logo": "logos/argentinos_juniors.png",
-        "uniform": "uniforms/argentinos_juniors.png"
+        "logo": "logos/argentinos_juniors.webp",
+        "uniform": "uniforms/argentinos_juniors.webp"
     },
     {
         "name": "Arouca",
@@ -221,8 +221,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Small-town yellow surprise.",
         "active": true,
-        "logo": "logos/arouca.png",
-        "uniform": "uniforms/arouca.png"
+        "logo": "logos/arouca.webp",
+        "uniform": "uniforms/arouca.webp"
     },
     {
         "name": "Arsenal",
@@ -236,8 +236,8 @@ const teams = [
         "trophies": "Premier League: 3, First Division: 10, FA Cup: 14, League Cup: 2, Community Shield: 17, European Cup Winners' Cup: 1",
         "mustKnowFact": "The Invincibles of 2003-04.",
         "active": true,
-        "logo": "logos/arsenal.png",
-        "uniform": "uniforms/arsenal.png"
+        "logo": "logos/arsenal.webp",
+        "uniform": "uniforms/arsenal.webp"
     },
     {
         "name": "Aston Villa",
@@ -251,8 +251,8 @@ const teams = [
         "trophies": "First Division: 7, FA Cup: 7, League Cup: 5, Community Shield: 1, European Cup: 1, UEFA Super Cup: 1",
         "mustKnowFact": "1982 European champs.",
         "active": true,
-        "logo": "logos/aston_villa.png",
-        "uniform": "uniforms/aston_villa.png"
+        "logo": "logos/aston_villa.webp",
+        "uniform": "uniforms/aston_villa.webp"
     },
     {
         "name": "Atalanta",
@@ -266,8 +266,8 @@ const teams = [
         "trophies": "Serie B: 6, Coppa Italia: 1",
         "mustKnowFact": "Underdog giant-killers.",
         "active": true,
-        "logo": "logos/atalanta.png",
-        "uniform": "uniforms/atalanta.png"
+        "logo": "logos/atalanta.webp",
+        "uniform": "uniforms/atalanta.webp"
     },
     {
         "name": "Athletic Bilbao",
@@ -281,8 +281,8 @@ const teams = [
         "trophies": "La Liga: 8, Copa del Rey: 23, Supercopa de España: 3",
         "mustKnowFact": "Only signs Basque players.",
         "active": true,
-        "logo": "logos/athletic_bilbao.png",
-        "uniform": "uniforms/athletic_bilbao.png"
+        "logo": "logos/athletic_bilbao.webp",
+        "uniform": "uniforms/athletic_bilbao.webp"
     },
     {
         "name": "Athletico Paranaense",
@@ -296,8 +296,8 @@ const teams = [
         "trophies": "Série A: 1, Copa do Brasil: 1, Copa Sudamericana: 2, Campeonato Paranaense: 27",
         "mustKnowFact": "FuracÃ£o's storming force.",
         "active": true,
-        "logo": "logos/athletico_paranaense.png",
-        "uniform": "uniforms/athletico_paranaense.png"
+        "logo": "logos/athletico_paranaense.webp",
+        "uniform": "uniforms/athletico_paranaense.webp"
     },
     {
         "name": "Atlas",
@@ -311,8 +311,8 @@ const teams = [
         "trophies": "Liga MX: 3, Copa México: 4",
         "mustKnowFact": "Foxes ended a 70-year drought in 2021.",
         "active": true,
-        "logo": "logos/atlas.png",
-        "uniform": "uniforms/atlas.png"
+        "logo": "logos/atlas.webp",
+        "uniform": "uniforms/atlas.webp"
     },
     {
         "name": "Atletico Goianiense",
@@ -326,8 +326,8 @@ const teams = [
         "trophies": "Série B: 2, Campeonato Goiano: 15",
         "mustKnowFact": "Dragon's fiery ascent.",
         "active": true,
-        "logo": "logos/atletico_goianiense.png",
-        "uniform": "uniforms/atletico_goianiense.png"
+        "logo": "logos/atletico_goianiense.webp",
+        "uniform": "uniforms/atletico_goianiense.webp"
     },
     {
         "name": "Atletico Madrid",
@@ -341,8 +341,8 @@ const teams = [
         "trophies": "La Liga: 11, Copa del Rey: 10, Supercopa de España: 2, Europa League: 3, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 3",
         "mustKnowFact": "Simeone turned them into giants.",
         "active": true,
-        "logo": "logos/atletico_madrid.png",
-        "uniform": "uniforms/atletico_madrid.png"
+        "logo": "logos/atletico_madrid.webp",
+        "uniform": "uniforms/atletico_madrid.webp"
     },
     {
         "name": "Atletico Mineiro",
@@ -356,8 +356,8 @@ const teams = [
         "trophies": "Série A: 2, Copa do Brasil: 2, Copa Libertadores: 1, Recopa Sudamericana: 1, Campeonato Mineiro: 48",
         "mustKnowFact": "Galo's fierce roar.",
         "active": true,
-        "logo": "logos/atletico_mineiro.png",
-        "uniform": "uniforms/atletico_mineiro.png"
+        "logo": "logos/atletico_mineiro.webp",
+        "uniform": "uniforms/atletico_mineiro.webp"
     },
     {
         "name": "Atlético Bucaramanga",
@@ -371,8 +371,8 @@ const teams = [
         "trophies": "Primera A: 1",
         "mustKnowFact": "Leopards rare 2024 title.",
         "active": true,
-        "logo": "logos/atletico_bucaramanga.png",
-        "uniform": "uniforms/atletico_bucaramanga.png"
+        "logo": "logos/atletico_bucaramanga.webp",
+        "uniform": "uniforms/atletico_bucaramanga.webp"
     },
     {
         "name": "Atlético Nacional",
@@ -386,8 +386,8 @@ const teams = [
         "trophies": "Primera A: 17, Copa Colombia: 5, Superliga Colombiana: 3, Copa Libertadores: 2, Recopa Sudamericana: 1",
         "mustKnowFact": "First Colombian Libertadores champ.",
         "active": true,
-        "logo": "logos/atletico_nacional.png",
-        "uniform": "uniforms/atletico_nacional.png"
+        "logo": "logos/atletico_nacional.webp",
+        "uniform": "uniforms/atletico_nacional.webp"
     },
     {
         "name": "Atlético San Luis",
@@ -401,8 +401,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Atlético Madrid's Mexican cousin.",
         "active": true,
-        "logo": "logos/atletico_san_luis.png",
-        "uniform": "uniforms/atletico_san_luis.png"
+        "logo": "logos/atletico_san_luis.webp",
+        "uniform": "uniforms/atletico_san_luis.webp"
     },
     {
         "name": "Atlético Tucumán",
@@ -416,8 +416,8 @@ const teams = [
         "trophies": "Primera B Nacional: 2",
         "mustKnowFact": "Tucumán's northern giants.",
         "active": true,
-        "logo": "logos/atletico_tucuman.png",
-        "uniform": "uniforms/atletico_tucuman.png"
+        "logo": "logos/atletico_tucuman.webp",
+        "uniform": "uniforms/atletico_tucuman.webp"
     },
     {
         "name": "Augsburg",
@@ -431,8 +431,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Bavarian underdogs thrive.",
         "active": true,
-        "logo": "logos/augsburg.png",
-        "uniform": "uniforms/augsburg.png"
+        "logo": "logos/augsburg.webp",
+        "uniform": "uniforms/augsburg.webp"
     },
     {
         "name": "Bahia",
@@ -446,8 +446,8 @@ const teams = [
         "trophies": "Série A: 2, Copa do Nordeste: 4, Campeonato Baiano: 50",
         "mustKnowFact": "Tricolor de AÃ§o's steel.",
         "active": true,
-        "logo": "logos/bahia.png",
-        "uniform": "uniforms/bahia.png"
+        "logo": "logos/bahia.webp",
+        "uniform": "uniforms/bahia.webp"
     },
     {
         "name": "Banfield",
@@ -461,8 +461,8 @@ const teams = [
         "trophies": "Primera División: 1, Primera B Nacional: 3",
         "mustKnowFact": "The Drill's southern grit.",
         "active": true,
-        "logo": "logos/banfield.png",
-        "uniform": "uniforms/banfield.png"
+        "logo": "logos/banfield.webp",
+        "uniform": "uniforms/banfield.webp"
     },
     {
         "name": "Barcelona",
@@ -476,8 +476,8 @@ const teams = [
         "trophies": "La Liga: 27, Copa del Rey: 31, Supercopa de España: 14, Champions League: 5, UEFA Cup Winners' Cup: 4, UEFA Super Cup: 5, Club World Cup: 3",
         "mustKnowFact": "Messi's legendary career began here.",
         "active": true,
-        "logo": "logos/barcelona.png",
-        "uniform": "uniforms/barcelona.png"
+        "logo": "logos/barcelona.webp",
+        "uniform": "uniforms/barcelona.webp"
     },
     {
         "name": "Barracas Central",
@@ -491,8 +491,8 @@ const teams = [
         "trophies": "Primera B Metropolitana: 1",
         "mustKnowFact": "Buenos Aires barrio climbers.",
         "active": true,
-        "logo": "logos/barracas_central.png",
-        "uniform": "uniforms/barracas_central.png"
+        "logo": "logos/barracas_central.webp",
+        "uniform": "uniforms/barracas_central.webp"
     },
     {
         "name": "Bayer Leverkusen",
@@ -506,8 +506,8 @@ const teams = [
         "trophies": "Bundesliga: 1, DFB-Pokal: 2, UEFA Cup: 1",
         "mustKnowFact": "Xabi Alonso's 2024 triumph.",
         "active": true,
-        "logo": "logos/bayer_leverkusen.png",
-        "uniform": "uniforms/bayer_leverkusen.png"
+        "logo": "logos/bayer_leverkusen.webp",
+        "uniform": "uniforms/bayer_leverkusen.webp"
     },
     {
         "name": "Bayern Munich",
@@ -521,8 +521,8 @@ const teams = [
         "trophies": "Bundesliga: 33, DFB-Pokal: 20, DFL-Supercup: 10, Champions League: 6, UEFA Cup: 1, UEFA Cup Winners' Cup: 1, Intercontinental Cup: 2, Club World Cup: 2",
         "mustKnowFact": "Germany's dominant force.",
         "active": true,
-        "logo": "logos/bayern_munich.png",
-        "uniform": "uniforms/bayern_munich.png"
+        "logo": "logos/bayern_munich.webp",
+        "uniform": "uniforms/bayern_munich.webp"
     },
     {
         "name": "Belenenses",
@@ -536,8 +536,8 @@ const teams = [
         "trophies": "Primeira Liga: 1, Taça de Portugal: 3",
         "mustKnowFact": "Historic Lisbon blues.",
         "active": true,
-        "logo": "logos/belenenses.png",
-        "uniform": "uniforms/belenenses.png"
+        "logo": "logos/belenenses.webp",
+        "uniform": "uniforms/belenenses.webp"
     },
     {
         "name": "Belgrano",
@@ -551,8 +551,8 @@ const teams = [
         "trophies": "Primera B Nacional: 2",
         "mustKnowFact": "Córdoba's pirate crew.",
         "active": true,
-        "logo": "logos/belgrano.png",
-        "uniform": "uniforms/belgrano.png"
+        "logo": "logos/belgrano.webp",
+        "uniform": "uniforms/belgrano.webp"
     },
     {
         "name": "Benfica",
@@ -566,8 +566,8 @@ const teams = [
         "trophies": "Primeira Liga: 38, Taça de Portugal: 26, Taça da Liga: 7, Supertaça Cândido de Oliveira: 8, European Cup: 2",
         "mustKnowFact": "Eagles dominate Portugal.",
         "active": true,
-        "logo": "logos/benfica.png",
-        "uniform": "uniforms/benfica.png"
+        "logo": "logos/benfica.webp",
+        "uniform": "uniforms/benfica.webp"
     },
     {
         "name": "Boavista",
@@ -581,8 +581,8 @@ const teams = [
         "trophies": "Primeira Liga: 1, Taça de Portugal: 5, Supertaça Cândido de Oliveira: 3",
         "mustKnowFact": "Panthers' 2001 surprise.",
         "active": true,
-        "logo": "logos/boavista.png",
-        "uniform": "uniforms/boavista.png"
+        "logo": "logos/boavista.webp",
+        "uniform": "uniforms/boavista.webp"
     },
     {
         "name": "Boca Juniors",
@@ -596,8 +596,8 @@ const teams = [
         "trophies": "Primera División: 35, Copa Libertadores: 6, Intercontinental Cup: 3, Copa Sudamericana: 2, Recopa Sudamericana: 4, Copa Argentina: 4, Supercopa Argentina: 2",
         "mustKnowFact": "La Bombonera shakes with passion.",
         "active": true,
-        "logo": "logos/boca_juniors.png",
-        "uniform": "uniforms/boca_juniors.png"
+        "logo": "logos/boca_juniors.webp",
+        "uniform": "uniforms/boca_juniors.webp"
     },
     {
         "name": "Bochum",
@@ -611,8 +611,8 @@ const teams = [
         "trophies": "2. Bundesliga: 4",
         "mustKnowFact": "Ruhr's blue-and-white.",
         "active": true,
-        "logo": "logos/bochum.png",
-        "uniform": "uniforms/bochum.png"
+        "logo": "logos/bochum.webp",
+        "uniform": "uniforms/bochum.webp"
     },
     {
         "name": "Bologna",
@@ -626,8 +626,8 @@ const teams = [
         "trophies": "Serie A: 7, Coppa Italia: 2",
         "mustKnowFact": "Historic Italian pioneers.",
         "active": true,
-        "logo": "logos/bologna.png",
-        "uniform": "uniforms/bologna.png"
+        "logo": "logos/bologna.webp",
+        "uniform": "uniforms/bologna.webp"
     },
     {
         "name": "Borussia Dortmund",
@@ -641,8 +641,8 @@ const teams = [
         "trophies": "Bundesliga: 8, DFB-Pokal: 5, DFL-Supercup: 6, Champions League: 1, UEFA Cup Winners' Cup: 1, Intercontinental Cup: 1",
         "mustKnowFact": "The Yellow Wall roars.",
         "active": true,
-        "logo": "logos/borussia_dortmund.png",
-        "uniform": "uniforms/borussia_dortmund.png"
+        "logo": "logos/borussia_dortmund.webp",
+        "uniform": "uniforms/borussia_dortmund.webp"
     },
     {
         "name": "Borussia Monchengladbach",
@@ -656,8 +656,8 @@ const teams = [
         "trophies": "Bundesliga: 5, DFB-Pokal: 3, UEFA Cup: 2",
         "mustKnowFact": "70s German dynasty.",
         "active": true,
-        "logo": "logos/borussia_monchengladbach.png",
-        "uniform": "uniforms/borussia_monchengladbach.png"
+        "logo": "logos/borussia_monchengladbach.webp",
+        "uniform": "uniforms/borussia_monchengladbach.webp"
     },
     {
         "name": "Botafogo",
@@ -671,8 +671,8 @@ const teams = [
         "trophies": "Série A: 2, Campeonato Carioca: 21, Série B: 2",
         "mustKnowFact": "Lone Star shines again.",
         "active": true,
-        "logo": "logos/botafogo.png",
-        "uniform": "uniforms/botafogo.png"
+        "logo": "logos/botafogo.webp",
+        "uniform": "uniforms/botafogo.webp"
     },
     {
         "name": "Bournemouth",
@@ -686,8 +686,8 @@ const teams = [
         "trophies": "Championship: 1, League One: 1",
         "mustKnowFact": "Cherries' coastal comeback.",
         "active": true,
-        "logo": "logos/bournemouth.png",
-        "uniform": "uniforms/bournemouth.png"
+        "logo": "logos/bournemouth.webp",
+        "uniform": "uniforms/bournemouth.webp"
     },
     {
         "name": "Boyacá Chicó",
@@ -701,8 +701,8 @@ const teams = [
         "trophies": "Primera A: 1",
         "mustKnowFact": "Chessboard upset in 2008.",
         "active": true,
-        "logo": "logos/boyaca_chico.png",
-        "uniform": "uniforms/boyaca_chico.png"
+        "logo": "logos/boyaca_chico.webp",
+        "uniform": "uniforms/boyaca_chico.webp"
     },
     {
         "name": "Braga",
@@ -716,8 +716,8 @@ const teams = [
         "trophies": "Primeira Liga: 0, Taça de Portugal: 3, Taça da Liga: 2, Supertaça Cândido de Oliveira: 1",
         "mustKnowFact": "The Arsenalists challenge big three.",
         "active": true,
-        "logo": "logos/braga.png",
-        "uniform": "uniforms/braga.png"
+        "logo": "logos/braga.webp",
+        "uniform": "uniforms/braga.webp"
     },
     {
         "name": "Bragantino",
@@ -731,8 +731,8 @@ const teams = [
         "trophies": "Série B: 2, Campeonato Paulista: 1",
         "mustKnowFact": "Red Bull's Brazilian boost.",
         "active": true,
-        "logo": "logos/bragantino.png",
-        "uniform": "uniforms/bragantino.png"
+        "logo": "logos/bragantino.webp",
+        "uniform": "uniforms/bragantino.webp"
     },
     {
         "name": "Brentford",
@@ -746,8 +746,8 @@ const teams = [
         "trophies": "Second Division/Championship: 1, Third Division: 2, Fourth Division: 1",
         "mustKnowFact": "Bees buzz in the top flight.",
         "active": true,
-        "logo": "logos/brentford.png",
-        "uniform": "uniforms/brentford.png"
+        "logo": "logos/brentford.webp",
+        "uniform": "uniforms/brentford.webp"
     },
     {
         "name": "Brighton & Hove Albion",
@@ -761,8 +761,8 @@ const teams = [
         "trophies": "Third Division/League One: 3, Second Division/Championship: 2",
         "mustKnowFact": "Seagulls soaring in style.",
         "active": true,
-        "logo": "logos/brighton.png",
-        "uniform": "uniforms/brighton.png"
+        "logo": "logos/brighton.webp",
+        "uniform": "uniforms/brighton.webp"
     },
     {
         "name": "Cagliari",
@@ -776,8 +776,8 @@ const teams = [
         "trophies": "Serie A: 1, Serie B: 3",
         "mustKnowFact": "Sardinia's lone champs.",
         "active": true,
-        "logo": "logos/cagliari.png",
-        "uniform": "uniforms/cagliari.png"
+        "logo": "logos/cagliari.webp",
+        "uniform": "uniforms/cagliari.webp"
     },
     {
         "name": "Casa Pia",
@@ -791,8 +791,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Geese fly in Lisbon.",
         "active": true,
-        "logo": "logos/casa_pia.png",
-        "uniform": "uniforms/casa_pia.png"
+        "logo": "logos/casa_pia.webp",
+        "uniform": "uniforms/casa_pia.webp"
     },
     {
         "name": "Celta Vigo",
@@ -806,8 +806,8 @@ const teams = [
         "trophies": "Segunda División: 3",
         "mustKnowFact": "Galician tenacity shines.",
         "active": true,
-        "logo": "logos/celta_vigo.png",
-        "uniform": "uniforms/celta_vigo.png"
+        "logo": "logos/celta_vigo.webp",
+        "uniform": "uniforms/celta_vigo.webp"
     },
     {
         "name": "Central Córdoba SdE",
@@ -821,8 +821,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Railway roots in Santiago.",
         "active": true,
-        "logo": "logos/central_cordoba_sde.png",
-        "uniform": "uniforms/central_cordoba_sde.png"
+        "logo": "logos/central_cordoba_sde.webp",
+        "uniform": "uniforms/central_cordoba_sde.webp"
     },
     {
         "name": "Chelsea",
@@ -836,8 +836,8 @@ const teams = [
         "trophies": "Premier League: 6, First Division: 1, FA Cup: 8, League Cup: 5, Community Shield: 4, Champions League: 2, Europa League: 2, UEFA Cup Winners' Cup: 2, UEFA Super Cup: 2",
         "mustKnowFact": "Abramovich's trophy era.",
         "active": true,
-        "logo": "logos/chelsea.png",
-        "uniform": "uniforms/chelsea.png"
+        "logo": "logos/chelsea.webp",
+        "uniform": "uniforms/chelsea.webp"
     },
     {
         "name": "Chivas",
@@ -851,8 +851,8 @@ const teams = [
         "trophies": "Liga MX: 12, CONCACAF Champions League: 2, Copa México: 4",
         "mustKnowFact": "Mexico-only player policy.",
         "active": true,
-        "logo": "logos/chivas.png",
-        "uniform": "uniforms/chivas.png"
+        "logo": "logos/chivas.webp",
+        "uniform": "uniforms/chivas.webp"
     },
     {
         "name": "Club América",
@@ -866,8 +866,8 @@ const teams = [
         "trophies": "Liga MX: 14, CONCACAF Champions League: 7, Copa México: 6, Campeón de Campeones: 6",
         "mustKnowFact": "Most decorated club in Mexican football.",
         "active": true,
-        "logo": "logos/club_america.png",
-        "uniform": "uniforms/club_america.png"
+        "logo": "logos/club_america.webp",
+        "uniform": "uniforms/club_america.webp"
     },
     {
         "name": "Corinthians",
@@ -881,8 +881,8 @@ const teams = [
         "trophies": "Série A: 7, Copa do Brasil: 3, Campeonato Paulista: 30, Copa Libertadores: 1, Club World Cup: 2",
         "mustKnowFact": "TimÃ£o's loyal army.",
         "active": true,
-        "logo": "logos/corinthians.png",
-        "uniform": "uniforms/corinthians.png"
+        "logo": "logos/corinthians.webp",
+        "uniform": "uniforms/corinthians.webp"
     },
     {
         "name": "Cruz Azul",
@@ -896,8 +896,8 @@ const teams = [
         "trophies": "Liga MX: 9, CONCACAF Champions League: 6, Copa México: 4",
         "mustKnowFact": "Broke a 23-year title drought in 2021.",
         "active": true,
-        "logo": "logos/cruz_azul.png",
-        "uniform": "uniforms/cruz_azul.png"
+        "logo": "logos/cruz_azul.webp",
+        "uniform": "uniforms/cruz_azul.webp"
     },
     {
         "name": "Cruzeiro",
@@ -911,8 +911,8 @@ const teams = [
         "trophies": "Série A: 4, Copa do Brasil: 6, Campeonato Mineiro: 38, Copa Libertadores: 2",
         "mustKnowFact": "Raposa's trophy haul.",
         "active": true,
-        "logo": "logos/cruzeiro.png",
-        "uniform": "uniforms/cruzeiro.png"
+        "logo": "logos/cruzeiro.webp",
+        "uniform": "uniforms/cruzeiro.webp"
     },
     {
         "name": "Crystal Palace",
@@ -926,8 +926,8 @@ const teams = [
         "trophies": "Championship: 2",
         "mustKnowFact": "Eagles of Selhurst soar.",
         "active": true,
-        "logo": "logos/crystal_palace.png",
-        "uniform": "uniforms/crystal_palace.png"
+        "logo": "logos/crystal_palace.webp",
+        "uniform": "uniforms/crystal_palace.webp"
     },
     {
         "name": "Cuiaba",
@@ -941,8 +941,8 @@ const teams = [
         "trophies": "Campeonato Mato-Grossense: 11",
         "mustKnowFact": "Golden Dourado rises.",
         "active": true,
-        "logo": "logos/cuiaba.png",
-        "uniform": "uniforms/cuiaba.png"
+        "logo": "logos/cuiaba.webp",
+        "uniform": "uniforms/cuiaba.webp"
     },
     {
         "name": "Defensa y Justicia",
@@ -956,8 +956,8 @@ const teams = [
         "trophies": "Copa Sudamericana: 1, Recopa Sudamericana: 1, Primera B Nacional: 1",
         "mustKnowFact": "Small club, massive 2020 Copa win.",
         "active": true,
-        "logo": "logos/defensa_y_justicia.png",
-        "uniform": "uniforms/defensa_y_justicia.png"
+        "logo": "logos/defensa_y_justicia.webp",
+        "uniform": "uniforms/defensa_y_justicia.webp"
     },
     {
         "name": "Deportes Tolima",
@@ -971,8 +971,8 @@ const teams = [
         "trophies": "Primera A: 3, Copa Colombia: 1, Superliga Colombiana: 1",
         "mustKnowFact": "Pijao warriors climb high.",
         "active": true,
-        "logo": "logos/deportes_tolima.png",
-        "uniform": "uniforms/deportes_tolima.png"
+        "logo": "logos/deportes_tolima.webp",
+        "uniform": "uniforms/deportes_tolima.webp"
     },
     {
         "name": "Deportivo Cali",
@@ -986,8 +986,8 @@ const teams = [
         "trophies": "Primera A: 10, Copa Colombia: 1",
         "mustKnowFact": "Sugar city's green giants.",
         "active": true,
-        "logo": "logos/deportivo_cali.png",
-        "uniform": "uniforms/deportivo_cali.png"
+        "logo": "logos/deportivo_cali.webp",
+        "uniform": "uniforms/deportivo_cali.webp"
     },
     {
         "name": "Deportivo Pasto",
@@ -1001,8 +1001,8 @@ const teams = [
         "trophies": "Primera A: 1",
         "mustKnowFact": "Volcanic spirit near Ecuador.",
         "active": true,
-        "logo": "logos/deportivo_pasto.png",
-        "uniform": "uniforms/deportivo_pasto.png"
+        "logo": "logos/deportivo_pasto.webp",
+        "uniform": "uniforms/deportivo_pasto.webp"
     },
     {
         "name": "Deportivo Pereira",
@@ -1016,23 +1016,8 @@ const teams = [
         "trophies": "Primera A: 1",
         "mustKnowFact": "First title in 2022 after 78 years.",
         "active": true,
-        "logo": "logos/deportivo_pereira.png",
-        "uniform": "uniforms/deportivo_pereira.png"
-    },
-    {
-        "name": "Deportivo Riestra",
-        "country": "Argentina",
-        "league": "Primera División",
-        "city": "Buenos Aires",
-        "lat": -34.6667,
-        "lon": -58.4667,
-        "founded": 1931,
-        "stadium": "Estadio Guillermo Laza",
-        "trophies": "Primera B Metropolitana: 1",
-        "mustKnowFact": "Primera debutants in 2024.",
-        "active": true,
-        "logo": "logos/deportivo_riestra.png",
-        "uniform": "uniforms/deportivo_riestra.png"
+        "logo": "logos/deportivo_pereira.webp",
+        "uniform": "uniforms/deportivo_pereira.webp"
     },
     {
         "name": "Eintracht Frankfurt",
@@ -1046,8 +1031,8 @@ const teams = [
         "trophies": "Bundesliga: 1, DFB-Pokal: 5, UEFA Cup/Europa League: 2",
         "mustKnowFact": "2022 Europa kings.",
         "active": true,
-        "logo": "logos/eintracht_frankfurt.png",
-        "uniform": "uniforms/eintracht_frankfurt.png"
+        "logo": "logos/eintracht_frankfurt.webp",
+        "uniform": "uniforms/eintracht_frankfurt.webp"
     },
     {
         "name": "Empoli",
@@ -1061,8 +1046,8 @@ const teams = [
         "trophies": "Serie B: 3",
         "mustKnowFact": "Tuscany's blue battlers.",
         "active": true,
-        "logo": "logos/empoli.png",
-        "uniform": "uniforms/empoli.png"
+        "logo": "logos/empoli.webp",
+        "uniform": "uniforms/empoli.webp"
     },
     {
         "name": "Envigado",
@@ -1076,8 +1061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Youth factory in orange.",
         "active": true,
-        "logo": "logos/envigado.png",
-        "uniform": "uniforms/envigado.png"
+        "logo": "logos/envigado.webp",
+        "uniform": "uniforms/envigado.webp"
     },
     {
         "name": "Espanyol",
@@ -1091,8 +1076,8 @@ const teams = [
         "trophies": "Copa del Rey: 4, Segunda División: 2",
         "mustKnowFact": "Barcelona's quieter rival.",
         "active": true,
-        "logo": "logos/espanyol.png",
-        "uniform": "uniforms/espanyol.png"
+        "logo": "logos/espanyol.webp",
+        "uniform": "uniforms/espanyol.webp"
     },
     {
         "name": "Estoril",
@@ -1106,8 +1091,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Coastal yellow-and-blue.",
         "active": true,
-        "logo": "logos/estoril.png",
-        "uniform": "uniforms/estoril.png"
+        "logo": "logos/estoril.webp",
+        "uniform": "uniforms/estoril.webp"
     },
     {
         "name": "Estrela da Amadora",
@@ -1121,8 +1106,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1",
         "mustKnowFact": "Stars shine near Lisbon.",
         "active": true,
-        "logo": "logos/estrela_amadora.png",
-        "uniform": "uniforms/estrela_amadora.png"
+        "logo": "logos/estrela_amadora.webp",
+        "uniform": "uniforms/estrela_amadora.webp"
     },
     {
         "name": "Estudiantes de La Plata",
@@ -1136,8 +1121,8 @@ const teams = [
         "trophies": "Primera División: 6, Copa Libertadores: 4, Intercontinental Cup: 1, Copa Argentina: 1",
         "mustKnowFact": "1960s global conquerors.",
         "active": true,
-        "logo": "logos/estudiantes_de_la_plata.png",
-        "uniform": "uniforms/estudiantes_de_la_plata.png"
+        "logo": "logos/estudiantes_de_la_plata.webp",
+        "uniform": "uniforms/estudiantes_de_la_plata.webp"
     },
     {
         "name": "Everton",
@@ -1151,8 +1136,8 @@ const teams = [
         "trophies": "First Division: 9, FA Cup: 5, Community Shield: 9, European Cup Winners' Cup: 1",
         "mustKnowFact": "Toffees' historic Goodison.",
         "active": true,
-        "logo": "logos/everton.png",
-        "uniform": "uniforms/everton.png"
+        "logo": "logos/everton.webp",
+        "uniform": "uniforms/everton.webp"
     },
     {
         "name": "FC Nantes",
@@ -1166,8 +1151,8 @@ const teams = [
         "trophies": "Ligue 1: 8, Coupe de France: 4, Coupe de la Ligue: 1, Trophée des Champions: 3",
         "mustKnowFact": "Historic giants clinging to Ligue 1.",
         "active": true,
-        "logo": "logos/fc_nantes.png",
-        "uniform": "uniforms/fc_nantes.png"
+        "logo": "logos/fc_nantes.webp",
+        "uniform": "uniforms/fc_nantes.webp"
     },
     {
         "name": "Famalicão",
@@ -1181,8 +1166,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Northern upstarts climb.",
         "active": true,
-        "logo": "logos/famalicao.png",
-        "uniform": "uniforms/famalicao.png"
+        "logo": "logos/famalicao.webp",
+        "uniform": "uniforms/famalicao.webp"
     },
     {
         "name": "Farense",
@@ -1196,8 +1181,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Algarve's lions roar.",
         "active": true,
-        "logo": "logos/farense.png",
-        "uniform": "uniforms/farense.png"
+        "logo": "logos/farense.webp",
+        "uniform": "uniforms/farense.webp"
     },
     {
         "name": "Feyenoord",
@@ -1211,8 +1196,8 @@ const teams = [
         "trophies": "Eredivisie: 16, KNVB Cup: 13, Johan Cruyff Shield: 4, European Cup: 1, UEFA Cup: 2",
         "mustKnowFact": "Rotterdam's red-and-white heart.",
         "active": true,
-        "logo": "logos/feyenoord.png",
-        "uniform": "uniforms/feyenoord.png"
+        "logo": "logos/feyenoord.webp",
+        "uniform": "uniforms/feyenoord.webp"
     },
     {
         "name": "Fiorentina",
@@ -1226,8 +1211,8 @@ const teams = [
         "trophies": "Serie A: 2, Coppa Italia: 6, UEFA Cup Winners' Cup: 1, Serie B: 3",
         "mustKnowFact": "Viola's purple passion.",
         "active": true,
-        "logo": "logos/fiorentina.png",
-        "uniform": "uniforms/fiorentina.png"
+        "logo": "logos/fiorentina.webp",
+        "uniform": "uniforms/fiorentina.webp"
     },
     {
         "name": "Flamengo",
@@ -1241,8 +1226,8 @@ const teams = [
         "trophies": "Série A: 7, Copa do Brasil: 4, Campeonato Carioca: 37, Copa Libertadores: 3, Intercontinental Cup: 1",
         "mustKnowFact": "Brazil's most popular club.",
         "active": true,
-        "logo": "logos/flamengo.png",
-        "uniform": "uniforms/flamengo.png"
+        "logo": "logos/flamengo.webp",
+        "uniform": "uniforms/flamengo.webp"
     },
     {
         "name": "Fluminense",
@@ -1256,8 +1241,8 @@ const teams = [
         "trophies": "Série A: 4, Copa do Brasil: 1, Campeonato Carioca: 33, Copa Libertadores: 1",
         "mustKnowFact": "Tricolor elegance rules.",
         "active": true,
-        "logo": "logos/fluminense.png",
-        "uniform": "uniforms/fluminense.png"
+        "logo": "logos/fluminense.webp",
+        "uniform": "uniforms/fluminense.webp"
     },
     {
         "name": "Fortaleza",
@@ -1271,8 +1256,8 @@ const teams = [
         "trophies": "Série B: 1, Copa do Nordeste: 3, Campeonato Cearense: 46",
         "mustKnowFact": "Lion of the Northeast.",
         "active": true,
-        "logo": "logos/fortaleza.png",
-        "uniform": "uniforms/fortaleza.png"
+        "logo": "logos/fortaleza.webp",
+        "uniform": "uniforms/fortaleza.webp"
     },
     {
         "name": "Fortaleza CEIF",
@@ -1286,8 +1271,8 @@ const teams = [
         "trophies": "Primera B: 1",
         "mustKnowFact": "Bogotá's rising fortress.",
         "active": true,
-        "logo": "logos/fortaleza_ceif.png",
-        "uniform": "uniforms/fortaleza-ceif.png"
+        "logo": "logos/fortaleza_ceif.webp",
+        "uniform": "uniforms/fortaleza-ceif.webp"
     },
     {
         "name": "Fortuna Sittard",
@@ -1301,8 +1286,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Limburg's yellow-green grit.",
         "active": true,
-        "logo": "logos/fortuna_sittard.png",
-        "uniform": "uniforms/fortuna_sittard.png"
+        "logo": "logos/fortuna_sittard.webp",
+        "uniform": "uniforms/fortuna_sittard.webp"
     },
     {
         "name": "Freiburg",
@@ -1316,8 +1301,8 @@ const teams = [
         "trophies": "2. Bundesliga: 4",
         "mustKnowFact": "Black Forest overachievers.",
         "active": true,
-        "logo": "logos/freiburg.png",
-        "uniform": "uniforms/freiburg.png"
+        "logo": "logos/freiburg.webp",
+        "uniform": "uniforms/freiburg.webp"
     },
     {
         "name": "Fulham",
@@ -1331,8 +1316,8 @@ const teams = [
         "trophies": "Championship: 3, League One: 1",
         "mustKnowFact": "Riverside charm lives on.",
         "active": true,
-        "logo": "logos/fulham.png",
-        "uniform": "uniforms/fulham.png"
+        "logo": "logos/fulham.webp",
+        "uniform": "uniforms/fulham.webp"
     },
     {
         "name": "Genoa",
@@ -1346,8 +1331,8 @@ const teams = [
         "trophies": "Serie A: 9, Coppa Italia: 1, Serie B: 6",
         "mustKnowFact": "Italy's oldest club.",
         "active": true,
-        "logo": "logos/genoa.png",
-        "uniform": "uniforms/genoa.png"
+        "logo": "logos/genoa.webp",
+        "uniform": "uniforms/genoa.webp"
     },
     {
         "name": "Getafe",
@@ -1361,8 +1346,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Madrid's gritty underdogs.",
         "active": true,
-        "logo": "logos/getafe.png",
-        "uniform": "uniforms/getafe.png"
+        "logo": "logos/getafe.webp",
+        "uniform": "uniforms/getafe.webp"
     },
     {
         "name": "Gil Vicente",
@@ -1376,8 +1361,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Roosters crow in Barcelos.",
         "active": true,
-        "logo": "logos/gil_vicente.png",
-        "uniform": "uniforms/gil_vicente.png"
+        "logo": "logos/gil_vicente.webp",
+        "uniform": "uniforms/gil_vicente.webp"
     },
     {
         "name": "Gimnasia y Esgrima La Plata",
@@ -1391,8 +1376,8 @@ const teams = [
         "trophies": "Primera División: 1, Copa Centenario: 1",
         "mustKnowFact": "Oldest club in Argentina.",
         "active": true,
-        "logo": "logos/gimnasia_y_esgrima_la_plata.png",
-        "uniform": "uniforms/gimnasia_y_esgrima_la_plata.png"
+        "logo": "logos/gimnasia_y_esgrima_la_plata.webp",
+        "uniform": "uniforms/gimnasia_y_esgrima_la_plata.webp"
     },
     {
         "name": "Girona",
@@ -1406,8 +1391,8 @@ const teams = [
         "trophies": "Segunda División: 1",
         "mustKnowFact": "City Football Group's Catalan star.",
         "active": true,
-        "logo": "logos/girona.png",
-        "uniform": "uniforms/girona.png"
+        "logo": "logos/girona.webp",
+        "uniform": "uniforms/girona.webp"
     },
     {
         "name": "Go Ahead Eagles",
@@ -1421,8 +1406,8 @@ const teams = [
         "trophies": "Eredivisie: 4",
         "mustKnowFact": "Historic eagles soar again.",
         "active": true,
-        "logo": "logos/go_ahead_eagles.png",
-        "uniform": "uniforms/go_ahead_eagles.png"
+        "logo": "logos/go_ahead_eagles.webp",
+        "uniform": "uniforms/go_ahead_eagles.webp"
     },
     {
         "name": "Godoy Cruz",
@@ -1436,8 +1421,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Mendoza's football heartbeat.",
         "active": true,
-        "logo": "logos/godoy_cruz.png",
-        "uniform": "uniforms/godoy_cruz.png"
+        "logo": "logos/godoy_cruz.webp",
+        "uniform": "uniforms/godoy_cruz.webp"
     },
     {
         "name": "Gremio",
@@ -1451,8 +1436,8 @@ const teams = [
         "trophies": "Série A: 2, Copa do Brasil: 5, Campeonato Gaúcho: 42, Copa Libertadores: 3, Intercontinental Cup: 1",
         "mustKnowFact": "Imortal Tricolor fights on.",
         "active": true,
-        "logo": "logos/gremio.png",
-        "uniform": "uniforms/gremio.png"
+        "logo": "logos/gremio.webp",
+        "uniform": "uniforms/gremio.webp"
     },
     {
         "name": "Groningen",
@@ -1466,8 +1451,8 @@ const teams = [
         "trophies": "KNVB Cup: 1",
         "mustKnowFact": "Northern green-white pride.",
         "active": true,
-        "logo": "logos/groningen.png",
-        "uniform": "uniforms/groningen.png"
+        "logo": "logos/groningen.webp",
+        "uniform": "uniforms/groningen.webp"
     },
     {
         "name": "Hamburg SV",
@@ -1481,8 +1466,8 @@ const teams = [
         "trophies": "Bundesliga: 6, DFB-Pokal: 3, European Cup: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "Northern giants aim back.",
         "active": true,
-        "logo": "logos/hamburg.png",
-        "uniform": "uniforms/hamburg.png"
+        "logo": "logos/hamburg.webp",
+        "uniform": "uniforms/hamburg.webp"
     },
     {
         "name": "Heerenveen",
@@ -1496,8 +1481,8 @@ const teams = [
         "trophies": "KNVB Cup: 1",
         "mustKnowFact": "Frisian blue-and-white pump hearts.",
         "active": true,
-        "logo": "logos/heerenveen.png",
-        "uniform": "uniforms/heerenveen.png"
+        "logo": "logos/heerenveen.webp",
+        "uniform": "uniforms/heerenveen.webp"
     },
     {
         "name": "Heidenheim",
@@ -1511,8 +1496,8 @@ const teams = [
         "trophies": "2. Bundesliga: 1",
         "mustKnowFact": "Tiny town's big dream.",
         "active": true,
-        "logo": "logos/heidenheim.png",
-        "uniform": "uniforms/heidenheim.png"
+        "logo": "logos/heidenheim.webp",
+        "uniform": "uniforms/heidenheim.webp"
     },
     {
         "name": "Hellas Verona",
@@ -1526,8 +1511,8 @@ const teams = [
         "trophies": "Serie A: 1, Serie B: 3",
         "mustKnowFact": "1985's shock Scudetto.",
         "active": true,
-        "logo": "logos/hellas_verona.png",
-        "uniform": "uniforms/hellas_verona.png"
+        "logo": "logos/hellas_verona.webp",
+        "uniform": "uniforms/hellas_verona.webp"
     },
     {
         "name": "Heracles Almelo",
@@ -1541,8 +1526,8 @@ const teams = [
         "trophies": "Eredivisie: 2",
         "mustKnowFact": "Black-white heroes endure.",
         "active": true,
-        "logo": "logos/heracles-almelo.png",
-        "uniform": "uniforms/heracles-almelo.png"
+        "logo": "logos/heracles_almelo.webp",
+        "uniform": "uniforms/heracles_almelo.webp"
     },
     {
         "name": "Hoffenheim",
@@ -1556,8 +1541,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Village club's miracle.",
         "active": true,
-        "logo": "logos/hoffenheim.png",
-        "uniform": "uniforms/hoffenheim.png"
+        "logo": "logos/hoffenheim.webp",
+        "uniform": "uniforms/hoffenheim.webp"
     },
     {
         "name": "Holstein Kiel",
@@ -1571,8 +1556,8 @@ const teams = [
         "trophies": "3. Liga: 1",
         "mustKnowFact": "Northern newcomers in 2024.",
         "active": true,
-        "logo": "logos/holstein_kiel.png",
-        "uniform": "uniforms/holstein_kiel.png"
+        "logo": "logos/holstein_kiel.webp",
+        "uniform": "uniforms/holstein_kiel.webp"
     },
     {
         "name": "Huracán",
@@ -1586,8 +1571,8 @@ const teams = [
         "trophies": "Primera División: 5",
         "mustKnowFact": "The Balloon flies in Parque Patricios.",
         "active": true,
-        "logo": "logos/huracan.png",
-        "uniform": "uniforms/huracan.png"
+        "logo": "logos/huracan.webp",
+        "uniform": "uniforms/huracan.webp"
     },
     {
         "name": "Independiente",
@@ -1601,8 +1586,8 @@ const teams = [
         "trophies": "Primera División: 16, Copa Libertadores: 7, Intercontinental Cup: 2, Copa Sudamericana: 2, Recopa Sudamericana: 1, Supercopa Libertadores: 1",
         "mustKnowFact": "Record seven Libertadores titles.",
         "active": true,
-        "logo": "logos/independiente.png",
-        "uniform": "uniforms/independiente.png"
+        "logo": "logos/independiente.webp",
+        "uniform": "uniforms/independiente.webp"
     },
     {
         "name": "Independiente Medellín",
@@ -1616,8 +1601,8 @@ const teams = [
         "trophies": "Primera A: 6, Copa Colombia: 3",
         "mustKnowFact": "The Powerful One of the Mountain.",
         "active": true,
-        "logo": "logos/independiente_medellin.png",
-        "uniform": "uniforms/independiente_medellin.png"
+        "logo": "logos/independiente_medellin.webp",
+        "uniform": "uniforms/independiente_medellin.webp"
     },
     {
         "name": "Independiente Santa Fe",
@@ -1631,8 +1616,8 @@ const teams = [
         "trophies": "Primera A: 9, Copa Colombia: 2, Superliga Colombiana: 3, Copa Sudamericana: 1",
         "mustKnowFact": "First Colombian champs in 1948.",
         "active": true,
-        "logo": "logos/independiente_santa_fe.png",
-        "uniform": "uniforms/independiente_santa_fe.png"
+        "logo": "logos/independiente_santa_fe.webp",
+        "uniform": "uniforms/independiente_santa_fe.webp"
     },
     {
         "name": "Instituto ACC",
@@ -1646,8 +1631,8 @@ const teams = [
         "trophies": "Primera B Nacional: 2",
         "mustKnowFact": "Córdoba's academic fighters.",
         "active": true,
-        "logo": "logos/instituto_acc.png",
-        "uniform": "uniforms/instituto_acc.png"
+        "logo": "logos/instituto_acc.webp",
+        "uniform": "uniforms/instituto_acc.webp"
     },
     {
         "name": "Inter Milan",
@@ -1661,8 +1646,8 @@ const teams = [
         "trophies": "Serie A: 19, Coppa Italia: 9, Supercoppa Italiana: 8, Champions League: 3, UEFA Cup: 3, Intercontinental Cup: 2",
         "mustKnowFact": "The Nerazzurri's treble in 2010.",
         "active": true,
-        "logo": "logos/inter_milan.png",
-        "uniform": "uniforms/inter_milan.png"
+        "logo": "logos/inter_milan.webp",
+        "uniform": "uniforms/inter_milan.webp"
     },
     {
         "name": "Internacional",
@@ -1676,8 +1661,8 @@ const teams = [
         "trophies": "Série A: 3, Copa do Brasil: 1, Campeonato Gaúcho: 45, Copa Libertadores: 2, Club World Cup: 1",
         "mustKnowFact": "Colorado giants rise.",
         "active": true,
-        "logo": "logos/internacional.png",
-        "uniform": "uniforms/internacional.png"
+        "logo": "logos/internacional.webp",
+        "uniform": "uniforms/internacional.webp"
     },
     {
         "name": "Ipswich Town",
@@ -1691,8 +1676,8 @@ const teams = [
         "trophies": "First Division: 1, FA Cup: 1, UEFA Cup: 1, Championship: 2",
         "mustKnowFact": "Tractor Boys return.",
         "active": true,
-        "logo": "logos/ipswich_town.png",
-        "uniform": "uniforms/ipswich_town.png"
+        "logo": "logos/ipswich_town.webp",
+        "uniform": "uniforms/ipswich_town.webp"
     },
     {
         "name": "Jaguares de Córdoba",
@@ -1706,8 +1691,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Cordoba's jaguar hunters.",
         "active": true,
-        "logo": "logos/jaguares_de_cordoba.png",
-        "uniform": "uniforms/jaguares_de_cordoba.png"
+        "logo": "logos/jaguares_de_cordoba.webp",
+        "uniform": "uniforms/jaguares_de_cordoba.webp"
     },
     {
         "name": "Junior",
@@ -1721,8 +1706,8 @@ const teams = [
         "trophies": "Primera A: 10, Copa Colombia: 2, Superliga Colombiana: 2",
         "mustKnowFact": "Caribbean coast's sharks.",
         "active": true,
-        "logo": "logos/junior.png",
-        "uniform": "uniforms/junior.png"
+        "logo": "logos/junior.webp",
+        "uniform": "uniforms/junior.webp"
     },
     {
         "name": "Juventude",
@@ -1736,8 +1721,8 @@ const teams = [
         "trophies": "Série B: 1, Copa do Brasil: 1, Campeonato Gaúcho: 1",
         "mustKnowFact": "Green resurgence in Serie A.",
         "active": true,
-        "logo": "logos/juventude.png",
-        "uniform": "uniforms/juventude.png"
+        "logo": "logos/juventude.webp",
+        "uniform": "uniforms/juventude.webp"
     },
     {
         "name": "Juventus",
@@ -1751,8 +1736,8 @@ const teams = [
         "trophies": "Serie A: 36, Coppa Italia: 15, Supercoppa Italiana: 9, Champions League: 2, UEFA Cup: 3, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 2, Intercontinental Cup: 2",
         "mustKnowFact": "Italy's most successful club.",
         "active": true,
-        "logo": "logos/juventus.png",
-        "uniform": "uniforms/juventus.png"
+        "logo": "logos/juventus.webp",
+        "uniform": "uniforms/juventus.webp"
     },
     {
         "name": "Juárez",
@@ -1766,8 +1751,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Border town's young braves.",
         "active": true,
-        "logo": "logos/juarez.png",
-        "uniform": "uniforms/juarez.png"
+        "logo": "logos/juarez.webp",
+        "uniform": "uniforms/juarez.webp"
     },
     {
         "name": "Koln",
@@ -1781,8 +1766,8 @@ const teams = [
         "trophies": "Bundesliga: 3, DFB-Pokal: 4, 2. Bundesliga: 4",
         "mustKnowFact": "The Billy Goats' spirit.",
         "active": true,
-        "logo": "logos/koln.png",
-        "uniform": "uniforms/koln.png"
+        "logo": "logos/koln.webp",
+        "uniform": "uniforms/koln.webp"
     },
     {
         "name": "La Equidad",
@@ -1796,8 +1781,8 @@ const teams = [
         "trophies": "Copa Colombia: 1",
         "mustKnowFact": "Insurers green ambition.",
         "active": true,
-        "logo": "logos/la_equidad.png",
-        "uniform": "uniforms/la_equidad.png"
+        "logo": "logos/la_equidad.webp",
+        "uniform": "uniforms/la_equidad.webp"
     },
     {
         "name": "Lanús",
@@ -1811,8 +1796,8 @@ const teams = [
         "trophies": "Primera División: 2, Copa Sudamericana: 1, Supercopa Argentina: 1, Primera B Nacional: 1",
         "mustKnowFact": "Granate's suburban success.",
         "active": true,
-        "logo": "logos/lanus.png",
-        "uniform": "uniforms/lanus.png"
+        "logo": "logos/lanus.webp",
+        "uniform": "uniforms/lanus.webp"
     },
     {
         "name": "Las Palmas",
@@ -1826,8 +1811,8 @@ const teams = [
         "trophies": "Segunda División: 2",
         "mustKnowFact": "Canary Islands' sunny flair.",
         "active": true,
-        "logo": "logos/las_palmas.png",
-        "uniform": "uniforms/las_palmas.png"
+        "logo": "logos/las_palmas.webp",
+        "uniform": "uniforms/las_palmas.webp"
     },
     {
         "name": "Lazio",
@@ -1841,8 +1826,8 @@ const teams = [
         "trophies": "Serie A: 2, Coppa Italia: 7, Supercoppa Italiana: 5, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 1",
         "mustKnowFact": "Eagles of Rome soar.",
         "active": true,
-        "logo": "logos/lazio.png",
-        "uniform": "uniforms/lazio.png"
+        "logo": "logos/lazio.webp",
+        "uniform": "uniforms/lazio.webp"
     },
     {
         "name": "Le Havre AC",
@@ -1856,8 +1841,8 @@ const teams = [
         "trophies": "Ligue 1: 0, Coupe de France: 1, Ligue 2: 6",
         "mustKnowFact": "Oldest club in France, steady in Ligue 1.",
         "active": true,
-        "logo": "logos/le_havre.png",
-        "uniform": "uniforms/le_havre.png"
+        "logo": "logos/le_havre.webp",
+        "uniform": "uniforms/le_havre.webp"
     },
     {
         "name": "Lecce",
@@ -1871,8 +1856,8 @@ const teams = [
         "trophies": "Serie B: 2",
         "mustKnowFact": "Apulia's yellow-and-red.",
         "active": true,
-        "logo": "logos/lecce.png",
-        "uniform": "uniforms/lecce.png"
+        "logo": "logos/lecce.webp",
+        "uniform": "uniforms/lecce.webp"
     },
     {
         "name": "Leganes",
@@ -1886,8 +1871,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Madrid's southern minnows.",
         "active": true,
-        "logo": "logos/leganes.png",
-        "uniform": "uniforms/leganes.png"
+        "logo": "logos/leganes.webp",
+        "uniform": "uniforms/leganes.webp"
     },
     {
         "name": "Leicester City",
@@ -1901,8 +1886,8 @@ const teams = [
         "trophies": "Premier League: 1, FA Cup: 1, League Cup: 3, Community Shield: 2, Championship: 7",
         "mustKnowFact": "2016's fairy-tale champs.",
         "active": true,
-        "logo": "logos/leicester_city.png",
-        "uniform": "uniforms/leicester_city.png"
+        "logo": "logos/leicester_city.webp",
+        "uniform": "uniforms/leicester_city.webp"
     },
     {
         "name": "León",
@@ -1916,8 +1901,8 @@ const teams = [
         "trophies": "Liga MX: 8, Copa México: 5",
         "mustKnowFact": "Green lions roar in Guanajuato.",
         "active": true,
-        "logo": "logos/leon.png",
-        "uniform": "uniforms/leon.png"
+        "logo": "logos/leon.webp",
+        "uniform": "uniforms/leon.webp"
     },
     {
         "name": "Lille OSC",
@@ -1931,8 +1916,8 @@ const teams = [
         "trophies": "Ligue 1: 4, Coupe de France: 6, Trophée des Champions: 1, Ligue 2: 5",
         "mustKnowFact": "2021 Ligue 1 champs holding strong.",
         "active": true,
-        "logo": "logos/lille.png",
-        "uniform": "uniforms/lille.png"
+        "logo": "logos/lille.webp",
+        "uniform": "uniforms/lille.webp"
     },
     {
         "name": "Liverpool",
@@ -1946,8 +1931,8 @@ const teams = [
         "trophies": "Premier League: 1, First Division: 18, FA Cup: 8, League Cup: 10, Community Shield: 16, FIFA Club World Cup: 1, European Cup/Champions League: 6, UEFA Cup/Europa League: 3, UEFA Super Cup: 4",
         "mustKnowFact": "You'll Never Walk Alone anthem.",
         "active": true,
-        "logo": "logos/liverpool.png",
-        "uniform": "uniforms/liverpool.png"
+        "logo": "logos/liverpool.webp",
+        "uniform": "uniforms/liverpool.webp"
     },
     {
         "name": "Mainz 05",
@@ -1961,8 +1946,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Carnival club's grit.",
         "active": true,
-        "logo": "logos/mainz.png",
-        "uniform": "uniforms/mainz.png"
+        "logo": "logos/mainz.webp",
+        "uniform": "uniforms/mainz.webp"
     },
     {
         "name": "Mallorca",
@@ -1976,8 +1961,8 @@ const teams = [
         "trophies": "Copa del Rey: 1, Supercopa de España: 1, Segunda División: 2",
         "mustKnowFact": "Island grit in La Liga.",
         "active": true,
-        "logo": "logos/mallorca.png",
-        "uniform": "uniforms/mallorca.png"
+        "logo": "logos/mallorca.webp",
+        "uniform": "uniforms/mallorca.webp"
     },
     {
         "name": "Manchester City",
@@ -1991,8 +1976,8 @@ const teams = [
         "trophies": "Premier League: 10, First Division: 2, FA Cup: 7, League Cup: 8, Community Shield: 6, Champions League: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "Pep's tactical revolution.",
         "active": true,
-        "logo": "logos/manchester_city.png",
-        "uniform": "uniforms/manchester_city.png"
+        "logo": "logos/manchester_city.webp",
+        "uniform": "uniforms/manchester_city.webp"
     },
     {
         "name": "Manchester United",
@@ -2006,8 +1991,8 @@ const teams = [
         "trophies": "Premier League: 13, First Division: 7, FA Cup: 13, League Cup: 6, Community Shield: 21, Champions League: 3, Europa League: 1, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 1",
         "mustKnowFact": "Global fanbase giants.",
         "active": true,
-        "logo": "logos/manchester_united.png",
-        "uniform": "uniforms/manchester_united.png"
+        "logo": "logos/manchester_united.webp",
+        "uniform": "uniforms/manchester_united.webp"
     },
     {
         "name": "Maritimo",
@@ -2021,8 +2006,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1",
         "mustKnowFact": "Madeira's green-and-red.",
         "active": true,
-        "logo": "logos/maritimo.png",
-        "uniform": "uniforms/maritimo.png"
+        "logo": "logos/maritimo.webp",
+        "uniform": "uniforms/maritimo.webp"
     },
     {
         "name": "Mazatlán",
@@ -2036,8 +2021,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Newest club on the coast.",
         "active": true,
-        "logo": "logos/mazatlan.png",
-        "uniform": "uniforms/mazatlan.png"
+        "logo": "logos/mazatlan.webp",
+        "uniform": "uniforms/mazatlan.webp"
     },
     {
         "name": "Millonarios",
@@ -2051,8 +2036,8 @@ const teams = [
         "trophies": "Primera A: 16, Copa Colombia: 2, Superliga Colombiana: 2",
         "mustKnowFact": "Bogotá's blue millionaires.",
         "active": true,
-        "logo": "logos/millonarios.png",
-        "uniform": "uniforms/millonarios.png"
+        "logo": "logos/millonarios.webp",
+        "uniform": "uniforms/millonarios.webp"
     },
     {
         "name": "Monterrey",
@@ -2066,8 +2051,8 @@ const teams = [
         "trophies": "Liga MX: 5, CONCACAF Champions League: 5, Copa México: 2",
         "mustKnowFact": "Rayados' modern steel fortress.",
         "active": true,
-        "logo": "logos/monterrey.png",
-        "uniform": "uniforms/monterrey.png"
+        "logo": "logos/monterrey.webp",
+        "uniform": "uniforms/monterrey.webp"
     },
     {
         "name": "Montpellier HSC",
@@ -2081,8 +2066,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 2, Coupe de la Ligue: 1, Ligue 2: 4",
         "mustKnowFact": "2012 Ligue 1 title remains their peak.",
         "active": true,
-        "logo": "logos/montpellier.png",
-        "uniform": "uniforms/montpellier.png"
+        "logo": "logos/montpellier.webp",
+        "uniform": "uniforms/montpellier.webp"
     },
     {
         "name": "Monza",
@@ -2096,8 +2081,8 @@ const teams = [
         "trophies": "Serie B: 4",
         "mustKnowFact": "Berlusconi's late project.",
         "active": true,
-        "logo": "logos/monza.png",
-        "uniform": "uniforms/monza.png"
+        "logo": "logos/monza.webp",
+        "uniform": "uniforms/monza.webp"
     },
     {
         "name": "Moreirense",
@@ -2111,8 +2096,8 @@ const teams = [
         "trophies": "Taça da Liga: 1",
         "mustKnowFact": "Small town, big heart.",
         "active": true,
-        "logo": "logos/moreirense.png",
-        "uniform": "uniforms/moreirense.png"
+        "logo": "logos/moreirense.webp",
+        "uniform": "uniforms/moreirense.webp"
     },
     {
         "name": "NAC Breda",
@@ -2126,8 +2111,8 @@ const teams = [
         "trophies": "Eredivisie: 1, KNVB Cup: 1",
         "mustKnowFact": "Yellow army's 2024 return.",
         "active": true,
-        "logo": "logos/nac_breda.png",
-        "uniform": "uniforms/nac_breda.png"
+        "logo": "logos/nac_breda.webp",
+        "uniform": "uniforms/nac_breda.webp"
     },
     {
         "name": "NEC Nijmegen",
@@ -2141,8 +2126,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green-black battlers.",
         "active": true,
-        "logo": "logos/nec_nijmegen.png",
-        "uniform": "uniforms/nec_nijmegen.png"
+        "logo": "logos/nec_nijmegen.webp",
+        "uniform": "uniforms/nec_nijmegen.webp"
     },
     {
         "name": "CD Nacional",
@@ -2156,8 +2141,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Madeira's black-and-white.",
         "active": true,
-        "logo": "logos/cd_nacional.png",
-        "uniform": "uniforms/cd_nacional.png"
+        "logo": "logos/cd_nacional.webp",
+        "uniform": "uniforms/cd_nacional.webp"
     },
     {
         "name": "Napoli",
@@ -2171,8 +2156,8 @@ const teams = [
         "trophies": "Serie A: 3, Coppa Italia: 6, Supercoppa Italiana: 2, UEFA Cup: 1",
         "mustKnowFact": "Maradona's Naples legacy.",
         "active": true,
-        "logo": "logos/napoli.png",
-        "uniform": "uniforms/napoli.png"
+        "logo": "logos/napoli.webp",
+        "uniform": "uniforms/napoli.webp"
     },
     {
         "name": "Necaxa",
@@ -2186,8 +2171,8 @@ const teams = [
         "trophies": "Liga MX: 3, Copa México: 4",
         "mustKnowFact": "Lightning strikes in red and white.",
         "active": true,
-        "logo": "logos/necaxa.png",
-        "uniform": "uniforms/necaxa.png"
+        "logo": "logos/necaxa.webp",
+        "uniform": "uniforms/necaxa.webp"
     },
     {
         "name": "Newcastle United",
@@ -2201,8 +2186,8 @@ const teams = [
         "trophies": "First Division: 4, FA Cup: 6, Community Shield: 1, Championship: 4",
         "mustKnowFact": "Geordie passion runs wild.",
         "active": true,
-        "logo": "logos/newcastle_united.png",
-        "uniform": "uniforms/newcastle_united.png"
+        "logo": "logos/newcastle_united.webp",
+        "uniform": "uniforms/newcastle_united.webp"
     },
     {
         "name": "Newell's Old Boys",
@@ -2216,8 +2201,8 @@ const teams = [
         "trophies": "Primera División: 6, Primera B Nacional: 1",
         "mustKnowFact": "Messi's childhood heroes.",
         "active": true,
-        "logo": "logos/newells_old_boys.png",
-        "uniform": "uniforms/newells_old_boys.png"
+        "logo": "logos/newells_old_boys.webp",
+        "uniform": "uniforms/newells_old_boys.webp"
     },
     {
         "name": "Nottingham Forest",
@@ -2231,8 +2216,8 @@ const teams = [
         "trophies": "First Division: 1, FA Cup: 2, League Cup: 4, Community Shield: 1, European Cup: 2, UEFA Super Cup: 1",
         "mustKnowFact": "Back-to-back European champs.",
         "active": true,
-        "logo": "logos/nottingham_forest.png",
-        "uniform": "uniforms/nottingham_forest.png"
+        "logo": "logos/nottingham_forest.webp",
+        "uniform": "uniforms/nottingham_forest.webp"
     },
     {
         "name": "OGC Nice",
@@ -2246,8 +2231,8 @@ const teams = [
         "trophies": "Ligue 1: 4, Coupe de France: 3, Trophée des Champions: 1, Ligue 2: 4",
         "mustKnowFact": "Riviera club with INEOS backing.",
         "active": true,
-        "logo": "logos/nice.png",
-        "uniform": "uniforms/nice.png"
+        "logo": "logos/nice.webp",
+        "uniform": "uniforms/nice.webp"
     },
     {
         "name": "Olympique Lyonnais",
@@ -2261,8 +2246,8 @@ const teams = [
         "trophies": "Ligue 1: 7, Coupe de France: 5, Coupe de la Ligue: 1, Trophée des Champions: 8, Ligue 2: 3",
         "mustKnowFact": "Early 2000s dominance fading but still fierce.",
         "active": true,
-        "logo": "logos/olympique_lyonnais.png",
-        "uniform": "uniforms/olympique_lyonnais.png"
+        "logo": "logos/olympique_lyonnais.webp",
+        "uniform": "uniforms/olympique_lyonnais.webp"
     },
     {
         "name": "Olympique Marseille",
@@ -2276,8 +2261,8 @@ const teams = [
         "trophies": "Ligue 1: 9, Champions League: 1, Coupe de France: 10, Coupe de la Ligue: 3, Trophée des Champions: 3, Ligue 2: 1",
         "mustKnowFact": "France's only Champions League winner (1993).",
         "active": true,
-        "logo": "logos/marseille.png",
-        "uniform": "uniforms/marseille.png"
+        "logo": "logos/marseille.webp",
+        "uniform": "uniforms/marseille.webp"
     },
     {
         "name": "Once Caldas",
@@ -2291,8 +2276,8 @@ const teams = [
         "trophies": "Primera A: 4, Copa Libertadores: 1",
         "mustKnowFact": "2004 Libertadores surprise winners.",
         "active": true,
-        "logo": "logos/once_caldas.png",
-        "uniform": "uniforms/once_caldas.png"
+        "logo": "logos/once_caldas.webp",
+        "uniform": "uniforms/once_caldas.webp"
     },
     {
         "name": "Osasuna",
@@ -2306,8 +2291,8 @@ const teams = [
         "trophies": "Segunda División: 4",
         "mustKnowFact": "Navarre's red warriors.",
         "active": true,
-        "logo": "logos/osasuna.png",
-        "uniform": "uniforms/osasuna.png"
+        "logo": "logos/osasuna.webp",
+        "uniform": "uniforms/osasuna.webp"
     },
     {
         "name": "PEC Zwolle",
@@ -2321,8 +2306,8 @@ const teams = [
         "trophies": "KNVB Cup: 1",
         "mustKnowFact": "Blue fingers hold firm.",
         "active": true,
-        "logo": "logos/pec_zwolle.png",
-        "uniform": "uniforms/pec_zwolle.png"
+        "logo": "logos/pec_zwolle.webp",
+        "uniform": "uniforms/pec_zwolle.webp"
     },
     {
         "name": "PSV",
@@ -2336,8 +2321,8 @@ const teams = [
         "trophies": "Eredivisie: 25, KNVB Cup: 11, Johan Cruyff Shield: 14, European Cup: 1, UEFA Cup: 1",
         "mustKnowFact": "Philips-powered champions.",
         "active": true,
-        "logo": "logos/psv.png",
-        "uniform": "uniforms/psv.png"
+        "logo": "logos/psv.webp",
+        "uniform": "uniforms/psv.webp"
     },
     {
         "name": "Pachuca",
@@ -2351,8 +2336,8 @@ const teams = [
         "trophies": "Liga MX: 7, CONCACAF Champions League: 5, Copa Sudamericana: 1",
         "mustKnowFact": "Oldest club in Mexico.",
         "active": true,
-        "logo": "logos/pachuca.png",
-        "uniform": "uniforms/pachuca.png"
+        "logo": "logos/pachuca.webp",
+        "uniform": "uniforms/pachuca.webp"
     },
     {
         "name": "Palmeiras",
@@ -2366,8 +2351,8 @@ const teams = [
         "trophies": "Série A: 12, Copa do Brasil: 4, Campeonato Paulista: 25, Copa Libertadores: 3, Intercontinental Cup: 1",
         "mustKnowFact": "First club world champs.",
         "active": true,
-        "logo": "logos/palmeiras.png",
-        "uniform": "uniforms/palmeiras.png"
+        "logo": "logos/palmeiras.webp",
+        "uniform": "uniforms/palmeiras.webp"
     },
     {
         "name": "Paris Saint-Germain",
@@ -2381,8 +2366,8 @@ const teams = [
         "trophies": "Ligue 1: 12, Coupe de France: 15, Coupe de la Ligue: 10, Trophée des Champions: 12, Ligue 2: 1, UEFA Cup Winners' Cup: 1",
         "mustKnowFact": "2024 Trophée des Champions winners over Monaco.",
         "active": true,
-        "logo": "logos/psg.png",
-        "uniform": "uniforms/psg.png"
+        "logo": "logos/psg.webp",
+        "uniform": "uniforms/psg.webp"
     },
     {
         "name": "Parma",
@@ -2396,8 +2381,8 @@ const teams = [
         "trophies": "Coppa Italia: 3, UEFA Cup: 2, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 1, Serie B: 4",
         "mustKnowFact": "90s European glory.",
         "active": true,
-        "logo": "logos/parma.png",
-        "uniform": "uniforms/parma.png"
+        "logo": "logos/parma.webp",
+        "uniform": "uniforms/parma.webp"
     },
     {
         "name": "Patriotas",
@@ -2411,8 +2396,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "High-altitude Boyacá battlers.",
         "active": true,
-        "logo": "logos/patriotas.png",
-        "uniform": "uniforms/patriotas.png"
+        "logo": "logos/patriotas.webp",
+        "uniform": "uniforms/patriotas.webp"
     },
     {
         "name": "Platense",
@@ -2426,8 +2411,8 @@ const teams = [
         "trophies": "Primera B Metropolitana: 1",
         "mustKnowFact": "The Squid's steady rise.",
         "active": true,
-        "logo": "logos/platense.png",
-        "uniform": "uniforms/platense.png"
+        "logo": "logos/platense.webp",
+        "uniform": "uniforms/platense.webp"
     },
     {
         "name": "Porto",
@@ -2441,8 +2426,8 @@ const teams = [
         "trophies": "Primeira Liga: 30, Taça de Portugal: 19, Taça da Liga: 1, Supertaça Cândido de Oliveira: 23, Champions League: 2, UEFA Cup/Europa League: 2, UEFA Super Cup: 1, Intercontinental Cup: 2",
         "mustKnowFact": "Dragons' European glory.",
         "active": true,
-        "logo": "logos/porto.png",
-        "uniform": "uniforms/porto.png"
+        "logo": "logos/porto.webp",
+        "uniform": "uniforms/porto.webp"
     },
     {
         "name": "Puebla",
@@ -2456,8 +2441,8 @@ const teams = [
         "trophies": "Liga MX: 2, Copa México: 5",
         "mustKnowFact": "La Franja's historic resilience.",
         "active": true,
-        "logo": "logos/puebla.png",
-        "uniform": "uniforms/puebla.png"
+        "logo": "logos/puebla.webp",
+        "uniform": "uniforms/puebla.webp"
     },
     {
         "name": "Pumas",
@@ -2471,8 +2456,8 @@ const teams = [
         "trophies": "Liga MX: 7, CONCACAF Champions League: 3",
         "mustKnowFact": "University-backed puma pride.",
         "active": true,
-        "logo": "logos/pumas.png",
-        "uniform": "uniforms/pumas.png"
+        "logo": "logos/pumas.webp",
+        "uniform": "uniforms/pumas.webp"
     },
     {
         "name": "Querétaro",
@@ -2486,8 +2471,8 @@ const teams = [
         "trophies": "Copa México: 1",
         "mustKnowFact": "Gallos Blancos fight on.",
         "active": true,
-        "logo": "logos/queretaro.png",
-        "uniform": "uniforms/queretaro.png"
+        "logo": "logos/queretaro.webp",
+        "uniform": "uniforms/queretaro.webp"
     },
     {
         "name": "RB Leipzig",
@@ -2501,8 +2486,8 @@ const teams = [
         "trophies": "DFB-Pokal: 2, DFL-Supercup: 1",
         "mustKnowFact": "Red Bull's rapid rise.",
         "active": true,
-        "logo": "logos/rb_leipzig.png",
-        "uniform": "uniforms/rb_leipzig.png"
+        "logo": "logos/rb_leipzig.webp",
+        "uniform": "uniforms/rb_leipzig.webp"
     },
     {
         "name": "RC Lens",
@@ -2516,8 +2501,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de la Ligue: 1, Ligue 2: 4",
         "mustKnowFact": "Coal town's red-and-yellow resurgence.",
         "active": true,
-        "logo": "logos/rc_lens.png",
-        "uniform": "uniforms/rc_lens.png"
+        "logo": "logos/rc_lens.webp",
+        "uniform": "uniforms/rc_lens.webp"
     },
     {
         "name": "RC Strasbourg Alsace",
@@ -2531,8 +2516,8 @@ const teams = [
         "trophies": "Ligue 1: 1, Coupe de France: 3, Coupe de la Ligue: 3, Ligue 2: 1",
         "mustKnowFact": "Alsace's blue-and-white pride.",
         "active": true,
-        "logo": "logos/rc_strasbourg.png",
-        "uniform": "uniforms/rc_strasbourg.png"
+        "logo": "logos/rc_strasbourg.webp",
+        "uniform": "uniforms/rc_strasbourg.webp"
     },
     {
         "name": "RKC Waalwijk",
@@ -2546,8 +2531,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Small-town yellow-blue survivors.",
         "active": true,
-        "logo": "logos/rkc_waalwijk.png",
-        "uniform": "uniforms/rkc_waalwijk.png"
+        "logo": "logos/rkc_waalwijk.webp",
+        "uniform": "uniforms/rkc_waalwijk.webp"
     },
     {
         "name": "Racing Club",
@@ -2561,8 +2546,8 @@ const teams = [
         "trophies": "Primera División: 18, Copa Libertadores: 1, Intercontinental Cup: 1, Supercopa Argentina: 1",
         "mustKnowFact": "The Academy's trophy-laden history.",
         "active": true,
-        "logo": "logos/racing_club.png",
-        "uniform": "uniforms/racing_club.png"
+        "logo": "logos/racing_club.webp",
+        "uniform": "uniforms/racing_club.webp"
     },
     {
         "name": "Rayo Vallecano",
@@ -2576,8 +2561,8 @@ const teams = [
         "trophies": "Segunda División: 1",
         "mustKnowFact": "Vallecas' working-class heroes.",
         "active": true,
-        "logo": "logos/rayo_vallecano.png",
-        "uniform": "uniforms/rayo_vallecano.png"
+        "logo": "logos/rayo_vallecano.webp",
+        "uniform": "uniforms/rayo_vallecano.webp"
     },
     {
         "name": "Real Betis",
@@ -2591,8 +2576,8 @@ const teams = [
         "trophies": "La Liga: 1, Copa del Rey: 3, Segunda División: 7",
         "mustKnowFact": "Green and white fervor.",
         "active": true,
-        "logo": "logos/real_betis.png",
-        "uniform": "uniforms/real_betis.png"
+        "logo": "logos/real_betis.webp",
+        "uniform": "uniforms/real_betis.webp"
     },
     {
         "name": "Real Madrid",
@@ -2606,8 +2591,8 @@ const teams = [
         "trophies": "La Liga: 35, Copa del Rey: 20, Supercopa de España: 13, Champions League: 15, UEFA Cup: 2, UEFA Super Cup: 5, Club World Cup: 5",
         "mustKnowFact": "Most Champions League titles in history.",
         "active": true,
-        "logo": "logos/real_madrid.png",
-        "uniform": "uniforms/real_madrid.png"
+        "logo": "logos/real_madrid.webp",
+        "uniform": "uniforms/real_madrid.webp"
     },
     {
         "name": "Real Sociedad",
@@ -2621,8 +2606,8 @@ const teams = [
         "trophies": "La Liga: 2, Copa del Rey: 2, Supercopa de España: 1, Segunda División: 3",
         "mustKnowFact": "Basque pride runs deep.",
         "active": true,
-        "logo": "logos/real_sociedad.png",
-        "uniform": "uniforms/real_sociedad.png"
+        "logo": "logos/real_sociedad.webp",
+        "uniform": "uniforms/real_sociedad.webp"
     },
     {
         "name": "Real Valladolid",
@@ -2636,8 +2621,8 @@ const teams = [
         "trophies": "Segunda División: 3",
         "mustKnowFact": "Ronaldo's ownership dream.",
         "active": true,
-        "logo": "logos/real_valladolid.png",
-        "uniform": "uniforms/real_valladolid.png"
+        "logo": "logos/real_valladolid.webp",
+        "uniform": "uniforms/real_valladolid.webp"
     },
     {
         "name": "Rio Ave",
@@ -2651,8 +2636,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "River Ave's green stripes.",
         "active": true,
-        "logo": "logos/rio_ave.png",
-        "uniform": "uniforms/rio_ave.png"
+        "logo": "logos/rio_ave.webp",
+        "uniform": "uniforms/rio_ave.webp"
     },
     {
         "name": "River Plate",
@@ -2666,8 +2651,8 @@ const teams = [
         "trophies": "Primera División: 38, Copa Libertadores: 4, Intercontinental Cup: 1, Copa Sudamericana: 1, Recopa Sudamericana: 3, Supercopa Argentina: 3, Copa Argentina: 3",
         "mustKnowFact": "Argentina's trophy kings.",
         "active": true,
-        "logo": "logos/river_plate.png",
-        "uniform": "uniforms/river_plate.png"
+        "logo": "logos/river_plate.webp",
+        "uniform": "uniforms/river_plate.webp"
     },
     {
         "name": "Rosario Central",
@@ -2681,8 +2666,8 @@ const teams = [
         "trophies": "Primera División: 4, Copa CONMEBOL: 1, Copa Argentina: 1, Primera B Nacional: 2",
         "mustKnowFact": "Rosario's blue-and-yellow soul.",
         "active": true,
-        "logo": "logos/rosario_central.png",
-        "uniform": "uniforms/rosario_central.png"
+        "logo": "logos/rosario_central.webp",
+        "uniform": "uniforms/rosario_central.webp"
     },
     {
         "name": "Salernitana",
@@ -2696,8 +2681,8 @@ const teams = [
         "trophies": "Serie B: 2",
         "mustKnowFact": "Granata's southern spirit.",
         "active": true,
-        "logo": "logos/salernitana.png",
-        "uniform": "uniforms/salernitana.png"
+        "logo": "logos/salernitana.webp",
+        "uniform": "uniforms/salernitana.webp"
     },
     {
         "name": "San Lorenzo",
@@ -2711,8 +2696,8 @@ const teams = [
         "trophies": "Primera División: 15, Copa Libertadores: 1, Copa Sudamericana: 1, Supercopa Argentina: 1",
         "mustKnowFact": "Pope Francis cheers for them.",
         "active": true,
-        "logo": "logos/san_lorenzo.png",
-        "uniform": "uniforms/san_lorenzo.png"
+        "logo": "logos/san_lorenzo.webp",
+        "uniform": "uniforms/san_lorenzo.webp"
     },
     {
         "name": "Santa Clara",
@@ -2726,8 +2711,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Azores' lone warriors.",
         "active": true,
-        "logo": "logos/santa_clara.png",
-        "uniform": "uniforms/santa_clara.png"
+        "logo": "logos/santa_clara.webp",
+        "uniform": "uniforms/santa_clara.webp"
     },
     {
         "name": "Santos FC",
@@ -2741,8 +2726,8 @@ const teams = [
         "trophies": "Série A: 7, Copa do Brasil: 1, Campeonato Paulista: 22, Copa Libertadores: 3, Intercontinental Cup: 2",
         "mustKnowFact": "Pele's iconic home.",
         "active": true,
-        "logo": "logos/santos_fc.png",
-        "uniform": "uniforms/santos_fc.png"
+        "logo": "logos/santos_fc.webp",
+        "uniform": "uniforms/santos_fc.webp"
     },
     {
         "name": "Santos Laguna",
@@ -2756,8 +2741,8 @@ const teams = [
         "trophies": "Liga MX: 6, Copa México: 1",
         "mustKnowFact": "Desert warriors strike gold.",
         "active": true,
-        "logo": "logos/santos_laguna.png",
-        "uniform": "uniforms/santos_laguna.png"
+        "logo": "logos/santos_laguna.webp",
+        "uniform": "uniforms/santos_laguna.webp"
     },
     {
         "name": "Sao Paulo",
@@ -2771,8 +2756,8 @@ const teams = [
         "trophies": "Série A: 6, Copa do Brasil: 1, Campeonato Paulista: 22, Copa Libertadores: 3, Intercontinental Cup: 3",
         "mustKnowFact": "Three-time world champs.",
         "active": true,
-        "logo": "logos/sao_paulo.png",
-        "uniform": "uniforms/sao_paulo.png"
+        "logo": "logos/sao_paulo.webp",
+        "uniform": "uniforms/sao_paulo.webp"
     },
     {
         "name": "Sarmiento",
@@ -2786,8 +2771,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Juní­n's green resilience.",
         "active": true,
-        "logo": "logos/sarmiento.png",
-        "uniform": "uniforms/sarmiento.png"
+        "logo": "logos/sarmiento.webp",
+        "uniform": "uniforms/sarmiento.webp"
     },
     {
         "name": "Sevilla",
@@ -2801,8 +2786,8 @@ const teams = [
         "trophies": "La Liga: 1, Copa del Rey: 5, Supercopa de España: 1, Europa League: 7, UEFA Super Cup: 1",
         "mustKnowFact": "Europa League masters.",
         "active": true,
-        "logo": "logos/sevilla.png",
-        "uniform": "uniforms/sevilla.png"
+        "logo": "logos/sevilla.webp",
+        "uniform": "uniforms/sevilla.webp"
     },
     {
         "name": "Southampton",
@@ -2816,8 +2801,8 @@ const teams = [
         "trophies": "FA Cup: 1, League Cup: 1, Third Division: 1",
         "mustKnowFact": "Saints march back up.",
         "active": true,
-        "logo": "logos/southampton.png",
-        "uniform": "uniforms/southampton.png"
+        "logo": "logos/southampton.webp",
+        "uniform": "uniforms/southampton.webp"
     },
     {
         "name": "Sparta Rotterdam",
@@ -2831,8 +2816,8 @@ const teams = [
         "trophies": "Eredivisie: 6, KNVB Cup: 3",
         "mustKnowFact": "Oldest pro club in Holland.",
         "active": true,
-        "logo": "logos/sparta_rotterdam.png",
-        "uniform": "uniforms/sparta_rotterdam.png"
+        "logo": "logos/sparta_rotterdam.webp",
+        "uniform": "uniforms/sparta_rotterdam.webp"
     },
     {
         "name": "Sporting CP",
@@ -2846,8 +2831,8 @@ const teams = [
         "trophies": "Primeira Liga: 19, Taça de Portugal: 17, Taça da Liga: 4, Supertaça Cândido de Oliveira: 9",
         "mustKnowFact": "Lions roar in green.",
         "active": true,
-        "logo": "logos/sporting_cp.png",
-        "uniform": "uniforms/sporting_cp.png"
+        "logo": "logos/sporting_cp.webp",
+        "uniform": "uniforms/sporting_cp.webp"
     },
     {
         "name": "Stade Brestois 29",
@@ -2861,8 +2846,8 @@ const teams = [
         "trophies": "Ligue 2: 2",
         "mustKnowFact": "Earned a Champions League spot in 2023-24.",
         "active": true,
-        "logo": "logos/stade_brestois_29.png",
-        "uniform": "uniforms/stade_brestois_29.png"
+        "logo": "logos/stade_brestois_29.webp",
+        "uniform": "uniforms/stade_brestois_29.webp"
     },
     {
         "name": "Stade Rennais",
@@ -2876,8 +2861,8 @@ const teams = [
         "trophies": "Coupe de France: 3, Ligue 2: 2, Trophée des Champions: 1",
         "mustKnowFact": "Brittany's consistent European contenders.",
         "active": true,
-        "logo": "logos/stade_rennais.png",
-        "uniform": "uniforms/stade_rennais.png"
+        "logo": "logos/stade_rennais.webp",
+        "uniform": "uniforms/stade_rennais.webp"
     },
     {
         "name": "Stade de Reims",
@@ -2891,8 +2876,8 @@ const teams = [
         "trophies": "Ligue 1: 6, Coupe de France: 2, Trophée des Champions: 4, Ligue 2: 2",
         "mustKnowFact": "1950s European finalists reborn.",
         "active": true,
-        "logo": "logos/stade_de_reims.png",
-        "uniform": "uniforms/stade_de_reims.png"
+        "logo": "logos/stade_de_reims.webp",
+        "uniform": "uniforms/stade_de_reims.webp"
     },
     {
         "name": "Talleres",
@@ -2906,8 +2891,8 @@ const teams = [
         "trophies": "Primera División: 1, Copa CONMEBOL: 1, Primera B Nacional: 2",
         "mustKnowFact": "Córdoba's modern power.",
         "active": true,
-        "logo": "logos/talleres.png",
-        "uniform": "uniforms/talleres.png"
+        "logo": "logos/talleres.webp",
+        "uniform": "uniforms/talleres.webp"
     },
     {
         "name": "Tigre",
@@ -2921,8 +2906,8 @@ const teams = [
         "trophies": "Primera B Nacional: 3",
         "mustKnowFact": "Tiger stripes near Buenos Aires.",
         "active": true,
-        "logo": "logos/tigre.png",
-        "uniform": "uniforms/tigre.png"
+        "logo": "logos/tigre.webp",
+        "uniform": "uniforms/tigre.webp"
     },
     {
         "name": "Tigres",
@@ -2936,8 +2921,8 @@ const teams = [
         "trophies": "Liga MX: 8, CONCACAF Champions League: 1, Copa México: 3",
         "mustKnowFact": "Fierce northern tigers dominate.",
         "active": true,
-        "logo": "logos/tigres.png",
-        "uniform": "uniforms/tigres.png"
+        "logo": "logos/tigres.webp",
+        "uniform": "uniforms/tigres.webp"
     },
     {
         "name": "Tijuana",
@@ -2951,8 +2936,8 @@ const teams = [
         "trophies": "Liga MX: 1",
         "mustKnowFact": "Xolos northern frontier spirit.",
         "active": true,
-        "logo": "logos/tijuana.png",
-        "uniform": "uniforms/tijuana.png"
+        "logo": "logos/tijuana.webp",
+        "uniform": "uniforms/tijuana.webp"
     },
     {
         "name": "Toluca",
@@ -2966,8 +2951,8 @@ const teams = [
         "trophies": "Liga MX: 10, CONCACAF Champions League: 2, Copa México: 4",
         "mustKnowFact": "Red devils of the highlands.",
         "active": true,
-        "logo": "logos/toluca.png",
-        "uniform": "uniforms/toluca.png"
+        "logo": "logos/toluca.webp",
+        "uniform": "uniforms/toluca.webp"
     },
     {
         "name": "Torino",
@@ -2981,8 +2966,8 @@ const teams = [
         "trophies": "Serie A: 7, Coppa Italia: 5, Serie B: 3",
         "mustKnowFact": "Grande Torino's tragic legacy.",
         "active": true,
-        "logo": "logos/torino.png",
-        "uniform": "uniforms/torino.png"
+        "logo": "logos/torino.webp",
+        "uniform": "uniforms/torino.webp"
     },
     {
         "name": "Tottenham Hotspur",
@@ -2996,8 +2981,8 @@ const teams = [
         "trophies": "First Division: 2, FA Cup: 8, League Cup: 4, Community Shield: 7, UEFA Cup: 2, European Cup Winners' Cup: 1",
         "mustKnowFact": "New stadium, big dreams.",
         "active": true,
-        "logo": "logos/tottenham_hotspur.png",
-        "uniform": "uniforms/tottenham_hotspur.png"
+        "logo": "logos/tottenham_hotspur.webp",
+        "uniform": "uniforms/tottenham_hotspur.webp"
     },
     {
         "name": "Toulouse FC",
@@ -3011,8 +2996,8 @@ const teams = [
         "trophies": "Coupe de France: 2, Ligue 2: 4",
         "mustKnowFact": "2023 Coupe de France champs.",
         "active": true,
-        "logo": "logos/toulouse_fc.png",
-        "uniform": "uniforms/toulouse_fc.png"
+        "logo": "logos/toulouse_fc.webp",
+        "uniform": "uniforms/toulouse_fc.webp"
     },
     {
         "name": "Twente",
@@ -3026,8 +3011,8 @@ const teams = [
         "trophies": "Eredivisie: 1, KNVB Cup: 3, Johan Cruyff Shield: 2",
         "mustKnowFact": "Eastern reds upset in 2010.",
         "active": true,
-        "logo": "logos/twente.png",
-        "uniform": "uniforms/twente.png"
+        "logo": "logos/twente.webp",
+        "uniform": "uniforms/twente.webp"
     },
     {
         "name": "Udinese",
@@ -3041,8 +3026,8 @@ const teams = [
         "trophies": "Serie B: 2",
         "mustKnowFact": "Friuli's black-and-white.",
         "active": true,
-        "logo": "logos/udinese.png",
-        "uniform": "uniforms/udinese.png"
+        "logo": "logos/udinese.webp",
+        "uniform": "uniforms/udinese.webp"
     },
     {
         "name": "Union Berlin",
@@ -3056,8 +3041,8 @@ const teams = [
         "trophies": "3. Liga: 1",
         "mustKnowFact": "East Berlin's cult heroes.",
         "active": true,
-        "logo": "logos/union_berlin.png",
-        "uniform": "uniforms/union_berlin.png"
+        "logo": "logos/union_berlin.webp",
+        "uniform": "uniforms/union_berlin.webp"
     },
     {
         "name": "Unión",
@@ -3071,8 +3056,8 @@ const teams = [
         "trophies": "Primera B Nacional: 1",
         "mustKnowFact": "Santa Fe's red-and-white faithful.",
         "active": true,
-        "logo": "logos/union.png",
-        "uniform": "uniforms/union.png"
+        "logo": "logos/union.webp",
+        "uniform": "uniforms/union.webp"
     },
     {
         "name": "Utrecht",
@@ -3086,23 +3071,23 @@ const teams = [
         "trophies": "KNVB Cup: 3, Johan Cruyff Shield: 1",
         "mustKnowFact": "Never relegated since 1970.",
         "active": true,
-        "logo": "logos/utrecht.png",
-        "uniform": "uniforms/utrecht.png"
+        "logo": "logos/utrecht.webp",
+        "uniform": "uniforms/utrecht.webp"
     },
     {
         "name": "Valencia",
         "country": "Spain",
         "league": "La Liga",
         "city": "Valencia",
-        "lat": 39.4699,
-        "lon": -0.3763,
+        "lat": 39.474,
+        "lon": -0.36,
         "founded": 1919,
         "stadium": "Mestalla",
         "trophies": "La Liga: 6, Copa del Rey: 8, Supercopa de España: 1, UEFA Cup/Europa League: 1, UEFA Cup Winners' Cup: 1, UEFA Super Cup: 1",
         "mustKnowFact": "The bat logo is iconic.",
         "active": true,
-        "logo": "logos/valencia.png",
-        "uniform": "uniforms/valencia.png"
+        "logo": "logos/valencia.webp",
+        "uniform": "uniforms/valencia.webp"
     },
     {
         "name": "Vasco da Gama",
@@ -3116,8 +3101,8 @@ const teams = [
         "trophies": "Série A: 4, Copa do Brasil: 1, Campeonato Carioca: 24, Copa Libertadores: 1",
         "mustKnowFact": "Cross of Malta legacy.",
         "active": true,
-        "logo": "logos/vasco_da_gama.png",
-        "uniform": "uniforms/vasco_da_gama.png"
+        "logo": "logos/vasco_da_gama.webp",
+        "uniform": "uniforms/vasco_da_gama.webp"
     },
     {
         "name": "VfB Stuttgart",
@@ -3131,8 +3116,8 @@ const teams = [
         "trophies": "Bundesliga: 5, DFB-Pokal: 3, DFL-Supercup: 1, 2. Bundesliga: 2",
         "mustKnowFact": "Swabian pride endures.",
         "active": true,
-        "logo": "logos/vfb_stuttgart.png",
-        "uniform": "uniforms/vfb_stuttgart.png"
+        "logo": "logos/vfb_stuttgart.webp",
+        "uniform": "uniforms/vfb_stuttgart.webp"
     },
     {
         "name": "Villarreal",
@@ -3146,8 +3131,8 @@ const teams = [
         "trophies": "Europa League: 1",
         "mustKnowFact": "The Yellow Submarine shocked Europe.",
         "active": true,
-        "logo": "logos/villarreal.png",
-        "uniform": "uniforms/villarreal.png"
+        "logo": "logos/villarreal.webp",
+        "uniform": "uniforms/villarreal.webp"
     },
     {
         "name": "Vitesse",
@@ -3161,8 +3146,8 @@ const teams = [
         "trophies": "KNVB Cup: 1",
         "mustKnowFact": "Yellow-black eagles fly steady.",
         "active": true,
-        "logo": "logos/vitesse.png",
-        "uniform": "uniforms/vitesse.png"
+        "logo": "logos/vitesse.webp",
+        "uniform": "uniforms/vitesse.webp"
     },
     {
         "name": "Vitoria",
@@ -3176,8 +3161,8 @@ const teams = [
         "trophies": "Campeonato Baiano: 29, Copa do Nordeste: 4",
         "mustKnowFact": "Red and black revival.",
         "active": true,
-        "logo": "logos/vitoria.png",
-        "uniform": "uniforms/vitoria.png"
+        "logo": "logos/vitoria.webp",
+        "uniform": "uniforms/vitoria.webp"
     },
     {
         "name": "Vitoria Guimaraes",
@@ -3191,8 +3176,8 @@ const teams = [
         "trophies": "Taça de Portugal: 1, Supertaça Cândido de Oliveira: 1",
         "mustKnowFact": "Conquerors of the north.",
         "active": true,
-        "logo": "logos/guimaraes.png",
-        "uniform": "uniforms/guimaraes.png"
+        "logo": "logos/guimaraes.webp",
+        "uniform": "uniforms/guimaraes.webp"
     },
     {
         "name": "Vélez Sarsfield",
@@ -3206,8 +3191,8 @@ const teams = [
         "trophies": "Primera División: 10, Copa Libertadores: 1, Intercontinental Cup: 1, Copa Interamericana: 1, Supercopa Argentina: 1, Recopa Sudamericana: 1",
         "mustKnowFact": "Fortí­n's blue-and-white fortress.",
         "active": true,
-        "logo": "logos/velez_sarsfield.png",
-        "uniform": "uniforms/velez_sarsfield.png"
+        "logo": "logos/velez_sarsfield.webp",
+        "uniform": "uniforms/velez_sarsfield.webp"
     },
     {
         "name": "Werder Bremen",
@@ -3221,8 +3206,8 @@ const teams = [
         "trophies": "Bundesliga: 4, DFB-Pokal: 6, DFL-Supercup: 3, UEFA Cup Winners' Cup: 1, 2. Bundesliga: 1",
         "mustKnowFact": "Green-and-white tradition.",
         "active": true,
-        "logo": "logos/werder_bremen.png",
-        "uniform": "uniforms/werder_bremen.png"
+        "logo": "logos/werder_bremen.webp",
+        "uniform": "uniforms/werder_bremen.webp"
     },
     {
         "name": "West Ham United",
@@ -3236,8 +3221,8 @@ const teams = [
         "trophies": "FA Cup: 3, Community Shield: 1, European Cup Winners' Cup: 1, Conference League: 1, Championship: 2",
         "mustKnowFact": "Hammers conquered Europe in 2023.",
         "active": true,
-        "logo": "logos/west_ham_united.png",
-        "uniform": "uniforms/west_ham_united.png"
+        "logo": "logos/west_ham_united.webp",
+        "uniform": "uniforms/west_ham_united.webp"
     },
     {
         "name": "Wolfsburg",
@@ -3251,8 +3236,8 @@ const teams = [
         "trophies": "Bundesliga: 1, DFB-Pokal: 1, DFL-Supercup: 1",
         "mustKnowFact": "VW's football venture.",
         "active": true,
-        "logo": "logos/wolfsburg.png",
-        "uniform": "uniforms/wolfsburg.png"
+        "logo": "logos/wolfsburg.webp",
+        "uniform": "uniforms/wolfsburg.webp"
     },
     {
         "name": "Wolverhampton Wanderers",
@@ -3266,8 +3251,8 @@ const teams = [
         "trophies": "First Division: 3, FA Cup: 4, League Cup: 2, Community Shield: 4, Championship: 3",
         "mustKnowFact": "Wolves' golden old days.",
         "active": true,
-        "logo": "logos/wolves.png",
-        "uniform": "uniforms/wolves.png"
+        "logo": "logos/wolves.webp",
+        "uniform": "uniforms/wolves.webp"
     },
     {
         "name": "Águilas Doradas",
@@ -3281,8 +3266,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Golden eagles soar quietly.",
         "active": true,
-        "logo": "logos/aguilas_doradas.png",
-        "uniform": "uniforms/aguilas_doradas.png"
+        "logo": "logos/aguilas_doradas.webp",
+        "uniform": "uniforms/aguilas_doradas.webp"
     },
     {
         "name": "Adana Demirspor",
@@ -3296,8 +3281,8 @@ const teams = [
         "trophies": "1. Lig: 2",
         "mustKnowFact": "Blue Lightning strikes in Adana.",
         "active": true,
-        "logo": "logos/adana_demirspor.png",
-        "uniform": "uniforms/adana_demirspor.png"
+        "logo": "logos/adana_demirspor.webp",
+        "uniform": "uniforms/adana_demirspor.webp"
     },
     {
         "name": "Alanyaspor",
@@ -3311,8 +3296,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Tourist town team with grit.",
         "active": true,
-        "logo": "logos/alanyaspor.png",
-        "uniform": "uniforms/alanyaspor.png"
+        "logo": "logos/alanyaspor.webp",
+        "uniform": "uniforms/alanyaspor.webp"
     },
     {
         "name": "Ankaragücü",
@@ -3326,8 +3311,8 @@ const teams = [
         "trophies": "Turkish Cup: 2",
         "mustKnowFact": "Capital's yellow and navy pride.",
         "active": true,
-        "logo": "logos/ankaragucu.png",
-        "uniform": "uniforms/ankaragucu.png"
+        "logo": "logos/ankaragucu.webp",
+        "uniform": "uniforms/ankaragucu.webp"
     },
     {
         "name": "Antalyaspor",
@@ -3341,8 +3326,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Scorpions sting on the coast.",
         "active": true,
-        "logo": "logos/antalyaspor.png",
-        "uniform": "uniforms/antalyaspor.png"
+        "logo": "logos/antalyaspor.webp",
+        "uniform": "uniforms/antalyaspor.webp"
     },
     {
         "name": "Başakşehir",
@@ -3356,8 +3341,8 @@ const teams = [
         "trophies": "Süper Lig: 1",
         "mustKnowFact": "Istanbul's modern underdog champs.",
         "active": true,
-        "logo": "logos/basaksehir.png",
-        "uniform": "uniforms/basaksehir.png"
+        "logo": "logos/basaksehir.webp",
+        "uniform": "uniforms/basaksehir.webp"
     },
     {
         "name": "Beşiktaş",
@@ -3371,8 +3356,8 @@ const teams = [
         "trophies": "Süper Lig: 16, Turkish Cup: 10",
         "mustKnowFact": "Black Eagles soar over the Bosphorus.",
         "active": true,
-        "logo": "logos/besiktas.png",
-        "uniform": "uniforms/besiktas.png"
+        "logo": "logos/besiktas.webp",
+        "uniform": "uniforms/besiktas.webp"
     },
     {
         "name": "Bodrumspor",
@@ -3386,8 +3371,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New kids from the resort town.",
         "active": true,
-        "logo": "logos/bodrumspor.png",
-        "uniform": "uniforms/bodrumspor.png"
+        "logo": "logos/bodrumspor.webp",
+        "uniform": "uniforms/bodrumspor.webp"
     },
     {
         "name": "Eyüpspor",
@@ -3401,8 +3386,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple-yellow rise from Istanbul's north.",
         "active": true,
-        "logo": "logos/eyupspor.png",
-        "uniform": "uniforms/eyupspor.png"
+        "logo": "logos/eyupspor.webp",
+        "uniform": "uniforms/eyupspor.webp"
     },
     {
         "name": "Fenerbahçe",
@@ -3416,8 +3401,8 @@ const teams = [
         "trophies": "Süper Lig: 19, Turkish Cup: 7",
         "mustKnowFact": "Yellow Canaries of Kadıköy.",
         "active": true,
-        "logo": "logos/fenerbahce.png",
-        "uniform": "uniforms/fenerbahce.png"
+        "logo": "logos/fenerbahce.webp",
+        "uniform": "uniforms/fenerbahce.webp"
     },
     {
         "name": "Galatasaray",
@@ -3431,8 +3416,8 @@ const teams = [
         "trophies": "Süper Lig: 24, Turkish Cup: 18, UEFA Cup: 1",
         "mustKnowFact": "Lions roared to Europe's top in 2000.",
         "active": true,
-        "logo": "logos/galatasaray.png",
-        "uniform": "uniforms/galatasaray.png"
+        "logo": "logos/galatasaray.webp",
+        "uniform": "uniforms/galatasaray.webp"
     },
     {
         "name": "Gaziantep",
@@ -3446,8 +3431,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Falcons of the southeast.",
         "active": true,
-        "logo": "logos/gaziantep.png",
-        "uniform": "uniforms/gaziantep.png"
+        "logo": "logos/gaziantep.webp",
+        "uniform": "uniforms/gaziantep.webp"
     },
     {
         "name": "Göztepe",
@@ -3461,8 +3446,8 @@ const teams = [
         "trophies": "Turkish Cup: 2",
         "mustKnowFact": "Izmir's yellow-red warriors.",
         "active": true,
-        "logo": "logos/goztepe.png",
-        "uniform": "uniforms/goztepe.png"
+        "logo": "logos/goztepe.webp",
+        "uniform": "uniforms/goztepe.webp"
     },
     {
         "name": "Hatayspor",
@@ -3476,8 +3461,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Resilient spirit from the south.",
         "active": true,
-        "logo": "logos/hatayspor.png",
-        "uniform": "uniforms/hatayspor.png"
+        "logo": "logos/hatayspor.webp",
+        "uniform": "uniforms/hatayspor.webp"
     },
     {
         "name": "Kasımpaşa",
@@ -3491,8 +3476,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Apaches of Beyoğlu fight on.",
         "active": true,
-        "logo": "logos/kasimpasa.png",
-        "uniform": "uniforms/kasimpasa.png"
+        "logo": "logos/kasimpasa.webp",
+        "uniform": "uniforms/kasimpasa.webp"
     },
     {
         "name": "Kayserispor",
@@ -3506,8 +3491,8 @@ const teams = [
         "trophies": "Turkish Cup: 1",
         "mustKnowFact": "Anatolia's yellow-red stars.",
         "active": true,
-        "logo": "logos/kayserispor.png",
-        "uniform": "uniforms/kayserispor.png"
+        "logo": "logos/kayserispor.webp",
+        "uniform": "uniforms/kayserispor.webp"
     },
     {
         "name": "Konyaspor",
@@ -3521,8 +3506,8 @@ const teams = [
         "trophies": "Turkish Cup: 1",
         "mustKnowFact": "Green-white eagles of the plains.",
         "active": true,
-        "logo": "logos/konyaspor.png",
-        "uniform": "uniforms/konyaspor.png"
+        "logo": "logos/konyaspor.webp",
+        "uniform": "uniforms/konyaspor.webp"
     },
     {
         "name": "Rizespor",
@@ -3536,8 +3521,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black Sea's green-blue battlers.",
         "active": true,
-        "logo": "logos/rizespor.png",
-        "uniform": "uniforms/rizespor.png"
+        "logo": "logos/rizespor.webp",
+        "uniform": "uniforms/rizespor.webp"
     },
     {
         "name": "Samsunspor",
@@ -3551,8 +3536,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red lightning from the north coast.",
         "active": true,
-        "logo": "logos/samsunspor.png",
-        "uniform": "uniforms/samsunspor.png"
+        "logo": "logos/samsunspor.webp",
+        "uniform": "uniforms/samsunspor.webp"
     },
     {
         "name": "Sivasspor",
@@ -3566,8 +3551,8 @@ const teams = [
         "trophies": "Süper Lig: 1, Turkish Cup: 1",
         "mustKnowFact": "Yiğidolar's central stronghold.",
         "active": true,
-        "logo": "logos/sivasspor.png",
-        "uniform": "uniforms/sivasspor.png"
+        "logo": "logos/sivasspor.webp",
+        "uniform": "uniforms/sivasspor.webp"
     },
     {
         "name": "Trabzonspor",
@@ -3581,8 +3566,8 @@ const teams = [
         "trophies": "Süper Lig: 7, Turkish Cup: 9",
         "mustKnowFact": "Black Sea Storm breaks Istanbul's grip.",
         "active": true,
-        "logo": "logos/trabzonspor.png",
-        "uniform": "uniforms/trabzonspor.png"
+        "logo": "logos/trabzonspor.webp",
+        "uniform": "uniforms/trabzonspor.webp"
     },
     {
         "name": "Avispa Fukuoka",
@@ -3596,8 +3581,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Hornets buzz in Kyushu.",
         "active": true,
-        "logo": "logos/avispa_fukuoka.png",
-        "uniform": "uniforms/avispa_fukuoka.png"
+        "logo": "logos/avispa_fukuoka.webp",
+        "uniform": "uniforms/avispa_fukuoka.webp"
     },
     {
         "name": "Cerezo Osaka",
@@ -3611,8 +3596,8 @@ const teams = [
         "trophies": "J1 League: 4, Emperor's Cup: 4",
         "mustKnowFact": "Cherry blossoms bloom in pink.",
         "active": true,
-        "logo": "logos/cerezo_osaka.png",
-        "uniform": "uniforms/cerezo_osaka.png"
+        "logo": "logos/cerezo_osaka.webp",
+        "uniform": "uniforms/cerezo_osaka.webp"
     },
     {
         "name": "Consadole Sapporo",
@@ -3626,8 +3611,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Hokkaido's red-black pioneers.",
         "active": true,
-        "logo": "logos/consadole_sapporo.png",
-        "uniform": "uniforms/consadole_sapporo.png"
+        "logo": "logos/consadole_sapporo.webp",
+        "uniform": "uniforms/consadole_sapporo.webp"
     },
     {
         "name": "FC Tokyo",
@@ -3641,8 +3626,8 @@ const teams = [
         "trophies": "J.League Cup: 3",
         "mustKnowFact": "Capital's blue-red warriors.",
         "active": true,
-        "logo": "logos/fc_tokyo.png",
-        "uniform": "uniforms/fc_tokyo.png"
+        "logo": "logos/fc_tokyo.webp",
+        "uniform": "uniforms/fc_tokyo.webp"
     },
     {
         "name": "Gamba Osaka",
@@ -3656,8 +3641,8 @@ const teams = [
         "trophies": "J1 League: 2, Emperor's Cup: 4, AFC Champions League: 1",
         "mustKnowFact": "Osaka's blue-black kings.",
         "active": true,
-        "logo": "logos/gamba_osaka.png",
-        "uniform": "uniforms/gamba_osaka.png"
+        "logo": "logos/gamba_osaka.webp",
+        "uniform": "uniforms/gamba_osaka.webp"
     },
     {
         "name": "Júbilo Iwata",
@@ -3671,8 +3656,8 @@ const teams = [
         "trophies": "J1 League: 4",
         "mustKnowFact": "Blue jubilation returns.",
         "active": true,
-        "logo": "logos/jubilo_iwata.png",
-        "uniform": "uniforms/jubilo-iwata.png"
+        "logo": "logos/jubilo_iwata.webp",
+        "uniform": "uniforms/jubilo_iwata.webp"
     },
     {
         "name": "Kashima Antlers",
@@ -3686,8 +3671,8 @@ const teams = [
         "trophies": "J1 League: 8, Emperor's Cup: 5, AFC Champions League: 1",
         "mustKnowFact": "Antlers dominate Japan's east.",
         "active": true,
-        "logo": "logos/kashima_antlers.png",
-        "uniform": "uniforms/kashima_antlers.png"
+        "logo": "logos/kashima_antlers.webp",
+        "uniform": "uniforms/kashima_antlers.webp"
     },
     {
         "name": "Kashiwa Reysol",
@@ -3701,8 +3686,8 @@ const teams = [
         "trophies": "J1 League: 2, Emperor's Cup: 1",
         "mustKnowFact": "Yellow sun rises near Tokyo.",
         "active": true,
-        "logo": "logos/kashiwa_reysol.png",
-        "uniform": "uniforms/kashiwa_reysol.png"
+        "logo": "logos/kashiwa_reysol.webp",
+        "uniform": "uniforms/kashiwa_reysol.webp"
     },
     {
         "name": "Kawasaki Frontale",
@@ -3716,8 +3701,8 @@ const teams = [
         "trophies": "J1 League: 4, Emperor's Cup: 1",
         "mustKnowFact": "Blue juggernaut of Kanagawa.",
         "active": true,
-        "logo": "logos/kawasaki_frontale.png",
-        "uniform": "uniforms/kawasaki_frontale.png"
+        "logo": "logos/kawasaki_frontale.webp",
+        "uniform": "uniforms/kawasaki_frontale.webp"
     },
     {
         "name": "Kyoto Sanga",
@@ -3731,8 +3716,8 @@ const teams = [
         "trophies": "Emperor's Cup: 1",
         "mustKnowFact": "Purple heritage in ancient capital.",
         "active": true,
-        "logo": "logos/kyoto_sanga.png",
-        "uniform": "uniforms/kyoto-sanga.png"
+        "logo": "logos/kyoto_sanga.webp",
+        "uniform": "uniforms/kyoto_sanga.webp"
     },
     {
         "name": "Machida Zelvia",
@@ -3746,8 +3731,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Tokyo suburb's new stars.",
         "active": true,
-        "logo": "logos/machida_zelvia.png",
-        "uniform": "uniforms/machida-zelvia.png"
+        "logo": "logos/machida_zelvia.webp",
+        "uniform": "uniforms/machida_zelvia.webp"
     },
     {
         "name": "Nagoya Grampus",
@@ -3761,8 +3746,8 @@ const teams = [
         "trophies": "J1 League: 1, Emperor's Cup: 2",
         "mustKnowFact": "Red whales swim in Aichi.",
         "active": true,
-        "logo": "logos/nagoya_grampus.png",
-        "uniform": "uniforms/nagoya_grampus.png"
+        "logo": "logos/nagoya_grampus.webp",
+        "uniform": "uniforms/nagoya_grampus.webp"
     },
     {
         "name": "Sagan Tosu",
@@ -3776,8 +3761,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Kyushu's blue-pink fighters.",
         "active": true,
-        "logo": "logos/sagan_tosu.png",
-        "uniform": "uniforms/sagan_tosu.png"
+        "logo": "logos/sagan_tosu.webp",
+        "uniform": "uniforms/sagan_tosu.webp"
     },
     {
         "name": "Sanfrecce Hiroshima",
@@ -3791,8 +3776,8 @@ const teams = [
         "trophies": "J1 League: 3, Emperor's Cup: 3",
         "mustKnowFact": "Purple arrows strike true.",
         "active": true,
-        "logo": "logos/sanfrecce_hiroshima.png",
-        "uniform": "uniforms/sanfrecce_hiroshima.png"
+        "logo": "logos/sanfrecce_hiroshima.webp",
+        "uniform": "uniforms/sanfrecce_hiroshima.webp"
     },
     {
         "name": "Shonan Bellmare",
@@ -3806,8 +3791,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green waves crash near Tokyo.",
         "active": true,
-        "logo": "logos/shonan_bellmare.png",
-        "uniform": "uniforms/shonan_bellmare.png"
+        "logo": "logos/shonan_bellmare.webp",
+        "uniform": "uniforms/shonan_bellmare.webp"
     },
     {
         "name": "Tokyo Verdy",
@@ -3821,8 +3806,8 @@ const teams = [
         "trophies": "J1 League: 2, Emperor's Cup: 4",
         "mustKnowFact": "Green phoenix rises again.",
         "active": true,
-        "logo": "logos/tokyo_verdy.png",
-        "uniform": "uniforms/tokyo-verdy.png"
+        "logo": "logos/tokyo_verdy.webp",
+        "uniform": "uniforms/tokyo_verdy.webp"
     },
     {
         "name": "Urawa Red Diamonds",
@@ -3836,8 +3821,8 @@ const teams = [
         "trophies": "J1 League: 1, Emperor's Cup: 8, AFC Champions League: 3",
         "mustKnowFact": "Red diamonds shine in Saitama.",
         "active": true,
-        "logo": "logos/urawa_red_diamonds.png",
-        "uniform": "uniforms/urawa_red_diamonds.png"
+        "logo": "logos/urawa_red_diamonds.webp",
+        "uniform": "uniforms/urawa_red_diamonds.webp"
     },
     {
         "name": "Vissel Kobe",
@@ -3851,8 +3836,8 @@ const teams = [
         "trophies": "J1 League: 1, Emperor's Cup: 1",
         "mustKnowFact": "Kobe's crimson resurgence.",
         "active": true,
-        "logo": "logos/vissel_kobe.png",
-        "uniform": "uniforms/vissel_kobe.png"
+        "logo": "logos/vissel_kobe.webp",
+        "uniform": "uniforms/vissel_kobe.webp"
     },
     {
         "name": "Yokohama F. Marinos",
@@ -3866,8 +3851,8 @@ const teams = [
         "trophies": "J1 League: 5, Emperor's Cup: 2",
         "mustKnowFact": "Tricolor sailors rule the port.",
         "active": true,
-        "logo": "logos/yokohama_marinos.png",
-        "uniform": "uniforms/yokohama_marinos.png"
+        "logo": "logos/yokohama_marinos.webp",
+        "uniform": "uniforms/yokohama_marinos.webp"
     },
     {
         "name": "Cracovia",
@@ -3881,8 +3866,8 @@ const teams = [
         "trophies": "Ekstraklasa: 1, Polish Cup: 1",
         "mustKnowFact": "Striped legacy in Kraków.",
         "active": true,
-        "logo": "logos/cracovia.png",
-        "uniform": "uniforms/cracovia.png"
+        "logo": "logos/cracovia.webp",
+        "uniform": "uniforms/cracovia.webp"
     },
     {
         "name": "Górnik Zabrze",
@@ -3896,8 +3881,8 @@ const teams = [
         "trophies": "Ekstraklasa: 14, Polish Cup: 6",
         "mustKnowFact": "Miners' glory days shine.",
         "active": true,
-        "logo": "logos/gornik_zabrze.png",
-        "uniform": "uniforms/gornik_zabrze.png"
+        "logo": "logos/gornik_zabrze.webp",
+        "uniform": "uniforms/gornik_zabrze.webp"
     },
     {
         "name": "Jagiellonia Białystok",
@@ -3911,8 +3896,8 @@ const teams = [
         "trophies": "Ekstraklasa: 1, Polish Cup: 1",
         "mustKnowFact": "Northeast's yellow-red surprise.",
         "active": true,
-        "logo": "logos/jagiellonia_białystok.png",
-        "uniform": "uniforms/jagiellonia_białystok.png"
+        "logo": "logos/jagiellonia_bialystok.webp",
+        "uniform": "uniforms/jagiellonia_bialystok.webp"
     },
     {
         "name": "Korona Kielce",
@@ -3926,8 +3911,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Crown of Kielce fights on.",
         "active": true,
-        "logo": "logos/korona_kielce.png",
-        "uniform": "uniforms/korona-kielce.png"
+        "logo": "logos/korona_kielce.webp",
+        "uniform": "uniforms/korona_kielce.webp"
     },
     {
         "name": "Lech Poznań",
@@ -3941,8 +3926,8 @@ const teams = [
         "trophies": "Ekstraklasa: 8, Polish Cup: 5",
         "mustKnowFact": "Railwaymen steam through Poland.",
         "active": true,
-        "logo": "logos/lech_poznan.png",
-        "uniform": "uniforms/lech_poznan.png"
+        "logo": "logos/lech_poznan.webp",
+        "uniform": "uniforms/lech_poznan.webp"
     },
     {
         "name": "Lechia Gdańsk",
@@ -3956,8 +3941,8 @@ const teams = [
         "trophies": "Polish Cup: 2",
         "mustKnowFact": "Baltic coast's green-white hope.",
         "active": true,
-        "logo": "logos/lechia_gdansk.png",
-        "uniform": "uniforms/lechia_gdansk.png"
+        "logo": "logos/lechia_gdansk.webp",
+        "uniform": "uniforms/lechia_gdansk.webp"
     },
     {
         "name": "Legia Warszawa",
@@ -3971,8 +3956,8 @@ const teams = [
         "trophies": "Ekstraklasa: 15, Polish Cup: 20",
         "mustKnowFact": "Military might rules Warsaw.",
         "active": true,
-        "logo": "logos/legia_warszawa.png",
-        "uniform": "uniforms/legia_warszawa.png"
+        "logo": "logos/legia_warszawa.webp",
+        "uniform": "uniforms/legia_warszawa.webp"
     },
     {
         "name": "Motor Lublin",
@@ -3986,8 +3971,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow engines rev up east.",
         "active": true,
-        "logo": "logos/motor_lublin.png",
-        "uniform": "uniforms/motor-lublin.png"
+        "logo": "logos/motor_lublin.webp",
+        "uniform": "uniforms/motor_lublin.webp"
     },
     {
         "name": "Piast Gliwice",
@@ -4001,8 +3986,8 @@ const teams = [
         "trophies": "Ekstraklasa: 1",
         "mustKnowFact": "Silesian blue-red upset in 2019.",
         "active": true,
-        "logo": "logos/piast_gliwice.png",
-        "uniform": "uniforms/piast_gliwice.png"
+        "logo": "logos/piast_gliwice.webp",
+        "uniform": "uniforms/piast_gliwice.webp"
     },
     {
         "name": "Pogoń Szczecin",
@@ -4016,8 +4001,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Port sailors chase glory.",
         "active": true,
-        "logo": "logos/pogon_szczecin.png",
-        "uniform": "uniforms/pogon_szczecin.png"
+        "logo": "logos/pogon_szczecin.webp",
+        "uniform": "uniforms/pogon_szczecin.webp"
     },
     {
         "name": "Puszcza Niepołomice",
@@ -4031,8 +4016,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Forest underdogs rise near Kraków.",
         "active": true,
-        "logo": "logos/puszcza_niepołomice.png",
-        "uniform": "uniforms/puszcza-niepolomice.png"
+        "logo": "logos/puszcza_niepolomice.webp",
+        "uniform": "uniforms/puszcza_niepolomice.webp"
     },
     {
         "name": "Radomiak Radom",
@@ -4046,8 +4031,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green pride south of Warsaw.",
         "active": true,
-        "logo": "logos/radomiak_radom.png",
-        "uniform": "uniforms/radomiak_radom.png"
+        "logo": "logos/radomiak_radom.webp",
+        "uniform": "uniforms/radomiak_radom.webp"
     },
     {
         "name": "Raków Częstochowa",
@@ -4061,8 +4046,8 @@ const teams = [
         "trophies": "Ekstraklasa: 1, Polish Cup: 2",
         "mustKnowFact": "Red-blue miracle in 2023.",
         "active": true,
-        "logo": "logos/rakow_czestochowa.png",
-        "uniform": "uniforms/rakow_czestochowa.png"
+        "logo": "logos/rakow_czestochowa.webp",
+        "uniform": "uniforms/rakow_czestochowa.webp"
     },
     {
         "name": "Stal Mielec",
@@ -4076,8 +4061,8 @@ const teams = [
         "trophies": "Ekstraklasa: 2",
         "mustKnowFact": "Steel town's white-blue grit.",
         "active": true,
-        "logo": "logos/stal_mielec.png",
-        "uniform": "uniforms/stal_mielec.png"
+        "logo": "logos/stal_mielec.webp",
+        "uniform": "uniforms/stal_mielec.webp"
     },
     {
         "name": "Śląsk Wrocław",
@@ -4091,8 +4076,8 @@ const teams = [
         "trophies": "Ekstraklasa: 2, Polish Cup: 2",
         "mustKnowFact": "Silesian green-white resurgence.",
         "active": true,
-        "logo": "logos/slask_wrocław.png",
-        "uniform": "uniforms/slask_wrocław.png"
+        "logo": "logos/slask_wroclaw.webp",
+        "uniform": "uniforms/slask_wroclaw.webp"
     },
     {
         "name": "Widzew Łódź",
@@ -4106,8 +4091,8 @@ const teams = [
         "trophies": "Ekstraklasa: 4, Polish Cup: 1",
         "mustKnowFact": "Red-white heart beats again.",
         "active": true,
-        "logo": "logos/widzew_łodz.png",
-        "uniform": "uniforms/widzew-lodz.png"
+        "logo": "logos/widzew_lodz.webp",
+        "uniform": "uniforms/widzew_lodz.webp"
     },
     {
         "name": "Zagłębie Lubin",
@@ -4121,8 +4106,8 @@ const teams = [
         "trophies": "Ekstraklasa: 2",
         "mustKnowFact": "Copper miners dig for wins.",
         "active": true,
-        "logo": "logos/zagłebie_lubin.png",
-        "uniform": "uniforms/zagłebie_lubin.png"
+        "logo": "logos/zaglebie_lubin.webp",
+        "uniform": "uniforms/zaglebie_lubin.webp"
     },
     {
         "name": "Atlanta United",
@@ -4136,8 +4121,8 @@ const teams = [
         "trophies": "MLS Cup: 1, U.S. Open Cup: 1",
         "mustKnowFact": "Set MLS attendance records with passionate fans.",
         "active": true,
-        "logo": "logos/atlanta_united.png",
-        "uniform": "uniforms/atlanta_united.png"
+        "logo": "logos/atlanta_united.webp",
+        "uniform": "uniforms/atlanta_united.webp"
     },
     {
         "name": "Austin FC",
@@ -4151,8 +4136,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green pride of Texas's capital.",
         "active": true,
-        "logo": "logos/austin_fc.png",
-        "uniform": "uniforms/austin_fc.png"
+        "logo": "logos/austin_fc.webp",
+        "uniform": "uniforms/austin_fc.webp"
     },
     {
         "name": "Charlotte FC",
@@ -4166,8 +4151,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Newcomers with Carolina blue spirit.",
         "active": true,
-        "logo": "logos/charlotte_fc.png",
-        "uniform": "uniforms/charlotte_fc.png"
+        "logo": "logos/charlotte_fc.webp",
+        "uniform": "uniforms/charlotte_fc.webp"
     },
     {
         "name": "Chicago Fire",
@@ -4181,8 +4166,8 @@ const teams = [
         "trophies": "MLS Cup: 1, U.S. Open Cup: 4",
         "mustKnowFact": "Named after the Great Chicago Fire of 1871.",
         "active": true,
-        "logo": "logos/chicago_fire.png",
-        "uniform": "uniforms/chicago_fire.png"
+        "logo": "logos/chicago_fire.webp",
+        "uniform": "uniforms/chicago_fire.webp"
     },
     {
         "name": "Colorado Rapids",
@@ -4196,8 +4181,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "Rocky Mountain warriors.",
         "active": true,
-        "logo": "logos/colorado_rapids.png",
-        "uniform": "uniforms/colorado_rapids.png"
+        "logo": "logos/colorado_rapids.webp",
+        "uniform": "uniforms/colorado_rapids.webp"
     },
     {
         "name": "Columbus Crew",
@@ -4211,8 +4196,8 @@ const teams = [
         "trophies": "MLS Cup: 3",
         "mustKnowFact": "First MLS club, built the league's first stadium.",
         "active": true,
-        "logo": "logos/columbus_crew.png",
-        "uniform": "uniforms/columbus_crew.png"
+        "logo": "logos/columbus_crew.webp",
+        "uniform": "uniforms/columbus_crew.webp"
     },
     {
         "name": "D.C. United",
@@ -4226,8 +4211,8 @@ const teams = [
         "trophies": "MLS Cup: 4, U.S. Open Cup: 1",
         "mustKnowFact": "Dominated early MLS with four titles.",
         "active": true,
-        "logo": "logos/dc_united.png",
-        "uniform": "uniforms/dc_united.png"
+        "logo": "logos/dc_united.webp",
+        "uniform": "uniforms/dc_united.webp"
     },
     {
         "name": "FC Cincinnati",
@@ -4241,8 +4226,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange and blue rise from the Queen City.",
         "active": true,
-        "logo": "logos/fc_cincinnati.png",
-        "uniform": "uniforms/fc_cincinnati.png"
+        "logo": "logos/fc_cincinnati.webp",
+        "uniform": "uniforms/fc_cincinnati.webp"
     },
     {
         "name": "FC Dallas",
@@ -4256,8 +4241,8 @@ const teams = [
         "trophies": "U.S. Open Cup: 2",
         "mustKnowFact": "Texan red and blue legacy.",
         "active": true,
-        "logo": "logos/fc_dallas.png",
-        "uniform": "uniforms/fc_dallas.png"
+        "logo": "logos/fc_dallas.webp",
+        "uniform": "uniforms/fc_dallas.webp"
     },
     {
         "name": "Houston Dynamo",
@@ -4271,8 +4256,8 @@ const teams = [
         "trophies": "MLS Cup: 2",
         "mustKnowFact": "Back-to-back champs in their first two years.",
         "active": true,
-        "logo": "logos/houston_dynamo.png",
-        "uniform": "uniforms/houston_dynamo.png"
+        "logo": "logos/houston_dynamo.webp",
+        "uniform": "uniforms/houston_dynamo.webp"
     },
     {
         "name": "Inter Miami CF",
@@ -4286,8 +4271,8 @@ const teams = [
         "trophies": "Leagues Cup: 1",
         "mustKnowFact": "Messi's new home lit up MLS.",
         "active": true,
-        "logo": "logos/inter_miami.png",
-        "uniform": "uniforms/inter_miami.png"
+        "logo": "logos/inter_miami.webp",
+        "uniform": "uniforms/inter_miami.webp"
     },
     {
         "name": "LA Galaxy",
@@ -4301,8 +4286,8 @@ const teams = [
         "trophies": "MLS Cup: 5, U.S. Open Cup: 1",
         "mustKnowFact": "Most decorated club in MLS history.",
         "active": true,
-        "logo": "logos/la_galaxy.png",
-        "uniform": "uniforms/la_galaxy.png"
+        "logo": "logos/la_galaxy.webp",
+        "uniform": "uniforms/la_galaxy.webp"
     },
     {
         "name": "Los Angeles FC",
@@ -4316,8 +4301,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "Black and gold power in LA.",
         "active": true,
-        "logo": "logos/los_angeles_fc.png",
-        "uniform": "uniforms/los_angeles_fc.png"
+        "logo": "logos/los_angeles_fc.webp",
+        "uniform": "uniforms/los_angeles_fc.webp"
     },
     {
         "name": "Minnesota United",
@@ -4331,8 +4316,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Loons soar in the Land of 10,000 Lakes.",
         "active": true,
-        "logo": "logos/minnesota_united.png",
-        "uniform": "uniforms/minnesota_united.png"
+        "logo": "logos/minnesota_united.webp",
+        "uniform": "uniforms/minnesota_united.webp"
     },
     {
         "name": "CF Montréal",
@@ -4346,8 +4331,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Quebec's blue and black contenders.",
         "active": true,
-        "logo": "logos/cf_montreal.png",
-        "uniform": "uniforms/cf_montreal.png"
+        "logo": "logos/cf_montreal.webp",
+        "uniform": "uniforms/cf_montreal.webp"
     },
     {
         "name": "Nashville SC",
@@ -4361,8 +4346,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Music City's yellow army.",
         "active": true,
-        "logo": "logos/nashville_sc.png",
-        "uniform": "uniforms/nashville_sc.png"
+        "logo": "logos/nashville_sc.webp",
+        "uniform": "uniforms/nashville_sc.webp"
     },
     {
         "name": "New England Revolution",
@@ -4376,8 +4361,8 @@ const teams = [
         "trophies": "U.S. Open Cup: 1",
         "mustKnowFact": "Patriots' neighbors chasing glory.",
         "active": true,
-        "logo": "logos/new_england_revolution.png",
-        "uniform": "uniforms/new_england_revolution.png"
+        "logo": "logos/new_england_revolution.webp",
+        "uniform": "uniforms/new_england_revolution.webp"
     },
     {
         "name": "New York City FC",
@@ -4391,8 +4376,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "Sky blue shines in the Big Apple.",
         "active": true,
-        "logo": "logos/new_york_city_fc.png",
-        "uniform": "uniforms/new_york_city_fc.png"
+        "logo": "logos/new_york_city_fc.webp",
+        "uniform": "uniforms/new_york_city_fc.webp"
     },
     {
         "name": "New York Red Bulls",
@@ -4406,8 +4391,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Energy drink empire's soccer arm.",
         "active": true,
-        "logo": "logos/new_york_red_bulls.png",
-        "uniform": "uniforms/new_york_red_bulls.png"
+        "logo": "logos/new_york_red_bulls.webp",
+        "uniform": "uniforms/new_york_red_bulls.webp"
     },
     {
         "name": "Orlando City SC",
@@ -4421,8 +4406,8 @@ const teams = [
         "trophies": "U.S. Open Cup: 1",
         "mustKnowFact": "Purple lions roar in Florida.",
         "active": true,
-        "logo": "logos/orlando_city_sc.png",
-        "uniform": "uniforms/orlando_city_sc.png"
+        "logo": "logos/orlando_city_sc.webp",
+        "uniform": "uniforms/orlando_city_sc.webp"
     },
     {
         "name": "Philadelphia Union",
@@ -4436,8 +4421,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue and gold from Philly's suburbs.",
         "active": true,
-        "logo": "logos/philadelphia_union.png",
-        "uniform": "uniforms/philadelphia_union.png"
+        "logo": "logos/philadelphia_union.webp",
+        "uniform": "uniforms/philadelphia_union.webp"
     },
     {
         "name": "Portland Timbers",
@@ -4451,8 +4436,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "Timber Army chants echo in Rose City.",
         "active": true,
-        "logo": "logos/portland_timbers.png",
-        "uniform": "uniforms/portland_timbers.png"
+        "logo": "logos/portland_timbers.webp",
+        "uniform": "uniforms/portland_timbers.webp"
     },
     {
         "name": "Real Salt Lake",
@@ -4466,8 +4451,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "Royal red rules Utah's desert.",
         "active": true,
-        "logo": "logos/real_salt_lake.png",
-        "uniform": "uniforms/real_salt_lake.png"
+        "logo": "logos/real_salt_lake.webp",
+        "uniform": "uniforms/real_salt_lake.webp"
     },
     {
         "name": "San Jose Earthquakes",
@@ -4481,8 +4466,8 @@ const teams = [
         "trophies": "MLS Cup: 2",
         "mustKnowFact": "Oldest MLS club with seismic spirit.",
         "active": true,
-        "logo": "logos/san_jose_earthquakes.png",
-        "uniform": "uniforms/san_jose_earthquakes.png"
+        "logo": "logos/san_jose_earthquakes.webp",
+        "uniform": "uniforms/san_jose_earthquakes.webp"
     },
     {
         "name": "Seattle Sounders FC",
@@ -4496,8 +4481,8 @@ const teams = [
         "trophies": "MLS Cup: 2, U.S. Open Cup: 4",
         "mustKnowFact": "Emerald City's green-blue dynasty.",
         "active": true,
-        "logo": "logos/seattle_sounders_fc.png",
-        "uniform": "uniforms/seattle_sounders_fc.png"
+        "logo": "logos/seattle_sounders_fc.webp",
+        "uniform": "uniforms/seattle_sounders_fc.webp"
     },
     {
         "name": "Sporting Kansas City",
@@ -4511,8 +4496,8 @@ const teams = [
         "trophies": "MLS Cup: 2, U.S. Open Cup: 4",
         "mustKnowFact": "Wizards turned champions.",
         "active": true,
-        "logo": "logos/sporting_kansas_city.png",
-        "uniform": "uniforms/sporting_kansas_city.png"
+        "logo": "logos/sporting_kansas_city.webp",
+        "uniform": "uniforms/sporting_kansas_city.webp"
     },
     {
         "name": "St. Louis City SC",
@@ -4526,8 +4511,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red and pink debutants in the Gateway City.",
         "active": true,
-        "logo": "logos/st_louis_city_sc.png",
-        "uniform": "uniforms/st_louis_city_sc.png"
+        "logo": "logos/st_louis_city_sc.webp",
+        "uniform": "uniforms/st_louis_city_sc.webp"
     },
     {
         "name": "Toronto FC",
@@ -4541,8 +4526,8 @@ const teams = [
         "trophies": "MLS Cup: 1",
         "mustKnowFact": "First Canadian club to win MLS Cup.",
         "active": true,
-        "logo": "logos/toronto_fc.png",
-        "uniform": "uniforms/toronto_fc.png"
+        "logo": "logos/toronto_fc.webp",
+        "uniform": "uniforms/toronto_fc.webp"
     },
     {
         "name": "Vancouver Whitecaps",
@@ -4556,8 +4541,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Whitecaps ride the Pacific waves.",
         "active": true,
-        "logo": "logos/vancouver_whitecaps.png",
-        "uniform": "uniforms/vancouver_whitecaps.png"
+        "logo": "logos/vancouver_whitecaps.webp",
+        "uniform": "uniforms/vancouver_whitecaps.webp"
     },
     {
         "name": "CSKA Moscow",
@@ -4571,8 +4556,8 @@ const teams = [
         "trophies": "Russian Premier League: 6, Soviet Top League: 7",
         "mustKnowFact": "Red-blue army of Moscow's elite.",
         "active": true,
-        "logo": "logos/cska_moscow.png",
-        "uniform": "uniforms/cska_moscow.png"
+        "logo": "logos/cska_moscow.webp",
+        "uniform": "uniforms/cska_moscow.webp"
     },
     {
         "name": "Spartak Moscow",
@@ -4586,8 +4571,8 @@ const teams = [
         "trophies": "Russian Premier League: 10, Soviet Top League: 12",
         "mustKnowFact": "People's team with a storied past.",
         "active": true,
-        "logo": "logos/spartak_moscow.png",
-        "uniform": "uniforms/spartak_moscow.png"
+        "logo": "logos/spartak_moscow.webp",
+        "uniform": "uniforms/spartak_moscow.webp"
     },
     {
         "name": "Zenit Saint Petersburg",
@@ -4601,8 +4586,8 @@ const teams = [
         "trophies": "Russian Premier League: 10, UEFA Cup: 1",
         "mustKnowFact": "Blue-white dominance from the Neva.",
         "active": true,
-        "logo": "logos/zenit.png",
-        "uniform": "uniforms/zenit.png"
+        "logo": "logos/zenit.webp",
+        "uniform": "uniforms/zenit.webp"
     },
     {
         "name": "Lokomotiv Moscow",
@@ -4616,8 +4601,8 @@ const teams = [
         "trophies": "Russian Premier League: 3",
         "mustKnowFact": "Railwaymen steam through the capital.",
         "active": true,
-        "logo": "logos/lokomotiv_moscow.png",
-        "uniform": "uniforms/lokomotiv_moscow.png"
+        "logo": "logos/lokomotiv_moscow.webp",
+        "uniform": "uniforms/lokomotiv_moscow.webp"
     },
     {
         "name": "Dynamo Moscow",
@@ -4631,8 +4616,8 @@ const teams = [
         "trophies": "Soviet Top League: 11",
         "mustKnowFact": "Historic blue-white powerhouse.",
         "active": true,
-        "logo": "logos/dynamo_moscow.png",
-        "uniform": "uniforms/dynamo_moscow.png"
+        "logo": "logos/dynamo_moscow.webp",
+        "uniform": "uniforms/dynamo_moscow.webp"
     },
     {
         "name": "Krasnodar",
@@ -4646,8 +4631,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Bulls charge from the south.",
         "active": true,
-        "logo": "logos/krasnodar.png",
-        "uniform": "uniforms/krasnodar.png"
+        "logo": "logos/krasnodar.webp",
+        "uniform": "uniforms/krasnodar.webp"
     },
     {
         "name": "Rostov",
@@ -4661,8 +4646,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue grit on the Don.",
         "active": true,
-        "logo": "logos/rostov.png",
-        "uniform": "uniforms/rostov.png"
+        "logo": "logos/rostov.webp",
+        "uniform": "uniforms/rostov.webp"
     },
     {
         "name": "Rubin Kazan",
@@ -4676,8 +4661,8 @@ const teams = [
         "trophies": "Russian Premier League: 2",
         "mustKnowFact": "Tatarstan's ruby warriors.",
         "active": true,
-        "logo": "logos/rubin-kazan.png",
-        "uniform": "uniforms/rubin-kazan.png"
+        "logo": "logos/rubin_kazan.webp",
+        "uniform": "uniforms/rubin_kazan.webp"
     },
     {
         "name": "Akhmat Grozny",
@@ -4691,8 +4676,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Wolves howl in Chechnya.",
         "active": true,
-        "logo": "logos/akhmat_grozny.png",
-        "uniform": "uniforms/akhmat-grozny.png"
+        "logo": "logos/akhmat_grozny.webp",
+        "uniform": "uniforms/akhmat_grozny.webp"
     },
     {
         "name": "Krylia Sovetov Samara",
@@ -4706,8 +4691,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Wings of the Soviets fly again.",
         "active": true,
-        "logo": "logos/krylia_sovetov.png",
-        "uniform": "uniforms/krylia_sovetov.png"
+        "logo": "logos/krylia_sovetov.webp",
+        "uniform": "uniforms/krylia_sovetov.webp"
     },
     {
         "name": "Sochi",
@@ -4721,8 +4706,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black Sea resort's soccer gem.",
         "active": true,
-        "logo": "logos/sochi.png",
-        "uniform": "uniforms/sochi.png"
+        "logo": "logos/sochi.webp",
+        "uniform": "uniforms/sochi.webp"
     },
     {
         "name": "Orenburg",
@@ -4736,8 +4721,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Gasmen light up the steppe.",
         "active": true,
-        "logo": "logos/orenburg.png",
-        "uniform": "uniforms/orenburg.png"
+        "logo": "logos/orenburg.webp",
+        "uniform": "uniforms/orenburg.webp"
     },
     {
         "name": "Fakel Voronezh",
@@ -4751,8 +4736,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Torchbearers of Voronezh.",
         "active": true,
-        "logo": "logos/fakel_voronezh.png",
-        "uniform": "uniforms/fakel-voronezh.png"
+        "logo": "logos/fakel_voronezh.webp",
+        "uniform": "uniforms/fakel_voronezh.webp"
     },
     {
         "name": "Pari Nizhny Novgorod",
@@ -4766,8 +4751,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Volga's red and black upstarts.",
         "active": true,
-        "logo": "logos/pari-nizhny-novgorod.png",
-        "uniform": "uniforms/pari-nizhny-novgorod.png"
+        "logo": "logos/pari_nizhny_novgorod.webp",
+        "uniform": "uniforms/pari_nizhny_novgorod.webp"
     },
     {
         "name": "Khimki",
@@ -4781,8 +4766,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Moscow suburb's red-black battlers.",
         "active": true,
-        "logo": "logos/khimki.png",
-        "uniform": "uniforms/khimki.png"
+        "logo": "logos/khimki.webp",
+        "uniform": "uniforms/khimki.webp"
     },
     {
         "name": "Dynamo Makhachkala",
@@ -4796,8 +4781,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Dagestan's new green force.",
         "active": true,
-        "logo": "logos/dynamo-makhachkala.png",
-        "uniform": "uniforms/dynamo-makhachkala.png"
+        "logo": "logos/dynamo_makhachkala.webp",
+        "uniform": "uniforms/dynamo_makhachkala.webp"
     },
     {
         "name": "Club Brugge",
@@ -4811,8 +4796,8 @@ const teams = [
         "trophies": "Belgian Pro League: 19",
         "mustKnowFact": "Blue-black kings of Flanders.",
         "active": true,
-        "logo": "logos/club_brugge.png",
-        "uniform": "uniforms/club_brugge.png"
+        "logo": "logos/club_brugge.webp",
+        "uniform": "uniforms/club_brugge.webp"
     },
     {
         "name": "Anderlecht",
@@ -4826,8 +4811,8 @@ const teams = [
         "trophies": "Belgian Pro League: 34, UEFA Cup: 1",
         "mustKnowFact": "Purple reign over Brussels.",
         "active": true,
-        "logo": "logos/anderlecht.png",
-        "uniform": "uniforms/anderlecht.png"
+        "logo": "logos/anderlecht.webp",
+        "uniform": "uniforms/anderlecht.webp"
     },
     {
         "name": "Union Saint-Gilloise",
@@ -4841,8 +4826,8 @@ const teams = [
         "trophies": "Belgian Pro League: 11",
         "mustKnowFact": "Historic yellow-blue resurgence.",
         "active": true,
-        "logo": "logos/union_saint-gilloise.png",
-        "uniform": "uniforms/union_saint-gilloise.png"
+        "logo": "logos/union_saint_gilloise.webp",
+        "uniform": "uniforms/union_saint_gilloise.webp"
     },
     {
         "name": "Genk",
@@ -4856,8 +4841,8 @@ const teams = [
         "trophies": "Belgian Pro League: 4",
         "mustKnowFact": "Blue-white miners strike gold.",
         "active": true,
-        "logo": "logos/genk.png",
-        "uniform": "uniforms/genk.png"
+        "logo": "logos/genk.webp",
+        "uniform": "uniforms/genk.webp"
     },
     {
         "name": "Antwerp",
@@ -4871,8 +4856,8 @@ const teams = [
         "trophies": "Belgian Pro League: 5",
         "mustKnowFact": "Great Old ones of the port city.",
         "active": true,
-        "logo": "logos/antwerp.png",
-        "uniform": "uniforms/antwerp.png"
+        "logo": "logos/antwerp.webp",
+        "uniform": "uniforms/antwerp.webp"
     },
     {
         "name": "Gent",
@@ -4886,8 +4871,8 @@ const teams = [
         "trophies": "Belgian Pro League: 1",
         "mustKnowFact": "Buffaloes stampede in blue.",
         "active": true,
-        "logo": "logos/gent.png",
-        "uniform": "uniforms/gent.png"
+        "logo": "logos/gent.webp",
+        "uniform": "uniforms/gent.webp"
     },
     {
         "name": "Standard Liège",
@@ -4901,8 +4886,8 @@ const teams = [
         "trophies": "Belgian Pro League: 10",
         "mustKnowFact": "Red devils of Wallonia.",
         "active": true,
-        "logo": "logos/standard_liege.png",
-        "uniform": "uniforms/standard_liege.png"
+        "logo": "logos/standard_liege.webp",
+        "uniform": "uniforms/standard_liege.webp"
     },
     {
         "name": "Cercle Brugge",
@@ -4916,8 +4901,8 @@ const teams = [
         "trophies": "Belgian Pro League: 3",
         "mustKnowFact": "Green-black rivals of Club Brugge.",
         "active": true,
-        "logo": "logos/cercle_brugge.png",
-        "uniform": "uniforms/cercle_brugge.png"
+        "logo": "logos/cercle_brugge.webp",
+        "uniform": "uniforms/cercle_brugge.webp"
     },
     {
         "name": "Charleroi",
@@ -4931,8 +4916,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Zebras gallop in black and white.",
         "active": true,
-        "logo": "logos/charleroi.png",
-        "uniform": "uniforms/charleroi.png"
+        "logo": "logos/charleroi.webp",
+        "uniform": "uniforms/charleroi.webp"
     },
     {
         "name": "Mechelen",
@@ -4946,8 +4931,8 @@ const teams = [
         "trophies": "Belgian Pro League: 4, Cup Winners' Cup: 1",
         "mustKnowFact": "Yellow-red European conquerors.",
         "active": true,
-        "logo": "logos/mechelen.png",
-        "uniform": "uniforms/mechelen.png"
+        "logo": "logos/mechelen.webp",
+        "uniform": "uniforms/mechelen.webp"
     },
     {
         "name": "OH Leuven",
@@ -4961,8 +4946,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-red scholars of Leuven.",
         "active": true,
-        "logo": "logos/ohl.png",
-        "uniform": "uniforms/ohl.png"
+        "logo": "logos/ohl.webp",
+        "uniform": "uniforms/ohl.webp"
     },
     {
         "name": "Westerlo",
@@ -4976,8 +4961,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue villagers punch above weight.",
         "active": true,
-        "logo": "logos/westerlo.png",
-        "uniform": "uniforms/westerlo.png"
+        "logo": "logos/westerlo.webp",
+        "uniform": "uniforms/westerlo.webp"
     },
     {
         "name": "Kortrijk",
@@ -4991,8 +4976,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white heart of West Flanders.",
         "active": true,
-        "logo": "logos/kortrijk.png",
-        "uniform": "uniforms/kortrijk.png"
+        "logo": "logos/kortrijk.webp",
+        "uniform": "uniforms/kortrijk.webp"
     },
     {
         "name": "Sint-Truiden",
@@ -5006,8 +4991,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Canaries sing in Limburg.",
         "active": true,
-        "logo": "logos/sint-truiden.png",
-        "uniform": "uniforms/sint-truiden.png"
+        "logo": "logos/sint_truiden.webp",
+        "uniform": "uniforms/sint_truiden.webp"
     },
     {
         "name": "Dender",
@@ -5021,8 +5006,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-black phoenix rises anew.",
         "active": true,
-        "logo": "logos/dender.png",
-        "uniform": "uniforms/dender.png"
+        "logo": "logos/dender.webp",
+        "uniform": "uniforms/dender.webp"
     },
     {
         "name": "Beerschot",
@@ -5036,8 +5021,8 @@ const teams = [
         "trophies": "Belgian Pro League: 7",
         "mustKnowFact": "Purple rats claw back to the top.",
         "active": true,
-        "logo": "logos/beerschot.png",
-        "uniform": "uniforms/beerschot.png"
+        "logo": "logos/beerschot.webp",
+        "uniform": "uniforms/beerschot.webp"
     },
     {
         "name": "Alianza Lima",
@@ -5051,8 +5036,8 @@ const teams = [
         "trophies": "Liga 1: 25",
         "mustKnowFact": "Blue-white giants of La Victoria.",
         "active": true,
-        "logo": "logos/alianza_lima.png",
-        "uniform": "uniforms/alianza_lima.png"
+        "logo": "logos/alianza_lima.webp",
+        "uniform": "uniforms/alianza_lima.webp"
     },
     {
         "name": "Universitario",
@@ -5066,8 +5051,8 @@ const teams = [
         "trophies": "Liga 1: 27",
         "mustKnowFact": "Cream and red rulers of Peruvian football.",
         "active": true,
-        "logo": "logos/universitario.png",
-        "uniform": "uniforms/universitario.png"
+        "logo": "logos/universitario.webp",
+        "uniform": "uniforms/universitario.webp"
     },
     {
         "name": "Sporting Cristal",
@@ -5081,8 +5066,8 @@ const teams = [
         "trophies": "Liga 1: 20",
         "mustKnowFact": "Sky blue brewers of success.",
         "active": true,
-        "logo": "logos/sporting_cristal.png",
-        "uniform": "uniforms/sporting_cristal.png"
+        "logo": "logos/sporting_cristal.webp",
+        "uniform": "uniforms/sporting_cristal.webp"
     },
     {
         "name": "Melgar",
@@ -5096,8 +5081,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "Red-black lions of the White City.",
         "active": true,
-        "logo": "logos/melgar.png",
-        "uniform": "uniforms/melgar.png"
+        "logo": "logos/melgar.webp",
+        "uniform": "uniforms/melgar.webp"
     },
     {
         "name": "Cienciano",
@@ -5111,8 +5096,8 @@ const teams = [
         "trophies": "Liga 1: 1, Copa Sudamericana: 1",
         "mustKnowFact": "Red devils conquered South America.",
         "active": true,
-        "logo": "logos/cienciano.png",
-        "uniform": "uniforms/cienciano.png"
+        "logo": "logos/cienciano.webp",
+        "uniform": "uniforms/cienciano.webp"
     },
     {
         "name": "Sport Huancayo",
@@ -5126,8 +5111,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red Matador charges the highlands.",
         "active": true,
-        "logo": "logos/sport_huancayo.png",
-        "uniform": "uniforms/sport-huancayo.png"
+        "logo": "logos/sport_huancayo.webp",
+        "uniform": "uniforms/sport_huancayo.webp"
     },
     {
         "name": "Cusco FC",
@@ -5141,8 +5126,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Golden warriors of the Andes.",
         "active": true,
-        "logo": "logos/cusco_fc.png",
-        "uniform": "uniforms/cusco-fc.png"
+        "logo": "logos/cusco_fc.webp",
+        "uniform": "uniforms/cusco_fc.webp"
     },
     {
         "name": "César Vallejo",
@@ -5156,8 +5141,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange poets of Trujillo.",
         "active": true,
-        "logo": "logos/cesar_vallejo.png",
-        "uniform": "uniforms/cesar_vallejo.png"
+        "logo": "logos/cesar_vallejo.webp",
+        "uniform": "uniforms/cesar_vallejo.webp"
     },
     {
         "name": "Deportivo Municipal",
@@ -5171,8 +5156,8 @@ const teams = [
         "trophies": "Liga 1: 4",
         "mustKnowFact": "Blue-striped pride of Villa El Salvador.",
         "active": true,
-        "logo": "logos/deportivo_municipal.png",
-        "uniform": "uniforms/deportivo-municipal.png"
+        "logo": "logos/deportivo_municipal.webp",
+        "uniform": "uniforms/deportivo_municipal.webp"
     },
     {
         "name": "Sport Boys",
@@ -5186,8 +5171,8 @@ const teams = [
         "trophies": "Liga 1: 6",
         "mustKnowFact": "Pink port warriors of Callao.",
         "active": true,
-        "logo": "logos/sport_boys.png",
-        "uniform": "uniforms/sport-boys.png"
+        "logo": "logos/sport_boys.webp",
+        "uniform": "uniforms/sport_boys.webp"
     },
     {
         "name": "Binacional",
@@ -5201,8 +5186,8 @@ const teams = [
         "trophies": "Liga 1: 1",
         "mustKnowFact": "Blue-white altiplano surprise.",
         "active": true,
-        "logo": "logos/binacional.png",
-        "uniform": "uniforms/binacional.png"
+        "logo": "logos/binacional.webp",
+        "uniform": "uniforms/binacional.webp"
     },
     {
         "name": "ADT",
@@ -5216,8 +5201,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue and white from the Andes' heart.",
         "active": true,
-        "logo": "logos/adt.png",
-        "uniform": "uniforms/adt.png"
+        "logo": "logos/adt.webp",
+        "uniform": "uniforms/adt.webp"
     },
     {
         "name": "Carlos A. Mannucci",
@@ -5231,8 +5216,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Tricolor tenacity in Trujillo.",
         "active": true,
-        "logo": "logos/carlos_a_mannucci.png",
-        "uniform": "uniforms/carlos-a-mannucci.png"
+        "logo": "logos/carlos_a_mannucci.webp",
+        "uniform": "uniforms/carlos_a_mannucci.webp"
     },
     {
         "name": "Deportivo Garcilaso",
@@ -5246,8 +5231,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky blue pride of Cusco.",
         "active": true,
-        "logo": "logos/deportivo_garcilaso.png",
-        "uniform": "uniforms/deportivo-garcilaso.png"
+        "logo": "logos/deportivo_garcilaso.webp",
+        "uniform": "uniforms/deportivo_garcilaso.webp"
     },
     {
         "name": "Atlético Grau",
@@ -5261,8 +5246,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White and red from Peru's north.",
         "active": true,
-        "logo": "logos/atletico_grau.png",
-        "uniform": "uniforms/atletico-grau.png"
+        "logo": "logos/atletico_grau.webp",
+        "uniform": "uniforms/atletico_grau.webp"
     },
     {
         "name": "UTC",
@@ -5276,8 +5261,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Cream hawks of Cajamarca.",
         "active": true,
-        "logo": "logos/utc.png",
-        "uniform": "uniforms/utc.png"
+        "logo": "logos/utc.webp",
+        "uniform": "uniforms/utc.webp"
     },
     {
         "name": "Ayacucho FC",
@@ -5291,8 +5276,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Foxes fight in the highlands.",
         "active": true,
-        "logo": "logos/ayacucho_fc.png",
-        "uniform": "uniforms/ayacucho_fc.png"
+        "logo": "logos/ayacucho_fc.webp",
+        "uniform": "uniforms/ayacucho_fc.webp"
     },
     {
         "name": "Comerciantes Unidos",
@@ -5306,8 +5291,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue eagles soar from Cutervo.",
         "active": true,
-        "logo": "logos/comerciantes.png",
-        "uniform": "uniforms/comerciantes.png"
+        "logo": "logos/comerciantes.webp",
+        "uniform": "uniforms/comerciantes.webp"
     },
     {
         "name": "Peñarol",
@@ -5321,8 +5306,8 @@ const teams = [
         "trophies": "Primera División: 51, Copa Libertadores: 5",
         "mustKnowFact": "Yellow-black giants, kings of Uruguay.",
         "active": true,
-        "logo": "logos/penarol.png",
-        "uniform": "uniforms/penarol.png"
+        "logo": "logos/penarol.webp",
+        "uniform": "uniforms/penarol.webp"
     },
     {
         "name": "Nacional",
@@ -5336,8 +5321,8 @@ const teams = [
         "trophies": "Primera División: 49, Copa Libertadores: 3",
         "mustKnowFact": "Tricolor titans, Peñarol's eternal rivals.",
         "active": true,
-        "logo": "logos/nacional_m.png",
-        "uniform": "uniforms/nacional_m.png"
+        "logo": "logos/nacional_m.webp",
+        "uniform": "uniforms/nacional_m.webp"
     },
     {
         "name": "Defensor Sporting",
@@ -5351,8 +5336,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Violet defenders of Montevideo.",
         "active": true,
-        "logo": "logos/defensor_sporting.png",
-        "uniform": "uniforms/defensor_sporting.png"
+        "logo": "logos/defensor_sporting.webp",
+        "uniform": "uniforms/defensor_sporting.webp"
     },
     {
         "name": "Danubio",
@@ -5366,8 +5351,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Black-white stripes of the fringe.",
         "active": true,
-        "logo": "logos/danubio.png",
-        "uniform": "uniforms/danubio.png"
+        "logo": "logos/danubio.webp",
+        "uniform": "uniforms/danubio.webp"
     },
     {
         "name": "Liverpool Montevideo",
@@ -5381,8 +5366,8 @@ const teams = [
         "trophies": "Primera División: 1",
         "mustKnowFact": "Black-blue echoes of Merseyside.",
         "active": true,
-        "logo": "logos/liverpool_montevideo.png",
-        "uniform": "uniforms/liverpool-montevideo.png"
+        "logo": "logos/liverpool_montevideo.webp",
+        "uniform": "uniforms/liverpool_montevideo.webp"
     },
     {
         "name": "Wanderers",
@@ -5396,8 +5381,8 @@ const teams = [
         "trophies": "Primera División: 3",
         "mustKnowFact": "Bohemians wander in black and white.",
         "active": true,
-        "logo": "logos/wanderers.png",
-        "uniform": "uniforms/wanderers.png"
+        "logo": "logos/wanderers.webp",
+        "uniform": "uniforms/wanderers.webp"
     },
     {
         "name": "River Plate Montevideo",
@@ -5411,8 +5396,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white darseneros of the Prado.",
         "active": true,
-        "logo": "logos/river_plate_montevideo.png",
-        "uniform": "uniforms/river_plate_montevideo.png"
+        "logo": "logos/river_plate_montevideo.webp",
+        "uniform": "uniforms/river_plate_montevideo.webp"
     },
     {
         "name": "Fénix",
@@ -5426,8 +5411,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Violet-white phoenix rises.",
         "active": true,
-        "logo": "logos/fenix.png",
-        "uniform": "uniforms/fenix.png"
+        "logo": "logos/fenix.webp",
+        "uniform": "uniforms/fenix.webp"
     },
     {
         "name": "Cerro",
@@ -5441,8 +5426,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white hill dwellers.",
         "active": true,
-        "logo": "logos/cerro.png",
-        "uniform": "uniforms/cerro.png"
+        "logo": "logos/cerro.webp",
+        "uniform": "uniforms/cerro.webp"
     },
     {
         "name": "Cerro Largo",
@@ -5456,8 +5441,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white spiders from the east.",
         "active": true,
-        "logo": "logos/cerro_largo.png",
-        "uniform": "uniforms/cerro-largo.png"
+        "logo": "logos/cerro_largo.webp",
+        "uniform": "uniforms/cerro_largo.webp"
     },
     {
         "name": "Plaza Colonia",
@@ -5471,8 +5456,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white patablancas of Colonia.",
         "active": true,
-        "logo": "logos/plaza_colonia.png",
-        "uniform": "uniforms/plaza-colonia.png"
+        "logo": "logos/plaza_colonia.webp",
+        "uniform": "uniforms/plaza_colonia.webp"
     },
     {
         "name": "Deportivo Maldonado",
@@ -5486,8 +5471,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-red upstarts from the coast.",
         "active": true,
-        "logo": "logos/deportivo_maldonado.png",
-        "uniform": "uniforms/deportivo-maldonado.png"
+        "logo": "logos/deportivo_maldonado.webp",
+        "uniform": "uniforms/deportivo_maldonado.webp"
     },
     {
         "name": "Boston River",
@@ -5501,8 +5486,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green river rats.",
         "active": true,
-        "logo": "logos/boston_river.png",
-        "uniform": "uniforms/boston-river.png"
+        "logo": "logos/boston_river.webp",
+        "uniform": "uniforms/boston_river.webp"
     },
     {
         "name": "Montevideo City Torque",
@@ -5516,8 +5501,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky blue City Football Group outpost.",
         "active": true,
-        "logo": "logos/montevideo_city_torque.png",
-        "uniform": "uniforms/montevideo-city-torque.png"
+        "logo": "logos/montevideo_city_torque.webp",
+        "uniform": "uniforms/montevideo_city_torque.webp"
     },
     {
         "name": "Progreso",
@@ -5531,8 +5516,8 @@ const teams = [
         "trophies": "Primera División: 3",
         "mustKnowFact": "Red-yellow progress in La Teja.",
         "active": true,
-        "logo": "logos/progreso.png",
-        "uniform": "uniforms/progreso.png"
+        "logo": "logos/progreso.webp",
+        "uniform": "uniforms/progreso.webp"
     },
     {
         "name": "Racing Montevideo",
@@ -5546,8 +5531,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-green racers of the capital.",
         "active": true,
-        "logo": "logos/racing_montevideo.png",
-        "uniform": "uniforms/racing_montevideo.png"
+        "logo": "logos/racing_montevideo.webp",
+        "uniform": "uniforms/racing_montevideo.webp"
     },
     {
         "name": "Colo-Colo",
@@ -5561,8 +5546,8 @@ const teams = [
         "trophies": "Primera División: 33, Copa Libertadores: 1",
         "mustKnowFact": "White-black giants, Chile's most successful club.",
         "active": true,
-        "logo": "logos/colo-colo.png",
-        "uniform": "uniforms/colo-colo.png"
+        "logo": "logos/colo-colo.webp",
+        "uniform": "uniforms/colo-colo.webp"
     },
     {
         "name": "Universidad de Chile",
@@ -5576,8 +5561,8 @@ const teams = [
         "trophies": "Primera División: 18",
         "mustKnowFact": "Blue lions, eternal rivals of Colo-Colo.",
         "active": true,
-        "logo": "logos/universidad-de-chile.png",
-        "uniform": "uniforms/universidad-de-chile.png"
+        "logo": "logos/universidad-de-chile.webp",
+        "uniform": "uniforms/universidad-de-chile.webp"
     },
     {
         "name": "Universidad Católica",
@@ -5591,8 +5576,8 @@ const teams = [
         "trophies": "Primera División: 16",
         "mustKnowFact": "White-blue crusaders of Santiago.",
         "active": true,
-        "logo": "logos/universidad-catolica.png",
-        "uniform": "uniforms/universidad-catolica.png"
+        "logo": "logos/universidad-catolica.webp",
+        "uniform": "uniforms/universidad-catolica.webp"
     },
     {
         "name": "Unión Española",
@@ -5606,8 +5591,8 @@ const teams = [
         "trophies": "Primera División: 7",
         "mustKnowFact": "Red-yellow Spanish heritage in Chile.",
         "active": true,
-        "logo": "logos/union-espanola.png",
-        "uniform": "uniforms/union-espanola.png"
+        "logo": "logos/union-espanola.webp",
+        "uniform": "uniforms/union-espanola.webp"
     },
     {
         "name": "Audax Italiano",
@@ -5621,8 +5606,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Green Italians of La Florida.",
         "active": true,
-        "logo": "logos/audax_italiano.png",
-        "uniform": "uniforms/audax_italiano.png"
+        "logo": "logos/audax_italiano.webp",
+        "uniform": "uniforms/audax_italiano.webp"
     },
     {
         "name": "Everton de Viña del Mar",
@@ -5636,8 +5621,8 @@ const teams = [
         "trophies": "Primera División: 4",
         "mustKnowFact": "Blue-gold coastal classic.",
         "active": true,
-        "logo": "logos/everton-de-vina.png",
-        "uniform": "uniforms/everton-de-vina.png"
+        "logo": "logos/everton-de-vina.webp",
+        "uniform": "uniforms/everton-de-vina.webp"
     },
     {
         "name": "Cobreloa",
@@ -5651,8 +5636,8 @@ const teams = [
         "trophies": "Primera División: 8",
         "mustKnowFact": "Orange foxes of the desert.",
         "active": true,
-        "logo": "logos/cobreloa.png",
-        "uniform": "uniforms/cobreloa.png"
+        "logo": "logos/cobreloa.webp",
+        "uniform": "uniforms/cobreloa.webp"
     },
     {
         "name": "Huachipato",
@@ -5666,8 +5651,8 @@ const teams = [
         "trophies": "Primera División: 3",
         "mustKnowFact": "Black-green steelworkers' pride.",
         "active": true,
-        "logo": "logos/huachipato.png",
-        "uniform": "uniforms/huachipato.png"
+        "logo": "logos/huachipato.webp",
+        "uniform": "uniforms/huachipato.webp"
     },
     {
         "name": "Palestino",
@@ -5681,8 +5666,8 @@ const teams = [
         "trophies": "Primera División: 2",
         "mustKnowFact": "Tricolor tribute to Palestine.",
         "active": true,
-        "logo": "logos/palestino.png",
-        "uniform": "uniforms/palestino.png"
+        "logo": "logos/palestino.webp",
+        "uniform": "uniforms/palestino.webp"
     },
     {
         "name": "O'Higgins",
@@ -5696,8 +5681,8 @@ const teams = [
         "trophies": "Primera División: 1",
         "mustKnowFact": "Sky blue honor to Bernardo O'Higgins.",
         "active": true,
-        "logo": "logos/ohiggins.png",
-        "uniform": "uniforms/ohiggins.png"
+        "logo": "logos/ohiggins.webp",
+        "uniform": "uniforms/ohiggins.webp"
     },
     {
         "name": "Coquimbo Unido",
@@ -5711,8 +5696,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black pirates of the port.",
         "active": true,
-        "logo": "logos/coquimbo-unido.png",
-        "uniform": "uniforms/coquimbo-unido.png"
+        "logo": "logos/coquimbo-unido.webp",
+        "uniform": "uniforms/coquimbo-unido.webp"
     },
     {
         "name": "Ñublense",
@@ -5726,8 +5711,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red devils of Chillán.",
         "active": true,
-        "logo": "logos/nublense.png",
-        "uniform": "uniforms/nublense.png"
+        "logo": "logos/nublense.webp",
+        "uniform": "uniforms/nublense.webp"
     },
     {
         "name": "Unión La Calera",
@@ -5741,8 +5726,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red cement makers of the north.",
         "active": true,
-        "logo": "logos/union-la-calera.png",
-        "uniform": "uniforms/union-la-calera.png"
+        "logo": "logos/union-la-calera.webp",
+        "uniform": "uniforms/union-la-calera.webp"
     },
     {
         "name": "Deportes Iquique",
@@ -5756,8 +5741,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky blue dragons of the north.",
         "active": true,
-        "logo": "logos/deportes-iquique.png",
-        "uniform": "uniforms/deportes-iquique.png"
+        "logo": "logos/deportes-iquique.webp",
+        "uniform": "uniforms/deportes-iquique.webp"
     },
     {
         "name": "Cobresal",
@@ -5771,8 +5756,8 @@ const teams = [
         "trophies": "Primera División: 1",
         "mustKnowFact": "Orange miners strike gold in the desert.",
         "active": true,
-        "logo": "logos/cobresal.png",
-        "uniform": "uniforms/cobresal.png"
+        "logo": "logos/cobresal.webp",
+        "uniform": "uniforms/cobresal.webp"
     },
     {
         "name": "Deportes Antofagasta",
@@ -5786,8 +5771,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Pumas prowl the northern coast.",
         "active": true,
-        "logo": "logos/deportes-antofagasta.png",
-        "uniform": "uniforms/deportes-antofagasta.png"
+        "logo": "logos/deportes-antofagasta.webp",
+        "uniform": "uniforms/deportes-antofagasta.webp"
     },
     {
         "name": "Malmö FF",
@@ -5801,8 +5786,8 @@ const teams = [
         "trophies": "Allsvenskan: 23, Svenska Cupen: 14",
         "mustKnowFact": "Sweden's most successful club, with a sky-blue legacy.",
         "active": true,
-        "logo": "logos/malmo_ff.png",
-        "uniform": "uniforms/malmo_ff.png"
+        "logo": "logos/malmo_ff.webp",
+        "uniform": "uniforms/malmo_ff.webp"
     },
     {
         "name": "Djurgårdens IF",
@@ -5816,8 +5801,8 @@ const teams = [
         "trophies": "Allsvenskan: 12, Svenska Cupen: 5",
         "mustKnowFact": "Blue-yellow Stockholm giants.",
         "active": true,
-        "logo": "logos/djurgardens_if.png",
-        "uniform": "uniforms/djurgardens_if.png"
+        "logo": "logos/djurgardens_if.webp",
+        "uniform": "uniforms/djurgardens_if.webp"
     },
     {
         "name": "AIK",
@@ -5831,8 +5816,8 @@ const teams = [
         "trophies": "Allsvenskan: 12, Svenska Cupen: 8",
         "mustKnowFact": "Black-yellow Stockholm rivals.",
         "active": true,
-        "logo": "logos/aik.png",
-        "uniform": "uniforms/aik.png"
+        "logo": "logos/aik.webp",
+        "uniform": "uniforms/aik.webp"
     },
     {
         "name": "Hammarby IF",
@@ -5846,8 +5831,8 @@ const teams = [
         "trophies": "Allsvenskan: 1, Svenska Cupen: 1",
         "mustKnowFact": "Green-white passion of Södermalm.",
         "active": true,
-        "logo": "logos/hammarby_if.png",
-        "uniform": "uniforms/hammarby_if.png"
+        "logo": "logos/hammarby_if.webp",
+        "uniform": "uniforms/hammarby_if.webp"
     },
     {
         "name": "IFK Göteborg",
@@ -5861,8 +5846,8 @@ const teams = [
         "trophies": "Allsvenskan: 18, Svenska Cupen: 8",
         "mustKnowFact": "Blue-white legends of the west coast.",
         "active": true,
-        "logo": "logos/ifk_goteborg.png",
-        "uniform": "uniforms/ifk_goteborg.png"
+        "logo": "logos/ifk_goteborg.webp",
+        "uniform": "uniforms/ifk_goteborg.webp"
     },
     {
         "name": "Häcken",
@@ -5876,8 +5861,8 @@ const teams = [
         "trophies": "Allsvenskan: 1, Svenska Cupen: 3",
         "mustKnowFact": "Yellow-black wasps buzzing in Gothenburg.",
         "active": true,
-        "logo": "logos/hacken.png",
-        "uniform": "uniforms/hacken.png"
+        "logo": "logos/hacken.webp",
+        "uniform": "uniforms/hacken.webp"
     },
     {
         "name": "Elfsborg",
@@ -5891,8 +5876,8 @@ const teams = [
         "trophies": "Allsvenskan: 6, Svenska Cupen: 3",
         "mustKnowFact": "Yellow pride of Borås.",
         "active": true,
-        "logo": "logos/elfsborg.png",
-        "uniform": "uniforms/elfsborg.png"
+        "logo": "logos/elfsborg.webp",
+        "uniform": "uniforms/elfsborg.webp"
     },
     {
         "name": "Norrköping",
@@ -5906,8 +5891,8 @@ const teams = [
         "trophies": "Allsvenskan: 13, Svenska Cupen: 6",
         "mustKnowFact": "White-blue warriors of the east.",
         "active": true,
-        "logo": "logos/norrkoping.png",
-        "uniform": "uniforms/norrkoping.png"
+        "logo": "logos/norrkoping.webp",
+        "uniform": "uniforms/norrkoping.webp"
     },
     {
         "name": "Kalmar FF",
@@ -5921,8 +5906,8 @@ const teams = [
         "trophies": "Allsvenskan: 1, Svenska Cupen: 3",
         "mustKnowFact": "Red-white coastal contenders.",
         "active": true,
-        "logo": "logos/kalmar_ff.png",
-        "uniform": "uniforms/kalmar_ff.png"
+        "logo": "logos/kalmar_ff.webp",
+        "uniform": "uniforms/kalmar_ff.webp"
     },
     {
         "name": "Sirius",
@@ -5936,8 +5921,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-black stars of Uppsala.",
         "active": true,
-        "logo": "logos/sirius.png",
-        "uniform": "uniforms/sirius.png"
+        "logo": "logos/sirius.webp",
+        "uniform": "uniforms/sirius.webp"
     },
     {
         "name": "Mjällby AIF",
@@ -5951,8 +5936,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black from the southern shores.",
         "active": true,
-        "logo": "logos/mjallby_aif.png",
-        "uniform": "uniforms/mjallby_aif.png"
+        "logo": "logos/mjallby_aif.webp",
+        "uniform": "uniforms/mjallby_aif.webp"
     },
     {
         "name": "Halmstads BK",
@@ -5966,8 +5951,8 @@ const teams = [
         "trophies": "Allsvenskan: 4",
         "mustKnowFact": "Blue battlers of Halmstad.",
         "active": true,
-        "logo": "logos/halmstads_bk.png",
-        "uniform": "uniforms/halmstads_bk.png"
+        "logo": "logos/halmstads_bk.webp",
+        "uniform": "uniforms/halmstads_bk.webp"
     },
     {
         "name": "Örebro SK",
@@ -5981,8 +5966,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white from the heart of Sweden.",
         "active": true,
-        "logo": "logos/orebro_sk.png",
-        "uniform": "uniforms/orebro_sk.png"
+        "logo": "logos/orebro_sk.webp",
+        "uniform": "uniforms/orebro_sk.webp"
     },
     {
         "name": "IFK Värnamo",
@@ -5996,8 +5981,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white upstarts from Småland.",
         "active": true,
-        "logo": "logos/ifk_varnamo.png",
-        "uniform": "uniforms/ifk_varnamo.png"
+        "logo": "logos/ifk_varnamo.webp",
+        "uniform": "uniforms/ifk_varnamo.webp"
     },
     {
         "name": "GAIS",
@@ -6011,8 +5996,8 @@ const teams = [
         "trophies": "Allsvenskan: 4",
         "mustKnowFact": "Green-black Gothenburg classics.",
         "active": true,
-        "logo": "logos/gais.png",
-        "uniform": "uniforms/gais.png"
+        "logo": "logos/gais.webp",
+        "uniform": "uniforms/gais.webp"
     },
     {
         "name": "Västerås SK",
@@ -6026,8 +6011,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white from the industrial heart.",
         "active": true,
-        "logo": "logos/vasteras_sk.png",
-        "uniform": "uniforms/vasteras_sk.png"
+        "logo": "logos/vasteras_sk.webp",
+        "uniform": "uniforms/vasteras_sk.webp"
     },
     {
         "name": "Bodø/Glimt",
@@ -6041,8 +6026,8 @@ const teams = [
         "trophies": "Eliteserien: 3",
         "mustKnowFact": "Yellow northern lights dominating Norway.",
         "active": true,
-        "logo": "logos/bodo_glimt.png",
-        "uniform": "uniforms/bodo_glimt.png"
+        "logo": "logos/bodo_glimt.webp",
+        "uniform": "uniforms/bodo_glimt.webp"
     },
     {
         "name": "Molde FK",
@@ -6056,8 +6041,8 @@ const teams = [
         "trophies": "Eliteserien: 5, Norwegian Cup: 6",
         "mustKnowFact": "Blue-white kings of the fjords.",
         "active": true,
-        "logo": "logos/molde_fk.png",
-        "uniform": "uniforms/molde_fk.png"
+        "logo": "logos/molde_fk.webp",
+        "uniform": "uniforms/molde_fk.webp"
     },
     {
         "name": "Rosenborg BK",
@@ -6071,8 +6056,8 @@ const teams = [
         "trophies": "Eliteserien: 26, Norwegian Cup: 12",
         "mustKnowFact": "White-black dynasty of Norwegian football.",
         "active": true,
-        "logo": "logos/rosenborg_bk.png",
-        "uniform": "uniforms/rosenborg_bk.png"
+        "logo": "logos/rosenborg_bk.webp",
+        "uniform": "uniforms/rosenborg_bk.webp"
     },
     {
         "name": "Viking FK",
@@ -6086,8 +6071,8 @@ const teams = [
         "trophies": "Eliteserien: 8, Norwegian Cup: 6",
         "mustKnowFact": "Dark blue warriors of the southwest.",
         "active": true,
-        "logo": "logos/viking_fk.png",
-        "uniform": "uniforms/viking_fk.png"
+        "logo": "logos/viking_fk.webp",
+        "uniform": "uniforms/viking_fk.webp"
     },
     {
         "name": "Brann",
@@ -6101,8 +6086,8 @@ const teams = [
         "trophies": "Eliteserien: 3, Norwegian Cup: 7",
         "mustKnowFact": "Red pride of Bergen.",
         "active": true,
-        "logo": "logos/brann.png",
-        "uniform": "uniforms/brann.png"
+        "logo": "logos/brann.webp",
+        "uniform": "uniforms/brann.webp"
     },
     {
         "name": "Lillestrøm SK",
@@ -6116,8 +6101,8 @@ const teams = [
         "trophies": "Eliteserien: 5, Norwegian Cup: 6",
         "mustKnowFact": "Yellow-black canaries near Oslo.",
         "active": true,
-        "logo": "logos/lillestrøm_sk.png",
-        "uniform": "uniforms/lillestrøm_sk.png"
+        "logo": "logos/lillestrøm_sk.webp",
+        "uniform": "uniforms/lillestrøm_sk.webp"
     },
     {
         "name": "Vålerenga",
@@ -6131,8 +6116,8 @@ const teams = [
         "trophies": "Eliteserien: 5, Norwegian Cup: 4",
         "mustKnowFact": "Blue-red Oslo stalwarts.",
         "active": true,
-        "logo": "logos/valerenga.png",
-        "uniform": "uniforms/valerenga.png"
+        "logo": "logos/valerenga.webp",
+        "uniform": "uniforms/valerenga.webp"
     },
     {
         "name": "Tromsø IL",
@@ -6146,8 +6131,8 @@ const teams = [
         "trophies": "Norwegian Cup: 2",
         "mustKnowFact": "Red-white arctic fighters.",
         "active": true,
-        "logo": "logos/tromso_il.png",
-        "uniform": "uniforms/tromso_il.png"
+        "logo": "logos/tromso.webp",
+        "uniform": "uniforms/tromso.webp"
     },
     {
         "name": "Strømsgodset",
@@ -6161,8 +6146,8 @@ const teams = [
         "trophies": "Eliteserien: 2, Norwegian Cup: 5",
         "mustKnowFact": "Blue gods of Drammen.",
         "active": true,
-        "logo": "logos/strømsgodset.png",
-        "uniform": "uniforms/strømsgodset.png"
+        "logo": "logos/strømsgodset.webp",
+        "uniform": "uniforms/strømsgodset.webp"
     },
     {
         "name": "Odd",
@@ -6176,8 +6161,8 @@ const teams = [
         "trophies": "Norwegian Cup: 12",
         "mustKnowFact": "White-black from Telemark.",
         "active": true,
-        "logo": "logos/odd.png",
-        "uniform": "uniforms/odd.png"
+        "logo": "logos/odd.webp",
+        "uniform": "uniforms/odd.webp"
     },
     {
         "name": "Sarpsborg 08",
@@ -6191,8 +6176,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white modern risers.",
         "active": true,
-        "logo": "logos/sarpsborg_08.png",
-        "uniform": "uniforms/sarpsborg_08.png"
+        "logo": "logos/sarpsborg_08.webp",
+        "uniform": "uniforms/sarpsborg_08.webp"
     },
     {
         "name": "Fredrikstad FK",
@@ -6206,8 +6191,8 @@ const teams = [
         "trophies": "Eliteserien: 9, Norwegian Cup: 11",
         "mustKnowFact": "Red-white historic champs.",
         "active": true,
-        "logo": "logos/fredrikstad_fk.png",
-        "uniform": "uniforms/fredrikstad_fk.png"
+        "logo": "logos/fredrikstad.webp",
+        "uniform": "uniforms/fredrikstad.webp"
     },
     {
         "name": "KFUM Oslo",
@@ -6221,8 +6206,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white Christian club climbing up.",
         "active": true,
-        "logo": "logos/kfum_oslo.png",
-        "uniform": "uniforms/kfum_oslo.png"
+        "logo": "logos/kfum_oslo.webp",
+        "uniform": "uniforms/kfum_oslo.webp"
     },
     {
         "name": "HamKam",
@@ -6236,8 +6221,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white from the inland.",
         "active": true,
-        "logo": "logos/hamkam.png",
-        "uniform": "uniforms/hamkam.png"
+        "logo": "logos/hamkam.webp",
+        "uniform": "uniforms/hamkam.webp"
     },
     {
         "name": "Sandefjord",
@@ -6251,8 +6236,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue coastal battlers.",
         "active": true,
-        "logo": "logos/sandefjord.png",
-        "uniform": "uniforms/sandefjord.png"
+        "logo": "logos/sandefjord.webp",
+        "uniform": "uniforms/sandefjord.webp"
     },
     {
         "name": "Kristiansund BK",
@@ -6266,8 +6251,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white from the northwest.",
         "active": true,
-        "logo": "logos/kristiansund_bk.png",
-        "uniform": "uniforms/kristiansund_bk.png"
+        "logo": "logos/kristiansund_bk.webp",
+        "uniform": "uniforms/kristiansund_bk.webp"
     },
     {
         "name": "FC Copenhagen",
@@ -6281,8 +6266,8 @@ const teams = [
         "trophies": "Superliga: 15, Danish Cup: 9",
         "mustKnowFact": "White-blue capital dominators.",
         "active": true,
-        "logo": "logos/fc_copenhagen.png",
-        "uniform": "uniforms/fc_copenhagen.png"
+        "logo": "logos/fc_copenhagen.webp",
+        "uniform": "uniforms/fc_copenhagen.webp"
     },
     {
         "name": "Brøndby IF",
@@ -6296,8 +6281,8 @@ const teams = [
         "trophies": "Superliga: 11, Danish Cup: 7",
         "mustKnowFact": "Yellow-blue suburban giants.",
         "active": true,
-        "logo": "logos/brondby_if.png",
-        "uniform": "uniforms/brondby_if.png"
+        "logo": "logos/brondby_if.webp",
+        "uniform": "uniforms/brondby_if.webp"
     },
     {
         "name": "FC Midtjylland",
@@ -6311,8 +6296,8 @@ const teams = [
         "trophies": "Superliga: 4, Danish Cup: 2",
         "mustKnowFact": "Red-black wolves of Jutland.",
         "active": true,
-        "logo": "logos/fc_midtjylland.png",
-        "uniform": "uniforms/fc_midtjylland.png"
+        "logo": "logos/fc_midtjylland.webp",
+        "uniform": "uniforms/fc_midtjylland.webp"
     },
     {
         "name": "AGF",
@@ -6326,8 +6311,8 @@ const teams = [
         "trophies": "Superliga: 5, Danish Cup: 9",
         "mustKnowFact": "White-blue from Denmark's second city.",
         "active": true,
-        "logo": "logos/agf.png",
-        "uniform": "uniforms/agf.png"
+        "logo": "logos/agf.webp",
+        "uniform": "uniforms/agf.webp"
     },
     {
         "name": "FC Nordsjælland",
@@ -6341,8 +6326,8 @@ const teams = [
         "trophies": "Superliga: 1, Danish Cup: 2",
         "mustKnowFact": "Red-yellow talent factory.",
         "active": true,
-        "logo": "logos/fc_nordsjalland.png",
-        "uniform": "uniforms/fc_nordsjalland.png"
+        "logo": "logos/fc_nordsjalland.webp",
+        "uniform": "uniforms/fc_nordsjalland.webp"
     },
     {
         "name": "Silkeborg IF",
@@ -6356,8 +6341,8 @@ const teams = [
         "trophies": "Superliga: 1, Danish Cup: 1",
         "mustKnowFact": "Red-white from the lake district.",
         "active": true,
-        "logo": "logos/silkeborg_if.png",
-        "uniform": "uniforms/silkeborg_if.png"
+        "logo": "logos/silkeborg_if.webp",
+        "uniform": "uniforms/silkeborg_if.webp"
     },
     {
         "name": "Randers FC",
@@ -6371,8 +6356,8 @@ const teams = [
         "trophies": "Danish Cup: 1",
         "mustKnowFact": "Blue horses of Jutland.",
         "active": true,
-        "logo": "logos/randers_fc.png",
-        "uniform": "uniforms/randers_fc.png"
+        "logo": "logos/randers_fc.webp",
+        "uniform": "uniforms/randers_fc.webp"
     },
     {
         "name": "Viborg FF",
@@ -6386,8 +6371,8 @@ const teams = [
         "trophies": "Danish Cup: 1",
         "mustKnowFact": "Green-white from central Denmark.",
         "active": true,
-        "logo": "logos/viborg_ff.png",
-        "uniform": "uniforms/viborg_ff.png"
+        "logo": "logos/viborg_ff.webp",
+        "uniform": "uniforms/viborg_ff.webp"
     },
     {
         "name": "OB",
@@ -6401,8 +6386,8 @@ const teams = [
         "trophies": "Superliga: 3, Danish Cup: 5",
         "mustKnowFact": "Blue-white Funen classics.",
         "active": true,
-        "logo": "logos/odense_bk.png",
-        "uniform": "uniforms/odense_bk.png"
+        "logo": "logos/odense_bk.webp",
+        "uniform": "uniforms/odense_bk.webp"
     },
     {
         "name": "AaB",
@@ -6416,8 +6401,8 @@ const teams = [
         "trophies": "Superliga: 4, Danish Cup: 3",
         "mustKnowFact": "Red-white northern power.",
         "active": true,
-        "logo": "logos/aab.png",
-        "uniform": "uniforms/aab.png"
+        "logo": "logos/aab.webp",
+        "uniform": "uniforms/aab.webp"
     },
     {
         "name": "Lyngby BK",
@@ -6431,8 +6416,8 @@ const teams = [
         "trophies": "Superliga: 2, Danish Cup: 3",
         "mustKnowFact": "Blue-white suburban survivors.",
         "active": true,
-        "logo": "logos/lyngby_bk.png",
-        "uniform": "uniforms/lyngby_bk.png"
+        "logo": "logos/lyngby_bk.webp",
+        "uniform": "uniforms/lyngby_bk.webp"
     },
     {
         "name": "Sønderjyske",
@@ -6446,8 +6431,8 @@ const teams = [
         "trophies": "Danish Cup: 1",
         "mustKnowFact": "Blue from southern Denmark.",
         "active": true,
-        "logo": "logos/sønderjyske.png",
-        "uniform": "uniforms/sonderjyske.png"
+        "logo": "logos/sønderjyske.webp",
+        "uniform": "uniforms/sonderjyske.webp"
     },
     {
         "name": "Young Boys",
@@ -6461,8 +6446,8 @@ const teams = [
         "trophies": "Swiss Super League: 16, Swiss Cup: 7",
         "mustKnowFact": "Yellow-black Bernese rulers.",
         "active": true,
-        "logo": "logos/young_boys.png",
-        "uniform": "uniforms/young_boys.png"
+        "logo": "logos/young_boys.webp",
+        "uniform": "uniforms/young_boys.webp"
     },
     {
         "name": "FC Basel",
@@ -6476,8 +6461,8 @@ const teams = [
         "trophies": "Swiss Super League: 20, Swiss Cup: 13",
         "mustKnowFact": "Red-blue giants of the Rhine.",
         "active": true,
-        "logo": "logos/fc_basel.png",
-        "uniform": "uniforms/fc_basel.png"
+        "logo": "logos/fc_basel.webp",
+        "uniform": "uniforms/fc_basel.webp"
     },
     {
         "name": "FC Zürich",
@@ -6491,8 +6476,8 @@ const teams = [
         "trophies": "Swiss Super League: 13, Swiss Cup: 10",
         "mustKnowFact": "White-blue Zürich classics.",
         "active": true,
-        "logo": "logos/zurich.png",
-        "uniform": "uniforms/zurich.png"
+        "logo": "logos/zurich.webp",
+        "uniform": "uniforms/zurich.webp"
     },
     {
         "name": "FC Lugano",
@@ -6506,8 +6491,8 @@ const teams = [
         "trophies": "Swiss Super League: 3, Swiss Cup: 4",
         "mustKnowFact": "Black-white from Italian-speaking Ticino.",
         "active": true,
-        "logo": "logos/fc_lugano.png",
-        "uniform": "uniforms/fc_lugano.png"
+        "logo": "logos/fc_lugano.webp",
+        "uniform": "uniforms/fc_lugano.webp"
     },
     {
         "name": "Servette FC",
@@ -6521,8 +6506,8 @@ const teams = [
         "trophies": "Swiss Super League: 17, Swiss Cup: 7",
         "mustKnowFact": "Garnet pride of Geneva.",
         "active": true,
-        "logo": "logos/servette_fc.png",
-        "uniform": "uniforms/servette_fc.png"
+        "logo": "logos/servette_fc.webp",
+        "uniform": "uniforms/servette_fc.webp"
     },
     {
         "name": "St. Gallen",
@@ -6536,8 +6521,8 @@ const teams = [
         "trophies": "Swiss Super League: 1, Swiss Cup: 1",
         "mustKnowFact": "Green-white from the east.",
         "active": true,
-        "logo": "logos/st_gallen.png",
-        "uniform": "uniforms/st_gallen.png"
+        "logo": "logos/st_gallen.webp",
+        "uniform": "uniforms/st_gallen.webp"
     },
     {
         "name": "FC Luzern",
@@ -6551,8 +6536,8 @@ const teams = [
         "trophies": "Swiss Super League: 1, Swiss Cup: 2",
         "mustKnowFact": "Blue-white by Lake Lucerne.",
         "active": true,
-        "logo": "logos/fc_luzern.png",
-        "uniform": "uniforms/fc_luzern.png"
+        "logo": "logos/fc_luzern.webp",
+        "uniform": "uniforms/fc_luzern.webp"
     },
     {
         "name": "Grasshopper Club",
@@ -6566,8 +6551,8 @@ const teams = [
         "trophies": "Swiss Super League: 27, Swiss Cup: 19",
         "mustKnowFact": "Blue-white record champions.",
         "active": true,
-        "logo": "logos/grasshopper_club.png",
-        "uniform": "uniforms/grasshopper_club.png"
+        "logo": "logos/grasshopper_club.webp",
+        "uniform": "uniforms/grasshopper_club.webp"
     },
     {
         "name": "FC Sion",
@@ -6581,8 +6566,8 @@ const teams = [
         "trophies": "Swiss Super League: 2, Swiss Cup: 13",
         "mustKnowFact": "Red-white cup specialists.",
         "active": true,
-        "logo": "logos/fc_sion.png",
-        "uniform": "uniforms/fc_sion.png"
+        "logo": "logos/fc_sion.webp",
+        "uniform": "uniforms/fc_sion.webp"
     },
     {
         "name": "FC Winterthur",
@@ -6596,8 +6581,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white from Zürich's neighbor.",
         "active": true,
-        "logo": "logos/fc_winterthur.png",
-        "uniform": "uniforms/fc_winterthur.png"
+        "logo": "logos/fc_winterthur.webp",
+        "uniform": "uniforms/fc_winterthur.webp"
     },
     {
         "name": "Yverdon-Sport FC",
@@ -6611,8 +6596,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white lakeside risers.",
         "active": true,
-        "logo": "logos/yverdon-sport_fc.png",
-        "uniform": "uniforms/yverdon-sport_fc.png"
+        "logo": "logos/yverdon_sport_fc.webp",
+        "uniform": "uniforms/yverdon_sport_fc.webp"
     },
     {
         "name": "Lausanne-Sport",
@@ -6626,8 +6611,8 @@ const teams = [
         "trophies": "Swiss Super League: 7, Swiss Cup: 9",
         "mustKnowFact": "White-blue from Lake Geneva.",
         "active": true,
-        "logo": "logos/lausanne-sport.png",
-        "uniform": "uniforms/lausanne-sport.png"
+        "logo": "logos/lausanne_sport.webp",
+        "uniform": "uniforms/lausanne_sport.webp"
     },
     {
         "name": "Olympiacos",
@@ -6641,8 +6626,8 @@ const teams = [
         "trophies": "Super League: 47, Greek Cup: 28",
         "mustKnowFact": "Red-white legends of Piraeus.",
         "active": true,
-        "logo": "logos/olympiacos.png",
-        "uniform": "uniforms/olympiacos.png"
+        "logo": "logos/olympiacos.webp",
+        "uniform": "uniforms/olympiacos.webp"
     },
     {
         "name": "Panathinaikos",
@@ -6656,8 +6641,8 @@ const teams = [
         "trophies": "Super League: 20, Greek Cup: 19",
         "mustKnowFact": "Green giants of Athens.",
         "active": true,
-        "logo": "logos/panathinaikos.png",
-        "uniform": "uniforms/panathinaikos.png"
+        "logo": "logos/panathinaikos.webp",
+        "uniform": "uniforms/panathinaikos.webp"
     },
     {
         "name": "AEK Athens",
@@ -6671,8 +6656,8 @@ const teams = [
         "trophies": "Super League: 13, Greek Cup: 16",
         "mustKnowFact": "Yellow-black double-headed eagles.",
         "active": true,
-        "logo": "logos/aek_athens.png",
-        "uniform": "uniforms/aek_athens.png"
+        "logo": "logos/aek_athens.webp",
+        "uniform": "uniforms/aek_athens.webp"
     },
     {
         "name": "PAOK",
@@ -6686,8 +6671,8 @@ const teams = [
         "trophies": "Super League: 3, Greek Cup: 8",
         "mustKnowFact": "Black-white northern powerhouse.",
         "active": true,
-        "logo": "logos/paok.png",
-        "uniform": "uniforms/paok.png"
+        "logo": "logos/paok.webp",
+        "uniform": "uniforms/paok.webp"
     },
     {
         "name": "Aris",
@@ -6701,8 +6686,8 @@ const teams = [
         "trophies": "Super League: 3, Greek Cup: 1",
         "mustKnowFact": "Yellow-black gods of war.",
         "active": true,
-        "logo": "logos/aris.png",
-        "uniform": "uniforms/aris.png"
+        "logo": "logos/aris.webp",
+        "uniform": "uniforms/aris.webp"
     },
     {
         "name": "Panetolikos",
@@ -6716,8 +6701,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue from western Greece.",
         "active": true,
-        "logo": "logos/panetolikos.png",
-        "uniform": "uniforms/panetolikos.png"
+        "logo": "logos/panetolikos.webp",
+        "uniform": "uniforms/panetolikos.webp"
     },
     {
         "name": "Asteras Tripolis",
@@ -6731,8 +6716,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue stars of the Peloponnese.",
         "active": true,
-        "logo": "logos/asteras_tripolis.png",
-        "uniform": "uniforms/asteras_tripolis.png"
+        "logo": "logos/asteras_tripolis.webp",
+        "uniform": "uniforms/asteras_tripolis.webp"
     },
     {
         "name": "OFI Crete",
@@ -6746,8 +6731,8 @@ const teams = [
         "trophies": "Greek Cup: 1",
         "mustKnowFact": "Black-white from the island of Crete.",
         "active": true,
-        "logo": "logos/ofi_crete.png",
-        "uniform": "uniforms/ofi_crete.png"
+        "logo": "logos/ofi_crete.webp",
+        "uniform": "uniforms/ofi_crete.webp"
     },
     {
         "name": "Atromitos",
@@ -6761,8 +6746,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white fearless of Athens.",
         "active": true,
-        "logo": "logos/atromitos.png",
-        "uniform": "uniforms/atromitos.png"
+        "logo": "logos/atromitos.webp",
+        "uniform": "uniforms/atromitos.webp"
     },
     {
         "name": "Lamia",
@@ -6776,8 +6761,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Cyan-white from central Greece.",
         "active": true,
-        "logo": "logos/lamia.png",
-        "uniform": "uniforms/lamia.png"
+        "logo": "logos/lamia.webp",
+        "uniform": "uniforms/lamia.webp"
     },
     {
         "name": "Volos NFC",
@@ -6791,8 +6776,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-red newcomers from Thessaly.",
         "active": true,
-        "logo": "logos/volos_nfc.png",
-        "uniform": "uniforms/volos_nfc.png"
+        "logo": "logos/volos_nfc.webp",
+        "uniform": "uniforms/volos_nfc.webp"
     },
     {
         "name": "Panserraikos",
@@ -6806,8 +6791,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white lions of the north.",
         "active": true,
-        "logo": "logos/panserraikos.png",
-        "uniform": "uniforms/panserraikos.png"
+        "logo": "logos/panserraikos.webp",
+        "uniform": "uniforms/panserraikos.webp"
     },
     {
         "name": "Kallithea FC",
@@ -6821,8 +6806,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue from Athens' south.",
         "active": true,
-        "logo": "logos/kallithea_fc.png",
-        "uniform": "uniforms/kallithea_fc.png"
+        "logo": "logos/kallithea_fc.webp",
+        "uniform": "uniforms/kallithea_fc.webp"
     },
     {
         "name": "Levadiakos",
@@ -6836,8 +6821,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-blue from Boeotia.",
         "active": true,
-        "logo": "logos/levadiakos.png",
-        "uniform": "uniforms/levadiakos.png"
+        "logo": "logos/levadiakos.webp",
+        "uniform": "uniforms/levadiakos.webp"
     },
     {
         "name": "Shanghai Port",
@@ -6851,8 +6836,8 @@ const teams = [
         "trophies": "Chinese Super League: 2",
         "mustKnowFact": "Red eagles of Shanghai.",
         "active": true,
-        "logo": "logos/shanghai_port.png",
-        "uniform": "uniforms/shanghai_port.png"
+        "logo": "logos/shanghai_port.webp",
+        "uniform": "uniforms/shanghai_port.webp"
     },
     {
         "name": "Shandong Taishan",
@@ -6866,8 +6851,8 @@ const teams = [
         "trophies": "Chinese Super League: 5, CFA Cup: 8",
         "mustKnowFact": "Orange titans of Shandong.",
         "active": true,
-        "logo": "logos/shandong_taishan.png",
-        "uniform": "uniforms/shandong_taishan.png"
+        "logo": "logos/shandong_taishan.webp",
+        "uniform": "uniforms/shandong_taishan.webp"
     },
     {
         "name": "Beijing Guoan",
@@ -6881,8 +6866,8 @@ const teams = [
         "trophies": "Chinese Super League: 1, CFA Cup: 4",
         "mustKnowFact": "Green-yellow capital force.",
         "active": true,
-        "logo": "logos/beijing_guoan.png",
-        "uniform": "uniforms/beijing_guoan.png"
+        "logo": "logos/beijing_guoan.webp",
+        "uniform": "uniforms/beijing_guoan.webp"
     },
     {
         "name": "Chengdu Rongcheng",
@@ -6896,8 +6881,8 @@ const teams = [
         " 샤니": "",
         "mustKnowFact": "Red-white pandas rising fast.",
         "active": true,
-        "logo": "logos/chengdu_rongcheng.png",
-        "uniform": "uniforms/chengdu_rongcheng.png"
+        "logo": "logos/chengdu_rongcheng.webp",
+        "uniform": "uniforms/chengdu_rongcheng.webp"
     },
     {
         "name": "Shanghai Shenhua",
@@ -6911,8 +6896,8 @@ const teams = [
         "trophies": "Chinese Super League: 1, CFA Cup: 5",
         "mustKnowFact": "Blue flowers of Shanghai.",
         "active": true,
-        "logo": "logos/shanghai_shenhua.png",
-        "uniform": "uniforms/shanghai_shenhua.png"
+        "logo": "logos/shanghai_shenhua.webp",
+        "uniform": "uniforms/shanghai_shenhua.webp"
     },
     {
         "name": "Zhejiang FC",
@@ -6926,8 +6911,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green from the east coast.",
         "active": true,
-        "logo": "logos/zhejiang_fc.png",
-        "uniform": "uniforms/zhejiang_fc.png"
+        "logo": "logos/zhejiang_fc.webp",
+        "uniform": "uniforms/zhejiang_fc.webp"
     },
     {
         "name": "Wuhan Three Towns",
@@ -6941,8 +6926,8 @@ const teams = [
         "trophies": "Chinese Super League: 1",
         "mustKnowFact": "Blue-red surprise champions.",
         "active": true,
-        "logo": "logos/wuhan_three_towns.png",
-        "uniform": "uniforms/wuhan_three_towns.png"
+        "logo": "logos/wuhan_three_towns.webp",
+        "uniform": "uniforms/wuhan_three_towns.webp"
     },
     {
         "name": "Changchun Yatai",
@@ -6956,8 +6941,8 @@ const teams = [
         "trophies": "Chinese Super League: 1",
         "mustKnowFact": "Red-yellow from the northeast.",
         "active": true,
-        "logo": "logos/changchun_yatai.png",
-        "uniform": "uniforms/changchun_yatai.png"
+        "logo": "logos/changchun_yatai.webp",
+        "uniform": "uniforms/changchun_yatai.webp"
     },
     {
         "name": "Henan FC",
@@ -6971,8 +6956,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red from China's heartland.",
         "active": true,
-        "logo": "logos/henan_fc.png",
-        "uniform": "uniforms/henan_fc.png"
+        "logo": "logos/henan_fc.webp",
+        "uniform": "uniforms/henan_fc.webp"
     },
     {
         "name": "Tianjin Jinmen Tiger",
@@ -6986,8 +6971,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange tigers of the north.",
         "active": true,
-        "logo": "logos/tianjin_jinmen_tiger.png",
-        "uniform": "uniforms/tianjin_jinmen_tiger.png"
+        "logo": "logos/tianjin_jinmen_tiger.webp",
+        "uniform": "uniforms/tianjin_jinmen_tiger.webp"
     },
     {
         "name": "Meizhou Hakka",
@@ -7001,8 +6986,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-blue from Guangdong.",
         "active": true,
-        "logo": "logos/meizhou_hakka.png",
-        "uniform": "uniforms/meizhou_hakka.png"
+        "logo": "logos/meizhou_hakka.webp",
+        "uniform": "uniforms/meizhou_hakka.webp"
     },
     {
         "name": "Qingdao West Coast",
@@ -7016,8 +7001,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow coastal newcomers.",
         "active": true,
-        "logo": "logos/qingdao_west_coast.png",
-        "uniform": "uniforms/qingdao_west_coast.png"
+        "logo": "logos/qingdao_west_coast.webp",
+        "uniform": "uniforms/qingdao_west_coast.webp"
     },
     {
         "name": "Cangzhou Mighty Lions",
@@ -7031,8 +7016,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue lions of Hebei.",
         "active": true,
-        "logo": "logos/cangzhou_mighty_lions.png",
-        "uniform": "uniforms/cangzhou_mighty_lions.png"
+        "logo": "logos/cangzhou_mighty_lions.webp",
+        "uniform": "uniforms/cangzhou_mighty_lions.webp"
     },
     {
         "name": "Shenzhen Peng City",
@@ -7046,8 +7031,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-red from the tech hub.",
         "active": true,
-        "logo": "logos/shenzhen_peng_city.png",
-        "uniform": "uniforms/shenzhen_peng_city.png"
+        "logo": "logos/shenzhen_peng_city.webp",
+        "uniform": "uniforms/shenzhen_peng_city.webp"
     },
     {
         "name": "Nantong Zhiyun",
@@ -7061,8 +7046,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue from Jiangsu's coast.",
         "active": true,
-        "logo": "logos/nantong_zhiyun.png",
-        "uniform": "uniforms/nantong_zhiyun.png"
+        "logo": "logos/nantong_zhiyun.webp",
+        "uniform": "uniforms/nantong_zhiyun.webp"
     },
     {
         "name": "Qingdao Hainiu",
@@ -7076,8 +7061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue bulls of Qingdao.",
         "active": true,
-        "logo": "logos/qingdao_hainiu.png",
-        "uniform": "uniforms/qingdao_hainiu.png"
+        "logo": "logos/qingdao_hainiu.webp",
+        "uniform": "uniforms/qingdao_hainiu.webp"
     },
     {
         "name": "Cerro Porteño",
@@ -7091,8 +7076,8 @@ const teams = [
         "trophies": "Primera División: 34",
         "mustKnowFact": "Blue-red giants of Barrio Obrero.",
         "active": true,
-        "logo": "logos/cerro_porteno.png",
-        "uniform": "uniforms/cerro_porteno.png"
+        "logo": "logos/cerro_porteno.webp",
+        "uniform": "uniforms/cerro_porteno.webp"
     },
     {
         "name": "Olimpia",
@@ -7106,8 +7091,8 @@ const teams = [
         "trophies": "Primera División: 46, Copa Libertadores: 3",
         "mustKnowFact": "White-black kings of Paraguay.",
         "active": true,
-        "logo": "logos/olimpia.png",
-        "uniform": "uniforms/olimpia.png"
+        "logo": "logos/olimpia.webp",
+        "uniform": "uniforms/olimpia.webp"
     },
     {
         "name": "Libertad",
@@ -7121,8 +7106,8 @@ const teams = [
         "trophies": "Primera División: 23",
         "mustKnowFact": "Black-white Gumarelos ruling Asunción.",
         "active": true,
-        "logo": "logos/libertad.png",
-        "uniform": "uniforms/libertad.png"
+        "logo": "logos/libertad.webp",
+        "uniform": "uniforms/libertad.webp"
     },
     {
         "name": "Guaraní",
@@ -7136,11 +7121,11 @@ const teams = [
         "trophies": "Primera División: 11",
         "mustKnowFact": "Yellow-black Aurinegros of Dos Bocas.",
         "active": true,
-        "logo": "logos/guarani.png",
-        "uniform": "uniforms/guarani.png"
+        "logo": "logos/guarani.webp",
+        "uniform": "uniforms/guarani.webp"
     },
     {
-        "name": "Nacional",
+        "name": "Club Nacional",
         "country": "Paraguay",
         "league": "Primera División",
         "city": "Asunción",
@@ -7151,8 +7136,8 @@ const teams = [
         "trophies": "Primera División: 9",
         "mustKnowFact": "White-blue Tricolor resilience.",
         "active": true,
-        "logo": "logos/nacional.png",
-        "uniform": "uniforms/nacional.png"
+        "logo": "logos/club_nacional.webp",
+        "uniform": "uniforms/club_nacional.webp"
     },
     {
         "name": "Sportivo Luqueño",
@@ -7166,8 +7151,8 @@ const teams = [
         "trophies": "Primera División: 2",
         "mustKnowFact": "Yellow-blue from the city of music.",
         "active": true,
-        "logo": "logos/sportivo_luqueno.png",
-        "uniform": "uniforms/sportivo_luqueno.png"
+        "logo": "logos/sportivo_luqueno.webp",
+        "uniform": "uniforms/sportivo_luqueno.webp"
     },
     {
         "name": "Sol de América",
@@ -7181,8 +7166,8 @@ const teams = [
         "trophies": "Primera División: 2",
         "mustKnowFact": "Blue-white sun shining bright.",
         "active": true,
-        "logo": "logos/sol_de_america.png",
-        "uniform": "uniforms/sol_de_america.png"
+        "logo": "logos/sol_de_america.webp",
+        "uniform": "uniforms/sol_de_america.webp"
     },
     {
         "name": "General Díaz",
@@ -7196,8 +7181,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-green eagles of Luque.",
         "active": true,
-        "logo": "logos/general_diaz.png",
-        "uniform": "uniforms/general_diaz.png"
+        "logo": "logos/general_diaz.webp",
+        "uniform": "uniforms/general_diaz.webp"
     },
     {
         "name": "Sportivo Ameliano",
@@ -7211,8 +7196,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white surprise contenders.",
         "active": true,
-        "logo": "logos/sportivo_ameliano.png",
-        "uniform": "uniforms/sportivo_ameliano.png"
+        "logo": "logos/sportivo_ameliano.webp",
+        "uniform": "uniforms/sportivo_ameliano.webp"
     },
     {
         "name": "Guaireña FC",
@@ -7226,8 +7211,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue from the fourth department.",
         "active": true,
-        "logo": "logos/guairena_fc.png",
-        "uniform": "uniforms/guairena_fc.png"
+        "logo": "logos/guairena_fc.webp",
+        "uniform": "uniforms/guairena_fc.webp"
     },
     {
         "name": "Tacuary",
@@ -7241,8 +7226,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white barrio battlers.",
         "active": true,
-        "logo": "logos/tacuary.png",
-        "uniform": "uniforms/tacuary.png"
+        "logo": "logos/tacuary.webp",
+        "uniform": "uniforms/tacuary.webp"
     },
     {
         "name": "12 de Octubre",
@@ -7256,8 +7241,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white from the textile town.",
         "active": true,
-        "logo": "logos/12_de_octubre.png",
-        "uniform": "uniforms/12_de_octubre.png"
+        "logo": "logos/12_de_octubre.webp",
+        "uniform": "uniforms/12_de_octubre.webp"
     },
     {
         "name": "Bolívar",
@@ -7271,8 +7256,8 @@ const teams = [
         "trophies": "División Profesional: 30",
         "mustKnowFact": "Sky-blue rulers of La Paz.",
         "active": true,
-        "logo": "logos/bolivar.png",
-        "uniform": "uniforms/bolivar.png"
+        "logo": "logos/bolivar.webp",
+        "uniform": "uniforms/bolivar.webp"
     },
     {
         "name": "The Strongest",
@@ -7286,8 +7271,8 @@ const teams = [
         "trophies": "División Profesional: 15",
         "mustKnowFact": "Yellow-black tigers of Achumani.",
         "active": true,
-        "logo": "logos/the_strongest.png",
-        "uniform": "uniforms/the_strongest.png"
+        "logo": "logos/the_strongest.webp",
+        "uniform": "uniforms/the_strongest.webp"
     },
     {
         "name": "Jorge Wilstermann",
@@ -7301,8 +7286,8 @@ const teams = [
         "trophies": "División Profesional: 15",
         "mustKnowFact": "Red-blue aviators of Cochabamba.",
         "active": true,
-        "logo": "logos/jorge_wilstermann.png",
-        "uniform": "uniforms/jorge_wilstermann.png"
+        "logo": "logos/jorge_wilstermann.webp",
+        "uniform": "uniforms/jorge_wilstermann.webp"
     },
     {
         "name": "Oriente Petrolero",
@@ -7316,8 +7301,8 @@ const teams = [
         "trophies": "División Profesional: 5",
         "mustKnowFact": "Green-white from the oil fields.",
         "active": true,
-        "logo": "logos/oriente_petrolero.png",
-        "uniform": "uniforms/oriente_petrolero.png"
+        "logo": "logos/oriente_petrolero.webp",
+        "uniform": "uniforms/oriente_petrolero.webp"
     },
     {
         "name": "Blooming",
@@ -7331,8 +7316,8 @@ const teams = [
         "trophies": "División Profesional: 5",
         "mustKnowFact": "Sky-blue blooming in Santa Cruz.",
         "active": true,
-        "logo": "logos/blooming.png",
-        "uniform": "uniforms/blooming.png"
+        "logo": "logos/blooming.webp",
+        "uniform": "uniforms/blooming.webp"
     },
     {
         "name": "Always Ready",
@@ -7346,8 +7331,8 @@ const teams = [
         "trophies": "División Profesional: 3",
         "mustKnowFact": "Red-white high-altitude warriors.",
         "active": true,
-        "logo": "logos/always_ready.png",
-        "uniform": "uniforms/always_ready.png"
+        "logo": "logos/always_ready.webp",
+        "uniform": "uniforms/always_ready.webp"
     },
     {
         "name": "Aurora",
@@ -7361,8 +7346,8 @@ const teams = [
         "trophies": "División Profesional: 2",
         "mustKnowFact": "Sky-blue dawn of Cochabamba.",
         "active": true,
-        "logo": "logos/aurora.png",
-        "uniform": "uniforms/aurora.png"
+        "logo": "logos/aurora.webp",
+        "uniform": "uniforms/aurora.webp"
     },
     {
         "name": "San José",
@@ -7376,8 +7361,8 @@ const teams = [
         "trophies": "División Profesional: 4",
         "mustKnowFact": "White-blue saints of the mines.",
         "active": true,
-        "logo": "logos/san_jose.png",
-        "uniform": "uniforms/san_jose.png"
+        "logo": "logos/san_jose.webp",
+        "uniform": "uniforms/san_jose.webp"
     },
     {
         "name": "Real Santa Cruz",
@@ -7391,8 +7376,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-green lions of the east.",
         "active": true,
-        "logo": "logos/real_santa_cruz.png",
-        "uniform": "uniforms/real_santa_cruz.png"
+        "logo": "logos/real_santa_cruz.webp",
+        "uniform": "uniforms/real_santa_cruz.webp"
     },
     {
         "name": "Nacional Potosí",
@@ -7406,8 +7391,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white from the silver city.",
         "active": true,
-        "logo": "logos/nacional_potosi.png",
-        "uniform": "uniforms/nacional_potosi.png"
+        "logo": "logos/nacional_potosi.webp",
+        "uniform": "uniforms/nacional_potosi.webp"
     },
     {
         "name": "Royal Pari",
@@ -7421,8 +7406,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white royalty of Santa Cruz.",
         "active": true,
-        "logo": "logos/royal_pari.png",
-        "uniform": "uniforms/royal_pari.png"
+        "logo": "logos/royal_pari.webp",
+        "uniform": "uniforms/royal_pari.webp"
     },
     {
         "name": "Real Tomayapo",
@@ -7436,8 +7421,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white from the south.",
         "active": true,
-        "logo": "logos/real_tomayapo.png",
-        "uniform": "uniforms/real_tomayapo.png"
+        "logo": "logos/real_tomayapo.webp",
+        "uniform": "uniforms/real_tomayapo.webp"
     },
     {
         "name": "Independiente Petrolero",
@@ -7451,8 +7436,8 @@ const teams = [
         "trophies": "División Profesional: 1",
         "mustKnowFact": "Red independents of the capital.",
         "active": true,
-        "logo": "logos/independiente_petrolero.png",
-        "uniform": "uniforms/independiente_petrolero.png"
+        "logo": "logos/independiente_petrolero.webp",
+        "uniform": "uniforms/independiente_petrolero.webp"
     },
     {
         "name": "Universitario de Vinto",
@@ -7466,8 +7451,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange scholars of Cochabamba.",
         "active": true,
-        "logo": "logos/universitario_de_vinto.png",
-        "uniform": "uniforms/universitario_de_vinto.png"
+        "logo": "logos/universitario_de_vinto.webp",
+        "uniform": "uniforms/universitario_de_vinto.webp"
     },
     {
         "name": "Palmaflor",
@@ -7481,8 +7466,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow from the valley.",
         "active": true,
-        "logo": "logos/palmaflor.png",
-        "uniform": "uniforms/palmaflor.png"
+        "logo": "logos/palmaflor.webp",
+        "uniform": "uniforms/palmaflor.webp"
     },
     {
         "name": "GV San José",
@@ -7496,8 +7481,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue newcomers of Oruro.",
         "active": true,
-        "logo": "logos/gv_san_jose.png",
-        "uniform": "uniforms/gv_san_jose.png"
+        "logo": "logos/gv_san_jose.webp",
+        "uniform": "uniforms/gv_san_jose.webp"
     },
     {
         "name": "Barcelona SC",
@@ -7511,8 +7496,8 @@ const teams = [
         "trophies": "Liga Pro: 16",
         "mustKnowFact": "Yellow idols of Guayaquil.",
         "active": true,
-        "logo": "logos/barcelona_sc.png",
-        "uniform": "uniforms/barcelona_sc.png"
+        "logo": "logos/barcelona_sc.webp",
+        "uniform": "uniforms/barcelona_sc.webp"
     },
     {
         "name": "LDU Quito",
@@ -7526,8 +7511,8 @@ const teams = [
         "trophies": "Liga Pro: 11, Copa Libertadores: 1",
         "mustKnowFact": "White kings of the Andes.",
         "active": true,
-        "logo": "logos/ldu_quito.png",
-        "uniform": "uniforms/ldu_quito.png"
+        "logo": "logos/ldu_quito.webp",
+        "uniform": "uniforms/ldu_quito.webp"
     },
     {
         "name": "Emelec",
@@ -7541,8 +7526,8 @@ const teams = [
         "trophies": "Liga Pro: 14",
         "mustKnowFact": "Blue electric force of Guayaquil.",
         "active": true,
-        "logo": "logos/emelec.png",
-        "uniform": "uniforms/emelec.png"
+        "logo": "logos/emelec.webp",
+        "uniform": "uniforms/emelec.webp"
     },
     {
         "name": "Independiente del Valle",
@@ -7556,8 +7541,8 @@ const teams = [
         "trophies": "Liga Pro: 1, Copa Sudamericana: 2",
         "mustKnowFact": "Black-blue modern giants.",
         "active": true,
-        "logo": "logos/independiente_del_valle.png",
-        "uniform": "uniforms/independiente_del_valle.png"
+        "logo": "logos/independiente_del_valle.webp",
+        "uniform": "uniforms/independiente_del_valle.webp"
     },
     {
         "name": "Universidad Católica",
@@ -7571,8 +7556,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky-blue crusaders of Quito.",
         "active": true,
-        "logo": "logos/ucatolica.png",
-        "uniform": "uniforms/ucatolica.png"
+        "logo": "logos/ucatolica.webp",
+        "uniform": "uniforms/ucatolica.webp"
     },
     {
         "name": "Delfín SC",
@@ -7586,8 +7571,8 @@ const teams = [
         "trophies": "Liga Pro: 1",
         "mustKnowFact": "Yellow-blue dolphins of the coast.",
         "active": true,
-        "logo": "logos/delfin_sc.png",
-        "uniform": "uniforms/delfin_sc.png"
+        "logo": "logos/delfin_sc.webp",
+        "uniform": "uniforms/delfin_sc.webp"
     },
     {
         "name": "Aucas",
@@ -7601,8 +7586,8 @@ const teams = [
         "trophies": "Liga Pro: 1",
         "mustKnowFact": "Yellow-red from Chillogallo.",
         "active": true,
-        "logo": "logos/aucas.png",
-        "uniform": "uniforms/aucas.png"
+        "logo": "logos/aucas.webp",
+        "uniform": "uniforms/aucas.webp"
     },
     {
         "name": "El Nacional",
@@ -7616,8 +7601,8 @@ const teams = [
         "trophies": "Liga Pro: 13",
         "mustKnowFact": "Red-white military pride.",
         "active": true,
-        "logo": "logos/el_nacional.png",
-        "uniform": "uniforms/el_nacional.png"
+        "logo": "logos/el_nacional.webp",
+        "uniform": "uniforms/el_nacional.webp"
     },
     {
         "name": "Deportivo Cuenca",
@@ -7631,8 +7616,8 @@ const teams = [
         "trophies": "Liga Pro: 1",
         "mustKnowFact": "Red-black from the highlands.",
         "active": true,
-        "logo": "logos/deportivo_cuenca.png",
-        "uniform": "uniforms/deportivo_cuenca.png"
+        "logo": "logos/deportivo_cuenca.webp",
+        "uniform": "uniforms/deportivo_cuenca.webp"
     },
     {
         "name": "Mushuc Runa",
@@ -7646,8 +7631,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow indigenous spirit.",
         "active": true,
-        "logo": "logos/mushuc_runa.png",
-        "uniform": "uniforms/mushuc_runa.png"
+        "logo": "logos/mushuc_runa.webp",
+        "uniform": "uniforms/mushuc_runa.webp"
     },
     {
         "name": "Técnico Universitario",
@@ -7661,8 +7646,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-red rodillo of Ambato.",
         "active": true,
-        "logo": "logos/tecnico_universitario.png",
-        "uniform": "uniforms/tecnico_universitario.png"
+        "logo": "logos/tecnico_universitario.webp",
+        "uniform": "uniforms/tecnico_universitario.webp"
     },
     {
         "name": "Macará",
@@ -7676,8 +7661,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky-blue celestes of Ambato.",
         "active": true,
-        "logo": "logos/macara.png",
-        "uniform": "uniforms/macara.png"
+        "logo": "logos/macara.webp",
+        "uniform": "uniforms/macara.webp"
     },
     {
         "name": "Cumbayá FC",
@@ -7691,8 +7676,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue from the valley.",
         "active": true,
-        "logo": "logos/cumbaya_fc.png",
-        "uniform": "uniforms/cumbaya_fc.png"
+        "logo": "logos/cumbaya_fc.webp",
+        "uniform": "uniforms/cumbaya_fc.webp"
     },
     {
         "name": "Orense SC",
@@ -7706,8 +7691,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow from El Oro.",
         "active": true,
-        "logo": "logos/orense_sc.png",
-        "uniform": "uniforms/orense_sc.png"
+        "logo": "logos/orense_sc.webp",
+        "uniform": "uniforms/orense_sc.webp"
     },
     {
         "name": "Imbabura SC",
@@ -7721,8 +7706,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-orange from the north.",
         "active": true,
-        "logo": "logos/imbabura_sc.png",
-        "uniform": "uniforms/imbabura_sc.png"
+        "logo": "logos/imbabura_sc.webp",
+        "uniform": "uniforms/imbabura_sc.webp"
     },
     {
         "name": "Libertad FC",
@@ -7736,8 +7721,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white freedom fighters.",
         "active": true,
-        "logo": "logos/libertad_fc.png",
-        "uniform": "uniforms/libertad_fc.png"
+        "logo": "logos/libertad_fc.webp",
+        "uniform": "uniforms/libertad_fc.webp"
     },
     {
         "name": "Caracas FC",
@@ -7751,8 +7736,8 @@ const teams = [
         "trophies": "Liga FUTVE: 12",
         "mustKnowFact": "Red lions of the capital.",
         "active": true,
-        "logo": "logos/caracas_fc.png",
-        "uniform": "uniforms/caracas_fc.png"
+        "logo": "logos/caracas_fc.webp",
+        "uniform": "uniforms/caracas_fc.webp"
     },
     {
         "name": "Deportivo Táchira",
@@ -7766,8 +7751,8 @@ const teams = [
         "trophies": "Liga FUTVE: 9",
         "mustKnowFact": "Yellow-black aurinegros of the Andes.",
         "active": true,
-        "logo": "logos/deportivo_tachira.png",
-        "uniform": "uniforms/deportivo_tachira.png"
+        "logo": "logos/deportivo_tachira.webp",
+        "uniform": "uniforms/deportivo_tachira.webp"
     },
     {
         "name": "Zamora FC",
@@ -7781,8 +7766,8 @@ const teams = [
         "trophies": "Liga FUTVE: 5",
         "mustKnowFact": "Black-white from the plains.",
         "active": true,
-        "logo": "logos/zamora_fc.png",
-        "uniform": "uniforms/zamora_fc.png"
+        "logo": "logos/zamora_fc.webp",
+        "uniform": "uniforms/zamora_fc.webp"
     },
     {
         "name": "Deportivo La Guaira",
@@ -7796,8 +7781,8 @@ const teams = [
         "trophies": "Liga FUTVE: 1",
         "mustKnowFact": "Orange coastal contenders.",
         "active": true,
-        "logo": "logos/deportivo_la_guaira.png",
-        "uniform": "uniforms/deportivo_la_guaira.png"
+        "logo": "logos/deportivo_la_guaira.webp",
+        "uniform": "uniforms/deportivo_la_guaira.webp"
     },
     {
         "name": "Monagas SC",
@@ -7811,8 +7796,8 @@ const teams = [
         "trophies": "Liga FUTVE: 2",
         "mustKnowFact": "Blue-red from the east.",
         "active": true,
-        "logo": "logos/monagas_sc.png",
-        "uniform": "uniforms/monagas_sc.png"
+        "logo": "logos/monagas_sc.webp",
+        "uniform": "uniforms/monagas_sc.webp"
     },
     {
         "name": "Metropolitanos FC",
@@ -7826,8 +7811,8 @@ const teams = [
         "trophies": "Liga FUTVE: 1",
         "mustKnowFact": "Violet urban warriors.",
         "active": true,
-        "logo": "logos/metropolitanos_fc.png",
-        "uniform": "uniforms/metropolitanos_fc.png"
+        "logo": "logos/metropolitanos_fc.webp",
+        "uniform": "uniforms/metropolitanos_fc.webp"
     },
     {
         "name": "Academia Puerto Cabello",
@@ -7841,8 +7826,8 @@ const teams = [
         "trophies": "Liga FUTVE: 1",
         "mustKnowFact": "Blue-orange port power.",
         "active": true,
-        "logo": "logos/academia_puerto_cabello.png",
-        "uniform": "uniforms/academia_puerto_cabello.png"
+        "logo": "logos/academia_puerto_cabello.webp",
+        "uniform": "uniforms/academia_puerto_cabello.webp"
     },
     {
         "name": "Carabobo FC",
@@ -7856,8 +7841,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Garnet from the industrial heart.",
         "active": true,
-        "logo": "logos/carabobo_fc.png",
-        "uniform": "uniforms/carabobo_fc.png"
+        "logo": "logos/carabobo_fc.webp",
+        "uniform": "uniforms/carabobo_fc.webp"
     },
     {
         "name": "Portuguesa FC",
@@ -7871,8 +7856,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black from the west.",
         "active": true,
-        "logo": "logos/portuguesa_fc.png",
-        "uniform": "uniforms/portuguesa_fc.png"
+        "logo": "logos/portuguesa_fc.webp",
+        "uniform": "uniforms/portuguesa_fc.webp"
     },
     {
         "name": "Estudiantes de Mérida",
@@ -7886,8 +7871,8 @@ const teams = [
         "trophies": "Liga FUTVE: 2",
         "mustKnowFact": "White-red scholars of the Andes.",
         "active": true,
-        "logo": "logos/estudiantes_de_merida.png",
-        "uniform": "uniforms/estudiantes_de_merida.png"
+        "logo": "logos/estudiantes_de_merida.webp",
+        "uniform": "uniforms/estudiantes_de_merida.webp"
     },
     {
         "name": "Mineros de Guayana",
@@ -7901,8 +7886,8 @@ const teams = [
         "trophies": "Liga FUTVE: 1",
         "mustKnowFact": "Black-blue miners of the south.",
         "active": true,
-        "logo": "logos/mineros_de_guayana.png",
-        "uniform": "uniforms/mineros_de_guayana.png"
+        "logo": "logos/mineros_de_guayana.webp",
+        "uniform": "uniforms/mineros_de_guayana.webp"
     },
     {
         "name": "UCV FC",
@@ -7916,8 +7901,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow university squad.",
         "active": true,
-        "logo": "logos/ucv_fc.png",
-        "uniform": "uniforms/ucv_fc.png"
+        "logo": "logos/ucv_fc.webp",
+        "uniform": "uniforms/ucv_fc.webp"
     },
     {
         "name": "Angostura FC",
@@ -7931,8 +7916,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow from the Orinoco.",
         "active": true,
-        "logo": "logos/angostura_fc.png",
-        "uniform": "uniforms/angostura_fc.png"
+        "logo": "logos/angostura_fc.webp",
+        "uniform": "uniforms/angostura_fc.webp"
     },
     {
         "name": "Inter de Barinas",
@@ -7946,8 +7931,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white from the plains.",
         "active": true,
-        "logo": "logos/inter_de_barinas.png",
-        "uniform": "uniforms/inter_de_barinas.png"
+        "logo": "logos/inter_de_barinas.webp",
+        "uniform": "uniforms/inter_de_barinas.webp"
     },
     {
         "name": "Dynamo Kyiv",
@@ -7961,8 +7946,8 @@ const teams = [
         "trophies": "UPL: 16, Soviet Top League: 13",
         "mustKnowFact": "White-blue capital dynasty.",
         "active": true,
-        "logo": "logos/dynamo_kyiv.png",
-        "uniform": "uniforms/dynamo_kyiv.png"
+        "logo": "logos/dynamo_kyiv.webp",
+        "uniform": "uniforms/dynamo_kyiv.webp"
     },
     {
         "name": "Shakhtar Donetsk",
@@ -7976,8 +7961,8 @@ const teams = [
         "trophies": "UPL: 14, UEFA Cup: 1",
         "mustKnowFact": "Orange-black miners of Donbas.",
         "active": true,
-        "logo": "logos/shakhtar_donetsk.png",
-        "uniform": "uniforms/shakhtar_donetsk.png"
+        "logo": "logos/shakhtar_donetsk.webp",
+        "uniform": "uniforms/shakhtar_donetsk.webp"
     },
     {
         "name": "Dnipro-1",
@@ -7991,8 +7976,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow Dnipro risers.",
         "active": true,
-        "logo": "logos/dnipro-1.png",
-        "uniform": "uniforms/dnipro-1.png"
+        "logo": "logos/dnipro1.webp",
+        "uniform": "uniforms/dnipro1.webp"
     },
     {
         "name": "Zorya Luhansk",
@@ -8006,8 +7991,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white dawn of the east.",
         "active": true,
-        "logo": "logos/zorya_luhansk.png",
-        "uniform": "uniforms/zorya_luhansk.png"
+        "logo": "logos/zorya_luhansk.webp",
+        "uniform": "uniforms/zorya_luhansk.webp"
     },
     {
         "name": "Vorskla Poltava",
@@ -8021,8 +8006,8 @@ const teams = [
         "trophies": "Ukrainian Cup: 1",
         "mustKnowFact": "Green-white from the heartland.",
         "active": true,
-        "logo": "logos/vorskla_poltava.png",
-        "uniform": "uniforms/vorskla_poltava.png"
+        "logo": "logos/vorskla_poltava.webp",
+        "uniform": "uniforms/vorskla_poltava.webp"
     },
     {
         "name": "Rukh Lviv",
@@ -8036,8 +8021,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black movement of Lviv.",
         "active": true,
-        "logo": "logos/rukh_lviv.png",
-        "uniform": "uniforms/rukh_lviv.png"
+        "logo": "logos/rukh_lviv.webp",
+        "uniform": "uniforms/rukh_lviv.webp"
     },
     {
         "name": "Chornomorets Odesa",
@@ -8051,8 +8036,8 @@ const teams = [
         "trophies": "Ukrainian Cup: 2",
         "mustKnowFact": "Blue-black sailors of the Black Sea.",
         "active": true,
-        "logo": "logos/chornomorets_odesa.png",
-        "uniform": "uniforms/chornomorets_odesa.png"
+        "logo": "logos/chornomorets_odesa.webp",
+        "uniform": "uniforms/chornomorets_odesa.webp"
     },
     {
         "name": "Kryvbas Kryvyi Rih",
@@ -8066,8 +8051,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white from the iron city.",
         "active": true,
-        "logo": "logos/kryvbas_kryvyi_rih.png",
-        "uniform": "uniforms/kryvbas_kryvyi_rih.png"
+        "logo": "logos/kryvbas_kryvyi_rih.webp",
+        "uniform": "uniforms/kryvbas_kryvyi_rih.webp"
     },
     {
         "name": "Kolos Kovalivka",
@@ -8081,8 +8066,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-black rural surprise.",
         "active": true,
-        "logo": "logos/kolos_kovalivka.png",
-        "uniform": "uniforms/kolos_kovalivka.png"
+        "logo": "logos/kolos_kovalivka.webp",
+        "uniform": "uniforms/kolos_kovalivka.webp"
     },
     {
         "name": "Oleksandriya",
@@ -8096,8 +8081,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green from central Ukraine.",
         "active": true,
-        "logo": "logos/oleksandriya.png",
-        "uniform": "uniforms/oleksandriya.png"
+        "logo": "logos/oleksandriya.webp",
+        "uniform": "uniforms/oleksandriya.webp"
     },
     {
         "name": "Polissya Zhytomyr",
@@ -8111,8 +8096,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow from the north.",
         "active": true,
-        "logo": "logos/polissya_zhytomyr.png",
-        "uniform": "uniforms/polissya_zhytomyr.png"
+        "logo": "logos/polissya_zhytomyr.webp",
+        "uniform": "uniforms/polissya_zhytomyr.webp"
     },
     {
         "name": "Obolon Kyiv",
@@ -8126,8 +8111,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white brewers of Kyiv.",
         "active": true,
-        "logo": "logos/obolon_kyiv.png",
-        "uniform": "uniforms/obolon_kyiv.png"
+        "logo": "logos/obolon_kyiv.webp",
+        "uniform": "uniforms/obolon_kyiv.webp"
     },
     {
         "name": "Inhulets Petrove",
@@ -8141,8 +8126,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-red from the mining region.",
         "active": true,
-        "logo": "logos/inhulets_petrove.png",
-        "uniform": "uniforms/inhulets_petrove.png"
+        "logo": "logos/inhulets_petrove.webp",
+        "uniform": "uniforms/inhulets_petrove.webp"
     },
     {
         "name": "Veres Rivne",
@@ -8156,8 +8141,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black from western Ukraine.",
         "active": true,
-        "logo": "logos/veres_rivne.png",
-        "uniform": "uniforms/veres_rivne.png"
+        "logo": "logos/veres_rivne.webp",
+        "uniform": "uniforms/veres_rivne.webp"
     },
     {
         "name": "Livyi Bereh",
@@ -8171,8 +8156,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white left bank upstarts.",
         "active": true,
-        "logo": "logos/livyi_bereh.png",
-        "uniform": "uniforms/livyi_bereh.png"
+        "logo": "logos/livyi_bereh.webp",
+        "uniform": "uniforms/livyi_bereh.webp"
     },
     {
         "name": "Karpaty Lviv",
@@ -8186,8 +8171,8 @@ const teams = [
         "trophies": "Ukrainian Cup: 1",
         "mustKnowFact": "Green-white lions of Lviv.",
         "active": true,
-        "logo": "logos/karpaty_lviv.png",
-        "uniform": "uniforms/karpaty_lviv.png"
+        "logo": "logos/karpaty_lviv.webp",
+        "uniform": "uniforms/karpaty_lviv.webp"
     },
     {
         "name": "Ludogorets Razgrad",
@@ -8201,8 +8186,8 @@ const teams = [
         "trophies": "First League: 13",
         "mustKnowFact": "Green eagles dominating Bulgaria.",
         "active": true,
-        "logo": "logos/ludogorets_razgrad.png",
-        "uniform": "uniforms/ludogorets_razgrad.png"
+        "logo": "logos/ludogorets_razgrad.webp",
+        "uniform": "uniforms/ludogorets_razgrad.webp"
     },
     {
         "name": "CSKA Sofia",
@@ -8216,8 +8201,8 @@ const teams = [
         "trophies": "First League: 31",
         "mustKnowFact": "Red army of Sofia.",
         "active": true,
-        "logo": "logos/cska_sofia.png",
-        "uniform": "uniforms/cska_sofia.png"
+        "logo": "logos/cska_sofia.webp",
+        "uniform": "uniforms/cska_sofia.webp"
     },
     {
         "name": "Levski Sofia",
@@ -8231,8 +8216,8 @@ const teams = [
         "trophies": "First League: 26",
         "mustKnowFact": "Blue lions of the capital.",
         "active": true,
-        "logo": "logos/levski_sofia.png",
-        "uniform": "uniforms/levski_sofia.png"
+        "logo": "logos/levski_sofia.webp",
+        "uniform": "uniforms/levski_sofia.webp"
     },
     {
         "name": "Cherno More Varna",
@@ -8246,8 +8231,8 @@ const teams = [
         "trophies": "First League: 4",
         "mustKnowFact": "Green-black sailors of the coast.",
         "active": true,
-        "logo": "logos/cherno_more_varna.png",
-        "uniform": "uniforms/cherno_more_varna.png"
+        "logo": "logos/cherno_more_varna.webp",
+        "uniform": "uniforms/cherno_more_varna.webp"
     },
     {
         "name": "Lokomotiv Plovdiv",
@@ -8261,8 +8246,8 @@ const teams = [
         "trophies": "First League: 1",
         "mustKnowFact": "Black-white-yellow Smurfs.",
         "active": true,
-        "logo": "logos/lokomotiv_plovdiv.png",
-        "uniform": "uniforms/lokomotiv_plovdiv.png"
+        "logo": "logos/lokomotiv_plovdiv.webp",
+        "uniform": "uniforms/lokomotiv_plovdiv.webp"
     },
     {
         "name": "Botev Plovdiv",
@@ -8276,8 +8261,8 @@ const teams = [
         "trophies": "First League: 2",
         "mustKnowFact": "Yellow-black canaries of Plovdiv.",
         "active": true,
-        "logo": "logos/botev_plovdiv.png",
-        "uniform": "uniforms/botev_plovdiv.png"
+        "logo": "logos/botev_plovdiv.webp",
+        "uniform": "uniforms/botev_plovdiv.webp"
     },
     {
         "name": "Slavia Sofia",
@@ -8291,8 +8276,8 @@ const teams = [
         "trophies": "First League: 7",
         "mustKnowFact": "White oldest club in Sofia.",
         "active": true,
-        "logo": "logos/slavia_sofia.png",
-        "uniform": "uniforms/slavia_sofia.png"
+        "logo": "logos/slavia_sofia.webp",
+        "uniform": "uniforms/slavia_sofia.webp"
     },
     {
         "name": "Beroe Stara Zagora",
@@ -8306,8 +8291,8 @@ const teams = [
         "trophies": "First League: 1",
         "mustKnowFact": "Green-white from the rose valley.",
         "active": true,
-        "logo": "logos/beroe_stara_zagora.png",
-        "uniform": "uniforms/beroe_stara_zagora.png"
+        "logo": "logos/beroe_stara_zagora.webp",
+        "uniform": "uniforms/beroe_stara_zagora.webp"
     },
     {
         "name": "CSKA 1948 Sofia",
@@ -8321,8 +8306,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white modern contenders.",
         "active": true,
-        "logo": "logos/cska_1948_sofia.png",
-        "uniform": "uniforms/cska_1948_sofia.png"
+        "logo": "logos/cska_1948_sofia.webp",
+        "uniform": "uniforms/cska_1948_sofia.webp"
     },
     {
         "name": "Arda Kardzhali",
@@ -8336,8 +8321,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue from the Rhodopes.",
         "active": true,
-        "logo": "logos/arda_kardzhali.png",
-        "uniform": "uniforms/arda_kardzhali.png"
+        "logo": "logos/arda_kardzhali.webp",
+        "uniform": "uniforms/arda_kardzhali.webp"
     },
     {
         "name": "Lokomotiv Sofia",
@@ -8351,8 +8336,8 @@ const teams = [
         "trophies": "First League: 4",
         "mustKnowFact": "Red-black railwaymen of Sofia.",
         "active": true,
-        "logo": "logos/lokomotiv_sofia.png",
-        "uniform": "uniforms/lokomotiv_sofia.png"
+        "logo": "logos/lokomotiv_sofia.webp",
+        "uniform": "uniforms/lokomotiv_sofia.webp"
     },
     {
         "name": "Botev Vratsa",
@@ -8366,8 +8351,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white from the northwest.",
         "active": true,
-        "logo": "logos/botev_vratsa.png",
-        "uniform": "uniforms/botev_vratsa.png"
+        "logo": "logos/botev_vratsa.webp",
+        "uniform": "uniforms/botev_vratsa.webp"
     },
     {
         "name": "Pirin Blagoevgrad",
@@ -8381,8 +8366,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white eagles of Pirin.",
         "active": true,
-        "logo": "logos/pirin_blagoevgrad.png",
-        "uniform": "uniforms/pirin_blagoevgrad.png"
+        "logo": "logos/pirin_blagoevgrad.webp",
+        "uniform": "uniforms/pirin_blagoevgrad.webp"
     },
     {
         "name": "Hebar Pazardzhik",
@@ -8396,8 +8381,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green from the Thracian plain.",
         "active": true,
-        "logo": "logos/hebar_pazardzhik.png",
-        "uniform": "uniforms/hebar_pazardzhik.png"
+        "logo": "logos/hebar_pazardzhik.webp",
+        "uniform": "uniforms/hebar_pazardzhik.webp"
     },
     {
         "name": "Septemvri Sofia",
@@ -8411,8 +8396,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white September fighters.",
         "active": true,
-        "logo": "logos/septemvri_sofia.png",
-        "uniform": "uniforms/septemvri_sofia.png"
+        "logo": "logos/septemvri_sofia.webp",
+        "uniform": "uniforms/septemvri_sofia.webp"
     },
     {
         "name": "Spartak Varna",
@@ -8426,8 +8411,8 @@ const teams = [
         "trophies": "First League: 1",
         "mustKnowFact": "Blue falcons of the Black Sea.",
         "active": true,
-        "logo": "logos/spartak_varna.png",
-        "uniform": "uniforms/spartak_varna.png"
+        "logo": "logos/spartak_varna.webp",
+        "uniform": "uniforms/spartak_varna.webp"
     },
     {
         "name": "FCSB",
@@ -8441,8 +8426,8 @@ const teams = [
         "trophies": "Liga I: 26, European Cup: 1",
         "mustKnowFact": "Red-blue stars of Bucharest.",
         "active": true,
-        "logo": "logos/fcsb.png",
-        "uniform": "uniforms/fcsb.png"
+        "logo": "logos/fcsb.webp",
+        "uniform": "uniforms/fcsb.webp"
     },
     {
         "name": "CFR Cluj",
@@ -8456,8 +8441,8 @@ const teams = [
         "trophies": "Liga I: 8",
         "mustKnowFact": "Maroon-white Transylvanian force.",
         "active": true,
-        "logo": "logos/cfr_cluj.png",
-        "uniform": "uniforms/cfr_cluj.png"
+        "logo": "logos/cfr_cluj.webp",
+        "uniform": "uniforms/cfr_cluj.webp"
     },
     {
         "name": "Universitatea Craiova",
@@ -8471,8 +8456,8 @@ const teams = [
         "trophies": "Liga I: 4",
         "mustKnowFact": "Blue-white lions of Oltenia.",
         "active": true,
-        "logo": "logos/universitatea_craiova.png",
-        "uniform": "uniforms/universitatea_craiova.png"
+        "logo": "logos/universitatea_craiova.webp",
+        "uniform": "uniforms/universitatea_craiova.webp"
     },
     {
         "name": "Rapid București",
@@ -8486,8 +8471,8 @@ const teams = [
         "trophies": "Liga I: 3",
         "mustKnowFact": "Maroon-white railwaymen of Bucharest.",
         "active": true,
-        "logo": "logos/rapid_bucuresti.png",
-        "uniform": "uniforms/rapid_bucuresti.png"
+        "logo": "logos/rapid_bucuresti.webp",
+        "uniform": "uniforms/rapid_bucuresti.webp"
     },
     {
         "name": "Farul Constanța",
@@ -8501,8 +8486,8 @@ const teams = [
         "trophies": "Liga I: 1",
         "mustKnowFact": "Blue-white lighthouse of the coast.",
         "active": true,
-        "logo": "logos/farul_constanta.png",
-        "uniform": "uniforms/farul_constanta.png"
+        "logo": "logos/farul_constanta.webp",
+        "uniform": "uniforms/farul_constanta.webp"
     },
     {
         "name": "Sepsi OSK",
@@ -8516,8 +8501,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white Székely pride.",
         "active": true,
-        "logo": "logos/sepsi_osk.png",
-        "uniform": "uniforms/sepsi_osk.png"
+        "logo": "logos/sepsi_osk.webp",
+        "uniform": "uniforms/sepsi_osk.webp"
     },
     {
         "name": "Universitatea Cluj",
@@ -8531,8 +8516,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-red students of Cluj.",
         "active": true,
-        "logo": "logos/universitatea_cluj.png",
-        "uniform": "uniforms/universitatea_cluj.png"
+        "logo": "logos/universitatea_cluj.webp",
+        "uniform": "uniforms/universitatea_cluj.webp"
     },
     {
         "name": "Petrolul Ploiești",
@@ -8546,8 +8531,8 @@ const teams = [
         "trophies": "Liga I: 4",
         "mustKnowFact": "Yellow-blue oilmen of Prahova.",
         "active": true,
-        "logo": "logos/petrolul.png",
-        "uniform": "uniforms/petrolul.png"
+        "logo": "logos/petrolul.webp",
+        "uniform": "uniforms/petrolul.webp"
     },
     {
         "name": "UTA Arad",
@@ -8561,8 +8546,8 @@ const teams = [
         "trophies": "Liga I: 6",
         "mustKnowFact": "Red-white from the west.",
         "active": true,
-        "logo": "logos/uta_arad.png",
-        "uniform": "uniforms/uta_arad.png"
+        "logo": "logos/uta_arad.webp",
+        "uniform": "uniforms/uta_arad.webp"
     },
     {
         "name": "Oțelul Galați",
@@ -8576,8 +8561,8 @@ const teams = [
         "trophies": "Liga I: 1",
         "mustKnowFact": "Red-white-blue steelworkers.",
         "active": true,
-        "logo": "logos/otelul_galati.png",
-        "uniform": "uniforms/otelul_galati.png"
+        "logo": "logos/otelul_galati.webp",
+        "uniform": "uniforms/otelul_galati.webp"
     },
     {
         "name": "Politehnica Iași",
@@ -8591,8 +8576,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue from Moldavia.",
         "active": true,
-        "logo": "logos/politehnica_iasi.png",
-        "uniform": "uniforms/politehnica_iasi.png"
+        "logo": "logos/politehnica_iasi.webp",
+        "uniform": "uniforms/politehnica_iasi.webp"
     },
     {
         "name": "Dinamo București",
@@ -8606,8 +8591,8 @@ const teams = [
         "trophies": "Liga I: 18",
         "mustKnowFact": "Red-white dogs of Bucharest.",
         "active": true,
-        "logo": "logos/dinamo_bucuresti.png",
-        "uniform": "uniforms/dinamo_bucuresti.png"
+        "logo": "logos/dinamo_bucuresti.webp",
+        "uniform": "uniforms/dinamo_bucuresti.webp"
     },
     {
         "name": "Hermannstadt",
@@ -8621,8 +8606,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white from Transylvania.",
         "active": true,
-        "logo": "logos/hermannstadt.png",
-        "uniform": "uniforms/hermannstadt.png"
+        "logo": "logos/hermannstadt.webp",
+        "uniform": "uniforms/hermannstadt.webp"
     },
     {
         "name": "Gloria Buzău",
@@ -8636,8 +8621,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white from the east.",
         "active": true,
-        "logo": "logos/gloria_buzau.png",
-        "uniform": "uniforms/gloria_buzau.png"
+        "logo": "logos/gloria_buzau.webp",
+        "uniform": "uniforms/gloria_buzau.webp"
     },
     {
         "name": "Botoșani",
@@ -8651,8 +8636,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white-blue from the north.",
         "active": true,
-        "logo": "logos/botosani.png",
-        "uniform": "uniforms/botosani.png"
+        "logo": "logos/botosani.webp",
+        "uniform": "uniforms/botosani.webp"
     },
     {
         "name": "Unirea Slobozia",
@@ -8666,8 +8651,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue from the plains.",
         "active": true,
-        "logo": "logos/unirea_slobozia.png",
-        "uniform": "uniforms/unirea_slobozia.png"
+        "logo": "logos/unirea_slobozia.webp",
+        "uniform": "uniforms/unirea_slobozia.webp"
     },
     {
         "name": "Wydad AC",
@@ -8681,8 +8666,8 @@ const teams = [
         "trophies": "Botola Pro: 22, CAF Champions League: 3",
         "mustKnowFact": "Red giants of Casablanca.",
         "active": true,
-        "logo": "logos/wydad_ac.png",
-        "uniform": "uniforms/wydad_ac.png"
+        "logo": "logos/wydad_ac.webp",
+        "uniform": "uniforms/wydad_ac.webp"
     },
     {
         "name": "Raja CA",
@@ -8696,8 +8681,8 @@ const teams = [
         "trophies": "Botola Pro: 12, CAF Champions League: 3",
         "mustKnowFact": "Green eagles of Moroccan football.",
         "active": true,
-        "logo": "logos/raja_ca.png",
-        "uniform": "uniforms/raja_ca.png"
+        "logo": "logos/raja_ca.webp",
+        "uniform": "uniforms/raja_ca.webp"
     },
     {
         "name": "AS FAR",
@@ -8711,8 +8696,8 @@ const teams = [
         "trophies": "Botola Pro: 13",
         "mustKnowFact": "Military pride in yellow-black.",
         "active": true,
-        "logo": "logos/as_far.png",
-        "uniform": "uniforms/as_far.png"
+        "logo": "logos/as_far.webp",
+        "uniform": "uniforms/as_far.webp"
     },
     {
         "name": "Maghreb Fès",
@@ -8726,8 +8711,8 @@ const teams = [
         "trophies": "Botola Pro: 4",
         "mustKnowFact": "Yellow-black from the imperial city.",
         "active": true,
-        "logo": "logos/maghreb_fes.png",
-        "uniform": "uniforms/maghreb_fes.png"
+        "logo": "logos/maghreb_fes.webp",
+        "uniform": "uniforms/maghreb_fes.webp"
     },
     {
         "name": "RS Berkane",
@@ -8741,8 +8726,8 @@ const teams = [
         "trophies": "CAF Confederation Cup: 2",
         "mustKnowFact": "Orange lions of the east.",
         "active": true,
-        "logo": "logos/rs_berkane.png",
-        "uniform": "uniforms/rs_berkane.png"
+        "logo": "logos/rs_berkane.webp",
+        "uniform": "uniforms/rs_berkane.webp"
     },
     {
         "name": "Ittihad Tanger",
@@ -8756,8 +8741,8 @@ const teams = [
         "trophies": "Botola Pro: 1",
         "mustKnowFact": "Blue-white knights of the north.",
         "active": true,
-        "logo": "logos/ittihad_tanger.png",
-        "uniform": "uniforms/ittihad_tanger.png"
+        "logo": "logos/ittihad_tanger.webp",
+        "uniform": "uniforms/ittihad_tanger.webp"
     },
     {
         "name": "FUS Rabat",
@@ -8771,8 +8756,8 @@ const teams = [
         "trophies": "Botola Pro: 1",
         "mustKnowFact": "Red-white from the capital.",
         "active": true,
-        "logo": "logos/fus_rabat.png",
-        "uniform": "uniforms/fus_rabat.png"
+        "logo": "logos/fus_rabat.webp",
+        "uniform": "uniforms/fus_rabat.webp"
     },
     {
         "name": "Mouloudia Oujda",
@@ -8786,8 +8771,8 @@ const teams = [
         "trophies": "Botola Pro: 1",
         "mustKnowFact": "Green-red from the east.",
         "active": true,
-        "logo": "logos/mouloudia_oujda.png",
-        "uniform": "uniforms/mouloudia_oujda.png"
+        "logo": "logos/mouloudia_oujda.webp",
+        "uniform": "uniforms/mouloudia_oujda.webp"
     },
     {
         "name": "Hassania Agadir",
@@ -8801,8 +8786,8 @@ const teams = [
         "trophies": "Botola Pro: 2",
         "mustKnowFact": "Blue-white from the south.",
         "active": true,
-        "logo": "logos/hassania_agadir.png",
-        "uniform": "uniforms/hassania_agadir.png"
+        "logo": "logos/hassania_agadir.webp",
+        "uniform": "uniforms/hassania_agadir.webp"
     },
     {
         "name": "Olympic Safi",
@@ -8816,8 +8801,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white sharks of the coast.",
         "active": true,
-        "logo": "logos/olympic_safi.png",
-        "uniform": "uniforms/olympic_safi.png"
+        "logo": "logos/olympic_safi.webp",
+        "uniform": "uniforms/olympic_safi.webp"
     },
     {
         "name": "Chabab Rif Al Hoceima",
@@ -8831,8 +8816,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white from the Rif.",
         "active": true,
-        "logo": "logos/chabab_rif.png",
-        "uniform": "uniforms/chabab_rif.png"
+        "logo": "logos/chabab_rif.webp",
+        "uniform": "uniforms/chabab_rif.webp"
     },
     {
         "name": "Difaâ El Jadida",
@@ -8846,8 +8831,8 @@ const teams = [
         "trophies": "Botola Pro: 2",
         "mustKnowFact": "Green-white Doukkala warriors.",
         "active": true,
-        "logo": "logos/difaa.png",
-        "uniform": "uniforms/difaa.png"
+        "logo": "logos/difaa.webp",
+        "uniform": "uniforms/difaa.webp"
     },
     {
         "name": "Renaissance Zemamra",
@@ -8861,8 +8846,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white rural risers.",
         "active": true,
-        "logo": "logos/renaissance_zemamra.png",
-        "uniform": "uniforms/renaissance_zemamra.png"
+        "logo": "logos/renaissance_zemamra.webp",
+        "uniform": "uniforms/renaissance_zemamra.webp"
     },
     {
         "name": "Chabab Mohammédia",
@@ -8876,8 +8861,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-red coastal contenders.",
         "active": true,
-        "logo": "logos/chabab_mohammedia.png",
-        "uniform": "uniforms/chabab_mohammedia.png"
+        "logo": "logos/chabab_mohammedia.webp",
+        "uniform": "uniforms/chabab_mohammedia.webp"
     },
     {
         "name": "Union Touarga",
@@ -8891,8 +8876,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white from Rabat’s suburbs.",
         "active": true,
-        "logo": "logos/union_touarga.png",
-        "uniform": "uniforms/union_touarga.png"
+        "logo": "logos/union_touarga.webp",
+        "uniform": "uniforms/union_touarga.webp"
     },
     {
         "name": "Jeunesse Sportive Soualem",
@@ -8906,8 +8891,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white newcomers.",
         "active": true,
-        "logo": "logos/soualem.png",
-        "uniform": "uniforms/soualem.png"
+        "logo": "logos/soualem.webp",
+        "uniform": "uniforms/soualem.webp"
     },
     {
         "name": "Teungueth FC",
@@ -8921,8 +8906,8 @@ const teams = [
         "trophies": "Ligue 1: 2",
         "mustKnowFact": "Yellow-blue rising stars.",
         "active": true,
-        "logo": "logos/teungueth_fc.png",
-        "uniform": "uniforms/teungueth_fc.png"
+        "logo": "logos/teungueth_fc.webp",
+        "uniform": "uniforms/teungueth_fc.webp"
     },
     {
         "name": "AS Pikine",
@@ -8936,8 +8921,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Black-white suburban power.",
         "active": true,
-        "logo": "logos/as_pikine.png",
-        "uniform": "uniforms/as_pikine.png"
+        "logo": "logos/as_pikine.webp",
+        "uniform": "uniforms/as_pikine.webp"
     },
     {
         "name": "Génération Foot",
@@ -8951,8 +8936,8 @@ const teams = [
         "trophies": "Ligue 1: 2",
         "mustKnowFact": "Green-white youth factory.",
         "active": true,
-        "logo": "logos/generation_foot.png",
-        "uniform": "uniforms/generation_foot.png"
+        "logo": "logos/generation_foot.webp",
+        "uniform": "uniforms/generation_foot.webp"
     },
     {
         "name": "Diambars FC",
@@ -8966,8 +8951,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Blue-white academy excellence.",
         "active": true,
-        "logo": "logos/diambars_fc.png",
-        "uniform": "uniforms/diambars_fc.png"
+        "logo": "logos/diambars_fc.webp",
+        "uniform": "uniforms/diambars_fc.webp"
     },
     {
         "name": "AS Douanes",
@@ -8981,8 +8966,8 @@ const teams = [
         "trophies": "Ligue 1: 6",
         "mustKnowFact": "Blue-white customs force.",
         "active": true,
-        "logo": "logos/as_douanes.png",
-        "uniform": "uniforms/as_douanes.png"
+        "logo": "logos/as_douanes.webp",
+        "uniform": "uniforms/as_douanes.webp"
     },
     {
         "name": "Casa Sports",
@@ -8996,8 +8981,8 @@ const teams = [
         "trophies": "Ligue 1: 2",
         "mustKnowFact": "Green-white from Casamance.",
         "active": true,
-        "logo": "logos/casa_sports.png",
-        "uniform": "uniforms/casa_sports.png"
+        "logo": "logos/casa_sports.webp",
+        "uniform": "uniforms/casa_sports.webp"
     },
     {
         "name": "Jaraaf",
@@ -9011,8 +8996,8 @@ const teams = [
         "trophies": "Ligue 1: 12",
         "mustKnowFact": "Green-white Dakar dynasty.",
         "active": true,
-        "logo": "logos/jaraaf.png",
-        "uniform": "uniforms/jaraaf.png"
+        "logo": "logos/jaraaf.webp",
+        "uniform": "uniforms/jaraaf.webp"
     },
     {
         "name": "Stade de Mbour",
@@ -9026,8 +9011,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue coastal contenders.",
         "active": true,
-        "logo": "logos/stade_de_mbour.png",
-        "uniform": "uniforms/stade_de_mbour.png"
+        "logo": "logos/stade_de_mbour.webp",
+        "uniform": "uniforms/stade_de_mbour.webp"
     },
     {
         "name": "Sonacos",
@@ -9041,8 +9026,8 @@ const teams = [
         "trophies": "Ligue 1: 2",
         "mustKnowFact": "Blue-white industrial roots.",
         "active": true,
-        "logo": "logos/sonacos.png",
-        "uniform": "uniforms/sonacos.png"
+        "logo": "logos/sonacos.webp",
+        "uniform": "uniforms/sonacos.webp"
     },
     {
         "name": "US Gorée",
@@ -9056,8 +9041,8 @@ const teams = [
         "trophies": "Ligue 1: 4",
         "mustKnowFact": "Red-white island heritage.",
         "active": true,
-        "logo": "logos/us_goree.png",
-        "uniform": "uniforms/us_goree.png"
+        "logo": "logos/us_goree.webp",
+        "uniform": "uniforms/us_goree.webp"
     },
     {
         "name": "Linguère",
@@ -9071,8 +9056,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green from the north.",
         "active": true,
-        "logo": "logos/linguere.png",
-        "uniform": "uniforms/linguere.png"
+        "logo": "logos/linguere.webp",
+        "uniform": "uniforms/linguere.webp"
     },
     {
         "name": "Mbour Petite-Côte",
@@ -9086,8 +9071,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white coastal resilience.",
         "active": true,
-        "logo": "logos/mbour_petite_cote.png",
-        "uniform": "uniforms/mbour_petite_cote.png"
+        "logo": "logos/mbour_petite_cote.webp",
+        "uniform": "uniforms/mbour_petite_cote.webp"
     },
     {
         "name": "CNEPS Excellence",
@@ -9101,8 +9086,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white youth prospects.",
         "active": true,
-        "logo": "logos/cneps_excellence.png",
-        "uniform": "uniforms/cneps_excellence.png"
+        "logo": "logos/cneps_excellence.webp",
+        "uniform": "uniforms/cneps_excellence.webp"
     },
     {
         "name": "US Ouakam",
@@ -9116,8 +9101,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "White-red from Dakar’s coast.",
         "active": true,
-        "logo": "logos/us_ouakam.png",
-        "uniform": "uniforms/us_ouakam.png"
+        "logo": "logos/us_ouakam.webp",
+        "uniform": "uniforms/us_ouakam.webp"
     },
     {
         "name": "Dakar Sacré-Cœur",
@@ -9131,8 +9116,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white urban talent.",
         "active": true,
-        "logo": "logos/dakar_sacre_coeur.png",
-        "uniform": "uniforms/dakar_sacre_coeur.png"
+        "logo": "logos/dakar_sacre_coeur.webp",
+        "uniform": "uniforms/dakar_sacre_coeur.webp"
     },
     {
         "name": "Niarry Tally",
@@ -9146,8 +9131,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Blue-white from Grand Dakar.",
         "active": true,
-        "logo": "logos/niarry_tally.png",
-        "uniform": "uniforms/niarry_tally.png"
+        "logo": "logos/niarry_tally.webp",
+        "uniform": "uniforms/niarry_tally.webp"
     },
     {
         "name": "Al Ahly",
@@ -9161,8 +9146,8 @@ const teams = [
         "trophies": "EPL: 43, CAF Champions League: 11",
         "mustKnowFact": "Red devils of African football.",
         "active": true,
-        "logo": "logos/al_ahly.png",
-        "uniform": "uniforms/al_ahly.png"
+        "logo": "logos/al_ahly.webp",
+        "uniform": "uniforms/al_ahly.webp"
     },
     {
         "name": "Zamalek SC",
@@ -9176,8 +9161,8 @@ const teams = [
         "trophies": "EPL: 14, CAF Champions League: 5",
         "mustKnowFact": "White knights of Egypt.",
         "active": true,
-        "logo": "logos/zamalek_sc.png",
-        "uniform": "uniforms/zamalek_sc.png"
+        "logo": "logos/zamalek_sc.webp",
+        "uniform": "uniforms/zamalek_sc.webp"
     },
     {
         "name": "Pyramids FC",
@@ -9191,8 +9176,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue modern powerhouse.",
         "active": true,
-        "logo": "logos/pyramids_fc.png",
-        "uniform": "uniforms/pyramids_fc.png"
+        "logo": "logos/pyramids_fc.webp",
+        "uniform": "uniforms/pyramids_fc.webp"
     },
     {
         "name": "Ismaily SC",
@@ -9206,8 +9191,8 @@ const teams = [
         "trophies": "EPL: 3, CAF Champions League: 1",
         "mustKnowFact": "Yellow dervishes of the canal.",
         "active": true,
-        "logo": "logos/ismaily_sc.png",
-        "uniform": "uniforms/ismaily_sc.png"
+        "logo": "logos/ismaily_sc.webp",
+        "uniform": "uniforms/ismaily_sc.webp"
     },
     {
         "name": "Al Masry",
@@ -9221,8 +9206,8 @@ const teams = [
         "trophies": "EPL: 1",
         "mustKnowFact": "Green eagles of the north.",
         "active": true,
-        "logo": "logos/al_masry.png",
-        "uniform": "uniforms/al_masry.png"
+        "logo": "logos/al_masry.webp",
+        "uniform": "uniforms/al_masry.webp"
     },
     {
         "name": "ENPPI",
@@ -9236,8 +9221,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow petroleum club.",
         "active": true,
-        "logo": "logos/enppi.png",
-        "uniform": "uniforms/enppi.png"
+        "logo": "logos/enppi.webp",
+        "uniform": "uniforms/enppi.webp"
     },
     {
         "name": "Smouha SC",
@@ -9251,8 +9236,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue waves of the Mediterranean.",
         "active": true,
-        "logo": "logos/smouha_sc.png",
-        "uniform": "uniforms/smouha_sc.png"
+        "logo": "logos/smouha_sc.webp",
+        "uniform": "uniforms/smouha_sc.webp"
     },
     {
         "name": "Al Ittihad Alexandria",
@@ -9266,8 +9251,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-red masters of the coast.",
         "active": true,
-        "logo": "logos/al_ittihad_alexandria.png",
-        "uniform": "uniforms/al_ittihad_alexandria.png"
+        "logo": "logos/al_ittihad_alexandria.webp",
+        "uniform": "uniforms/al_ittihad_alexandria.webp"
     },
     {
         "name": "Future FC",
@@ -9281,8 +9266,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black emerging force.",
         "active": true,
-        "logo": "logos/future_fc.png",
-        "uniform": "uniforms/future_fc.png"
+        "logo": "logos/future_fc.webp",
+        "uniform": "uniforms/future_fc.webp"
     },
     {
         "name": "El Gouna FC",
@@ -9296,8 +9281,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue Red Sea resort club.",
         "active": true,
-        "logo": "logos/el_gouna_fc.png",
-        "uniform": "uniforms/el_gouna_fc.png"
+        "logo": "logos/el_gouna_fc.webp",
+        "uniform": "uniforms/el_gouna_fc.webp"
     },
     {
         "name": "Ceramica Cleopatra",
@@ -9311,8 +9296,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-red corporate climbers.",
         "active": true,
-        "logo": "logos/ceramica_cleopatra.png",
-        "uniform": "uniforms/ceramica_cleopatra.png"
+        "logo": "logos/ceramica_cleopatra.webp",
+        "uniform": "uniforms/ceramica_cleopatra.webp"
     },
     {
         "name": "National Bank of Egypt",
@@ -9326,8 +9311,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white financial muscle.",
         "active": true,
-        "logo": "logos/national_bank_of_egypt.png",
-        "uniform": "uniforms/national_bank_of_egypt.png"
+        "logo": "logos/national_bank_of_egypt.webp",
+        "uniform": "uniforms/national_bank_of_egypt.webp"
     },
     {
         "name": "Pharco FC",
@@ -9341,8 +9326,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange pharma-backed squad.",
         "active": true,
-        "logo": "logos/pharco_fc.png",
-        "uniform": "uniforms/pharco_fc.png"
+        "logo": "logos/pharco_fc.webp",
+        "uniform": "uniforms/pharco_fc.webp"
     },
     {
         "name": "Tala'ea El Gaish",
@@ -9356,8 +9341,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow army club.",
         "active": true,
-        "logo": "logos/talaea_el_gaish.png",
-        "uniform": "uniforms/talaea_el_gaish.png"
+        "logo": "logos/talaea_el_gaish.webp",
+        "uniform": "uniforms/talaea_el_gaish.webp"
     },
     {
         "name": "MC Alger",
@@ -9371,8 +9356,8 @@ const teams = [
         "trophies": "Ligue 1: 7, CAF Champions League: 1",
         "mustKnowFact": "Red-green dean of Algiers.",
         "active": true,
-        "logo": "logos/mc_alger.png",
-        "uniform": "uniforms/mc_alger.png"
+        "logo": "logos/mc_alger.webp",
+        "uniform": "uniforms/mc_alger.webp"
     },
     {
         "name": "ES Sétif",
@@ -9386,8 +9371,8 @@ const teams = [
         "trophies": "Ligue 1: 8, CAF Champions League: 2",
         "mustKnowFact": "Black-white highland kings.",
         "active": true,
-        "logo": "logos/es_setif.png",
-        "uniform": "uniforms/es_setif.png"
+        "logo": "logos/es_setif.webp",
+        "uniform": "uniforms/es_setif.webp"
     },
     {
         "name": "JS Kabylie",
@@ -9401,8 +9386,8 @@ const teams = [
         "trophies": "Ligue 1: 14, CAF Champions League: 2",
         "mustKnowFact": "Yellow-green Berber lions.",
         "active": true,
-        "logo": "logos/js_kabylie.png",
-        "uniform": "uniforms/js_kabylie.png"
+        "logo": "logos/js_kabylie.webp",
+        "uniform": "uniforms/js_kabylie.webp"
     },
     {
         "name": "CR Belouizdad",
@@ -9416,8 +9401,8 @@ const teams = [
         "trophies": "Ligue 1: 9",
         "mustKnowFact": "Red-white Chabab power.",
         "active": true,
-        "logo": "logos/cr_belouizdad.png",
-        "uniform": "uniforms/cr_belouizdad.png"
+        "logo": "logos/cr_belouizdad.webp",
+        "uniform": "uniforms/cr_belouizdad.webp"
     },
     {
         "name": "USM Alger",
@@ -9431,8 +9416,8 @@ const teams = [
         "trophies": "Ligue 1: 8",
         "mustKnowFact": "Red-black sons of Algiers.",
         "active": true,
-        "logo": "logos/usm_alger.png",
-        "uniform": "uniforms/usm_alger.png"
+        "logo": "logos/usm_alger.webp",
+        "uniform": "uniforms/usm_alger.webp"
     },
     {
         "name": "MC Oran",
@@ -9446,8 +9431,8 @@ const teams = [
         "trophies": "Ligue 1: 4",
         "mustKnowFact": "Red-white lions of the west.",
         "active": true,
-        "logo": "logos/mc_oran.png",
-        "uniform": "uniforms/mc_oran.png"
+        "logo": "logos/mc_oran.webp",
+        "uniform": "uniforms/mc_oran.webp"
     },
     {
         "name": "CS Constantine",
@@ -9461,8 +9446,8 @@ const teams = [
         "trophies": "Ligue 1: 2",
         "mustKnowFact": "Green-black eastern pride.",
         "active": true,
-        "logo": "logos/cs_constantine.png",
-        "uniform": "uniforms/cs_constantine.png"
+        "logo": "logos/cs_constantine.webp",
+        "uniform": "uniforms/cs_constantine.webp"
     },
     {
         "name": "Paradou AC",
@@ -9476,8 +9461,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue youth academy.",
         "active": true,
-        "logo": "logos/paradou_ac.png",
-        "uniform": "uniforms/paradou_ac.png"
+        "logo": "logos/paradou_ac.webp",
+        "uniform": "uniforms/paradou_ac.webp"
     },
     {
         "name": "NA Hussein Dey",
@@ -9491,8 +9476,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Yellow-red historic club.",
         "active": true,
-        "logo": "logos/na_hussein_dey.png",
-        "uniform": "uniforms/na_hussein_dey.png"
+        "logo": "logos/na_hussein_dey.webp",
+        "uniform": "uniforms/na_hussein_dey.webp"
     },
     {
         "name": "JS Saoura",
@@ -9506,8 +9491,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow desert warriors.",
         "active": true,
-        "logo": "logos/js_saoura.png",
-        "uniform": "uniforms/js_saoura.png"
+        "logo": "logos/js_saoura.webp",
+        "uniform": "uniforms/js_saoura.webp"
     },
     {
         "name": "ASO Chlef",
@@ -9521,8 +9506,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Red-white western stars.",
         "active": true,
-        "logo": "logos/aso_chlef.png",
-        "uniform": "uniforms/aso_chlef.png"
+        "logo": "logos/aso_chlef.webp",
+        "uniform": "uniforms/aso_chlef.webp"
     },
     {
         "name": "US Biskra",
@@ -9536,8 +9521,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white oasis squad.",
         "active": true,
-        "logo": "logos/us_biskra.png",
-        "uniform": "uniforms/us_biskra.png"
+        "logo": "logos/us_biskra.webp",
+        "uniform": "uniforms/us_biskra.webp"
     },
     {
         "name": "NC Magra",
@@ -9551,8 +9536,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white southern risers.",
         "active": true,
-        "logo": "logos/nc_magra.png",
-        "uniform": "uniforms/nc_magra.png"
+        "logo": "logos/nc_magra.webp",
+        "uniform": "uniforms/nc_magra.webp"
     },
     {
         "name": "HB Chelghoum Laïd",
@@ -9566,8 +9551,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white mountain fighters.",
         "active": true,
-        "logo": "logos/hb_chelghoum_laid.png",
-        "uniform": "uniforms/hb_chelghoum_laid.png"
+        "logo": "logos/hb_chelghoum_laid.webp",
+        "uniform": "uniforms/hb_chelghoum_laid.webp"
     },
     {
         "name": "RC Arbaâ",
@@ -9581,8 +9566,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white suburban grit.",
         "active": true,
-        "logo": "logos/rc_arbaa.png",
-        "uniform": "uniforms/rc_arbaa.png"
+        "logo": "logos/rc_arbaa.webp",
+        "uniform": "uniforms/rc_arbaa.webp"
     },
     {
         "name": "MC El Bayadh",
@@ -9596,8 +9581,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue desert newcomers.",
         "active": true,
-        "logo": "logos/mc_el_bayadh.png",
-        "uniform": "uniforms/mc_el_bayadh.png"
+        "logo": "logos/mc_el_bayadh.webp",
+        "uniform": "uniforms/mc_el_bayadh.webp"
     },
     {
         "name": "Enyimba FC",
@@ -9611,8 +9596,8 @@ const teams = [
         "trophies": "NPFL: 9, CAF Champions League: 2",
         "mustKnowFact": "Blue people’s elephants.",
         "active": true,
-        "logo": "logos/enyimba_fc.png",
-        "uniform": "uniforms/enyimba_fc.png"
+        "logo": "logos/enyimba_fc.webp",
+        "uniform": "uniforms/enyimba_fc.webp"
     },
     {
         "name": "Rivers United",
@@ -9626,8 +9611,8 @@ const teams = [
         "trophies": "NPFL: 1",
         "mustKnowFact": "Blue-white river pride.",
         "active": true,
-        "logo": "logos/rivers_united.png",
-        "uniform": "uniforms/rivers_united.png"
+        "logo": "logos/rivers_united.webp",
+        "uniform": "uniforms/rivers_united.webp"
     },
     {
         "name": "Plateau United",
@@ -9641,8 +9626,8 @@ const teams = [
         "trophies": "NPFL: 2",
         "mustKnowFact": "White-blue highland warriors.",
         "active": true,
-        "logo": "logos/plateau_united.png",
-        "uniform": "uniforms/plateau_united.png"
+        "logo": "logos/plateau_united.webp",
+        "uniform": "uniforms/plateau_united.webp"
     },
     {
         "name": "Remo Stars",
@@ -9656,8 +9641,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky-blue southwestern stars.",
         "active": true,
-        "logo": "logos/remo_stars.png",
-        "uniform": "uniforms/remo_stars.png"
+        "logo": "logos/remo_stars.webp",
+        "uniform": "uniforms/remo_stars.webp"
     },
     {
         "name": "Kano Pillars",
@@ -9671,8 +9656,8 @@ const teams = [
         "trophies": "NPFL: 4",
         "mustKnowFact": "Red-white northern giants.",
         "active": true,
-        "logo": "logos/kano_pillars.png",
-        "uniform": "uniforms/kano_pillars.png"
+        "logo": "logos/kano_pillars.webp",
+        "uniform": "uniforms/kano_pillars.webp"
     },
     {
         "name": "Enugu Rangers",
@@ -9686,8 +9671,8 @@ const teams = [
         "trophies": "NPFL: 7",
         "mustKnowFact": "Red-white flying antelopes.",
         "active": true,
-        "logo": "logos/enugu_rangers.png",
-        "uniform": "uniforms/enugu_rangers.png"
+        "logo": "logos/enugu_rangers.webp",
+        "uniform": "uniforms/enugu_rangers.webp"
     },
     {
         "name": "Lobi Stars",
@@ -9701,8 +9686,8 @@ const teams = [
         "trophies": "NPFL: 1",
         "mustKnowFact": "Red-white middle belt force.",
         "active": true,
-        "logo": "logos/lobi_stars.png",
-        "uniform": "uniforms/lobi_stars.png"
+        "logo": "logos/lobi_stars.webp",
+        "uniform": "uniforms/lobi_stars.webp"
     },
     {
         "name": "Akwa United",
@@ -9716,8 +9701,8 @@ const teams = [
         "trophies": "NPFL: 1",
         "mustKnowFact": "Orange-white promise keepers.",
         "active": true,
-        "logo": "logos/akwa_united.png",
-        "uniform": "uniforms/akwa_united.png"
+        "logo": "logos/akwa_united.webp",
+        "uniform": "uniforms/akwa_united.webp"
     },
     {
         "name": "Sunshine Stars",
@@ -9731,8 +9716,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue Ondo pride.",
         "active": true,
-        "logo": "logos/sunshine_stars.png",
-        "uniform": "uniforms/sunshine_stars.png"
+        "logo": "logos/sunshine_stars.webp",
+        "uniform": "uniforms/sunshine_stars.webp"
     },
     {
         "name": "Kwara United",
@@ -9746,8 +9731,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white harmony boys.",
         "active": true,
-        "logo": "logos/kwara_united.png",
-        "uniform": "uniforms/kwara_united.png"
+        "logo": "logos/kwara_united.webp",
+        "uniform": "uniforms/kwara_united.webp"
     },
     {
         "name": "Nasarawa United",
@@ -9761,8 +9746,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue solid miners.",
         "active": true,
-        "logo": "logos/nasarawa_united.png",
-        "uniform": "uniforms/nasarawa_united.png"
+        "logo": "logos/nasarawa_united.webp",
+        "uniform": "uniforms/nasarawa_united.webp"
     },
     {
         "name": "Doma United",
@@ -9776,8 +9761,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white northeastern grit.",
         "active": true,
-        "logo": "logos/doma_united.png",
-        "uniform": "uniforms/doma_united.png"
+        "logo": "logos/doma_united.webp",
+        "uniform": "uniforms/doma_united.webp"
     },
     {
         "name": "Bayelsa United",
@@ -9791,8 +9776,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white restoration boys.",
         "active": true,
-        "logo": "logos/bayelsa_united.png",
-        "uniform": "uniforms/bayelsa_united.png"
+        "logo": "logos/bayelsa_united.webp",
+        "uniform": "uniforms/bayelsa_united.webp"
     },
     {
         "name": "Abia Warriors",
@@ -9806,8 +9791,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue southeastern force.",
         "active": true,
-        "logo": "logos/abia_warriors.png",
-        "uniform": "uniforms/abia_warriors.png"
+        "logo": "logos/abia_warriors.webp",
+        "uniform": "uniforms/abia_warriors.webp"
     },
     {
         "name": "Gombe United",
@@ -9821,8 +9806,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white savannah scorpions.",
         "active": true,
-        "logo": "logos/gombe_united.png",
-        "uniform": "uniforms/gombe_united.png"
+        "logo": "logos/gombe_united.webp",
+        "uniform": "uniforms/gombe_united.webp"
     },
     {
         "name": "Shooting Stars",
@@ -9836,8 +9821,8 @@ const teams = [
         "trophies": "NPFL: 5",
         "mustKnowFact": "Blue-white Oluyole warriors.",
         "active": true,
-        "logo": "logos/shooting_stars.png",
-        "uniform": "uniforms/shooting_stars.png"
+        "logo": "logos/shooting_stars.webp",
+        "uniform": "uniforms/shooting_stars.webp"
     },
     {
         "name": "ASEC Mimosas",
@@ -9851,8 +9836,8 @@ const teams = [
         "trophies": "Ligue 1: 28, CAF Champions League: 1",
         "mustKnowFact": "Yellow-black giants of Abidjan.",
         "active": true,
-        "logo": "logos/asec_mimosas.png",
-        "uniform": "uniforms/asec_mimosas.png"
+        "logo": "logos/asec_mimosas.webp",
+        "uniform": "uniforms/asec_mimosas.webp"
     },
     {
         "name": "Africa Sports",
@@ -9866,8 +9851,8 @@ const teams = [
         "trophies": "Ligue 1: 17",
         "mustKnowFact": "Green-red Aiglons legacy.",
         "active": true,
-        "logo": "logos/africa_sports.png",
-        "uniform": "uniforms/africa_sports.png"
+        "logo": "logos/africa_sports.webp",
+        "uniform": "uniforms/africa_sports.webp"
     },
     {
         "name": "SO Armée",
@@ -9881,8 +9866,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Green-white military might.",
         "active": true,
-        "logo": "logos/so_armee.png",
-        "uniform": "uniforms/so_armee.png"
+        "logo": "logos/so_armee.webp",
+        "uniform": "uniforms/so_armee.webp"
     },
     {
         "name": "San-Pédro FC",
@@ -9896,8 +9881,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Orange coastal champions.",
         "active": true,
-        "logo": "logos/san_pedro_fc.png",
-        "uniform": "uniforms/san_pedro_fc.png"
+        "logo": "logos/san_pedro_fc.webp",
+        "uniform": "uniforms/san_pedro_fc.webp"
     },
     {
         "name": "Racing Club Abidjan",
@@ -9911,8 +9896,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Blue-white modern risers.",
         "active": true,
-        "logo": "logos/racing_club_abidjan.png",
-        "uniform": "uniforms/racing_club_abidjan.png"
+        "logo": "logos/racing_club_abidjan.webp",
+        "uniform": "uniforms/racing_club_abidjan.webp"
     },
     {
         "name": "Stella Club",
@@ -9926,8 +9911,8 @@ const teams = [
         "trophies": "Ligue 1: 3",
         "mustKnowFact": "Green-white historic stars.",
         "active": true,
-        "logo": "logos/stella_club.png",
-        "uniform": "uniforms/stella_club.png"
+        "logo": "logos/stella_club.webp",
+        "uniform": "uniforms/stella_club.webp"
     },
     {
         "name": "AFAD Djékanou",
@@ -9941,8 +9926,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white academy grit.",
         "active": true,
-        "logo": "logos/afad.png",
-        "uniform": "uniforms/afad.png"
+        "logo": "logos/afad.webp",
+        "uniform": "uniforms/afad.webp"
     },
     {
         "name": "Lys Sassandra",
@@ -9956,8 +9941,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white coastal fighters.",
         "active": true,
-        "logo": "logos/lys_sassandra.png",
-        "uniform": "uniforms/lys_sassandra.png"
+        "logo": "logos/lys_sassandra.webp",
+        "uniform": "uniforms/lys_sassandra.webp"
     },
     {
         "name": "Bouaké FC",
@@ -9971,8 +9956,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green central power.",
         "active": true,
-        "logo": "logos/bouake_fc.png",
-        "uniform": "uniforms/bouake_fc.png"
+        "logo": "logos/bouake_fc.webp",
+        "uniform": "uniforms/bouake_fc.webp"
     },
     {
         "name": "ASI Abengourou",
@@ -9986,8 +9971,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white eastern resilience.",
         "active": true,
-        "logo": "logos/asi_abengourou.png",
-        "uniform": "uniforms/asi_abengourou.png"
+        "logo": "logos/asi_abengourou.webp",
+        "uniform": "uniforms/asi_abengourou.webp"
     },
     {
         "name": "SOL FC",
@@ -10001,8 +9986,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white urban squad.",
         "active": true,
-        "logo": "logos/sol_fc.png",
-        "uniform": "uniforms/sol_fc.png"
+        "logo": "logos/sol_fc.webp",
+        "uniform": "uniforms/sol_fc.webp"
     },
     {
         "name": "USC Bassam",
@@ -10016,8 +10001,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white coastal veterans.",
         "active": true,
-        "logo": "logos/usc_bassam.png",
-        "uniform": "uniforms/usc_bassam.png"
+        "logo": "logos/usc_bassam.webp",
+        "uniform": "uniforms/usc_bassam.webp"
     },
     {
         "name": "Tanda",
@@ -10031,8 +10016,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Yellow-blue northeastern champs.",
         "active": true,
-        "logo": "logos/tanda.png",
-        "uniform": "uniforms/tanda.png"
+        "logo": "logos/tanda.webp",
+        "uniform": "uniforms/tanda.webp"
     },
     {
         "name": "Séwé Sport",
@@ -10046,8 +10031,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Blue-white port legends.",
         "active": true,
-        "logo": "logos/sewe_sport.png",
-        "uniform": "uniforms/sewe_sport.png"
+        "logo": "logos/sewe_sport.webp",
+        "uniform": "uniforms/sewe_sport.webp"
     },
     {
         "name": "CO Korhogo",
@@ -10061,8 +10046,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white northern spirit.",
         "active": true,
-        "logo": "logos/co_korhogo.png",
-        "uniform": "uniforms/co_korhogo.png"
+        "logo": "logos/co_korhogo.webp",
+        "uniform": "uniforms/co_korhogo.webp"
     },
     {
         "name": "Zoman FC",
@@ -10076,8 +10061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white urban newcomers.",
         "active": true,
-        "logo": "logos/zoman_fc.png",
-        "uniform": "uniforms/zoman_fc.png"
+        "logo": "logos/zoman_fc.webp",
+        "uniform": "uniforms/zoman_fc.webp"
     },
     {
         "name": "Coton Sport",
@@ -10091,8 +10076,8 @@ const teams = [
         "trophies": "Elite One: 16",
         "mustKnowFact": "Green-white cotton kings.",
         "active": true,
-        "logo": "logos/coton_sport.png",
-        "uniform": "uniforms/coton_sport.png"
+        "logo": "logos/coton_sport.webp",
+        "uniform": "uniforms/coton_sport.webp"
     },
     {
         "name": "Canon Yaoundé",
@@ -10106,8 +10091,8 @@ const teams = [
         "trophies": "Elite One: 10, CAF Champions League: 3",
         "mustKnowFact": "Red-green historic gunners.",
         "active": true,
-        "logo": "logos/canon_yaounde.png",
-        "uniform": "uniforms/canon_yaounde.png"
+        "logo": "logos/canon_yaounde.webp",
+        "uniform": "uniforms/canon_yaounde.webp"
     },
     {
         "name": "Coton Sport FC",
@@ -10121,8 +10106,8 @@ const teams = [
         "trophies": "Elite One: 15",
         "mustKnowFact": "Green-white northern kings.",
         "active": true,
-        "logo": "logos/coton_sport_fc.png",
-        "uniform": "uniforms/coton_sport_fc.png"
+        "logo": "logos/coton_sport_fc.webp",
+        "uniform": "uniforms/coton_sport_fc.webp"
     },
     {
         "name": "Union Douala",
@@ -10136,8 +10121,8 @@ const teams = [
         "trophies": "Elite One: 4, CAF Champions League: 1",
         "mustKnowFact": "Green-white coastal legends.",
         "active": true,
-        "logo": "logos/union_douala.png",
-        "uniform": "uniforms/union_douala.png"
+        "logo": "logos/union_douala.webp",
+        "uniform": "uniforms/union_douala.webp"
     },
     {
         "name": "Bamboutos FC",
@@ -10151,8 +10136,8 @@ const teams = [
         "trophies": "Elite One: 1",
         "mustKnowFact": "Green-white western warriors.",
         "active": true,
-        "logo": "logos/bamboutos_fc.png",
-        "uniform": "uniforms/bamboutos_fc.png"
+        "logo": "logos/bamboutos_fc.webp",
+        "uniform": "uniforms/bamboutos_fc.webp"
     },
     {
         "name": "Tonnerre Yaoundé",
@@ -10166,8 +10151,8 @@ const teams = [
         "trophies": "Elite One: 5",
         "mustKnowFact": "White-black thunder of Yaoundé.",
         "active": true,
-        "logo": "logos/tonnerre_yaounde.png",
-        "uniform": "uniforms/tonnerre_yaounde.png"
+        "logo": "logos/tonnerre_yaounde.webp",
+        "uniform": "uniforms/tonnerre_yaounde.webp"
     },
     {
         "name": "UMS de Loum",
@@ -10181,8 +10166,8 @@ const teams = [
         "trophies": "Elite One: 1",
         "mustKnowFact": "Red-white surprise champions.",
         "active": true,
-        "logo": "logos/ums_de_loum.png",
-        "uniform": "uniforms/ums_de_loum.png"
+        "logo": "logos/ums_de_loum.webp",
+        "uniform": "uniforms/ums_de_loum.webp"
     },
     {
         "name": "Fovu Club",
@@ -10196,8 +10181,8 @@ const teams = [
         "trophies": "Elite One: 2",
         "mustKnowFact": "Yellow-green western rocks.",
         "active": true,
-        "logo": "logos/fovu_club.png",
-        "uniform": "uniforms/fovu_club.png"
+        "logo": "logos/fovu_club.webp",
+        "uniform": "uniforms/fovu_club.webp"
     },
     {
         "name": "Young Sports Academy",
@@ -10211,8 +10196,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue youth pipeline.",
         "active": true,
-        "logo": "logos/young_sports_academy.png",
-        "uniform": "uniforms/young_sports_academy.png"
+        "logo": "logos/young_sports_academy.webp",
+        "uniform": "uniforms/young_sports_academy.webp"
     },
     {
         "name": "Colombe Sportive",
@@ -10226,8 +10211,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue doves of the south.",
         "active": true,
-        "logo": "logos/colombe_sportive.png",
-        "uniform": "uniforms/colombe_sportive.png"
+        "logo": "logos/colombe_sportive.webp",
+        "uniform": "uniforms/colombe_sportive.webp"
     },
     {
         "name": "Dragon Club",
@@ -10241,8 +10226,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow dragons of the capital.",
         "active": true,
-        "logo": "logos/dragon_club.png",
-        "uniform": "uniforms/dragon_club.png"
+        "logo": "logos/dragon_club.webp",
+        "uniform": "uniforms/dragon_club.webp"
     },
     {
         "name": "Eding Sport",
@@ -10256,8 +10241,8 @@ const teams = [
         "trophies": "Elite One: 1",
         "mustKnowFact": "Blue-white rural champs.",
         "active": true,
-        "logo": "logos/eding_sport.png",
-        "uniform": "uniforms/eding_sport.png"
+        "logo": "logos/eding_sport.webp",
+        "uniform": "uniforms/eding_sport.webp"
     },
     {
         "name": "Avion Academy",
@@ -10271,8 +10256,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white flyers of Douala.",
         "active": true,
-        "logo": "logos/avion_academy.png",
-        "uniform": "uniforms/avion_academy.png"
+        "logo": "logos/avion_academy.webp",
+        "uniform": "uniforms/avion_academy.webp"
     },
     {
         "name": "Stade Renard",
@@ -10286,8 +10271,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green foxes of the west.",
         "active": true,
-        "logo": "logos/stade_renard.png",
-        "uniform": "uniforms/stade_renard.png"
+        "logo": "logos/stade_renard.webp",
+        "uniform": "uniforms/stade_renard.webp"
     },
     {
         "name": "PWD Bamenda",
@@ -10301,8 +10286,8 @@ const teams = [
         "trophies": "Elite One: 1",
         "mustKnowFact": "Blue-white northwest pride.",
         "active": true,
-        "logo": "logos/pwd_bamenda.png",
-        "uniform": "uniforms/pwd_bamenda.png"
+        "logo": "logos/pwd_bamenda.webp",
+        "uniform": "uniforms/pwd_bamenda.webp"
     },
     {
         "name": "Les Astres FC",
@@ -10316,8 +10301,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange stars of the coast.",
         "active": true,
-        "logo": "logos/les_astres_fc.png",
-        "uniform": "uniforms/les_astres_fc.png"
+        "logo": "logos/les_astres_fc.webp",
+        "uniform": "uniforms/les_astres_fc.webp"
     },
     {
         "name": "Feutcheu FC",
@@ -10331,8 +10316,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white western upstarts.",
         "active": true,
-        "logo": "logos/feutcheu_fc.png",
-        "uniform": "uniforms/feutcheu_fc.png"
+        "logo": "logos/feutcheu_fc.webp",
+        "uniform": "uniforms/feutcheu_fc.webp"
     },
     {
         "name": "Ulsan HD FC",
@@ -10346,8 +10331,8 @@ const teams = [
         "trophies": "K League 1: 4, AFC Champions League: 2",
         "mustKnowFact": "Blue-orange tigers of the southeast.",
         "active": true,
-        "logo": "logos/ulsan_hd.png",
-        "uniform": "uniforms/ulsan_hd.png"
+        "logo": "logos/ulsan_hd.webp",
+        "uniform": "uniforms/ulsan_hd.webp"
     },
     {
         "name": "Jeonbuk Hyundai Motors",
@@ -10361,8 +10346,8 @@ const teams = [
         "trophies": "K League 1: 9, AFC Champions League: 2",
         "mustKnowFact": "Green giants of Korean football.",
         "active": true,
-        "logo": "logos/jeonbuk.png",
-        "uniform": "uniforms/jeonbuk.png"
+        "logo": "logos/jeonbuk.webp",
+        "uniform": "uniforms/jeonbuk.webp"
     },
     {
         "name": "FC Seoul",
@@ -10376,8 +10361,8 @@ const teams = [
         "trophies": "K League 1: 6",
         "mustKnowFact": "Red-black capital power.",
         "active": true,
-        "logo": "logos/fc_seoul.png",
-        "uniform": "uniforms/fc_seoul.png"
+        "logo": "logos/fc_seoul.webp",
+        "uniform": "uniforms/fc_seoul.webp"
     },
     {
         "name": "Pohang Steelers",
@@ -10391,8 +10376,8 @@ const teams = [
         "trophies": "K League 1: 5, AFC Champions League: 3",
         "mustKnowFact": "Red-black steelmen of the east.",
         "active": true,
-        "logo": "logos/pohang_steelers.png",
-        "uniform": "uniforms/pohang_steelers.png"
+        "logo": "logos/pohang_steelers.webp",
+        "uniform": "uniforms/pohang_steelers.webp"
     },
     {
         "name": "Suwon Samsung Bluewings",
@@ -10406,8 +10391,8 @@ const teams = [
         "trophies": "K League 1: 4, AFC Champions League: 2",
         "mustKnowFact": "Blue-red winged dynasty.",
         "active": true,
-        "logo": "logos/suwon_fc.png",
-        "uniform": "uniforms/suwon_fc.png"
+        "logo": "logos/suwon_fc.webp",
+        "uniform": "uniforms/suwon_fc.webp"
     },
     {
         "name": "Incheon United",
@@ -10421,8 +10406,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-black port city grit.",
         "active": true,
-        "logo": "logos/incheon.png",
-        "uniform": "uniforms/incheon.png"
+        "logo": "logos/incheon.webp",
+        "uniform": "uniforms/incheon.webp"
     },
     {
         "name": "Daegu FC",
@@ -10436,8 +10421,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky-blue southeastern spirit.",
         "active": true,
-        "logo": "logos/daegu_fc.png",
-        "uniform": "uniforms/daegu_fc.png"
+        "logo": "logos/daegu_fc.webp",
+        "uniform": "uniforms/daegu_fc.webp"
     },
     {
         "name": "Gangwon FC",
@@ -10451,8 +10436,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-black mountain warriors.",
         "active": true,
-        "logo": "logos/gangwon_fc.png",
-        "uniform": "uniforms/gangwon_fc.png"
+        "logo": "logos/gangwon_fc.webp",
+        "uniform": "uniforms/gangwon_fc.webp"
     },
     {
         "name": "Jeju United",
@@ -10466,8 +10451,8 @@ const teams = [
         "trophies": "K League 1: 1",
         "mustKnowFact": "Orange islanders of the south.",
         "active": true,
-        "logo": "logos/jeju_sk.png",
-        "uniform": "uniforms/jeju_sk.png"
+        "logo": "logos/jeju_sk.webp",
+        "uniform": "uniforms/jeju_sk.webp"
     },
     {
         "name": "Gwangju FC",
@@ -10481,8 +10466,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow southwestern pride.",
         "active": true,
-        "logo": "logos/gwangju_fc.png",
-        "uniform": "uniforms/gwangju_fc.png"
+        "logo": "logos/gwangju_fc.webp",
+        "uniform": "uniforms/gwangju_fc.webp"
     },
     {
         "name": "Daejeon Hana Citizen",
@@ -10496,8 +10481,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green central contenders.",
         "active": true,
-        "logo": "logos/daejeon.png",
-        "uniform": "uniforms/daejeon.png"
+        "logo": "logos/daejeon.webp",
+        "uniform": "uniforms/daejeon.webp"
     },
     {
         "name": "Gimcheon Sangmu",
@@ -10511,8 +10496,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white military squad.",
         "active": true,
-        "logo": "logos/sangmu.png",
-        "uniform": "uniforms/sangmu.png"
+        "logo": "logos/sangmu.webp",
+        "uniform": "uniforms/sangmu.webp"
     },
     {
         "name": "Espérance de Tunis",
@@ -10526,8 +10511,8 @@ const teams = [
         "trophies": "Ligue 1: 32, CAF Champions League: 4",
         "mustKnowFact": "Red-yellow blood and gold.",
         "active": true,
-        "logo": "logos/esperance_de_tunis.png",
-        "uniform": "uniforms/esperance_de_tunis.png"
+        "logo": "logos/esperance_de_tunis.webp",
+        "uniform": "uniforms/esperance_de_tunis.webp"
     },
     {
         "name": "Étoile du Sahel",
@@ -10541,8 +10526,8 @@ const teams = [
         "trophies": "Ligue 1: 10, CAF Champions League: 1",
         "mustKnowFact": "Red-white coastal stars.",
         "active": true,
-        "logo": "logos/etoile_du_sahel.png",
-        "uniform": "uniforms/etoile_du_sahel.png"
+        "logo": "logos/etoile_du_sahel.webp",
+        "uniform": "uniforms/etoile_du_sahel.webp"
     },
     {
         "name": "Club Africain",
@@ -10556,8 +10541,8 @@ const teams = [
         "trophies": "Ligue 1: 13, CAF Champions League: 1",
         "mustKnowFact": "Red-white people’s club.",
         "active": true,
-        "logo": "logos/club_africain.png",
-        "uniform": "uniforms/club_africain.png"
+        "logo": "logos/club_africain.webp",
+        "uniform": "uniforms/club_africain.webp"
     },
     {
         "name": "CS Sfaxien",
@@ -10571,8 +10556,8 @@ const teams = [
         "trophies": "Ligue 1: 8",
         "mustKnowFact": "Black-white southern force.",
         "active": true,
-        "logo": "logos/cs_sfaxien.png",
-        "uniform": "uniforms/cs_sfaxien.png"
+        "logo": "logos/cs_sfaxien.webp",
+        "uniform": "uniforms/cs_sfaxien.webp"
     },
     {
         "name": "US Monastir",
@@ -10586,8 +10571,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Blue-white coastal risers.",
         "active": true,
-        "logo": "logos/us_monastir.png",
-        "uniform": "uniforms/us_monastir.png"
+        "logo": "logos/us_monastir.webp",
+        "uniform": "uniforms/us_monastir.webp"
     },
     {
         "name": "CA Bizertin",
@@ -10601,8 +10586,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Yellow-blue northern sharks.",
         "active": true,
-        "logo": "logos/ca_bizertin.png",
-        "uniform": "uniforms/ca_bizertin.png"
+        "logo": "logos/ca_bizertin.webp",
+        "uniform": "uniforms/ca_bizertin.webp"
     },
     {
         "name": "Stade Tunisien",
@@ -10616,8 +10601,8 @@ const teams = [
         "trophies": "Ligue 1: 4",
         "mustKnowFact": "Green-red capital veterans.",
         "active": true,
-        "logo": "logos/stade_tunisien.png",
-        "uniform": "uniforms/stade_tunisien.png"
+        "logo": "logos/stade_tunisien.webp",
+        "uniform": "uniforms/stade_tunisien.webp"
     },
     {
         "name": "AS Soliman",
@@ -10631,8 +10616,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white suburban grit.",
         "active": true,
-        "logo": "logos/as_soliman.png",
-        "uniform": "uniforms/as_soliman.png"
+        "logo": "logos/as_soliman.webp",
+        "uniform": "uniforms/as_soliman.webp"
     },
     {
         "name": "US Tataouine",
@@ -10646,8 +10631,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white desert fighters.",
         "active": true,
-        "logo": "logos/us_tataouine.png",
-        "uniform": "uniforms/us_tataouine.png"
+        "logo": "logos/us_tataouine.webp",
+        "uniform": "uniforms/us_tataouine.webp"
     },
     {
         "name": "ES Métlaoui",
@@ -10661,8 +10646,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white mining town pride.",
         "active": true,
-        "logo": "logos/es_metlaoui.png",
-        "uniform": "uniforms/es_metlaoui.png"
+        "logo": "logos/es_metlaoui.webp",
+        "uniform": "uniforms/es_metlaoui.webp"
     },
     {
         "name": "Olympique Béja",
@@ -10676,8 +10661,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white northwestern spirit.",
         "active": true,
-        "logo": "logos/olympique_beja.png",
-        "uniform": "uniforms/olympique_beja.png"
+        "logo": "logos/olympique_beja.webp",
+        "uniform": "uniforms/olympique_beja.webp"
     },
     {
         "name": "JS Kairouan",
@@ -10691,8 +10676,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white central contenders.",
         "active": true,
-        "logo": "logos/js_kairouan.png",
-        "uniform": "uniforms/js_kairouan.png"
+        "logo": "logos/js_kairouan.webp",
+        "uniform": "uniforms/js_kairouan.webp"
     },
     {
         "name": "ES Hammam-Sousse",
@@ -10706,8 +10691,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white beachside squad.",
         "active": true,
-        "logo": "logos/es_hammam_sousse.png",
-        "uniform": "uniforms/es_hammam_sousse.png"
+        "logo": "logos/es_hammam_sousse.webp",
+        "uniform": "uniforms/es_hammam_sousse.webp"
     },
     {
         "name": "CS Chebba",
@@ -10721,8 +10706,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow eastern risers.",
         "active": true,
-        "logo": "logos/cs_chebba.png",
-        "uniform": "uniforms/cs_chebba.png"
+        "logo": "logos/cs_chebba.webp",
+        "uniform": "uniforms/cs_chebba.webp"
     },
     {
         "name": "Mamelodi Sundowns",
@@ -10736,8 +10721,8 @@ const teams = [
         "trophies": "PSL: 14, CAF Champions League: 1",
         "mustKnowFact": "Yellow-blue Brazilians of SA.",
         "active": true,
-        "logo": "logos/mamelodi_sundowns.png",
-        "uniform": "uniforms/mamelodi_sundowns.png"
+        "logo": "logos/mamelodi_sundowns.webp",
+        "uniform": "uniforms/mamelodi_sundowns.webp"
     },
     {
         "name": "Orlando Pirates",
@@ -10751,8 +10736,8 @@ const teams = [
         "trophies": "PSL: 4, CAF Champions League: 1",
         "mustKnowFact": "Black-white buccaneers.",
         "active": true,
-        "logo": "logos/orlando_pirates.png",
-        "uniform": "uniforms/orlando_pirates.png"
+        "logo": "logos/orlando_pirates.webp",
+        "uniform": "uniforms/orlando_pirates.webp"
     },
     {
         "name": "Kaizer Chiefs",
@@ -10766,8 +10751,8 @@ const teams = [
         "trophies": "PSL: 4",
         "mustKnowFact": "Gold-black amakhosi.",
         "active": true,
-        "logo": "logos/kaizer_chiefs.png",
-        "uniform": "uniforms/kaizer_chiefs.png"
+        "logo": "logos/kaizer_chiefs.webp",
+        "uniform": "uniforms/kaizer_chiefs.webp"
     },
     {
         "name": "SuperSport United",
@@ -10781,8 +10766,8 @@ const teams = [
         "trophies": "PSL: 3",
         "mustKnowFact": "Blue-white matsatsantsa.",
         "active": true,
-        "logo": "logos/supersport_united.png",
-        "uniform": "uniforms/supersport_united.png"
+        "logo": "logos/supersport_united.webp",
+        "uniform": "uniforms/supersport_united.webp"
     },
     {
         "name": "Cape Town City",
@@ -10796,8 +10781,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow citizens.",
         "active": true,
-        "logo": "logos/cape_town_city.png",
-        "uniform": "uniforms/cape_town_city.png"
+        "logo": "logos/cape_town_city.webp",
+        "uniform": "uniforms/cape_town_city.webp"
     },
     {
         "name": "Stellenbosch FC",
@@ -10811,8 +10796,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Maroon-white wine town pride.",
         "active": true,
-        "logo": "logos/stellenbosch_fc.png",
-        "uniform": "uniforms/stellenbosch_fc.png"
+        "logo": "logos/stellenbosch_fc.webp",
+        "uniform": "uniforms/stellenbosch_fc.webp"
     },
     {
         "name": "AmaZulu FC",
@@ -10826,8 +10811,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white usuthu.",
         "active": true,
-        "logo": "logos/amazulu_fc.png",
-        "uniform": "uniforms/amazulu_fc.png"
+        "logo": "logos/amazulu_fc.webp",
+        "uniform": "uniforms/amazulu_fc.webp"
     },
     {
         "name": "Marumo Gallants",
@@ -10841,8 +10826,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black northern upstarts.",
         "active": true,
-        "logo": "logos/marumo_gallants.png",
-        "uniform": "uniforms/marumo_gallants.png"
+        "logo": "logos/marumo_gallants.webp",
+        "uniform": "uniforms/marumo_gallants.webp"
     },
     {
         "name": "Sekhukhune United",
@@ -10856,8 +10841,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow babina ngu.",
         "active": true,
-        "logo": "logos/sekhukhune_united.png",
-        "uniform": "uniforms/sekhukhune_united.png"
+        "logo": "logos/sekhukhune_united.webp",
+        "uniform": "uniforms/sekhukhune_united.webp"
     },
     {
         "name": "Chippa United",
@@ -10871,8 +10856,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white chilly boys.",
         "active": true,
-        "logo": "logos/chippa_united.png",
-        "uniform": "uniforms/chippa_united.png"
+        "logo": "logos/chippa_united.webp",
+        "uniform": "uniforms/chippa_united.webp"
     },
     {
         "name": "Golden Arrows",
@@ -10886,8 +10871,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-gold abafana bes’thende.",
         "active": true,
-        "logo": "logos/golden_arrows.png",
-        "uniform": "uniforms/golden_arrows.png"
+        "logo": "logos/golden_arrows.webp",
+        "uniform": "uniforms/golden_arrows.webp"
     },
     {
         "name": "TS Galaxy",
@@ -10901,8 +10886,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white rockets.",
         "active": true,
-        "logo": "logos/ts_galaxy.png",
-        "uniform": "uniforms/ts_galaxy.png"
+        "logo": "logos/ts_galaxy.webp",
+        "uniform": "uniforms/ts_galaxy.webp"
     },
     {
         "name": "Richards Bay FC",
@@ -10916,8 +10901,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white natal rich boys.",
         "active": true,
-        "logo": "logos/richards_bay.png",
-        "uniform": "uniforms/richards_bay.png"
+        "logo": "logos/richards_bay.webp",
+        "uniform": "uniforms/richards_bay.webp"
     },
     {
         "name": "Royal AM",
@@ -10931,8 +10916,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple-white royal thwihli.",
         "active": true,
-        "logo": "logos/royal_am.png",
-        "uniform": "uniforms/royal_am.png"
+        "logo": "logos/royal_am.webp",
+        "uniform": "uniforms/royal_am.webp"
     },
     {
         "name": "Polokwane City",
@@ -10946,8 +10931,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-green risers.",
         "active": true,
-        "logo": "logos/polokwane_city.png",
-        "uniform": "uniforms/polokwane_city.png"
+        "logo": "logos/polokwane_city.webp",
+        "uniform": "uniforms/polokwane_city.webp"
     },
     {
         "name": "Moroka Swallows",
@@ -10961,8 +10946,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white birds.",
         "active": true,
-        "logo": "logos/moroka_swallows.png",
-        "uniform": "uniforms/moroka_swallows.png"
+        "logo": "logos/moroka_swallows.webp",
+        "uniform": "uniforms/moroka_swallows.webp"
     },
     {
         "name": "Djoliba AC",
@@ -10976,8 +10961,8 @@ const teams = [
         "trophies": "Première Division: 23",
         "mustKnowFact": "Red-green Bamako giants.",
         "active": true,
-        "logo": "logos/djoliba_ac.png",
-        "uniform": "uniforms/djoliba_ac.png"
+        "logo": "logos/djoliba_ac.webp",
+        "uniform": "uniforms/djoliba_ac.webp"
     },
     {
         "name": "Stade Malien",
@@ -10991,8 +10976,8 @@ const teams = [
         "trophies": "Première Division: 20, CAF Champions League: 1",
         "mustKnowFact": "White-blue Bamako blues.",
         "active": true,
-        "logo": "logos/stade_malien.png",
-        "uniform": "uniforms/stade_malien.png"
+        "logo": "logos/stade_malien.webp",
+        "uniform": "uniforms/stade_malien.webp"
     },
     {
         "name": "AS Real Bamako",
@@ -11006,8 +10991,8 @@ const teams = [
         "trophies": "Première Division: 2",
         "mustKnowFact": "Red-black capital contenders.",
         "active": true,
-        "logo": "logos/as_real_bamako.png",
-        "uniform": "uniforms/as_real_bamako.png"
+        "logo": "logos/as_real_bamako.webp",
+        "uniform": "uniforms/as_real_bamako.webp"
     },
     {
         "name": "Onze Créateurs",
@@ -11021,8 +11006,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green eleven creators.",
         "active": true,
-        "logo": "logos/onze_createurs.png",
-        "uniform": "uniforms/onze_createurs.png"
+        "logo": "logos/onze_createurs.webp",
+        "uniform": "uniforms/onze_createurs.webp"
     },
     {
         "name": "CO Bamako",
@@ -11036,8 +11021,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white Bamako circle.",
         "active": true,
-        "logo": "logos/co_bamako.png",
-        "uniform": "uniforms/co_bamako.png"
+        "logo": "logos/co_bamako.webp",
+        "uniform": "uniforms/co_bamako.webp"
     },
     {
         "name": "USFAS Bamako",
@@ -11051,8 +11036,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white military squad.",
         "active": true,
-        "logo": "logos/usfas_bamako.png",
-        "uniform": "uniforms/usfas_bamako.png"
+        "logo": "logos/usfas_bamako.webp",
+        "uniform": "uniforms/usfas_bamako.webp"
     },
     {
         "name": "AS Bakaridjan",
@@ -11066,8 +11051,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white Ségou stars.",
         "active": true,
-        "logo": "logos/as_bakaridjan.png",
-        "uniform": "uniforms/as_bakaridjan.png"
+        "logo": "logos/as_bakaridjan.webp",
+        "uniform": "uniforms/as_bakaridjan.webp"
     },
     {
         "name": "AS Police",
@@ -11081,8 +11066,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow law enforcers.",
         "active": true,
-        "logo": "logos/as_police.png",
-        "uniform": "uniforms/as_police.png"
+        "logo": "logos/as_police.webp",
+        "uniform": "uniforms/as_police.webp"
     },
     {
         "name": "Black Stars",
@@ -11096,8 +11081,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-yellow Bamako risers.",
         "active": true,
-        "logo": "logos/black_stars.png",
-        "uniform": "uniforms/black_stars.png"
+        "logo": "logos/black_stars.webp",
+        "uniform": "uniforms/black_stars.webp"
     },
     {
         "name": "CS Duguwolofila",
@@ -11111,8 +11096,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green regional force.",
         "active": true,
-        "logo": "logos/cs_duguwolofila.png",
-        "uniform": "uniforms/cs_duguwolofila.png"
+        "logo": "logos/cs_duguwolofila.webp",
+        "uniform": "uniforms/cs_duguwolofila.webp"
     },
     {
         "name": "AS Nianan",
@@ -11126,8 +11111,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue Nianan warriors.",
         "active": true,
-        "logo": "logos/as_nianan.png",
-        "uniform": "uniforms/as_nianan.png"
+        "logo": "logos/as_nianan.webp",
+        "uniform": "uniforms/as_nianan.webp"
     },
     {
         "name": "USC Kita",
@@ -11141,8 +11126,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white western pride.",
         "active": true,
-        "logo": "logos/usc_kita.png",
-        "uniform": "uniforms/usc_kita.png"
+        "logo": "logos/usc_kita.webp",
+        "uniform": "uniforms/usc_kita.webp"
     },
     {
         "name": "AS Sabana",
@@ -11156,8 +11141,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white Mopti squad.",
         "active": true,
-        "logo": "logos/as_sabana.png",
-        "uniform": "uniforms/as_sabana.png"
+        "logo": "logos/as_sabana.webp",
+        "uniform": "uniforms/as_sabana.webp"
     },
     {
         "name": "Yeelen Olympique",
@@ -11171,8 +11156,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue youth academy.",
         "active": true,
-        "logo": "logos/yeelen_olympique.png",
-        "uniform": "uniforms/yeelen_olympique.png"
+        "logo": "logos/yeelen_olympique.webp",
+        "uniform": "uniforms/yeelen_olympique.webp"
     },
     {
         "name": "ASOM",
@@ -11186,8 +11171,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow Bamako veterans.",
         "active": true,
-        "logo": "logos/asom.png",
-        "uniform": "uniforms/asom.png"
+        "logo": "logos/asom.webp",
+        "uniform": "uniforms/asom.webp"
     },
     {
         "name": "LC Bamako",
@@ -11201,8 +11186,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white capital lions.",
         "active": true,
-        "logo": "logos/lc_bamako.png",
-        "uniform": "uniforms/lc_bamako.png"
+        "logo": "logos/lc_bamako.webp",
+        "uniform": "uniforms/lc_bamako.webp"
     },
     {
         "name": "TP Mazembe",
@@ -11216,8 +11201,8 @@ const teams = [
         "trophies": "Linafoot: 19, CAF Champions League: 5",
         "mustKnowFact": "Black-white ravens of Congo.",
         "active": true,
-        "logo": "logos/tp_mazembe.png",
-        "uniform": "uniforms/tp_mazembe.png"
+        "logo": "logos/tp_mazembe.webp",
+        "uniform": "uniforms/tp_mazembe.webp"
     },
     {
         "name": "AS Vita Club",
@@ -11231,8 +11216,8 @@ const teams = [
         "trophies": "Linafoot: 15, CAF Champions League: 1",
         "mustKnowFact": "Green-black Kinshasa kings.",
         "active": true,
-        "logo": "logos/as_vita_club.png",
-        "uniform": "uniforms/as_vita_club.png"
+        "logo": "logos/as_vita_club.webp",
+        "uniform": "uniforms/as_vita_club.webp"
     },
     {
         "name": "DC Motema Pembe",
@@ -11246,8 +11231,8 @@ const teams = [
         "trophies": "Linafoot: 13",
         "mustKnowFact": "Green-white immortals.",
         "active": true,
-        "logo": "logos/dc_motema_pembe.png",
-        "uniform": "uniforms/dc_motema_pembe.png"
+        "logo": "logos/dc_motema_pembe.webp",
+        "uniform": "uniforms/dc_motema_pembe.webp"
     },
     {
         "name": "FC Saint-Éloi Lupopo",
@@ -11261,8 +11246,8 @@ const teams = [
         "trophies": "Linafoot: 6",
         "mustKnowFact": "Yellow-blue cheetahs.",
         "active": true,
-        "logo": "logos/fc_saint_eloi_lupopo.png",
-        "uniform": "uniforms/fc_saint_eloi_lupopo.png"
+        "logo": "logos/fc_saint_eloi_lupopo.webp",
+        "uniform": "uniforms/fc_saint_eloi_lupopo.webp"
     },
     {
         "name": "AS Maniema Union",
@@ -11276,8 +11261,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white eastern risers.",
         "active": true,
-        "logo": "logos/as_maniema_union.png",
-        "uniform": "uniforms/as_maniema_union.png"
+        "logo": "logos/as_maniema_union.webp",
+        "uniform": "uniforms/as_maniema_union.webp"
     },
     {
         "name": "CS Don Bosco",
@@ -11291,8 +11276,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white salesians.",
         "active": true,
-        "logo": "logos/cs_don_bosco.png",
-        "uniform": "uniforms/cs_don_bosco.png"
+        "logo": "logos/cs_don_bosco.webp",
+        "uniform": "uniforms/cs_don_bosco.webp"
     },
     {
         "name": "FC Renaissance",
@@ -11306,8 +11291,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white newcomers.",
         "active": true,
-        "logo": "logos/fc_renaissance.png",
-        "uniform": "uniforms/fc_renaissance.png"
+        "logo": "logos/fc_renaissance.webp",
+        "uniform": "uniforms/fc_renaissance.webp"
     },
     {
         "name": "SM Sanga Balende",
@@ -11321,8 +11306,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow angels and saints.",
         "active": true,
-        "logo": "logos/sm_sanga_balende.png",
-        "uniform": "uniforms/sm_sanga_balende.png"
+        "logo": "logos/sm_sanga_balende.webp",
+        "uniform": "uniforms/sm_sanga_balende.webp"
     },
     {
         "name": "AC Rangers",
@@ -11336,8 +11321,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-blue Kinshasa veterans.",
         "active": true,
-        "logo": "logos/ac_rangers.png",
-        "uniform": "uniforms/ac_rangers.png"
+        "logo": "logos/ac_rangers.webp",
+        "uniform": "uniforms/ac_rangers.webp"
     },
     {
         "name": "JS Groupe Bazano",
@@ -11351,8 +11336,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green southern squad.",
         "active": true,
-        "logo": "logos/js_groupe_bazano.png",
-        "uniform": "uniforms/js_groupe_bazano.png"
+        "logo": "logos/js_groupe_bazano.webp",
+        "uniform": "uniforms/js_groupe_bazano.webp"
     },
     {
         "name": "AS Dauphins Noirs",
@@ -11366,8 +11351,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white eastern dolphins.",
         "active": true,
-        "logo": "logos/as_dauphins_noirs.png",
-        "uniform": "uniforms/as_dauphins_noirs.png"
+        "logo": "logos/as_dauphins_noirs.webp",
+        "uniform": "uniforms/as_dauphins_noirs.webp"
     },
     {
         "name": "FC Lubumbashi Sport",
@@ -11381,8 +11366,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white southern grit.",
         "active": true,
-        "logo": "logos/fc_lubumbashi_sport.png",
-        "uniform": "uniforms/fc_lubumbashi_sport.png"
+        "logo": "logos/fc_lubumbashi_sport.webp",
+        "uniform": "uniforms/fc_lubumbashi_sport.webp"
     },
     {
         "name": "AC Kuya Sport",
@@ -11396,8 +11381,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow Kinshasa risers.",
         "active": true,
-        "logo": "logos/ac_kuya_sport.png",
-        "uniform": "uniforms/ac_kuya_sport.png"
+        "logo": "logos/ac_kuya_sport.webp",
+        "uniform": "uniforms/ac_kuya_sport.webp"
     },
     {
         "name": "JS Kinshasa",
@@ -11411,8 +11396,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow capital squad.",
         "active": true,
-        "logo": "logos/js_kinshasa.png",
-        "uniform": "uniforms/js_kinshasa.png"
+        "logo": "logos/js_kinshasa.webp",
+        "uniform": "uniforms/js_kinshasa.webp"
     },
     {
         "name": " Blessing FC",
@@ -11426,8 +11411,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue western hope.",
         "active": true,
-        "logo": "logos/blessing_fc.png",
-        "uniform": "uniforms/blessing_fc.png"
+        "logo": "logos/blessing_fc.webp",
+        "uniform": "uniforms/blessing_fc.webp"
     },
     {
         "name": "FC Simba",
@@ -11441,8 +11426,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow lions of Kolwezi.",
         "active": true,
-        "logo": "logos/fc_simba.png",
-        "uniform": "uniforms/fc_simba.png"
+        "logo": "logos/fc_simba.webp",
+        "uniform": "uniforms/fc_simba.webp"
     },
     {
         "name": "Étoile Filante",
@@ -11456,8 +11441,8 @@ const teams = [
         "trophies": "Fasofoot D1: 13",
         "mustKnowFact": "Blue-white shooting stars.",
         "active": true,
-        "logo": "logos/etoile_filante.png",
-        "uniform": "uniforms/etoile_filante.png"
+        "logo": "logos/etoile_filante.webp",
+        "uniform": "uniforms/etoile_filante.webp"
     },
     {
         "name": "ASFA Yennenga",
@@ -11471,8 +11456,8 @@ const teams = [
         "trophies": "Fasofoot D1: 14",
         "mustKnowFact": "Green-yellow Ouaga kings.",
         "active": true,
-        "logo": "logos/asfa_yennenga.png",
-        "uniform": "uniforms/asfa_yennenga.png"
+        "logo": "logos/asfa_yennenga.webp",
+        "uniform": "uniforms/asfa_yennenga.webp"
     },
     {
         "name": "RCK",
@@ -11486,8 +11471,8 @@ const teams = [
         "trophies": "Fasofoot D1: 4",
         "mustKnowFact": "Red-white rail club.",
         "active": true,
-        "logo": "logos/rck.png",
-        "uniform": "uniforms/rck.png"
+        "logo": "logos/rck.webp",
+        "uniform": "uniforms/rck.webp"
     },
     {
         "name": "Salitas FC",
@@ -11501,8 +11486,8 @@ const teams = [
         "trophies": "Fasofoot D1: 1",
         "mustKnowFact": "Green-white modern champs.",
         "active": true,
-        "logo": "logos/salitas_fc.png",
-        "uniform": "uniforms/salitas_fc.png"
+        "logo": "logos/salitas_fc.webp",
+        "uniform": "uniforms/salitas_fc.webp"
     },
     {
         "name": "Majestic FC",
@@ -11516,8 +11501,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white rural risers.",
         "active": true,
-        "logo": "logos/majestic_fc.png",
-        "uniform": "uniforms/majestic_fc.png"
+        "logo": "logos/majestic_fc.webp",
+        "uniform": "uniforms/majestic_fc.webp"
     },
     {
         "name": "USFA",
@@ -11531,8 +11516,8 @@ const teams = [
         "trophies": "Fasofoot D1: 4",
         "mustKnowFact": "Green-red army pride.",
         "active": true,
-        "logo": "logos/usfa.png",
-        "uniform": "uniforms/usfa.png"
+        "logo": "logos/usfa.webp",
+        "uniform": "uniforms/usfa.webp"
     },
     {
         "name": "Rahimo FC",
@@ -11546,8 +11531,8 @@ const teams = [
         "trophies": "Fasofoot D1: 1",
         "mustKnowFact": "Blue-white western champs.",
         "active": true,
-        "logo": "logos/rahimo_fc.png",
-        "uniform": "uniforms/rahimo_fc.png"
+        "logo": "logos/rahimo_fc.webp",
+        "uniform": "uniforms/rahimo_fc.webp"
     },
     {
         "name": "AS SONABEL",
@@ -11561,8 +11546,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue electric squad.",
         "active": true,
-        "logo": "logos/as_sonabel.png",
-        "uniform": "uniforms/as_sonabel.png"
+        "logo": "logos/as_sonabel.webp",
+        "uniform": "uniforms/as_sonabel.webp"
     },
     {
         "name": "RC Bobo-Dioulasso",
@@ -11576,8 +11561,8 @@ const teams = [
         "trophies": "Fasofoot D1: 3",
         "mustKnowFact": "Green-white western veterans.",
         "active": true,
-        "logo": "logos/rc_bobo_dioulasso.png",
-        "uniform": "uniforms/rc_bobo_dioulasso.png"
+        "logo": "logos/rc_bobo_dioulasso.webp",
+        "uniform": "uniforms/rc_bobo_dioulasso.webp"
     },
     {
         "name": "ASF Bobo-Dioulasso",
@@ -11591,8 +11576,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white Bobo pride.",
         "active": true,
-        "logo": "logos/asf_bobo_dioulasso.png",
-        "uniform": "uniforms/asf_bobo_dioulasso.png"
+        "logo": "logos/asf_bobo_dioulasso.webp",
+        "uniform": "uniforms/asf_bobo_dioulasso.webp"
     },
     {
         "name": "Vitesse FC",
@@ -11606,8 +11591,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow speedsters.",
         "active": true,
-        "logo": "logos/vitesse_fc.png",
-        "uniform": "uniforms/vitesse_fc.png"
+        "logo": "logos/vitesse_fc.webp",
+        "uniform": "uniforms/vitesse_fc.webp"
     },
     {
         "name": "KOZAF",
@@ -11621,8 +11606,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green Ouaga squad.",
         "active": true,
-        "logo": "logos/kozaf.png",
-        "uniform": "uniforms/kozaf.png"
+        "logo": "logos/kozaf.webp",
+        "uniform": "uniforms/kozaf.webp"
     },
     {
         "name": "Royal FC",
@@ -11636,8 +11621,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple-white royals.",
         "active": true,
-        "logo": "logos/royal_fc.png",
-        "uniform": "uniforms/royal_fc.png"
+        "logo": "logos/royal_fc.webp",
+        "uniform": "uniforms/royal_fc.webp"
     },
     {
         "name": "AS Tanda",
@@ -11651,8 +11636,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green capital upstarts.",
         "active": true,
-        "logo": "logos/as_tanda.png",
-        "uniform": "uniforms/as_tanda.png"
+        "logo": "logos/as_tanda.webp",
+        "uniform": "uniforms/as_tanda.webp"
     },
     {
         "name": "Sporting Praia",
@@ -11666,8 +11651,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 12",
         "mustKnowFact": "Green-white Praia lions.",
         "active": true,
-        "logo": "logos/sporting_praia.png",
-        "uniform": "uniforms/sporting_praia.png"
+        "logo": "logos/sporting_praia.webp",
+        "uniform": "uniforms/sporting_praia.webp"
     },
     {
         "name": "CS Mindelense",
@@ -11681,8 +11666,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 12",
         "mustKnowFact": "Red-white São Vicente kings.",
         "active": true,
-        "logo": "logos/cs_mindelense.png",
-        "uniform": "uniforms/cs_mindelense.png"
+        "logo": "logos/cs_mindelense.webp",
+        "uniform": "uniforms/cs_mindelense.webp"
     },
     {
         "name": "Académica do Sal",
@@ -11696,8 +11681,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 1",
         "mustKnowFact": "Black-white Sal scholars.",
         "active": true,
-        "logo": "logos/academica_do_sal.png",
-        "uniform": "uniforms/academica_do_sal.png"
+        "logo": "logos/academica_do_sal.webp",
+        "uniform": "uniforms/academica_do_sal.webp"
     },
     {
         "name": "FC Derby",
@@ -11711,8 +11696,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 3",
         "mustKnowFact": "Blue-white Mindelo rivals.",
         "active": true,
-        "logo": "logos/fc_derby.png",
-        "uniform": "uniforms/fc_derby.png"
+        "logo": "logos/fc_derby.webp",
+        "uniform": "uniforms/fc_derby.webp"
     },
     {
         "name": "Académico 83",
@@ -11726,8 +11711,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white Santo Antão stars.",
         "active": true,
-        "logo": "logos/academico_83.png",
-        "uniform": "uniforms/academico_83.png"
+        "logo": "logos/academico_83.webp",
+        "uniform": "uniforms/academico_83.webp"
     },
     {
         "name": "CD Travadores",
@@ -11741,8 +11726,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 2",
         "mustKnowFact": "Red-white Praia travelers.",
         "active": true,
-        "logo": "logos/cd_travadores.png",
-        "uniform": "uniforms/cd_travadores.png"
+        "logo": "logos/cd_travadores.webp",
+        "uniform": "uniforms/cd_travadores.webp"
     },
     {
         "name": "SC Santa Maria",
@@ -11756,8 +11741,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white Sal islanders.",
         "active": true,
-        "logo": "logos/sc_santa_maria.png",
-        "uniform": "uniforms/sc_santa_maria.png"
+        "logo": "logos/sc_santa_maria.webp",
+        "uniform": "uniforms/sc_santa_maria.webp"
     },
     {
         "name": "GD Palmeira",
@@ -11771,8 +11756,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white palm trees.",
         "active": true,
-        "logo": "logos/gd_palmeira.png",
-        "uniform": "uniforms/gd_palmeira.png"
+        "logo": "logos/gd_palmeira.webp",
+        "uniform": "uniforms/gd_palmeira.webp"
     },
     {
         "name": "Académica da Praia",
@@ -11786,8 +11771,8 @@ const teams = [
         "trophies": "Campeonato Nacional: 1",
         "mustKnowFact": "Black-white Praia academics.",
         "active": true,
-        "logo": "logos/academica_da_praia.png",
-        "uniform": "uniforms/academica_da_praia.png"
+        "logo": "logos/academica_da_praia.webp",
+        "uniform": "uniforms/academica_da_praia.webp"
     },
     {
         "name": "SC Atlético",
@@ -11801,8 +11786,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue São Vicente grit.",
         "active": true,
-        "logo": "logos/sc_atletico.png",
-        "uniform": "uniforms/sc_atletico.png"
+        "logo": "logos/sc_atletico.webp",
+        "uniform": "uniforms/sc_atletico.webp"
     },
     {
         "name": "Batuque FC",
@@ -11816,8 +11801,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-black drumbeat warriors.",
         "active": true,
-        "logo": "logos/batuque_fc.png",
-        "uniform": "uniforms/batuque_fc.png"
+        "logo": "logos/batuque_fc.webp",
+        "uniform": "uniforms/batuque_fc.webp"
     },
     {
         "name": "AD Bairro",
@@ -11831,8 +11816,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black neighborhood pride.",
         "active": true,
-        "logo": "logos/ad_bairro.png",
-        "uniform": "uniforms/ad_bairro.png"
+        "logo": "logos/ad_bairro.webp",
+        "uniform": "uniforms/ad_bairro.webp"
     },
     {
         "name": "SC Verdun",
@@ -11846,8 +11831,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white Santiago squad.",
         "active": true,
-        "logo": "logos/sc_verdun.png",
-        "uniform": "uniforms/sc_verdun.png"
+        "logo": "logos/sc_verdun.webp",
+        "uniform": "uniforms/sc_verdun.webp"
     },
     {
         "name": "Paulense DC",
@@ -11861,8 +11846,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white Santo Antão risers.",
         "active": true,
-        "logo": "logos/paulense_dc.png",
-        "uniform": "uniforms/paulense_dc.png"
+        "logo": "logos/paulense_dc.webp",
+        "uniform": "uniforms/paulense_dc.webp"
     },
     {
         "name": "Asante Kotoko",
@@ -11876,8 +11861,8 @@ const teams = [
         "trophies": "GPL: 24, CAF Champions League: 2",
         "mustKnowFact": "Red-white porcupine warriors.",
         "active": true,
-        "logo": "logos/asante_kotoko.png",
-        "uniform": "uniforms/asante_kotoko.png"
+        "logo": "logos/asante_kotoko.webp",
+        "uniform": "uniforms/asante_kotoko.webp"
     },
     {
         "name": "Hearts of Oak",
@@ -11891,8 +11876,8 @@ const teams = [
         "trophies": "GPL: 21, CAF Champions League: 1",
         "mustKnowFact": "Rainbow phobians.",
         "active": true,
-        "logo": "logos/hearts_of_oak.png",
-        "uniform": "uniforms/hearts_of_oak.png"
+        "logo": "logos/hearts_of_oak.webp",
+        "uniform": "uniforms/hearts_of_oak.webp"
     },
     {
         "name": "Medeama SC",
@@ -11906,8 +11891,8 @@ const teams = [
         "trophies": "GPL: 1",
         "mustKnowFact": "Yellow-mauve western stars.",
         "active": true,
-        "logo": "logos/medeama_sc.png",
-        "uniform": "uniforms/medeama_sc.png"
+        "logo": "logos/medeama_sc.webp",
+        "uniform": "uniforms/medeama_sc.webp"
     },
     {
         "name": "Aduana Stars",
@@ -11921,8 +11906,8 @@ const teams = [
         "trophies": "GPL: 2",
         "mustKnowFact": "Green-yellow fire club.",
         "active": true,
-        "logo": "logos/aduana_stars.png",
-        "uniform": "uniforms/aduana_stars.png"
+        "logo": "logos/aduana_stars.webp",
+        "uniform": "uniforms/aduana_stars.webp"
     },
     {
         "name": "Ashanti Gold",
@@ -11936,8 +11921,8 @@ const teams = [
         "trophies": "GPL: 1",
         "mustKnowFact": "Yellow-black miners.",
         "active": true,
-        "logo": "logos/ashanti_gold.png",
-        "uniform": "uniforms/ashanti_gold.png"
+        "logo": "logos/ashanti_gold.webp",
+        "uniform": "uniforms/ashanti_gold.webp"
     },
     {
         "name": "Bechem United",
@@ -11951,8 +11936,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white hunters.",
         "active": true,
-        "logo": "logos/bechem_united.png",
-        "uniform": "uniforms/bechem_united.png"
+        "logo": "logos/bechem_united.webp",
+        "uniform": "uniforms/bechem_united.webp"
     },
     {
         "name": "Dreams FC",
@@ -11966,8 +11951,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white dream chasers.",
         "active": true,
-        "logo": "logos/dreams_fc.png",
-        "uniform": "uniforms/dreams_fc.png"
+        "logo": "logos/dreams_fc.webp",
+        "uniform": "uniforms/dreams_fc.webp"
     },
     {
         "name": "Legon Cities",
@@ -11981,8 +11966,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple-white urban squad.",
         "active": true,
-        "logo": "logos/legon_cities.png",
-        "uniform": "uniforms/legon_cities.png"
+        "logo": "logos/legon_cities.webp",
+        "uniform": "uniforms/legon_cities.webp"
     },
     {
         "name": "Berekum Chelsea",
@@ -11996,8 +11981,8 @@ const teams = [
         "trophies": "GPL: 1",
         "mustKnowFact": "Blue-white golden boys.",
         "active": true,
-        "logo": "logos/berekum_chelsea.png",
-        "uniform": "uniforms/berekum_chelsea.png"
+        "logo": "logos/berekum_chelsea.webp",
+        "uniform": "uniforms/berekum_chelsea.webp"
     },
     {
         "name": "Karela United",
@@ -12011,8 +11996,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green passion and pride.",
         "active": true,
-        "logo": "logos/karela_united.png",
-        "uniform": "uniforms/karela_united.png"
+        "logo": "logos/karela_united.webp",
+        "uniform": "uniforms/karela_united.webp"
     },
     {
         "name": "Great Olympics",
@@ -12026,8 +12011,8 @@ const teams = [
         "trophies": "GPL: 2",
         "mustKnowFact": "Blue-white wonder club.",
         "active": true,
-        "logo": "logos/great_olympics.png",
-        "uniform": "uniforms/great_olympics.png"
+        "logo": "logos/great_olympics.webp",
+        "uniform": "uniforms/great_olympics.webp"
     },
     {
         "name": "Nsoatreman FC",
@@ -12041,8 +12026,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-green rural risers.",
         "active": true,
-        "logo": "logos/nsoatreman_fc.png",
-        "uniform": "uniforms/nsoatreman_fc.png"
+        "logo": "logos/nsoatreman_fc.webp",
+        "uniform": "uniforms/nsoatreman_fc.webp"
     },
     {
         "name": "Samartex",
@@ -12056,8 +12041,8 @@ const teams = [
         "trophies": "GPL: 1",
         "mustKnowFact": "Green-white timber giants.",
         "active": true,
-        "logo": "logos/samartex.png",
-        "uniform": "uniforms/samartex.png"
+        "logo": "logos/samartex.webp",
+        "uniform": "uniforms/samartex.webp"
     },
     {
         "name": "Accra Lions",
@@ -12071,8 +12056,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white capital cubs.",
         "active": true,
-        "logo": "logos/accra_lions.png",
-        "uniform": "uniforms/accra_lions.png"
+        "logo": "logos/accra_lions.webp",
+        "uniform": "uniforms/accra_lions.webp"
     },
     {
         "name": "Bofoakwa Tano",
@@ -12086,8 +12071,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow Bono warriors.",
         "active": true,
-        "logo": "logos/bofoakwa_tano.png",
-        "uniform": "uniforms/bofoakwa_tano.png"
+        "logo": "logos/bofoakwa_tano.webp",
+        "uniform": "uniforms/bofoakwa_tano.webp"
     },
     {
         "name": "Real Tamale United",
@@ -12101,8 +12086,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white northern pride.",
         "active": true,
-        "logo": "logos/real_tamale_united.png",
-        "uniform": "uniforms/real_tamale_united.png"
+        "logo": "logos/real_tamale_united.webp",
+        "uniform": "uniforms/real_tamale_united.webp"
     },
     {
         "name": "Horoya AC",
@@ -12116,8 +12101,8 @@ const teams = [
         "trophies": "Ligue 1: 20",
         "mustKnowFact": "Red-white Conakry giants.",
         "active": true,
-        "logo": "logos/horoya_ac.png",
-        "uniform": "uniforms/horoya_ac.png"
+        "logo": "logos/horoya_ac.webp",
+        "uniform": "uniforms/horoya_ac.webp"
     },
     {
         "name": "Hafia FC",
@@ -12131,8 +12116,8 @@ const teams = [
         "trophies": "Ligue 1: 17, CAF Champions League: 3",
         "mustKnowFact": "Green-white historic champs.",
         "active": true,
-        "logo": "logos/hafia_fc.png",
-        "uniform": "uniforms/hafia_fc.png"
+        "logo": "logos/hafia_fc.webp",
+        "uniform": "uniforms/hafia_fc.webp"
     },
     {
         "name": "AS Kaloum Star",
@@ -12146,8 +12131,8 @@ const teams = [
         "trophies": "Ligue 1: 7",
         "mustKnowFact": "Yellow-green elephants.",
         "active": true,
-        "logo": "logos/as_kaloum_star.png",
-        "uniform": "uniforms/as_kaloum_star.png"
+        "logo": "logos/as_kaloum_star.webp",
+        "uniform": "uniforms/as_kaloum_star.webp"
     },
     {
         "name": "CI Kamsar",
@@ -12161,8 +12146,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white coastal contenders.",
         "active": true,
-        "logo": "logos/ci_kamsar.png",
-        "uniform": "uniforms/ci_kamsar.png"
+        "logo": "logos/ci_kamsar.webp",
+        "uniform": "uniforms/ci_kamsar.webp"
     },
     {
         "name": "Satellite FC",
@@ -12176,8 +12161,8 @@ const teams = [
         "trophies": "Ligue 1: 1",
         "mustKnowFact": "Red-yellow orbiters.",
         "active": true,
-        "logo": "logos/satellite_fc.png",
-        "uniform": "uniforms/satellite_fc.png"
+        "logo": "logos/satellite_fc.webp",
+        "uniform": "uniforms/satellite_fc.webp"
     },
     {
         "name": "Fello Star",
@@ -12191,8 +12176,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue Labé stars.",
         "active": true,
-        "logo": "logos/fello_star.png",
-        "uniform": "uniforms/fello_star.png"
+        "logo": "logos/fello_star.webp",
+        "uniform": "uniforms/fello_star.webp"
     },
     {
         "name": "SOAR Académie",
@@ -12206,8 +12191,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-black youth flyers.",
         "active": true,
-        "logo": "logos/soar_academie.png",
-        "uniform": "uniforms/soar_academie.png"
+        "logo": "logos/soar_academie.webp",
+        "uniform": "uniforms/soar_academie.webp"
     },
     {
         "name": "AS Ashanti Golden Boys",
@@ -12221,8 +12206,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue golden boys.",
         "active": true,
-        "logo": "logos/as_ashanti_golden_boys.png",
-        "uniform": "uniforms/as_ashanti_golden_boys.png"
+        "logo": "logos/as_ashanti_golden_boys.webp",
+        "uniform": "uniforms/as_ashanti_golden_boys.webp"
     },
     {
         "name": "Wakirya AC",
@@ -12236,8 +12221,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white Boké risers.",
         "active": true,
-        "logo": "logos/wakirya_ac.png",
-        "uniform": "uniforms/wakirya_ac.png"
+        "logo": "logos/wakirya_ac.webp",
+        "uniform": "uniforms/wakirya_ac.webp"
     },
     {
         "name": "Santoba FC",
@@ -12251,8 +12236,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white Conakry squad.",
         "active": true,
-        "logo": "logos/santoba_fc.png",
-        "uniform": "uniforms/santoba_fc.png"
+        "logo": "logos/santoba_fc.webp",
+        "uniform": "uniforms/santoba_fc.webp"
     },
     {
         "name": "Loubha FC",
@@ -12266,8 +12251,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green regional grit.",
         "active": true,
-        "logo": "logos/loubha_fc.png",
-        "uniform": "uniforms/loubha_fc.png"
+        "logo": "logos/loubha_fc.webp",
+        "uniform": "uniforms/loubha_fc.webp"
     },
     {
         "name": "Flamme Olympique",
@@ -12281,8 +12266,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white flames.",
         "active": true,
-        "logo": "logos/flamme_olympique.png",
-        "uniform": "uniforms/flamme_olympique.png"
+        "logo": "logos/flamme_olympique.webp",
+        "uniform": "uniforms/flamme_olympique.webp"
     },
     {
         "name": "ASM Sangarédi",
@@ -12296,8 +12281,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-yellow northern squad.",
         "active": true,
-        "logo": "logos/asm_sangaredi.png",
-        "uniform": "uniforms/asm_sangaredi.png"
+        "logo": "logos/asm_sangaredi.webp",
+        "uniform": "uniforms/asm_sangaredi.webp"
     },
     {
         "name": "Milo FC",
@@ -12311,8 +12296,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white eastern risers.",
         "active": true,
-        "logo": "logos/milo_fc.png",
-        "uniform": "uniforms/milo_fc.png"
+        "logo": "logos/milo_fc.webp",
+        "uniform": "uniforms/milo_fc.webp"
     },
     {
         "name": "AS Mangasport",
@@ -12326,8 +12311,8 @@ const teams = [
         "trophies": "Championnat D1: 8",
         "mustKnowFact": "Green-yellow miners.",
         "active": true,
-        "logo": "logos/as_mangasport.png",
-        "uniform": "uniforms/as_mangasport.png"
+        "logo": "logos/as_mangasport.webp",
+        "uniform": "uniforms/as_mangasport.webp"
     },
     {
         "name": "CF Mounana",
@@ -12341,8 +12326,8 @@ const teams = [
         "trophies": "Championnat D1: 3",
         "mustKnowFact": "Blue-white modern champs.",
         "active": true,
-        "logo": "logos/cf_mounana.png",
-        "uniform": "uniforms/cf_mounana.png"
+        "logo": "logos/cf_mounana.webp",
+        "uniform": "uniforms/cf_mounana.webp"
     },
     {
         "name": "US Bitam",
@@ -12356,8 +12341,8 @@ const teams = [
         "trophies": "Championnat D1: 3",
         "mustKnowFact": "Yellow-green northern stars.",
         "active": true,
-        "logo": "logos/us_bitam.png",
-        "uniform": "uniforms/us_bitam.png"
+        "logo": "logos/us_bitam.webp",
+        "uniform": "uniforms/us_bitam.webp"
     },
     {
         "name": "FC 105 Libreville",
@@ -12371,8 +12356,8 @@ const teams = [
         "trophies": "Championnat D1: 5",
         "mustKnowFact": "Red-white capital veterans.",
         "active": true,
-        "logo": "logos/fc_105_libreville.png",
-        "uniform": "uniforms/fc_105_libreville.png"
+        "logo": "logos/fc_105_libreville.webp",
+        "uniform": "uniforms/fc_105_libreville.webp"
     },
     {
         "name": "AS Stade Mandji",
@@ -12386,8 +12371,8 @@ const teams = [
         "trophies": "Championnat D1: 1",
         "mustKnowFact": "Green-white coastal squad.",
         "active": true,
-        "logo": "logos/as_stade_mandji.png",
-        "uniform": "uniforms/as_stade_mandji.png"
+        "logo": "logos/as_stade_mandji.webp",
+        "uniform": "uniforms/as_stade_mandji.webp"
     },
     {
         "name": "CMS Libreville",
@@ -12401,8 +12386,8 @@ const teams = [
         "trophies": "Championnat D1: 2",
         "mustKnowFact": "Blue-yellow capital pioneers.",
         "active": true,
-        "logo": "logos/cms_libreville.png",
-        "uniform": "uniforms/cms_libreville.png"
+        "logo": "logos/cms_libreville.webp",
+        "uniform": "uniforms/cms_libreville.webp"
     },
     {
         "name": "AO CM Belinga",
@@ -12416,8 +12401,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-green eastern contenders.",
         "active": true,
-        "logo": "logos/ao_cm_belinga.png",
-        "uniform": "uniforms/ao_cm_belinga.png"
+        "logo": "logos/ao_cm_belinga.webp",
+        "uniform": "uniforms/ao_cm_belinga.webp"
     },
     {
         "name": "AS Pélican",
@@ -12431,8 +12416,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue pelicans.",
         "active": true,
-        "logo": "logos/as_pelican.png",
-        "uniform": "uniforms/as_pelican.png"
+        "logo": "logos/as_pelican.webp",
+        "uniform": "uniforms/as_pelican.webp"
     },
     {
         "name": "Missile FC",
@@ -12446,8 +12431,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white military might.",
         "active": true,
-        "logo": "logos/missile_fc.png",
-        "uniform": "uniforms/missile_fc.png"
+        "logo": "logos/missile_fc.webp",
+        "uniform": "uniforms/missile_fc.webp"
     },
     {
         "name": "Cercle Mbéri Sportif",
@@ -12461,8 +12446,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white Libreville squad.",
         "active": true,
-        "logo": "logos/cercle_mberi_sportif.png",
-        "uniform": "uniforms/cercle_mberi_sportif.png"
+        "logo": "logos/cercle_mberi_sportif.webp",
+        "uniform": "uniforms/cercle_mberi_sportif.webp"
     },
     {
         "name": "US Oyem",
@@ -12476,8 +12461,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue northern risers.",
         "active": true,
-        "logo": "logos/us_oyem.png",
-        "uniform": "uniforms/us_oyem.png"
+        "logo": "logos/us_oyem.webp",
+        "uniform": "uniforms/us_oyem.webp"
     },
     {
         "name": "AC Bongoville",
@@ -12491,8 +12476,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white eastern squad.",
         "active": true,
-        "logo": "logos/ac_bongoville.png",
-        "uniform": "uniforms/ac_bongoville.png"
+        "logo": "logos/ac_bongoville.webp",
+        "uniform": "uniforms/ac_bongoville.webp"
     },
     {
         "name": "AS Dikaki",
@@ -12506,8 +12491,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white southeastern grit.",
         "active": true,
-        "logo": "logos/as_dikaki.png",
-        "uniform": "uniforms/as_dikaki.png"
+        "logo": "logos/as_dikaki.webp",
+        "uniform": "uniforms/as_dikaki.webp"
     },
     {
         "name": "Olympique de Mandji",
@@ -12521,8 +12506,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow coastal olympians.",
         "active": true,
-        "logo": "logos/olympique_de_mandji.png",
-        "uniform": "uniforms/olympique_de_mandji.png"
+        "logo": "logos/olympique_de_mandji.webp",
+        "uniform": "uniforms/olympique_de_mandji.webp"
     },
     {
         "name": "Petro de Luanda",
@@ -12536,8 +12521,8 @@ const teams = [
         "trophies": "Girabola: 17",
         "mustKnowFact": "Yellow-black oil giants.",
         "active": true,
-        "logo": "logos/petro_de_luanda.png",
-        "uniform": "uniforms/petro_de_luanda.png"
+        "logo": "logos/petro_de_luanda.webp",
+        "uniform": "uniforms/petro_de_luanda.webp"
     },
     {
         "name": "1º de Agosto",
@@ -12551,8 +12536,8 @@ const teams = [
         "trophies": "Girabola: 13",
         "mustKnowFact": "Red-black military might.",
         "active": true,
-        "logo": "logos/1_de_agosto.png",
-        "uniform": "uniforms/1_de_agosto.png"
+        "logo": "logos/1_de_agosto.webp",
+        "uniform": "uniforms/1_de_agosto.webp"
     },
     {
         "name": "Sagrada Esperança",
@@ -12566,8 +12551,8 @@ const teams = [
         "trophies": "Girabola: 3",
         "mustKnowFact": "Green-white diamond kings.",
         "active": true,
-        "logo": "logos/sagrada_esperanca.png",
-        "uniform": "uniforms/sagrada_esperanca.png"
+        "logo": "logos/sagrada_esperanca.webp",
+        "uniform": "uniforms/sagrada_esperanca.webp"
     },
     {
         "name": "Interclube",
@@ -12581,8 +12566,8 @@ const teams = [
         "trophies": "Girabola: 2",
         "mustKnowFact": "Blue-white police power.",
         "active": true,
-        "logo": "logos/interclube.png",
-        "uniform": "uniforms/interclube.png"
+        "logo": "logos/interclube.webp",
+        "uniform": "uniforms/interclube.webp"
     },
     {
         "name": "Kabuscorp",
@@ -12596,8 +12581,8 @@ const teams = [
         "trophies": "Girabola: 1",
         "mustKnowFact": "Pink-white Luanda risers.",
         "active": true,
-        "logo": "logos/kabuscorp.png",
-        "uniform": "uniforms/kabuscorp.png"
+        "logo": "logos/kabuscorp.webp",
+        "uniform": "uniforms/kabuscorp.webp"
     },
     {
         "name": "Desportivo da Huíla",
@@ -12611,8 +12596,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow southern squad.",
         "active": true,
-        "logo": "logos/desportivo_da_huila.png",
-        "uniform": "uniforms/desportivo_da_huila.png"
+        "logo": "logos/desportivo_da_huila.webp",
+        "uniform": "uniforms/desportivo_da_huila.webp"
     },
     {
         "name": "Recreativo do Libolo",
@@ -12626,8 +12611,8 @@ const teams = [
         "trophies": "Girabola: 4",
         "mustKnowFact": "Orange-white Libolo lions.",
         "active": true,
-        "logo": "logos/recreativo_do_libolo.png",
-        "uniform": "uniforms/recreativo_do_libolo.png"
+        "logo": "logos/recreativo_do_libolo.webp",
+        "uniform": "uniforms/recreativo_do_libolo.webp"
     },
     {
         "name": "Progresso Sambizanga",
@@ -12641,8 +12626,8 @@ const teams = [
         "trophies": "Girabola: 1",
         "mustKnowFact": "Yellow-blue Sambizanga grit.",
         "active": true,
-        "logo": "logos/progresso_sambizanga.png",
-        "uniform": "uniforms/progresso_sambizanga.png"
+        "logo": "logos/progresso_sambizanga.webp",
+        "uniform": "uniforms/progresso_sambizanga.webp"
     },
     {
         "name": "Cuando Cubango FC",
@@ -12656,8 +12641,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white southeastern squad.",
         "active": true,
-        "logo": "logos/cuando_cubango_fc.png",
-        "uniform": "uniforms/cuando_cubango_fc.png"
+        "logo": "logos/cuando_cubango_fc.webp",
+        "uniform": "uniforms/cuando_cubango_fc.webp"
     },
     {
         "name": "Wiliete SC",
@@ -12671,8 +12656,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white Benguela risers.",
         "active": true,
-        "logo": "logos/wiliete_sc.png",
-        "uniform": "uniforms/wiliete_sc.png"
+        "logo": "logos/wiliete_sc.webp",
+        "uniform": "uniforms/wiliete_sc.webp"
     },
     {
         "name": "Bravos do Maquis",
@@ -12686,8 +12671,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-red eastern warriors.",
         "active": true,
-        "logo": "logos/bravos_do_maquis.png",
-        "uniform": "uniforms/bravos_do_maquis.png"
+        "logo": "logos/bravos_do_maquis.webp",
+        "uniform": "uniforms/bravos_do_maquis.webp"
     },
     {
         "name": "Académica do Lobito",
@@ -12701,8 +12686,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white coastal scholars.",
         "active": true,
-        "logo": "logos/academica_do_lobito.png",
-        "uniform": "uniforms/academica_do_lobito.png"
+        "logo": "logos/academica_do_lobito.webp",
+        "uniform": "uniforms/academica_do_lobito.webp"
     },
     {
         "name": "Santa Rita de Cássia",
@@ -12716,8 +12701,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue northern saints.",
         "active": true,
-        "logo": "logos/santa_rita_de_cassia.png",
-        "uniform": "uniforms/santa_rita_de_cassia.png"
+        "logo": "logos/santa_rita_de_cassia.webp",
+        "uniform": "uniforms/santa_rita_de_cassia.webp"
     },
     {
         "name": "Sporting de Cabinda",
@@ -12731,8 +12716,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow northern lions.",
         "active": true,
-        "logo": "logos/sporting_de_cabinda.png",
-        "uniform": "uniforms/sporting_de_cabinda.png"
+        "logo": "logos/sporting_de_cabinda.webp",
+        "uniform": "uniforms/sporting_de_cabinda.webp"
     },
     {
         "name": "Zesco United",
@@ -12746,8 +12731,8 @@ const teams = [
         "trophies": "Super League: 9",
         "mustKnowFact": "Yellow-blue electric giants.",
         "active": true,
-        "logo": "logos/zesco_united.png",
-        "uniform": "uniforms/zesco_united.png"
+        "logo": "logos/zesco_united.webp",
+        "uniform": "uniforms/zesco_united.webp"
     },
     {
         "name": "Nkana FC",
@@ -12761,8 +12746,8 @@ const teams = [
         "trophies": "Super League: 13",
         "mustKnowFact": "Red-black kitwe kings.",
         "active": true,
-        "logo": "logos/nkana_fc.png",
-        "uniform": "uniforms/nkana_fc.png"
+        "logo": "logos/nkana_fc.webp",
+        "uniform": "uniforms/nkana_fc.webp"
     },
     {
         "name": "Power Dynamos",
@@ -12776,8 +12761,8 @@ const teams = [
         "trophies": "Super League: 7",
         "mustKnowFact": "Yellow-white dynamos.",
         "active": true,
-        "logo": "logos/power_dynamos.png",
-        "uniform": "uniforms/power_dynamos.png"
+        "logo": "logos/power_dynamos.webp",
+        "uniform": "uniforms/power_dynamos.webp"
     },
     {
         "name": "Red Arrows",
@@ -12791,8 +12776,8 @@ const teams = [
         "trophies": "Super League: 2",
         "mustKnowFact": "Red-white air force pride.",
         "active": true,
-        "logo": "logos/red_arrows.png",
-        "uniform": "uniforms/red_arrows.png"
+        "logo": "logos/red_arrows.webp",
+        "uniform": "uniforms/red_arrows.webp"
     },
     {
         "name": "Zanaco FC",
@@ -12806,8 +12791,8 @@ const teams = [
         "trophies": "Super League: 7",
         "mustKnowFact": "Red-white bankers.",
         "active": true,
-        "logo": "logos/zanaco_fc.png",
-        "uniform": "uniforms/zanaco_fc.png"
+        "logo": "logos/zanaco_fc.webp",
+        "uniform": "uniforms/zanaco_fc.webp"
     },
     {
         "name": "Green Buffaloes",
@@ -12821,8 +12806,8 @@ const teams = [
         "trophies": "Super League: 1",
         "mustKnowFact": "Green-white army squad.",
         "active": true,
-        "logo": "logos/green_buffaloes.png",
-        "uniform": "uniforms/green_buffaloes.png"
+        "logo": "logos/green_buffaloes.webp",
+        "uniform": "uniforms/green_buffaloes.webp"
     },
     {
         "name": "Forest Rangers",
@@ -12836,8 +12821,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow rangers.",
         "active": true,
-        "logo": "logos/forest_rangers.png",
-        "uniform": "uniforms/forest_rangers.png"
+        "logo": "logos/forest_rangers.webp",
+        "uniform": "uniforms/forest_rangers.webp"
     },
     {
         "name": "Kabwe Warriors",
@@ -12851,8 +12836,8 @@ const teams = [
         "trophies": "Super League: 5",
         "mustKnowFact": "Blue-white railwaymen.",
         "active": true,
-        "logo": "logos/kabwe_warriors.png",
-        "uniform": "uniforms/kabwe_warriors.png"
+        "logo": "logos/kabwe_warriors.webp",
+        "uniform": "uniforms/kabwe_warriors.webp"
     },
     {
         "name": "Nchanga Rangers",
@@ -12866,8 +12851,8 @@ const teams = [
         "trophies": "Super League: 2",
         "mustKnowFact": "Blue-yellow copperbelt squad.",
         "active": true,
-        "logo": "logos/nchanga_rangers.png",
-        "uniform": "uniforms/nchanga_rangers.png"
+        "logo": "logos/nchanga_rangers.webp",
+        "uniform": "uniforms/nchanga_rangers.webp"
     },
     {
         "name": "Mufulira Wanderers",
@@ -12881,8 +12866,8 @@ const teams = [
         "trophies": "Super League: 9",
         "mustKnowFact": "Green-white mighty wanderers.",
         "active": true,
-        "logo": "logos/mufulira_wanderers.png",
-        "uniform": "uniforms/mufulira_wanderers.png"
+        "logo": "logos/mufulira_wanderers.webp",
+        "uniform": "uniforms/mufulira_wanderers.webp"
     },
     {
         "name": "Green Eagles",
@@ -12896,8 +12881,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white southern flyers.",
         "active": true,
-        "logo": "logos/green_eagles.png",
-        "uniform": "uniforms/green_eagles.png"
+        "logo": "logos/green_eagles.webp",
+        "uniform": "uniforms/green_eagles.webp"
     },
     {
         "name": "Lusaka Dynamos",
@@ -12911,8 +12896,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-blue capital dynamos.",
         "active": true,
-        "logo": "logos/lusaka_dynamos.png",
-        "uniform": "uniforms/lusaka_dynamos.png"
+        "logo": "logos/lusaka_dynamos.webp",
+        "uniform": "uniforms/lusaka_dynamos.webp"
     },
     {
         "name": "Buildcon FC",
@@ -12926,8 +12911,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange-white constructors.",
         "active": true,
-        "logo": "logos/buildcon_fc.png",
-        "uniform": "uniforms/buildcon_fc.png"
+        "logo": "logos/buildcon_fc.webp",
+        "uniform": "uniforms/buildcon_fc.webp"
     },
     {
         "name": "Prison Leopards",
@@ -12941,8 +12926,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black jailbreakers.",
         "active": true,
-        "logo": "logos/prison_leopards.png",
-        "uniform": "uniforms/prison_leopards.png"
+        "logo": "logos/prison_leopards.webp",
+        "uniform": "uniforms/prison_leopards.webp"
     },
     {
         "name": "Nkwazi FC",
@@ -12956,8 +12941,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white police squad.",
         "active": true,
-        "logo": "logos/nkwazi_fc.png",
-        "uniform": "uniforms/nkwazi_fc.png"
+        "logo": "logos/nkwazi_fc.webp",
+        "uniform": "uniforms/nkwazi_fc.webp"
     },
     {
         "name": "Kansanshi Dynamos",
@@ -12971,8 +12956,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-yellow northwestern risers.",
         "active": true,
-        "logo": "logos/kansanshi_dynamos.png",
-        "uniform": "uniforms/kansanshi_dynamos.png"
+        "logo": "logos/kansanshi_dynamos.webp",
+        "uniform": "uniforms/kansanshi_dynamos.webp"
     },
     {
         "name": "KCCA FC",
@@ -12986,8 +12971,8 @@ const teams = [
         "trophies": "UPL: 13",
         "mustKnowFact": "Yellow-blue garbage collectors.",
         "active": true,
-        "logo": "logos/kcca_fc.png",
-        "uniform": "uniforms/kcca_fc.png"
+        "logo": "logos/kcca_fc.webp",
+        "uniform": "uniforms/kcca_fc.webp"
     },
     {
         "name": "Vipers SC",
@@ -13001,8 +12986,8 @@ const teams = [
         "trophies": "UPL: 6",
         "mustKnowFact": "Red-white venomous snakes.",
         "active": true,
-        "logo": "logos/vipers_sc.png",
-        "uniform": "uniforms/vipers_sc.png"
+        "logo": "logos/vipers_sc.webp",
+        "uniform": "uniforms/vipers_sc.webp"
     },
     {
         "name": "Express FC",
@@ -13016,8 +13001,8 @@ const teams = [
         "trophies": "UPL: 7",
         "mustKnowFact": "Red eagles of Kampala.",
         "active": true,
-        "logo": "logos/express_fc.png",
-        "uniform": "uniforms/express_fc.png"
+        "logo": "logos/express_fc.webp",
+        "uniform": "uniforms/express_fc.webp"
     },
     {
         "name": "SC Villa",
@@ -13031,8 +13016,8 @@ const teams = [
         "trophies": "UPL: 16",
         "mustKnowFact": "Blue-white jogoo kings.",
         "active": true,
-        "logo": "logos/sc_villa.png",
-        "uniform": "uniforms/sc_villa.png"
+        "logo": "logos/sc_villa.webp",
+        "uniform": "uniforms/sc_villa.webp"
     },
     {
         "name": "URA FC",
@@ -13046,8 +13031,8 @@ const teams = [
         "trophies": "UPL: 4",
         "mustKnowFact": "Yellow-black tax collectors.",
         "active": true,
-        "logo": "logos/ura_fc.png",
-        "uniform": "uniforms/ura_fc.png"
+        "logo": "logos/ura_fc.webp",
+        "uniform": "uniforms/ura_fc.webp"
     },
     {
         "name": "Bul FC",
@@ -13061,8 +13046,8 @@ const teams = [
         "trophies": "UPL: 1",
         "mustKnowFact": "Red-white Jinja bulls.",
         "active": true,
-        "logo": "logos/bul_fc.png",
-        "uniform": "uniforms/bul_fc.png"
+        "logo": "logos/bul_fc.webp",
+        "uniform": "uniforms/bul_fc.webp"
     },
     {
         "name": "Onduparaka FC",
@@ -13076,8 +13061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow caterpillars.",
         "active": true,
-        "logo": "logos/onduparaka_fc.png",
-        "uniform": "uniforms/onduparaka_fc.png"
+        "logo": "logos/onduparaka_fc.webp",
+        "uniform": "uniforms/onduparaka_fc.webp"
     },
     {
         "name": "Wakiso Giants",
@@ -13091,8 +13076,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple-white giants.",
         "active": true,
-        "logo": "logos/wakiso_giants.png",
-        "uniform": "uniforms/wakiso_giants.png"
+        "logo": "logos/wakiso_giants.webp",
+        "uniform": "uniforms/wakiso_giants.webp"
     },
     {
         "name": "Busoga United",
@@ -13106,8 +13091,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-blue eastern squad.",
         "active": true,
-        "logo": "logos/busoga_united.png",
-        "uniform": "uniforms/busoga_united.png"
+        "logo": "logos/busoga_united.webp",
+        "uniform": "uniforms/busoga_united.webp"
     },
     {
         "name": "Gaddafi FC",
@@ -13121,8 +13106,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-white soldiers.",
         "active": true,
-        "logo": "logos/gaddafi_fc.png",
-        "uniform": "uniforms/gaddafi_fc.png"
+        "logo": "logos/gaddafi_fc.webp",
+        "uniform": "uniforms/gaddafi_fc.webp"
     },
     {
         "name": "Maroons FC",
@@ -13136,8 +13121,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Maroon-white prison squad.",
         "active": true,
-        "logo": "logos/maroons_fc.png",
-        "uniform": "uniforms/maroons_fc.png"
+        "logo": "logos/maroons_fc.webp",
+        "uniform": "uniforms/maroons_fc.webp"
     },
     {
         "name": "Soltilo Bright Stars",
@@ -13151,8 +13136,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white shining stars.",
         "active": true,
-        "logo": "logos/soltilo_bright_stars.png",
-        "uniform": "uniforms/soltilo_bright_stars.png"
+        "logo": "logos/soltilo_bright_stars.webp",
+        "uniform": "uniforms/soltilo_bright_stars.webp"
     },
     {
         "name": "Mbarara City",
@@ -13166,8 +13151,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white western ankole cows.",
         "active": true,
-        "logo": "logos/mbarara_city.png",
-        "uniform": "uniforms/mbarara_city.png"
+        "logo": "logos/mbarara_city.webp",
+        "uniform": "uniforms/mbarara_city.webp"
     },
     {
         "name": "UPDF FC",
@@ -13181,8 +13166,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green-yellow army defenders.",
         "active": true,
-        "logo": "logos/updf_fc.png",
-        "uniform": "uniforms/updf_fc.png"
+        "logo": "logos/updf_fc.webp",
+        "uniform": "uniforms/updf_fc.webp"
     },
     {
         "name": "Persepolis",
@@ -13196,8 +13181,8 @@ const teams = [
         "trophies": "Persian Gulf Pro League: 15, Hazfi Cup: 6",
         "mustKnowFact": "Red giants of Tehran.",
         "active": true,
-        "logo": "logos/persepolis.png",
-        "uniform": "uniforms/persepolis.png"
+        "logo": "logos/persepolis.webp",
+        "uniform": "uniforms/persepolis.webp"
     },
     {
         "name": "Esteghlal",
@@ -13211,8 +13196,8 @@ const teams = [
         "trophies": "Persian Gulf Pro League: 9, AFC Champions League: 2",
         "mustKnowFact": "Blue kings of the capital.",
         "active": true,
-        "logo": "logos/esteghlal.png",
-        "uniform": "uniforms/esteghlal.png"
+        "logo": "logos/esteghlal.webp",
+        "uniform": "uniforms/esteghlal.webp"
     },
     {
         "name": "Sepahan",
@@ -13226,8 +13211,8 @@ const teams = [
         "trophies": "Persian Gulf Pro League: 5",
         "mustKnowFact": "Yellow steel of Isfahan.",
         "active": true,
-        "logo": "logos/sepahan.png",
-        "uniform": "uniforms/sepahan.png"
+        "logo": "logos/sepahan.webp",
+        "uniform": "uniforms/sepahan.webp"
     },
     {
         "name": "Tractor",
@@ -13241,8 +13226,8 @@ const teams = [
         "trophies": "Hazfi Cup: 2",
         "mustKnowFact": "Red wolves of Azerbaijan.",
         "active": true,
-        "logo": "logos/tractor.png",
-        "uniform": "uniforms/tractor.png"
+        "logo": "logos/tractor.webp",
+        "uniform": "uniforms/tractor.webp"
     },
     {
         "name": "Foolad",
@@ -13256,8 +13241,8 @@ const teams = [
         "trophies": "Persian Gulf Pro League: 2",
         "mustKnowFact": "Red steel of Khuzestan.",
         "active": true,
-        "logo": "logos/foolad.png",
-        "uniform": "uniforms/foolad.png"
+        "logo": "logos/foolad.webp",
+        "uniform": "uniforms/foolad.webp"
     },
     {
         "name": "Zob Ahan",
@@ -13271,8 +13256,8 @@ const teams = [
         "trophies": "Hazfi Cup: 4",
         "mustKnowFact": "Green iron of Isfahan.",
         "active": true,
-        "logo": "logos/zob_ahan.png",
-        "uniform": "uniforms/zob_ahan.png"
+        "logo": "logos/zob_ahan.webp",
+        "uniform": "uniforms/zob_ahan.webp"
     },
     {
         "name": "Shahin Bushehr",
@@ -13286,8 +13271,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White falcons of the Gulf.",
         "active": true,
-        "logo": "logos/shahin_bushehr.png",
-        "uniform": "uniforms/shahin_bushehr.png"
+        "logo": "logos/shahin_bushehr.webp",
+        "uniform": "uniforms/shahin_bushehr.webp"
     },
     {
         "name": "Malavan",
@@ -13301,8 +13286,8 @@ const teams = [
         "trophies": "Hazfi Cup: 1",
         "mustKnowFact": "White swans of the Caspian.",
         "active": true,
-        "logo": "logos/malavan.png",
-        "uniform": "uniforms/malavan.png"
+        "logo": "logos/malavan.webp",
+        "uniform": "uniforms/malavan.webp"
     },
     {
         "name": "Nassaji Mazandaran",
@@ -13316,8 +13301,8 @@ const teams = [
         "trophies": "Hazfi Cup: 1",
         "mustKnowFact": "Red tigers of the north.",
         "active": true,
-        "logo": "logos/nassaji_mazandaran.png",
-        "uniform": "uniforms/nassaji_mazandaran.png"
+        "logo": "logos/nassaji_mazandaran.webp",
+        "uniform": "uniforms/nassaji_mazandaran.webp"
     },
     {
         "name": "Paykan",
@@ -13331,8 +13316,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue arrows of Tehran.",
         "active": true,
-        "logo": "logos/paykan.png",
-        "uniform": "uniforms/paykan.png"
+        "logo": "logos/paykan.webp",
+        "uniform": "uniforms/paykan.webp"
     },
     {
         "name": "Gol Gohar",
@@ -13346,8 +13331,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue miners of Kerman.",
         "active": true,
-        "logo": "logos/gol_gohar.png",
-        "uniform": "uniforms/gol_gohar.png"
+        "logo": "logos/gol_gohar.webp",
+        "uniform": "uniforms/gol_gohar.webp"
     },
     {
         "name": "Mes Rafsanjan",
@@ -13361,8 +13346,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange copper of Kerman.",
         "active": true,
-        "logo": "logos/mes_rafsanjan.png",
-        "uniform": "uniforms/mes_rafsanjan.png"
+        "logo": "logos/mes_rafsanjan.webp",
+        "uniform": "uniforms/mes_rafsanjan.webp"
     },
     {
         "name": "Sanat Naft",
@@ -13376,8 +13361,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow oilmen of Abadan.",
         "active": true,
-        "logo": "logos/sanat_naft.png",
-        "uniform": "uniforms/sanat_naft.png"
+        "logo": "logos/sanat_naft.webp",
+        "uniform": "uniforms/sanat_naft.webp"
     },
     {
         "name": "Havadar",
@@ -13391,8 +13376,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue newcomers of Tehran.",
         "active": true,
-        "logo": "logos/havadar.png",
-        "uniform": "uniforms/havadar.png"
+        "logo": "logos/havadar.webp",
+        "uniform": "uniforms/havadar.webp"
     },
     {
         "name": "Aluminium Arak",
@@ -13406,8 +13391,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Silver metal of Markazi.",
         "active": true,
-        "logo": "logos/aluminium_arak.png",
-        "uniform": "uniforms/aluminium_arak.png"
+        "logo": "logos/aluminium_arak.webp",
+        "uniform": "uniforms/aluminium_arak.webp"
     },
     {
         "name": "Shams Azar",
@@ -13421,8 +13406,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green sun of Qazvin.",
         "active": true,
-        "logo": "logos/shams_azar.png",
-        "uniform": "uniforms/shams_azar.png"
+        "logo": "logos/shams_azar.webp",
+        "uniform": "uniforms/shams_azar.webp"
     },
     {
         "name": "Sydney FC",
@@ -13436,8 +13421,8 @@ const teams = [
         "trophies": "A-League: 5, FFA Cup: 2",
         "mustKnowFact": "Sky blue kings of Sydney.",
         "active": true,
-        "logo": "logos/sydney_fc.png",
-        "uniform": "uniforms/sydney_fc.png"
+        "logo": "logos/sydney_fc.webp",
+        "uniform": "uniforms/sydney_fc.webp"
     },
     {
         "name": "Melbourne Victory",
@@ -13451,8 +13436,8 @@ const teams = [
         "trophies": "A-League: 4, FFA Cup: 2",
         "mustKnowFact": "Navy blue giants of Victoria.",
         "active": true,
-        "logo": "logos/melbourne_victory.png",
-        "uniform": "uniforms/melbourne_victory.png"
+        "logo": "logos/melbourne_victory.webp",
+        "uniform": "uniforms/melbourne_victory.webp"
     },
     {
         "name": "Melbourne City",
@@ -13466,8 +13451,8 @@ const teams = [
         "trophies": "A-League: 1, FFA Cup: 1",
         "mustKnowFact": "Sky blue citizens of Melbourne.",
         "active": true,
-        "logo": "logos/melbourne_city.png",
-        "uniform": "uniforms/melbourne_city.png"
+        "logo": "logos/melbourne_city.webp",
+        "uniform": "uniforms/melbourne_city.webp"
     },
     {
         "name": "Western Sydney Wanderers",
@@ -13481,8 +13466,8 @@ const teams = [
         "trophies": "AFC Champions League: 1, A-League: 1",
         "mustKnowFact": "Red-black rebels of the west.",
         "active": true,
-        "logo": "logos/western_sydney_wanderers.png",
-        "uniform": "uniforms/western_sydney_wanderers.png"
+        "logo": "logos/western_sydney_wanderers.webp",
+        "uniform": "uniforms/western_sydney_wanderers.webp"
     },
     {
         "name": "Adelaide United",
@@ -13496,8 +13481,8 @@ const teams = [
         "trophies": "A-League: 1, FFA Cup: 3",
         "mustKnowFact": "Red pride of South Australia.",
         "active": true,
-        "logo": "logos/adelaide_united.png",
-        "uniform": "uniforms/adelaide_united.png"
+        "logo": "logos/adelaide_united.webp",
+        "uniform": "uniforms/adelaide_united.webp"
     },
     {
         "name": "Brisbane Roar",
@@ -13511,8 +13496,8 @@ const teams = [
         "trophies": "A-League: 3",
         "mustKnowFact": "Orange roar of Queensland.",
         "active": true,
-        "logo": "logos/brisbane_roar.png",
-        "uniform": "uniforms/brisbane_roar.png"
+        "logo": "logos/brisbane_roar.webp",
+        "uniform": "uniforms/brisbane_roar.webp"
     },
     {
         "name": "Perth Glory",
@@ -13526,8 +13511,8 @@ const teams = [
         "trophies": "A-League: 2",
         "mustKnowFact": "Purple pioneers of the west.",
         "active": true,
-        "logo": "logos/perth_glory.png",
-        "uniform": "uniforms/perth_glory.png"
+        "logo": "logos/perth_glory.webp",
+        "uniform": "uniforms/perth_glory.webp"
     },
     {
         "name": "Central Coast Mariners",
@@ -13541,8 +13526,8 @@ const teams = [
         "trophies": "A-League: 2, AFC Cup: 1",
         "mustKnowFact": "Yellow-blue coast warriors.",
         "active": true,
-        "logo": "logos/central_coast_mariners.png",
-        "uniform": "uniforms/central_coast_mariners.png"
+        "logo": "logos/central_coast_mariners.webp",
+        "uniform": "uniforms/central_coast_mariners.webp"
     },
     {
         "name": "Newcastle Jets",
@@ -13556,8 +13541,8 @@ const teams = [
         "trophies": "A-League: 1",
         "mustKnowFact": "Red-blue flyers of NSW.",
         "active": true,
-        "logo": "logos/newcastle_jets.png",
-        "uniform": "uniforms/newcastle_jets.png"
+        "logo": "logos/newcastle_jets.webp",
+        "uniform": "uniforms/newcastle_jets.webp"
     },
     {
         "name": "Macarthur FC",
@@ -13571,8 +13556,8 @@ const teams = [
         "trophies": "Australia Cup: 1",
         "mustKnowFact": "Black-white bulls of Sydney.",
         "active": true,
-        "logo": "logos/macarthur_fc.png",
-        "uniform": "uniforms/macarthur_fc.png"
+        "logo": "logos/macarthur_fc.webp",
+        "uniform": "uniforms/macarthur_fc.webp"
     },
     {
         "name": "Wellington Phoenix",
@@ -13586,8 +13571,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black Kiwi contenders.",
         "active": true,
-        "logo": "logos/wellington_phoenix.png",
-        "uniform": "uniforms/wellington_phoenix.png"
+        "logo": "logos/wellington_phoenix.webp",
+        "uniform": "uniforms/wellington_phoenix.webp"
     },
     {
         "name": "Western United",
@@ -13601,8 +13586,8 @@ const teams = [
         "trophies": "A-League: 1",
         "mustKnowFact": "Green-black western risers.",
         "active": true,
-        "logo": "logos/western_united.png",
-        "uniform": "uniforms/western_united.png"
+        "logo": "logos/western_united.webp",
+        "uniform": "uniforms/western_united.webp"
     },
     {
         "name": "Auckland FC",
@@ -13616,53 +13601,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue newcomers of NZ.",
         "active": true,
-        "logo": "logos/auckland_fc.png",
-        "uniform": "uniforms/auckland_fc.png"
-    },
-    {
-        "name": "Canberra United",
-        "country": "Australia",
-        "league": "A-League Men",
-        "city": "Canberra",
-        "lat": -35.2809,
-        "lon": 149.13,
-        "founded": 2008,
-        "stadium": "McKellar Park",
-        "trophies": "",
-        "mustKnowFact": "Green-blue capital hopefuls.",
-        "active": true,
-        "logo": "logos/canberra_united.png",
-        "uniform": "uniforms/canberra_united.png"
-    },
-    {
-        "name": "Gold Coast United",
-        "country": "Australia",
-        "league": "A-League Men",
-        "city": "Gold Coast",
-        "lat": -28.0167,
-        "lon": 153.4,
-        "founded": 2008,
-        "stadium": "CBUS Super Stadium",
-        "trophies": "",
-        "mustKnowFact": "Yellow coast revivalists.",
-        "active": true,
-        "logo": "logos/gold_coast_united.png",
-        "uniform": "uniforms/gold_coast_united.png"
-    },
-    {
-        "name": "Tasmania FC",
-        "country": "Australia",
-        "league": "A-League Men",
-        "city": "Hobart",
-        "lat": -42.8821,
-        "lon": 147.3272,
-        "founded": 2025,
-        "stadium": "North Hobart Oval",
-        "trophies": "",
-        "mustKnowFact": "Green island dreamers.",
-        "active": true,
-        "logo": "logos/tasmania_fc.png",
-        "uniform": "uniforms/tasmania_fc.png"
+        "logo": "logos/auckland_fc.webp",
+        "uniform": "uniforms/auckland_fc.webp"
     },
     {
         "name": "Al Sadd",
@@ -13676,8 +13616,8 @@ const teams = [
         "trophies": "QSL: 16, AFC Champions League: 2",
         "mustKnowFact": "Black-white wolves of Doha.",
         "active": true,
-        "logo": "logos/al_sadd.png",
-        "uniform": "uniforms/al_sadd.png"
+        "logo": "logos/al_sadd.webp",
+        "uniform": "uniforms/al_sadd.webp"
     },
     {
         "name": "Al Rayyan",
@@ -13691,8 +13631,8 @@ const teams = [
         "trophies": "QSL: 8",
         "mustKnowFact": "Red lions of Qatar.",
         "active": true,
-        "logo": "logos/al_rayyan.png",
-        "uniform": "uniforms/al_rayyan.png"
+        "logo": "logos/al_rayyan.webp",
+        "uniform": "uniforms/al_rayyan.webp"
     },
     {
         "name": "Al Duhail",
@@ -13706,8 +13646,8 @@ const teams = [
         "trophies": "QSL: 8",
         "mustKnowFact": "Red knights of Doha.",
         "active": true,
-        "logo": "logos/al_duhail.png",
-        "uniform": "uniforms/al_duhail.png"
+        "logo": "logos/al_duhail.webp",
+        "uniform": "uniforms/al_duhail.webp"
     },
     {
         "name": "Al Gharafa",
@@ -13721,8 +13661,8 @@ const teams = [
         "trophies": "QSL: 7",
         "mustKnowFact": "Yellow cheetahs of Doha.",
         "active": true,
-        "logo": "logos/al_gharafa.png",
-        "uniform": "uniforms/al_gharafa.png"
+        "logo": "logos/al_gharafa.webp",
+        "uniform": "uniforms/al_gharafa.webp"
     },
     {
         "name": "Qatar SC",
@@ -13736,8 +13676,8 @@ const teams = [
         "trophies": "QSL: 3",
         "mustKnowFact": "Yellow-black kings of Qatar.",
         "active": true,
-        "logo": "logos/qatar_sc.png",
-        "uniform": "uniforms/qatar_sc.png"
+        "logo": "logos/qatar_sc.webp",
+        "uniform": "uniforms/qatar_sc.webp"
     },
     {
         "name": "Al Arabi",
@@ -13751,8 +13691,8 @@ const teams = [
         "trophies": "QSL: 7",
         "mustKnowFact": "Red dreamers of Doha.",
         "active": true,
-        "logo": "logos/al_arabi.png",
-        "uniform": "uniforms/al_arabi_qatar.png"
+        "logo": "logos/al_arabi.webp",
+        "uniform": "uniforms/al_arabi_qatar.webp"
     },
     {
         "name": "Al Wakrah",
@@ -13766,8 +13706,8 @@ const teams = [
         "trophies": "QSL: 2",
         "mustKnowFact": "Blue waves of the south.",
         "active": true,
-        "logo": "logos/al_wakrah.png",
-        "uniform": "uniforms/al_wakrah.png"
+        "logo": "logos/al_wakrah.webp",
+        "uniform": "uniforms/al_wakrah.webp"
     },
     {
         "name": "Umm Salal",
@@ -13781,8 +13721,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange falcons of the north.",
         "active": true,
-        "logo": "logos/umm_salal.png",
-        "uniform": "uniforms/umm_salal.png"
+        "logo": "logos/umm_salal.webp",
+        "uniform": "uniforms/umm_salal.webp"
     },
     {
         "name": "Al Shamal",
@@ -13796,8 +13736,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red northerners of Qatar.",
         "active": true,
-        "logo": "logos/al_shamal.png",
-        "uniform": "uniforms/al_shamal.png"
+        "logo": "logos/al_shamal.webp",
+        "uniform": "uniforms/al_shamal.webp"
     },
     {
         "name": "Al Ahli",
@@ -13811,8 +13751,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green brigade of Doha.",
         "active": true,
-        "logo": "logos/al_ahli_saudi.png",
-        "uniform": "uniforms/al_ahli_qatar.png"
+        "logo": "logos/al_ahli_saudi.webp",
+        "uniform": "uniforms/al_ahli_qatar.webp"
     },
     {
         "name": "Al Khor",
@@ -13826,8 +13766,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue knights of the coast.",
         "active": true,
-        "logo": "logos/al_khor.png",
-        "uniform": "uniforms/al_khor.png"
+        "logo": "logos/al_khor.webp",
+        "uniform": "uniforms/al_khor.webp"
     },
     {
         "name": "Al Shahania",
@@ -13841,8 +13781,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue-white desert risers.",
         "active": true,
-        "logo": "logos/al_shahania.png",
-        "uniform": "uniforms/al_shahania.png"
+        "logo": "logos/al_shahania.webp",
+        "uniform": "uniforms/al_shahania.webp"
     },
     {
         "name": "Al Markhiya",
@@ -13856,8 +13796,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red newcomers of Doha.",
         "active": true,
-        "logo": "logos/al_markhiya.png",
-        "uniform": "uniforms/al_markhiya.png"
+        "logo": "logos/al_markhiya.webp",
+        "uniform": "uniforms/al_markhiya.webp"
     },
     {
         "name": "Muaither SC",
@@ -13871,8 +13811,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple warriors of Muaither.",
         "active": true,
-        "logo": "logos/muaither_sc.png",
-        "uniform": "uniforms/muaither_sc.png"
+        "logo": "logos/muaither_sc.webp",
+        "uniform": "uniforms/muaither_sc.webp"
     },
     {
         "name": "Al Sailiya",
@@ -13886,8 +13826,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow-black sailors of Doha.",
         "active": true,
-        "logo": "logos/al_sailiya.png",
-        "uniform": "uniforms/al_sailiya.png"
+        "logo": "logos/al_sailiya.webp",
+        "uniform": "uniforms/al_sailiya.webp"
     },
     {
         "name": "Al Mesaimeer",
@@ -13901,8 +13841,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green risers of Mesaimeer.",
         "active": true,
-        "logo": "logos/al_mesaimeer.png",
-        "uniform": "uniforms/al_mesaimeer.png"
+        "logo": "logos/al_mesaimeer.webp",
+        "uniform": "uniforms/al_mesaimeer.webp"
     },
     {
         "name": "Al Shorta",
@@ -13916,8 +13856,8 @@ const teams = [
         "trophies": "IPL: 6, Arab Club Champions Cup: 1",
         "mustKnowFact": "Green harps of Baghdad.",
         "active": true,
-        "logo": "logos/al_shorta.png",
-        "uniform": "uniforms/al_shorta.png"
+        "logo": "logos/al_shorta.webp",
+        "uniform": "uniforms/al_shorta.webp"
     },
     {
         "name": "Al Quwa Al Jawiya",
@@ -13931,8 +13871,8 @@ const teams = [
         "trophies": "IPL: 7, AFC Cup: 3",
         "mustKnowFact": "Blue falcons of Iraq.",
         "active": true,
-        "logo": "logos/al_quwa_al_jawiya.png",
-        "uniform": "uniforms/al_quwa_al_jawiya.png"
+        "logo": "logos/al_quwa_al_jawiya.webp",
+        "uniform": "uniforms/al_quwa_al_jawiya.webp"
     },
     {
         "name": "Al Zawraa",
@@ -13946,8 +13886,8 @@ const teams = [
         "trophies": "IPL: 14",
         "mustKnowFact": "White gulls of Baghdad.",
         "active": true,
-        "logo": "logos/al_zawraa.png",
-        "uniform": "uniforms/al_zawraa.png"
+        "logo": "logos/al_zawraa.webp",
+        "uniform": "uniforms/al_zawraa.webp"
     },
     {
         "name": "Al Talaba",
@@ -13961,8 +13901,8 @@ const teams = [
         "trophies": "IPL: 5",
         "mustKnowFact": "Red students of Baghdad.",
         "active": true,
-        "logo": "logos/al_talaba.png",
-        "uniform": "uniforms/al_talaba.png"
+        "logo": "logos/al_talaba.webp",
+        "uniform": "uniforms/al_talaba.webp"
     },
     {
         "name": "Naft Al Wasat",
@@ -13976,8 +13916,8 @@ const teams = [
         "trophies": "IPL: 1",
         "mustKnowFact": "Green oilmen of Najaf.",
         "active": true,
-        "logo": "logos/naft_al_wasat.png",
-        "uniform": "uniforms/naft_al_wasat.png"
+        "logo": "logos/naft_al_wasat.webp",
+        "uniform": "uniforms/naft_al_wasat.webp"
     },
     {
         "name": "Al Naft",
@@ -13991,8 +13931,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black oil of Baghdad.",
         "active": true,
-        "logo": "logos/al_naft.png",
-        "uniform": "uniforms/al_naft.png"
+        "logo": "logos/al_naft.webp",
+        "uniform": "uniforms/al_naft.webp"
     },
     {
         "name": "Erbil SC",
@@ -14006,8 +13946,8 @@ const teams = [
         "trophies": "IPL: 4",
         "mustKnowFact": "Yellow hawks of Kurdistan.",
         "active": true,
-        "logo": "logos/erbil_sc.png",
-        "uniform": "uniforms/erbil_sc.png"
+        "logo": "logos/erbil_sc.webp",
+        "uniform": "uniforms/erbil_sc.webp"
     },
     {
         "name": "Al Karkh",
@@ -14021,8 +13961,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow canaries of Karkh.",
         "active": true,
-        "logo": "logos/al_karkh.png",
-        "uniform": "uniforms/al_karkh.png"
+        "logo": "logos/al_karkh.webp",
+        "uniform": "uniforms/al_karkh.webp"
     },
     {
         "name": "Al Minaa",
@@ -14036,8 +13976,8 @@ const teams = [
         "trophies": "IPL: 1",
         "mustKnowFact": "Blue sailors of Basra.",
         "active": true,
-        "logo": "logos/al_minaa.png",
-        "uniform": "uniforms/al_minaa.png"
+        "logo": "logos/al_minaa.webp",
+        "uniform": "uniforms/al_minaa.webp"
     },
     {
         "name": "Al Kahrabaa",
@@ -14051,8 +13991,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green electric of Baghdad.",
         "active": true,
-        "logo": "logos/al_kahrabaa.png",
-        "uniform": "uniforms/al_kahrabaa.png"
+        "logo": "logos/al_kahrabaa.webp",
+        "uniform": "uniforms/al_kahrabaa.webp"
     },
     {
         "name": "Zakho FC",
@@ -14066,8 +14006,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue eagles of the north.",
         "active": true,
-        "logo": "logos/zakho_fc.png",
-        "uniform": "uniforms/zakho_fc.png"
+        "logo": "logos/zakho_fc.webp",
+        "uniform": "uniforms/zakho_fc.webp"
     },
     {
         "name": "Al Diwaniya",
@@ -14081,8 +14021,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow warriors of Diwaniya.",
         "active": true,
-        "logo": "logos/al_diwaniya.png",
-        "uniform": "uniforms/al_diwaniya.png"
+        "logo": "logos/al_diwaniya.webp",
+        "uniform": "uniforms/al_diwaniya.webp"
     },
     {
         "name": "Al Hudood",
@@ -14096,8 +14036,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange borders of Baghdad.",
         "active": true,
-        "logo": "logos/al_hudood.png",
-        "uniform": "uniforms/al_hudood.png"
+        "logo": "logos/al_hudood.webp",
+        "uniform": "uniforms/al_hudood.webp"
     },
     {
         "name": "Naft Maysan",
@@ -14111,8 +14051,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green oil of Maysan.",
         "active": true,
-        "logo": "logos/naft_maysan.png",
-        "uniform": "uniforms/naft_maysan.png"
+        "logo": "logos/naft_maysan.webp",
+        "uniform": "uniforms/naft_maysan.webp"
     },
     {
         "name": "Al Qasim",
@@ -14126,8 +14066,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green lions of Babil.",
         "active": true,
-        "logo": "logos/al_qasim.png",
-        "uniform": "uniforms/al_qasim.png"
+        "logo": "logos/al_qasim.webp",
+        "uniform": "uniforms/al_qasim.webp"
     },
     {
         "name": "Al Najaf",
@@ -14141,8 +14081,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White camels of Najaf.",
         "active": true,
-        "logo": "logos/al_najaf.png",
-        "uniform": "uniforms/al_najaf.png"
+        "logo": "logos/al_najaf.webp",
+        "uniform": "uniforms/al_najaf.webp"
     },
     {
         "name": "Pakhtakor Tashkent",
@@ -14156,8 +14096,8 @@ const teams = [
         "trophies": "USL: 14",
         "mustKnowFact": "Yellow lions of Tashkent.",
         "active": true,
-        "logo": "logos/pakhtakor_tashkent.png",
-        "uniform": "uniforms/pakhtakor_tashkent.png"
+        "logo": "logos/pakhtakor_tashkent.webp",
+        "uniform": "uniforms/pakhtakor_tashkent.webp"
     },
     {
         "name": "Nasaf Qarshi",
@@ -14171,8 +14111,8 @@ const teams = [
         "trophies": "USL: 1, AFC Cup: 1",
         "mustKnowFact": "White dragons of Qarshi.",
         "active": true,
-        "logo": "logos/nasaf_qarshi.png",
-        "uniform": "uniforms/nasaf_qarshi.png"
+        "logo": "logos/nasaf_qarshi.webp",
+        "uniform": "uniforms/nasaf_qarshi.webp"
     },
     {
         "name": "Bunyodkor",
@@ -14186,8 +14126,8 @@ const teams = [
         "trophies": "USL: 5",
         "mustKnowFact": "Blue swallows of Tashkent.",
         "active": true,
-        "logo": "logos/bunyodkor.png",
-        "uniform": "uniforms/bunyodkor.png"
+        "logo": "logos/bunyodkor.webp",
+        "uniform": "uniforms/bunyodkor.webp"
     },
     {
         "name": "Navbahor Namangan",
@@ -14201,8 +14141,8 @@ const teams = [
         "trophies": "USL: 1",
         "mustKnowFact": "Green falcons of Namangan.",
         "active": true,
-        "logo": "logos/navbahor_namangan.png",
-        "uniform": "uniforms/navbahor_namangan.png"
+        "logo": "logos/navbahor_namangan.webp",
+        "uniform": "uniforms/navbahor_namangan.webp"
     },
     {
         "name": "AGMK Olmaliq",
@@ -14216,8 +14156,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red miners of Olmaliq.",
         "active": true,
-        "logo": "logos/agmk_olmaliq.png",
-        "uniform": "uniforms/agmk_olmaliq.png"
+        "logo": "logos/agmk_olmaliq.webp",
+        "uniform": "uniforms/agmk_olmaliq.webp"
     },
     {
         "name": "Sogdiana Jizzakh",
@@ -14231,8 +14171,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue eagles of Jizzakh.",
         "active": true,
-        "logo": "logos/sogdiana_jizzakh.png",
-        "uniform": "uniforms/sogdiana_jizzakh.png"
+        "logo": "logos/sogdiana_jizzakh.webp",
+        "uniform": "uniforms/sogdiana_jizzakh.webp"
     },
     {
         "name": "Lokomotiv Tashkent",
@@ -14246,8 +14186,8 @@ const teams = [
         "trophies": "USL: 3",
         "mustKnowFact": "Red locomotives of Tashkent.",
         "active": true,
-        "logo": "logos/lokomotiv_tashkent.png",
-        "uniform": "uniforms/lokomotiv_tashkent.png"
+        "logo": "logos/lokomotiv_tashkent.webp",
+        "uniform": "uniforms/lokomotiv_tashkent.webp"
     },
     {
         "name": "Qizilqum Zarafshon",
@@ -14261,8 +14201,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red sands of Zarafshon.",
         "active": true,
-        "logo": "logos/qizilqum_zarafshon.png",
-        "uniform": "uniforms/qizilqum_zarafshon.png"
+        "logo": "logos/qizilqum_zarafshon.webp",
+        "uniform": "uniforms/qizilqum_zarafshon.webp"
     },
     {
         "name": "Surkhon Termez",
@@ -14276,8 +14216,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red warriors of Termez.",
         "active": true,
-        "logo": "logos/surkhon_termez.png",
-        "uniform": "uniforms/surkhon_termez.png"
+        "logo": "logos/surkhon_termez.webp",
+        "uniform": "uniforms/surkhon_termez.webp"
     },
     {
         "name": "Metallurg Bekabad",
@@ -14291,8 +14231,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue steel of Bekabad.",
         "active": true,
-        "logo": "logos/metallurg_bekabad.png",
-        "uniform": "uniforms/metallurg_bekabad.png"
+        "logo": "logos/metallurg_bekabad.webp",
+        "uniform": "uniforms/metallurg_bekabad.webp"
     },
     {
         "name": "Neftchi Fergana",
@@ -14306,8 +14246,8 @@ const teams = [
         "trophies": "USL: 1",
         "mustKnowFact": "White oilmen of Fergana.",
         "active": true,
-        "logo": "logos/neftchi_fergana.png",
-        "uniform": "uniforms/neftchi_fergana.png"
+        "logo": "logos/neftchi_fergana.webp",
+        "uniform": "uniforms/neftchi_fergana.webp"
     },
     {
         "name": "Dinamo Samarqand",
@@ -14321,8 +14261,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue dynamos of Samarkand.",
         "active": true,
-        "logo": "logos/dinamo_samarqand.png",
-        "uniform": "uniforms/dinamo_samarqand.png"
+        "logo": "logos/dinamo_samarqand.webp",
+        "uniform": "uniforms/dinamo_samarqand.webp"
     },
     {
         "name": "Andijon",
@@ -14336,8 +14276,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green tigers of Andijan.",
         "active": true,
-        "logo": "logos/andijon.png",
-        "uniform": "uniforms/andijon.png"
+        "logo": "logos/andijon.webp",
+        "uniform": "uniforms/andijon.webp"
     },
     {
         "name": "Bukhara",
@@ -14351,8 +14291,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red heritage of Bukhara.",
         "active": true,
-        "logo": "logos/bukhara.png",
-        "uniform": "uniforms/bukhara.png"
+        "logo": "logos/bukhara.webp",
+        "uniform": "uniforms/bukhara.webp"
     },
     {
         "name": "Olympic Tashkent",
@@ -14366,8 +14306,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue youth of Tashkent.",
         "active": true,
-        "logo": "logos/olympic_tashkent.png",
-        "uniform": "uniforms/olympic_tashkent.png"
+        "logo": "logos/olympic_tashkent.webp",
+        "uniform": "uniforms/olympic_tashkent.webp"
     },
     {
         "name": "Kokand 1912",
@@ -14381,8 +14321,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green legacy of Kokand.",
         "active": true,
-        "logo": "logos/kokand_1912.png",
-        "uniform": "uniforms/kokand_1912.png"
+        "logo": "logos/kokand_1912.webp",
+        "uniform": "uniforms/kokand_1912.webp"
     },
     {
         "name": "Al Hilal",
@@ -14396,8 +14336,8 @@ const teams = [
         "trophies": "SPL: 19, AFC Champions League: 4",
         "mustKnowFact": "Blue crescent of Riyadh.",
         "active": true,
-        "logo": "logos/al_hilal.png",
-        "uniform": "uniforms/al_hilal.png"
+        "logo": "logos/al_hilal.webp",
+        "uniform": "uniforms/al_hilal.webp"
     },
     {
         "name": "Al Nassr",
@@ -14411,8 +14351,8 @@ const teams = [
         "trophies": "SPL: 9",
         "mustKnowFact": "Yellow victory of Riyadh.",
         "active": true,
-        "logo": "logos/al_nassr.png",
-        "uniform": "uniforms/al_nassr.png"
+        "logo": "logos/al_nassr.webp",
+        "uniform": "uniforms/al_nassr.webp"
     },
     {
         "name": "Al Ittihad",
@@ -14426,8 +14366,8 @@ const teams = [
         "trophies": "SPL: 9, AFC Champions League: 2",
         "mustKnowFact": "Yellow-black tigers of Jeddah.",
         "active": true,
-        "logo": "logos/al_ittihad.png",
-        "uniform": "uniforms/al_ittihad.png"
+        "logo": "logos/al_ittihad.webp",
+        "uniform": "uniforms/al_ittihad.webp"
     },
     {
         "name": "Al Shabab",
@@ -14441,8 +14381,8 @@ const teams = [
         "trophies": "SPL: 6",
         "mustKnowFact": "White lions of Riyadh.",
         "active": true,
-        "logo": "logos/al_shabab.png",
-        "uniform": "uniforms/al_shabab.png"
+        "logo": "logos/al_shabab.webp",
+        "uniform": "uniforms/al_shabab.webp"
     },
     {
         "name": "Al Ettifaq",
@@ -14456,8 +14396,8 @@ const teams = [
         "trophies": "SPL: 2",
         "mustKnowFact": "Green knights of Dammam.",
         "active": true,
-        "logo": "logos/al_ettifaq.png",
-        "uniform": "uniforms/al_ettifaq.png"
+        "logo": "logos/al_ettifaq.webp",
+        "uniform": "uniforms/al_ettifaq.webp"
     },
     {
         "name": "Al Taawoun",
@@ -14471,8 +14411,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow wolves of Qassim.",
         "active": true,
-        "logo": "logos/al_taawoun.png",
-        "uniform": "uniforms/al_taawoun.png"
+        "logo": "logos/al_taawoun.webp",
+        "uniform": "uniforms/al_taawoun.webp"
     },
     {
         "name": "Al Fateh",
@@ -14486,8 +14426,8 @@ const teams = [
         "trophies": "SPL: 1",
         "mustKnowFact": "Blue conquerors of Al Hasa.",
         "active": true,
-        "logo": "logos/al_fateh_fc.png",
-        "uniform": "uniforms/al_fateh_fc.png"
+        "logo": "logos/al_fateh_fc.webp",
+        "uniform": "uniforms/al_fateh_fc.webp"
     },
     {
         "name": "Al Wehda",
@@ -14501,8 +14441,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red knights of Mecca.",
         "active": true,
-        "logo": "logos/al_wehda.png",
-        "uniform": "uniforms/al_wehda.png"
+        "logo": "logos/al_wehda.webp",
+        "uniform": "uniforms/al_wehda.webp"
     },
     {
         "name": "Al Riyadh",
@@ -14516,8 +14456,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White-blue capital risers.",
         "active": true,
-        "logo": "logos/al_riyadh.png",
-        "uniform": "uniforms/al_riyadh.png"
+        "logo": "logos/al_riyadh.webp",
+        "uniform": "uniforms/al_riyadh.webp"
     },
     {
         "name": "Al Fayha",
@@ -14531,8 +14471,8 @@ const teams = [
         "trophies": "King Cup: 1",
         "mustKnowFact": "Orange guardians of Majma'ah.",
         "active": true,
-        "logo": "logos/al_fayha.png",
-        "uniform": "uniforms/al_fayha.png"
+        "logo": "logos/al_fayha.webp",
+        "uniform": "uniforms/al_fayha.webp"
     },
     {
         "name": "Al Hazem",
@@ -14546,8 +14486,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow warriors of Ar Rass.",
         "active": true,
-        "logo": "logos/al_hazem.png",
-        "uniform": "uniforms/al_hazem.png"
+        "logo": "logos/al_hazem.webp",
+        "uniform": "uniforms/al_hazem.webp"
     },
     {
         "name": "Al Khaleej",
@@ -14561,8 +14501,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow sailors of Saihat.",
         "active": true,
-        "logo": "logos/al_khaleej.png",
-        "uniform": "uniforms/al_khaleej.png"
+        "logo": "logos/al_khaleej.webp",
+        "uniform": "uniforms/al_khaleej.webp"
     },
     {
         "name": "Al Okhdood",
@@ -14576,8 +14516,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue stars of Najran.",
         "active": true,
-        "logo": "logos/al_okhdood.png",
-        "uniform": "uniforms/al_okhdood.png"
+        "logo": "logos/al_okhdood.webp",
+        "uniform": "uniforms/al_okhdood.webp"
     },
     {
         "name": "Damac FC",
@@ -14591,8 +14531,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red mountain men.",
         "active": true,
-        "logo": "logos/damac_fc.png",
-        "uniform": "uniforms/damac_fc.png"
+        "logo": "logos/damac_fc.webp",
+        "uniform": "uniforms/damac_fc.webp"
     },
     {
         "name": "Al Qadsiah",
@@ -14606,8 +14546,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow knights of Khobar.",
         "active": true,
-        "logo": "logos/al_qadsiah.png",
-        "uniform": "uniforms/al_qadsiah.png"
+        "logo": "logos/al_qadsiah.webp",
+        "uniform": "uniforms/al_qadsiah.webp"
     },
     {
         "name": "Al Ain",
@@ -14621,8 +14561,8 @@ const teams = [
         "trophies": "UAE Pro League: 14, AFC Champions League: 2",
         "mustKnowFact": "Violet bosses of the Garden City.",
         "active": true,
-        "logo": "logos/al_ain.png",
-        "uniform": "uniforms/al_ain.png"
+        "logo": "logos/al_ain.webp",
+        "uniform": "uniforms/al_ain.webp"
     },
     {
         "name": "Al Wahda",
@@ -14636,8 +14576,8 @@ const teams = [
         "trophies": "UAE Pro League: 4",
         "mustKnowFact": "Red falcons of Abu Dhabi.",
         "active": true,
-        "logo": "logos/al_wahda.png",
-        "uniform": "uniforms/al_wahda_uae.png"
+        "logo": "logos/al_wahda.webp",
+        "uniform": "uniforms/al_wahda_uae.webp"
     },
     {
         "name": "Al Jazira",
@@ -14651,8 +14591,8 @@ const teams = [
         "trophies": "UAE Pro League: 3",
         "mustKnowFact": "Red spiders of the capital.",
         "active": true,
-        "logo": "logos/al_jazira.png",
-        "uniform": "uniforms/al_jazira.png"
+        "logo": "logos/al_jazira.webp",
+        "uniform": "uniforms/al_jazira.webp"
     },
     {
         "name": "Shabab Al Ahli",
@@ -14666,8 +14606,8 @@ const teams = [
         "trophies": "UAE Pro League: 8",
         "mustKnowFact": "Red knights of Dubai.",
         "active": true,
-        "logo": "logos/shabab_al_ahli.png",
-        "uniform": "uniforms/shabab_al_ahli.png"
+        "logo": "logos/shabab_al_ahli.webp",
+        "uniform": "uniforms/shabab_al_ahli.webp"
     },
     {
         "name": "Sharjah FC",
@@ -14681,8 +14621,8 @@ const teams = [
         "trophies": "UAE Pro League: 6",
         "mustKnowFact": "White kings of Sharjah.",
         "active": true,
-        "logo": "logos/sharjah_fc.png",
-        "uniform": "uniforms/sharjah_fc.png"
+        "logo": "logos/sharjah_fc.webp",
+        "uniform": "uniforms/sharjah_fc.webp"
     },
     {
         "name": "Al Wasl",
@@ -14696,8 +14636,8 @@ const teams = [
         "trophies": "UAE Pro League: 8",
         "mustKnowFact": "Yellow cheetahs of Dubai.",
         "active": true,
-        "logo": "logos/al_wasl.png",
-        "uniform": "uniforms/al_wasl.png"
+        "logo": "logos/al_wasl.webp",
+        "uniform": "uniforms/al_wasl.webp"
     },
     {
         "name": "Al Nasr",
@@ -14711,8 +14651,8 @@ const teams = [
         "trophies": "UAE Pro League: 3",
         "mustKnowFact": "Blue victory of Dubai.",
         "active": true,
-        "logo": "logos/al_nasr.png",
-        "uniform": "uniforms/al_nasr_uae.png"
+        "logo": "logos/al_nasr.webp",
+        "uniform": "uniforms/al_nasr_uae.webp"
     },
     {
         "name": "Baniyas",
@@ -14726,8 +14666,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sky blue sons of Baniyas.",
         "active": true,
-        "logo": "logos/baniyas.png",
-        "uniform": "uniforms/baniyas.png"
+        "logo": "logos/baniyas.webp",
+        "uniform": "uniforms/baniyas.webp"
     },
     {
         "name": "Ajman Club",
@@ -14741,8 +14681,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange tigers of Ajman.",
         "active": true,
-        "logo": "logos/ajman_club.png",
-        "uniform": "uniforms/ajman_club.png"
+        "logo": "logos/ajman_club.webp",
+        "uniform": "uniforms/ajman_club.webp"
     },
     {
         "name": "Al Bataeh",
@@ -14756,8 +14696,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue risers of Sharjah.",
         "active": true,
-        "logo": "logos/al_bataeh.png",
-        "uniform": "uniforms/al_bataeh.png"
+        "logo": "logos/al_bataeh.webp",
+        "uniform": "uniforms/al_bataeh.webp"
     },
     {
         "name": "Ittihad Kalba",
@@ -14771,8 +14711,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow tigers of the east.",
         "active": true,
-        "logo": "logos/ittihad_kalba.png",
-        "uniform": "uniforms/ittihad_kalba.png"
+        "logo": "logos/ittihad_kalba.webp",
+        "uniform": "uniforms/ittihad_kalba.webp"
     },
     {
         "name": "Al Dhafra",
@@ -14786,8 +14726,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green knights of the west.",
         "active": true,
-        "logo": "logos/al_dhafra.png",
-        "uniform": "uniforms/al_dhafra.png"
+        "logo": "logos/al_dhafra.webp",
+        "uniform": "uniforms/al_dhafra.webp"
     },
     {
         "name": "Khor Fakkan",
@@ -14801,8 +14741,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue sailors of the coast.",
         "active": true,
-        "logo": "logos/khor_fakkan.png",
-        "uniform": "uniforms/khor_fakkan.png"
+        "logo": "logos/khor_fakkan.webp",
+        "uniform": "uniforms/khor_fakkan.webp"
     },
     {
         "name": "Emirates Club",
@@ -14816,8 +14756,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red falcons of the north.",
         "active": true,
-        "logo": "logos/emirates_club.png",
-        "uniform": "uniforms/emirates_club.png"
+        "logo": "logos/emirates_club.webp",
+        "uniform": "uniforms/emirates_club.webp"
     },
     {
         "name": "Dibba Al Fujairah",
@@ -14831,8 +14771,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green waves of Fujairah.",
         "active": true,
-        "logo": "logos/dibba_al_fujairah.png",
-        "uniform": "uniforms/dibba_al_fujairah.png"
+        "logo": "logos/dibba_al_fujairah.webp",
+        "uniform": "uniforms/dibba_al_fujairah.webp"
     },
     {
         "name": "Fujairah FC",
@@ -14846,8 +14786,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue leopards of Fujairah.",
         "active": true,
-        "logo": "logos/fujairah_fc.png",
-        "uniform": "uniforms/fujairah_fc.png"
+        "logo": "logos/fujairah_fc.webp",
+        "uniform": "uniforms/fujairah_fc.webp"
     },
     {
         "name": "Al Faisaly",
@@ -14861,8 +14801,8 @@ const teams = [
         "trophies": "JPL: 35",
         "mustKnowFact": "Blue eagles of Amman.",
         "active": true,
-        "logo": "logos/al_faisaly_jordan.png",
-        "uniform": "uniforms/al_faisaly_jordan.png"
+        "logo": "logos/al_faisaly_jordan.webp",
+        "uniform": "uniforms/al_faisaly_jordan.webp"
     },
     {
         "name": "Al Wehdat",
@@ -14876,8 +14816,8 @@ const teams = [
         "trophies": "JPL: 17",
         "mustKnowFact": "Green falcons of Amman.",
         "active": true,
-        "logo": "logos/al_wehdat.png",
-        "uniform": "uniforms/al_wehdat.png"
+        "logo": "logos/al_wehdat.webp",
+        "uniform": "uniforms/al_wehdat.webp"
     },
     {
         "name": "Al Ramtha",
@@ -14891,8 +14831,8 @@ const teams = [
         "trophies": "JPL: 3",
         "mustKnowFact": "Blue deer of the north.",
         "active": true,
-        "logo": "logos/al_ramtha.png",
-        "uniform": "uniforms/al_ramtha.png"
+        "logo": "logos/al_ramtha.webp",
+        "uniform": "uniforms/al_ramtha.webp"
     },
     {
         "name": "Al Hussein",
@@ -14906,8 +14846,8 @@ const teams = [
         "trophies": "JPL: 1",
         "mustKnowFact": "Yellow lions of Irbid.",
         "active": true,
-        "logo": "logos/al_hussein.png",
-        "uniform": "uniforms/al_hussein.png"
+        "logo": "logos/al_hussein.webp",
+        "uniform": "uniforms/al_hussein.webp"
     },
     {
         "name": "Al Salt",
@@ -14921,8 +14861,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green warriors of Salt.",
         "active": true,
-        "logo": "logos/al_salt.png",
-        "uniform": "uniforms/al_salt.png"
+        "logo": "logos/al_salt.webp",
+        "uniform": "uniforms/al_salt.webp"
     },
     {
         "name": "Shabab Al Ordon",
@@ -14936,8 +14876,8 @@ const teams = [
         "trophies": "JPL: 2",
         "mustKnowFact": "Red youth of Amman.",
         "active": true,
-        "logo": "logos/shabab_al_ordon.png",
-        "uniform": "uniforms/shabab_al_ordon.png"
+        "logo": "logos/shabab_al_ordon.webp",
+        "uniform": "uniforms/shabab_al_ordon.webp"
     },
     {
         "name": "Al Jazeera",
@@ -14951,8 +14891,8 @@ const teams = [
         "trophies": "JPL: 3",
         "mustKnowFact": "Red islanders of Amman.",
         "active": true,
-        "logo": "logos/al_jazeera_jordan.png",
-        "uniform": "uniforms/al_jazeera_jordan.png"
+        "logo": "logos/al_jazeera_jordan.webp",
+        "uniform": "uniforms/al_jazeera_jordan.webp"
     },
     {
         "name": "Al Aqaba",
@@ -14966,8 +14906,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue waves of the Red Sea.",
         "active": true,
-        "logo": "logos/al_aqaba.png",
-        "uniform": "uniforms/al_aqaba.png"
+        "logo": "logos/al_aqaba.webp",
+        "uniform": "uniforms/al_aqaba.webp"
     },
     {
         "name": "Ma'an",
@@ -14981,8 +14921,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red sands of Ma'an.",
         "active": true,
-        "logo": "logos/ma_an.png",
-        "uniform": "uniforms/ma_an.png"
+        "logo": "logos/ma_an.webp",
+        "uniform": "uniforms/ma_an.webp"
     },
     {
         "name": "Al Sareeh",
@@ -14996,8 +14936,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue fighters of Irbid.",
         "active": true,
-        "logo": "logos/al_sareeh.png",
-        "uniform": "uniforms/al_sareeh.png"
+        "logo": "logos/al_sareeh.webp",
+        "uniform": "uniforms/al_sareeh.webp"
     },
     {
         "name": "Sahab SC",
@@ -15011,8 +14951,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple dawn of Amman.",
         "active": true,
-        "logo": "logos/sahab_sc.png",
-        "uniform": "uniforms/sahab_sc.png"
+        "logo": "logos/sahab_sc.webp",
+        "uniform": "uniforms/sahab_sc.webp"
     },
     {
         "name": "Moghayer Al Sarhan",
@@ -15026,8 +14966,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green falcons of Mafraq.",
         "active": true,
-        "logo": "logos/moghayer_al_sarhan.png",
-        "uniform": "uniforms/moghayer_al_sarhan.png"
+        "logo": "logos/moghayer_al_sarhan.webp",
+        "uniform": "uniforms/moghayer_al_sarhan.webp"
     },
     {
         "name": "Al Buqa'a",
@@ -15041,8 +14981,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red wolves of Balqa.",
         "active": true,
-        "logo": "logos/al_buqa_a.png",
-        "uniform": "uniforms/al_buqa_a.png"
+        "logo": "logos/al_buqa_a.webp",
+        "uniform": "uniforms/al_buqa_a.webp"
     },
     {
         "name": "Shabab Al Hussein",
@@ -15056,8 +14996,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green youth of Amman.",
         "active": true,
-        "logo": "logos/shabab_al_hussein.png",
-        "uniform": "uniforms/shabab_al_hussein.png"
+        "logo": "logos/shabab_al_hussein.webp",
+        "uniform": "uniforms/shabab_al_hussein.webp"
     },
     {
         "name": "Jalil Club",
@@ -15071,8 +15011,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue heritage of Jerash.",
         "active": true,
-        "logo": "logos/jalil_club.png",
-        "uniform": "uniforms/jalil_club.png"
+        "logo": "logos/jalil_club.webp",
+        "uniform": "uniforms/jalil_club.webp"
     },
     {
         "name": "Al Tora",
@@ -15086,8 +15026,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red risers of Tafilah.",
         "active": true,
-        "logo": "logos/al_tora.png",
-        "uniform": "uniforms/al_tora.png"
+        "logo": "logos/al_tora.webp",
+        "uniform": "uniforms/al_tora.webp"
     },
     {
         "name": "Dhofar Club",
@@ -15101,8 +15041,8 @@ const teams = [
         "trophies": "OPL: 11",
         "mustKnowFact": "Red leopards of Dhofar.",
         "active": true,
-        "logo": "logos/dhofar_club.png",
-        "uniform": "uniforms/dhofar_club.png"
+        "logo": "logos/dhofar_club.webp",
+        "uniform": "uniforms/dhofar_club.webp"
     },
     {
         "name": "Al Nahda",
@@ -15116,8 +15056,8 @@ const teams = [
         "trophies": "OPL: 4",
         "mustKnowFact": "Green renaissance of Buraimi.",
         "active": true,
-        "logo": "logos/al_nahda_oman.png",
-        "uniform": "uniforms/al_nahda_oman.png"
+        "logo": "logos/al_nahda_oman.webp",
+        "uniform": "uniforms/al_nahda_oman.webp"
     },
     {
         "name": "Al Seeb",
@@ -15131,8 +15071,8 @@ const teams = [
         "trophies": "OPL: 3",
         "mustKnowFact": "Yellow champions of Seeb.",
         "active": true,
-        "logo": "logos/al_seeb.png",
-        "uniform": "uniforms/al_seeb.png"
+        "logo": "logos/al_seeb.webp",
+        "uniform": "uniforms/al_seeb.webp"
     },
     {
         "name": "Al Nasr Salalah",
@@ -15146,8 +15086,8 @@ const teams = [
         "trophies": "OPL: 5",
         "mustKnowFact": "Blue victory of Salalah.",
         "active": true,
-        "logo": "logos/al_nasr_salalah.png",
-        "uniform": "uniforms/al_nasr_salalah.png"
+        "logo": "logos/al_nasr_salalah.webp",
+        "uniform": "uniforms/al_nasr_salalah.webp"
     },
     {
         "name": "Oman Club",
@@ -15161,8 +15101,8 @@ const teams = [
         "trophies": "OPL: 2",
         "mustKnowFact": "Red pride of Muscat.",
         "active": true,
-        "logo": "logos/oman_club.png",
-        "uniform": "uniforms/oman_club.png"
+        "logo": "logos/oman_club.webp",
+        "uniform": "uniforms/oman_club.webp"
     },
     {
         "name": "Al Suwaiq",
@@ -15176,8 +15116,8 @@ const teams = [
         "trophies": "OPL: 4",
         "mustKnowFact": "Yellow falcons of Suwaiq.",
         "active": true,
-        "logo": "logos/al_suwaiq.png",
-        "uniform": "uniforms/al_suwaiq.png"
+        "logo": "logos/al_suwaiq.webp",
+        "uniform": "uniforms/al_suwaiq.webp"
     },
     {
         "name": "Al Oruba",
@@ -15191,8 +15131,8 @@ const teams = [
         "trophies": "OPL: 3",
         "mustKnowFact": "Green sailors of Sur.",
         "active": true,
-        "logo": "logos/al_oruba_oman.png",
-        "uniform": "uniforms/al_oruba_oman.png"
+        "logo": "logos/al_oruba_oman.webp",
+        "uniform": "uniforms/al_oruba_oman.webp"
     },
     {
         "name": "Fanja SC",
@@ -15206,8 +15146,8 @@ const teams = [
         "trophies": "OPL: 9",
         "mustKnowFact": "Yellow wolves of Fanja.",
         "active": true,
-        "logo": "logos/fanja_sc.png",
-        "uniform": "uniforms/fanja_sc.png"
+        "logo": "logos/fanja_sc.webp",
+        "uniform": "uniforms/fanja_sc.webp"
     },
     {
         "name": "Al Shabab Seeb",
@@ -15221,8 +15161,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green youth of Seeb.",
         "active": true,
-        "logo": "logos/al_shabab_seeb.png",
-        "uniform": "uniforms/al_shabab_seeb.png"
+        "logo": "logos/al_shabab_seeb.webp",
+        "uniform": "uniforms/al_shabab_seeb.webp"
     },
     {
         "name": "Sohar SC",
@@ -15236,8 +15176,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue mariners of Sohar.",
         "active": true,
-        "logo": "logos/sohar_sc.png",
-        "uniform": "uniforms/sohar_sc.png"
+        "logo": "logos/sohar_sc.webp",
+        "uniform": "uniforms/sohar_sc.webp"
     },
     {
         "name": "Al Rustaq",
@@ -15251,8 +15191,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red fortress of Rustaq.",
         "active": true,
-        "logo": "logos/al_rustaq.png",
-        "uniform": "uniforms/al_rustaq.png"
+        "logo": "logos/al_rustaq.webp",
+        "uniform": "uniforms/al_rustaq.webp"
     },
     {
         "name": "Bahla Club",
@@ -15266,8 +15206,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green oasis of Bahla.",
         "active": true,
-        "logo": "logos/bahla_club.png",
-        "uniform": "uniforms/bahla_club.png"
+        "logo": "logos/bahla_club.webp",
+        "uniform": "uniforms/bahla_club.webp"
     },
     {
         "name": "Muscat Club",
@@ -15281,8 +15221,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue capital pioneers.",
         "active": true,
-        "logo": "logos/muscat_club.png",
-        "uniform": "uniforms/muscat_club.png"
+        "logo": "logos/muscat_club.webp",
+        "uniform": "uniforms/muscat_club.webp"
     },
     {
         "name": "Al Ittihad Salalah",
@@ -15296,8 +15236,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green unity of Salalah.",
         "active": true,
-        "logo": "logos/al_ittihad_salalah.png",
-        "uniform": "uniforms/al_ittihad_salalah.png"
+        "logo": "logos/al_ittihad_salalah.webp",
+        "uniform": "uniforms/al_ittihad_salalah.webp"
     },
     {
         "name": "Nizwa Club",
@@ -15311,8 +15251,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red heritage of Nizwa.",
         "active": true,
-        "logo": "logos/nizwa_club.png",
-        "uniform": "uniforms/nizwa_club.png"
+        "logo": "logos/nizwa_club.webp",
+        "uniform": "uniforms/nizwa_club.webp"
     },
     {
         "name": "Ibri Club",
@@ -15326,8 +15266,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue risers of Ibri.",
         "active": true,
-        "logo": "logos/ibri_club.png",
-        "uniform": "uniforms/ibri_club.png"
+        "logo": "logos/ibri_club.webp",
+        "uniform": "uniforms/ibri_club.webp"
     },
     {
         "name": "Al Muharraq",
@@ -15341,8 +15281,8 @@ const teams = [
         "trophies": "BPL: 34",
         "mustKnowFact": "Red giants of Muharraq.",
         "active": true,
-        "logo": "logos/al_muharraq.png",
-        "uniform": "uniforms/al_muharraq.png"
+        "logo": "logos/al_muharraq.webp",
+        "uniform": "uniforms/al_muharraq.webp"
     },
     {
         "name": "Al Riffa",
@@ -15356,8 +15296,8 @@ const teams = [
         "trophies": "BPL: 14",
         "mustKnowFact": "Blue lions of Riffa.",
         "active": true,
-        "logo": "logos/al_riffa.png",
-        "uniform": "uniforms/al_riffa.png"
+        "logo": "logos/al_riffa.webp",
+        "uniform": "uniforms/al_riffa.webp"
     },
     {
         "name": "Al Hidd",
@@ -15371,8 +15311,8 @@ const teams = [
         "trophies": "BPL: 2",
         "mustKnowFact": "Yellow sailors of Hidd.",
         "active": true,
-        "logo": "logos/al_hidd.png",
-        "uniform": "uniforms/al_hidd.png"
+        "logo": "logos/al_hidd.webp",
+        "uniform": "uniforms/al_hidd.webp"
     },
     {
         "name": "Manama Club",
@@ -15386,8 +15326,8 @@ const teams = [
         "trophies": "BPL: 7",
         "mustKnowFact": "Green capital warriors.",
         "active": true,
-        "logo": "logos/manama_club.png",
-        "uniform": "uniforms/manama_club.png"
+        "logo": "logos/manama_club.webp",
+        "uniform": "uniforms/manama_club.webp"
     },
     {
         "name": "East Riffa",
@@ -15401,8 +15341,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red risers of East Riffa.",
         "active": true,
-        "logo": "logos/east_riffa.png",
-        "uniform": "uniforms/east_riffa.png"
+        "logo": "logos/east_riffa.webp",
+        "uniform": "uniforms/east_riffa.webp"
     },
     {
         "name": "Al Ahli Manama",
@@ -15416,8 +15356,8 @@ const teams = [
         "trophies": "BPL: 5",
         "mustKnowFact": "Yellow eagles of Manama.",
         "active": true,
-        "logo": "logos/al_ahli_manama.png",
-        "uniform": "uniforms/al_ahli_manama.png"
+        "logo": "logos/al_ahli_manama.webp",
+        "uniform": "uniforms/al_ahli_manama.webp"
     },
     {
         "name": "Busaiteen",
@@ -15431,8 +15371,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue waves of Busaiteen.",
         "active": true,
-        "logo": "logos/busaiteen.png",
-        "uniform": "uniforms/busaiteen.png"
+        "logo": "logos/busaiteen.webp",
+        "uniform": "uniforms/busaiteen.webp"
     },
     {
         "name": "Al Shabab Manama",
@@ -15446,8 +15386,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green youth of Manama.",
         "active": true,
-        "logo": "logos/al_shabab_manama.png",
-        "uniform": "uniforms/al_shabab_manama.png"
+        "logo": "logos/al_shabab_manama.webp",
+        "uniform": "uniforms/al_shabab_manama.webp"
     },
     {
         "name": "Al Najma",
@@ -15461,8 +15401,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue stars of Manama.",
         "active": true,
-        "logo": "logos/al_najma_bahrain.png",
-        "uniform": "uniforms/al_najma_bahrain.png"
+        "logo": "logos/al_najma_bahrain.webp",
+        "uniform": "uniforms/al_najma_bahrain.webp"
     },
     {
         "name": "Sitra Club",
@@ -15476,8 +15416,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red islanders of Sitra.",
         "active": true,
-        "logo": "logos/sitra_club.png",
-        "uniform": "uniforms/sitra_club.png"
+        "logo": "logos/sitra_club.webp",
+        "uniform": "uniforms/sitra_club.webp"
     },
     {
         "name": "Al Bahrain SC",
@@ -15491,8 +15431,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green pride of Muharraq.",
         "active": true,
-        "logo": "logos/al_bahrain_sc.png",
-        "uniform": "uniforms/al_bahrain_sc.png"
+        "logo": "logos/al_bahrain_sc.webp",
+        "uniform": "uniforms/al_bahrain_sc.webp"
     },
     {
         "name": "Malkiya Club",
@@ -15506,8 +15446,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow fighters of Malkiya.",
         "active": true,
-        "logo": "logos/malkiya_club.png",
-        "uniform": "uniforms/malkiya_club.png"
+        "logo": "logos/malkiya_club.webp",
+        "uniform": "uniforms/malkiya_club.webp"
     },
     {
         "name": "Al Hala",
@@ -15521,8 +15461,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue crescent of Muharraq.",
         "active": true,
-        "logo": "logos/al_hala.png",
-        "uniform": "uniforms/al_hala.png"
+        "logo": "logos/al_hala.webp",
+        "uniform": "uniforms/al_hala.webp"
     },
     {
         "name": "Budaiya Club",
@@ -15536,8 +15476,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green risers of Budaiya.",
         "active": true,
-        "logo": "logos/budaiya_club.png",
-        "uniform": "uniforms/budaiya_club.png"
+        "logo": "logos/budaiya_club.webp",
+        "uniform": "uniforms/budaiya_club.webp"
     },
     {
         "name": "Isa Town",
@@ -15551,8 +15491,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red town warriors.",
         "active": true,
-        "logo": "logos/isa_town.png",
-        "uniform": "uniforms/isa_town.png"
+        "logo": "logos/isa_town.webp",
+        "uniform": "uniforms/isa_town.webp"
     },
     {
         "name": "Qalali Club",
@@ -15566,8 +15506,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue coast of Qalali.",
         "active": true,
-        "logo": "logos/qalali_club.png",
-        "uniform": "uniforms/qalali_club.png"
+        "logo": "logos/qalali_club.webp",
+        "uniform": "uniforms/qalali_club.webp"
     },
     {
         "name": "Buriram United",
@@ -15581,8 +15521,8 @@ const teams = [
         "trophies": "TL1: 9",
         "mustKnowFact": "Blue thunder of Buriram.",
         "active": true,
-        "logo": "logos/buriram_united.png",
-        "uniform": "uniforms/buriram_united.png"
+        "logo": "logos/buriram_united.webp",
+        "uniform": "uniforms/buriram_united.webp"
     },
     {
         "name": "Bangkok United",
@@ -15596,8 +15536,8 @@ const teams = [
         "trophies": "TL1: 1",
         "mustKnowFact": "Red angels of Bangkok.",
         "active": true,
-        "logo": "logos/bangkok_united.png",
-        "uniform": "uniforms/bangkok_united.png"
+        "logo": "logos/bangkok_united.webp",
+        "uniform": "uniforms/bangkok_united.webp"
     },
     {
         "name": "Muangthong United",
@@ -15611,8 +15551,8 @@ const teams = [
         "trophies": "TL1: 4",
         "mustKnowFact": "Red kirins of Nonthaburi.",
         "active": true,
-        "logo": "logos/muangthong_united.png",
-        "uniform": "uniforms/muangthong_united.png"
+        "logo": "logos/muangthong_united.webp",
+        "uniform": "uniforms/muangthong_united.webp"
     },
     {
         "name": "Port FC",
@@ -15626,8 +15566,8 @@ const teams = [
         "trophies": "TL1: 1",
         "mustKnowFact": "Orange lions of the port.",
         "active": true,
-        "logo": "logos/port_fc.png",
-        "uniform": "uniforms/port_fc.png"
+        "logo": "logos/port_fc.webp",
+        "uniform": "uniforms/port_fc.webp"
     },
     {
         "name": "BG Pathum United",
@@ -15641,8 +15581,8 @@ const teams = [
         "trophies": "TL1: 2",
         "mustKnowFact": "Blue rabbits of Pathum.",
         "active": true,
-        "logo": "logos/bg_pathum_united.png",
-        "uniform": "uniforms/bg_pathum_united.png"
+        "logo": "logos/bg_pathum_united.webp",
+        "uniform": "uniforms/bg_pathum_united.webp"
     },
     {
         "name": "Chiangrai United",
@@ -15656,8 +15596,8 @@ const teams = [
         "trophies": "TL1: 1",
         "mustKnowFact": "Orange beetles of the north.",
         "active": true,
-        "logo": "logos/chiangrai_united.png",
-        "uniform": "uniforms/chiangrai_united.png"
+        "logo": "logos/chiangrai_united.webp",
+        "uniform": "uniforms/chiangrai_united.webp"
     },
     {
         "name": "Ratchaburi FC",
@@ -15671,8 +15611,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange dragons of Ratchaburi.",
         "active": true,
-        "logo": "logos/ratchaburi_fc.png",
-        "uniform": "uniforms/ratchaburi_fc.png"
+        "logo": "logos/ratchaburi_fc.webp",
+        "uniform": "uniforms/ratchaburi_fc.webp"
     },
     {
         "name": "Police Tero",
@@ -15686,8 +15626,8 @@ const teams = [
         "trophies": "TL1: 2",
         "mustKnowFact": "Silver dragons of Bangkok.",
         "active": true,
-        "logo": "logos/police_tero.png",
-        "uniform": "uniforms/police_tero.png"
+        "logo": "logos/police_tero.webp",
+        "uniform": "uniforms/police_tero.webp"
     },
     {
         "name": "Chonburi FC",
@@ -15701,8 +15641,8 @@ const teams = [
         "trophies": "TL1: 1",
         "mustKnowFact": "Blue sharks of Chonburi.",
         "active": true,
-        "logo": "logos/chonburi_fc.png",
-        "uniform": "uniforms/chonburi_fc.png"
+        "logo": "logos/chonburi_fc.webp",
+        "uniform": "uniforms/chonburi_fc.webp"
     },
     {
         "name": "Sukhothai FC",
@@ -15716,8 +15656,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red bats of Sukhothai.",
         "active": true,
-        "logo": "logos/sukhothai_fc.png",
-        "uniform": "uniforms/sukhothai_fc.png"
+        "logo": "logos/sukhothai_fc.webp",
+        "uniform": "uniforms/sukhothai_fc.webp"
     },
     {
         "name": "Lamphun Warriors",
@@ -15731,8 +15671,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "White warriors of Lamphun.",
         "active": true,
-        "logo": "logos/lamphun_warriors.png",
-        "uniform": "uniforms/lamphun_warriors.png"
+        "logo": "logos/lamphun_warriors.webp",
+        "uniform": "uniforms/lamphun_warriors.webp"
     },
     {
         "name": "Nakhon Ratchasima FC",
@@ -15746,8 +15686,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange tigers of Korat.",
         "active": true,
-        "logo": "logos/nakhon_ratchasima_fc.png",
-        "uniform": "uniforms/nakhon_ratchasima_fc.png"
+        "logo": "logos/nakhon_ratchasima_fc.webp",
+        "uniform": "uniforms/nakhon_ratchasima_fc.webp"
     },
     {
         "name": "Khon Kaen United",
@@ -15761,8 +15701,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red dinosaurs of Khon Kaen.",
         "active": true,
-        "logo": "logos/khon_kaen_united.png",
-        "uniform": "uniforms/khon_kaen_united.png"
+        "logo": "logos/khon_kaen_united.webp",
+        "uniform": "uniforms/khon_kaen_united.webp"
     },
     {
         "name": "Prachuap FC",
@@ -15776,8 +15716,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange killers of Prachuap.",
         "active": true,
-        "logo": "logos/prachuap_fc.png",
-        "uniform": "uniforms/prachuap_fc.png"
+        "logo": "logos/prachuap_fc.webp",
+        "uniform": "uniforms/prachuap_fc.webp"
     },
     {
         "name": "Uthai Thani FC",
@@ -15791,8 +15731,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green elephants of Uthai.",
         "active": true,
-        "logo": "logos/uthai_thani_fc.png",
-        "uniform": "uniforms/uthai_thani_fc.png"
+        "logo": "logos/uthai_thani_fc.webp",
+        "uniform": "uniforms/uthai_thani_fc.webp"
     },
     {
         "name": "Rayong FC",
@@ -15806,8 +15746,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue mackerels of Rayong.",
         "active": true,
-        "logo": "logos/rayong_fc.png",
-        "uniform": "uniforms/rayong_fc.png"
+        "logo": "logos/rayong_fc.webp",
+        "uniform": "uniforms/rayong_fc.webp"
     },
     {
         "name": "Hanoi FC",
@@ -15821,8 +15761,8 @@ const teams = [
         "trophies": "V.League 1: 6",
         "mustKnowFact": "Yellow kings of Hanoi.",
         "active": true,
-        "logo": "logos/hanoi_fc.png",
-        "uniform": "uniforms/hanoi_fc.png"
+        "logo": "logos/hanoi_fc.webp",
+        "uniform": "uniforms/hanoi_fc.webp"
     },
     {
         "name": "Viettel FC",
@@ -15836,8 +15776,8 @@ const teams = [
         "trophies": "V.League 1: 2",
         "mustKnowFact": "Red army of Vietnam.",
         "active": true,
-        "logo": "logos/viettel_fc.png",
-        "uniform": "uniforms/viettel_fc.png"
+        "logo": "logos/viettel_fc.webp",
+        "uniform": "uniforms/viettel_fc.webp"
     },
     {
         "name": "Ho Chi Minh City FC",
@@ -15851,8 +15791,8 @@ const teams = [
         "trophies": "V.League 1: 2",
         "mustKnowFact": "Red dragons of Saigon.",
         "active": true,
-        "logo": "logos/ho_chi_minh_city_fc.png",
-        "uniform": "uniforms/ho_chi_minh_city_fc.png"
+        "logo": "logos/ho_chi_minh_city_fc.webp",
+        "uniform": "uniforms/ho_chi_minh_city_fc.webp"
     },
     {
         "name": "Haiphong FC",
@@ -15866,8 +15806,8 @@ const teams = [
         "trophies": "V.League 1: 1",
         "mustKnowFact": "Red port warriors.",
         "active": true,
-        "logo": "logos/haiphong_fc.png",
-        "uniform": "uniforms/haiphong_fc.png"
+        "logo": "logos/haiphong_fc.webp",
+        "uniform": "uniforms/haiphong_fc.webp"
     },
     {
         "name": "The Cong Viettel",
@@ -15881,8 +15821,8 @@ const teams = [
         "trophies": "V.League 1: 2",
         "mustKnowFact": "Green soldiers of Hanoi.",
         "active": true,
-        "logo": "logos/the_cong_viettel.png",
-        "uniform": "uniforms/the_cong_viettel.png"
+        "logo": "logos/the_cong_viettel.webp",
+        "uniform": "uniforms/the_cong_viettel.webp"
     },
     {
         "name": "Song Lam Nghe An",
@@ -15896,8 +15836,8 @@ const teams = [
         "trophies": "V.League 1: 3",
         "mustKnowFact": "Yellow songbirds of Nghe An.",
         "active": true,
-        "logo": "logos/song_lam_nghe_an.png",
-        "uniform": "uniforms/song_lam_nghe_an.png"
+        "logo": "logos/song_lam_nghe_an.webp",
+        "uniform": "uniforms/song_lam_nghe_an.webp"
     },
     {
         "name": "Hoang Anh Gia Lai",
@@ -15911,8 +15851,8 @@ const teams = [
         "trophies": "V.League 1: 2",
         "mustKnowFact": "White tigers of the highlands.",
         "active": true,
-        "logo": "logos/hoang_anh_gia_lai.png",
-        "uniform": "uniforms/hoang_anh_gia_lai.png"
+        "logo": "logos/hoang_anh_gia_lai.webp",
+        "uniform": "uniforms/hoang_anh_gia_lai.webp"
     },
     {
         "name": "Nam Dinh FC",
@@ -15926,8 +15866,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green phoenix of Nam Dinh.",
         "active": true,
-        "logo": "logos/nam_dinh_fc.png",
-        "uniform": "uniforms/nam_dinh_fc.png"
+        "logo": "logos/nam_dinh_fc.webp",
+        "uniform": "uniforms/nam_dinh_fc.webp"
     },
     {
         "name": "Binh Duong FC",
@@ -15941,8 +15881,8 @@ const teams = [
         "trophies": "V.League 1: 4",
         "mustKnowFact": "Red steel of Binh Duong.",
         "active": true,
-        "logo": "logos/binh_duong_fc.png",
-        "uniform": "uniforms/binh_duong_fc.png"
+        "logo": "logos/binh_duong_fc.webp",
+        "uniform": "uniforms/binh_duong_fc.webp"
     },
     {
         "name": "Thanh Hoa FC",
@@ -15956,8 +15896,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow lions of Thanh Hoa.",
         "active": true,
-        "logo": "logos/thanh_hoa_fc.png",
-        "uniform": "uniforms/thanh_hoa_fc.png"
+        "logo": "logos/thanh_hoa_fc.webp",
+        "uniform": "uniforms/thanh_hoa_fc.webp"
     },
     {
         "name": "Quang Nam FC",
@@ -15971,8 +15911,8 @@ const teams = [
         "trophies": "V.League 1: 1",
         "mustKnowFact": "Green dragons of Quang Nam.",
         "active": true,
-        "logo": "logos/quang_nam_fc.png",
-        "uniform": "uniforms/quang_nam_fc.png"
+        "logo": "logos/quang_nam_fc.webp",
+        "uniform": "uniforms/quang_nam_fc.webp"
     },
     {
         "name": "Da Nang FC",
@@ -15986,8 +15926,8 @@ const teams = [
         "trophies": "V.League 1: 3",
         "mustKnowFact": "Orange river of Da Nang.",
         "active": true,
-        "logo": "logos/da_nang_fc.png",
-        "uniform": "uniforms/da_nang_fc.png"
+        "logo": "logos/da_nang_fc.webp",
+        "uniform": "uniforms/da_nang_fc.webp"
     },
     {
         "name": "Khanh Hoa FC",
@@ -16001,8 +15941,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue waves of Nha Trang.",
         "active": true,
-        "logo": "logos/khanh_hoa_fc.png",
-        "uniform": "uniforms/khanh_hoa_fc.png"
+        "logo": "logos/khanh_hoa_fc.webp",
+        "uniform": "uniforms/khanh_hoa_fc.webp"
     },
     {
         "name": "Hong Linh Ha Tinh",
@@ -16016,8 +15956,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red phoenix of Ha Tinh.",
         "active": true,
-        "logo": "logos/hong_linh_ha_tinh.png",
-        "uniform": "uniforms/hong_linh_ha_tinh.png"
+        "logo": "logos/hong_linh_ha_tinh.webp",
+        "uniform": "uniforms/hong_linh_ha_tinh.webp"
     },
     {
         "name": "Cong An Ha Noi",
@@ -16031,8 +15971,8 @@ const teams = [
         "trophies": "V.League 1: 1",
         "mustKnowFact": "Red police of Hanoi.",
         "active": true,
-        "logo": "logos/cong_an_ha_noi.png",
-        "uniform": "uniforms/cong_an_ha_noi.png"
+        "logo": "logos/cong_an_ha_noi.webp",
+        "uniform": "uniforms/cong_an_ha_noi.webp"
     },
     {
         "name": "Binh Dinh FC",
@@ -16046,8 +15986,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue coast of Binh Dinh.",
         "active": true,
-        "logo": "logos/binh_dinh_fc.png",
-        "uniform": "uniforms/binh_dinh_fc.png"
+        "logo": "logos/binh_dinh_fc.webp",
+        "uniform": "uniforms/binh_dinh_fc.webp"
     },
     {
         "name": "Mohun Bagan Super Giant",
@@ -16061,8 +16001,8 @@ const teams = [
         "trophies": "ISL: 1",
         "mustKnowFact": "Green-maroon legends of Kolkata.",
         "active": true,
-        "logo": "logos/mohun_bagan_super_giant.png",
-        "uniform": "uniforms/mohun_bagan_super_giant.png"
+        "logo": "logos/mohun_bagan_super_giant.webp",
+        "uniform": "uniforms/mohun_bagan_super_giant.webp"
     },
     {
         "name": "Mumbai City FC",
@@ -16076,8 +16016,8 @@ const teams = [
         "trophies": "ISL: 2",
         "mustKnowFact": "Blue islanders of Mumbai.",
         "active": true,
-        "logo": "logos/mumbai_city_fc.png",
-        "uniform": "uniforms/mumbai_city_fc.png"
+        "logo": "logos/mumbai_city_fc.webp",
+        "uniform": "uniforms/mumbai_city_fc.webp"
     },
     {
         "name": "Bengaluru FC",
@@ -16091,8 +16031,8 @@ const teams = [
         "trophies": "ISL: 1",
         "mustKnowFact": "Blue tigers of Bangalore.",
         "active": true,
-        "logo": "logos/bengaluru_fc.png",
-        "uniform": "uniforms/bengaluru_fc.png"
+        "logo": "logos/bengaluru_fc.webp",
+        "uniform": "uniforms/bengaluru_fc.webp"
     },
     {
         "name": "FC Goa",
@@ -16106,8 +16046,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange gaurs of Goa.",
         "active": true,
-        "logo": "logos/fc_goa.png",
-        "uniform": "uniforms/fc_goa.png"
+        "logo": "logos/fc_goa.webp",
+        "uniform": "uniforms/fc_goa.webp"
     },
     {
         "name": "Kerala Blasters",
@@ -16121,8 +16061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow elephants of Kerala.",
         "active": true,
-        "logo": "logos/kerala_blasters.png",
-        "uniform": "uniforms/kerala_blasters.png"
+        "logo": "logos/kerala_blasters.webp",
+        "uniform": "uniforms/kerala_blasters.webp"
     },
     {
         "name": "Chennaiyin FC",
@@ -16136,8 +16076,8 @@ const teams = [
         "trophies": "ISL: 2",
         "mustKnowFact": "Blue marina of Chennai.",
         "active": true,
-        "logo": "logos/chennaiyin_fc.png",
-        "uniform": "uniforms/chennaiyin_fc.png"
+        "logo": "logos/chennaiyin_fc.webp",
+        "uniform": "uniforms/chennaiyin_fc.webp"
     },
     {
         "name": "Odisha FC",
@@ -16151,8 +16091,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-black juggernauts of Odisha.",
         "active": true,
-        "logo": "logos/odisha_fc.png",
-        "uniform": "uniforms/odisha_fc.png"
+        "logo": "logos/odisha_fc.webp",
+        "uniform": "uniforms/odisha_fc.webp"
     },
     {
         "name": "East Bengal FC",
@@ -16166,8 +16106,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-gold torchbearers of Kolkata.",
         "active": true,
-        "logo": "logos/east_bengal_fc.png",
-        "uniform": "uniforms/east_bengal_fc.png"
+        "logo": "logos/east_bengal_fc.webp",
+        "uniform": "uniforms/east_bengal_fc.webp"
     },
     {
         "name": "Jamshedpur FC",
@@ -16181,8 +16121,8 @@ const teams = [
         "trophies": "ISL: 1",
         "mustKnowFact": "Red steelmen of Jamshedpur.",
         "active": true,
-        "logo": "logos/jamshedpur_fc.png",
-        "uniform": "uniforms/jamshedpur_fc.png"
+        "logo": "logos/jamshedpur_fc.webp",
+        "uniform": "uniforms/jamshedpur_fc.webp"
     },
     {
         "name": "NorthEast United FC",
@@ -16196,8 +16136,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red-white highlanders of the northeast.",
         "active": true,
-        "logo": "logos/northeast_united_fc.png",
-        "uniform": "uniforms/northeast_united_fc.png"
+        "logo": "logos/northeast_united_fc.webp",
+        "uniform": "uniforms/northeast_united_fc.webp"
     },
     {
         "name": "Hyderabad FC",
@@ -16211,8 +16151,8 @@ const teams = [
         "trophies": "ISL: 1",
         "mustKnowFact": "Yellow-black pearls of Hyderabad.",
         "active": true,
-        "logo": "logos/hyderabad_fc.png",
-        "uniform": "uniforms/hyderabad_fc.png"
+        "logo": "logos/hyderabad_fc.webp",
+        "uniform": "uniforms/hyderabad_fc.webp"
     },
     {
         "name": "Punjab FC",
@@ -16226,8 +16166,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue warriors of Punjab.",
         "active": true,
-        "logo": "logos/punjab_fc.png",
-        "uniform": "uniforms/punjab_fc.png"
+        "logo": "logos/punjab_fc.webp",
+        "uniform": "uniforms/punjab_fc.webp"
     },
     {
         "name": "Mohammedan SC",
@@ -16241,8 +16181,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Black-white heritage of Kolkata.",
         "active": true,
-        "logo": "logos/mohammedan_sc.png",
-        "uniform": "uniforms/mohammedan_sc.png"
+        "logo": "logos/mohammedan_sc.webp",
+        "uniform": "uniforms/mohammedan_sc.webp"
     },
     {
         "name": "Chennai City FC",
@@ -16256,8 +16196,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue lions of Coimbatore.",
         "active": true,
-        "logo": "logos/chennai_city_fc.png",
-        "uniform": "uniforms/chennai_city_fc.png"
+        "logo": "logos/chennai_city_fc.webp",
+        "uniform": "uniforms/chennai_city_fc.webp"
     },
     {
         "name": "Delhi FC",
@@ -16271,8 +16211,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red capital risers.",
         "active": true,
-        "logo": "logos/delhi_fc.png",
-        "uniform": "uniforms/delhi_fc.png"
+        "logo": "logos/delhi_fc.webp",
+        "uniform": "uniforms/delhi_fc.webp"
     },
     {
         "name": "Rajasthan United FC",
@@ -16286,8 +16226,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Pink warriors of Jaipur.",
         "active": true,
-        "logo": "logos/rajasthan_united_fc.png",
-        "uniform": "uniforms/rajasthan_united_fc.png"
+        "logo": "logos/rajasthan_united_fc.webp",
+        "uniform": "uniforms/rajasthan_united_fc.webp"
     },
     {
         "name": "Persib Bandung",
@@ -16301,8 +16241,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "Blue tigers of Bandung.",
         "active": true,
-        "logo": "logos/persib_bandung.png",
-        "uniform": "uniforms/persib_bandung.png"
+        "logo": "logos/persib_bandung.webp",
+        "uniform": "uniforms/persib_bandung.webp"
     },
     {
         "name": "Persija Jakarta",
@@ -16316,8 +16256,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "Orange tigers of Jakarta.",
         "active": true,
-        "logo": "logos/persija_jakarta.png",
-        "uniform": "uniforms/persija_jakarta.png"
+        "logo": "logos/persija_jakarta.webp",
+        "uniform": "uniforms/persija_jakarta.webp"
     },
     {
         "name": "Bali United",
@@ -16331,8 +16271,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "Red warriors of Bali.",
         "active": true,
-        "logo": "logos/bali_united.png",
-        "uniform": "uniforms/bali_united.png"
+        "logo": "logos/bali_united.webp",
+        "uniform": "uniforms/bali_united.webp"
     },
     {
         "name": "PSM Makassar",
@@ -16346,8 +16286,8 @@ const teams = [
         "trophies": "Liga 1: 1",
         "mustKnowFact": "Red roosters of Makassar.",
         "active": true,
-        "logo": "logos/psm_makassar.png",
-        "uniform": "uniforms/psm_makassar.png"
+        "logo": "logos/psm_makassar.webp",
+        "uniform": "uniforms/psm_makassar.webp"
     },
     {
         "name": "Arema FC",
@@ -16361,8 +16301,8 @@ const teams = [
         "trophies": "Liga 1: 1",
         "mustKnowFact": "Blue lions of Malang.",
         "active": true,
-        "logo": "logos/arema_fc.png",
-        "uniform": "uniforms/arema_fc.png"
+        "logo": "logos/arema_fc.webp",
+        "uniform": "uniforms/arema_fc.webp"
     },
     {
         "name": "Persebaya Surabaya",
@@ -16376,8 +16316,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "Green crocodiles of Surabaya.",
         "active": true,
-        "logo": "logos/persebaya_surabaya.png",
-        "uniform": "uniforms/persebaya_surabaya.png"
+        "logo": "logos/persebaya_surabaya.webp",
+        "uniform": "uniforms/persebaya_surabaya.webp"
     },
     {
         "name": "Borneo FC",
@@ -16391,8 +16331,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Orange bears of Borneo.",
         "active": true,
-        "logo": "logos/borneo_fc.png",
-        "uniform": "uniforms/borneo_fc.png"
+        "logo": "logos/borneo_fc.webp",
+        "uniform": "uniforms/borneo_fc.webp"
     },
     {
         "name": "PSIS Semarang",
@@ -16406,8 +16346,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Blue warriors of Semarang.",
         "active": true,
-        "logo": "logos/psis_semarang.png",
-        "uniform": "uniforms/psis_semarang.png"
+        "logo": "logos/psis_semarang.webp",
+        "uniform": "uniforms/psis_semarang.webp"
     },
     {
         "name": "PSS Sleman",
@@ -16421,8 +16361,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green eagles of Sleman.",
         "active": true,
-        "logo": "logos/pss_sleman.png",
-        "uniform": "uniforms/pss_sleman.png"
+        "logo": "logos/pss_sleman.webp",
+        "uniform": "uniforms/pss_sleman.webp"
     },
     {
         "name": "Persik Kediri",
@@ -16436,8 +16376,8 @@ const teams = [
         "trophies": "Liga 1: 2",
         "mustKnowFact": "White tigers of Kediri.",
         "active": true,
-        "logo": "logos/persik_kediri.png",
-        "uniform": "uniforms/persik_kediri.png"
+        "logo": "logos/persik_kediri.webp",
+        "uniform": "uniforms/persik_kediri.webp"
     },
     {
         "name": "Persita Tangerang",
@@ -16451,8 +16391,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Purple pendekar of Tangerang.",
         "active": true,
-        "logo": "logos/persita_tangerang.png",
-        "uniform": "uniforms/persita_tangerang.png"
+        "logo": "logos/persita_tangerang.webp",
+        "uniform": "uniforms/persita_tangerang.webp"
     },
     {
         "name": "Persis Solo",
@@ -16466,8 +16406,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red warriors of Solo.",
         "active": true,
-        "logo": "logos/persis_solo.png",
-        "uniform": "uniforms/persis_solo.png"
+        "logo": "logos/persis_solo.webp",
+        "uniform": "uniforms/persis_solo.webp"
     },
     {
         "name": "Madura United",
@@ -16481,8 +16421,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red bulls of Madura.",
         "active": true,
-        "logo": "logos/madura_united.png",
-        "uniform": "uniforms/madura_united.png"
+        "logo": "logos/madura_united.webp",
+        "uniform": "uniforms/madura_united.webp"
     },
     {
         "name": "RANS Nusantara",
@@ -16496,8 +16436,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Pink phoenix of Jakarta.",
         "active": true,
-        "logo": "logos/rans_nusantara.png",
-        "uniform": "uniforms/rans_nusantara.png"
+        "logo": "logos/rans_nusantara.webp",
+        "uniform": "uniforms/rans_nusantara.webp"
     },
     {
         "name": "Barito Putera",
@@ -16511,8 +16451,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Yellow ants of Banjarmasin.",
         "active": true,
-        "logo": "logos/barito_putera.png",
-        "uniform": "uniforms/barito_putera.png"
+        "logo": "logos/barito_putera.webp",
+        "uniform": "uniforms/barito_putera.webp"
     },
     {
         "name": "Dewa United",
@@ -16526,8 +16466,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Red gods of Tangerang.",
         "active": true,
-        "logo": "logos/dewa_united.png",
-        "uniform": "uniforms/dewa_united.png"
+        "logo": "logos/dewa_united.webp",
+        "uniform": "uniforms/dewa_united.webp"
     },
     {
         "name": "FK Austria Wien",
@@ -16541,8 +16481,8 @@ const teams = [
         "trophies": "Bundesliga: 24, Austrian Cup: 27, Austrian Supercup: 6, Mitropa Cup: 1",
         "mustKnowFact": "Most successful club in Austrian history.",
         "active": true,
-        "logo": "logos/fk_austria_wien.png",
-        "uniform": "uniforms/fk_austria_wien.png"
+        "logo": "logos/fk_austria_wien.webp",
+        "uniform": "uniforms/fk_austria_wien.webp"
     },
     {
         "name": "Red Bull Salzburg",
@@ -16556,8 +16496,8 @@ const teams = [
         "trophies": "Bundesliga: 19, Austrian Cup: 9, Austrian Supercup: 3",
         "mustKnowFact": "Dominant force in modern Austrian football.",
         "active": true,
-        "logo": "logos/red_bull_salzburg.png",
-        "uniform": "uniforms/red_bull_salzburg.png"
+        "logo": "logos/red_bull_salzburg.webp",
+        "uniform": "uniforms/red_bull_salzburg.webp"
     },
     {
         "name": "SK Sturm Graz",
@@ -16571,8 +16511,8 @@ const teams = [
         "trophies": "Bundesliga: 4, Austrian Cup: 7, Austrian Supercup: 3",
         "mustKnowFact": "2023-24 Bundesliga champions.",
         "active": true,
-        "logo": "logos/sk_sturm_graz.png",
-        "uniform": "uniforms/sk_sturm_graz.png"
+        "logo": "logos/sk_sturm_graz.webp",
+        "uniform": "uniforms/sk_sturm_graz.webp"
     },
     {
         "name": "LASK",
@@ -16586,8 +16526,8 @@ const teams = [
         "trophies": "Bundesliga: 1, Austrian Cup: 1, Austrian Amateur Championship: 2",
         "mustKnowFact": "First non-Vienna club to win the league.",
         "active": true,
-        "logo": "logos/lask.png",
-        "uniform": "uniforms/lask.png"
+        "logo": "logos/lask.webp",
+        "uniform": "uniforms/lask.webp"
     },
     {
         "name": "SK Rapid Wien",
@@ -16601,8 +16541,8 @@ const teams = [
         "trophies": "Bundesliga: 32, Austrian Cup: 14, Austrian Supercup: 3, Mitropa Cup: 1, Intercontinental Cup: 1",
         "mustKnowFact": "Record league titles in Austria.",
         "active": true,
-        "logo": "logos/sk_rapid_wien.png",
-        "uniform": "uniforms/sk_rapid_wien.png"
+        "logo": "logos/sk_rapid_wien.webp",
+        "uniform": "uniforms/sk_rapid_wien.webp"
     },
     {
         "name": "TSV Hartberg",
@@ -16616,8 +16556,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Small-town overachievers.",
         "active": true,
-        "logo": "logos/tsv_hartberg.png",
-        "uniform": "uniforms/tsv_hartberg.png"
+        "logo": "logos/tsv_hartberg.webp",
+        "uniform": "uniforms/tsv_hartberg.webp"
     },
     {
         "name": "Wolfsberger AC",
@@ -16631,8 +16571,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Consistent mid-table surprise.",
         "active": true,
-        "logo": "logos/wolfsberger_ac.png",
-        "uniform": "uniforms/wolfsberger_ac.png"
+        "logo": "logos/wolfsberger_ac.webp",
+        "uniform": "uniforms/wolfsberger_ac.webp"
     },
     {
         "name": "FK Austria Klagenfurt",
@@ -16646,8 +16586,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Revived club climbing ranks.",
         "active": true,
-        "logo": "logos/fk_austria_klagenfurt.png",
-        "uniform": "uniforms/fk_austria_klagenfurt.png"
+        "logo": "logos/fk_austria_klagenfurt.webp",
+        "uniform": "uniforms/fk_austria_klagenfurt.webp"
     },
     {
         "name": "Blau-Weiß Linz",
@@ -16661,8 +16601,8 @@ const teams = [
         "trophies": "Austrian Regionalliga: 2",
         "mustKnowFact": "Newly promoted blue-whites.",
         "active": true,
-        "logo": "logos/blau_weiss_linz.png",
-        "uniform": "uniforms/blau_weiss_linz.png"
+        "logo": "logos/blau_weiss_linz.webp",
+        "uniform": "uniforms/blau_weiss_linz.webp"
     },
     {
         "name": "WSG Tirol",
@@ -16676,8 +16616,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Mountain men in green.",
         "active": true,
-        "logo": "logos/wsg_tirol.png",
-        "uniform": "uniforms/wsg_tirol.png"
+        "logo": "logos/wsg_tirol.webp",
+        "uniform": "uniforms/wsg_tirol.webp"
     },
     {
         "name": "SCR Altach",
@@ -16691,8 +16631,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Tiny town's big dreams.",
         "active": true,
-        "logo": "logos/scr_altach.png",
-        "uniform": "uniforms/scr_altach.png"
+        "logo": "logos/scr_altach.webp",
+        "uniform": "uniforms/scr_altach.webp"
     },
     {
         "name": "Grazer AK",
@@ -16706,8 +16646,8 @@ const teams = [
         "trophies": "Bundesliga: 1, Austrian Cup: 4, Austrian Supercup: 1",
         "mustKnowFact": "Back in top flight for 2024-25.",
         "active": true,
-        "logo": "logos/grazer_ak.png",
-        "uniform": "uniforms/grazer_ak.png"
+        "logo": "logos/grazer_ak.webp",
+        "uniform": "uniforms/grazer_ak.webp"
     },
     {
         "name": "AC Sparta Prague",
@@ -16721,8 +16661,8 @@ const teams = [
         "trophies": "Czech First League: 13, Czechoslovak First League: 24, Czech Cup: 8, Czechoslovak Cup: 8, Czech Supercup: 2, Mitropa Cup: 2",
         "mustKnowFact": "Most titled Czech club.",
         "active": true,
-        "logo": "logos/ac_sparta_prague.png",
-        "uniform": "uniforms/ac_sparta_prague.png"
+        "logo": "logos/ac_sparta_prague.webp",
+        "uniform": "uniforms/ac_sparta_prague.webp"
     },
     {
         "name": "SK Slavia Prague",
@@ -16736,8 +16676,8 @@ const teams = [
         "trophies": "Czech First League: 7, Czechoslovak First League: 13, Czech Cup: 7, Mitropa Cup: 1",
         "mustKnowFact": "Historic red-and-white rivalry.",
         "active": true,
-        "logo": "logos/sk_slavia_prague.png",
-        "uniform": "uniforms/sk_slavia_prague.png"
+        "logo": "logos/sk_slavia_prague.webp",
+        "uniform": "uniforms/sk_slavia_prague.webp"
     },
     {
         "name": "FC Viktoria Plzeň",
@@ -16751,8 +16691,8 @@ const teams = [
         "trophies": "Czech First League: 6, Czech Cup: 1, Czech Supercup: 2, Czechoslovak Second League: 1",
         "mustKnowFact": "Beer city’s football pride.",
         "active": true,
-        "logo": "logos/fc_viktoria_plzen.png",
-        "uniform": "uniforms/fc_viktoria_plzen.png"
+        "logo": "logos/fc_viktoria_plzen.webp",
+        "uniform": "uniforms/fc_viktoria_plzen.webp"
     },
     {
         "name": "FC Baník Ostrava",
@@ -16766,8 +16706,8 @@ const teams = [
         "trophies": "Czech First League: 1, Czechoslovak First League: 3, Czech Cup: 1, Czechoslovak Cup: 2, Mitropa Cup: 1",
         "mustKnowFact": "Coal miners’ champions.",
         "active": true,
-        "logo": "logos/fc_banik_ostrava.png",
-        "uniform": "uniforms/fc_banik_ostrava.png"
+        "logo": "logos/fc_banik_ostrava.webp",
+        "uniform": "uniforms/fc_banik_ostrava.webp"
     },
     {
         "name": "FK Mladá Boleslav",
@@ -16781,8 +16721,8 @@ const teams = [
         "trophies": "Czech Cup: 2, Czech Supercup: 1",
         "mustKnowFact": "Škoda city’s footballers.",
         "active": true,
-        "logo": "logos/fk_mlada_boleslav.png",
-        "uniform": "uniforms/fk_mlada_boleslav.png"
+        "logo": "logos/fk_mlada_boleslav.webp",
+        "uniform": "uniforms/fk_mlada_boleslav.webp"
     },
     {
         "name": "1. FC Slovácko",
@@ -16796,8 +16736,8 @@ const teams = [
         "trophies": "Czech Cup: 1",
         "mustKnowFact": "Wine region’s warriors.",
         "active": true,
-        "logo": "logos/1_fc_slovacko.png",
-        "uniform": "uniforms/1_fc_slovacko.png"
+        "logo": "logos/1_fc_slovacko.webp",
+        "uniform": "uniforms/1_fc_slovacko.webp"
     },
     {
         "name": "FC Hradec Králové",
@@ -16811,8 +16751,8 @@ const teams = [
         "trophies": "Czechoslovak First League: 1, Czech Cup: 1, Czech Second League: 2",
         "mustKnowFact": "Back in top flight 2021.",
         "active": true,
-        "logo": "logos/fc_hradec_kralove.png",
-        "uniform": "uniforms/fc_hradec_kralove.png"
+        "logo": "logos/fc_hradec_kralove.webp",
+        "uniform": "uniforms/fc_hradec_kralove.webp"
     },
     {
         "name": "FK Jablonec",
@@ -16826,8 +16766,8 @@ const teams = [
         "trophies": "Czech Cup: 2, Czech Supercup: 1",
         "mustKnowFact": "Glass town’s green army.",
         "active": true,
-        "logo": "logos/fk_jablonec.png",
-        "uniform": "uniforms/fk_jablonec.png"
+        "logo": "logos/fk_jablonec.webp",
+        "uniform": "uniforms/fk_jablonec.webp"
     },
     {
         "name": "Bohemians 1905",
@@ -16841,8 +16781,8 @@ const teams = [
         "trophies": "Czechoslovak First League: 1",
         "mustKnowFact": "Kangaroos of Prague.",
         "active": true,
-        "logo": "logos/bohemians_1905.png",
-        "uniform": "uniforms/bohemians_1905.png"
+        "logo": "logos/bohemians_1905.webp",
+        "uniform": "uniforms/bohemians_1905.webp"
     },
     {
         "name": "SK Sigma Olomouc",
@@ -16856,8 +16796,8 @@ const teams = [
         "trophies": "Czech Cup: 1, Czech Supercup: 1",
         "mustKnowFact": "Haná region’s finest.",
         "active": true,
-        "logo": "logos/sk_sigma_olomouc.png",
-        "uniform": "uniforms/sk_sigma_olomouc.png"
+        "logo": "logos/sk_sigma_olomouc.webp",
+        "uniform": "uniforms/sk_sigma_olomouc.webp"
     },
     {
         "name": "FC Slovan Liberec",
@@ -16871,8 +16811,8 @@ const teams = [
         "trophies": "Czech First League: 3, Czech Cup: 2",
         "mustKnowFact": "North Bohemia’s champs.",
         "active": true,
-        "logo": "logos/fc_slovan_liberec.png",
-        "uniform": "uniforms/fc_slovan_liberec.png"
+        "logo": "logos/fc_slovan_liberec.webp",
+        "uniform": "uniforms/fc_slovan_liberec.webp"
     },
     {
         "name": "FK Teplice",
@@ -16886,8 +16826,8 @@ const teams = [
         "trophies": "Czech Cup: 1",
         "mustKnowFact": "Spa town’s stalwarts.",
         "active": true,
-        "logo": "logos/fk_teplice.png",
-        "uniform": "uniforms/fk_teplice.png"
+        "logo": "logos/fk_teplice.webp",
+        "uniform": "uniforms/fk_teplice.webp"
     },
     {
         "name": "FK Pardubice",
@@ -16901,8 +16841,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Gingerbread city’s team.",
         "active": true,
-        "logo": "logos/fk_pardubice.png",
-        "uniform": "uniforms/fk_pardubice.png"
+        "logo": "logos/fk_pardubice.webp",
+        "uniform": "uniforms/fk_pardubice.webp"
     },
     {
         "name": "MFK Karviná",
@@ -16916,8 +16856,8 @@ const teams = [
         "trophies": "Czech Second League: 1",
         "mustKnowFact": "Silesian survivors.",
         "active": true,
-        "logo": "logos/mfk_karvina.png",
-        "uniform": "uniforms/mfk_karvina.png"
+        "logo": "logos/mfk_karvina.webp",
+        "uniform": "uniforms/mfk_karvina.webp"
     },
     {
         "name": "SK Dynamo České Budějovice",
@@ -16931,8 +16871,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Beer town’s battlers.",
         "active": true,
-        "logo": "logos/sk_dynamo_ceske_budejovice.png",
-        "uniform": "uniforms/sk_dynamo_ceske_budejovice.png"
+        "logo": "logos/sk_dynamo_ceske_budejovice.webp",
+        "uniform": "uniforms/sk_dynamo_ceske_budejovice.webp"
     },
     {
         "name": "FK Dukla Prague",
@@ -16946,8 +16886,8 @@ const teams = [
         "trophies": "Czechoslovak First League: 11, Czechoslovak Cup: 8, Czech Second League: 1",
         "mustKnowFact": "Historic army club reborn.",
         "active": true,
-        "logo": "logos/fk_dukla_prague.png",
-        "uniform": "uniforms/fk_dukla_prague.png"
+        "logo": "logos/fk_dukla_prague.webp",
+        "uniform": "uniforms/fk_dukla_prague.webp"
     },
     {
         "name": "ŠK Slovan Bratislava",
@@ -16961,8 +16901,8 @@ const teams = [
         "trophies": "Slovak First League: 13, Czechoslovak First League: 8, Slovak Cup: 10, Slovak Supercup: 5, European Cup Winners' Cup: 1",
         "mustKnowFact": "Only Slovak European champs.",
         "active": true,
-        "logo": "logos/sk_slovan_bratislava.png",
-        "uniform": "uniforms/sk_slovan_bratislava.png"
+        "logo": "logos/sk_slovan_bratislava.webp",
+        "uniform": "uniforms/sk_slovan_bratislava.webp"
     },
     {
         "name": "MFK Ružomberok",
@@ -16976,8 +16916,8 @@ const teams = [
         "trophies": "Slovak First League: 1, Slovak Cup: 1",
         "mustKnowFact": "Small-town giant-killers.",
         "active": true,
-        "logo": "logos/mfk_ruzomberok.png",
-        "uniform": "uniforms/mfk_ruzomberok.png"
+        "logo": "logos/mfk_ruzomberok.webp",
+        "uniform": "uniforms/mfk_ruzomberok.webp"
     },
     {
         "name": "MŠK Žilina",
@@ -16991,8 +16931,8 @@ const teams = [
         "trophies": "Slovak First League: 7, Slovak Cup: 1, Slovak Supercup: 2",
         "mustKnowFact": "Youth academy powerhouse.",
         "active": true,
-        "logo": "logos/msk_zilina.png",
-        "uniform": "uniforms/msk_zilina.png"
+        "logo": "logos/msk_zilina.webp",
+        "uniform": "uniforms/msk_zilina.webp"
     },
     {
         "name": "FK DAC 1904 Dunajská Streda",
@@ -17006,8 +16946,8 @@ const teams = [
         "trophies": "Slovak Cup: 1",
         "mustKnowFact": "Hungarian-Slovak passion.",
         "active": true,
-        "logo": "logos/fk_dac_1904.png",
-        "uniform": "uniforms/fk_dac_1904.png"
+        "logo": "logos/fk_dac_1904.webp",
+        "uniform": "uniforms/fk_dac_1904.webp"
     },
     {
         "name": "AS Trenčín",
@@ -17021,8 +16961,8 @@ const teams = [
         "trophies": "Slovak First League: 2, Slovak Cup: 2",
         "mustKnowFact": "Modern Slovak success story.",
         "active": true,
-        "logo": "logos/as_trencin.png",
-        "uniform": "uniforms/as_trencin.png"
+        "logo": "logos/as_trencin.webp",
+        "uniform": "uniforms/as_trencin.webp"
     },
     {
         "name": "FC Spartak Trnava",
@@ -17036,8 +16976,8 @@ const teams = [
         "trophies": "Slovak First League: 2, Czechoslovak First League: 5, Slovak Cup: 8, Slovak Supercup: 2, Mitropa Cup: 1",
         "mustKnowFact": "Little Rome’s warriors.",
         "active": true,
-        "logo": "logos/fc_spartak_trnava.png",
-        "uniform": "uniforms/fc_spartak_trnava.png"
+        "logo": "logos/fc_spartak_trnava.webp",
+        "uniform": "uniforms/fc_spartak_trnava.webp"
     },
     {
         "name": "FK Železiarne Podbrezová",
@@ -17051,8 +16991,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Steel town’s rising stars.",
         "active": true,
-        "logo": "logos/fk_zeleziarne_podbrezova.png",
-        "uniform": "uniforms/fk_zeleziarne_podbrezova.png"
+        "logo": "logos/fk_zeleziarne_podbrezova.webp",
+        "uniform": "uniforms/fk_zeleziarne_podbrezova.webp"
     },
     {
         "name": "MFK Skalica",
@@ -17066,8 +17006,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Small-town debutants.",
         "active": true,
-        "logo": "logos/mfk_skalica.png",
-        "uniform": "uniforms/mfk_skalica.png"
+        "logo": "logos/mfk_skalica.webp",
+        "uniform": "uniforms/mfk_skalica.webp"
     },
     {
         "name": "FC ViOn Zlaté Moravce",
@@ -17081,8 +17021,8 @@ const teams = [
         "trophies": "Slovak Cup: 1",
         "mustKnowFact": "Golden village’s pride.",
         "active": true,
-        "logo": "logos/fc_vion_zlate_moravce.png",
-        "uniform": "uniforms/fc_vion_zlate_moravce.png"
+        "logo": "logos/fc_vion_zlate_moravce.webp",
+        "uniform": "uniforms/fc_vion_zlate_moravce.webp"
     },
     {
         "name": "MFK Dukla Banská Bystrica",
@@ -17096,8 +17036,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Central Slovakia’s returnees.",
         "active": true,
-        "logo": "logos/mfk_dukla_banska_bystrica.png",
-        "uniform": "uniforms/mfk_dukla_banska_bystrica.png"
+        "logo": "logos/mfk_dukla_banska_bystrica.webp",
+        "uniform": "uniforms/mfk_dukla_banska_bystrica.webp"
     },
     {
         "name": "FK Košice",
@@ -17111,8 +17051,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Eastern city’s revival.",
         "active": true,
-        "logo": "logos/fk_kosice.png",
-        "uniform": "uniforms/fk_kosice.png"
+        "logo": "logos/fk_kosice.webp",
+        "uniform": "uniforms/fk_kosice.webp"
     },
     {
         "name": "KFC Komárno",
@@ -17126,8 +17066,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Newcomers from the south.",
         "active": true,
-        "logo": "logos/kfc_komarno.png",
-        "uniform": "uniforms/kfc_komarno.png"
+        "logo": "logos/kfc_komarno.webp",
+        "uniform": "uniforms/kfc_komarno.webp"
     },
     {
         "name": "NK Maribor",
@@ -17141,8 +17081,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 16, Slovenian Cup: 9, Slovenian Supercup: 4",
         "mustKnowFact": "Slovenia’s most decorated club.",
         "active": true,
-        "logo": "logos/nk_maribor.png",
-        "uniform": "uniforms/nk_maribor.png"
+        "logo": "logos/nk_maribor.webp",
+        "uniform": "uniforms/nk_maribor.webp"
     },
     {
         "name": "NK Olimpija Ljubljana",
@@ -17156,8 +17096,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 4, Slovenian Cup: 4",
         "mustKnowFact": "Capital’s green dragons.",
         "active": true,
-        "logo": "logos/nk_olimpija_ljubljana.png",
-        "uniform": "uniforms/nk_olimpija_ljubljana.png"
+        "logo": "logos/nk_olimpija_ljubljana.webp",
+        "uniform": "uniforms/nk_olimpija_ljubljana.webp"
     },
     {
         "name": "NK Celje",
@@ -17171,8 +17111,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 2, Slovenian Cup: 1",
         "mustKnowFact": "2023-24 league champs.",
         "active": true,
-        "logo": "logos/nk_celje.png",
-        "uniform": "uniforms/nk_celje.png"
+        "logo": "logos/nk_celje.webp",
+        "uniform": "uniforms/nk_celje.webp"
     },
     {
         "name": "FC Koper",
@@ -17186,8 +17126,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 1, Slovenian Cup: 4, Slovenian Supercup: 2",
         "mustKnowFact": "Coastal yellow-blues.",
         "active": true,
-        "logo": "logos/fc_koper.png",
-        "uniform": "uniforms/fc_koper.png"
+        "logo": "logos/fc_koper.webp",
+        "uniform": "uniforms/fc_koper.webp"
     },
     {
         "name": "NK Domžale",
@@ -17201,8 +17141,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 2, Slovenian Cup: 2, Slovenian Supercup: 2",
         "mustKnowFact": "Double winners in 2007-08.",
         "active": true,
-        "logo": "logos/nk_domzale.png",
-        "uniform": "uniforms/nk_domzale.png"
+        "logo": "logos/nk_domzale.webp",
+        "uniform": "uniforms/nk_domzale.webp"
     },
     {
         "name": "ND Gorica",
@@ -17216,8 +17156,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 4, Slovenian Cup: 3",
         "mustKnowFact": "Border town’s comeback.",
         "active": true,
-        "logo": "logos/nd_gorica.png",
-        "uniform": "uniforms/nd_gorica.png"
+        "logo": "logos/nd_gorica.webp",
+        "uniform": "uniforms/nd_gorica.webp"
     },
     {
         "name": "NK Bravo",
@@ -17231,8 +17171,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Young club rising fast.",
         "active": true,
-        "logo": "logos/nk_bravo.png",
-        "uniform": "uniforms/nk_bravo.png"
+        "logo": "logos/nk_bravo.webp",
+        "uniform": "uniforms/nk_bravo.webp"
     },
     {
         "name": "NK Aluminij",
@@ -17246,8 +17186,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Aluminum town’s fighters.",
         "active": true,
-        "logo": "logos/nk_aluminij.png",
-        "uniform": "uniforms/nk_aluminij.png"
+        "logo": "logos/nk_aluminij.webp",
+        "uniform": "uniforms/nk_aluminij.webp"
     },
     {
         "name": "NŠ Mura",
@@ -17261,8 +17201,8 @@ const teams = [
         "trophies": "Slovenian PrvaLiga: 1, Slovenian Cup: 1",
         "mustKnowFact": "2020-21 surprise champions.",
         "active": true,
-        "logo": "logos/ns_mura.png",
-        "uniform": "uniforms/ns_mura.png"
+        "logo": "logos/ns_mura.webp",
+        "uniform": "uniforms/ns_mura.webp"
     },
     {
         "name": "NK Radomlje",
@@ -17276,8 +17216,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Small village, big heart.",
         "active": true,
-        "logo": "logos/nk_radomlje.png",
-        "uniform": "uniforms/nk_radomlje.png"
+        "logo": "logos/nk_radomlje.webp",
+        "uniform": "uniforms/nk_radomlje.webp"
     },
     {
         "name": "GNK Dinamo Zagreb",
@@ -17291,8 +17231,8 @@ const teams = [
         "trophies": "Croatian First League: 25, Yugoslav First League: 4, Croatian Cup: 16, Croatian Supercup: 8, Inter-Cities Fairs Cup: 1",
         "mustKnowFact": "Croatia’s dominant force.",
         "active": true,
-        "logo": "logos/gnk_dinamo_zagreb.png",
-        "uniform": "uniforms/gnk_dinamo_zagreb.png"
+        "logo": "logos/gnk_dinamo_zagreb.webp",
+        "uniform": "uniforms/gnk_dinamo_zagreb.webp"
     },
     {
         "name": "HNK Hajduk Split",
@@ -17306,8 +17246,8 @@ const teams = [
         "trophies": "Croatian First League: 6, Yugoslav First League: 9, Croatian Cup: 8, Croatian Supercup: 5",
         "mustKnowFact": "Dalmatia’s eternal flame.",
         "active": true,
-        "logo": "logos/hnk_hajduk_split.png",
-        "uniform": "uniforms/hnk_hajduk_split.png"
+        "logo": "logos/hnk_hajduk_split.webp",
+        "uniform": "uniforms/hnk_hajduk_split.webp"
     },
     {
         "name": "HNK Rijeka",
@@ -17321,8 +17261,8 @@ const teams = [
         "trophies": "Croatian First League: 1, Yugoslav First League: 1, Croatian Cup: 6, Croatian Supercup: 2",
         "mustKnowFact": "Adriatic coast’s pride.",
         "active": true,
-        "logo": "logos/hnk_rijeka.png",
-        "uniform": "uniforms/hnk_rijeka.png"
+        "logo": "logos/hnk_rijeka.webp",
+        "uniform": "uniforms/hnk_rijeka.webp"
     },
     {
         "name": "NK Osijek",
@@ -17336,8 +17276,8 @@ const teams = [
         "trophies": "Croatian Cup: 1",
         "mustKnowFact": "Slavonia’s white-blues.",
         "active": true,
-        "logo": "logos/nk_osijek.png",
-        "uniform": "uniforms/nk_osijek.png"
+        "logo": "logos/nk_osijek.webp",
+        "uniform": "uniforms/nk_osijek.webp"
     },
     {
         "name": "NK Lokomotiva Zagreb",
@@ -17351,8 +17291,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Railway workers’ legacy.",
         "active": true,
-        "logo": "logos/nk_lokomotiva_zagreb.png",
-        "uniform": "uniforms/nk_lokomotiva_zagreb.png"
+        "logo": "logos/nk_lokomotiva_zagreb.webp",
+        "uniform": "uniforms/nk_lokomotiva_zagreb.webp"
     },
     {
         "name": "NK Varaždin",
@@ -17366,8 +17306,8 @@ const teams = [
         "trophies": "Croatian Cup: 1",
         "mustKnowFact": "Baroque city’s battlers.",
         "active": true,
-        "logo": "logos/nk_varazdin.png",
-        "uniform": "uniforms/nk_varazdin.png"
+        "logo": "logos/nk_varazdin.webp",
+        "uniform": "uniforms/nk_varazdin.webp"
     },
     {
         "name": "HNK Šibenik",
@@ -17381,8 +17321,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Dalmatian orange army.",
         "active": true,
-        "logo": "logos/hnk_sibenik.png",
-        "uniform": "uniforms/hnk_sibenik.png"
+        "logo": "logos/hnk_sibenik.webp",
+        "uniform": "uniforms/hnk_sibenik.webp"
     },
     {
         "name": "Istra 1961",
@@ -17396,8 +17336,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Istria’s green-yellows.",
         "active": true,
-        "logo": "logos/istra_1961.png",
-        "uniform": "uniforms/istra_1961.png"
+        "logo": "logos/istra_1961.webp",
+        "uniform": "uniforms/istra_1961.webp"
     },
     {
         "name": "NK Slaven Belupo",
@@ -17411,8 +17351,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Pharmacy-backed fighters.",
         "active": true,
-        "logo": "logos/nk_slaven_belupo.png",
-        "uniform": "uniforms/nk_slaven_belupo.png"
+        "logo": "logos/nk_slaven_belupo.webp",
+        "uniform": "uniforms/nk_slaven_belupo.webp"
     },
     {
         "name": "HNK Gorica",
@@ -17426,8 +17366,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Young club, big ambitions.",
         "active": true,
-        "logo": "logos/hnk_gorica.png",
-        "uniform": "uniforms/hnk_gorica.png"
+        "logo": "logos/hnk_gorica.webp",
+        "uniform": "uniforms/hnk_gorica.webp"
     },
     {
         "name": "FK Sarajevo",
@@ -17441,8 +17381,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 5, Yugoslav First League: 2, Bosnian Cup: 7",
         "mustKnowFact": "Capital’s maroon legends.",
         "active": true,
-        "logo": "logos/fk_sarajevo.png",
-        "uniform": "uniforms/fk_sarajevo.png"
+        "logo": "logos/fk_sarajevo.webp",
+        "uniform": "uniforms/fk_sarajevo.webp"
     },
     {
         "name": "HŠK Zrinjski Mostar",
@@ -17456,8 +17396,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 8, Bosnian Cup: 3",
         "mustKnowFact": "Mostar’s noble champions.",
         "active": true,
-        "logo": "logos/hsk_zrinjski_mostar.png",
-        "uniform": "uniforms/hsk_zrinjski_mostar.png"
+        "logo": "logos/hsk_zrinjski_mostar.webp",
+        "uniform": "uniforms/hsk_zrinjski_mostar.webp"
     },
     {
         "name": "FK Željezničar",
@@ -17471,8 +17411,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 3, Yugoslav First League: 1, Bosnian Cup: 6",
         "mustKnowFact": "Railway blues of Sarajevo.",
         "active": true,
-        "logo": "logos/fk_zeljeznicar.png",
-        "uniform": "uniforms/fk_zeljeznicar.png"
+        "logo": "logos/fk_zeljeznicar.webp",
+        "uniform": "uniforms/fk_zeljeznicar.webp"
     },
     {
         "name": "FK Borac Banja Luka",
@@ -17486,8 +17426,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 3, Yugoslav Cup: 1, Bosnian Cup: 1, Mitropa Cup: 1",
         "mustKnowFact": "Republika Srpska’s finest.",
         "active": true,
-        "logo": "logos/fk_borac_banja_luka.png",
-        "uniform": "uniforms/fk_borac_banja_luka.png"
+        "logo": "logos/fk_borac_banja_luka.webp",
+        "uniform": "uniforms/fk_borac_banja_luka.webp"
     },
     {
         "name": "FK Velež Mostar",
@@ -17501,8 +17441,8 @@ const teams = [
         "trophies": "Yugoslav Cup: 2, Bosnian Cup: 1",
         "mustKnowFact": "Mostar’s red star.",
         "active": true,
-        "logo": "logos/fk_velez_mostar.png",
-        "uniform": "uniforms/fk_velez_mostar.png"
+        "logo": "logos/fk_velez_mostar.webp",
+        "uniform": "uniforms/fk_velez_mostar.webp"
     },
     {
         "name": "NK Široki Brijeg",
@@ -17516,8 +17456,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 2, Bosnian Cup: 3",
         "mustKnowFact": "Small-town overachievers.",
         "active": true,
-        "logo": "logos/nk_siroki_brijeg.png",
-        "uniform": "uniforms/nk_siroki_brijeg.png"
+        "logo": "logos/nk_siroki_brijeg.webp",
+        "uniform": "uniforms/nk_siroki_brijeg.webp"
     },
     {
         "name": "FK Tuzla City",
@@ -17531,8 +17471,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Salt city’s contenders.",
         "active": true,
-        "logo": "logos/fk_tuzla_city.png",
-        "uniform": "uniforms/fk_tuzla_city.png"
+        "logo": "logos/fk_tuzla_city.webp",
+        "uniform": "uniforms/fk_tuzla_city.webp"
     },
     {
         "name": "FK Sloboda Tuzla",
@@ -17546,8 +17486,8 @@ const teams = [
         "trophies": "Yugoslav Cup: 1",
         "mustKnowFact": "Tuzla’s historic reds.",
         "active": true,
-        "logo": "logos/fk_sloboda_tuzla.png",
-        "uniform": "uniforms/fk_sloboda_tuzla.png"
+        "logo": "logos/fk_sloboda_tuzla.webp",
+        "uniform": "uniforms/fk_sloboda_tuzla.webp"
     },
     {
         "name": "HNK Posušje",
@@ -17561,8 +17501,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Herzegovina’s underdogs.",
         "active": true,
-        "logo": "logos/hnk_posusje.png",
-        "uniform": "uniforms/hnk_posusje.png"
+        "logo": "logos/hnk_posusje.webp",
+        "uniform": "uniforms/hnk_posusje.webp"
     },
     {
         "name": "FK Igman Konjic",
@@ -17576,8 +17516,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Neretva river’s fighters.",
         "active": true,
-        "logo": "logos/fk_igman_konjic.png",
-        "uniform": "uniforms/fk_igman_konjic.png"
+        "logo": "logos/fk_igman_konjic.webp",
+        "uniform": "uniforms/fk_igman_konjic.webp"
     },
     {
         "name": "FK Sloga Doboj",
@@ -17591,8 +17531,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Northern Bosnia’s rise.",
         "active": true,
-        "logo": "logos/fk_sloga_doboj.png",
-        "uniform": "uniforms/fk_sloga_doboj.png"
+        "logo": "logos/fk_sloga_doboj.webp",
+        "uniform": "uniforms/fk_sloga_doboj.webp"
     },
     {
         "name": "FK Radnik Bijeljina",
@@ -17606,8 +17546,8 @@ const teams = [
         "trophies": "Bosnian Premier League: 1",
         "mustKnowFact": "Semberija’s champions.",
         "active": true,
-        "logo": "logos/fk_radnik_bijeljina.png",
-        "uniform": "uniforms/fk_radnik_bijeljina.png"
+        "logo": "logos/fk_radnik_bijeljina.webp",
+        "uniform": "uniforms/fk_radnik_bijeljina.webp"
     },
     {
         "name": "FK Budućnost Podgorica",
@@ -17621,8 +17561,8 @@ const teams = [
         "trophies": "Montenegrin First League: 6, Montenegrin Cup: 4, Yugoslav Second League: 2",
         "mustKnowFact": "Montenegro’s top club.",
         "active": true,
-        "logo": "logos/fk_buducnost_podgorica.png",
-        "uniform": "uniforms/fk_buducnost_podgorica.png"
+        "logo": "logos/fk_buducnost_podgorica.webp",
+        "uniform": "uniforms/fk_buducnost_podgorica.webp"
     },
     {
         "name": "FK Sutjeska Nikšić",
@@ -17636,8 +17576,8 @@ const teams = [
         "trophies": "Montenegrin First League: 5, Montenegrin Cup: 2",
         "mustKnowFact": "Nikšić’s blue heroes.",
         "active": true,
-        "logo": "logos/fk_sutjeska_niksic.png",
-        "uniform": "uniforms/fk_sutjeska_niksic.png"
+        "logo": "logos/fk_sutjeska_niksic.webp",
+        "uniform": "uniforms/fk_sutjeska_niksic.webp"
     },
     {
         "name": "FK Dečić",
@@ -17651,8 +17591,8 @@ const teams = [
         "trophies": "Montenegrin First League: 1",
         "mustKnowFact": "2023-24 surprise champs.",
         "active": true,
-        "logo": "logos/fk_decic.png",
-        "uniform": "uniforms/fk_decic.png"
+        "logo": "logos/fk_decic.webp",
+        "uniform": "uniforms/fk_decic.webp"
     },
     {
         "name": "FK Jezero",
@@ -17666,8 +17606,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Lake town’s minnows.",
         "active": true,
-        "logo": "logos/fk_jezero.png",
-        "uniform": "uniforms/fk_jezero.png"
+        "logo": "logos/fk_jezero.webp",
+        "uniform": "uniforms/fk_jezero.webp"
     },
     {
         "name": "FK Petrovac",
@@ -17681,8 +17621,8 @@ const teams = [
         "trophies": "Montenegrin Cup: 1",
         "mustKnowFact": "Coastal underdogs.",
         "active": true,
-        "logo": "logos/fk_petrovac.png",
-        "uniform": "uniforms/fk_petrovac.png"
+        "logo": "logos/fk_petrovac.webp",
+        "uniform": "uniforms/fk_petrovac.webp"
     },
     {
         "name": "FK Arsenal Tivat",
@@ -17696,8 +17636,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Bay of Kotor’s gunners.",
         "active": true,
-        "logo": "logos/fk_arsenal_tivat.png",
-        "uniform": "uniforms/fk_arsenal_tivat.png"
+        "logo": "logos/fk_arsenal_tivat.webp",
+        "uniform": "uniforms/fk_arsenal_tivat.webp"
     },
     {
         "name": "FK Jedinstvo Bijelo Polje",
@@ -17711,8 +17651,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Northern Montenegro’s unity.",
         "active": true,
-        "logo": "logos/fk_jedinstvo_bijelo_polje.png",
-        "uniform": "uniforms/fk_jedinstvo_bijelo_polje.png"
+        "logo": "logos/fk_jedinstvo_bijelo_polje.webp",
+        "uniform": "uniforms/fk_jedinstvo_bijelo_polje.webp"
     },
     {
         "name": "FK Mornar",
@@ -17726,8 +17666,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sailors of the Adriatic.",
         "active": true,
-        "logo": "logos/fk_mornar.png",
-        "uniform": "uniforms/fk_mornar.png"
+        "logo": "logos/fk_mornar.webp",
+        "uniform": "uniforms/fk_mornar.webp"
     },
     {
         "name": "OFK Grbalj",
@@ -17741,8 +17681,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Village club punching up.",
         "active": true,
-        "logo": "logos/ofk_grbalj.png",
-        "uniform": "uniforms/ofk_grbalj.png"
+        "logo": "logos/ofk_grbalj.webp",
+        "uniform": "uniforms/ofk_grbalj.webp"
     },
     {
         "name": "FK Bokelj",
@@ -17756,8 +17696,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Kotor’s historic return.",
         "active": true,
-        "logo": "logos/fk_bokelj.png",
-        "uniform": "uniforms/fk_bokelj.png"
+        "logo": "logos/fk_bokelj.webp",
+        "uniform": "uniforms/fk_bokelj.webp"
     },
     {
         "name": "KF Tirana",
@@ -17771,8 +17711,8 @@ const teams = [
         "trophies": "Albanian Superliga: 26, Albanian Cup: 16, Albanian Supercup: 11",
         "mustKnowFact": "Albania’s most titled club.",
         "active": true,
-        "logo": "logos/kf_tirana.png",
-        "uniform": "uniforms/kf_tirana.png"
+        "logo": "logos/kf_tirana.webp",
+        "uniform": "uniforms/kf_tirana.webp"
     },
     {
         "name": "FK Partizani",
@@ -17786,8 +17726,8 @@ const teams = [
         "trophies": "Albanian Superliga: 17, Albanian Cup: 15, Albanian Supercup: 2",
         "mustKnowFact": "Red army of Tirana.",
         "active": true,
-        "logo": "logos/fk_partizani.png",
-        "uniform": "uniforms/fk_partizani.png"
+        "logo": "logos/fk_partizani.webp",
+        "uniform": "uniforms/fk_partizani.webp"
     },
     {
         "name": "KF Vllaznia",
@@ -17801,8 +17741,8 @@ const teams = [
         "trophies": "Albanian Superliga: 9, Albanian Cup: 8, Albanian Supercup: 2",
         "mustKnowFact": "Shkodër’s northern kings.",
         "active": true,
-        "logo": "logos/kf_vllaznia.png",
-        "uniform": "uniforms/kf_vllaznia.png"
+        "logo": "logos/kf_vllaznia.webp",
+        "uniform": "uniforms/kf_vllaznia.webp"
     },
     {
         "name": "FK Kukësi",
@@ -17816,8 +17756,8 @@ const teams = [
         "trophies": "Albanian Superliga: 1, Albanian Cup: 2, Albanian Supercup: 1",
         "mustKnowFact": "2016-17 league surprise.",
         "active": true,
-        "logo": "logos/fk_kukesi.png",
-        "uniform": "uniforms/fk_kukesi.png"
+        "logo": "logos/fk_kukesi.webp",
+        "uniform": "uniforms/fk_kukesi.webp"
     },
     {
         "name": "KF Laçi",
@@ -17831,8 +17771,8 @@ const teams = [
         "trophies": "Albanian Cup: 2, Albanian Supercup: 1",
         "mustKnowFact": "Small-town cup specialists.",
         "active": true,
-        "logo": "logos/kf_laci.png",
-        "uniform": "uniforms/kf_laci.png"
+        "logo": "logos/kf_laci.webp",
+        "uniform": "uniforms/kf_laci.webp"
     },
     {
         "name": "KF Teuta",
@@ -17846,8 +17786,8 @@ const teams = [
         "trophies": "Albanian Superliga: 2, Albanian Cup: 4, Albanian Supercup: 2",
         "mustKnowFact": "Durrës’s coastal champs.",
         "active": true,
-        "logo": "logos/kf_teuta.png",
-        "uniform": "uniforms/kf_teuta.png"
+        "logo": "logos/kf_teuta.webp",
+        "uniform": "uniforms/kf_teuta.webp"
     },
     {
         "name": "KF Egnatia",
@@ -17861,8 +17801,8 @@ const teams = [
         "trophies": "Albanian Superliga: 1, Albanian Cup: 1",
         "mustKnowFact": "2022-23 league winners.",
         "active": true,
-        "logo": "logos/kf_egnatia.png",
-        "uniform": "uniforms/kf_egnatia.png"
+        "logo": "logos/kf_egnatia.webp",
+        "uniform": "uniforms/kf_egnatia.webp"
     },
     {
         "name": "KF Skënderbeu",
@@ -17876,8 +17816,8 @@ const teams = [
         "trophies": "Albanian Superliga: 8, Albanian Cup: 1, Albanian Supercup: 3",
         "mustKnowFact": "Korçë’s dominant decade.",
         "active": true,
-        "logo": "logos/kf_skenderbeu.png",
-        "uniform": "uniforms/kf_skenderbeu.png"
+        "logo": "logos/kf_skenderbeu.webp",
+        "uniform": "uniforms/kf_skenderbeu.webp"
     },
     {
         "name": "AF Elbasani",
@@ -17891,8 +17831,8 @@ const teams = [
         "trophies": "Albanian Superliga: 2",
         "mustKnowFact": "Historic club revived.",
         "active": true,
-        "logo": "logos/af_elbasani.png",
-        "uniform": "uniforms/af_elbasani.png"
+        "logo": "logos/af_elbasani.webp",
+        "uniform": "uniforms/af_elbasani.webp"
     },
     {
         "name": "FK Dinamo Tirana",
@@ -17906,8 +17846,8 @@ const teams = [
         "trophies": "Albanian Superliga: 18, Albanian Cup: 13",
         "mustKnowFact": "Blue dynamos of Tirana.",
         "active": true,
-        "logo": "logos/fk_dinamo_tirana.png",
-        "uniform": "uniforms/fk_dinamo_tirana.png"
+        "logo": "logos/fk_dinamo_tirana.webp",
+        "uniform": "uniforms/fk_dinamo_tirana.webp"
     },
     {
         "name": "Forge FC",
@@ -17921,8 +17861,8 @@ const teams = [
         "trophies": "Canadian Premier League: 4",
         "mustKnowFact": "CPL’s first dynasty.",
         "active": true,
-        "logo": "logos/forge_fc.png",
-        "uniform": "uniforms/forge_fc.png"
+        "logo": "logos/forge_fc.webp",
+        "uniform": "uniforms/forge_fc.webp"
     },
     {
         "name": "Cavalry FC",
@@ -17936,8 +17876,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Calgary’s red cavalry.",
         "active": true,
-        "logo": "logos/cavalry_fc.png",
-        "uniform": "uniforms/cavalry_fc.png"
+        "logo": "logos/cavalry_fc.webp",
+        "uniform": "uniforms/cavalry_fc.webp"
     },
     {
         "name": "Atlético Ottawa",
@@ -17951,8 +17891,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Capital’s Spanish flair.",
         "active": true,
-        "logo": "logos/atletico_ottawa.png",
-        "uniform": "uniforms/atletico_ottawa.png"
+        "logo": "logos/atletico_ottawa.webp",
+        "uniform": "uniforms/atletico_ottawa.webp"
     },
     {
         "name": "York United FC",
@@ -17966,8 +17906,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Toronto’s northern nine.",
         "active": true,
-        "logo": "logos/york_united_fc.png",
-        "uniform": "uniforms/york_united_fc.png"
+        "logo": "logos/york_united_fc.webp",
+        "uniform": "uniforms/york_united_fc.webp"
     },
     {
         "name": "Pacific FC",
@@ -17981,8 +17921,8 @@ const teams = [
         "trophies": "Canadian Premier League: 1",
         "mustKnowFact": "Island’s purple tridents.",
         "active": true,
-        "logo": "logos/pacific_fc.png",
-        "uniform": "uniforms/pacific_fc.png"
+        "logo": "logos/pacific_fc.webp",
+        "uniform": "uniforms/pacific_fc.webp"
     },
     {
         "name": "Valour FC",
@@ -17996,8 +17936,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Winnipeg’s maroon valor.",
         "active": true,
-        "logo": "logos/valour_fc.png",
-        "uniform": "uniforms/valour_fc.png"
+        "logo": "logos/valour_fc.webp",
+        "uniform": "uniforms/valour_fc.webp"
     },
     {
         "name": "HFX Wanderers FC",
@@ -18011,8 +17951,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "East coast’s wanderers.",
         "active": true,
-        "logo": "logos/hfx_wanderers_fc.png",
-        "uniform": "uniforms/hfx_wanderers_fc.png"
+        "logo": "logos/hfx_wanderers_fc.webp",
+        "uniform": "uniforms/hfx_wanderers_fc.webp"
     },
     {
         "name": "Vancouver FC",
@@ -18026,8 +17966,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Newest CPL franchise.",
         "active": true,
-        "logo": "logos/vancouver_fc.png",
-        "uniform": "uniforms/vancouver_fc.png"
+        "logo": "logos/vancouver_fc.webp",
+        "uniform": "uniforms/vancouver_fc.webp"
     },
     {
         "name": "Tauro FC",
@@ -18041,8 +17981,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 16",
         "mustKnowFact": "Panama's most successful club.",
         "active": true,
-        "logo": "logos/tauro_fc.png",
-        "uniform": "uniforms/tauro_fc.png"
+        "logo": "logos/tauro_fc.webp",
+        "uniform": "uniforms/tauro_fc.webp"
     },
     {
         "name": "CA Independiente",
@@ -18056,8 +17996,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 3",
         "mustKnowFact": "La Chorrera's green giants.",
         "active": true,
-        "logo": "logos/ca_independiente.png",
-        "uniform": "uniforms/ca_independiente.png"
+        "logo": "logos/ca_independiente.webp",
+        "uniform": "uniforms/ca_independiente.webp"
     },
     {
         "name": "San Francisco FC",
@@ -18071,8 +18011,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 9",
         "mustKnowFact": "Monks of the west.",
         "active": true,
-        "logo": "logos/san_francisco_fc.png",
-        "uniform": "uniforms/san_francisco_fc.png"
+        "logo": "logos/san_francisco_fc.webp",
+        "uniform": "uniforms/san_francisco_fc.webp"
     },
     {
         "name": "CD Plaza Amador",
@@ -18086,8 +18026,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 7",
         "mustKnowFact": "People's team of Panama.",
         "active": true,
-        "logo": "logos/cd_plaza_amador.png",
-        "uniform": "uniforms/cd_plaza_amador.png"
+        "logo": "logos/cd_plaza_amador.webp",
+        "uniform": "uniforms/cd_plaza_amador.webp"
     },
     {
         "name": "Sporting San Miguelito",
@@ -18101,8 +18041,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 1",
         "mustKnowFact": "Academy of the north.",
         "active": true,
-        "logo": "logos/sporting_san_miguelito.png",
-        "uniform": "uniforms/sporting_san_miguelito.png"
+        "logo": "logos/sporting_san_miguelito.webp",
+        "uniform": "uniforms/sporting_san_miguelito.webp"
     },
     {
         "name": "CD Árabe Unido",
@@ -18116,8 +18056,8 @@ const teams = [
         "trophies": "Liga Panameña de Fútbol: 15, LINFUNA: 2",
         "mustKnowFact": "Colón's Arab conquerors.",
         "active": true,
-        "logo": "logos/cd_arabe_unido.png",
-        "uniform": "uniforms/cd_arabe_unido.png"
+        "logo": "logos/cd_arabe_unido.webp",
+        "uniform": "uniforms/cd_arabe_unido.webp"
     },
     {
         "name": "Herrera FC",
@@ -18131,8 +18071,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Herrera's young lions.",
         "active": true,
-        "logo": "logos/herrera_fc.png",
-        "uniform": "uniforms/herrera_fc.png"
+        "logo": "logos/herrera_fc.webp",
+        "uniform": "uniforms/herrera_fc.webp"
     },
     {
         "name": "Alianza FC",
@@ -18146,8 +18086,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Green and red veterans.",
         "active": true,
-        "logo": "logos/alianza_fc.png",
-        "uniform": "uniforms/alianza_fc.png"
+        "logo": "logos/alianza_fc.webp",
+        "uniform": "uniforms/alianza_fc.webp"
     },
     {
         "name": "Potros del Este",
@@ -18161,8 +18101,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Eastern colts on the rise.",
         "active": true,
-        "logo": "logos/potros_del_este.png",
-        "uniform": "uniforms/potros_del_este.png"
+        "logo": "logos/potros_del_este.webp",
+        "uniform": "uniforms/potros_del_este.webp"
     },
     {
         "name": "CD Universitario",
@@ -18176,8 +18116,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Coclé's university squad.",
         "active": true,
-        "logo": "logos/cd_universitario.png",
-        "uniform": "uniforms/cd_universitario.png"
+        "logo": "logos/cd_universitario.webp",
+        "uniform": "uniforms/cd_universitario.webp"
     },
     {
         "name": "Veraguas United FC",
@@ -18191,8 +18131,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Veraguas's resilient united.",
         "active": true,
-        "logo": "logos/veraguas_united_fc.png",
-        "uniform": "uniforms/veraguas_united_fc.png"
+        "logo": "logos/veraguas_united_fc.webp",
+        "uniform": "uniforms/veraguas_united_fc.webp"
     },
     {
         "name": "UMECIT FC",
@@ -18206,8 +18146,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New kids in Panama City.",
         "active": true,
-        "logo": "logos/umecit_fc.png",
-        "uniform": "uniforms/umecit_fc.png"
+        "logo": "logos/umecit_fc.webp",
+        "uniform": "uniforms/umecit_fc.webp"
     },
     {
         "name": "CD Olimpia",
@@ -18221,8 +18161,8 @@ const teams = [
         "trophies": "Liga Nacional: 37, Honduran Cup: 3, Honduran Supercup: 1, CONCACAF Champions Cup: 2",
         "mustKnowFact": "Honduras's most decorated club.",
         "active": true,
-        "logo": "logos/cd_olimpia.png",
-        "uniform": "uniforms/cd_olimpia.png"
+        "logo": "logos/cd_olimpia.webp",
+        "uniform": "uniforms/cd_olimpia.webp"
     },
     {
         "name": "CD Motagua",
@@ -18236,8 +18176,8 @@ const teams = [
         "trophies": "Liga Nacional: 18, Honduran Cup: 1",
         "mustKnowFact": "Blue eagles of Tegucigalpa.",
         "active": true,
-        "logo": "logos/cd_motagua.png",
-        "uniform": "uniforms/cd_motagua.png"
+        "logo": "logos/cd_motagua.webp",
+        "uniform": "uniforms/cd_motagua.webp"
     },
     {
         "name": "Real CD España",
@@ -18251,8 +18191,8 @@ const teams = [
         "trophies": "Liga Nacional: 11, Honduran Cup: 2",
         "mustKnowFact": "Royal machine of the north.",
         "active": true,
-        "logo": "logos/real_cd_espana.png",
-        "uniform": "uniforms/real_cd_espana.png"
+        "logo": "logos/real_cd_espana.webp",
+        "uniform": "uniforms/real_cd_espana.webp"
     },
     {
         "name": "CD Marathón",
@@ -18266,8 +18206,8 @@ const teams = [
         "trophies": "Liga Nacional: 9, Honduran Cup: 1",
         "mustKnowFact": "Green monster of SPS.",
         "active": true,
-        "logo": "logos/cd_marathon.png",
-        "uniform": "uniforms/cd_marathon.png"
+        "logo": "logos/cd_marathon.webp",
+        "uniform": "uniforms/cd_marathon.webp"
     },
     {
         "name": "CDS Vida",
@@ -18281,8 +18221,8 @@ const teams = [
         "trophies": "Liga Nacional: 2",
         "mustKnowFact": "Coconut men of La Ceiba.",
         "active": true,
-        "logo": "logos/cds_vida.png",
-        "uniform": "uniforms/cds_vida.png"
+        "logo": "logos/cds_vida.webp",
+        "uniform": "uniforms/cds_vida.webp"
     },
     {
         "name": "CD Real Sociedad",
@@ -18296,8 +18236,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Tocoa's giant-killers.",
         "active": true,
-        "logo": "logos/cd_real_sociedad.png",
-        "uniform": "uniforms/cd_real_sociedad.png"
+        "logo": "logos/cd_real_sociedad.webp",
+        "uniform": "uniforms/cd_real_sociedad.webp"
     },
     {
         "name": "CD Victoria",
@@ -18311,8 +18251,8 @@ const teams = [
         "trophies": "Liga Nacional: 1",
         "mustKnowFact": "La Ceiba's historic blues.",
         "active": true,
-        "logo": "logos/cd_victoria.png",
-        "uniform": "uniforms/cd_victoria.png"
+        "logo": "logos/cd_victoria.webp",
+        "uniform": "uniforms/cd_victoria.webp"
     },
     {
         "name": "Lobos UPNFM",
@@ -18326,8 +18266,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "University wolves of Tegu.",
         "active": true,
-        "logo": "logos/lobos_upnfm.png",
-        "uniform": "uniforms/lobos_upnfm.png"
+        "logo": "logos/lobos_upnfm.webp",
+        "uniform": "uniforms/lobos_upnfm.webp"
     },
     {
         "name": "Olancho FC",
@@ -18341,8 +18281,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Olancho's proud stallions.",
         "active": true,
-        "logo": "logos/olancho_fc.png",
-        "uniform": "uniforms/olancho_fc.png"
+        "logo": "logos/olancho_fc.webp",
+        "uniform": "uniforms/olancho_fc.webp"
     },
     {
         "name": "Génesis FC",
@@ -18356,8 +18296,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New beginnings in Comayagua.",
         "active": true,
-        "logo": "logos/genesis_fc.png",
-        "uniform": "uniforms/genesis_fc.png"
+        "logo": "logos/genesis_fc.webp",
+        "uniform": "uniforms/genesis_fc.webp"
     },
     {
         "name": "CSD Municipal",
@@ -18371,8 +18311,8 @@ const teams = [
         "trophies": "Liga Nacional: 31, Copa de Guatemala: 8, CONCACAF Champions Cup: 1",
         "mustKnowFact": "Guatemala's most titled club.",
         "active": true,
-        "logo": "logos/csd_municipal.png",
-        "uniform": "uniforms/csd_municipal.png"
+        "logo": "logos/csd_municipal.webp",
+        "uniform": "uniforms/csd_municipal.webp"
     },
     {
         "name": "Comunicaciones FC",
@@ -18386,8 +18326,8 @@ const teams = [
         "trophies": "Liga Nacional: 31, Copa de Guatemala: 8, CONCACAF Champions Cup: 1",
         "mustKnowFact": "The Cremas of the capital.",
         "active": true,
-        "logo": "logos/comunicaciones_fc.png",
-        "uniform": "uniforms/comunicaciones_fc.png"
+        "logo": "logos/comunicaciones_fc.webp",
+        "uniform": "uniforms/comunicaciones_fc.webp"
     },
     {
         "name": "Antigua GFC",
@@ -18401,8 +18341,8 @@ const teams = [
         "trophies": "Liga Nacional: 4",
         "mustKnowFact": "Colonial city's champs.",
         "active": true,
-        "logo": "logos/antigua_gfc.png",
-        "uniform": "uniforms/antigua_gfc.png"
+        "logo": "logos/antigua_gfc.webp",
+        "uniform": "uniforms/antigua_gfc.webp"
     },
     {
         "name": "CSD Xelajú MC",
@@ -18416,8 +18356,8 @@ const teams = [
         "trophies": "Liga Nacional: 6",
         "mustKnowFact": "Super goats of the west.",
         "active": true,
-        "logo": "logos/csd_xelaju_mc.png",
-        "uniform": "uniforms/csd_xelaju_mc.png"
+        "logo": "logos/csd_xelaju_mc.webp",
+        "uniform": "uniforms/csd_xelaju_mc.webp"
     },
     {
         "name": "Cobán Imperial",
@@ -18431,8 +18371,8 @@ const teams = [
         "trophies": "Liga Nacional: 2",
         "mustKnowFact": "Princes of Alta Verapaz.",
         "active": true,
-        "logo": "logos/coban_imperial.png",
-        "uniform": "uniforms/coban_imperial.png"
+        "logo": "logos/coban_imperial.webp",
+        "uniform": "uniforms/coban_imperial.webp"
     },
     {
         "name": "Deportivo Guastatoya",
@@ -18446,8 +18386,8 @@ const teams = [
         "trophies": "Liga Nacional: 2",
         "mustKnowFact": "Yellow chests of the east.",
         "active": true,
-        "logo": "logos/deportivo_guastatoya.png",
-        "uniform": "uniforms/deportivo_guastatoya.png"
+        "logo": "logos/deportivo_guastatoya.webp",
+        "uniform": "uniforms/deportivo_guastatoya.webp"
     },
     {
         "name": "Deportivo Malacateco",
@@ -18461,8 +18401,8 @@ const teams = [
         "trophies": "Liga Nacional: 1",
         "mustKnowFact": "Bulls of San Marcos.",
         "active": true,
-        "logo": "logos/deportivo_malacateco.png",
-        "uniform": "uniforms/deportivo_malacateco.png"
+        "logo": "logos/deportivo_malacateco.webp",
+        "uniform": "uniforms/deportivo_malacateco.webp"
     },
     {
         "name": "CSD Mixco",
@@ -18476,8 +18416,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Mixco's chicharroneros.",
         "active": true,
-        "logo": "logos/csd_mixco.png",
-        "uniform": "uniforms/csd_mixco.png"
+        "logo": "logos/csd_mixco.webp",
+        "uniform": "uniforms/csd_mixco.webp"
     },
     {
         "name": "Deportivo Achuapa",
@@ -18491,8 +18431,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Cebolleros of Jutiapa.",
         "active": true,
-        "logo": "logos/deportivo_achuapa.png",
-        "uniform": "uniforms/deportivo_achuapa.png"
+        "logo": "logos/deportivo_achuapa.webp",
+        "uniform": "uniforms/deportivo_achuapa.webp"
     },
     {
         "name": "Deportivo Iztapa",
@@ -18506,8 +18446,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Shrimp fishers of the coast.",
         "active": true,
-        "logo": "logos/deportivo_iztapa.png",
-        "uniform": "uniforms/deportivo_iztapa.png"
+        "logo": "logos/deportivo_iztapa.webp",
+        "uniform": "uniforms/deportivo_iztapa.webp"
     },
     {
         "name": "Xinabajul Huehue",
@@ -18521,8 +18461,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Huehue's mountain warriors.",
         "active": true,
-        "logo": "logos/xinabajul_huehue.png",
-        "uniform": "uniforms/xinabajul_huehue.png"
+        "logo": "logos/xinabajul_huehue.webp",
+        "uniform": "uniforms/xinabajul_huehue.webp"
     },
     {
         "name": "Marquense",
@@ -18536,8 +18476,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Lions of San Marcos.",
         "active": true,
-        "logo": "logos/marquense.png",
-        "uniform": "uniforms/marquense.png"
+        "logo": "logos/marquense.webp",
+        "uniform": "uniforms/marquense.webp"
     },
     {
         "name": "Shamrock Rovers",
@@ -18551,8 +18491,8 @@ const teams = [
         "trophies": "League of Ireland: 21, FAI Cup: 25, League of Ireland Cup: 2, League of Ireland Shield: 18",
         "mustKnowFact": "Ireland's most successful club.",
         "active": true,
-        "logo": "logos/shamrock_rovers.png",
-        "uniform": "uniforms/shamrock_rovers.png"
+        "logo": "logos/shamrock_rovers.webp",
+        "uniform": "uniforms/shamrock_rovers.webp"
     },
     {
         "name": "Derry City",
@@ -18566,8 +18506,8 @@ const teams = [
         "trophies": "League of Ireland: 2, FAI Cup: 6, League of Ireland Cup: 11",
         "mustKnowFact": "Candystripes of the north.",
         "active": true,
-        "logo": "logos/derry_city.png",
-        "uniform": "uniforms/derry_city.png"
+        "logo": "logos/derry_city.webp",
+        "uniform": "uniforms/derry_city.webp"
     },
     {
         "name": "St Patrick's Athletic",
@@ -18581,8 +18521,8 @@ const teams = [
         "trophies": "League of Ireland: 9, FAI Cup: 5, League of Ireland Cup: 2",
         "mustKnowFact": "Saints of Inchicore.",
         "active": true,
-        "logo": "logos/st_patricks_athletic.png",
-        "uniform": "uniforms/st_patricks_athletic.png"
+        "logo": "logos/st_patricks_athletic.webp",
+        "uniform": "uniforms/st_patricks_athletic.webp"
     },
     {
         "name": "Bohemian FC",
@@ -18596,8 +18536,8 @@ const teams = [
         "trophies": "League of Ireland: 11, FAI Cup: 7, League of Ireland Shield: 6",
         "mustKnowFact": "Gypsies of Phibsborough.",
         "active": true,
-        "logo": "logos/bohemian_fc.png",
-        "uniform": "uniforms/bohemian_fc.png"
+        "logo": "logos/bohemian_fc.webp",
+        "uniform": "uniforms/bohemian_fc.webp"
     },
     {
         "name": "Shelbourne FC",
@@ -18611,8 +18551,8 @@ const teams = [
         "trophies": "League of Ireland: 13, FAI Cup: 3, League of Ireland Shield: 7",
         "mustKnowFact": "Reds of Drumcondra.",
         "active": true,
-        "logo": "logos/shelbourne_fc.png",
-        "uniform": "uniforms/shelbourne_fc.png"
+        "logo": "logos/shelbourne_fc.webp",
+        "uniform": "uniforms/shelbourne_fc.webp"
     },
     {
         "name": "Dundalk FC",
@@ -18626,8 +18566,8 @@ const teams = [
         "trophies": "League of Ireland: 14, FAI Cup: 12, League of Ireland Cup: 7",
         "mustKnowFact": "Lilywhites of Louth.",
         "active": true,
-        "logo": "logos/dundalk_fc.png",
-        "uniform": "uniforms/dundalk_fc.png"
+        "logo": "logos/dundalk_fc.webp",
+        "uniform": "uniforms/dundalk_fc.webp"
     },
     {
         "name": "Sligo Rovers",
@@ -18641,8 +18581,8 @@ const teams = [
         "trophies": "League of Ireland: 3, FAI Cup: 2, League of Ireland Cup: 2",
         "mustKnowFact": "Bit o' Red from the west.",
         "active": true,
-        "logo": "logos/sligo_rovers.png",
-        "uniform": "uniforms/sligo_rovers.png"
+        "logo": "logos/sligo_rovers.webp",
+        "uniform": "uniforms/sligo_rovers.webp"
     },
     {
         "name": "Galway United",
@@ -18656,8 +18596,8 @@ const teams = [
         "trophies": "FAI Cup: 1, League of Ireland Cup: 2",
         "mustKnowFact": "Tribesmen of Galway.",
         "active": true,
-        "logo": "logos/galway_united.png",
-        "uniform": "uniforms/galway_united.png"
+        "logo": "logos/galway_united.webp",
+        "uniform": "uniforms/galway_united.webp"
     },
     {
         "name": "Waterford FC",
@@ -18671,8 +18611,8 @@ const teams = [
         "trophies": "League of Ireland: 6, FAI Cup: 2",
         "mustKnowFact": "Blues of the southeast.",
         "active": true,
-        "logo": "logos/waterford_fc.png",
-        "uniform": "uniforms/waterford_fc.png"
+        "logo": "logos/waterford_fc.webp",
+        "uniform": "uniforms/waterford_fc.webp"
     },
     {
         "name": "Drogheda United",
@@ -18686,8 +18626,8 @@ const teams = [
         "trophies": "League of Ireland: 1, FAI Cup: 1, League of Ireland Cup: 2",
         "mustKnowFact": "Drogs of the Boyne.",
         "active": true,
-        "logo": "logos/drogheda_united.png",
-        "uniform": "uniforms/drogheda_united.png"
+        "logo": "logos/drogheda_united.webp",
+        "uniform": "uniforms/drogheda_united.webp"
     },
     {
         "name": "Celtic FC",
@@ -18701,8 +18641,8 @@ const teams = [
         "trophies": "Scottish Premiership: 53, Scottish Cup: 41, Scottish League Cup: 21, European Cup: 1",
         "mustKnowFact": "First British club to win European Cup.",
         "active": true,
-        "logo": "logos/celtic_fc.png",
-        "uniform": "uniforms/celtic_fc.png"
+        "logo": "logos/celtic_fc.webp",
+        "uniform": "uniforms/celtic_fc.webp"
     },
     {
         "name": "Rangers FC",
@@ -18716,8 +18656,8 @@ const teams = [
         "trophies": "Scottish Premiership: 55, Scottish Cup: 34, Scottish League Cup: 28, European Cup Winners' Cup: 1",
         "mustKnowFact": "Most league titles in the world.",
         "active": true,
-        "logo": "logos/rangers_fc.png",
-        "uniform": "uniforms/rangers_fc.png"
+        "logo": "logos/rangers_fc.webp",
+        "uniform": "uniforms/rangers_fc.webp"
     },
     {
         "name": "Heart of Midlothian",
@@ -18731,8 +18671,8 @@ const teams = [
         "trophies": "Scottish Premiership: 4, Scottish Cup: 8, Scottish League Cup: 4",
         "mustKnowFact": "Hearts of Edinburgh.",
         "active": true,
-        "logo": "logos/heart_of_midlothian.png",
-        "uniform": "uniforms/heart_of_midlothian.png"
+        "logo": "logos/heart_of_midlothian.webp",
+        "uniform": "uniforms/heart_of_midlothian.webp"
     },
     {
         "name": "Hibernian FC",
@@ -18746,8 +18686,8 @@ const teams = [
         "trophies": "Scottish Premiership: 4, Scottish Cup: 3, Scottish League Cup: 3",
         "mustKnowFact": "Hibs of Leith.",
         "active": true,
-        "logo": "logos/hibernian_fc.png",
-        "uniform": "uniforms/hibernian_fc.png"
+        "logo": "logos/hibernian_fc.webp",
+        "uniform": "uniforms/hibernian_fc.webp"
     },
     {
         "name": "Aberdeen FC",
@@ -18761,8 +18701,8 @@ const teams = [
         "trophies": "Scottish Premiership: 4, Scottish Cup: 7, Scottish League Cup: 6, European Cup Winners' Cup: 1, UEFA Super Cup: 1",
         "mustKnowFact": "Dons of the northeast.",
         "active": true,
-        "logo": "logos/aberdeen_fc.png",
-        "uniform": "uniforms/aberdeen_fc.png"
+        "logo": "logos/aberdeen_fc.webp",
+        "uniform": "uniforms/aberdeen_fc.webp"
     },
     {
         "name": "Motherwell FC",
@@ -18776,8 +18716,8 @@ const teams = [
         "trophies": "Scottish Premiership: 1, Scottish Cup: 2, Scottish League Cup: 1",
         "mustKnowFact": "Steelmen of Lanarkshire.",
         "active": true,
-        "logo": "logos/motherwell_fc.png",
-        "uniform": "uniforms/motherwell_fc.png"
+        "logo": "logos/motherwell_fc.webp",
+        "uniform": "uniforms/motherwell_fc.webp"
     },
     {
         "name": "St Mirren",
@@ -18791,8 +18731,8 @@ const teams = [
         "trophies": "Scottish Premiership: 0, Scottish Cup: 3, Scottish League Cup: 1",
         "mustKnowFact": "Buddies of Paisley.",
         "active": true,
-        "logo": "logos/st_mirren.png",
-        "uniform": "uniforms/st_mirren.png"
+        "logo": "logos/st_mirren.webp",
+        "uniform": "uniforms/st_mirren.webp"
     },
     {
         "name": "Kilmarnock FC",
@@ -18806,8 +18746,8 @@ const teams = [
         "trophies": "Scottish Premiership: 1, Scottish Cup: 3, Scottish League Cup: 1",
         "mustKnowFact": "Killie of Ayrshire.",
         "active": true,
-        "logo": "logos/kilmarnock_fc.png",
-        "uniform": "uniforms/kilmarnock_fc.png"
+        "logo": "logos/kilmarnock_fc.webp",
+        "uniform": "uniforms/kilmarnock_fc.webp"
     },
     {
         "name": "Dundee United",
@@ -18821,8 +18761,8 @@ const teams = [
         "trophies": "Scottish Premiership: 1, Scottish Cup: 2, Scottish League Cup: 2",
         "mustKnowFact": "Tangerines of Dundee.",
         "active": true,
-        "logo": "logos/dundee_united.png",
-        "uniform": "uniforms/dundee_united.png"
+        "logo": "logos/dundee_united.webp",
+        "uniform": "uniforms/dundee_united.webp"
     },
     {
         "name": "Dundee FC",
@@ -18836,8 +18776,8 @@ const teams = [
         "trophies": "Scottish Premiership: 1, Scottish Cup: 1, Scottish League Cup: 3",
         "mustKnowFact": "Dark Blues of Dundee.",
         "active": true,
-        "logo": "logos/dundee_fc.png",
-        "uniform": "uniforms/dundee_fc.png"
+        "logo": "logos/dundee_fc.webp",
+        "uniform": "uniforms/dundee_fc.webp"
     },
     {
         "name": "Ross County",
@@ -18851,8 +18791,8 @@ const teams = [
         "trophies": "Scottish League Cup: 1",
         "mustKnowFact": "Staggies of the Highlands.",
         "active": true,
-        "logo": "logos/ross_county.png",
-        "uniform": "uniforms/ross_county.png"
+        "logo": "logos/ross_county.webp",
+        "uniform": "uniforms/ross_county.webp"
     },
     {
         "name": "St Johnstone",
@@ -18866,8 +18806,8 @@ const teams = [
         "trophies": "Scottish Cup: 2, Scottish League Cup: 1",
         "mustKnowFact": "Saints of Perth.",
         "active": true,
-        "logo": "logos/st_johnstone.png",
-        "uniform": "uniforms/st_johnstone.png"
+        "logo": "logos/st_johnstone.webp",
+        "uniform": "uniforms/st_johnstone.webp"
     },
     {
         "name": "Gor Mahia",
@@ -18881,8 +18821,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 20, Kenyan Cup: 10",
         "mustKnowFact": "Green army of Kenya.",
         "active": true,
-        "logo": "logos/gor_mahia.png",
-        "uniform": "uniforms/gor_mahia.png"
+        "logo": "logos/gor_mahia.webp",
+        "uniform": "uniforms/gor_mahia.webp"
     },
     {
         "name": "AFC Leopards",
@@ -18896,8 +18836,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 12, Kenyan Cup: 6",
         "mustKnowFact": "Ingwe of Nairobi.",
         "active": true,
-        "logo": "logos/afc_leopards.png",
-        "uniform": "uniforms/afc_leopards.png"
+        "logo": "logos/afc_leopards.webp",
+        "uniform": "uniforms/afc_leopards.webp"
     },
     {
         "name": "Tusker FC",
@@ -18911,8 +18851,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 13, Kenyan Cup: 4",
         "mustKnowFact": "Brewers of success.",
         "active": true,
-        "logo": "logos/tusker_fc.png",
-        "uniform": "uniforms/tusker_fc.png"
+        "logo": "logos/tusker_fc.webp",
+        "uniform": "uniforms/tusker_fc.webp"
     },
     {
         "name": "Sofapaka FC",
@@ -18926,8 +18866,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 1, Kenyan Cup: 1",
         "mustKnowFact": "Batoto ba Mungu.",
         "active": true,
-        "logo": "logos/sofapaka_fc.png",
-        "uniform": "uniforms/sofapaka_fc.png"
+        "logo": "logos/sofapaka_fc.webp",
+        "uniform": "uniforms/sofapaka_fc.webp"
     },
     {
         "name": "Bandari FC",
@@ -18941,8 +18881,8 @@ const teams = [
         "trophies": "Kenyan Cup: 2",
         "mustKnowFact": "Dockers of the coast.",
         "active": true,
-        "logo": "logos/bandari_fc.png",
-        "uniform": "uniforms/bandari_fc.png"
+        "logo": "logos/bandari_fc.webp",
+        "uniform": "uniforms/bandari_fc.webp"
     },
     {
         "name": "KCB FC",
@@ -18956,8 +18896,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Bankers of the pitch.",
         "active": true,
-        "logo": "logos/kcb_fc.png",
-        "uniform": "uniforms/kcb_fc.png"
+        "logo": "logos/kcb_fc.webp",
+        "uniform": "uniforms/kcb_fc.webp"
     },
     {
         "name": "Kariobangi Sharks",
@@ -18971,8 +18911,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sharks of Kariobangi.",
         "active": true,
-        "logo": "logos/kariobangi_sharks.png",
-        "uniform": "uniforms/kariobangi_sharks.png"
+        "logo": "logos/kariobangi_sharks.webp",
+        "uniform": "uniforms/kariobangi_sharks.webp"
     },
     {
         "name": "Posta Rangers",
@@ -18986,8 +18926,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Mailmen of football.",
         "active": true,
-        "logo": "logos/posta_rangers.png",
-        "uniform": "uniforms/posta_rangers.png"
+        "logo": "logos/posta_rangers.webp",
+        "uniform": "uniforms/posta_rangers.webp"
     },
     {
         "name": "Ulinzi Stars",
@@ -19001,8 +18941,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 4",
         "mustKnowFact": "Soldiers of the game.",
         "active": true,
-        "logo": "logos/ulinzi_stars.png",
-        "uniform": "uniforms/ulinzi_stars.png"
+        "logo": "logos/ulinzi_stars.webp",
+        "uniform": "uniforms/ulinzi_stars.webp"
     },
     {
         "name": "Kenya Police FC",
@@ -19016,8 +18956,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Law enforcers on the field.",
         "active": true,
-        "logo": "logos/kenya_police_fc.png",
-        "uniform": "uniforms/kenya_police_fc.png"
+        "logo": "logos/kenya_police_fc.webp",
+        "uniform": "uniforms/kenya_police_fc.webp"
     },
     {
         "name": "Nzoia Sugar FC",
@@ -19031,8 +18971,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sweet success seekers.",
         "active": true,
-        "logo": "logos/nzoia_sugar_fc.png",
-        "uniform": "uniforms/nzoia_sugar_fc.png"
+        "logo": "logos/nzoia_sugar_fc.webp",
+        "uniform": "uniforms/nzoia_sugar_fc.webp"
     },
     {
         "name": "Bidco United",
@@ -19046,8 +18986,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Thika's united front.",
         "active": true,
-        "logo": "logos/bidco_united.png",
-        "uniform": "uniforms/bidco_united.png"
+        "logo": "logos/bidco_united.webp",
+        "uniform": "uniforms/bidco_united.webp"
     },
     {
         "name": "Mathare United",
@@ -19061,8 +19001,8 @@ const teams = [
         "trophies": "Kenyan Premier League: 1",
         "mustKnowFact": "Slum boys of Nairobi.",
         "active": true,
-        "logo": "logos/mathare_united.png",
-        "uniform": "uniforms/mathare_united.png"
+        "logo": "logos/mathare_united.webp",
+        "uniform": "uniforms/mathare_united.webp"
     },
     {
         "name": "Shabana FC",
@@ -19076,8 +19016,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Toreadors of Kisii.",
         "active": true,
-        "logo": "logos/shabana_fc.png",
-        "uniform": "uniforms/shabana_fc.png"
+        "logo": "logos/shabana_fc.webp",
+        "uniform": "uniforms/shabana_fc.webp"
     },
     {
         "name": "Murang'a SEAL",
@@ -19091,8 +19031,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Newcomers from Murang'a.",
         "active": true,
-        "logo": "logos/muranga_seal.png",
-        "uniform": "uniforms/muranga_seal.png"
+        "logo": "logos/muranga_seal.webp",
+        "uniform": "uniforms/muranga_seal.webp"
     },
     {
         "name": "Kakamega Homeboyz",
@@ -19106,8 +19046,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Homeboys of the west.",
         "active": true,
-        "logo": "logos/kakamega_homeboyz.png",
-        "uniform": "uniforms/kakamega_homeboyz.png"
+        "logo": "logos/kakamega_homeboyz.webp",
+        "uniform": "uniforms/kakamega_homeboyz.webp"
     },
     {
         "name": "Talanta FC",
@@ -19121,8 +19061,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Talent hub of Nairobi.",
         "active": true,
-        "logo": "logos/talanta_fc.png",
-        "uniform": "uniforms/talanta_fc.png"
+        "logo": "logos/talanta_fc.webp",
+        "uniform": "uniforms/talanta_fc.webp"
     },
     {
         "name": "Mara Sugar FC",
@@ -19136,8 +19076,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sugar men of Narok.",
         "active": true,
-        "logo": "logos/mara_sugar_fc.png",
-        "uniform": "uniforms/mara_sugar_fc.png"
+        "logo": "logos/mara_sugar_fc.webp",
+        "uniform": "uniforms/mara_sugar_fc.webp"
     },
     {
         "name": "Township Rollers",
@@ -19151,8 +19091,8 @@ const teams = [
         "trophies": "Botswana Premier League: 16, Botswana Cup: 7",
         "mustKnowFact": "Rollers rule Botswana.",
         "active": true,
-        "logo": "logos/township_rollers.png",
-        "uniform": "uniforms/township_rollers.png"
+        "logo": "logos/township_rollers.webp",
+        "uniform": "uniforms/township_rollers.webp"
     },
     {
         "name": "Jwaneng Galaxy",
@@ -19166,8 +19106,8 @@ const teams = [
         "trophies": "Botswana Premier League: 3, Botswana Cup: 1",
         "mustKnowFact": "Galaxy of the south.",
         "active": true,
-        "logo": "logos/jwaneng_galaxy.png",
-        "uniform": "uniforms/jwaneng_galaxy.png"
+        "logo": "logos/jwaneng_galaxy.webp",
+        "uniform": "uniforms/jwaneng_galaxy.webp"
     },
     {
         "name": "Gaborone United",
@@ -19181,8 +19121,8 @@ const teams = [
         "trophies": "Botswana Premier League: 7, Botswana Cup: 6",
         "mustKnowFact": "GU of the capital.",
         "active": true,
-        "logo": "logos/gaborone_united.png",
-        "uniform": "uniforms/gaborone_united.png"
+        "logo": "logos/gaborone_united.webp",
+        "uniform": "uniforms/gaborone_united.webp"
     },
     {
         "name": "Orapa United",
@@ -19196,8 +19136,8 @@ const teams = [
         "trophies": "Botswana Cup: 2",
         "mustKnowFact": "Ostriches of Orapa.",
         "active": true,
-        "logo": "logos/orapa_united.png",
-        "uniform": "uniforms/orapa_united.png"
+        "logo": "logos/orapa_united.webp",
+        "uniform": "uniforms/orapa_united.webp"
     },
     {
         "name": "Botswana Defence Force XI",
@@ -19211,8 +19151,8 @@ const teams = [
         "trophies": "Botswana Premier League: 7",
         "mustKnowFact": "Soldiers of the pitch.",
         "active": true,
-        "logo": "logos/bdf_xi.png",
-        "uniform": "uniforms/bdf_xi.png"
+        "logo": "logos/bdf_xi.webp",
+        "uniform": "uniforms/bdf_xi.webp"
     },
     {
         "name": "Police XI",
@@ -19226,8 +19166,8 @@ const teams = [
         "trophies": "Botswana Premier League: 1",
         "mustKnowFact": "Cops of Gaborone.",
         "active": true,
-        "logo": "logos/police_xi.png",
-        "uniform": "uniforms/police_xi.png"
+        "logo": "logos/police_xi.webp",
+        "uniform": "uniforms/police_xi.webp"
     },
     {
         "name": "Extension Gunners",
@@ -19241,8 +19181,8 @@ const teams = [
         "trophies": "Botswana Premier League: 3",
         "mustKnowFact": "Gunners of Lobatse.",
         "active": true,
-        "logo": "logos/extension_gunners.png",
-        "uniform": "uniforms/extension_gunners.png"
+        "logo": "logos/extension_gunners.webp",
+        "uniform": "uniforms/extension_gunners.webp"
     },
     {
         "name": "Mochudi Centre Chiefs",
@@ -19256,8 +19196,8 @@ const teams = [
         "trophies": "Botswana Premier League: 4",
         "mustKnowFact": "Chiefs of Kgatleng.",
         "active": true,
-        "logo": "logos/mochudi_centre_chiefs.png",
-        "uniform": "uniforms/mochudi_centre_chiefs.png"
+        "logo": "logos/mochudi_centre_chiefs.webp",
+        "uniform": "uniforms/mochudi_centre_chiefs.webp"
     },
     {
         "name": "Security Systems FC",
@@ -19271,8 +19211,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Security guards of football.",
         "active": true,
-        "logo": "logos/security_systems_fc.png",
-        "uniform": "uniforms/security_systems_fc.png"
+        "logo": "logos/security_systems_fc.webp",
+        "uniform": "uniforms/security_systems_fc.webp"
     },
     {
         "name": "Morupule Wanderers",
@@ -19286,8 +19226,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Wanderers of the east.",
         "active": true,
-        "logo": "logos/morupule_wanderers.png",
-        "uniform": "uniforms/morupule_wanderers.png"
+        "logo": "logos/morupule_wanderers.webp",
+        "uniform": "uniforms/morupule_wanderers.webp"
     },
     {
         "name": "Sua Flamingoes",
@@ -19301,8 +19241,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Flamingoes of the salt pans.",
         "active": true,
-        "logo": "logos/sua_flamingoes.png",
-        "uniform": "uniforms/sua_flamingoes.png"
+        "logo": "logos/sua_flamingoes.webp",
+        "uniform": "uniforms/sua_flamingoes.webp"
     },
     {
         "name": "Nico United",
@@ -19316,8 +19256,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Miners of Selebi.",
         "active": true,
-        "logo": "logos/nico_united.png",
-        "uniform": "uniforms/nico_united.png"
+        "logo": "logos/nico_united.webp",
+        "uniform": "uniforms/nico_united.webp"
     },
     {
         "name": "Tafic FC",
@@ -19331,8 +19271,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Matjimenyenga of the north.",
         "active": true,
-        "logo": "logos/tafic_fc.png",
-        "uniform": "uniforms/tafic_fc.png"
+        "logo": "logos/tafic_fc.webp",
+        "uniform": "uniforms/tafic_fc.webp"
     },
     {
         "name": "Matebele FC",
@@ -19346,8 +19286,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Warriors of Kweneng.",
         "active": true,
-        "logo": "logos/matebele_fc.png",
-        "uniform": "uniforms/matebele_fc.png"
+        "logo": "logos/matebele_fc.webp",
+        "uniform": "uniforms/matebele_fc.webp"
     },
     {
         "name": "VTM FC",
@@ -19361,8 +19301,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New kids from Maun.",
         "active": true,
-        "logo": "logos/vtm_fc.png",
-        "uniform": "uniforms/vtm_fc.png"
+        "logo": "logos/vtm_fc.webp",
+        "uniform": "uniforms/vtm_fc.webp"
     },
     {
         "name": "Holy Ghost SC",
@@ -19376,8 +19316,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Spirits of Gaborone.",
         "active": true,
-        "logo": "logos/holy_ghost_sc.png",
-        "uniform": "uniforms/holy_ghost_sc.png"
+        "logo": "logos/holy_ghost_sc.webp",
+        "uniform": "uniforms/holy_ghost_sc.webp"
     },
     {
         "name": "APR FC",
@@ -19391,8 +19331,8 @@ const teams = [
         "trophies": "Rwanda Premier League: 20, Rwandan Cup: 13",
         "mustKnowFact": "Army's football kings.",
         "active": true,
-        "logo": "logos/apr_fc.png",
-        "uniform": "uniforms/apr_fc.png"
+        "logo": "logos/apr_fc.webp",
+        "uniform": "uniforms/apr_fc.webp"
     },
     {
         "name": "Rayon Sports",
@@ -19406,8 +19346,8 @@ const teams = [
         "trophies": "Rwanda Premier League: 9, Rwandan Cup: 10",
         "mustKnowFact": "Blues of Kigali.",
         "active": true,
-        "logo": "logos/rayon_sports.png",
-        "uniform": "uniforms/rayon_sports.png"
+        "logo": "logos/rayon_sports.webp",
+        "uniform": "uniforms/rayon_sports.webp"
     },
     {
         "name": "Police FC",
@@ -19421,8 +19361,8 @@ const teams = [
         "trophies": "Rwanda Premier League: 1",
         "mustKnowFact": "Lawmen of the capital.",
         "active": true,
-        "logo": "logos/police_fc.png",
-        "uniform": "uniforms/police_fc.png"
+        "logo": "logos/police_fc.webp",
+        "uniform": "uniforms/police_fc.webp"
     },
     {
         "name": "AS Kigali",
@@ -19436,8 +19376,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "City boys of Kigali.",
         "active": true,
-        "logo": "logos/as_kigali.png",
-        "uniform": "uniforms/as_kigali.png"
+        "logo": "logos/as_kigali.webp",
+        "uniform": "uniforms/as_kigali.webp"
     },
     {
         "name": "Kiyovu Sports",
@@ -19451,8 +19391,8 @@ const teams = [
         "trophies": "Rwanda Premier League: 1",
         "mustKnowFact": "Green baggies of Kigali.",
         "active": true,
-        "logo": "logos/kiyovu_sports.png",
-        "uniform": "uniforms/kiyovu_sports.png"
+        "logo": "logos/kiyovu_sports.webp",
+        "uniform": "uniforms/kiyovu_sports.webp"
     },
     {
         "name": "Mukura Victory Sports",
@@ -19466,8 +19406,8 @@ const teams = [
         "trophies": "Rwanda Premier League: 1, Rwandan Cup: 2",
         "mustKnowFact": "Southern warriors.",
         "active": true,
-        "logo": "logos/mukura_victory_sports.png",
-        "uniform": "uniforms/mukura_victory_sports.png"
+        "logo": "logos/mukura_victory_sports.webp",
+        "uniform": "uniforms/mukura_victory_sports.webp"
     },
     {
         "name": "Musanze FC",
@@ -19481,8 +19421,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Northern mountain men.",
         "active": true,
-        "logo": "logos/musanze_fc.png",
-        "uniform": "uniforms/musanze_fc.png"
+        "logo": "logos/musanze_fc.webp",
+        "uniform": "uniforms/musanze_fc.webp"
     },
     {
         "name": "Gasogi United",
@@ -19496,8 +19436,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "New force in Kigali.",
         "active": true,
-        "logo": "logos/gasogi_united.png",
-        "uniform": "uniforms/gasogi_united.png"
+        "logo": "logos/gasogi_united.webp",
+        "uniform": "uniforms/gasogi_united.webp"
     },
     {
         "name": "Bugesera FC",
@@ -19511,8 +19451,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Eastern underdogs.",
         "active": true,
-        "logo": "logos/bugesera_fc.png",
-        "uniform": "uniforms/bugesera_fc.png"
+        "logo": "logos/bugesera_fc.webp",
+        "uniform": "uniforms/bugesera_fc.webp"
     },
     {
         "name": "Rutsiro FC",
@@ -19526,8 +19466,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Western newcomers.",
         "active": true,
-        "logo": "logos/rutsiro_fc.png",
-        "uniform": "uniforms/rutsiro_fc.png"
+        "logo": "logos/rutsiro_fc.webp",
+        "uniform": "uniforms/rutsiro_fc.webp"
     },
     {
         "name": "Gorilla FC",
@@ -19541,8 +19481,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Gorillas of the city.",
         "active": true,
-        "logo": "logos/gorilla_fc.png",
-        "uniform": "uniforms/gorilla_fc.png"
+        "logo": "logos/gorilla_fc.webp",
+        "uniform": "uniforms/gorilla_fc.webp"
     },
     {
         "name": "Rwanda Marines FC",
@@ -19556,8 +19496,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Marines of Lake Kivu.",
         "active": true,
-        "logo": "logos/rwanda_marines_fc.png",
-        "uniform": "uniforms/rwanda_marines_fc.png"
+        "logo": "logos/rwanda_marines_fc.webp",
+        "uniform": "uniforms/rwanda_marines_fc.webp"
     },
     {
         "name": "Etincelles FC",
@@ -19571,8 +19511,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Sparks of the west.",
         "active": true,
-        "logo": "logos/etincelles_fc.png",
-        "uniform": "uniforms/etincelles_fc.png"
+        "logo": "logos/etincelles_fc.webp",
+        "uniform": "uniforms/etincelles_fc.webp"
     },
     {
         "name": "Vision FC",
@@ -19586,8 +19526,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Visionaries of Kigali.",
         "active": true,
-        "logo": "logos/vision_fc.png",
-        "uniform": "uniforms/vision_fc.png"
+        "logo": "logos/vision_fc.webp",
+        "uniform": "uniforms/vision_fc.webp"
     },
     {
         "name": "Amagaju FC",
@@ -19601,8 +19541,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Southern fighters.",
         "active": true,
-        "logo": "logos/amagaju_fc.png",
-        "uniform": "uniforms/amagaju_fc.png"
+        "logo": "logos/amagaju_fc.webp",
+        "uniform": "uniforms/amagaju_fc.webp"
     },
     {
         "name": "Kiyovu SC",
@@ -19616,8 +19556,8 @@ const teams = [
         "trophies": "",
         "mustKnowFact": "Kigali's green stars.",
         "active": true,
-        "logo": "logos/kiyovu_sc.png",
-        "uniform": "uniforms/kiyovu_sc.png"
+        "logo": "logos/kiyovu_sc.webp",
+        "uniform": "uniforms/kiyovu_sc.webp"
     },
         {
             "name": "FK Žalgiris",
@@ -19631,8 +19571,8 @@ const teams = [
             "trophies": "A Lyga: 10, Lithuanian Cup: 14, Lithuanian Supercup: 8",
             "mustKnowFact": "Green giants of Vilnius.",
             "active": true,
-            "logo": "logos/fk_zalgiris.png",
-            "uniform": "uniforms/fk_zalgiris.png"
+            "logo": "logos/fk_zalgiris.webp",
+            "uniform": "uniforms/fk_zalgiris.webp"
         },
         {
             "name": "FK Sūduva",
@@ -19646,8 +19586,8 @@ const teams = [
             "trophies": "A Lyga: 3, Lithuanian Cup: 3, Lithuanian Supercup: 4",
             "mustKnowFact": "Marijampolė's pride.",
             "active": true,
-            "logo": "logos/fk_suduva.png",
-            "uniform": "uniforms/fk_suduva.png"
+            "logo": "logos/fk_suduva.webp",
+            "uniform": "uniforms/fk_suduva.webp"
         },
         {
             "name": "FK Kauno Žalgiris",
@@ -19661,8 +19601,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Kaunas's modern contender.",
             "active": true,
-            "logo": "logos/fk_kauno_zalgiris.png",
-            "uniform": "uniforms/fk_kauno_zalgiris.png"
+            "logo": "logos/fk_kauno_zalgiris.webp",
+            "uniform": "uniforms/fk_kauno_zalgiris.webp"
         },
         {
             "name": "FK Panevėžys",
@@ -19676,8 +19616,8 @@ const teams = [
             "trophies": "A Lyga: 1, Lithuanian Cup: 1",
             "mustKnowFact": "2023 A Lyga champions.",
             "active": true,
-            "logo": "logos/fk_panevezys.png",
-            "uniform": "uniforms/fk_panevezys.png"
+            "logo": "logos/fk_panevezys.webp",
+            "uniform": "uniforms/fk_panevezys.webp"
         },
         {
             "name": "FK Riteriai",
@@ -19691,8 +19631,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Knights of Vilnius.",
             "active": true,
-            "logo": "logos/fk_riteriai.png",
-            "uniform": "uniforms/fk_riteriai.png"
+            "logo": "logos/fk_riteriai.webp",
+            "uniform": "uniforms/fk_riteriai.webp"
         },
         {
             "name": "FK Banga",
@@ -19706,8 +19646,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Gargždai's resilient side.",
             "active": true,
-            "logo": "logos/fk_banga.png",
-            "uniform": "uniforms/fk_banga.png"
+            "logo": "logos/fk_banga.webp",
+            "uniform": "uniforms/fk_banga.webp"
         },
         {
             "name": "FC Hegelmann",
@@ -19721,8 +19661,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Kaunas's rising stars.",
             "active": true,
-            "logo": "logos/fc_hegelmann.png",
-            "uniform": "uniforms/fc_hegelmann.png"
+            "logo": "logos/fc_hegelmann.webp",
+            "uniform": "uniforms/fc_hegelmann.webp"
         },
         {
             "name": "FK Jonava",
@@ -19736,8 +19676,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Jonava's green army.",
             "active": true,
-            "logo": "logos/fk_jonava.png",
-            "uniform": "uniforms/fk_jonava.png"
+            "logo": "logos/fk_jonava.webp",
+            "uniform": "uniforms/fk_jonava.webp"
         },
         {
             "name": "FA Šiauliai",
@@ -19751,8 +19691,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Šiauliai's football academy.",
             "active": true,
-            "logo": "logos/fa_siauliai.png",
-            "uniform": "uniforms/fa_siauliai.png"
+            "logo": "logos/fa_siauliai.webp",
+            "uniform": "uniforms/fa_siauliai.webp"
         },
         {
             "name": "DFK Dainava",
@@ -19766,8 +19706,8 @@ const teams = [
             "trophies": "",
             "mustKnowFact": "Alytus's Dzūkija warriors.",
             "active": true,
-            "logo": "logos/dfk_dainava.png",
-            "uniform": "uniforms/dfk_dainava.png"
+            "logo": "logos/dfk_dainava.webp",
+            "uniform": "uniforms/dfk_dainava.webp"
         },
             {
                 "name": "FC Flora",
@@ -19781,8 +19721,8 @@ const teams = [
                 "trophies": "Meistriliiga: 14, Estonian Cup: 8, Estonian Supercup: 10",
                 "mustKnowFact": "Estonia's green kings.",
                 "active": true,
-                "logo": "logos/fc_flora.png",
-                "uniform": "uniforms/fc_flora.png"
+                "logo": "logos/fc_flora.webp",
+                "uniform": "uniforms/fc_flora.webp"
             },
             {
                 "name": "FCI Levadia",
@@ -19796,8 +19736,8 @@ const teams = [
                 "trophies": "Meistriliiga: 10, Estonian Cup: 10, Estonian Supercup: 7",
                 "mustKnowFact": "Tallinn's dominant force.",
                 "active": true,
-                "logo": "logos/fci_levadia.png",
-                "uniform": "uniforms/fci_levadia.png"
+                "logo": "logos/fci_levadia.webp",
+                "uniform": "uniforms/fci_levadia.webp"
             },
             {
                 "name": "Nõmme Kalju FC",
@@ -19811,8 +19751,8 @@ const teams = [
                 "trophies": "Meistriliiga: 2, Estonian Cup: 1",
                 "mustKnowFact": "Pink panthers of Nõmme.",
                 "active": true,
-                "logo": "logos/nomme_kalju_fc.png",
-                "uniform": "uniforms/nomme_kalju_fc.png"
+                "logo": "logos/nomme_kalju_fc.webp",
+                "uniform": "uniforms/nomme_kalju_fc.webp"
             },
             {
                 "name": "Paide Linnameeskond",
@@ -19826,8 +19766,8 @@ const teams = [
                 "trophies": "Estonian Cup: 1",
                 "mustKnowFact": "Paide's city team.",
                 "active": true,
-                "logo": "logos/paide_linnameeskond.png",
-                "uniform": "uniforms/paide_linnameeskond.png"
+                "logo": "logos/paide_linnameeskond.webp",
+                "uniform": "uniforms/paide_linnameeskond.webp"
             },
             {
                 "name": "JK Narva Trans",
@@ -19841,8 +19781,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Narva's border battlers.",
                 "active": true,
-                "logo": "logos/jk_narva_trans.png",
-                "uniform": "uniforms/jk_narva_trans.png"
+                "logo": "logos/jk_narva_trans.webp",
+                "uniform": "uniforms/jk_narva_trans.webp"
             },
             {
                 "name": "JK Tammeka",
@@ -19856,8 +19796,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tartu's blue army.",
                 "active": true,
-                "logo": "logos/jk_tammeka.png",
-                "uniform": "uniforms/jk_tammeka.png"
+                "logo": "logos/jk_tammeka.webp",
+                "uniform": "uniforms/jk_tammeka.webp"
             },
             {
                 "name": "FC Kuressaare",
@@ -19871,8 +19811,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Island boys of Saaremaa.",
                 "active": true,
-                "logo": "logos/fc_kuressaare.png",
-                "uniform": "uniforms/fc_kuressaare.png"
+                "logo": "logos/fc_kuressaare.webp",
+                "uniform": "uniforms/fc_kuressaare.webp"
             },
             {
                 "name": "JK Tallinna Kalev",
@@ -19886,8 +19826,8 @@ const teams = [
                 "trophies": "Meistriliiga: 2",
                 "mustKnowFact": "Tallinn's historic club.",
                 "active": true,
-                "logo": "logos/jk_tallinna_kalev.png",
-                "uniform": "uniforms/jk_tallinna_kalev.png"
+                "logo": "logos/jk_tallinna_kalev.webp",
+                "uniform": "uniforms/jk_tallinna_kalev.webp"
             },
             {
                 "name": "Pärnu Vaprus",
@@ -19901,8 +19841,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pärnu's coastal warriors.",
                 "active": true,
-                "logo": "logos/parnu_vaprus.png",
-                "uniform": "uniforms/parnu_vaprus.png"
+                "logo": "logos/parnu_vaprus.webp",
+                "uniform": "uniforms/parnu_vaprus.webp"
             },
             {
                 "name": "Harju JK Laagri",
@@ -19916,8 +19856,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Laagri's rising stars.",
                 "active": true,
-                "logo": "logos/harju_jk_laagri.png",
-                "uniform": "uniforms/harju_jk_laagri.png"
+                "logo": "logos/harju_jk_laagri.webp",
+                "uniform": "uniforms/harju_jk_laagri.webp"
             },
             {
                 "name": "RFS",
@@ -19931,8 +19871,8 @@ const teams = [
                 "trophies": "Virslīga: 3, Latvian Cup: 2",
                 "mustKnowFact": "Riga's modern powerhouse.",
                 "active": true,
-                "logo": "logos/rfs.png",
-                "uniform": "uniforms/rfs.png"
+                "logo": "logos/rfs.webp",
+                "uniform": "uniforms/rfs.webp"
             },
             {
                 "name": "Riga FC",
@@ -19946,8 +19886,8 @@ const teams = [
                 "trophies": "Virslīga: 3, Latvian Cup: 1",
                 "mustKnowFact": "Capital's blue army.",
                 "active": true,
-                "logo": "logos/riga_fc.png",
-                "uniform": "uniforms/riga_fc.png"
+                "logo": "logos/riga_fc.webp",
+                "uniform": "uniforms/riga_fc.webp"
             },
             {
                 "name": "FK Liepāja",
@@ -19961,8 +19901,8 @@ const teams = [
                 "trophies": "Virslīga: 1, Latvian Cup: 2",
                 "mustKnowFact": "Liepāja's coastal champs.",
                 "active": true,
-                "logo": "logos/fk_liepaja.png",
-                "uniform": "uniforms/fk_liepaja.png"
+                "logo": "logos/fk_liepaja.webp",
+                "uniform": "uniforms/fk_liepaja.webp"
             },
             {
                 "name": "Valmiera FC",
@@ -19976,8 +19916,8 @@ const teams = [
                 "trophies": "Virslīga: 1",
                 "mustKnowFact": "Vidzeme's glassmakers.",
                 "active": true,
-                "logo": "logos/valmiera_fc.png",
-                "uniform": "uniforms/valmiera_fc.png"
+                "logo": "logos/valmiera_fc.webp",
+                "uniform": "uniforms/valmiera_fc.webp"
             },
             {
                 "name": "FK Auda",
@@ -19991,8 +19931,8 @@ const teams = [
                 "trophies": "Latvian Cup: 1",
                 "mustKnowFact": "Ķekava's green surprise.",
                 "active": true,
-                "logo": "logos/fk_auda.png",
-                "uniform": "uniforms/fk_auda.png"
+                "logo": "logos/fk_auda.webp",
+                "uniform": "uniforms/fk_auda.webp"
             },
             {
                 "name": "BFC Daugavpils",
@@ -20006,8 +19946,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Latgale's battlers.",
                 "active": true,
-                "logo": "logos/bfc_daugavpils.png",
-                "uniform": "uniforms/bfc_daugavpils.png"
+                "logo": "logos/bfc_daugavpils.webp",
+                "uniform": "uniforms/bfc_daugavpils.webp"
             },
             {
                 "name": "FK Tukums 2000",
@@ -20021,8 +19961,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tukums's young warriors.",
                 "active": true,
-                "logo": "logos/fk_tukums_2000.png",
-                "uniform": "uniforms/fk_tukums_2000.png"
+                "logo": "logos/fk_tukums_2000.webp",
+                "uniform": "uniforms/fk_tukums_2000.webp"
             },
             {
                 "name": "FK Jelgava",
@@ -20036,8 +19976,8 @@ const teams = [
                 "trophies": "Latvian Cup: 4",
                 "mustKnowFact": "Jelgava's cup specialists.",
                 "active": true,
-                "logo": "logos/fk_jelgava.png",
-                "uniform": "uniforms/fk_jelgava.png"
+                "logo": "logos/fk_jelgava.webp",
+                "uniform": "uniforms/fk_jelgava.webp"
             },
             {
                 "name": "Grobiņas SC",
@@ -20051,8 +19991,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Grobiņa's small-town stars.",
                 "active": true,
-                "logo": "logos/grobinas_sc.png",
-                "uniform": "uniforms/grobinas_sc.png"
+                "logo": "logos/grobinas_sc.webp",
+                "uniform": "uniforms/grobinas_sc.webp"
             },
             {
                 "name": "FS Metta",
@@ -20066,8 +20006,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Riga's youth academy.",
                 "active": true,
-                "logo": "logos/fs_metta.png",
-                "uniform": "uniforms/fs_metta.png"
+                "logo": "logos/fs_metta.webp",
+                "uniform": "uniforms/fs_metta.webp"
             },
             {
                 "name": "Dinamo Minsk",
@@ -20081,8 +20021,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 8, Soviet Top League: 1, Belarusian Cup: 3, Belarusian Supercup: 1",
                 "mustKnowFact": "Minsk's blue-white legends.",
                 "active": true,
-                "logo": "logos/dinamo_minsk.png",
-                "uniform": "uniforms/dinamo_minsk.png"
+                "logo": "logos/dinamo_minsk.webp",
+                "uniform": "uniforms/dinamo_minsk.webp"
             },
             {
                 "name": "BATE Borisov",
@@ -20096,8 +20036,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 15, Belarusian Cup: 4, Belarusian Supercup: 7",
                 "mustKnowFact": "Belarus's European trailblazers.",
                 "active": true,
-                "logo": "logos/bate_borisov.png",
-                "uniform": "uniforms/bate_borisov.png"
+                "logo": "logos/bate_borisov.webp",
+                "uniform": "uniforms/bate_borisov.webp"
             },
             {
                 "name": "Shakhtyor Soligorsk",
@@ -20111,8 +20051,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 3, Belarusian Cup: 2",
                 "mustKnowFact": "Miners of Soligorsk.",
                 "active": true,
-                "logo": "logos/shakhtyor_soligorsk.png",
-                "uniform": "uniforms/shakhtyor_soligorsk.png"
+                "logo": "logos/shakhtyor_soligorsk.webp",
+                "uniform": "uniforms/shakhtyor_soligorsk.webp"
             },
             {
                 "name": "Neman Grodno",
@@ -20126,8 +20066,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 1, Belarusian Cup: 1",
                 "mustKnowFact": "Grodno's yellow-blues.",
                 "active": true,
-                "logo": "logos/neman_grodno.png",
-                "uniform": "uniforms/neman_grodno.png"
+                "logo": "logos/neman_grodno.webp",
+                "uniform": "uniforms/neman_grodno.webp"
             },
             {
                 "name": "Torpedo-BelAZ Zhodino",
@@ -20141,8 +20081,8 @@ const teams = [
                 "trophies": "Belarusian Cup: 2",
                 "mustKnowFact": "Zhodino's auto workers.",
                 "active": true,
-                "logo": "logos/torpedo_belaz_zhodino.png",
-                "uniform": "uniforms/torpedo_belaz_zhodino.png"
+                "logo": "logos/torpedo_belaz_zhodino.webp",
+                "uniform": "uniforms/torpedo_belaz_zhodino.webp"
             },
             {
                 "name": "Isloch Minsk Raion",
@@ -20156,8 +20096,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wolves of Minsk region.",
                 "active": true,
-                "logo": "logos/isloch_minsk_raion.png",
-                "uniform": "uniforms/isloch_minsk_raion.png"
+                "logo": "logos/isloch_minsk_raion.webp",
+                "uniform": "uniforms/isloch_minsk_raion.webp"
             },
             {
                 "name": "FC Gomel",
@@ -20171,8 +20111,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 1, Belarusian Cup: 3",
                 "mustKnowFact": "Gomel's green machine.",
                 "active": true,
-                "logo": "logos/fc_gomel.png",
-                "uniform": "uniforms/fc_gomel.png"
+                "logo": "logos/fc_gomel.webp",
+                "uniform": "uniforms/fc_gomel.webp"
             },
             {
                 "name": "Dinamo Brest",
@@ -20186,8 +20126,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 1, Belarusian Cup: 3, Belarusian Supercup: 3",
                 "mustKnowFact": "Brest's fortress defenders.",
                 "active": true,
-                "logo": "logos/dinamo_brest.png",
-                "uniform": "uniforms/dinamo_brest.png"
+                "logo": "logos/dinamo_brest.webp",
+                "uniform": "uniforms/dinamo_brest.webp"
             },
             {
                 "name": "FC Slutsk",
@@ -20201,8 +20141,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Slutsk's sugar boys.",
                 "active": true,
-                "logo": "logos/fc_slutsk.png",
-                "uniform": "uniforms/fc_slutsk.png"
+                "logo": "logos/fc_slutsk.webp",
+                "uniform": "uniforms/fc_slutsk.webp"
             },
             {
                 "name": "FC Vitebsk",
@@ -20216,8 +20156,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vitebsk's northern stars.",
                 "active": true,
-                "logo": "logos/fc_vitebsk.png",
-                "uniform": "uniforms/fc_vitebsk.png"
+                "logo": "logos/fc_vitebsk.webp",
+                "uniform": "uniforms/fc_vitebsk.webp"
             },
             {
                 "name": "Slavia Mozyr",
@@ -20231,8 +20171,8 @@ const teams = [
                 "trophies": "Belarusian Premier League: 2, Belarusian Cup: 2",
                 "mustKnowFact": "Mozyr's oilmen.",
                 "active": true,
-                "logo": "logos/slavia_mozyr.png",
-                "uniform": "uniforms/slavia_mozyr.png"
+                "logo": "logos/slavia_mozyr.webp",
+                "uniform": "uniforms/slavia_mozyr.webp"
             },
             {
                 "name": "Energetik-BGU Minsk",
@@ -20246,8 +20186,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Students of Minsk.",
                 "active": true,
-                "logo": "logos/energetik_bgu_minsk.png",
-                "uniform": "uniforms/energetik_bgu_minsk.png"
+                "logo": "logos/energetik_bgu_minsk.webp",
+                "uniform": "uniforms/energetik_bgu_minsk.webp"
             },
             {
                 "name": "FC Minsk",
@@ -20261,8 +20201,8 @@ const teams = [
                 "trophies": "Belarusian Cup: 1",
                 "mustKnowFact": "Minsk's city club.",
                 "active": true,
-                "logo": "logos/fc_minsk.png",
-                "uniform": "uniforms/fc_minsk.png"
+                "logo": "logos/fc_minsk.webp",
+                "uniform": "uniforms/fc_minsk.webp"
             },
             {
                 "name": "Naftan Novopolotsk",
@@ -20276,8 +20216,8 @@ const teams = [
                 "trophies": "Belarusian Cup: 1",
                 "mustKnowFact": "Novopolotsk's oil refiners.",
                 "active": true,
-                "logo": "logos/naftan_novopolotsk.png",
-                "uniform": "uniforms/naftan_novopolotsk.png"
+                "logo": "logos/naftan_novopolotsk.webp",
+                "uniform": "uniforms/naftan_novopolotsk.webp"
             },
             {
                 "name": "Smorgon FC",
@@ -20291,8 +20231,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Smorgon's small-town heroes.",
                 "active": true,
-                "logo": "logos/smorgon_fc.png",
-                "uniform": "uniforms/smorgon_fc.png"
+                "logo": "logos/smorgon_fc.webp",
+                "uniform": "uniforms/smorgon_fc.webp"
             },
             {
                 "name": "Dnepr Mogilev",
@@ -20306,8 +20246,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mogilev's river warriors.",
                 "active": true,
-                "logo": "logos/dnepr_mogilev.png",
-                "uniform": "uniforms/dnepr_mogilev.png"
+                "logo": "logos/dnepr_mogilev.webp",
+                "uniform": "uniforms/dnepr_mogilev.webp"
             },
             {
                 "name": "Buffles du Borgou",
@@ -20321,8 +20261,8 @@ const teams = [
                 "trophies": "Benin Premier League: 5",
                 "mustKnowFact": "Buffaloes of the north.",
                 "active": true,
-                "logo": "logos/buffles_du_borgou.png",
-                "uniform": "uniforms/buffles_du_borgou.png"
+                "logo": "logos/buffles_du_borgou.webp",
+                "uniform": "uniforms/buffles_du_borgou.webp"
             },
             {
                 "name": "Dragons de l'Ouémé",
@@ -20336,8 +20276,8 @@ const teams = [
                 "trophies": "Benin Premier League: 12",
                 "mustKnowFact": "Dragons of Porto-Novo.",
                 "active": true,
-                "logo": "logos/dragons_de_loueme.png",
-                "uniform": "uniforms/dragons_de_loueme.png"
+                "logo": "logos/dragons_de_loueme.webp",
+                "uniform": "uniforms/dragons_de_loueme.webp"
             },
             {
                 "name": "AS Cotonou",
@@ -20351,8 +20291,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cotonou's rising stars.",
                 "active": true,
-                "logo": "logos/as_cotonou.png",
-                "uniform": "uniforms/as_cotonou.png"
+                "logo": "logos/as_cotonou.webp",
+                "uniform": "uniforms/as_cotonou.webp"
             },
             {
                 "name": "Ayéma FC",
@@ -20366,8 +20306,8 @@ const teams = [
                 "trophies": "Benin Premier League: 1",
                 "mustKnowFact": "Porto-Novo's warriors.",
                 "active": true,
-                "logo": "logos/ayema_fc.png",
-                "uniform": "uniforms/ayema_fc.png"
+                "logo": "logos/ayema_fc.webp",
+                "uniform": "uniforms/ayema_fc.webp"
             },
             {
                 "name": "Loto-Popo FC",
@@ -20381,8 +20321,8 @@ const teams = [
                 "trophies": "Benin Premier League: 1",
                 "mustKnowFact": "Lokossa's lottery winners.",
                 "active": true,
-                "logo": "logos/loto_popo_fc.png",
-                "uniform": "uniforms/loto_popo_fc.png"
+                "logo": "logos/loto_popo_fc.webp",
+                "uniform": "uniforms/loto_popo_fc.webp"
             },
             {
                 "name": "ASVO FC",
@@ -20396,8 +20336,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Adjohoun's village stars.",
                 "active": true,
-                "logo": "logos/asvo_fc.png",
-                "uniform": "uniforms/asvo_fc.png"
+                "logo": "logos/asvo_fc.webp",
+                "uniform": "uniforms/asvo_fc.webp"
             },
             {
                 "name": "Dynamique Djougou",
@@ -20411,8 +20351,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Djougou's dynamic force.",
                 "active": true,
-                "logo": "logos/dynamique_djougou.png",
-                "uniform": "uniforms/dynamique_djougou.png"
+                "logo": "logos/dynamique_djougou.webp",
+                "uniform": "uniforms/dynamique_djougou.webp"
             },
             {
                 "name": "Eternel FC",
@@ -20426,8 +20366,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eternal hope of Cotonou.",
                 "active": true,
-                "logo": "logos/eternel_fc.png",
-                "uniform": "uniforms/eternel_fc.png"
+                "logo": "logos/eternel_fc.webp",
+                "uniform": "uniforms/eternel_fc.webp"
             },
             {
                 "name": "Béké FC",
@@ -20441,8 +20381,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern battlers.",
                 "active": true,
-                "logo": "logos/beke_fc.png",
-                "uniform": "uniforms/beke_fc.png"
+                "logo": "logos/beke_fc.webp",
+                "uniform": "uniforms/beke_fc.webp"
             },
             {
                 "name": "Dadjè FC",
@@ -20456,8 +20396,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Aplahoué's pride.",
                 "active": true,
-                "logo": "logos/dadje_fc.png",
-                "uniform": "uniforms/dadje_fc.png"
+                "logo": "logos/dadje_fc.webp",
+                "uniform": "uniforms/dadje_fc.webp"
             },
             {
                 "name": "Coton FC",
@@ -20471,8 +20411,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cotton kings of Ouidah.",
                 "active": true,
-                "logo": "logos/coton_fc.png",
-                "uniform": "uniforms/coton_fc.png"
+                "logo": "logos/coton_fc.webp",
+                "uniform": "uniforms/coton_fc.webp"
             },
             {
                 "name": "JAK FC",
@@ -20486,8 +20426,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kandi's young guns.",
                 "active": true,
-                "logo": "logos/jak_fc.png",
-                "uniform": "uniforms/jak_fc.png"
+                "logo": "logos/jak_fc.webp",
+                "uniform": "uniforms/jak_fc.webp"
             },
             {
                 "name": "Espoir FC",
@@ -20501,8 +20441,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hope of Savé.",
                 "active": true,
-                "logo": "logos/espoir_fc.png",
-                "uniform": "uniforms/espoir_fc.png"
+                "logo": "logos/espoir_fc.webp",
+                "uniform": "uniforms/espoir_fc.webp"
             },
             {
                 "name": "Dynamo Abomey",
@@ -20516,8 +20456,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Abomey's dynamos.",
                 "active": true,
-                "logo": "logos/dynamo_abomey.png",
-                "uniform": "uniforms/dynamo_abomey.png"
+                "logo": "logos/dynamo_abomey.webp",
+                "uniform": "uniforms/dynamo_abomey.webp"
             },
             {
                 "name": "AS Takunnin",
@@ -20531,8 +20471,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kandi's northern stars.",
                 "active": true,
-                "logo": "logos/as_takunnin.png",
-                "uniform": "uniforms/as_takunnin.png"
+                "logo": "logos/as_takunnin.webp",
+                "uniform": "uniforms/as_takunnin.webp"
             },
             {
                 "name": "Cavaly AS",
@@ -20546,8 +20486,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cavalry of Porto-Novo.",
                 "active": true,
-                "logo": "logos/cavaly_as.png",
-                "uniform": "uniforms/cavaly_as.png"
+                "logo": "logos/cavaly_as.webp",
+                "uniform": "uniforms/cavaly_as.webp"
             },
             {
                 "name": "Kaya FC-Iloilo",
@@ -20561,8 +20501,8 @@ const teams = [
                 "trophies": "Philippines Football League: 1, PFF National Men's Club Championship: 1",
                 "mustKnowFact": "Iloilo's football pioneers.",
                 "active": true,
-                "logo": "logos/kaya_fc_iloilo.png",
-                "uniform": "uniforms/kaya_fc_iloilo.png"
+                "logo": "logos/kaya_fc_iloilo.webp",
+                "uniform": "uniforms/kaya_fc_iloilo.webp"
             },
             {
                 "name": "United City FC",
@@ -20576,8 +20516,8 @@ const teams = [
                 "trophies": "Philippines Football League: 4",
                 "mustKnowFact": "Manila's dominant force.",
                 "active": true,
-                "logo": "logos/united_city_fc.png",
-                "uniform": "uniforms/united_city_fc.png"
+                "logo": "logos/united_city_fc.webp",
+                "uniform": "uniforms/united_city_fc.webp"
             },
             {
                 "name": "Stallion Laguna FC",
@@ -20591,8 +20531,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Stallions of Laguna.",
                 "active": true,
-                "logo": "logos/stallion_laguna_fc.png",
-                "uniform": "uniforms/stallion_laguna_fc.png"
+                "logo": "logos/stallion_laguna_fc.webp",
+                "uniform": "uniforms/stallion_laguna_fc.webp"
             },
             {
                 "name": "Davao Aguilas FC",
@@ -20606,8 +20546,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Mindanao.",
                 "active": true,
-                "logo": "logos/davao_aguilas_fc.png",
-                "uniform": "uniforms/davao_aguilas_fc.png"
+                "logo": "logos/davao_aguilas_fc.webp",
+                "uniform": "uniforms/davao_aguilas_fc.webp"
             },
             {
                 "name": "Cebu FC",
@@ -20621,8 +20561,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cebu's football resurgence.",
                 "active": true,
-                "logo": "logos/cebu_fc.png",
-                "uniform": "uniforms/cebu_fc.png"
+                "logo": "logos/cebu_fc.webp",
+                "uniform": "uniforms/cebu_fc.webp"
             },
             {
                 "name": "Loyola FC",
@@ -20636,8 +20576,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sparks of Quezon City.",
                 "active": true,
-                "logo": "logos/loyola_fc.png",
-                "uniform": "uniforms/loyola_fc.png"
+                "logo": "logos/loyola_fc.webp",
+                "uniform": "uniforms/loyola_fc.webp"
             },
             {
                 "name": "Maharlika Manila FC",
@@ -20651,8 +20591,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Manila's noble warriors.",
                 "active": true,
-                "logo": "logos/maharlika_manila_fc.png",
-                "uniform": "uniforms/maharlika_manila_fc.png"
+                "logo": "logos/maharlika_manila_fc.webp",
+                "uniform": "uniforms/maharlika_manila_fc.webp"
             },
             {
                 "name": "Mendiola FC 1991",
@@ -20666,8 +20606,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Manila's veteran side.",
                 "active": true,
-                "logo": "logos/mendiola_fc_1991.png",
-                "uniform": "uniforms/mendiola_fc_1991.png"
+                "logo": "logos/mendiola_fc_1991.webp",
+                "uniform": "uniforms/mendiola_fc_1991.webp"
             },
             {
                 "name": "Taguig FC",
@@ -20681,8 +20621,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Taguig's new contenders.",
                 "active": true,
-                "logo": "logos/taguig_fc.png",
-                "uniform": "uniforms/taguig_fc.png"
+                "logo": "logos/taguig_fc.webp",
+                "uniform": "uniforms/taguig_fc.webp"
             },
             {
                 "name": "Don Bosco Garelli FC",
@@ -20696,8 +20636,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youthful spirit of Manila.",
                 "active": true,
-                "logo": "logos/don_bosco_garelli_fc.png",
-                "uniform": "uniforms/don_bosco_garelli_fc.png"
+                "logo": "logos/don_bosco_garelli_fc.webp",
+                "uniform": "uniforms/don_bosco_garelli_fc.webp"
             },
             {
                 "name": "Johor Darul Ta'zim",
@@ -20711,8 +20651,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 10, Malaysia Cup: 4, Malaysia FA Cup: 3, Malaysia Charity Shield: 9",
                 "mustKnowFact": "Southern tigers rule Malaysia.",
                 "active": true,
-                "logo": "logos/johor_darul_tazim.png",
-                "uniform": "uniforms/johor_darul_tazim.png"
+                "logo": "logos/johor_darul_tazim.webp",
+                "uniform": "uniforms/johor_darul_tazim.webp"
             },
             {
                 "name": "Selangor FC",
@@ -20726,8 +20666,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 6, Malaysia Cup: 33, Malaysia FA Cup: 5",
                 "mustKnowFact": "Red giants of Selangor.",
                 "active": true,
-                "logo": "logos/selangor_fc.png",
-                "uniform": "uniforms/selangor_fc.png"
+                "logo": "logos/selangor_fc.webp",
+                "uniform": "uniforms/selangor_fc.webp"
             },
             {
                 "name": "Terengganu FC",
@@ -20741,8 +20681,8 @@ const teams = [
                 "trophies": "Malaysia FA Cup: 2",
                 "mustKnowFact": "Turtles of the east coast.",
                 "active": true,
-                "logo": "logos/terengganu_fc.png",
-                "uniform": "uniforms/terengganu_fc.png"
+                "logo": "logos/terengganu_fc.webp",
+                "uniform": "uniforms/terengganu_fc.webp"
             },
             {
                 "name": "Kedah Darul Aman FC",
@@ -20756,8 +20696,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 2, Malaysia Cup: 5, Malaysia FA Cup: 3",
                 "mustKnowFact": "Canaries of the north.",
                 "active": true,
-                "logo": "logos/kedah_darul_aman_fc.png",
-                "uniform": "uniforms/kedah_darul_aman_fc.png"
+                "logo": "logos/kedah_darul_aman_fc.webp",
+                "uniform": "uniforms/kedah_darul_aman_fc.webp"
             },
             {
                 "name": "Sabah FC",
@@ -20771,8 +20711,8 @@ const teams = [
                 "trophies": "Malaysia Premier League: 1",
                 "mustKnowFact": "Rhinos of East Malaysia.",
                 "active": true,
-                "logo": "logos/sabah_fc.png",
-                "uniform": "uniforms/sabah_fc.png"
+                "logo": "logos/sabah_fc.webp",
+                "uniform": "uniforms/sabah_fc.webp"
             },
             {
                 "name": "Sri Pahang FC",
@@ -20786,8 +20726,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 5, Malaysia Cup: 4, Malaysia FA Cup: 2",
                 "mustKnowFact": "Elephants of Pahang.",
                 "active": true,
-                "logo": "logos/sri_pahang_fc.png",
-                "uniform": "uniforms/sri_pahang_fc.png"
+                "logo": "logos/sri_pahang_fc.webp",
+                "uniform": "uniforms/sri_pahang_fc.webp"
             },
             {
                 "name": "Kuala Lumpur City FC",
@@ -20801,8 +20741,8 @@ const teams = [
                 "trophies": "Malaysia Cup: 3, Malaysia FA Cup: 2",
                 "mustKnowFact": "City hawks of KL.",
                 "active": true,
-                "logo": "logos/kuala_lumpur_city_fc.png",
-                "uniform": "uniforms/kuala_lumpur_city_fc.png"
+                "logo": "logos/kuala_lumpur_city_fc.webp",
+                "uniform": "uniforms/kuala_lumpur_city_fc.webp"
             },
             {
                 "name": "Penang FC",
@@ -20816,8 +20756,8 @@ const teams = [
                 "trophies": "Malaysia Cup: 4",
                 "mustKnowFact": "Panthers of Penang.",
                 "active": true,
-                "logo": "logos/penang_fc.png",
-                "uniform": "uniforms/penang_fc.png"
+                "logo": "logos/penang_fc.webp",
+                "uniform": "uniforms/penang_fc.webp"
             },
             {
                 "name": "Perak FC",
@@ -20831,8 +20771,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 2, Malaysia Cup: 8, Malaysia FA Cup: 2",
                 "mustKnowFact": "Silver state's warriors.",
                 "active": true,
-                "logo": "logos/perak_fc.png",
-                "uniform": "uniforms/perak_fc.png"
+                "logo": "logos/perak_fc.webp",
+                "uniform": "uniforms/perak_fc.webp"
             },
             {
                 "name": "Negeri Sembilan FC",
@@ -20846,8 +20786,8 @@ const teams = [
                 "trophies": "Malaysia Super League: 1, Malaysia Cup: 2, Malaysia FA Cup: 1",
                 "mustKnowFact": "Deer of Negeri Sembilan.",
                 "active": true,
-                "logo": "logos/negeri_sembilan_fc.png",
-                "uniform": "uniforms/negeri_sembilan_fc.png"
+                "logo": "logos/negeri_sembilan_fc.webp",
+                "uniform": "uniforms/negeri_sembilan_fc.webp"
             },
             {
                 "name": "PDRM FC",
@@ -20861,8 +20801,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Police force footballers.",
                 "active": true,
-                "logo": "logos/pdrm_fc.png",
-                "uniform": "uniforms/pdrm_fc.png"
+                "logo": "logos/pdrm_fc.webp",
+                "uniform": "uniforms/pdrm_fc.webp"
             },
             {
                 "name": "Kelantan United FC",
@@ -20876,8 +20816,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kelantan's united front.",
                 "active": true,
-                "logo": "logos/kelantan_united_fc.png",
-                "uniform": "uniforms/kelantan_united_fc.png"
+                "logo": "logos/kelantan_united_fc.webp",
+                "uniform": "uniforms/kelantan_united_fc.webp"
             },
             {
                 "name": "Kuching City FC",
@@ -20891,8 +20831,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cats of Kuching.",
                 "active": true,
-                "logo": "logos/kuching_city_fc.png",
-                "uniform": "uniforms/kuching_city_fc.png"
+                "logo": "logos/kuching_city_fc.webp",
+                "uniform": "uniforms/kuching_city_fc.webp"
             },
             {
                 "name": "Phnom Penh Crown",
@@ -20906,8 +20846,8 @@ const teams = [
                 "trophies": "Cambodian Premier League: 8, Cambodian Cup: 2",
                 "mustKnowFact": "Crown jewels of Phnom Penh.",
                 "active": true,
-                "logo": "logos/phnom_penh_crown.png",
-                "uniform": "uniforms/phnom_penh_crown.png"
+                "logo": "logos/phnom_penh_crown.webp",
+                "uniform": "uniforms/phnom_penh_crown.webp"
             },
             {
                 "name": "Svay Rieng FC",
@@ -20921,8 +20861,8 @@ const teams = [
                 "trophies": "Cambodian Premier League: 3",
                 "mustKnowFact": "Eastern Cambodia's champs.",
                 "active": true,
-                "logo": "logos/svay_rieng_fc.png",
-                "uniform": "uniforms/svay_rieng_fc.png"
+                "logo": "logos/svay_rieng_fc.webp",
+                "uniform": "uniforms/svay_rieng_fc.webp"
             },
             {
                 "name": "Boeung Ket FC",
@@ -20936,8 +20876,8 @@ const teams = [
                 "trophies": "Cambodian Premier League: 4",
                 "mustKnowFact": "Rubber warriors of Phnom Penh.",
                 "active": true,
-                "logo": "logos/boeung_ket_fc.png",
-                "uniform": "uniforms/boeung_ket_fc.png"
+                "logo": "logos/boeung_ket_fc.webp",
+                "uniform": "uniforms/boeung_ket_fc.webp"
             },
             {
                 "name": "Visakha FC",
@@ -20951,8 +20891,8 @@ const teams = [
                 "trophies": "Cambodian Cup: 1",
                 "mustKnowFact": "Phnom Penh's modern force.",
                 "active": true,
-                "logo": "logos/visakha_fc.png",
-                "uniform": "uniforms/visakha_fc.png"
+                "logo": "logos/visakha_fc.webp",
+                "uniform": "uniforms/visakha_fc.webp"
             },
             {
                 "name": "Nagaworld FC",
@@ -20966,8 +20906,8 @@ const teams = [
                 "trophies": "Cambodian Premier League: 2",
                 "mustKnowFact": "Casino kings of Cambodia.",
                 "active": true,
-                "logo": "logos/nagaworld_fc.png",
-                "uniform": "uniforms/nagaworld_fc.png"
+                "logo": "logos/nagaworld_fc.webp",
+                "uniform": "uniforms/nagaworld_fc.webp"
             },
             {
                 "name": "Tiffy Army FC",
@@ -20981,8 +20921,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Army's football soldiers.",
                 "active": true,
-                "logo": "logos/tiffy_army_fc.png",
-                "uniform": "uniforms/tiffy_army_fc.png"
+                "logo": "logos/tiffy_army_fc.webp",
+                "uniform": "uniforms/tiffy_army_fc.webp"
             },
             {
                 "name": "Angkor Tiger FC",
@@ -20996,8 +20936,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigers of Angkor.",
                 "active": true,
-                "logo": "logos/angkor_tiger_fc.png",
-                "uniform": "uniforms/angkor_tiger_fc.png"
+                "logo": "logos/angkor_tiger_fc.webp",
+                "uniform": "uniforms/angkor_tiger_fc.webp"
             },
             {
                 "name": "Kirivong Sok Sen Chey",
@@ -21011,8 +20951,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Takeo's southern stars.",
                 "active": true,
-                "logo": "logos/kirivong_sok_sen_chey.png",
-                "uniform": "uniforms/kirivong_sok_sen_chey.png"
+                "logo": "logos/kirivong_sok_sen_chey.webp",
+                "uniform": "uniforms/kirivong_sok_sen_chey.webp"
             },
             {
                 "name": "ISI Dangkor Senchey FC",
@@ -21026,8 +20966,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Phnom Penh's new kids.",
                 "active": true,
-                "logo": "logos/isi_dangkor_senchey_fc.png",
-                "uniform": "uniforms/isi_dangkor_senchey_fc.png"
+                "logo": "logos/isi_dangkor_senchey_fc.webp",
+                "uniform": "uniforms/isi_dangkor_senchey_fc.webp"
             },
             {
                 "name": "Life FC",
@@ -21041,8 +20981,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Coastal life of Sihanoukville.",
                 "active": true,
-                "logo": "logos/life_fc.png",
-                "uniform": "uniforms/life_fc.png"
+                "logo": "logos/life_fc.webp",
+                "uniform": "uniforms/life_fc.webp"
             },
             {
                 "name": "Ministry of Interior FA",
@@ -21056,8 +20996,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Interior's enforcers.",
                 "active": true,
-                "logo": "logos/ministry_of_interior_fa.png",
-                "uniform": "uniforms/ministry_of_interior_fa.png"
+                "logo": "logos/ministry_of_interior_fa.webp",
+                "uniform": "uniforms/ministry_of_interior_fa.webp"
             },
             {
                 "name": "Bashundhara Kings",
@@ -21071,8 +21011,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 5, Federation Cup: 3, Independence Cup: 2",
                 "mustKnowFact": "Dhaka's modern dynasty.",
                 "active": true,
-                "logo": "logos/bashundhara_kings.png",
-                "uniform": "uniforms/bashundhara_kings.png"
+                "logo": "logos/bashundhara_kings.webp",
+                "uniform": "uniforms/bashundhara_kings.webp"
             },
             {
                 "name": "Dhaka Abahani",
@@ -21086,8 +21026,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 11, Federation Cup: 11, Independence Cup: 3",
                 "mustKnowFact": "Sky blues of Dhaka.",
                 "active": true,
-                "logo": "logos/dhaka_abahani.png",
-                "uniform": "uniforms/dhaka_abahani.png"
+                "logo": "logos/dhaka_abahani.webp",
+                "uniform": "uniforms/dhaka_abahani.webp"
             },
             {
                 "name": "Sheikh Russel KC",
@@ -21101,8 +21041,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 1, Federation Cup: 1",
                 "mustKnowFact": "Dhaka's blue warriors.",
                 "active": true,
-                "logo": "logos/sheikh_russel_kc.png",
-                "uniform": "uniforms/sheikh_russel_kc.png"
+                "logo": "logos/sheikh_russel_kc.webp",
+                "uniform": "uniforms/sheikh_russel_kc.webp"
             },
             {
                 "name": "Mohammedan SC",
@@ -21116,8 +21056,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 4, Federation Cup: 10",
                 "mustKnowFact": "Black and whites of Dhaka.",
                 "active": true,
-                "logo": "logos/mohammedan_sc.png",
-                "uniform": "uniforms/mohammedan_sc.png"
+                "logo": "logos/mohammedan_sc.webp",
+                "uniform": "uniforms/mohammedan_sc.webp"
             },
             {
                 "name": "Chittagong Abahani",
@@ -21131,8 +21071,8 @@ const teams = [
                 "trophies": "Federation Cup: 1",
                 "mustKnowFact": "Chittagong's port pride.",
                 "active": true,
-                "logo": "logos/chittagong_abahani.png",
-                "uniform": "uniforms/chittagong_abahani.png"
+                "logo": "logos/chittagong_abahani.webp",
+                "uniform": "uniforms/chittagong_abahani.webp"
             },
             {
                 "name": "Sheikh Jamal DC",
@@ -21146,8 +21086,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 3",
                 "mustKnowFact": "Dhanmondi's yellow stars.",
                 "active": true,
-                "logo": "logos/sheikh_jamal_dc.png",
-                "uniform": "uniforms/sheikh_jamal_dc.png"
+                "logo": "logos/sheikh_jamal_dc.webp",
+                "uniform": "uniforms/sheikh_jamal_dc.webp"
             },
             {
                 "name": "Saif Sporting Club",
@@ -21161,8 +21101,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dhaka's young contenders.",
                 "active": true,
-                "logo": "logos/saif_sporting_club.png",
-                "uniform": "uniforms/saif_sporting_club.png"
+                "logo": "logos/saif_sporting_club.webp",
+                "uniform": "uniforms/saif_sporting_club.webp"
             },
             {
                 "name": "Rahmatganj MFS",
@@ -21176,8 +21116,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Old Dhaka's fighters.",
                 "active": true,
-                "logo": "logos/rahmatganj_mfs.png",
-                "uniform": "uniforms/rahmatganj_mfs.png"
+                "logo": "logos/rahmatganj_mfs.webp",
+                "uniform": "uniforms/rahmatganj_mfs.webp"
             },
             {
                 "name": "Fortis FC",
@@ -21191,8 +21131,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Fortress of Dhaka.",
                 "active": true,
-                "logo": "logos/fortis_fc.png",
-                "uniform": "uniforms/fortis_fc.png"
+                "logo": "logos/fortis_fc.webp",
+                "uniform": "uniforms/fortis_fc.webp"
             },
             {
                 "name": "Brothers Union",
@@ -21206,8 +21146,8 @@ const teams = [
                 "trophies": "Bangladesh Premier League: 2",
                 "mustKnowFact": "Dhaka's orange brothers.",
                 "active": true,
-                "logo": "logos/brothers_union.png",
-                "uniform": "uniforms/brothers_union.png"
+                "logo": "logos/brothers_union.webp",
+                "uniform": "uniforms/brothers_union.webp"
             },
             {
                 "name": "African Stars FC",
@@ -21221,8 +21161,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 5",
                 "mustKnowFact": "Stars of Windhoek.",
                 "active": true,
-                "logo": "logos/african_stars_fc.png",
-                "uniform": "uniforms/african_stars_fc.png"
+                "logo": "logos/african_stars_fc.webp",
+                "uniform": "uniforms/african_stars_fc.webp"
             },
             {
                 "name": "Black Africa SC",
@@ -21236,8 +21176,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 4",
                 "mustKnowFact": "Windhoek's black lions.",
                 "active": true,
-                "logo": "logos/black_africa_sc.png",
-                "uniform": "uniforms/black_africa_sc.png"
+                "logo": "logos/black_africa_sc.webp",
+                "uniform": "uniforms/black_africa_sc.webp"
             },
             {
                 "name": "Tigers SC",
@@ -21251,8 +21191,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 2",
                 "mustKnowFact": "Tigers of the capital.",
                 "active": true,
-                "logo": "logos/tigers_sc.png",
-                "uniform": "uniforms/tigers_sc.png"
+                "logo": "logos/tigers_sc.webp",
+                "uniform": "uniforms/tigers_sc.webp"
             },
             {
                 "name": "UNAM FC",
@@ -21266,8 +21206,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "University stars of Namibia.",
                 "active": true,
-                "logo": "logos/unam_fc.png",
-                "uniform": "uniforms/unam_fc.png"
+                "logo": "logos/unam_fc.webp",
+                "uniform": "uniforms/unam_fc.webp"
             },
             {
                 "name": "Blue Waters FC",
@@ -21281,8 +21221,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 2",
                 "mustKnowFact": "Coastal warriors of Walvis.",
                 "active": true,
-                "logo": "logos/blue_waters_fc.png",
-                "uniform": "uniforms/blue_waters_fc.png"
+                "logo": "logos/blue_waters_fc.webp",
+                "uniform": "uniforms/blue_waters_fc.webp"
             },
             {
                 "name": "Young African FC",
@@ -21296,8 +21236,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gobabis's young lions.",
                 "active": true,
-                "logo": "logos/young_african_fc.png",
-                "uniform": "uniforms/young_african_fc.png"
+                "logo": "logos/young_african_fc.webp",
+                "uniform": "uniforms/young_african_fc.webp"
             },
             {
                 "name": "Civics FC",
@@ -21311,8 +21251,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 1",
                 "mustKnowFact": "Windhoek's community club.",
                 "active": true,
-                "logo": "logos/civics_fc.png",
-                "uniform": "uniforms/civics_fc.png"
+                "logo": "logos/civics_fc.webp",
+                "uniform": "uniforms/civics_fc.webp"
             },
             {
                 "name": "Mighty Gunners",
@@ -21326,8 +21266,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gunners of Otjiwarongo.",
                 "active": true,
-                "logo": "logos/mighty_gunners.png",
-                "uniform": "uniforms/mighty_gunners.png"
+                "logo": "logos/mighty_gunners.webp",
+                "uniform": "uniforms/mighty_gunners.webp"
             },
             {
                 "name": "Orlando Pirates SC",
@@ -21341,8 +21281,8 @@ const teams = [
                 "trophies": "Namibia Premier League: 1",
                 "mustKnowFact": "Pirates of Windhoek.",
                 "active": true,
-                "logo": "logos/orlando_pirates_sc.png",
-                "uniform": "uniforms/orlando_pirates_sc.png"
+                "logo": "logos/orlando_pirates_sc.webp",
+                "uniform": "uniforms/orlando_pirates_sc.webp"
             },
             {
                 "name": "Life Fighters FC",
@@ -21356,8 +21296,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Fighters of Otavi.",
                 "active": true,
-                "logo": "logos/life_fighters_fc.png",
-                "uniform": "uniforms/life_fighters_fc.png"
+                "logo": "logos/life_fighters_fc.webp",
+                "uniform": "uniforms/life_fighters_fc.webp"
             },
             {
                 "name": "Julinho Sporting FC",
@@ -21371,8 +21311,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Rundu's northern stars.",
                 "active": true,
-                "logo": "logos/julinho_sporting_fc.png",
-                "uniform": "uniforms/julinho_sporting_fc.png"
+                "logo": "logos/julinho_sporting_fc.webp",
+                "uniform": "uniforms/julinho_sporting_fc.webp"
             },
             {
                 "name": "Okahandja United",
@@ -21386,8 +21326,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Okahandja's united front.",
                 "active": true,
-                "logo": "logos/okahandja_united.png",
-                "uniform": "uniforms/okahandja_united.png"
+                "logo": "logos/okahandja_united.webp",
+                "uniform": "uniforms/okahandja_united.webp"
             },
             {
                 "name": "Khomas Nampol FC",
@@ -21401,8 +21341,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Police of Khomas region.",
                 "active": true,
-                "logo": "logos/khomas_nampol_fc.png",
-                "uniform": "uniforms/khomas_nampol_fc.png"
+                "logo": "logos/khomas_nampol_fc.webp",
+                "uniform": "uniforms/khomas_nampol_fc.webp"
             },
             {
                 "name": "Young Brazilians FC",
@@ -21416,8 +21356,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Southern Namibia's flair.",
                 "active": true,
-                "logo": "logos/young_brazilians_fc.png",
-                "uniform": "uniforms/young_brazilians_fc.png"
+                "logo": "logos/young_brazilians_fc.webp",
+                "uniform": "uniforms/young_brazilians_fc.webp"
             },
             {
                 "name": "Citizens FC",
@@ -21431,8 +21371,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Citizens of Windhoek.",
                 "active": true,
-                "logo": "logos/citizens_fc.png",
-                "uniform": "uniforms/citizens_fc.png"
+                "logo": "logos/citizens_fc.webp",
+                "uniform": "uniforms/citizens_fc.webp"
             },
             {
                 "name": "Oshakati City FC",
@@ -21446,8 +21386,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern city's pride.",
                 "active": true,
-                "logo": "logos/oshakati_city_fc.png",
-                "uniform": "uniforms/oshakati_city_fc.png"
+                "logo": "logos/oshakati_city_fc.webp",
+                "uniform": "uniforms/oshakati_city_fc.webp"
             },
             {
                 "name": "Qarabağ FK",
@@ -21461,8 +21401,8 @@ const teams = [
                 "trophies": "Azerbaijan Premier League: 11, Azerbaijan Cup: 7",
                 "mustKnowFact": "Horsemen of Azerbaijan.",
                 "active": true,
-                "logo": "logos/qarabag_fk.png",
-                "uniform": "uniforms/qarabag_fk.png"
+                "logo": "logos/qarabag_fk.webp",
+                "uniform": "uniforms/qarabag_fk.webp"
             },
             {
                 "name": "Neftçi PFK",
@@ -21476,8 +21416,8 @@ const teams = [
                 "trophies": "Azerbaijan Premier League: 9, Azerbaijan Cup: 6",
                 "mustKnowFact": "Oilmen of Baku.",
                 "active": true,
-                "logo": "logos/neftci_pfk.png",
-                "uniform": "uniforms/neftci_pfk.png"
+                "logo": "logos/neftci_pfk.webp",
+                "uniform": "uniforms/neftci_pfk.webp"
             },
             {
                 "name": "Zira FK",
@@ -21491,8 +21431,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Zira.",
                 "active": true,
-                "logo": "logos/zira_fk.png",
-                "uniform": "uniforms/zira_fk.png"
+                "logo": "logos/zira_fk.webp",
+                "uniform": "uniforms/zira_fk.webp"
             },
             {
                 "name": "Sabah FK",
@@ -21506,8 +21446,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Morning stars of Baku.",
                 "active": true,
-                "logo": "logos/sabah_fk.png",
-                "uniform": "uniforms/sabah_fk.png"
+                "logo": "logos/sabah_fk.webp",
+                "uniform": "uniforms/sabah_fk.webp"
             },
             {
                 "name": "Sumqayıt FK",
@@ -21521,8 +21461,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Chemists of Sumqayıt.",
                 "active": true,
-                "logo": "logos/sumqayit_fk.png",
-                "uniform": "uniforms/sumqayit_fk.png"
+                "logo": "logos/sumqayit_fk.webp",
+                "uniform": "uniforms/sumqayit_fk.webp"
             },
             {
                 "name": "Turan Tovuz",
@@ -21536,8 +21476,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tovuz's western warriors.",
                 "active": true,
-                "logo": "logos/turan_tovuz.png",
-                "uniform": "uniforms/turan_tovuz.png"
+                "logo": "logos/turan_tovuz.webp",
+                "uniform": "uniforms/turan_tovuz.webp"
             },
             {
                 "name": "Şamaxı FK",
@@ -21551,8 +21491,8 @@ const teams = [
                 "trophies": "Azerbaijan Premier League: 2, Azerbaijan Cup: 2",
                 "mustKnowFact": "Şamaxı's mountain men.",
                 "active": true,
-                "logo": "logos/samaxi_fk.png",
-                "uniform": "uniforms/samaxi_fk.png"
+                "logo": "logos/samaxi_fk.webp",
+                "uniform": "uniforms/samaxi_fk.webp"
             },
             {
                 "name": "Sabail FK",
@@ -21566,8 +21506,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sailors of Sabail.",
                 "active": true,
-                "logo": "logos/sabail_fk.png",
-                "uniform": "uniforms/sabail_fk.png"
+                "logo": "logos/sabail_fk.webp",
+                "uniform": "uniforms/sabail_fk.webp"
             },
             {
                 "name": "Kapaz PFK",
@@ -21581,8 +21521,8 @@ const teams = [
                 "trophies": "Azerbaijan Premier League: 3, Azerbaijan Cup: 4",
                 "mustKnowFact": "Ganja's historic club.",
                 "active": true,
-                "logo": "logos/kapaz_pfk.png",
-                "uniform": "uniforms/kapaz_pfk.png"
+                "logo": "logos/kapaz_pfk.webp",
+                "uniform": "uniforms/kapaz_pfk.webp"
             },
             {
                 "name": "Araz-Naxçıvan PFK",
@@ -21596,8 +21536,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Nakhchivan's comeback kings.",
                 "active": true,
-                "logo": "logos/araz_naxcivan_pfk.png",
-                "uniform": "uniforms/araz_naxcivan_pfk.png"
+                "logo": "logos/araz_naxcivan_pfk.webp",
+                "uniform": "uniforms/araz_naxcivan_pfk.webp"
             },
             {
                 "name": "Saint George SC",
@@ -21611,8 +21551,8 @@ const teams = [
                 "trophies": "Ethiopian Premier League: 29, Ethiopian Cup: 10",
                 "mustKnowFact": "Ethiopia's most titled club.",
                 "active": true,
-                "logo": "logos/saint_george_sc.png",
-                "uniform": "uniforms/saint_george_sc.png"
+                "logo": "logos/saint_george_sc.webp",
+                "uniform": "uniforms/saint_george_sc.webp"
             },
             {
                 "name": "Ethiopian Coffee SC",
@@ -21626,8 +21566,8 @@ const teams = [
                 "trophies": "Ethiopian Premier League: 2, Ethiopian Cup: 4",
                 "mustKnowFact": "Coffee brewers of Addis.",
                 "active": true,
-                "logo": "logos/ethiopian_coffee_sc.png",
-                "uniform": "uniforms/ethiopian_coffee_sc.png"
+                "logo": "logos/ethiopian_coffee_sc.webp",
+                "uniform": "uniforms/ethiopian_coffee_sc.webp"
             },
             {
                 "name": "Fasil Kenema SC",
@@ -21641,8 +21581,8 @@ const teams = [
                 "trophies": "Ethiopian Premier League: 1",
                 "mustKnowFact": "Emperors of Gondar.",
                 "active": true,
-                "logo": "logos/fasil_kenema_sc.png",
-                "uniform": "uniforms/fasil_kenema_sc.png"
+                "logo": "logos/fasil_kenema_sc.webp",
+                "uniform": "uniforms/fasil_kenema_sc.webp"
             },
             {
                 "name": "Adama City FC",
@@ -21656,8 +21596,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Adama's urban warriors.",
                 "active": true,
-                "logo": "logos/adama_city_fc.png",
-                "uniform": "uniforms/adama_city_fc.png"
+                "logo": "logos/adama_city_fc.webp",
+                "uniform": "uniforms/adama_city_fc.webp"
             },
             {
                 "name": "Hawassa City SC",
@@ -21671,8 +21611,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lakeside stars of Hawassa.",
                 "active": true,
-                "logo": "logos/hawassa_city_sc.png",
-                "uniform": "uniforms/hawassa_city_sc.png"
+                "logo": "logos/hawassa_city_sc.webp",
+                "uniform": "uniforms/hawassa_city_sc.webp"
             },
             {
                 "name": "Bahir Dar Kenema FC",
@@ -21686,8 +21626,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lake Tana's fighters.",
                 "active": true,
-                "logo": "logos/bahir_dar_kenema_fc.png",
-                "uniform": "uniforms/bahir_dar_kenema_fc.png"
+                "logo": "logos/bahir_dar_kenema_fc.webp",
+                "uniform": "uniforms/bahir_dar_kenema_fc.webp"
             },
             {
                 "name": "Defence Force SC",
@@ -21701,8 +21641,8 @@ const teams = [
                 "trophies": "Ethiopian Premier League: 2",
                 "mustKnowFact": "Military might of Addis.",
                 "active": true,
-                "logo": "logos/defence_force_sc.png",
-                "uniform": "uniforms/defence_force_sc.png"
+                "logo": "logos/defence_force_sc.webp",
+                "uniform": "uniforms/defence_force_sc.webp"
             },
             {
                 "name": "Sidama Coffee SC",
@@ -21716,8 +21656,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sidama's coffee growers.",
                 "active": true,
-                "logo": "logos/sidama_coffee_sc.png",
-                "uniform": "uniforms/sidama_coffee_sc.png"
+                "logo": "logos/sidama_coffee_sc.webp",
+                "uniform": "uniforms/sidama_coffee_sc.webp"
             },
             {
                 "name": "Wolkite City FC",
@@ -21731,8 +21671,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wolkite's rising stars.",
                 "active": true,
-                "logo": "logos/wolkite_city_fc.png",
-                "uniform": "uniforms/wolkite_city_fc.png"
+                "logo": "logos/wolkite_city_fc.webp",
+                "uniform": "uniforms/wolkite_city_fc.webp"
             },
             {
                 "name": "Dire Dawa City SC",
@@ -21746,8 +21686,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eastern Ethiopia's pride.",
                 "active": true,
-                "logo": "logos/dire_dawa_city_sc.png",
-                "uniform": "uniforms/dire_dawa_city_sc.png"
+                "logo": "logos/dire_dawa_city_sc.webp",
+                "uniform": "uniforms/dire_dawa_city_sc.webp"
             },
             {
                 "name": "Ethio Electric SC",
@@ -21761,8 +21701,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Powerhouse of Addis.",
                 "active": true,
-                "logo": "logos/ethio_electric_sc.png",
-                "uniform": "uniforms/ethio_electric_sc.png"
+                "logo": "logos/ethio_electric_sc.webp",
+                "uniform": "uniforms/ethio_electric_sc.webp"
             },
             {
                 "name": "Hadiya Hossana FC",
@@ -21776,8 +21716,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hadiya's southern warriors.",
                 "active": true,
-                "logo": "logos/hadiya_hossana_fc.png",
-                "uniform": "uniforms/hadiya_hossana_fc.png"
+                "logo": "logos/hadiya_hossana_fc.webp",
+                "uniform": "uniforms/hadiya_hossana_fc.webp"
             },
             {
                 "name": "Sebeta City FC",
@@ -21791,8 +21731,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sebeta's suburban stars.",
                 "active": true,
-                "logo": "logos/sebeta_city_fc.png",
-                "uniform": "uniforms/sebeta_city_fc.png"
+                "logo": "logos/sebeta_city_fc.webp",
+                "uniform": "uniforms/sebeta_city_fc.webp"
             },
             {
                 "name": "Wolaitta Dicha SC",
@@ -21806,8 +21746,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wolaitta's hopefuls.",
                 "active": true,
-                "logo": "logos/wolaitta_dicha_sc.png",
-                "uniform": "uniforms/wolaitta_dicha_sc.png"
+                "logo": "logos/wolaitta_dicha_sc.webp",
+                "uniform": "uniforms/wolaitta_dicha_sc.webp"
             },
             {
                 "name": "Mekelle 70 Enderta FC",
@@ -21821,8 +21761,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigray's northern tigers.",
                 "active": true,
-                "logo": "logos/mekelle_70_enderta_fc.png",
-                "uniform": "uniforms/mekelle_70_enderta_fc.png"
+                "logo": "logos/mekelle_70_enderta_fc.webp",
+                "uniform": "uniforms/mekelle_70_enderta_fc.webp"
             },
             {
                 "name": "Jimma Aba Jifar FC",
@@ -21836,8 +21776,8 @@ const teams = [
                 "trophies": "Ethiopian Premier League: 1",
                 "mustKnowFact": "Jimma's historic kings.",
                 "active": true,
-                "logo": "logos/jimma_aba_jifar_fc.png",
-                "uniform": "uniforms/jimma_aba_jifar_fc.png"
+                "logo": "logos/jimma_aba_jifar_fc.webp",
+                "uniform": "uniforms/jimma_aba_jifar_fc.webp"
             },
             {
                 "name": "Watanga FC",
@@ -21851,8 +21791,8 @@ const teams = [
                 "trophies": "Liberian First Division: 2, Liberian Cup: 1",
                 "mustKnowFact": "Monrovia's water warriors.",
                 "active": true,
-                "logo": "logos/watanga_fc.png",
-                "uniform": "uniforms/watanga_fc.png"
+                "logo": "logos/watanga_fc.webp",
+                "uniform": "uniforms/watanga_fc.webp"
             },
             {
                 "name": "LISCR FC",
@@ -21866,8 +21806,8 @@ const teams = [
                 "trophies": "Liberian First Division: 4, Liberian Cup: 2",
                 "mustKnowFact": "Shipping liners of Monrovia.",
                 "active": true,
-                "logo": "logos/liscr_fc.png",
-                "uniform": "uniforms/liscr_fc.png"
+                "logo": "logos/liscr_fc.webp",
+                "uniform": "uniforms/liscr_fc.webp"
             },
             {
                 "name": "Mighty Barrolle",
@@ -21881,8 +21821,8 @@ const teams = [
                 "trophies": "Liberian First Division: 13, Liberian Cup: 8",
                 "mustKnowFact": "Rollers of Monrovia.",
                 "active": true,
-                "logo": "logos/mighty_barrolle.png",
-                "uniform": "uniforms/mighty_barrolle.png"
+                "logo": "logos/mighty_barrolle.webp",
+                "uniform": "uniforms/mighty_barrolle.webp"
             },
             {
                 "name": "LPRC Oilers",
@@ -21896,8 +21836,8 @@ const teams = [
                 "trophies": "Liberian First Division: 6, Liberian Cup: 3",
                 "mustKnowFact": "Oilmen of Liberia.",
                 "active": true,
-                "logo": "logos/lprc_oilers.png",
-                "uniform": "uniforms/lprc_oilers.png"
+                "logo": "logos/lprc_oilers.webp",
+                "uniform": "uniforms/lprc_oilers.webp"
             },
             {
                 "name": "Bea Mountain FC",
@@ -21911,8 +21851,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Miners of Western Liberia.",
                 "active": true,
-                "logo": "logos/bea_mountain_fc.png",
-                "uniform": "uniforms/bea_mountain_fc.png"
+                "logo": "logos/bea_mountain_fc.webp",
+                "uniform": "uniforms/bea_mountain_fc.webp"
             },
             {
                 "name": "Nimba United FC",
@@ -21926,8 +21866,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Nimba's united force.",
                 "active": true,
-                "logo": "logos/nimba_united_fc.png",
-                "uniform": "uniforms/nimba_united_fc.png"
+                "logo": "logos/nimba_united_fc.webp",
+                "uniform": "uniforms/nimba_united_fc.webp"
             },
             {
                 "name": "Invincible Eleven",
@@ -21941,8 +21881,8 @@ const teams = [
                 "trophies": "Liberian First Division: 13, Liberian Cup: 5",
                 "mustKnowFact": "IE of Monrovia.",
                 "active": true,
-                "logo": "logos/invincible_eleven.png",
-                "uniform": "uniforms/invincible_eleven.png"
+                "logo": "logos/invincible_eleven.webp",
+                "uniform": "uniforms/invincible_eleven.webp"
             },
             {
                 "name": "FC Fassell",
@@ -21956,8 +21896,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Monrovia's football academy.",
                 "active": true,
-                "logo": "logos/fc_fassell.png",
-                "uniform": "uniforms/fc_fassell.png"
+                "logo": "logos/fc_fassell.webp",
+                "uniform": "uniforms/fc_fassell.webp"
             },
             {
                 "name": "Freeport FC",
@@ -21971,8 +21911,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Portside fighters.",
                 "active": true,
-                "logo": "logos/freeport_fc.png",
-                "uniform": "uniforms/freeport_fc.png"
+                "logo": "logos/freeport_fc.webp",
+                "uniform": "uniforms/freeport_fc.webp"
             },
             {
                 "name": "NPA Anchors",
@@ -21986,8 +21926,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "National Port's anchors.",
                 "active": true,
-                "logo": "logos/npa_anchors.png",
-                "uniform": "uniforms/npa_anchors.png"
+                "logo": "logos/npa_anchors.webp",
+                "uniform": "uniforms/npa_anchors.webp"
             },
             {
                 "name": "Mighty Blue Angels",
@@ -22001,8 +21941,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blue angels of Monrovia.",
                 "active": true,
-                "logo": "logos/mighty_blue_angels.png",
-                "uniform": "uniforms/mighty_blue_angels.png"
+                "logo": "logos/mighty_blue_angels.webp",
+                "uniform": "uniforms/mighty_blue_angels.webp"
             },
             {
                 "name": "Cece United",
@@ -22016,8 +21956,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Monrovia's new blood.",
                 "active": true,
-                "logo": "logos/cece_united.png",
-                "uniform": "uniforms/cece_united.png"
+                "logo": "logos/cece_united.webp",
+                "uniform": "uniforms/cece_united.webp"
             },
             {
                 "name": "Jubilee FC",
@@ -22031,8 +21971,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Celebrating Monrovia.",
                 "active": true,
-                "logo": "logos/jubilee_fc.png",
-                "uniform": "uniforms/jubilee_fc.png"
+                "logo": "logos/jubilee_fc.webp",
+                "uniform": "uniforms/jubilee_fc.webp"
             },
             {
                 "name": "Heaven Eleven FC",
@@ -22046,8 +21986,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Foya's heavenly squad.",
                 "active": true,
-                "logo": "logos/heaven_eleven_fc.png",
-                "uniform": "uniforms/heaven_eleven_fc.png"
+                "logo": "logos/heaven_eleven_fc.webp",
+                "uniform": "uniforms/heaven_eleven_fc.webp"
             },
             {
                 "name": "Deportivo Saprissa",
@@ -22061,8 +22001,8 @@ const teams = [
                 "trophies": "Liga FPD: 39, CONCACAF Champions League: 3",
                 "mustKnowFact": "Purple monsters of Costa Rica.",
                 "active": true,
-                "logo": "logos/deportivo_saprissa.png",
-                "uniform": "uniforms/deportivo_saprissa.png"
+                "logo": "logos/deportivo_saprissa.webp",
+                "uniform": "uniforms/deportivo_saprissa.webp"
             },
             {
                 "name": "LD Alajuelense",
@@ -22076,8 +22016,8 @@ const teams = [
                 "trophies": "Liga FPD: 30, CONCACAF Champions League: 2",
                 "mustKnowFact": "Lions of Alajuela.",
                 "active": true,
-                "logo": "logos/ld_alajuelense.png",
-                "uniform": "uniforms/ld_alajuelense.png"
+                "logo": "logos/ld_alajuelense.webp",
+                "uniform": "uniforms/ld_alajuelense.webp"
             },
             {
                 "name": "CS Herediano",
@@ -22091,8 +22031,8 @@ const teams = [
                 "trophies": "Liga FPD: 29",
                 "mustKnowFact": "Team of Flowers.",
                 "active": true,
-                "logo": "logos/cs_herediano.png",
-                "uniform": "uniforms/cs_herediano.png"
+                "logo": "logos/cs_herediano.webp",
+                "uniform": "uniforms/cs_herediano.webp"
             },
             {
                 "name": "CS Cartaginés",
@@ -22106,8 +22046,8 @@ const teams = [
                 "trophies": "Liga FPD: 4, CONCACAF Champions League: 1",
                 "mustKnowFact": "Oldest club in Costa Rica.",
                 "active": true,
-                "logo": "logos/cs_cartagines.png",
-                "uniform": "uniforms/cs_cartagines.png"
+                "logo": "logos/cs_cartagines.webp",
+                "uniform": "uniforms/cs_cartagines.webp"
             },
             {
                 "name": "AD San Carlos",
@@ -22121,8 +22061,8 @@ const teams = [
                 "trophies": "Liga FPD: 1",
                 "mustKnowFact": "Bulls of the North.",
                 "active": true,
-                "logo": "logos/ad_san_carlos.png",
-                "uniform": "uniforms/ad_san_carlos.png"
+                "logo": "logos/ad_san_carlos.webp",
+                "uniform": "uniforms/ad_san_carlos.webp"
             },
             {
                 "name": "Puntarenas FC",
@@ -22136,8 +22076,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sharks of the Pacific.",
                 "active": true,
-                "logo": "logos/puntarenas_fc.png",
-                "uniform": "uniforms/puntarenas_fc.png"
+                "logo": "logos/puntarenas_fc.webp",
+                "uniform": "uniforms/puntarenas_fc.webp"
             },
             {
                 "name": "Municipal Liberia",
@@ -22151,8 +22091,8 @@ const teams = [
                 "trophies": "Liga FPD: 1",
                 "mustKnowFact": "White hawks of Guanacaste.",
                 "active": true,
-                "logo": "logos/municipal_liberia.png",
-                "uniform": "uniforms/municipal_liberia.png"
+                "logo": "logos/municipal_liberia.webp",
+                "uniform": "uniforms/municipal_liberia.webp"
             },
             {
                 "name": "Santos de Guápiles",
@@ -22166,8 +22106,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Caribbean coast contenders.",
                 "active": true,
-                "logo": "logos/santos_de_guapiles.png",
-                "uniform": "uniforms/santos_de_guapiles.png"
+                "logo": "logos/santos_de_guapiles.webp",
+                "uniform": "uniforms/santos_de_guapiles.webp"
             },
             {
                 "name": "AD Guanacasteca",
@@ -22181,8 +22121,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pamperos of Nicoya.",
                 "active": true,
-                "logo": "logos/ad_guanacasteca.png",
-                "uniform": "uniforms/ad_guanacasteca.png"
+                "logo": "logos/ad_guanacasteca.webp",
+                "uniform": "uniforms/ad_guanacasteca.webp"
             },
             {
                 "name": "Sporting San José",
@@ -22196,8 +22136,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "New kids in San José.",
                 "active": true,
-                "logo": "logos/sporting_san_jose.png",
-                "uniform": "uniforms/sporting_san_jose.png"
+                "logo": "logos/sporting_san_jose.webp",
+                "uniform": "uniforms/sporting_san_jose.webp"
             },
             {
                 "name": "Municipal Grecia",
@@ -22211,8 +22151,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Panthers of Grecia.",
                 "active": true,
-                "logo": "logos/municipal_grecia.png",
-                "uniform": "uniforms/municipal_grecia.png"
+                "logo": "logos/municipal_grecia.webp",
+                "uniform": "uniforms/municipal_grecia.webp"
             },
             {
                 "name": "Pérez Zeledón",
@@ -22226,8 +22166,8 @@ const teams = [
                 "trophies": "Liga FPD: 1",
                 "mustKnowFact": "Warriors of the South.",
                 "active": true,
-                "logo": "logos/perez_zeledon.png",
-                "uniform": "uniforms/perez_zeledon.png"
+                "logo": "logos/perez_zeledon.webp",
+                "uniform": "uniforms/perez_zeledon.webp"
             },
             {
                 "name": "Alianza FC",
@@ -22241,8 +22181,8 @@ const teams = [
                 "trophies": "Primera División: 18, CONCACAF Champions League: 1",
                 "mustKnowFact": "White elephants of El Salvador.",
                 "active": true,
-                "logo": "logos/alianza_fc.png",
-                "uniform": "uniforms/alianza_fc.png"
+                "logo": "logos/alianza_fc.webp",
+                "uniform": "uniforms/alianza_fc.webp"
             },
             {
                 "name": "CD Águila",
@@ -22256,8 +22196,8 @@ const teams = [
                 "trophies": "Primera División: 17",
                 "mustKnowFact": "Eagles of San Miguel.",
                 "active": true,
-                "logo": "logos/cd_aguila.png",
-                "uniform": "uniforms/cd_aguila.png"
+                "logo": "logos/cd_aguila.webp",
+                "uniform": "uniforms/cd_aguila.webp"
             },
             {
                 "name": "CD FAS",
@@ -22271,8 +22211,8 @@ const teams = [
                 "trophies": "Primera División: 19, CONCACAF Champions League: 1",
                 "mustKnowFact": "Tigers of Santa Ana.",
                 "active": true,
-                "logo": "logos/cd_fas.png",
-                "uniform": "uniforms/cd_fas.png"
+                "logo": "logos/cd_fas.webp",
+                "uniform": "uniforms/cd_fas.webp"
             },
             {
                 "name": "AD Isidro Metapán",
@@ -22286,8 +22226,8 @@ const teams = [
                 "trophies": "Primera División: 10",
                 "mustKnowFact": "Jaguars of Metapán.",
                 "active": true,
-                "logo": "logos/ad_isidro_metapan.png",
-                "uniform": "uniforms/ad_isidro_metapan.png"
+                "logo": "logos/ad_isidro_metapan.webp",
+                "uniform": "uniforms/ad_isidro_metapan.webp"
             },
             {
                 "name": "CD Luis Ángel Firpo",
@@ -22301,8 +22241,8 @@ const teams = [
                 "trophies": "Primera División: 10",
                 "mustKnowFact": "Bulls of Usulután.",
                 "active": true,
-                "logo": "logos/cd_luis_angel_firpo.png",
-                "uniform": "uniforms/cd_luis_angel_firpo.png"
+                "logo": "logos/cd_luis_angel_firpo.webp",
+                "uniform": "uniforms/cd_luis_angel_firpo.webp"
             },
             {
                 "name": "CD Municipal Limeño",
@@ -22316,8 +22256,8 @@ const teams = [
                 "trophies": "Primera División: 1",
                 "mustKnowFact": "Knifemen of the east.",
                 "active": true,
-                "logo": "logos/cd_municipal_limeno.png",
-                "uniform": "uniforms/cd_municipal_limeno.png"
+                "logo": "logos/cd_municipal_limeno.webp",
+                "uniform": "uniforms/cd_municipal_limeno.webp"
             },
             {
                 "name": "CD Platense",
@@ -22331,8 +22271,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gallopers of Zacatecoluca.",
                 "active": true,
-                "logo": "logos/cd_platense.png",
-                "uniform": "uniforms/cd_platense.png"
+                "logo": "logos/cd_platense.webp",
+                "uniform": "uniforms/cd_platense.webp"
             },
             {
                 "name": "Once Deportivo",
@@ -22346,8 +22286,8 @@ const teams = [
                 "trophies": "Primera División: 1",
                 "mustKnowFact": "New force in Ahuachapán.",
                 "active": true,
-                "logo": "logos/once_deportivo.png",
-                "uniform": "uniforms/once_deportivo.png"
+                "logo": "logos/once_deportivo.webp",
+                "uniform": "uniforms/once_deportivo.webp"
             },
             {
                 "name": "CD Dragón",
@@ -22361,8 +22301,8 @@ const teams = [
                 "trophies": "Primera División: 2",
                 "mustKnowFact": "Dragons of San Miguel.",
                 "active": true,
-                "logo": "logos/cd_dragon.png",
-                "uniform": "uniforms/cd_dragon.png"
+                "logo": "logos/cd_dragon.webp",
+                "uniform": "uniforms/cd_dragon.webp"
             },
             {
                 "name": "CD Cacahuatique",
@@ -22376,8 +22316,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eastern El Salvador's pride.",
                 "active": true,
-                "logo": "logos/cd_cacahuatique.png",
-                "uniform": "uniforms/cd_cacahuatique.png"
+                "logo": "logos/cd_cacahuatique.webp",
+                "uniform": "uniforms/cd_cacahuatique.webp"
             },
             {
                 "name": "CD Fuerte San Francisco",
@@ -22391,8 +22331,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Fortress of Morazán.",
                 "active": true,
-                "logo": "logos/cd_fuerte_san_francisco.png",
-                "uniform": "uniforms/cd_fuerte_san_francisco.png"
+                "logo": "logos/cd_fuerte_san_francisco.webp",
+                "uniform": "uniforms/cd_fuerte_san_francisco.webp"
             },
             {
                 "name": "Real Estelí FC",
@@ -22406,8 +22346,8 @@ const teams = [
                 "trophies": "Liga Primera: 20",
                 "mustKnowFact": "Northern train of Nicaragua.",
                 "active": true,
-                "logo": "logos/real_esteli_fc.png",
-                "uniform": "uniforms/real_esteli_fc.png"
+                "logo": "logos/real_esteli_fc.webp",
+                "uniform": "uniforms/real_esteli_fc.webp"
             },
             {
                 "name": "Diriangén FC",
@@ -22421,8 +22361,8 @@ const teams = [
                 "trophies": "Liga Primera: 27",
                 "mustKnowFact": "Oldest club in Nicaragua.",
                 "active": true,
-                "logo": "logos/diriangen_fc.png",
-                "uniform": "uniforms/diriangen_fc.png"
+                "logo": "logos/diriangen_fc.webp",
+                "uniform": "uniforms/diriangen_fc.webp"
             },
             {
                 "name": "CD Walter Ferretti",
@@ -22436,8 +22376,8 @@ const teams = [
                 "trophies": "Liga Primera: 5",
                 "mustKnowFact": "Police club of Managua.",
                 "active": true,
-                "logo": "logos/cd_walter_ferretti.png",
-                "uniform": "uniforms/cd_walter_ferretti.png"
+                "logo": "logos/cd_walter_ferretti.webp",
+                "uniform": "uniforms/cd_walter_ferretti.webp"
             },
             {
                 "name": "Managua FC",
@@ -22451,8 +22391,8 @@ const teams = [
                 "trophies": "Liga Primera: 1",
                 "mustKnowFact": "Lions of the capital.",
                 "active": true,
-                "logo": "logos/managua_fc.png",
-                "uniform": "uniforms/managua_fc.png"
+                "logo": "logos/managua_fc.webp",
+                "uniform": "uniforms/managua_fc.webp"
             },
             {
                 "name": "Juventus Managua",
@@ -22466,8 +22406,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Young guns of Managua.",
                 "active": true,
-                "logo": "logos/juventus_managua.png",
-                "uniform": "uniforms/juventus_managua.png"
+                "logo": "logos/juventus_managua.webp",
+                "uniform": "uniforms/juventus_managua.webp"
             },
             {
                 "name": "ART Municipal Jalapa",
@@ -22481,8 +22421,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Jalapa's northern stars.",
                 "active": true,
-                "logo": "logos/art_municipal_jalapa.png",
-                "uniform": "uniforms/art_municipal_jalapa.png"
+                "logo": "logos/art_municipal_jalapa.webp",
+                "uniform": "uniforms/art_municipal_jalapa.webp"
             },
             {
                 "name": "UNAN Managua",
@@ -22496,8 +22436,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "University team of Managua.",
                 "active": true,
-                "logo": "logos/unan_managua.png",
-                "uniform": "uniforms/unan_managua.png"
+                "logo": "logos/unan_managua.webp",
+                "uniform": "uniforms/unan_managua.webp"
             },
             {
                 "name": "CD Ocotal",
@@ -22511,8 +22451,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Deer of Ocotal.",
                 "active": true,
-                "logo": "logos/cd_ocotal.png",
-                "uniform": "uniforms/cd_ocotal.png"
+                "logo": "logos/cd_ocotal.webp",
+                "uniform": "uniforms/cd_ocotal.webp"
             },
             {
                 "name": "Matagalpa FC",
@@ -22526,8 +22466,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Matagalpa's mountain men.",
                 "active": true,
-                "logo": "logos/matagalpa_fc.png",
-                "uniform": "uniforms/matagalpa_fc.png"
+                "logo": "logos/matagalpa_fc.webp",
+                "uniform": "uniforms/matagalpa_fc.webp"
             },
             {
                 "name": "H&H Export Sebaco",
@@ -22541,8 +22481,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sébaco's export warriors.",
                 "active": true,
-                "logo": "logos/hh_export_sebaco.png",
-                "uniform": "uniforms/hh_export_sebaco.png"
+                "logo": "logos/hh_export_sebaco.webp",
+                "uniform": "uniforms/hh_export_sebaco.webp"
             },
             {
                 "name": "FC Dordoi Bishkek",
@@ -22556,8 +22496,8 @@ const teams = [
                 "trophies": "Kyrgyz Premier League: 13, Kyrgyzstan Cup: 10",
                 "mustKnowFact": "Dominant force in Kyrgyzstan.",
                 "active": true,
-                "logo": "logos/fc_dordoi_bishkek.png",
-                "uniform": "uniforms/fc_dordoi_bishkek.png"
+                "logo": "logos/fc_dordoi_bishkek.webp",
+                "uniform": "uniforms/fc_dordoi_bishkek.webp"
             },
             {
                 "name": "FC Alai",
@@ -22571,8 +22511,8 @@ const teams = [
                 "trophies": "Kyrgyz Premier League: 2",
                 "mustKnowFact": "Southern pride of Osh.",
                 "active": true,
-                "logo": "logos/fc_alai.png",
-                "uniform": "uniforms/fc_alai.png"
+                "logo": "logos/fc_alai.webp",
+                "uniform": "uniforms/fc_alai.webp"
             },
             {
                 "name": "FC Abdysh-Ata Kant",
@@ -22586,8 +22526,8 @@ const teams = [
                 "trophies": "Kyrgyz Premier League: 2, Kyrgyzstan Cup: 3",
                 "mustKnowFact": "Kant's football giants.",
                 "active": true,
-                "logo": "logos/fc_abdysh_ata_kant.png",
-                "uniform": "uniforms/fc_abdysh_ata_kant.png"
+                "logo": "logos/fc_abdysh_ata_kant.webp",
+                "uniform": "uniforms/fc_abdysh_ata_kant.webp"
             },
             {
                 "name": "FC Neftchi Kochkor-Ata",
@@ -22601,8 +22541,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Oilmen of Kochkor-Ata.",
                 "active": true,
-                "logo": "logos/fc_neftchi_kochkor_ata.png",
-                "uniform": "uniforms/fc_neftchi_kochkor_ata.png"
+                "logo": "logos/fc_neftchi_kochkor_ata.webp",
+                "uniform": "uniforms/fc_neftchi_kochkor_ata.webp"
             },
             {
                 "name": "FC Alga Bishkek",
@@ -22616,8 +22556,8 @@ const teams = [
                 "trophies": "Kyrgyz Premier League: 1",
                 "mustKnowFact": "Bishkek's historic club.",
                 "active": true,
-                "logo": "logos/fc_alga_bishkek.png",
-                "uniform": "uniforms/fc_alga_bishkek.png"
+                "logo": "logos/fc_alga_bishkek.webp",
+                "uniform": "uniforms/fc_alga_bishkek.webp"
             },
             {
                 "name": "FC Kaganat",
@@ -22631,8 +22571,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Newcomers from Osh.",
                 "active": true,
-                "logo": "logos/fc_kaganat.png",
-                "uniform": "uniforms/fc_kaganat.png"
+                "logo": "logos/fc_kaganat.webp",
+                "uniform": "uniforms/fc_kaganat.webp"
             },
             {
                 "name": "FC Talant",
@@ -22646,8 +22586,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bishkek's talent hub.",
                 "active": true,
-                "logo": "logos/fc_talant.png",
-                "uniform": "uniforms/fc_talant.png"
+                "logo": "logos/fc_talant.webp",
+                "uniform": "uniforms/fc_talant.webp"
             },
             {
                 "name": "FC Ilbirs",
@@ -22661,8 +22601,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Snow leopards of Bishkek.",
                 "active": true,
-                "logo": "logos/fc_ilbirs.png",
-                "uniform": "uniforms/fc_ilbirs.png"
+                "logo": "logos/fc_ilbirs.webp",
+                "uniform": "uniforms/fc_ilbirs.webp"
             },
             {
                 "name": "FC Kara-Balta",
@@ -22676,8 +22616,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kara-Balta's battlers.",
                 "active": true,
-                "logo": "logos/fc_kara_balta.png",
-                "uniform": "uniforms/fc_kara_balta.png"
+                "logo": "logos/fc_kara_balta.webp",
+                "uniform": "uniforms/fc_kara_balta.webp"
             },
             {
                 "name": "Muras United",
@@ -22691,8 +22631,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United front of Jalal-Abad.",
                 "active": true,
-                "logo": "logos/muras_united.png",
-                "uniform": "uniforms/muras_united.png"
+                "logo": "logos/muras_united.webp",
+                "uniform": "uniforms/muras_united.webp"
             },
             {
                 "name": "FC Istiklol",
@@ -22706,8 +22646,8 @@ const teams = [
                 "trophies": "Tajikistan Higher League: 11, Tajikistan Cup: 8",
                 "mustKnowFact": "Independence of Tajikistan.",
                 "active": true,
-                "logo": "logos/fc_istiklol.png",
-                "uniform": "uniforms/fc_istiklol.png"
+                "logo": "logos/fc_istiklol.webp",
+                "uniform": "uniforms/fc_istiklol.webp"
             },
             {
                 "name": "FK Khujand",
@@ -22721,8 +22661,8 @@ const teams = [
                 "trophies": "Tajikistan Higher League: 1",
                 "mustKnowFact": "Northern giants of Khujand.",
                 "active": true,
-                "logo": "logos/fk_khujand.png",
-                "uniform": "uniforms/fk_khujand.png"
+                "logo": "logos/fk_khujand.webp",
+                "uniform": "uniforms/fk_khujand.webp"
             },
             {
                 "name": "CSKA Pamir Dushanbe",
@@ -22736,8 +22676,8 @@ const teams = [
                 "trophies": "Tajikistan Higher League: 1",
                 "mustKnowFact": "Army club of Dushanbe.",
                 "active": true,
-                "logo": "logos/cska_pamir_dushanbe.png",
-                "uniform": "uniforms/cska_pamir_dushanbe.png"
+                "logo": "logos/cska_pamir_dushanbe.webp",
+                "uniform": "uniforms/cska_pamir_dushanbe.webp"
             },
             {
                 "name": "Regar-TadAZ Tursunzoda",
@@ -22751,8 +22691,8 @@ const teams = [
                 "trophies": "Tajikistan Higher League: 7",
                 "mustKnowFact": "Aluminum workers of Tursunzoda.",
                 "active": true,
-                "logo": "logosregar_tadaz_tursunzoda.png",
-                "uniform": "uniformsregar_tadaz_tursunzoda.png"
+                "logo": "logosregar_tadaz_tursunzoda.webp",
+                "uniform": "uniformsregar_tadaz_tursunzoda.webp"
             },
             {
                 "name": "FK Istaravshan",
@@ -22766,8 +22706,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Istaravshan's northern stars.",
                 "active": true,
-                "logo": "logos/fk_istaravshan.png",
-                "uniform": "uniforms/fk_istaravshan.png"
+                "logo": "logos/fk_istaravshan.webp",
+                "uniform": "uniforms/fk_istaravshan.webp"
             },
             {
                 "name": "Ravshan Kulob",
@@ -22781,8 +22721,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Southern light of Kulob.",
                 "active": true,
-                "logo": "logos/ravshan_kulob.png",
-                "uniform": "uniforms/ravshan_kulob.png"
+                "logo": "logos/ravshan_kulob.webp",
+                "uniform": "uniforms/ravshan_kulob.webp"
             },
             {
                 "name": "FK Kuktosh",
@@ -22796,8 +22736,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Newcomers near Dushanbe.",
                 "active": true,
-                "logo": "logos/fk_kuktosh.png",
-                "uniform": "uniforms/fk_kuktosh.png"
+                "logo": "logos/fk_kuktosh.webp",
+                "uniform": "uniforms/fk_kuktosh.webp"
             },
             {
                 "name": "Eskhata Khujand",
@@ -22811,8 +22751,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Khujand's second force.",
                 "active": true,
-                "logo": "logos/eskhata_khujand.png",
-                "uniform": "uniforms/eskhata_khujand.png"
+                "logo": "logos/eskhata_khujand.webp",
+                "uniform": "uniforms/eskhata_khujand.webp"
             },
             {
                 "name": "FC Khatlon",
@@ -22826,8 +22766,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bokhtar's southern battlers.",
                 "active": true,
-                "logo": "logos/fc_khatlon.png",
-                "uniform": "uniforms/fc_khatlon.png"
+                "logo": "logos/fc_khatlon.webp",
+                "uniform": "uniforms/fc_khatlon.webp"
             },
             {
                 "name": "FC Dushanbe-83",
@@ -22841,8 +22781,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dushanbe's modern squad.",
                 "active": true,
-                "logo": "logos/fc_dushanbe_83.png",
-                "uniform": "uniforms/fc_dushanbe_83.png"
+                "logo": "logos/fc_dushanbe_83.webp",
+                "uniform": "uniforms/fc_dushanbe_83.webp"
             },
             {
                 "name": "FK Fayzkand",
@@ -22856,8 +22796,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vose's rising stars.",
                 "active": true,
-                "logo": "logos/fk_fayzkand.png",
-                "uniform": "uniforms/fk_fayzkand.png"
+                "logo": "logos/fk_fayzkand.webp",
+                "uniform": "uniforms/fk_fayzkand.webp"
             },
             {
                 "name": "Panjsher Balkh",
@@ -22871,8 +22811,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Balkh's river warriors.",
                 "active": true,
-                "logo": "logos/panjsher_balkh.png",
-                "uniform": "uniforms/panjsher_balkh.png"
+                "logo": "logos/panjsher_balkh.webp",
+                "uniform": "uniforms/panjsher_balkh.webp"
             },
             {
                 "name": "Altyn Asyr FK",
@@ -22886,8 +22826,8 @@ const teams = [
                 "trophies": "Ýokary Liga: 8, Turkmenistan Cup: 4",
                 "mustKnowFact": "Golden age of Turkmenistan.",
                 "active": true,
-                "logo": "logos/altyn_asyr_fk.png",
-                "uniform": "uniforms/altyn_asyr_fk.png"
+                "logo": "logos/altyn_asyr_fk.webp",
+                "uniform": "uniforms/altyn_asyr_fk.webp"
             },
             {
                 "name": "Ahal FK",
@@ -22901,8 +22841,8 @@ const teams = [
                 "trophies": "Ýokary Liga: 1",
                 "mustKnowFact": "Ahal's regional power.",
                 "active": true,
-                "logo": "logos/ahal_fk.png",
-                "uniform": "uniforms/ahal_fk.png"
+                "logo": "logos/ahal_fk.webp",
+                "uniform": "uniforms/ahal_fk.webp"
             },
             {
                 "name": "Şagadam FK",
@@ -22916,8 +22856,8 @@ const teams = [
                 "trophies": "Ýokary Liga: 1",
                 "mustKnowFact": "Caspian coast contenders.",
                 "active": true,
-                "logo": "logos/sagadam_fk.png",
-                "uniform": "uniforms/sagadam_fk.png"
+                "logo": "logos/sagadam_fk.webp",
+                "uniform": "uniforms/sagadam_fk.webp"
             },
             {
                 "name": "FK Arkadag",
@@ -22931,8 +22871,8 @@ const teams = [
                 "trophies": "Ýokary Liga: 1",
                 "mustKnowFact": "New city, new champions.",
                 "active": true,
-                "logo": "logos/fk_arkadag.png",
-                "uniform": "uniforms/fk_arkadag.png"
+                "logo": "logos/fk_arkadag.webp",
+                "uniform": "uniforms/fk_arkadag.webp"
             },
             {
                 "name": "Merw FK",
@@ -22946,8 +22886,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mary's historic club.",
                 "active": true,
-                "logo": "logos/merw_fk.png",
-                "uniform": "uniforms/merw_fk.png"
+                "logo": "logos/merw_fk.webp",
+                "uniform": "uniforms/merw_fk.webp"
             },
             {
                 "name": "FK Aşgabat",
@@ -22961,8 +22901,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Capital's second squad.",
                 "active": true,
-                "logo": "logos/fk_asgabat.png",
-                "uniform": "uniforms/fk_asgabat.png"
+                "logo": "logos/fk_asgabat.webp",
+                "uniform": "uniforms/fk_asgabat.webp"
             },
             {
                 "name": "Energetik FK",
@@ -22976,8 +22916,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Energy of Türkmenbaşy.",
                 "active": true,
-                "logo": "logos/energetik_fk.png",
-                "uniform": "uniforms/energetik_fk.png"
+                "logo": "logos/energetik_fk.webp",
+                "uniform": "uniforms/energetik_fk.webp"
             },
             {
                 "name": "Nebitchi FK",
@@ -22991,8 +22931,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Oilmen of Balkanabat.",
                 "active": true,
-                "logo": "logos/nebitchi_fk.png",
-                "uniform": "uniforms/nebitchi_fk.png"
+                "logo": "logos/nebitchi_fk.webp",
+                "uniform": "uniforms/nebitchi_fk.webp"
             },
             {
                 "name": "Shaheen Asmayee",
@@ -23006,8 +22946,8 @@ const teams = [
                 "trophies": "Afghanistan Premier League: 5",
                 "mustKnowFact": "Falcons of Kabul.",
                 "active": true,
-                "logo": "logos/shaheen_asmayee.png",
-                "uniform": "uniforms/shaheen_asmayee.png"
+                "logo": "logos/shaheen_asmayee.webp",
+                "uniform": "uniforms/shaheen_asmayee.webp"
             },
             {
                 "name": "Toofan Harirod",
@@ -23021,8 +22961,8 @@ const teams = [
                 "trophies": "Afghanistan Premier League: 1",
                 "mustKnowFact": "Hurricanes of Herat.",
                 "active": true,
-                "logo": "logos/toofan_harirod.png",
-                "uniform": "uniforms/toofan_harirod.png"
+                "logo": "logos/toofan_harirod.webp",
+                "uniform": "uniforms/toofan_harirod.webp"
             },
             {
                 "name": "Simorgh Alborz",
@@ -23036,8 +22976,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Phoenix of the north.",
                 "active": true,
-                "logo": "logos/simorgh_alborz.png",
-                "uniform": "uniforms/simorgh_alborz.png"
+                "logo": "logos/simorgh_alborz.webp",
+                "uniform": "uniforms/simorgh_alborz.webp"
             },
             {
                 "name": "De Maiwand Atalan",
@@ -23051,8 +22991,8 @@ const teams = [
                 "trophies": "Afghanistan Premier League: 1",
                 "mustKnowFact": "Heroes of Maiwand.",
                 "active": true,
-                "logo": "logos/de_maiwand_atalan.png",
-                "uniform": "uniforms/de_maiwand_atalan.png"
+                "logo": "logos/de_maiwand_atalan.webp",
+                "uniform": "uniforms/de_maiwand_atalan.webp"
             },
             {
                 "name": "Oqaban Hindukush",
@@ -23066,8 +23006,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Hindukush.",
                 "active": true,
-                "logo": "logos/oqaban_hindukush.png",
-                "uniform": "uniforms/oqaban_hindukush.png"
+                "logo": "logos/oqaban_hindukush.webp",
+                "uniform": "uniforms/oqaban_hindukush.webp"
             },
             {
                 "name": "De Spin Ghar Bazan",
@@ -23081,8 +23021,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Falcons of Spin Ghar.",
                 "active": true,
-                "logo": "logos/de_spin_ghar_bazan.png",
-                "uniform": "uniforms/de_spin_ghar_bazan.png"
+                "logo": "logos/de_spin_ghar_bazan.webp",
+                "uniform": "uniforms/de_spin_ghar_bazan.webp"
             },
             {
                 "name": "Mawjhai Amu",
@@ -23096,8 +23036,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Waves of Amu River.",
                 "active": true,
-                "logo": "logos/mawjhai_amu.png",
-                "uniform": "uniforms/mawjhai_amu.png"
+                "logo": "logos/mawjhai_amu.webp",
+                "uniform": "uniforms/mawjhai_amu.webp"
             },
             {
                 "name": "De Abasin Sape",
@@ -23111,8 +23051,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Waves of Abasin.",
                 "active": true,
-                "logo": "logos/de_abasin_sape.png",
-                "uniform": "uniforms/de_abasin_sape.png"
+                "logo": "logos/de_abasin_sape.webp",
+                "uniform": "uniforms/de_abasin_sape.webp"
             },
             {
                 "name": "Machhindra FC",
@@ -23126,8 +23066,8 @@ const teams = [
                 "trophies": "A-Division League: 2",
                 "mustKnowFact": "Kathmandu's white lions.",
                 "active": true,
-                "logo": "logos/machhindra_fc.png",
-                "uniform": "uniforms/machhindra_fc.png"
+                "logo": "logos/machhindra_fc.webp",
+                "uniform": "uniforms/machhindra_fc.webp"
             },
             {
                 "name": "Tribhuvan Army FC",
@@ -23141,8 +23081,8 @@ const teams = [
                 "trophies": "A-Division League: 1",
                 "mustKnowFact": "Army's football soldiers.",
                 "active": true,
-                "logo": "logos/tribhuvan_army_fc.png",
-                "uniform": "uniforms/tribhuvan_army_fc.png"
+                "logo": "logos/tribhuvan_army_fc.webp",
+                "uniform": "uniforms/tribhuvan_army_fc.webp"
             },
             {
                 "name": "Manang Marshyangdi Club",
@@ -23156,8 +23096,8 @@ const teams = [
                 "trophies": "A-Division League: 8",
                 "mustKnowFact": "Most successful club in Nepal.",
                 "active": true,
-                "logo": "logos/manang_marshyangdi_club.png",
-                "uniform": "uniforms/manang_marshyangdi_club.png"
+                "logo": "logos/manang_marshyangdi_club.webp",
+                "uniform": "uniforms/manang_marshyangdi_club.webp"
             },
             {
                 "name": "Nepal Police Club",
@@ -23171,8 +23111,8 @@ const teams = [
                 "trophies": "A-Division League: 2",
                 "mustKnowFact": "Police force of Kathmandu.",
                 "active": true,
-                "logo": "logos/nepal_police_club.png",
-                "uniform": "uniforms/nepal_police_club.png"
+                "logo": "logos/nepal_police_club.webp",
+                "uniform": "uniforms/nepal_police_club.webp"
             },
             {
                 "name": "Three Star Club",
@@ -23186,8 +23126,8 @@ const teams = [
                 "trophies": "A-Division League: 4",
                 "mustKnowFact": "Three stars of Patan.",
                 "active": true,
-                "logo": "logos/three_star_club.png",
-                "uniform": "uniforms/three_star_club.png"
+                "logo": "logos/three_star_club.webp",
+                "uniform": "uniforms/three_star_club.webp"
             },
             {
                 "name": "Jawalakhel Youth Club",
@@ -23201,8 +23141,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Jawalakhel.",
                 "active": true,
-                "logo": "logos/jawalakhel_youth_club.png",
-                "uniform": "uniforms/jawalakhel_youth_club.png"
+                "logo": "logos/jawalakhel_youth_club.webp",
+                "uniform": "uniforms/jawalakhel_youth_club.webp"
             },
             {
                 "name": "Sankata Club",
@@ -23216,8 +23156,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kathmandu's temple team.",
                 "active": true,
-                "logo": "logos/sankata_club.png",
-                "uniform": "uniforms/sankata_club.png"
+                "logo": "logos/sankata_club.webp",
+                "uniform": "uniforms/sankata_club.webp"
             },
             {
                 "name": "New Road Team",
@@ -23231,8 +23171,8 @@ const teams = [
                 "trophies": "A-Division League: 5",
                 "mustKnowFact": "Oldest club in Nepal.",
                 "active": true,
-                "logo": "logos/new_road_team.png",
-                "uniform": "uniforms/new_road_team.png"
+                "logo": "logos/new_road_team.webp",
+                "uniform": "uniforms/new_road_team.webp"
             },
             {
                 "name": "Friends Club",
@@ -23246,8 +23186,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Friends of Kopundole.",
                 "active": true,
-                "logo": "logos/friends_club.png",
-                "uniform": "uniforms/friends_club.png"
+                "logo": "logos/friends_club.webp",
+                "uniform": "uniforms/friends_club.webp"
             },
             {
                 "name": "Himalayan Sherpa Club",
@@ -23261,8 +23201,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sherpas of the Himalayas.",
                 "active": true,
-                "logo": "logos/himalayan_sherpa_club.png",
-                "uniform": "uniforms/himalayan_sherpa_club.png"
+                "logo": "logos/himalayan_sherpa_club.webp",
+                "uniform": "uniforms/himalayan_sherpa_club.webp"
             },
             {
                 "name": "Satdobato Youth Club",
@@ -23276,8 +23216,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Satdobato.",
                 "active": true,
-                "logo": "logos/satdobato_youth_club.png",
-                "uniform": "uniforms/satdobato_youth_club.png"
+                "logo": "logos/satdobato_youth_club.webp",
+                "uniform": "uniforms/satdobato_youth_club.webp"
             },
             {
                 "name": "Church Boys United",
@@ -23291,8 +23231,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Church boys of Kathmandu.",
                 "active": true,
-                "logo": "logos/church_boys_united.png",
-                "uniform": "uniforms/church_boys_united.png"
+                "logo": "logos/church_boys_united.webp",
+                "uniform": "uniforms/church_boys_united.webp"
             },
             {
                 "name": "Chyasal Youth Club",
@@ -23306,8 +23246,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Chyasal's young stars.",
                 "active": true,
-                "logo": "logos/chyasal_youth_club.png",
-                "uniform": "uniforms/chyasal_youth_club.png"
+                "logo": "logos/chyasal_youth_club.webp",
+                "uniform": "uniforms/chyasal_youth_club.webp"
             },
             {
                 "name": "APF Club",
@@ -23321,8 +23261,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Armed Police Force team.",
                 "active": true,
-                "logo": "logos/apf_club.png",
-                "uniform": "uniforms/apf_club.png"
+                "logo": "logos/apf_club.webp",
+                "uniform": "uniforms/apf_club.webp"
             },
             {
                 "name": "Ferencvárosi TC",
@@ -23336,8 +23276,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 35, Hungarian Cup: 24",
                 "mustKnowFact": "Green eagles of Budapest.",
                 "active": true,
-                "logo": "logos/ferencvarosi_tc.png",
-                "uniform": "uniforms/ferencvarosi_tc.png"
+                "logo": "logos/ferencvarosi_tc.webp",
+                "uniform": "uniforms/ferencvarosi_tc.webp"
             },
             {
                 "name": "Újpest FC",
@@ -23351,8 +23291,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 20, Hungarian Cup: 11",
                 "mustKnowFact": "Purple-whites of Újpest.",
                 "active": true,
-                "logo": "logos/ujpest_fc.png",
-                "uniform": "uniforms/ujpest_fc.png"
+                "logo": "logos/ujpest_fc.webp",
+                "uniform": "uniforms/ujpest_fc.webp"
             },
             {
                 "name": "MTK Budapest",
@@ -23366,8 +23306,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 23, Hungarian Cup: 12",
                 "mustKnowFact": "Blue-whites of Budapest.",
                 "active": true,
-                "logo": "logos/mtk_budapest.png",
-                "uniform": "uniforms/mtk_budapest.png"
+                "logo": "logos/mtk_budapest.webp",
+                "uniform": "uniforms/mtk_budapest.webp"
             },
             {
                 "name": "Puskás Akadémia FC",
@@ -23381,8 +23321,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Felcsút's modern academy.",
                 "active": true,
-                "logo": "logos/puskas_akademia_fc.png",
-                "uniform": "uniforms/puskas_akademia_fc.png"
+                "logo": "logos/puskas_akademia_fc.webp",
+                "uniform": "uniforms/puskas_akademia_fc.webp"
             },
             {
                 "name": "Fehérvár FC",
@@ -23396,8 +23336,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 3, Hungarian Cup: 2",
                 "mustKnowFact": "Reds of Székesfehérvár.",
                 "active": true,
-                "logo": "logos/fehervar_fc.png",
-                "uniform": "uniforms/fehervar_fc.png"
+                "logo": "logos/fehervar_fc.webp",
+                "uniform": "uniforms/fehervar_fc.webp"
             },
             {
                 "name": "Debreceni VSC",
@@ -23411,8 +23351,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 7, Hungarian Cup: 6",
                 "mustKnowFact": "Lokomotiv of Debrecen.",
                 "active": true,
-                "logo": "logos/debreceni_vsc.png",
-                "uniform": "uniforms/debreceni_vsc.png"
+                "logo": "logos/debreceni_vsc.webp",
+                "uniform": "uniforms/debreceni_vsc.webp"
             },
             {
                 "name": "Kecskeméti TE",
@@ -23426,8 +23366,8 @@ const teams = [
                 "trophies": "Hungarian Cup: 1",
                 "mustKnowFact": "Purple-whites of Kecskemét.",
                 "active": true,
-                "logo": "logos/kecskemeti_te.png",
-                "uniform": "uniforms/kecskemeti_te.png"
+                "logo": "logos/kecskemeti_te.webp",
+                "uniform": "uniforms/kecskemeti_te.webp"
             },
             {
                 "name": "Zalaegerszegi TE",
@@ -23441,8 +23381,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 1",
                 "mustKnowFact": "Zala's blue-whites.",
                 "active": true,
-                "logo": "logos/zalaegerszegi_te.png",
-                "uniform": "uniforms/zalaegerszegi_te.png"
+                "logo": "logos/zalaegerszegi_te.webp",
+                "uniform": "uniforms/zalaegerszegi_te.webp"
             },
             {
                 "name": "Diósgyőri VTK",
@@ -23456,8 +23396,8 @@ const teams = [
                 "trophies": "Hungarian Cup: 2",
                 "mustKnowFact": "Red-blacks of Miskolc.",
                 "active": true,
-                "logo": "logos/diosgyori_vtk.png",
-                "uniform": "uniforms/diosgyori_vtk.png"
+                "logo": "logos/diosgyori_vtk.webp",
+                "uniform": "uniforms/diosgyori_vtk.webp"
             },
             {
                 "name": "Paksi FC",
@@ -23471,8 +23411,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Green-whites of Paks.",
                 "active": true,
-                "logo": "logos/paksi_fc.png",
-                "uniform": "uniforms/paksi_fc.png"
+                "logo": "logos/paksi_fc.webp",
+                "uniform": "uniforms/paksi_fc.webp"
             },
             {
                 "name": "Nyíregyháza Spartacus",
@@ -23486,8 +23426,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Spartans of Nyíregyháza.",
                 "active": true,
-                "logo": "logos/nyiregyhaza_spartacus.png",
-                "uniform": "uniforms/nyiregyhaza_spartacus.png"
+                "logo": "logos/nyiregyhaza_spartacus.webp",
+                "uniform": "uniforms/nyiregyhaza_spartacus.webp"
             },
             {
                 "name": "Győri ETO FC",
@@ -23501,8 +23441,8 @@ const teams = [
                 "trophies": "Nemzeti Bajnokság I: 4, Hungarian Cup: 4",
                 "mustKnowFact": "Green-whites of Győr.",
                 "active": true,
-                "logo": "logos/gyori_eto.png",
-                "uniform": "uniforms/gyori_eto.png"
+                "logo": "logos/gyori_eto.webp",
+                "uniform": "uniforms/gyori_eto.webp"
             },
             {
                 "name": "FK Vardar",
@@ -23516,8 +23456,8 @@ const teams = [
                 "trophies": "Macedonian First League: 11, Macedonian Cup: 5",
                 "mustKnowFact": "Red-blacks of Skopje.",
                 "active": true,
-                "logo": "logos/fk_vardar.png",
-                "uniform": "uniforms/fk_vardar.png"
+                "logo": "logos/fk_vardar.webp",
+                "uniform": "uniforms/fk_vardar.webp"
             },
             {
                 "name": "FK Shkëndija",
@@ -23531,8 +23471,8 @@ const teams = [
                 "trophies": "Macedonian First League: 4, Macedonian Cup: 2",
                 "mustKnowFact": "Tetovo's red-blacks.",
                 "active": true,
-                "logo": "logos/fk_shkendija.png",
-                "uniform": "uniforms/fk_shkendija.png"
+                "logo": "logos/fk_shkendija.webp",
+                "uniform": "uniforms/fk_shkendija.webp"
             },
             {
                 "name": "FK Rabotnički",
@@ -23546,8 +23486,8 @@ const teams = [
                 "trophies": "Macedonian First League: 4, Macedonian Cup: 4",
                 "mustKnowFact": "Workers of Skopje.",
                 "active": true,
-                "logo": "logos/fk_rabotnicki.png",
-                "uniform": "uniforms/fk_rabotnicki.png"
+                "logo": "logos/fk_rabotnicki.webp",
+                "uniform": "uniforms/fk_rabotnicki.webp"
             },
             {
                 "name": "FK Shkupi",
@@ -23561,8 +23501,8 @@ const teams = [
                 "trophies": "Macedonian First League: 1",
                 "mustKnowFact": "Pigeons of Čair.",
                 "active": true,
-                "logo": "logos/fk_shkupi.png",
-                "uniform": "uniforms/fk_shkupi.png"
+                "logo": "logos/fk_shkupi.webp",
+                "uniform": "uniforms/fk_shkupi.webp"
             },
             {
                 "name": "FK Struga",
@@ -23576,8 +23516,8 @@ const teams = [
                 "trophies": "Macedonian First League: 1",
                 "mustKnowFact": "Lakeside champs of Struga.",
                 "active": true,
-                "logo": "logos/fk_struga.png",
-                "uniform": "uniforms/fk_struga.png"
+                "logo": "logos/fk_struga.webp",
+                "uniform": "uniforms/fk_struga.webp"
             },
             {
                 "name": "FK Sileks",
@@ -23591,8 +23531,8 @@ const teams = [
                 "trophies": "Macedonian First League: 3",
                 "mustKnowFact": "Kratovo's steelmen.",
                 "active": true,
-                "logo": "logos/fk_sileks.png",
-                "uniform": "uniforms/fk_sileks.png"
+                "logo": "logos/fk_sileks.webp",
+                "uniform": "uniforms/fk_sileks.webp"
             },
             {
                 "name": "FK Akademija Pandev",
@@ -23606,8 +23546,8 @@ const teams = [
                 "trophies": "Macedonian Cup: 1",
                 "mustKnowFact": "Pandev's academy stars.",
                 "active": true,
-                "logo": "logos/fk_akademija_pandev.png",
-                "uniform": "uniforms/fk_akademija_pandev.png"
+                "logo": "logos/fk_akademija_pandev.webp",
+                "uniform": "uniforms/fk_akademija_pandev.webp"
             },
             {
                 "name": "FK Bregalnica Štip",
@@ -23621,8 +23561,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blues of Štip.",
                 "active": true,
-                "logo": "logos/fk_bregalnica_stip.png",
-                "uniform": "uniforms/fk_bregalnica_stip.png"
+                "logo": "logos/fk_bregalnica_stip.webp",
+                "uniform": "uniforms/fk_bregalnica_stip.webp"
             },
             {
                 "name": "FK Pelister",
@@ -23636,8 +23576,8 @@ const teams = [
                 "trophies": "Macedonian Cup: 2",
                 "mustKnowFact": "Green-whites of Bitola.",
                 "active": true,
-                "logo": "logos/fk_pelister.png",
-                "uniform": "uniforms/fk_pelister.png"
+                "logo": "logos/fk_pelister.webp",
+                "uniform": "uniforms/fk_pelister.webp"
             },
             {
                 "name": "FK Besa 1976",
@@ -23651,8 +23591,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Skopje's reborn club.",
                 "active": true,
-                "logo": "logos/fk_besa_1976.png",
-                "uniform": "uniforms/fk_besa_1976.png"
+                "logo": "logos/fk_besa_1976.webp",
+                "uniform": "uniforms/fk_besa_1976.webp"
             },
             {
                 "name": "FK Tikvesh",
@@ -23666,8 +23606,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Winegrowers of Kavadarci.",
                 "active": true,
-                "logo": "logos/fk_tikvesh.png",
-                "uniform": "uniforms/fk_tikvesh.png"
+                "logo": "logos/fk_tikvesh.webp",
+                "uniform": "uniforms/fk_tikvesh.webp"
             },
             {
                 "name": "FK Voska Sport",
@@ -23681,8 +23621,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Ohrid's lake warriors.",
                 "active": true,
-                "logo": "logos/fk_voska_sport.png",
-                "uniform": "uniforms/fk_voska_sport.png"
+                "logo": "logos/fk_voska_sport.webp",
+                "uniform": "uniforms/fk_voska_sport.webp"
             },
             {
                 "name": "KR Reykjavík",
@@ -23696,8 +23636,8 @@ const teams = [
                 "trophies": "Icelandic League: 27, Icelandic Cup: 14",
                 "mustKnowFact": "Iceland's most successful club.",
                 "active": true,
-                "logo": "logos/kr_reykjavik.png",
-                "uniform": "uniforms/kr_reykjavik.png"
+                "logo": "logos/kr_reykjavik.webp",
+                "uniform": "uniforms/kr_reykjavik.webp"
             },
             {
                 "name": "Valur",
@@ -23711,8 +23651,8 @@ const teams = [
                 "trophies": "Icelandic League: 23, Icelandic Cup: 11",
                 "mustKnowFact": "Red-whites of Reykjavík.",
                 "active": true,
-                "logo": "logos/valur.png",
-                "uniform": "uniforms/valur.png"
+                "logo": "logos/valur.webp",
+                "uniform": "uniforms/valur.webp"
             },
             {
                 "name": "Víkingur Reykjavík",
@@ -23726,8 +23666,8 @@ const teams = [
                 "trophies": "Icelandic League: 7, Icelandic Cup: 4",
                 "mustKnowFact": "Vikings of the capital.",
                 "active": true,
-                "logo": "logos/vikingur_reykjavik.png",
-                "uniform": "uniforms/vikingur_reykjavik.png"
+                "logo": "logos/vikingur_reykjavik.webp",
+                "uniform": "uniforms/vikingur_reykjavik.webp"
             },
             {
                 "name": "Breiðablik",
@@ -23741,8 +23681,8 @@ const teams = [
                 "trophies": "Icelandic League: 2, Icelandic Cup: 1",
                 "mustKnowFact": "Green stars of Kópavogur.",
                 "active": true,
-                "logo": "logos/breidablik.png",
-                "uniform": "uniforms/breidablik.png"
+                "logo": "logos/breidablik.webp",
+                "uniform": "uniforms/breidablik.webp"
             },
             {
                 "name": "FH Hafnarfjörður",
@@ -23756,8 +23696,8 @@ const teams = [
                 "trophies": "Icelandic League: 8, Icelandic Cup: 2",
                 "mustKnowFact": "Black-whites of Hafnarfjörður.",
                 "active": true,
-                "logo": "logos/fh_hafnarfjordur.png",
-                "uniform": "uniforms/fh_hafnarfjordur.png"
+                "logo": "logos/fh_hafnarfjordur.webp",
+                "uniform": "uniforms/fh_hafnarfjordur.webp"
             },
             {
                 "name": "Stjarnan",
@@ -23771,8 +23711,8 @@ const teams = [
                 "trophies": "Icelandic League: 1, Icelandic Cup: 1",
                 "mustKnowFact": "Stars of Garðabær.",
                 "active": true,
-                "logo": "logos/stjarnan.png",
-                "uniform": "uniforms/stjarnan.png"
+                "logo": "logos/stjarnan.webp",
+                "uniform": "uniforms/stjarnan.webp"
             },
             {
                 "name": "KA Akureyri",
@@ -23786,8 +23726,8 @@ const teams = [
                 "trophies": "Icelandic League: 1, Icelandic Cup: 1",
                 "mustKnowFact": "Northern lights of Akureyri.",
                 "active": true,
-                "logo": "logos/ka_akureyri.png",
-                "uniform": "uniforms/ka_akureyri.png"
+                "logo": "logos/ka_akureyri.webp",
+                "uniform": "uniforms/ka_akureyri.webp"
             },
             {
                 "name": "ÍBV Vestmannaeyjar",
@@ -23801,8 +23741,8 @@ const teams = [
                 "trophies": "Icelandic League: 3, Icelandic Cup: 5",
                 "mustKnowFact": "Island warriors of Vestmannaeyjar.",
                 "active": true,
-                "logo": "logos/ibv_vestmannaeyjar.png",
-                "uniform": "uniforms/ibv_vestmannaeyjar.png"
+                "logo": "logos/ibv_vestmannaeyjar.webp",
+                "uniform": "uniforms/ibv_vestmannaeyjar.webp"
             },
             {
                 "name": "Fram Reykjavík",
@@ -23816,8 +23756,8 @@ const teams = [
                 "trophies": "Icelandic League: 18, Icelandic Cup: 8",
                 "mustKnowFact": "Blue-whites of Reykjavík.",
                 "active": true,
-                "logo": "logos/fram_reykjavik.png",
-                "uniform": "uniforms/fram_reykjavik.png"
+                "logo": "logos/fram_reykjavik.webp",
+                "uniform": "uniforms/fram_reykjavik.webp"
             },
             {
                 "name": "Fylkir",
@@ -23831,8 +23771,8 @@ const teams = [
                 "trophies": "Icelandic Cup: 2",
                 "mustKnowFact": "Orange army of Reykjavík.",
                 "active": true,
-                "logo": "logos/fylkir.png",
-                "uniform": "uniforms/fylkir.png"
+                "logo": "logos/fylkir.webp",
+                "uniform": "uniforms/fylkir.webp"
             },
             {
                 "name": "HK Kópavogur",
@@ -23846,8 +23786,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kópavogur's battlers.",
                 "active": true,
-                "logo": "logos/hk_kopavogur.png",
-                "uniform": "uniforms/hk_kopavogur.png"
+                "logo": "logos/hk_kopavogur.webp",
+                "uniform": "uniforms/hk_kopavogur.webp"
             },
             {
                 "name": "ÍA Akranes",
@@ -23861,8 +23801,8 @@ const teams = [
                 "trophies": "Icelandic League: 18, Icelandic Cup: 9",
                 "mustKnowFact": "Yellow-blacks of Akranes.",
                 "active": true,
-                "logo": "logos/ia_akranes.png",
-                "uniform": "uniforms/ia_akranes.png"
+                "logo": "logos/ia_akranes.webp",
+                "uniform": "uniforms/ia_akranes.webp"
             },
             {
                 "name": "CSD Municipal",
@@ -23876,8 +23816,8 @@ const teams = [
                 "trophies": "Liga Nacional: 31, CONCACAF Champions Cup: 1",
                 "mustKnowFact": "Red devils of Guatemala.",
                 "active": true,
-                "logo": "logos/csd_municipal.png",
-                "uniform": "uniforms/csd_municipal.png"
+                "logo": "logos/csd_municipal.webp",
+                "uniform": "uniforms/csd_municipal.webp"
             },
             {
                 "name": "Comunicaciones FC",
@@ -23891,8 +23831,8 @@ const teams = [
                 "trophies": "Liga Nacional: 32, CONCACAF Champions Cup: 1",
                 "mustKnowFact": "Creams of the capital.",
                 "active": true,
-                "logo": "logos/comunicaciones_fc.png",
-                "uniform": "uniforms/comunicaciones_fc.png"
+                "logo": "logos/comunicaciones_fc.webp",
+                "uniform": "uniforms/comunicaciones_fc.webp"
             },
             {
                 "name": "Antigua GFC",
@@ -23906,8 +23846,8 @@ const teams = [
                 "trophies": "Liga Nacional: 4",
                 "mustKnowFact": "Colonial warriors of Antigua.",
                 "active": true,
-                "logo": "logos/antigua_gfc.png",
-                "uniform": "uniforms/antigua_gfc.png"
+                "logo": "logos/antigua_gfc.webp",
+                "uniform": "uniforms/antigua_gfc.webp"
             },
             {
                 "name": "Coban Imperial",
@@ -23921,8 +23861,8 @@ const teams = [
                 "trophies": "Liga Nacional: 2",
                 "mustKnowFact": "Princes of Alta Verapaz.",
                 "active": true,
-                "logo": "logos/coban_imperial.png",
-                "uniform": "uniforms/coban_imperial.png"
+                "logo": "logos/coban_imperial.webp",
+                "uniform": "uniforms/coban_imperial.webp"
             },
             {
                 "name": "Xelajú MC",
@@ -23936,8 +23876,8 @@ const teams = [
                 "trophies": "Liga Nacional: 6",
                 "mustKnowFact": "Super goats of Xela.",
                 "active": true,
-                "logo": "logos/xelaju_mc.png",
-                "uniform": "uniforms/xelaju_mc.png"
+                "logo": "logos/xelaju_mc.webp",
+                "uniform": "uniforms/xelaju_mc.webp"
             },
             {
                 "name": "Malacateco",
@@ -23951,8 +23891,8 @@ const teams = [
                 "trophies": "Liga Nacional: 1",
                 "mustKnowFact": "Bulls of Malacatán.",
                 "active": true,
-                "logo": "logos/malacateco.png",
-                "uniform": "uniforms/malacateco.png"
+                "logo": "logos/malacateco.webp",
+                "uniform": "uniforms/malacateco.webp"
             },
             {
                 "name": "Deportivo Guastatoya",
@@ -23966,8 +23906,8 @@ const teams = [
                 "trophies": "Liga Nacional: 3",
                 "mustKnowFact": "Yellow chests of Guastatoya.",
                 "active": true,
-                "logo": "logos/deportivo_guastatoya.png",
-                "uniform": "uniforms/deportivo_guastatoya.png"
+                "logo": "logos/deportivo_guastatoya.webp",
+                "uniform": "uniforms/deportivo_guastatoya.webp"
             },
             {
                 "name": "Deportivo Achuapa",
@@ -23981,8 +23921,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cebolleros of Achuapa.",
                 "active": true,
-                "logo": "logos/deportivo_achuapa.png",
-                "uniform": "uniforms/deportivo_achuapa.png"
+                "logo": "logos/deportivo_achuapa.webp",
+                "uniform": "uniforms/deportivo_achuapa.webp"
             },
             {
                 "name": "Deportivo Mixco",
@@ -23996,8 +23936,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Chicharroneros of Mixco.",
                 "active": true,
-                "logo": "logos/deportivo_mixco.png",
-                "uniform": "uniforms/deportivo_mixco.png"
+                "logo": "logos/deportivo_mixco.webp",
+                "uniform": "uniforms/deportivo_mixco.webp"
             },
             {
                 "name": "CSD Xinabajul",
@@ -24011,8 +23951,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Horses of Huehuetenango.",
                 "active": true,
-                "logo": "logos/csd_xinabajul.png",
-                "uniform": "uniforms/csd_xinabajul.png"
+                "logo": "logos/csd_xinabajul.webp",
+                "uniform": "uniforms/csd_xinabajul.webp"
             },
             {
                 "name": "Deportivo Marquense",
@@ -24026,8 +23966,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lions of San Marcos.",
                 "active": true,
-                "logo": "logos/deportivo_marquense.png",
-                "uniform": "uniforms/deportivo_marquense.png"
+                "logo": "logos/deportivo_marquense.webp",
+                "uniform": "uniforms/deportivo_marquense.webp"
             },
             {
                 "name": "Juventud Pinulteca",
@@ -24041,8 +23981,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Pinula.",
                 "active": true,
-                "logo": "logos/juventud_pinulteca.png",
-                "uniform": "uniforms/juventud_pinulteca.png"
+                "logo": "logos/juventud_pinulteca.webp",
+                "uniform": "uniforms/juventud_pinulteca.webp"
             },
             {
                 "name": "Portmore United FC",
@@ -24056,8 +23996,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 7, CFU Club Championship: 2",
                 "mustKnowFact": "Portmore's dominant force.",
                 "active": true,
-                "logo": "logos/portmore_united_fc.png",
-                "uniform": "uniforms/portmore_united_fc.png"
+                "logo": "logos/portmore_united_fc.webp",
+                "uniform": "uniforms/portmore_united_fc.webp"
             },
             {
                 "name": "Waterhouse FC",
@@ -24071,8 +24011,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 2",
                 "mustKnowFact": "Waterhouse warriors.",
                 "active": true,
-                "logo": "logos/waterhouse_fc.png",
-                "uniform": "uniforms/waterhouse_fc.png"
+                "logo": "logos/waterhouse_fc.webp",
+                "uniform": "uniforms/waterhouse_fc.webp"
             },
             {
                 "name": "Arnett Gardens FC",
@@ -24086,8 +24026,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 5",
                 "mustKnowFact": "Junglists of Kingston.",
                 "active": true,
-                "logo": "logos/arnett_gardens_fc.png",
-                "uniform": "uniforms/arnett_gardens_fc.png"
+                "logo": "logos/arnett_gardens_fc.webp",
+                "uniform": "uniforms/arnett_gardens_fc.webp"
             },
             {
                 "name": "Cavalier SC",
@@ -24101,8 +24041,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 2",
                 "mustKnowFact": "Young guns of Kingston.",
                 "active": true,
-                "logo": "logos/cavalier_sc.png",
-                "uniform": "uniforms/cavalier_sc.png"
+                "logo": "logos/cavalier_sc.webp",
+                "uniform": "uniforms/cavalier_sc.webp"
             },
             {
                 "name": "Mount Pleasant FA",
@@ -24116,8 +24056,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 1",
                 "mustKnowFact": "St. Ann's rising stars.",
                 "active": true,
-                "logo": "logos/mount_pleasant_fa.png",
-                "uniform": "uniforms/mount_pleasant_fa.png"
+                "logo": "logos/mount_pleasant_fa.webp",
+                "uniform": "uniforms/mount_pleasant_fa.webp"
             },
             {
                 "name": "Humble Lions FC",
@@ -24131,8 +24071,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lions of Clarendon.",
                 "active": true,
-                "logo": "logos/humble_lions_fc.png",
-                "uniform": "uniforms/humble_lions_fc.png"
+                "logo": "logos/humble_lions_fc.webp",
+                "uniform": "uniforms/humble_lions_fc.webp"
             },
             {
                 "name": "Tivoli Gardens FC",
@@ -24146,8 +24086,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 5",
                 "mustKnowFact": "Tivoli's orange army.",
                 "active": true,
-                "logo": "logos/tivoli_gardens_fc.png",
-                "uniform": "uniforms/tivoli_gardens_fc.png"
+                "logo": "logos/tivoli_gardens_fc.webp",
+                "uniform": "uniforms/tivoli_gardens_fc.webp"
             },
             {
                 "name": "Harbour View FC",
@@ -24161,8 +24101,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 4, CFU Club Championship: 2",
                 "mustKnowFact": "Stars of the East.",
                 "active": true,
-                "logo": "logos/harbour_view_fc.png",
-                "uniform": "uniforms/harbour_view_fc.png"
+                "logo": "logos/harbour_view_fc.webp",
+                "uniform": "uniforms/harbour_view_fc.webp"
             },
             {
                 "name": "Montego Bay United",
@@ -24176,8 +24116,8 @@ const teams = [
                 "trophies": "Jamaica Premier League: 2",
                 "mustKnowFact": "MoBay's seaside warriors.",
                 "active": true,
-                "logo": "logos/montego_bay_united.png",
-                "uniform": "uniforms/montego_bay_united.png"
+                "logo": "logos/montego_bay_united.webp",
+                "uniform": "uniforms/montego_bay_united.webp"
             },
             {
                 "name": "Dunbeholden FC",
@@ -24191,8 +24131,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Spanish Town's contenders.",
                 "active": true,
-                "logo": "logos/dunbeholden_fc.png",
-                "uniform": "uniforms/dunbeholden_fc.png"
+                "logo": "logos/dunbeholden_fc.webp",
+                "uniform": "uniforms/dunbeholden_fc.webp"
             },
             {
                 "name": "Vere United FC",
@@ -24206,8 +24146,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vere's united front.",
                 "active": true,
-                "logo": "logos/vere_united_fc.png",
-                "uniform": "uniforms/vere_united_fc.png"
+                "logo": "logos/vere_united_fc.webp",
+                "uniform": "uniforms/vere_united_fc.webp"
             },
             {
                 "name": "Molynes United FC",
@@ -24221,8 +24161,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Molynes' green army.",
                 "active": true,
-                "logo": "logos/molynes_united_fc.png",
-                "uniform": "uniforms/molynes_united_fc.png"
+                "logo": "logos/molynes_united_fc.webp",
+                "uniform": "uniforms/molynes_united_fc.webp"
             },
             {
                 "name": "Chapelton Maroons FC",
@@ -24236,8 +24176,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Maroons of Clarendon.",
                 "active": true,
-                "logo": "logos/chapelton_maroons_fc.png",
-                "uniform": "uniforms/chapelton_maroons_fc.png"
+                "logo": "logos/chapelton_maroons_fc.webp",
+                "uniform": "uniforms/chapelton_maroons_fc.webp"
             },
             {
                 "name": "Treasure Beach FC",
@@ -24251,8 +24191,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Coastal stars of St. Elizabeth.",
                 "active": true,
-                "logo": "logos/treasure_beach_fc.png",
-                "uniform": "uniforms/treasure_beach_fc.png"
+                "logo": "logos/treasure_beach_fc.webp",
+                "uniform": "uniforms/treasure_beach_fc.webp"
             },
             {
                 "name": "Costa do Sol",
@@ -24266,8 +24206,8 @@ const teams = [
                 "trophies": "Moçambola: 10, Taça de Moçambique: 12",
                 "mustKnowFact": "Canaries of Maputo.",
                 "active": true,
-                "logo": "logos/costa_do_sol.png",
-                "uniform": "uniforms/costa_do_sol.png"
+                "logo": "logos/costa_do_sol.webp",
+                "uniform": "uniforms/costa_do_sol.webp"
             },
             {
                 "name": "Ferroviário de Maputo",
@@ -24281,8 +24221,8 @@ const teams = [
                 "trophies": "Moçambola: 10, Taça de Moçambique: 5",
                 "mustKnowFact": "Locomotives of Maputo.",
                 "active": true,
-                "logo": "logos/ferroviario_de_maputo.png",
-                "uniform": "uniforms/ferroviario_de_maputo.png"
+                "logo": "logos/ferroviario_de_maputo.webp",
+                "uniform": "uniforms/ferroviario_de_maputo.webp"
             },
             {
                 "name": "UD Songo",
@@ -24296,8 +24236,8 @@ const teams = [
                 "trophies": "Moçambola: 3",
                 "mustKnowFact": "Hydroelectric heroes.",
                 "active": true,
-                "logo": "logos/ud_songo.png",
-                "uniform": "uniforms/ud_songo.png"
+                "logo": "logos/ud_songo.webp",
+                "uniform": "uniforms/ud_songo.webp"
             },
             {
                 "name": "Liga Desportiva de Maputo",
@@ -24311,8 +24251,8 @@ const teams = [
                 "trophies": "Moçambola: 3",
                 "mustKnowFact": "Muslims of Maputo.",
                 "active": true,
-                "logo": "logos/liga_desportiva_de_maputo.png",
-                "uniform": "uniforms/liga_desportiva_de_maputo.png"
+                "logo": "logos/liga_desportiva_de_maputo.webp",
+                "uniform": "uniforms/liga_desportiva_de_maputo.webp"
             },
             {
                 "name": "Black Bulls",
@@ -24326,8 +24266,8 @@ const teams = [
                 "trophies": "Moçambola: 1",
                 "mustKnowFact": "Maputo's new bulls.",
                 "active": true,
-                "logo": "logos/black_bulls.png",
-                "uniform": "uniforms/black_bulls.png"
+                "logo": "logos/black_bulls.webp",
+                "uniform": "uniforms/black_bulls.webp"
             },
             {
                 "name": "Ferroviário da Beira",
@@ -24341,8 +24281,8 @@ const teams = [
                 "trophies": "Moçambola: 1",
                 "mustKnowFact": "Beira's locomotives.",
                 "active": true,
-                "logo": "logos/ferroviario_da_beira.png",
-                "uniform": "uniforms/ferroviario_da_beira.png"
+                "logo": "logos/ferroviario_da_beira.webp",
+                "uniform": "uniforms/ferroviario_da_beira.webp"
             },
             {
                 "name": "Ferroviário de Nampula",
@@ -24356,8 +24296,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Nampula's railwaymen.",
                 "active": true,
-                "logo": "logos/ferroviario_de_nampula.png",
-                "uniform": "uniforms/ferroviario_de_nampula.png"
+                "logo": "logos/ferroviario_de_nampula.webp",
+                "uniform": "uniforms/ferroviario_de_nampula.webp"
             },
             {
                 "name": "Clube de Chibuto",
@@ -24371,8 +24311,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Chibuto's battlers.",
                 "active": true,
-                "logo": "logos/clube_de_chibuto.png",
-                "uniform": "uniforms/clube_de_chibuto.png"
+                "logo": "logos/clube_de_chibuto.webp",
+                "uniform": "uniforms/clube_de_chibuto.webp"
             },
             {
                 "name": "Textáfrica do Chimoio",
@@ -24386,8 +24326,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Textile workers of Chimoio.",
                 "active": true,
-                "logo": "logos/textafrica_do_chimoio.png",
-                "uniform": "uniforms/textafrica_do_chimoio.png"
+                "logo": "logos/textafrica_do_chimoio.webp",
+                "uniform": "uniforms/textafrica_do_chimoio.webp"
             },
             {
                 "name": "ENH de Vilankulo",
@@ -24401,8 +24341,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vilankulo's coastal stars.",
                 "active": true,
-                "logo": "logos/enh_de_vilankulo.png",
-                "uniform": "uniforms/enh_de_vilankulo.png"
+                "logo": "logos/enh_de_vilankulo.webp",
+                "uniform": "uniforms/enh_de_vilankulo.webp"
             },
             {
                 "name": "Desportivo de Nacala",
@@ -24416,8 +24356,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Nacala's northern pride.",
                 "active": true,
-                "logo": "logos/desportivo_de_nacala.png",
-                "uniform": "uniforms/desportivo_de_nacala.png"
+                "logo": "logos/desportivo_de_nacala.webp",
+                "uniform": "uniforms/desportivo_de_nacala.webp"
             },
             {
                 "name": "Baía de Pemba",
@@ -24431,8 +24371,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pemba's bay warriors.",
                 "active": true,
-                "logo": "logos/baia_de_pemba.png",
-                "uniform": "uniforms/baia_de_pemba.png"
+                "logo": "logos/baia_de_pemba.webp",
+                "uniform": "uniforms/baia_de_pemba.webp"
             },
             {
                 "name": "FC Dinamo Tbilisi",
@@ -24446,8 +24386,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 19, Soviet Top League: 2, Georgian Cup: 13, UEFA Cup Winners' Cup: 1",
                 "mustKnowFact": "Georgia's most storied club.",
                 "active": true,
-                "logo": "logos/fc_dinamo_tbilisi.png",
-                "uniform": "uniforms/fc_dinamo_tbilisi.png"
+                "logo": "logos/fc_dinamo_tbilisi.webp",
+                "uniform": "uniforms/fc_dinamo_tbilisi.webp"
             },
             {
                 "name": "FC Torpedo Kutaisi",
@@ -24461,8 +24401,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 4, Georgian Cup: 5",
                 "mustKnowFact": "Kutaisi's torpedo.",
                 "active": true,
-                "logo": "logos/fc_torpedo_kutaisi.png",
-                "uniform": "uniforms/fc_torpedo_kutaisi.png"
+                "logo": "logos/fc_torpedo_kutaisi.webp",
+                "uniform": "uniforms/fc_torpedo_kutaisi.webp"
             },
             {
                 "name": "FC Dinamo Batumi",
@@ -24476,8 +24416,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 2, Georgian Cup: 1",
                 "mustKnowFact": "Black Sea's dynamos.",
                 "active": true,
-                "logo": "logos/fc_dinamo_batumi.png",
-                "uniform": "uniforms/fc_dinamo_batumi.png"
+                "logo": "logos/fc_dinamo_batumi.webp",
+                "uniform": "uniforms/fc_dinamo_batumi.webp"
             },
             {
                 "name": "FC Dila Gori",
@@ -24491,8 +24431,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 1, Georgian Cup: 1",
                 "mustKnowFact": "Gori's blue eagles.",
                 "active": true,
-                "logo": "logos/fc_dila_gori.png",
-                "uniform": "uniforms/fc_dila_gori.png"
+                "logo": "logos/fc_dila_gori.webp",
+                "uniform": "uniforms/fc_dila_gori.webp"
             },
             {
                 "name": "FC Saburtalo Tbilisi",
@@ -24506,8 +24446,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 1, Georgian Cup: 1",
                 "mustKnowFact": "Tbilisi's modern force.",
                 "active": true,
-                "logo": "logos/fc_saburtalo_tbilisi.png",
-                "uniform": "uniforms/fc_saburtalo_tbilisi.png"
+                "logo": "logos/fc_saburtalo_tbilisi.webp",
+                "uniform": "uniforms/fc_saburtalo_tbilisi.webp"
             },
             {
                 "name": "FC Samgurali Tskhaltubo",
@@ -24521,8 +24461,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tsqaltubo's pride.",
                 "active": true,
-                "logo": "logos/fc_samgurali_tskhaltubo.png",
-                "uniform": "uniforms/fc_samgurali_tskhaltubo.png"
+                "logo": "logos/fc_samgurali_tskhaltubo.webp",
+                "uniform": "uniforms/fc_samgurali_tskhaltubo.webp"
             },
             {
                 "name": "FC Telavi",
@@ -24536,8 +24476,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wine region's warriors.",
                 "active": true,
-                "logo": "logos/fc_telavi.png",
-                "uniform": "uniforms/fc_telavi.png"
+                "logo": "logos/fc_telavi.webp",
+                "uniform": "uniforms/fc_telavi.webp"
             },
             {
                 "name": "FC Samtredia",
@@ -24551,8 +24491,8 @@ const teams = [
                 "trophies": "Erovnuli Liga: 1",
                 "mustKnowFact": "Samtredia's red-whites.",
                 "active": true,
-                "logo": "logos/fc_samtredia.png",
-                "uniform": "uniforms/fc_samtredia.png"
+                "logo": "logos/fc_samtredia.webp",
+                "uniform": "uniforms/fc_samtredia.webp"
             },
             {
                 "name": "FC Gagra",
@@ -24566,8 +24506,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gagra's Tbilisi base.",
                 "active": true,
-                "logo": "logos/fc_gagra.png",
-                "uniform": "uniforms/fc_gagra.png"
+                "logo": "logos/fc_gagra.webp",
+                "uniform": "uniforms/fc_gagra.webp"
             },
             {
                 "name": "FC Kolkheti Poti",
@@ -24581,8 +24521,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Poti's coastal club.",
                 "active": true,
-                "logo": "logos/fc_kolkheti_poti.png",
-                "uniform": "uniforms/fc_kolkheti_poti.png"
+                "logo": "logos/fc_kolkheti_poti.webp",
+                "uniform": "uniforms/fc_kolkheti_poti.webp"
             },
             {
                 "name": "Pyunik Yerevan",
@@ -24596,8 +24536,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 16, Armenian Cup: 8",
                 "mustKnowFact": "Armenia's most successful club.",
                 "active": true,
-                "logo": "logos/pyunik_yerevan.png",
-                "uniform": "uniforms/pyunik_yerevan.png"
+                "logo": "logos/pyunik_yerevan.webp",
+                "uniform": "uniforms/pyunik_yerevan.webp"
             },
             {
                 "name": "FC Ararat Yerevan",
@@ -24611,8 +24551,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 1, Soviet Top League: 2, Armenian Cup: 6",
                 "mustKnowFact": "Mount Ararat's namesake.",
                 "active": true,
-                "logo": "logos/fc_ararat_yerevan.png",
-                "uniform": "uniforms/fc_ararat_yerevan.png"
+                "logo": "logos/fc_ararat_yerevan.webp",
+                "uniform": "uniforms/fc_ararat_yerevan.webp"
             },
             {
                 "name": "FC Urartu",
@@ -24626,8 +24566,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 3, Armenian Cup: 4",
                 "mustKnowFact": "Ancient name of Armenia.",
                 "active": true,
-                "logo": "logos/fc_urartu.png",
-                "uniform": "uniforms/fc_urartu.png"
+                "logo": "logos/fc_urartu.webp",
+                "uniform": "uniforms/fc_urartu.webp"
             },
             {
                 "name": "FC Alashkert",
@@ -24641,8 +24581,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 4, Armenian Cup: 1",
                 "mustKnowFact": "Yerevan's modern champs.",
                 "active": true,
-                "logo": "logos/fc_alashkert.png",
-                "uniform": "uniforms/fc_alashkert.png"
+                "logo": "logos/fc_alashkert.webp",
+                "uniform": "uniforms/fc_alashkert.webp"
             },
             {
                 "name": "FC Noah",
@@ -24656,8 +24596,8 @@ const teams = [
                 "trophies": "Armenian Cup: 1",
                 "mustKnowFact": "Noah's ark inspiration.",
                 "active": true,
-                "logo": "logos/fc_noah.png",
-                "uniform": "uniforms/fc_noah.png"
+                "logo": "logos/fc_noah.webp",
+                "uniform": "uniforms/fc_noah.webp"
             },
             {
                 "name": "BKMA Yerevan",
@@ -24671,8 +24611,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Army academy team.",
                 "active": true,
-                "logo": "logos/bkma_yerevan.png",
-                "uniform": "uniforms/bkma_yerevan.png"
+                "logo": "logos/bkma_yerevan.webp",
+                "uniform": "uniforms/bkma_yerevan.webp"
             },
             {
                 "name": "FC Van",
@@ -24686,8 +24626,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Named after Lake Van.",
                 "active": true,
-                "logo": "logos/fc_van.png",
-                "uniform": "uniforms/fc_van.png"
+                "logo": "logos/fc_van.webp",
+                "uniform": "uniforms/fc_van.webp"
             },
             {
                 "name": "FC Ararat-Armenia",
@@ -24701,8 +24641,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 2",
                 "mustKnowFact": "Yerevan's new power.",
                 "active": true,
-                "logo": "logos/fc_ararat_armenia.png",
-                "uniform": "uniforms/fc_ararat_armenia.png"
+                "logo": "logos/fc_ararat_armenia.webp",
+                "uniform": "uniforms/fc_ararat_armenia.webp"
             },
             {
                 "name": "FC West Armenia",
@@ -24716,8 +24656,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Western Armenia's reps.",
                 "active": true,
-                "logo": "logos/fc_west_armenia.png",
-                "uniform": "uniforms/fc_west_armenia.png"
+                "logo": "logos/fc_west_armenia.webp",
+                "uniform": "uniforms/fc_west_armenia.webp"
             },
             {
                 "name": "FC Shirak",
@@ -24731,8 +24671,8 @@ const teams = [
                 "trophies": "Armenian Premier League: 4, Armenian Cup: 2",
                 "mustKnowFact": "Gyumri's black panthers.",
                 "active": true,
-                "logo": "logos/fc_shirak.png",
-                "uniform": "uniforms/fc_shirak.png"
+                "logo": "logos/fc_shirak.webp",
+                "uniform": "uniforms/fc_shirak.webp"
             },
             {
                 "name": "HJK Helsinki",
@@ -24746,8 +24686,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 32, Finnish Cup: 14",
                 "mustKnowFact": "Finland's most titled club.",
                 "active": true,
-                "logo": "logos/hjk_helsinki.png",
-                "uniform": "uniforms/hjk_helsinki.png"
+                "logo": "logos/hjk_helsinki.webp",
+                "uniform": "uniforms/hjk_helsinki.webp"
             },
             {
                 "name": "KuPS Kuopio",
@@ -24761,8 +24701,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 6, Finnish Cup: 2",
                 "mustKnowFact": "Yellow-blacks of Kuopio.",
                 "active": true,
-                "logo": "logos/kups_kuopio.png",
-                "uniform": "uniforms/kups_kuopio.png"
+                "logo": "logos/kups_kuopio.webp",
+                "uniform": "uniforms/kups_kuopio.webp"
             },
             {
                 "name": "FC Inter Turku",
@@ -24776,8 +24716,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 1, Finnish Cup: 2",
                 "mustKnowFact": "Turku's blue-blacks.",
                 "active": true,
-                "logo": "logos/fc_inter_turku.png",
-                "uniform": "uniforms/fc_inter_turku.png"
+                "logo": "logos/fc_inter_turku.webp",
+                "uniform": "uniforms/fc_inter_turku.webp"
             },
             {
                 "name": "SJK Seinäjoki",
@@ -24791,8 +24731,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 1, Finnish Cup: 1",
                 "mustKnowFact": "Seinäjoki's modern force.",
                 "active": true,
-                "logo": "logos/sjk_seinajoki.png",
-                "uniform": "uniforms/sjk_seinajoki.png"
+                "logo": "logos/sjk_seinajoki.webp",
+                "uniform": "uniforms/sjk_seinajoki.webp"
             },
             {
                 "name": "FC Haka",
@@ -24806,8 +24746,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 9, Finnish Cup: 12",
                 "mustKnowFact": "Valkeakoski's white-blacks.",
                 "active": true,
-                "logo": "logos/fc_haka.png",
-                "uniform": "uniforms/fc_haka.png"
+                "logo": "logos/fc_haka.webp",
+                "uniform": "uniforms/fc_haka.webp"
             },
             {
                 "name": "Ilves Tampere",
@@ -24821,8 +24761,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 2, Finnish Cup: 3",
                 "mustKnowFact": "Lynxes of Tampere.",
                 "active": true,
-                "logo": "logos/ilves_tampere.png",
-                "uniform": "uniforms/ilves_tampere.png"
+                "logo": "logos/ilves_tampere.webp",
+                "uniform": "uniforms/ilves_tampere.webp"
             },
             {
                 "name": "VPS Vaasa",
@@ -24836,8 +24776,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 2",
                 "mustKnowFact": "Vaasa's black-whites.",
                 "active": true,
-                "logo": "logos/vps_vaasa.png",
-                "uniform": "uniforms/vps_vaasa.png"
+                "logo": "logos/vps_vaasa.webp",
+                "uniform": "uniforms/vps_vaasa.webp"
             },
             {
                 "name": "AC Oulu",
@@ -24851,8 +24791,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern stars of Oulu.",
                 "active": true,
-                "logo": "logos/ac_oulu.png",
-                "uniform": "uniforms/ac_oulu.png"
+                "logo": "logos/ac_oulu.webp",
+                "uniform": "uniforms/ac_oulu.webp"
             },
             {
                 "name": "FC Lahti",
@@ -24866,8 +24806,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Black drones of Lahti.",
                 "active": true,
-                "logo": "logos/fc_lahti.png",
-                "uniform": "uniforms/fc_lahti.png"
+                "logo": "logos/fc_lahti.webp",
+                "uniform": "uniforms/fc_lahti.webp"
             },
             {
                 "name": "IFK Mariehamn",
@@ -24881,8 +24821,8 @@ const teams = [
                 "trophies": "Veikkausliiga: 1, Finnish Cup: 1",
                 "mustKnowFact": "Åland Islands' pride.",
                 "active": true,
-                "logo": "logos/ifk_mariehamn.png",
-                "uniform": "uniforms/ifk_mariehamn.png"
+                "logo": "logos/ifk_mariehamn.webp",
+                "uniform": "uniforms/ifk_mariehamn.webp"
             },
             {
                 "name": "Gnistan",
@@ -24896,8 +24836,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sparks of Helsinki.",
                 "active": true,
-                "logo": "logos/gnistan.png",
-                "uniform": "uniforms/gnistan.png"
+                "logo": "logos/gnistan.webp",
+                "uniform": "uniforms/gnistan.webp"
             },
             {
                 "name": "EIF Ekenäs",
@@ -24911,8 +24851,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Ekenäs's green-whites.",
                 "active": true,
-                "logo": "logos/eif_ekenas.png",
-                "uniform": "uniforms/eif_ekenas.png"
+                "logo": "logos/eif_ekenas.webp",
+                "uniform": "uniforms/eif_ekenas.webp"
             },
             {
                 "name": "Sheriff Tiraspol",
@@ -24926,8 +24866,8 @@ const teams = [
                 "trophies": "Moldovan Super Liga: 21, Moldovan Cup: 12",
                 "mustKnowFact": "Moldova's dominant force.",
                 "active": true,
-                "logo": "logos/sheriff_tiraspol.png",
-                "uniform": "uniforms/sheriff_tiraspol.png"
+                "logo": "logos/sheriff_tiraspol.webp",
+                "uniform": "uniforms/sheriff_tiraspol.webp"
             },
             {
                 "name": "FC Zimbru Chișinău",
@@ -24941,8 +24881,8 @@ const teams = [
                 "trophies": "Moldovan Super Liga: 8, Moldovan Cup: 6",
                 "mustKnowFact": "Bisons of Chișinău.",
                 "active": true,
-                "logo": "logos/fc_zimbru_chisinau.png",
-                "uniform": "uniforms/fc_zimbru_chisinau.png"
+                "logo": "logos/fc_zimbru_chisinau.webp",
+                "uniform": "uniforms/fc_zimbru_chisinau.webp"
             },
             {
                 "name": "FC Petrocub Hîncești",
@@ -24956,8 +24896,8 @@ const teams = [
                 "trophies": "Moldovan Super Liga: 1, Moldovan Cup: 1",
                 "mustKnowFact": "Hîncești's rising stars.",
                 "active": true,
-                "logo": "logos/fc_petrocub_hincesti.png",
-                "uniform": "uniforms/fc_petrocub_hincesti.png"
+                "logo": "logos/fc_petrocub_hincesti.webp",
+                "uniform": "uniforms/fc_petrocub_hincesti.webp"
             },
             {
                 "name": "FC Milsami Orhei",
@@ -24971,8 +24911,8 @@ const teams = [
                 "trophies": "Moldovan Super Liga: 1, Moldovan Cup: 2",
                 "mustKnowFact": "Red eagles of Orhei.",
                 "active": true,
-                "logo": "logos/fc_milsami_orhei.png",
-                "uniform": "uniforms/fc_milsami_orhei.png"
+                "logo": "logos/fc_milsami_orhei.webp",
+                "uniform": "uniforms/fc_milsami_orhei.webp"
             },
             {
                 "name": "FC Bălți",
@@ -24986,8 +24926,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern Moldova's pride.",
                 "active": true,
-                "logo": "logos/fc_balti.png",
-                "uniform": "uniforms/fc_balti.png"
+                "logo": "logos/fc_balti.webp",
+                "uniform": "uniforms/fc_balti.webp"
             },
             {
                 "name": "CSF Spartanii Selemet",
@@ -25001,8 +24941,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Spartans of Selemet.",
                 "active": true,
-                "logo": "logos/csf_spartanii_selemet.png",
-                "uniform": "uniforms/csf_spartanii_selemet.png"
+                "logo": "logos/csf_spartanii_selemet.webp",
+                "uniform": "uniforms/csf_spartanii_selemet.webp"
             },
             {
                 "name": "FC Dacia Buiucani",
@@ -25016,8 +24956,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Buiucani's youth academy.",
                 "active": true,
-                "logo": "logos/fc_dacia_buiucani.png",
-                "uniform": "uniforms/fc_dacia_buiucani.png"
+                "logo": "logos/fc_dacia_buiucani.webp",
+                "uniform": "uniforms/fc_dacia_buiucani.webp"
             },
             {
                 "name": "FC Florești",
@@ -25031,8 +24971,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Florești's green-whites.",
                 "active": true,
-                "logo": "logos/fc_floresti.png",
-                "uniform": "uniforms/fc_floresti.png"
+                "logo": "logos/fc_floresti.webp",
+                "uniform": "uniforms/fc_floresti.webp"
             },
             {
                 "name": "AS Otôho",
@@ -25046,8 +24986,8 @@ const teams = [
                 "trophies": "Congo Premier League: 7",
                 "mustKnowFact": "Oyo's modern champs.",
                 "active": true,
-                "logo": "logos/as_otoho.png",
-                "uniform": "uniforms/as_otoho.png"
+                "logo": "logos/as_otoho.webp",
+                "uniform": "uniforms/as_otoho.webp"
             },
             {
                 "name": "AC Léopards",
@@ -25061,8 +25001,8 @@ const teams = [
                 "trophies": "Congo Premier League: 5, CAF Confederation Cup: 1",
                 "mustKnowFact": "Leopards of Dolisie.",
                 "active": true,
-                "logo": "logos/ac_leopards.png",
-                "uniform": "uniforms/ac_leopards.png"
+                "logo": "logos/ac_leopards.webp",
+                "uniform": "uniforms/ac_leopards.webp"
             },
             {
                 "name": "Diables Noirs",
@@ -25076,8 +25016,8 @@ const teams = [
                 "trophies": "Congo Premier League: 7",
                 "mustKnowFact": "Black devils of Brazzaville.",
                 "active": true,
-                "logo": "logos/diables_noirs.png",
-                "uniform": "uniforms/diables_noirs.png"
+                "logo": "logos/diables_noirs.webp",
+                "uniform": "uniforms/diables_noirs.webp"
             },
             {
                 "name": "CARA Brazzaville",
@@ -25091,8 +25031,8 @@ const teams = [
                 "trophies": "Congo Premier League: 5",
                 "mustKnowFact": "Brazzaville's historic club.",
                 "active": true,
-                "logo": "logos/cara_brazzaville.png",
-                "uniform": "uniforms/cara_brazzaville.png"
+                "logo": "logos/cara_brazzaville.webp",
+                "uniform": "uniforms/cara_brazzaville.webp"
             },
             {
                 "name": "Étoile du Congo",
@@ -25106,8 +25046,8 @@ const teams = [
                 "trophies": "Congo Premier League: 3",
                 "mustKnowFact": "Stars of the Congo.",
                 "active": true,
-                "logo": "logos/etoile_du_congo.png",
-                "uniform": "uniforms/etoile_du_congo.png"
+                "logo": "logos/etoile_du_congo.webp",
+                "uniform": "uniforms/etoile_du_congo.webp"
             },
             {
                 "name": "Inter Club",
@@ -25121,8 +25061,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Brazzaville's inter squad.",
                 "active": true,
-                "logo": "logos/inter_club.png",
-                "uniform": "uniforms/inter_club.png"
+                "logo": "logos/inter_club.webp",
+                "uniform": "uniforms/inter_club.webp"
             },
             {
                 "name": "JS Talangaï",
@@ -25136,8 +25076,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Talangaï's warriors.",
                 "active": true,
-                "logo": "logos/js_talangai.png",
-                "uniform": "uniforms/js_talangai.png"
+                "logo": "logos/js_talangai.webp",
+                "uniform": "uniforms/js_talangai.webp"
             },
             {
                 "name": "AS Cheminots",
@@ -25151,8 +25091,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Railwaymen of Pointe-Noire.",
                 "active": true,
-                "logo": "logos/as_cheminots.png",
-                "uniform": "uniforms/as_cheminots.png"
+                "logo": "logos/as_cheminots.webp",
+                "uniform": "uniforms/as_cheminots.webp"
             },
             {
                 "name": "FC Kondzo",
@@ -25166,8 +25106,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kondzo's fighters.",
                 "active": true,
-                "logo": "logos/fc_kondzo.png",
-                "uniform": "uniforms/fc_kondzo.png"
+                "logo": "logos/fc_kondzo.webp",
+                "uniform": "uniforms/fc_kondzo.webp"
             },
             {
                 "name": "AS Juk",
@@ -25181,8 +25121,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pointe-Noire's youth.",
                 "active": true,
-                "logo": "logos/as_juk.png",
-                "uniform": "uniforms/as_juk.png"
+                "logo": "logos/as_juk.webp",
+                "uniform": "uniforms/as_juk.webp"
             },
             {
                 "name": "Vita Club Mokanda",
@@ -25196,8 +25136,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mokanda's vital club.",
                 "active": true,
-                "logo": "logos/vita_club_mokanda.png",
-                "uniform": "uniforms/vita_club_mokanda.png"
+                "logo": "logos/vita_club_mokanda.webp",
+                "uniform": "uniforms/vita_club_mokanda.webp"
             },
             {
                 "name": "Nico-Nicoyé",
@@ -25211,8 +25151,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pointe-Noire's battlers.",
                 "active": true,
-                "logo": "logos/nico_nicoye.png",
-                "uniform": "uniforms/nico_nicoye.png"
+                "logo": "logos/nico_nicoye.webp",
+                "uniform": "uniforms/nico_nicoye.webp"
             },
             {
                 "name": "AS BNG",
@@ -25226,8 +25166,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Brazzaville's new generation.",
                 "active": true,
-                "logo": "logos/as_bng.png",
-                "uniform": "uniforms/as_bng.png"
+                "logo": "logos/as_bng.webp",
+                "uniform": "uniforms/as_bng.webp"
             },
             {
                 "name": "Jeunesse Sportive de Dolisie",
@@ -25241,8 +25181,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dolisie's youth stars.",
                 "active": true,
-                "logo": "logos/jeunesse_sportive_de_dolisie.png",
-                "uniform": "uniforms/jeunesse_sportive_de_dolisie.png"
+                "logo": "logos/jeunesse_sportive_de_dolisie.webp",
+                "uniform": "uniforms/jeunesse_sportive_de_dolisie.webp"
             },
             {
                 "name": "CNaPS Sport",
@@ -25256,8 +25196,8 @@ const teams = [
                 "trophies": "Madagascar Pro League: 8, Coupe de Madagascar: 5",
                 "mustKnowFact": "Madagascar's most successful club.",
                 "active": true,
-                "logo": "logos/cnap_sport.png",
-                "uniform": "uniforms/cnap_sport.png"
+                "logo": "logos/cnap_sport.webp",
+                "uniform": "uniforms/cnap_sport.webp"
             },
             {
                 "name": "AS Adema",
@@ -25271,8 +25211,8 @@ const teams = [
                 "trophies": "Madagascar Pro League: 3",
                 "mustKnowFact": "Famous for 149-0 win.",
                 "active": true,
-                "logo": "logos/as_adema.png",
-                "uniform": "uniforms/as_adema.png"
+                "logo": "logos/as_adema.webp",
+                "uniform": "uniforms/as_adema.webp"
             },
             {
                 "name": "Fosa Juniors FC",
@@ -25286,8 +25226,8 @@ const teams = [
                 "trophies": "Madagascar Pro League: 2",
                 "mustKnowFact": "Boeny's rising stars.",
                 "active": true,
-                "logo": "logos/fosa_juniors_fc.png",
-                "uniform": "uniforms/fosa_juniors_fc.png"
+                "logo": "logos/fosa_juniors_fc.webp",
+                "uniform": "uniforms/fosa_juniors_fc.webp"
             },
             {
                 "name": "Elgeco Plus",
@@ -25301,8 +25241,8 @@ const teams = [
                 "trophies": "Madagascar Pro League: 1",
                 "mustKnowFact": "Antananarivo's modern force.",
                 "active": true,
-                "logo": "logos/elgeco_plus.png",
-                "uniform": "uniforms/elgeco_plus.png"
+                "logo": "logos/elgeco_plus.webp",
+                "uniform": "uniforms/elgeco_plus.webp"
             },
             {
                 "name": "AS Saint Michel",
@@ -25316,8 +25256,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Saint Michel's warriors.",
                 "active": true,
-                "logo": "logos/as_saint_michel.png",
-                "uniform": "uniforms/as_saint_michel.png"
+                "logo": "logos/as_saint_michel.webp",
+                "uniform": "uniforms/as_saint_michel.webp"
             },
             {
                 "name": "Ajesaia",
@@ -25331,8 +25271,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Antsirabe's pride.",
                 "active": true,
-                "logo": "logos/ajesaia.png",
-                "uniform": "uniforms/ajesaia.png"
+                "logo": "logos/ajesaia.webp",
+                "uniform": "uniforms/ajesaia.webp"
             },
             {
                 "name": "COSFA",
@@ -25346,8 +25286,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Military club of Antananarivo.",
                 "active": true,
-                "logo": "logos/cosfa.png",
-                "uniform": "uniforms/cosfa.png"
+                "logo": "logos/cosfa.webp",
+                "uniform": "uniforms/cosfa.webp"
             },
             {
                 "name": "Disciples FC",
@@ -25361,8 +25301,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Disciples of the capital.",
                 "active": true,
-                "logo": "logos/disciples_fc.png",
-                "uniform": "uniforms/disciples_fc.png"
+                "logo": "logos/disciples_fc.webp",
+                "uniform": "uniforms/disciples_fc.webp"
             },
             {
                 "name": "FC Vakinankaratra",
@@ -25376,8 +25316,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vakinankaratra's representatives.",
                 "active": true,
-                "logo": "logos/fc_vakinankaratra.png",
-                "uniform": "uniforms/fc_vakinankaratra.png"
+                "logo": "logos/fc_vakinankaratra.webp",
+                "uniform": "uniforms/fc_vakinankaratra.webp"
             },
             {
                 "name": "ASJF Capricorne",
@@ -25391,8 +25331,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Capricorns of Toamasina.",
                 "active": true,
-                "logo": "logos/asjf_capricorne.png",
-                "uniform": "uniforms/asjf_capricorne.png"
+                "logo": "logos/asjf_capricorne.webp",
+                "uniform": "uniforms/asjf_capricorne.webp"
             },
             {
                 "name": "Tia Kitra",
@@ -25406,8 +25346,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Antananarivo's new blood.",
                 "active": true,
-                "logo": "logos/tia_kitra.png",
-                "uniform": "uniforms/tia_kitra.png"
+                "logo": "logos/tia_kitra.webp",
+                "uniform": "uniforms/tia_kitra.webp"
             },
             {
                 "name": "Mama FC",
@@ -25421,8 +25361,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mother's team of Antananarivo.",
                 "active": true,
-                "logo": "logos/mama_fc.png",
-                "uniform": "uniforms/mama_fc.png"
+                "logo": "logos/mama_fc.webp",
+                "uniform": "uniforms/mama_fc.webp"
             },
             {
                 "name": "Rova FC",
@@ -25436,8 +25376,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Fianarantsoa's rova.",
                 "active": true,
-                "logo": "logos/rova_fc.png",
-                "uniform": "uniforms/rova_fc.png"
+                "logo": "logos/rova_fc.webp",
+                "uniform": "uniforms/rova_fc.webp"
             },
             {
                 "name": "CSAF",
@@ -25451,8 +25391,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Antananarivo's army club.",
                 "active": true,
-                "logo": "logos/csaf.png",
-                "uniform": "uniforms/csaf.png"
+                "logo": "logos/csaf.webp",
+                "uniform": "uniforms/csaf.webp"
             },
             {
                 "name": "FC Ihosy",
@@ -25466,8 +25406,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Ihosy's southern stars.",
                 "active": true,
-                "logo": "logos/fc_ihosy.png",
-                "uniform": "uniforms/fc_ihosy.png"
+                "logo": "logos/fc_ihosy.webp",
+                "uniform": "uniforms/fc_ihosy.webp"
             },
             {
                 "name": "Zatovo FC",
@@ -25481,8 +25421,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mahajanga's youth.",
                 "active": true,
-                "logo": "logos/zatovo_fc.png",
-                "uniform": "uniforms/zatovo_fc.png"
+                "logo": "logos/zatovo_fc.webp",
+                "uniform": "uniforms/zatovo_fc.webp"
             },
             {
                 "name": "ASCK",
@@ -25496,8 +25436,8 @@ const teams = [
                 "trophies": "Togo Championnat National: 3",
                 "mustKnowFact": "Drivers of Kara.",
                 "active": true,
-                "logo": "logos/asck.png",
-                "uniform": "uniforms/asck.png"
+                "logo": "logos/asck.webp",
+                "uniform": "uniforms/asck.webp"
             },
             {
                 "name": "Dynamic Togolais",
@@ -25511,8 +25451,8 @@ const teams = [
                 "trophies": "Togo Championnat National: 6",
                 "mustKnowFact": "Lomé's historic dynamos.",
                 "active": true,
-                "logo": "logos/dynamic_togolais.png",
-                "uniform": "uniforms/dynamic_togolais.png"
+                "logo": "logos/dynamic_togolais.webp",
+                "uniform": "uniforms/dynamic_togolais.webp"
             },
             {
                 "name": "AS Togo-Port",
@@ -25526,8 +25466,8 @@ const teams = [
                 "trophies": "Togo Championnat National: 2",
                 "mustKnowFact": "Port workers of Lomé.",
                 "active": true,
-                "logo": "logos/as_togo_port.png",
-                "uniform": "uniforms/as_togo_port.png"
+                "logo": "logos/as_togo_port.webp",
+                "uniform": "uniforms/as_togo_port.webp"
             },
             {
                 "name": "Semassi FC",
@@ -25541,8 +25481,8 @@ const teams = [
                 "trophies": "Togo Championnat National: 8",
                 "mustKnowFact": "Sokodé's warriors.",
                 "active": true,
-                "logo": "logos/semassi_fc.png",
-                "uniform": "uniforms/semassi_fc.png"
+                "logo": "logos/semassi_fc.webp",
+                "uniform": "uniforms/semassi_fc.webp"
             },
             {
                 "name": "US Koroki",
@@ -25556,8 +25496,8 @@ const teams = [
                 "trophies": "Togo Championnat National: 1",
                 "mustKnowFact": "Tchamba's rising stars.",
                 "active": true,
-                "logo": "logos/us_koroki.png",
-                "uniform": "uniforms/us_koroki.png"
+                "logo": "logos/us_koroki.webp",
+                "uniform": "uniforms/us_koroki.webp"
             },
             {
                 "name": "Gomido FC",
@@ -25571,8 +25511,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kpalimé's pride.",
                 "active": true,
-                "logo": "logos/gomido_fc.png",
-                "uniform": "uniforms/gomido_fc.png"
+                "logo": "logos/gomido_fc.webp",
+                "uniform": "uniforms/gomido_fc.webp"
             },
             {
                 "name": "Entente II",
@@ -25586,8 +25526,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lomé's second unity.",
                 "active": true,
-                "logo": "logos/entente_ii.png",
-                "uniform": "uniforms/entente_ii.png"
+                "logo": "logos/entente_ii.webp",
+                "uniform": "uniforms/entente_ii.webp"
             },
             {
                 "name": "AS OTR",
@@ -25601,8 +25541,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tax collectors of Lomé.",
                 "active": true,
-                "logo": "logos/as_otr.png",
-                "uniform": "uniforms/as_otr.png"
+                "logo": "logos/as_otr.webp",
+                "uniform": "uniforms/as_otr.webp"
             },
             {
                 "name": "Sara FC",
@@ -25616,8 +25556,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bafilo's battlers.",
                 "active": true,
-                "logo": "logos/sara_fc.png",
-                "uniform": "uniforms/sara_fc.png"
+                "logo": "logos/sara_fc.webp",
+                "uniform": "uniforms/sara_fc.webp"
             },
             {
                 "name": "Kakadl FC",
@@ -25631,8 +25571,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Doufelgou's eagles.",
                 "active": true,
-                "logo": "logos/kakadl_fc.png",
-                "uniform": "uniforms/kakadl_fc.png"
+                "logo": "logos/kakadl_fc.webp",
+                "uniform": "uniforms/kakadl_fc.webp"
             },
             {
                 "name": "Anges FC",
@@ -25646,8 +25586,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Angels of Notsé.",
                 "active": true,
-                "logo": "logos/anges_fc.png",
-                "uniform": "uniforms/anges_fc.png"
+                "logo": "logos/anges_fc.webp",
+                "uniform": "uniforms/anges_fc.webp"
             },
             {
                 "name": "Espoir FC",
@@ -25661,8 +25601,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hope of Tsévié.",
                 "active": true,
-                "logo": "logos/espoir_fc.png",
-                "uniform": "uniforms/espoir_fc.png"
+                "logo": "logos/espoir_fc.webp",
+                "uniform": "uniforms/espoir_fc.webp"
             },
             {
                 "name": "Tambo FC",
@@ -25676,8 +25616,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Atakpamé's drummers.",
                 "active": true,
-                "logo": "logos/tambo_fc.png",
-                "uniform": "uniforms/tambo_fc.png"
+                "logo": "logos/tambo_fc.webp",
+                "uniform": "uniforms/tambo_fc.webp"
             },
             {
                 "name": "Gbikinti FC",
@@ -25691,8 +25631,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bassar’s fighters.",
                 "active": true,
-                "logo": "logos/gbikinti_fc.png",
-                "uniform": "uniforms/gbikinti_fc.png"
+                "logo": "logos/gbikinti_fc.webp",
+                "uniform": "uniforms/gbikinti_fc.webp"
             },
             {
                 "name": "Young Africans SC",
@@ -25706,8 +25646,8 @@ const teams = [
                 "trophies": "Tanzania Premier League: 29, CECAFA Club Championship: 5",
                 "mustKnowFact": "Yanga, Tanzania's giants.",
                 "active": true,
-                "logo": "logos/young_africans_sc.png",
-                "uniform": "uniforms/young_africans_sc.png"
+                "logo": "logos/young_africans_sc.webp",
+                "uniform": "uniforms/young_africans_sc.webp"
             },
             {
                 "name": "Simba SC",
@@ -25721,8 +25661,8 @@ const teams = [
                 "trophies": "Tanzania Premier League: 22, CECAFA Club Championship: 3",
                 "mustKnowFact": "Lions of Dar es Salaam.",
                 "active": true,
-                "logo": "logos/simba_sc.png",
-                "uniform": "uniforms/simba_sc.png"
+                "logo": "logos/simba_sc.webp",
+                "uniform": "uniforms/simba_sc.webp"
             },
             {
                 "name": "Azam FC",
@@ -25736,8 +25676,8 @@ const teams = [
                 "trophies": "Tanzania Premier League: 1",
                 "mustKnowFact": "Ice cream makers of Dar.",
                 "active": true,
-                "logo": "logos/azam_fc.png",
-                "uniform": "uniforms/azam_fc.png"
+                "logo": "logos/azam_fc.webp",
+                "uniform": "uniforms/azam_fc.webp"
             },
             {
                 "name": "Singida Fountain Gate FC",
@@ -25751,8 +25691,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Singida's fountain stars.",
                 "active": true,
-                "logo": "logos/singida_fountain_gate_fc.png",
-                "uniform": "uniforms/singida_fountain_gate_fc.png"
+                "logo": "logos/singida_fountain_gate_fc.webp",
+                "uniform": "uniforms/singida_fountain_gate_fc.webp"
             },
             {
                 "name": "Namungo FC",
@@ -25766,8 +25706,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lindi's coastal warriors.",
                 "active": true,
-                "logo": "logos/namungo_fc.png",
-                "uniform": "uniforms/namungo_fc.png"
+                "logo": "logos/namungo_fc.webp",
+                "uniform": "uniforms/namungo_fc.webp"
             },
             {
                 "name": "Coastal Union FC",
@@ -25781,8 +25721,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tanga's coastal union.",
                 "active": true,
-                "logo": "logos/coastal_union_fc.png",
-                "uniform": "uniforms/coastal_union_fc.png"
+                "logo": "logos/coastal_union_fc.webp",
+                "uniform": "uniforms/coastal_union_fc.webp"
             },
             {
                 "name": "Ihefu FC",
@@ -25796,8 +25736,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mbeya's lions.",
                 "active": true,
-                "logo": "logos/ihefu_fc.png",
-                "uniform": "uniforms/ihefu_fc.png"
+                "logo": "logos/ihefu_fc.webp",
+                "uniform": "uniforms/ihefu_fc.webp"
             },
             {
                 "name": "Kagera Sugar",
@@ -25811,8 +25751,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sugar men of Kagera.",
                 "active": true,
-                "logo": "logos/kagera_sugar.png",
-                "uniform": "uniforms/kagera_sugar.png"
+                "logo": "logos/kagera_sugar.webp",
+                "uniform": "uniforms/kagera_sugar.webp"
             },
             {
                 "name": "Dodoma Jiji FC",
@@ -25826,8 +25766,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dodoma's capital club.",
                 "active": true,
-                "logo": "logos/dodoma_jiji_fc.png",
-                "uniform": "uniforms/dodoma_jiji_fc.png"
+                "logo": "logos/dodoma_jiji_fc.webp",
+                "uniform": "uniforms/dodoma_jiji_fc.webp"
             },
             {
                 "name": "Mashujaa FC",
@@ -25841,8 +25781,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Heroes of Musoma.",
                 "active": true,
-                "logo": "logos/mashujaa_fc.png",
-                "uniform": "uniforms/mashujaa_fc.png"
+                "logo": "logos/mashujaa_fc.webp",
+                "uniform": "uniforms/mashujaa_fc.webp"
             },
             {
                 "name": "KMC FC",
@@ -25856,8 +25796,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kinondoni Municipal club.",
                 "active": true,
-                "logo": "logos/kmc_fc.png",
-                "uniform": "uniforms/kmc_fc.png"
+                "logo": "logos/kmc_fc.webp",
+                "uniform": "uniforms/kmc_fc.webp"
             },
             {
                 "name": "JKT Tanzania",
@@ -25871,8 +25811,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Military team of Tanzania.",
                 "active": true,
-                "logo": "logos/jkt_tanzania.png",
-                "uniform": "uniforms/jkt_tanzania.png"
+                "logo": "logos/jkt_tanzania.webp",
+                "uniform": "uniforms/jkt_tanzania.webp"
             },
             {
                 "name": "Geita Gold FC",
@@ -25886,8 +25826,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gold miners of Geita.",
                 "active": true,
-                "logo": "logos/geita_gold_fc.png",
-                "uniform": "uniforms/geita_gold_fc.png"
+                "logo": "logos/geita_gold_fc.webp",
+                "uniform": "uniforms/geita_gold_fc.webp"
             },
             {
                 "name": "Tabora United FC",
@@ -25901,8 +25841,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tabora's united front.",
                 "active": true,
-                "logo": "logos/tabora_united_fc.png",
-                "uniform": "uniforms/tabora_united_fc.png"
+                "logo": "logos/tabora_united_fc.webp",
+                "uniform": "uniforms/tabora_united_fc.webp"
             },
             {
                 "name": "Kengold FC",
@@ -25916,8 +25856,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kahama's gold warriors.",
                 "active": true,
-                "logo": "logos/kengold_fc.png",
-                "uniform": "uniforms/kengold_fc.png"
+                "logo": "logos/kengold_fc.webp",
+                "uniform": "uniforms/kengold_fc.webp"
             },
             {
                 "name": "Pamba Jiji FC",
@@ -25931,8 +25871,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mwanza's cotton club.",
                 "active": true,
-                "logo": "logos/pamba_jiji_fc.png",
-                "uniform": "uniforms/pamba_jiji_fc.png"
+                "logo": "logos/pamba_jiji_fc.webp",
+                "uniform": "uniforms/pamba_jiji_fc.webp"
             },
             {
                 "name": "Verdes FC",
@@ -25946,8 +25886,8 @@ const teams = [
                 "trophies": "Belize Premier League: 12",
                 "mustKnowFact": "Green machine of Belize.",
                 "active": true,
-                "logo": "logos/verdes_fc.png",
-                "uniform": "uniforms/verdes_fc.png"
+                "logo": "logos/verdes_fc.webp",
+                "uniform": "uniforms/verdes_fc.webp"
             },
             {
                 "name": "Altitude FC",
@@ -25961,8 +25901,8 @@ const teams = [
                 "trophies": "Belize Premier League: 1",
                 "mustKnowFact": "High flyers of Independence.",
                 "active": true,
-                "logo": "logos/altitude_fc.png",
-                "uniform": "uniforms/altitude_fc.png"
+                "logo": "logos/altitude_fc.webp",
+                "uniform": "uniforms/altitude_fc.webp"
             },
             {
                 "name": "Belmopan Bandits",
@@ -25976,8 +25916,8 @@ const teams = [
                 "trophies": "Belize Premier League: 5",
                 "mustKnowFact": "Bandits of the capital.",
                 "active": true,
-                "logo": "logos/belmopan_bandits.png",
-                "uniform": "uniforms/belmopan_bandits.png"
+                "logo": "logos/belmopan_bandits.webp",
+                "uniform": "uniforms/belmopan_bandits.webp"
             },
             {
                 "name": "San Pedro Pirates",
@@ -25991,8 +25931,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pirates of Ambergris Caye.",
                 "active": true,
-                "logo": "logos/san_pedro_pirates.png",
-                "uniform": "uniforms/san_pedro_pirates.png"
+                "logo": "logos/san_pedro_pirates.webp",
+                "uniform": "uniforms/san_pedro_pirates.webp"
             },
             {
                 "name": "Port Layola FC",
@@ -26006,8 +25946,8 @@ const teams = [
                 "trophies": "Belize Premier League: 1",
                 "mustKnowFact": "Belize City's new force.",
                 "active": true,
-                "logo": "logos/port_layola_fc.png",
-                "uniform": "uniforms/port_layola_fc.png"
+                "logo": "logos/port_layola_fc.webp",
+                "uniform": "uniforms/port_layola_fc.webp"
             },
             {
                 "name": "Wagiya FC",
@@ -26021,8 +25961,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dangriga's warriors.",
                 "active": true,
-                "logo": "logos/wagiya_fc.png",
-                "uniform": "uniforms/wagiya_fc.png"
+                "logo": "logos/wagiya_fc.webp",
+                "uniform": "uniforms/wagiya_fc.webp"
             },
             {
                 "name": "Progresso FC",
@@ -26036,8 +25976,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Progress of Orange Walk.",
                 "active": true,
-                "logo": "logos/progresso_fc.png",
-                "uniform": "uniforms/progresso_fc.png"
+                "logo": "logos/progresso_fc.webp",
+                "uniform": "uniforms/progresso_fc.webp"
             },
             {
                 "name": "Belize Defence Force FC",
@@ -26051,8 +25991,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Military might of Belize.",
                 "active": true,
-                "logo": "logos/belize_defence_force_fc.png",
-                "uniform": "uniforms/belize_defence_force_fc.png"
+                "logo": "logos/belize_defence_force_fc.webp",
+                "uniform": "uniforms/belize_defence_force_fc.webp"
             },
             {
                 "name": "The New Saints",
@@ -26066,8 +26006,8 @@ const teams = [
                 "trophies": "Cymru Premier: 15, Welsh Cup: 8",
                 "mustKnowFact": "Wales' most successful club.",
                 "active": true,
-                "logo": "logos/the_new_saints.png",
-                "uniform": "uniforms/the_new_saints.png"
+                "logo": "logos/the_new_saints.webp",
+                "uniform": "uniforms/the_new_saints.webp"
             },
             {
                 "name": "Connah's Quay Nomads",
@@ -26081,8 +26021,8 @@ const teams = [
                 "trophies": "Cymru Premier: 2, Welsh Cup: 2",
                 "mustKnowFact": "Nomads of the north.",
                 "active": true,
-                "logo": "logos/connahs_quay_nomads.png",
-                "uniform": "uniforms/connahs_quay_nomads.png"
+                "logo": "logos/connahs_quay_nomads.webp",
+                "uniform": "uniforms/connahs_quay_nomads.webp"
             },
             {
                 "name": "Bala Town",
@@ -26096,8 +26036,8 @@ const teams = [
                 "trophies": "Welsh Cup: 1",
                 "mustKnowFact": "Lakesiders of Bala.",
                 "active": true,
-                "logo": "logos/bala_town.png",
-                "uniform": "uniforms/bala_town.png"
+                "logo": "logos/bala_town.webp",
+                "uniform": "uniforms/bala_town.webp"
             },
             {
                 "name": "Penybont FC",
@@ -26111,8 +26051,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bridgend's rising stars.",
                 "active": true,
-                "logo": "logos/penybont_fc.png",
-                "uniform": "uniforms/penybont_fc.png"
+                "logo": "logos/penybont_fc.webp",
+                "uniform": "uniforms/penybont_fc.webp"
             },
             {
                 "name": "Haverfordwest County",
@@ -26126,8 +26066,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bluebirds of Haverfordwest.",
                 "active": true,
-                "logo": "logos/haverfordwest_county.png",
-                "uniform": "uniforms/haverfordwest_county.png"
+                "logo": "logos/haverfordwest_county.webp",
+                "uniform": "uniforms/haverfordwest_county.webp"
             },
             {
                 "name": "Cardiff Metropolitan University",
@@ -26141,8 +26081,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Students of Cardiff.",
                 "active": true,
-                "logo": "logos/cardiff_metropolitan_university.png",
-                "uniform": "uniforms/cardiff_metropolitan_university.png"
+                "logo": "logos/cardiff_metropolitan_university.webp",
+                "uniform": "uniforms/cardiff_metropolitan_university.webp"
             },
             {
                 "name": "Newtown AFC",
@@ -26156,8 +26096,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Robins of Newtown.",
                 "active": true,
-                "logo": "logos/newtown_afc.png",
-                "uniform": "uniforms/newtown_afc.png"
+                "logo": "logos/newtown_afc.webp",
+                "uniform": "uniforms/newtown_afc.webp"
             },
             {
                 "name": "Caernarfon Town",
@@ -26171,8 +26111,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Canaries of Caernarfon.",
                 "active": true,
-                "logo": "logos/caernarfon_town.png",
-                "uniform": "uniforms/caernarfon_town.png"
+                "logo": "logos/caernarfon_town.webp",
+                "uniform": "uniforms/caernarfon_town.webp"
             },
             {
                 "name": "Flint Town United",
@@ -26186,8 +26126,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Silkmen of Flint.",
                 "active": true,
-                "logo": "logos/flint_town_united.png",
-                "uniform": "uniforms/flint_town_united.png"
+                "logo": "logos/flint_town_united.webp",
+                "uniform": "uniforms/flint_town_united.webp"
             },
             {
                 "name": "Barry Town United",
@@ -26201,8 +26141,8 @@ const teams = [
                 "trophies": "Cymru Premier: 7",
                 "mustKnowFact": "Dragons of Barry.",
                 "active": true,
-                "logo": "logos/barry_town_united.png",
-                "uniform": "uniforms/barry_town_united.png"
+                "logo": "logos/barry_town_united.webp",
+                "uniform": "uniforms/barry_town_united.webp"
             },
             {
                 "name": "Aberystwyth Town",
@@ -26216,8 +26156,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Seasiders of Aberystwyth.",
                 "active": true,
-                "logo": "logos/aberystwyth_town.png",
-                "uniform": "uniforms/aberystwyth_town.png"
+                "logo": "logos/aberystwyth_town.webp",
+                "uniform": "uniforms/aberystwyth_town.webp"
             },
             {
                 "name": "Briton Ferry Llansawel",
@@ -26231,8 +26171,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Reds of Briton Ferry.",
                 "active": true,
-                "logo": "logos/briton_ferry_llansawel.png",
-                "uniform": "uniforms/briton_ferry_llansawel.png"
+                "logo": "logos/briton_ferry_llansawel.webp",
+                "uniform": "uniforms/briton_ferry_llansawel.webp"
             },
             {
                 "name": "Al-Ahli Sana'a",
@@ -26246,8 +26186,8 @@ const teams = [
                 "trophies": "Yemeni League: 10",
                 "mustKnowFact": "Sana'a's red giants.",
                 "active": true,
-                "logo": "logos/al_ahli_sanaa.png",
-                "uniform": "uniforms/al_ahli_sanaa.png"
+                "logo": "logos/al_ahli_sanaa.webp",
+                "uniform": "uniforms/al_ahli_sanaa.webp"
             },
             {
                 "name": "Al-Tilal SC",
@@ -26261,8 +26201,8 @@ const teams = [
                 "trophies": "Yemeni League: 5",
                 "mustKnowFact": "Aden's oldest club.",
                 "active": true,
-                "logo": "logos/al_tilal_sc.png",
-                "uniform": "uniforms/al_tilal_sc.png"
+                "logo": "logos/al_tilal_sc.webp",
+                "uniform": "uniforms/al_tilal_sc.webp"
             },
             {
                 "name": "Al-Sha'ab Hadramaut",
@@ -26276,8 +26216,8 @@ const teams = [
                 "trophies": "Yemeni League: 2",
                 "mustKnowFact": "Hadramaut's people's club.",
                 "active": true,
-                "logo": "logos/al_shaab_hadramaut.png",
-                "uniform": "uniforms/al_shaab_hadramaut.png"
+                "logo": "logos/al_shaab_hadramaut.webp",
+                "uniform": "uniforms/al_shaab_hadramaut.webp"
             },
             {
                 "name": "Al-Hilal Al-Sahili",
@@ -26291,8 +26231,8 @@ const teams = [
                 "trophies": "Yemeni League: 2",
                 "mustKnowFact": "Coastal crescent of Hodeidah.",
                 "active": true,
-                "logo": "logos/al_hilal_al_sahili.png",
-                "uniform": "uniforms/al_hilal_al_sahili.png"
+                "logo": "logos/al_hilal_al_sahili.webp",
+                "uniform": "uniforms/al_hilal_al_sahili.webp"
             },
             {
                 "name": "Al-Saqr SC",
@@ -26306,8 +26246,8 @@ const teams = [
                 "trophies": "Yemeni League: 1",
                 "mustKnowFact": "Falcons of Taiz.",
                 "active": true,
-                "logo": "logos/al_saqr_sc.png",
-                "uniform": "uniforms/al_saqr_sc.png"
+                "logo": "logos/al_saqr_sc.webp",
+                "uniform": "uniforms/al_saqr_sc.webp"
             },
             {
                 "name": "Al-Wehda Aden",
@@ -26321,8 +26261,8 @@ const teams = [
                 "trophies": "Yemeni League: 1",
                 "mustKnowFact": "Unity of Aden.",
                 "active": true,
-                "logo": "logos/al_wehda_aden.png",
-                "uniform": "uniforms/al_wehda_aden.png"
+                "logo": "logos/al_wehda_aden.webp",
+                "uniform": "uniforms/al_wehda_aden.webp"
             },
             {
                 "name": "Al-Ittihad Ibb",
@@ -26336,8 +26276,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Ibb's union.",
                 "active": true,
-                "logo": "logos/al_ittihad_ibb.png",
-                "uniform": "uniforms/al_ittihad_ibb.png"
+                "logo": "logos/al_ittihad_ibb.webp",
+                "uniform": "uniforms/al_ittihad_ibb.webp"
             },
             {
                 "name": "Al-Yarmouk Al-Rawda",
@@ -26351,8 +26291,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sana'a's archers.",
                 "active": true,
-                "logo": "logos/al_yarmouk_al_rawda.png",
-                "uniform": "uniforms/al_yarmouk_al_rawda.png"
+                "logo": "logos/al_yarmouk_al_rawda.webp",
+                "uniform": "uniforms/al_yarmouk_al_rawda.webp"
             },
             {
                 "name": "Shabab Al-Jeel",
@@ -26366,8 +26306,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Hodeidah.",
                 "active": true,
-                "logo": "logos/shabab_al_jeel.png",
-                "uniform": "uniforms/shabab_al_jeel.png"
+                "logo": "logos/shabab_al_jeel.webp",
+                "uniform": "uniforms/shabab_al_jeel.webp"
             },
             {
                 "name": "Al-Rasheed Taiz",
@@ -26381,8 +26321,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Taiz's pioneers.",
                 "active": true,
-                "logo": "logos/al_rasheed_taiz.png",
-                "uniform": "uniforms/al_rasheed_taiz.png"
+                "logo": "logos/al_rasheed_taiz.webp",
+                "uniform": "uniforms/al_rasheed_taiz.webp"
             },
             {
                 "name": "Al-Shula Aden",
@@ -26396,8 +26336,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Flames of Aden.",
                 "active": true,
-                "logo": "logos/al_shula_aden.png",
-                "uniform": "uniforms/al_shula_aden.png"
+                "logo": "logos/al_shula_aden.webp",
+                "uniform": "uniforms/al_shula_aden.webp"
             },
             {
                 "name": "Al-Orouba Zabid",
@@ -26411,8 +26351,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Zabid's orange army.",
                 "active": true,
-                "logo": "logos/al_orouba_zabid.png",
-                "uniform": "uniforms/al_orouba_zabid.png"
+                "logo": "logos/al_orouba_zabid.webp",
+                "uniform": "uniforms/al_orouba_zabid.webp"
             },
             {
                 "name": "Al-Zuhra SC",
@@ -26426,8 +26366,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sana'a's morning stars.",
                 "active": true,
-                "logo": "logos/al_zuhra_sc.png",
-                "uniform": "uniforms/al_zuhra_sc.png"
+                "logo": "logos/al_zuhra_sc.webp",
+                "uniform": "uniforms/al_zuhra_sc.webp"
             },
             {
                 "name": "Al-Wehda Sana'a",
@@ -26441,8 +26381,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Unity of Sana'a.",
                 "active": true,
-                "logo": "logos/al_wehda_sanaa.png",
-                "uniform": "uniforms/al_wehda_sanaa.png"
+                "logo": "logos/al_wehda_sanaa.webp",
+                "uniform": "uniforms/al_wehda_sanaa.webp"
             },
             {
                 "name": "América Mineiro",
@@ -26456,8 +26396,8 @@ const teams = [
                 "trophies": "Série B: 2, Série A: 1",
                 "mustKnowFact": "Rabbits of Belo Horizonte.",
                 "active": true,
-                "logo": "logos/america_mineiro.png",
-                "uniform": "uniforms/america_mineiro.png"
+                "logo": "logos/america_mineiro.webp",
+                "uniform": "uniforms/america_mineiro.webp"
             },
             {
                 "name": "Avaí FC",
@@ -26471,8 +26411,8 @@ const teams = [
                 "trophies": "Série B: 1",
                 "mustKnowFact": "Lions of the Island.",
                 "active": true,
-                "logo": "logos/avai_fc.png",
-                "uniform": "uniforms/avai_fc.png"
+                "logo": "logos/avai_fc.webp",
+                "uniform": "uniforms/avai_fc.webp"
             },
             {
                 "name": "Botafogo SP",
@@ -26486,8 +26426,8 @@ const teams = [
                 "trophies": "Série B: 1",
                 "mustKnowFact": "Panthers of Ribeirão.",
                 "active": true,
-                "logo": "logos/botafogo_sp.png",
-                "uniform": "uniforms/botafogo_sp.png"
+                "logo": "logos/botafogo_sp.webp",
+                "uniform": "uniforms/botafogo_sp.webp"
             },
             {
                 "name": "Brusque FC",
@@ -26501,8 +26441,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Warriors of Brusque.",
                 "active": true,
-                "logo": "logos/brusque_fc.png",
-                "uniform": "uniforms/brusque_fc.png"
+                "logo": "logos/brusque_fc.webp",
+                "uniform": "uniforms/brusque_fc.webp"
             },
             {
                 "name": "Ceará SC",
@@ -26516,8 +26456,8 @@ const teams = [
                 "trophies": "Série B: 1",
                 "mustKnowFact": "Voice of the People.",
                 "active": true,
-                "logo": "logos/ceara_sc.png",
-                "uniform": "uniforms/ceara_sc.png"
+                "logo": "logos/ceara_sc.webp",
+                "uniform": "uniforms/ceara_sc.webp"
             },
             {
                 "name": "Chapecoense",
@@ -26531,8 +26471,8 @@ const teams = [
                 "trophies": "Série B: 1, Copa Sudamericana: 1",
                 "mustKnowFact": "Green hearts of Chapecó.",
                 "active": true,
-                "logo": "logos/chapecoense.png",
-                "uniform": "uniforms/chapecoense.png"
+                "logo": "logos/chapecoense.webp",
+                "uniform": "uniforms/chapecoense.webp"
             },
             {
                 "name": "Coritiba FC",
@@ -26546,8 +26486,8 @@ const teams = [
                 "trophies": "Série A: 1, Série B: 2",
                 "mustKnowFact": "Green feet of Curitiba.",
                 "active": true,
-                "logo": "logos/coritiba_fc.png",
-                "uniform": "uniforms/coritiba_fc.png"
+                "logo": "logos/coritiba_fc.webp",
+                "uniform": "uniforms/coritiba_fc.webp"
             },
             {
                 "name": "CRB",
@@ -26561,8 +26501,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Regatas of Maceió.",
                 "active": true,
-                "logo": "logos/crb.png",
-                "uniform": "uniforms/crb.png"
+                "logo": "logos/crb.webp",
+                "uniform": "uniforms/crb.webp"
             },
             {
                 "name": "Guarani FC",
@@ -26576,8 +26516,8 @@ const teams = [
                 "trophies": "Série A: 1, Série B: 1",
                 "mustKnowFact": "Bugres of Campinas.",
                 "active": true,
-                "logo": "logos/guarani_fc.png",
-                "uniform": "uniforms/guarani_fc.png"
+                "logo": "logos/guarani_fc.webp",
+                "uniform": "uniforms/guarani_fc.webp"
             },
             {
                 "name": "Ituano FC",
@@ -26591,8 +26531,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Roosters of Itu.",
                 "active": true,
-                "logo": "logos/ituano_fc.png",
-                "uniform": "uniforms/ituano_fc.png"
+                "logo": "logos/ituano_fc.webp",
+                "uniform": "uniforms/ituano_fc.webp"
             },
             {
                 "name": "Mirassol FC",
@@ -26606,8 +26546,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lions of Mirassol.",
                 "active": true,
-                "logo": "logos/mirassol_fc.png",
-                "uniform": "uniforms/mirassol_fc.png"
+                "logo": "logos/mirassol_fc.webp",
+                "uniform": "uniforms/mirassol_fc.webp"
             },
             {
                 "name": "Novorizontino",
@@ -26621,8 +26561,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigers of Novo Horizonte.",
                 "active": true,
-                "logo": "logos/novorizontino.png",
-                "uniform": "uniforms/novorizontino.png"
+                "logo": "logos/novorizontino.webp",
+                "uniform": "uniforms/novorizontino.webp"
             },
             {
                 "name": "Operário Ferroviário",
@@ -26636,8 +26576,8 @@ const teams = [
                 "trophies": "Série B: 1",
                 "mustKnowFact": "Railwaymen of Ponta Grossa.",
                 "active": true,
-                "logo": "logos/operario_ferroviario.png",
-                "uniform": "uniforms/operario_ferroviario.png"
+                "logo": "logos/operario_ferroviario.webp",
+                "uniform": "uniforms/operario_ferroviario.webp"
             },
             {
                 "name": "Paysandu SC",
@@ -26651,8 +26591,8 @@ const teams = [
                 "trophies": "Série B: 2",
                 "mustKnowFact": "Wolves of Belém.",
                 "active": true,
-                "logo": "logos/paysandu_sc.png",
-                "uniform": "uniforms/paysandu_sc.png"
+                "logo": "logos/paysandu_sc.webp",
+                "uniform": "uniforms/paysandu_sc.webp"
             },
             {
                 "name": "Ponte Preta",
@@ -26666,8 +26606,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Black bridge of Campinas.",
                 "active": true,
-                "logo": "logos/ponte_preta.png",
-                "uniform": "uniforms/ponte_preta.png"
+                "logo": "logos/ponte_preta.webp",
+                "uniform": "uniforms/ponte_preta.webp"
             },
             {
                 "name": "Santos FC",
@@ -26681,8 +26621,8 @@ const teams = [
                 "trophies": "Série A: 8, Copa Libertadores: 3",
                 "mustKnowFact": "Pele's historic home.",
                 "active": true,
-                "logo": "logos/santos_fc.png",
-                "uniform": "uniforms/santos_fc.png"
+                "logo": "logos/santos_fc.webp",
+                "uniform": "uniforms/santos_fc.webp"
             },
             {
                 "name": "Sport Recife",
@@ -26696,8 +26636,8 @@ const teams = [
                 "trophies": "Série A: 1, Série B: 1",
                 "mustKnowFact": "Lions of Recife.",
                 "active": true,
-                "logo": "logos/sport_recife.png",
-                "uniform": "uniforms/sport_recife.png"
+                "logo": "logos/sport_recife.webp",
+                "uniform": "uniforms/sport_recife.webp"
             },
             {
                 "name": "Vila Nova FC",
@@ -26711,8 +26651,8 @@ const teams = [
                 "trophies": "Série B: 2",
                 "mustKnowFact": "Tigers of Goiânia.",
                 "active": true,
-                "logo": "logos/vila_nova_fc.png",
-                "uniform": "uniforms/vila_nova_fc.png"
+                "logo": "logos/vila_nova_fc.webp",
+                "uniform": "uniforms/vila_nova_fc.webp"
             },
             {
                 "name": "Amazonas FC",
@@ -26726,8 +26666,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Jaguars of the Amazon.",
                 "active": true,
-                "logo": "logos/amazonas_fc.png",
-                "uniform": "uniforms/amazonas_fc.png"
+                "logo": "logos/amazonas_fc.webp",
+                "uniform": "uniforms/amazonas_fc.webp"
             },
             {
                 "name": "Goiás EC",
@@ -26741,8 +26681,8 @@ const teams = [
                 "trophies": "Série B: 2",
                 "mustKnowFact": "Emeralds of Goiânia.",
                 "active": true,
-                "logo": "logos/goias_ec.png",
-                "uniform": "uniforms/goias_ec.png"
+                "logo": "logos/goias_ec.webp",
+                "uniform": "uniforms/goias_ec.webp"
             },
             {
                 "name": "Birmingham City",
@@ -26756,8 +26696,8 @@ const teams = [
                 "trophies": "League Cup: 2",
                 "mustKnowFact": "Blues of Birmingham.",
                 "active": true,
-                "logo": "logos/birmingham_city.png",
-                "uniform": "uniforms/birmingham_city.png"
+                "logo": "logos/birmingham_city.webp",
+                "uniform": "uniforms/birmingham_city.webp"
             },
             {
                 "name": "Blackburn Rovers",
@@ -26771,8 +26711,8 @@ const teams = [
                 "trophies": "Premier League: 1, FA Cup: 6",
                 "mustKnowFact": "Rovers of Blackburn.",
                 "active": true,
-                "logo": "logos/blackburn_rovers.png",
-                "uniform": "uniforms/blackburn_rovers.png"
+                "logo": "logos/blackburn_rovers.webp",
+                "uniform": "uniforms/blackburn_rovers.webp"
             },
             {
                 "name": "Bristol City",
@@ -26786,8 +26726,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Robins of Bristol.",
                 "active": true,
-                "logo": "logos/bristol_city.png",
-                "uniform": "uniforms/bristol_city.png"
+                "logo": "logos/bristol_city.webp",
+                "uniform": "uniforms/bristol_city.webp"
             },
             {
                 "name": "Burnley FC",
@@ -26801,8 +26741,8 @@ const teams = [
                 "trophies": "First Division: 2, FA Cup: 1",
                 "mustKnowFact": "Clarets of Burnley.",
                 "active": true,
-                "logo": "logos/burnley_fc.png",
-                "uniform": "uniforms/burnley_fc.png"
+                "logo": "logos/burnley_fc.webp",
+                "uniform": "uniforms/burnley_fc.webp"
             },
             {
                 "name": "Cardiff City",
@@ -26816,8 +26756,8 @@ const teams = [
                 "trophies": "FA Cup: 1",
                 "mustKnowFact": "Bluebirds of Cardiff.",
                 "active": true,
-                "logo": "logos/cardiff_city.png",
-                "uniform": "uniforms/cardiff_city.png"
+                "logo": "logos/cardiff_city.webp",
+                "uniform": "uniforms/cardiff_city.webp"
             },
             {
                 "name": "Coventry City",
@@ -26831,8 +26771,8 @@ const teams = [
                 "trophies": "FA Cup: 1",
                 "mustKnowFact": "Sky Blues of Coventry.",
                 "active": true,
-                "logo": "logos/coventry_city.png",
-                "uniform": "uniforms/coventry_city.png"
+                "logo": "logos/coventry_city.webp",
+                "uniform": "uniforms/coventry_city.webp"
             },
             {
                 "name": "Derby County",
@@ -26846,8 +26786,8 @@ const teams = [
                 "trophies": "First Division: 2, FA Cup: 1",
                 "mustKnowFact": "Rams of Derby.",
                 "active": true,
-                "logo": "logos/derby_county.png",
-                "uniform": "uniforms/derby_county.png"
+                "logo": "logos/derby_county.webp",
+                "uniform": "uniforms/derby_county.webp"
             },
             {
                 "name": "Hull City",
@@ -26861,8 +26801,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigers of Hull.",
                 "active": true,
-                "logo": "logos/hull_city.png",
-                "uniform": "uniforms/hull_city.png"
+                "logo": "logos/hull_city.webp",
+                "uniform": "uniforms/hull_city.webp"
             },
             {
                 "name": "Leeds United",
@@ -26876,8 +26816,8 @@ const teams = [
                 "trophies": "First Division: 3, European Cup: 1",
                 "mustKnowFact": "Whites of Leeds.",
                 "active": true,
-                "logo": "logos/leeds_united.png",
-                "uniform": "uniforms/leeds_united.png"
+                "logo": "logos/leeds_united.webp",
+                "uniform": "uniforms/leeds_united.webp"
             },
             {
                 "name": "Luton Town",
@@ -26891,8 +26831,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Hatters of Luton.",
                 "active": true,
-                "logo": "logos/luton_town.png",
-                "uniform": "uniforms/luton_town.png"
+                "logo": "logos/luton_town.webp",
+                "uniform": "uniforms/luton_town.webp"
             },
             {
                 "name": "Middlesbrough FC",
@@ -26906,8 +26846,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Boro of Middlesbrough.",
                 "active": true,
-                "logo": "logos/middlesbrough_fc.png",
-                "uniform": "uniforms/middlesbrough_fc.png"
+                "logo": "logos/middlesbrough_fc.webp",
+                "uniform": "uniforms/middlesbrough_fc.webp"
             },
             {
                 "name": "Millwall FC",
@@ -26921,8 +26861,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lions of Millwall.",
                 "active": true,
-                "logo": "logos/millwall_fc.png",
-                "uniform": "uniforms/millwall_fc.png"
+                "logo": "logos/millwall_fc.webp",
+                "uniform": "uniforms/millwall_fc.webp"
             },
             {
                 "name": "Norwich City",
@@ -26936,8 +26876,8 @@ const teams = [
                 "trophies": "League Cup: 2",
                 "mustKnowFact": "Canaries of Norwich.",
                 "active": true,
-                "logo": "logos/norwich_city.png",
-                "uniform": "uniforms/norwich_city.png"
+                "logo": "logos/norwich_city.webp",
+                "uniform": "uniforms/norwich_city.webp"
             },
             {
                 "name": "Oxford United",
@@ -26951,8 +26891,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Yellows of Oxford.",
                 "active": true,
-                "logo": "logos/oxford_united.png",
-                "uniform": "uniforms/oxford_united.png"
+                "logo": "logos/oxford_united.webp",
+                "uniform": "uniforms/oxford_united.webp"
             },
             {
                 "name": "Plymouth Argyle",
@@ -26966,8 +26906,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pilgrims of Plymouth.",
                 "active": true,
-                "logo": "logos/plymouth_argyle.png",
-                "uniform": "uniforms/plymouth_argyle.png"
+                "logo": "logos/plymouth_argyle.webp",
+                "uniform": "uniforms/plymouth_argyle.webp"
             },
             {
                 "name": "Portsmouth FC",
@@ -26981,8 +26921,8 @@ const teams = [
                 "trophies": "First Division: 2, FA Cup: 2",
                 "mustKnowFact": "Pompey of Portsmouth.",
                 "active": true,
-                "logo": "logos/portsmouth_fc.png",
-                "uniform": "uniforms/portsmouth_fc.png"
+                "logo": "logos/portsmouth_fc.webp",
+                "uniform": "uniforms/portsmouth_fc.webp"
             },
             {
                 "name": "Preston North End",
@@ -26996,8 +26936,8 @@ const teams = [
                 "trophies": "First Division: 2, FA Cup: 2",
                 "mustKnowFact": "Lilywhites of Preston.",
                 "active": true,
-                "logo": "logos/preston_north_end.png",
-                "uniform": "uniforms/preston_north_end.png"
+                "logo": "logos/preston_north_end.webp",
+                "uniform": "uniforms/preston_north_end.webp"
             },
             {
                 "name": "Queens Park Rangers",
@@ -27011,8 +26951,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Hoops of QPR.",
                 "active": true,
-                "logo": "logos/qpr.png",
-                "uniform": "uniforms/qpr.png"
+                "logo": "logos/qpr.webp",
+                "uniform": "uniforms/qpr.webp"
             },
             {
                 "name": "Sheffield United",
@@ -27026,8 +26966,8 @@ const teams = [
                 "trophies": "First Division: 1, FA Cup: 4",
                 "mustKnowFact": "Blades of Sheffield.",
                 "active": true,
-                "logo": "logos/sheffield_united.png",
-                "uniform": "uniforms/sheffield_united.png"
+                "logo": "logos/sheffield_united.webp",
+                "uniform": "uniforms/sheffield_united.webp"
             },
             {
                 "name": "Sheffield Wednesday",
@@ -27041,8 +26981,8 @@ const teams = [
                 "trophies": "First Division: 4, FA Cup: 3",
                 "mustKnowFact": "Owls of Sheffield.",
                 "active": true,
-                "logo": "logos/sheffield_wednesday.png",
-                "uniform": "uniforms/sheffield_wednesday.png"
+                "logo": "logos/sheffield_wednesday.webp",
+                "uniform": "uniforms/sheffield_wednesday.webp"
             },
             {
                 "name": "Stoke City",
@@ -27056,8 +26996,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Potters of Stoke.",
                 "active": true,
-                "logo": "logos/stoke_city.png",
-                "uniform": "uniforms/stoke_city.png"
+                "logo": "logos/stoke_city.webp",
+                "uniform": "uniforms/stoke_city.webp"
             },
             {
                 "name": "Sunderland AFC",
@@ -27071,8 +27011,8 @@ const teams = [
                 "trophies": "First Division: 6, FA Cup: 2",
                 "mustKnowFact": "Black Cats of Sunderland.",
                 "active": true,
-                "logo": "logos/sunderland_afc.png",
-                "uniform": "uniforms/sunderland_afc.png"
+                "logo": "logos/sunderland_afc.webp",
+                "uniform": "uniforms/sunderland_afc.webp"
             },
             {
                 "name": "Swansea City",
@@ -27086,8 +27026,8 @@ const teams = [
                 "trophies": "League Cup: 1",
                 "mustKnowFact": "Swans of Swansea.",
                 "active": true,
-                "logo": "logos/swansea_city.png",
-                "uniform": "uniforms/swansea_city.png"
+                "logo": "logos/swansea_city.webp",
+                "uniform": "uniforms/swansea_city.webp"
             },
             {
                 "name": "West Bromwich Albion",
@@ -27101,8 +27041,8 @@ const teams = [
                 "trophies": "First Division: 1, FA Cup: 5",
                 "mustKnowFact": "Baggies of West Brom.",
                 "active": true,
-                "logo": "logos/west_bromwich.png",
-                "uniform": "uniforms/west_bromwich.png"
+                "logo": "logos/west_bromwich.webp",
+                "uniform": "uniforms/west_bromwich.webp"
             },
             {
                 "name": "Almería",
@@ -27116,8 +27056,8 @@ const teams = [
                 "trophies": "Segunda División: 2",
                 "mustKnowFact": "Rojiblancos of Almería.",
                 "active": true,
-                "logo": "logos/almeria.png",
-                "uniform": "uniforms/almeria.png"
+                "logo": "logos/almeria.webp",
+                "uniform": "uniforms/almeria.webp"
             },
             {
                 "name": "Cádiz CF",
@@ -27131,8 +27071,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Yellow submarine of Cádiz.",
                 "active": true,
-                "logo": "logos/cadiz_cf.png",
-                "uniform": "uniforms/cadiz_cf.png"
+                "logo": "logos/cadiz_cf.webp",
+                "uniform": "uniforms/cadiz_cf.webp"
             },
             {
                 "name": "Castellón",
@@ -27146,8 +27086,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Albinegros of Castellón.",
                 "active": true,
-                "logo": "logos/castellon.png",
-                "uniform": "uniforms/castellon.png"
+                "logo": "logos/castellon.webp",
+                "uniform": "uniforms/castellon.webp"
             },
             {
                 "name": "Córdoba CF",
@@ -27161,8 +27101,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Caliphs of Córdoba.",
                 "active": true,
-                "logo": "logos/cordoba_cf.png",
-                "uniform": "uniforms/cordoba_cf.png"
+                "logo": "logos/cordoba_cf.webp",
+                "uniform": "uniforms/cordoba_cf.webp"
             },
             {
                 "name": "Deportivo La Coruña",
@@ -27176,8 +27116,8 @@ const teams = [
                 "trophies": "La Liga: 1, Copa del Rey: 2",
                 "mustKnowFact": "Depor of Galicia.",
                 "active": true,
-                "logo": "logos/deportivo_la_coruna.png",
-                "uniform": "uniforms/deportivo_la_coruna.png"
+                "logo": "logos/deportivo_la_coruna.webp",
+                "uniform": "uniforms/deportivo_la_coruna.webp"
             },
             {
                 "name": "SD Eibar",
@@ -27191,8 +27131,8 @@ const teams = [
                 "trophies": "Segunda División: 1",
                 "mustKnowFact": "Gunsmiths of Eibar.",
                 "active": true,
-                "logo": "logos/sd_eibar.png",
-                "uniform": "uniforms/sd_eibar.png"
+                "logo": "logos/sd_eibar.webp",
+                "uniform": "uniforms/sd_eibar.webp"
             },
             {
                 "name": "Elche CF",
@@ -27206,8 +27146,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Franjiverdes of Elche.",
                 "active": true,
-                "logo": "logos/elche_cf.png",
-                "uniform": "uniforms/elche_cf.png"
+                "logo": "logos/elche_cf.webp",
+                "uniform": "uniforms/elche_cf.webp"
             },
             {
                 "name": "Eldense",
@@ -27221,8 +27161,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blue and whites of Elda.",
                 "active": true,
-                "logo": "logos/eldense.png",
-                "uniform": "uniforms/eldense.png"
+                "logo": "logos/eldense.webp",
+                "uniform": "uniforms/eldense.webp"
             },
             {
                 "name": "Granada CF",
@@ -27236,8 +27176,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Nasrids of Granada.",
                 "active": true,
-                "logo": "logos/granada_cf.png",
-                "uniform": "uniforms/granada_cf.png"
+                "logo": "logos/granada_cf.webp",
+                "uniform": "uniforms/granada_cf.webp"
             },
             {
                 "name": "SD Huesca",
@@ -27251,23 +27191,23 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Oscenses of Huesca.",
                 "active": true,
-                "logo": "logos/sd_huesca.png",
-                "uniform": "uniforms/sd_huesca.png"
+                "logo": "logos/sd_huesca.webp",
+                "uniform": "uniforms/sd_huesca.webp"
             },
             {
                 "name": "Levante UD",
                 "country": "Spain",
                 "league": "Segunda División",
                 "city": "Valencia",
-                "lat": 39.4699,
-                "lon": -0.3763,
+                "lat": 39.495,
+                "lon": -0.376,
                 "founded": 1909,
                 "stadium": "Estadio Ciutat de València",
                 "trophies": "",
                 "mustKnowFact": "Frogs of Valencia.",
                 "active": true,
-                "logo": "logos/levante_ud.png",
-                "uniform": "uniforms/levante_ud.png"
+                "logo": "logos/levante_ud.webp",
+                "uniform": "uniforms/levante_ud.webp"
             },
             {
                 "name": "Málaga CF",
@@ -27281,8 +27221,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Boquerones of Málaga.",
                 "active": true,
-                "logo": "logos/malaga_cf.png",
-                "uniform": "uniforms/malaga_cf.png"
+                "logo": "logos/malaga_cf.webp",
+                "uniform": "uniforms/malaga_cf.webp"
             },
             {
                 "name": "CD Mirandés",
@@ -27296,8 +27236,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Rojillos of Miranda.",
                 "active": true,
-                "logo": "logos/cd_mirandes.png",
-                "uniform": "uniforms/cd_mirandes.png"
+                "logo": "logos/cd_mirandes.webp",
+                "uniform": "uniforms/cd_mirandes.webp"
             },
             {
                 "name": "Racing Club Ferrol",
@@ -27311,8 +27251,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Green devils of Ferrol.",
                 "active": true,
-                "logo": "logos/racing_club_ferrol.png",
-                "uniform": "uniforms/racing_club_ferrol.png"
+                "logo": "logos/racing_club_ferrol.webp",
+                "uniform": "uniforms/racing_club_ferrol.webp"
             },
             {
                 "name": "Racing Santander",
@@ -27326,8 +27266,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Verdiblancos of Santander.",
                 "active": true,
-                "logo": "logos/racing_santander.png",
-                "uniform": "uniforms/racing_santander.png"
+                "logo": "logos/racing_santander.webp",
+                "uniform": "uniforms/racing_santander.webp"
             },
             {
                 "name": "Real Oviedo",
@@ -27341,8 +27281,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Carbayones of Oviedo.",
                 "active": true,
-                "logo": "logos/real_oviedo.png",
-                "uniform": "uniforms/real_oviedo.png"
+                "logo": "logos/real_oviedo.webp",
+                "uniform": "uniforms/real_oviedo.webp"
             },
             {
                 "name": "Real Sporting Gijón",
@@ -27356,8 +27296,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Rojiblancos of Gijón.",
                 "active": true,
-                "logo": "logos/gijon.png",
-                "uniform": "uniforms/gijon.png"
+                "logo": "logos/gijon.webp",
+                "uniform": "uniforms/gijon.webp"
             },
             {
                 "name": "Real Zaragoza",
@@ -27371,8 +27311,8 @@ const teams = [
                 "trophies": "Copa del Rey: 6, UEFA Cup Winners' Cup: 1",
                 "mustKnowFact": "Blanquillos of Zaragoza.",
                 "active": true,
-                "logo": "logos/real_zaragoza.png",
-                "uniform": "uniforms/real_zaragoza.png"
+                "logo": "logos/real_zaragoza.webp",
+                "uniform": "uniforms/real_zaragoza.webp"
             },
             {
                 "name": "CD Tenerife",
@@ -27386,8 +27326,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Chicharreros of Tenerife.",
                 "active": true,
-                "logo": "logos/cd_tenerife.png",
-                "uniform": "uniforms/cd_tenerife.png"
+                "logo": "logos/cd_tenerife.webp",
+                "uniform": "uniforms/cd_tenerife.webp"
             },
             {
                 "name": "Albacete Balompié",
@@ -27401,8 +27341,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Queso Mecánico of Albacete.",
                 "active": true,
-                "logo": "logos/albacete.png",
-                "uniform": "uniforms/albacete.png"
+                "logo": "logos/albacete.webp",
+                "uniform": "uniforms/albacete.webp"
             },
             {
                 "name": "FC Cartagena",
@@ -27416,8 +27356,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Efesé of Cartagena.",
                 "active": true,
-                "logo": "logos/fc_cartagena.png",
-                "uniform": "uniforms/fc_cartagena.png"
+                "logo": "logos/fc_cartagena.webp",
+                "uniform": "uniforms/fc_cartagena.webp"
             },
             {
                 "name": "Real Valladolid",
@@ -27431,8 +27371,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pucela of Valladolid.",
                 "active": true,
-                "logo": "logos/real_valladolid.png",
-                "uniform": "uniforms/real_valladolid.png"
+                "logo": "logos/real_valladolid.webp",
+                "uniform": "uniforms/real_valladolid.webp"
             },
             {
                 "name": "Agropecuario Argentino",
@@ -27446,8 +27386,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Soybean farmers of Casares.",
                 "active": true,
-                "logo": "logos/agropecuario_argentino.png",
-                "uniform": "uniforms/agropecuario_argentino.png"
+                "logo": "logos/agropecuario_argentino.webp",
+                "uniform": "uniforms/agropecuario_argentino.webp"
             },
             {
                 "name": "All Boys",
@@ -27461,8 +27401,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Albos of Floresta.",
                 "active": true,
-                "logo": "logos/all_boys.png",
-                "uniform": "uniforms/all_boys.png"
+                "logo": "logos/all_boys.webp",
+                "uniform": "uniforms/all_boys.webp"
             },
             {
                 "name": "Almagro",
@@ -27476,8 +27416,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tricolor of Almagro.",
                 "active": true,
-                "logo": "logos/almagro.png",
-                "uniform": "uniforms/almagro.png"
+                "logo": "logos/almagro.webp",
+                "uniform": "uniforms/almagro.webp"
             },
             {
                 "name": "Almirante Brown",
@@ -27491,8 +27431,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Frigate of Brown.",
                 "active": true,
-                "logo": "logos/almirante_brown.png",
-                "uniform": "uniforms/almirante_brown.png"
+                "logo": "logos/almirante_brown.webp",
+                "uniform": "uniforms/almirante_brown.webp"
             },
             {
                 "name": "Atlético de Rafaela",
@@ -27506,23 +27446,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cream of Rafaela.",
                 "active": true,
-                "logo": "logos/atletico_de_rafaela.png",
-                "uniform": "uniforms/atletico_de_rafaela.png"
-            },
-            {
-                "name": "Brown de Adrogué",
-                "country": "Argentina",
-                "league": "Primera Nacional",
-                "city": "Adrogué",
-                "lat": -34.8000,
-                "lon": -58.3833,
-                "founded": 1945,
-                "stadium": "Estadio Lorenzo Arandilla",
-                "trophies": "",
-                "mustKnowFact": "Tricolor of Adrogué.",
-                "active": true,
-                "logo": "logos/brown_de_adrogue.png",
-                "uniform": "uniforms/brown_de_adrogue.png"
+                "logo": "logos/atletico_de_rafaela.webp",
+                "uniform": "uniforms/atletico_de_rafaela.webp"
             },
             {
                 "name": "Chacarita Juniors",
@@ -27536,8 +27461,8 @@ const teams = [
                 "trophies": "Primera División: 1",
                 "mustKnowFact": "Funebreros of Chacarita.",
                 "active": true,
-                "logo": "logos/chacarita_juniors.png",
-                "uniform": "uniforms/chacarita_juniors.png"
+                "logo": "logos/chacarita_juniors.webp",
+                "uniform": "uniforms/chacarita_juniors.webp"
             },
             {
                 "name": "Chaco For Ever",
@@ -27551,8 +27476,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Negro of Chaco.",
                 "active": true,
-                "logo": "logos/chaco_for_ever.png",
-                "uniform": "uniforms/chaco_for_ever.png"
+                "logo": "logos/chaco_for_ever.webp",
+                "uniform": "uniforms/chaco_for_ever.webp"
             },
             {
                 "name": "Defensores de Belgrano",
@@ -27566,8 +27491,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dragons of Belgrano.",
                 "active": true,
-                "logo": "logos/defensores_de_belgrano.png",
-                "uniform": "uniforms/defensores_de_belgrano.png"
+                "logo": "logos/defensores_de_belgrano.webp",
+                "uniform": "uniforms/defensores_de_belgrano.webp"
             },
             {
                 "name": "Defensores Unidos",
@@ -27581,8 +27506,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Celeste of Zárate.",
                 "active": true,
-                "logo": "logos/defensores_unidos.png",
-                "uniform": "uniforms/defensores_unidos.png"
+                "logo": "logos/defensores_unidos.webp",
+                "uniform": "uniforms/defensores_unidos.webp"
             },
             {
                 "name": "Deportivo Madryn",
@@ -27596,8 +27521,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Aurinegro of Madryn.",
                 "active": true,
-                "logo": "logos/deportivo_madryn.png",
-                "uniform": "uniforms/deportivo_madryn.png"
+                "logo": "logos/deportivo_madryn.webp",
+                "uniform": "uniforms/deportivo_madryn.webp"
             },
             {
                 "name": "Deportivo Maipú",
@@ -27611,8 +27536,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cruzado of Maipú.",
                 "active": true,
-                "logo": "logos/deportivo_maipu.png",
-                "uniform": "uniforms/deportivo_maipu.png"
+                "logo": "logos/deportivo_maipu.webp",
+                "uniform": "uniforms/deportivo_maipu.webp"
             },
             {
                 "name": "Deportivo Morón",
@@ -27626,8 +27551,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gallo of Morón.",
                 "active": true,
-                "logo": "logos/deportivo_moron.png",
-                "uniform": "uniforms/deportivo_moron.png"
+                "logo": "logos/deportivo_moron.webp",
+                "uniform": "uniforms/deportivo_moron.webp"
             },
             {
                 "name": "Estudiantes de Buenos Aires",
@@ -27641,8 +27566,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pincha of Caseros.",
                 "active": true,
-                "logo": "logos/estudiantes_de_buenos_aires.png",
-                "uniform": "uniforms/estudiantes_de_buenos_aires.png"
+                "logo": "logos/estudiantes_de_buenos_aires.webp",
+                "uniform": "uniforms/estudiantes_de_buenos_aires.webp"
             },
             {
                 "name": "Estudiantes de Río Cuarto",
@@ -27656,8 +27581,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Celeste of Río Cuarto.",
                 "active": true,
-                "logo": "logos/estudiantes_de_rio_cuarto.png",
-                "uniform": "uniforms/estudiantes_de_rio_cuarto.png"
+                "logo": "logos/estudiantes_de_rio_cuarto.webp",
+                "uniform": "uniforms/estudiantes_de_rio_cuarto.webp"
             },
             {
                 "name": "Ferro Carril Oeste",
@@ -27671,8 +27596,8 @@ const teams = [
                 "trophies": "Primera División: 2",
                 "mustKnowFact": "Verdolaga of Caballito.",
                 "active": true,
-                "logo": "logos/ferro_carril_oeste.png",
-                "uniform": "uniforms/ferro_carril_oeste.png"
+                "logo": "logos/ferro_carril_oeste.webp",
+                "uniform": "uniforms/ferro_carril_oeste.webp"
             },
             {
                 "name": "Gimnasia y Esgrima de Jujuy",
@@ -27686,8 +27611,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lobo Jujeño of Jujuy.",
                 "active": true,
-                "logo": "logos/gimnasia_y_esgrima_de_jujuy.png",
-                "uniform": "uniforms/gimnasia_y_esgrima_de_jujuy.png"
+                "logo": "logos/gimnasia_y_esgrima_de_jujuy.webp",
+                "uniform": "uniforms/gimnasia_y_esgrima_de_jujuy.webp"
             },
             {
                 "name": "Gimnasia y Esgrima de Mendoza",
@@ -27701,8 +27626,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lobo Mendocino of Mendoza.",
                 "active": true,
-                "logo": "logos/gimnasia_y_esgrima_de_mendoza.png",
-                "uniform": "uniforms/gimnasia_y_esgrima_de_mendoza.png"
+                "logo": "logos/gimnasia_y_esgrima_de_mendoza.webp",
+                "uniform": "uniforms/gimnasia_y_esgrima_de_mendoza.webp"
             },
             {
                 "name": "Gimnasia y Tiro",
@@ -27716,8 +27641,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Albo of Salta.",
                 "active": true,
-                "logo": "logos/gimnasia_y_tiro.png",
-                "uniform": "uniforms/gimnasia_y_tiro.png"
+                "logo": "logos/gimnasia_y_tiro.webp",
+                "uniform": "uniforms/gimnasia_y_tiro.webp"
             },
             {
                 "name": "Güemes",
@@ -27731,8 +27656,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gaucho of Güemes.",
                 "active": true,
-                "logo": "logos/guemes.png",
-                "uniform": "uniforms/guemes.png"
+                "logo": "logos/guemes.webp",
+                "uniform": "uniforms/guemes.webp"
             },
             {
                 "name": "Mitre",
@@ -27746,8 +27671,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Aurinegro of Santiago.",
                 "active": true,
-                "logo": "logos/mitre.png",
-                "uniform": "uniforms/mitre.png"
+                "logo": "logos/mitre.webp",
+                "uniform": "uniforms/mitre.webp"
             },
             {
                 "name": "Nueva Chicago",
@@ -27761,8 +27686,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Toro of Mataderos.",
                 "active": true,
-                "logo": "logos/nueva_chicago.png",
-                "uniform": "uniforms/nueva_chicago.png"
+                "logo": "logos/nueva_chicago.webp",
+                "uniform": "uniforms/nueva_chicago.webp"
             },
             {
                 "name": "Patronato",
@@ -27776,8 +27701,8 @@ const teams = [
                 "trophies": "Copa Argentina: 1",
                 "mustKnowFact": "Patrón of Paraná.",
                 "active": true,
-                "logo": "logos/patronato.png",
-                "uniform": "uniforms/patronato.png"
+                "logo": "logos/patronato.webp",
+                "uniform": "uniforms/patronato.webp"
             },
             {
                 "name": "Quilmes AC",
@@ -27791,8 +27716,8 @@ const teams = [
                 "trophies": "Primera División: 2",
                 "mustKnowFact": "Cervecero of Quilmes.",
                 "active": true,
-                "logo": "logos/quilmes_ac.png",
-                "uniform": "uniforms/quilmes_ac.png"
+                "logo": "logos/quilmes_ac.webp",
+                "uniform": "uniforms/quilmes_ac.webp"
             },
             {
                 "name": "Racing de Córdoba",
@@ -27806,8 +27731,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Academia of Córdoba.",
                 "active": true,
-                "logo": "logos/racing_de_cordoba.png",
-                "uniform": "uniforms/racing_de_cordoba.png"
+                "logo": "logos/racing_de_cordoba.webp",
+                "uniform": "uniforms/racing_de_cordoba.webp"
             },
             {
                 "name": "San Martín de San Juan",
@@ -27821,8 +27746,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Verdinegro of San Juan.",
                 "active": true,
-                "logo": "logos/san_martin_de_san_juan.png",
-                "uniform": "uniforms/san_martin_de_san_juan.png"
+                "logo": "logos/san_martin_de_san_juan.webp",
+                "uniform": "uniforms/san_martin_de_san_juan.webp"
             },
             {
                 "name": "San Martín de Tucumán",
@@ -27836,8 +27761,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Santo of Tucumán.",
                 "active": true,
-                "logo": "logos/san_martin_de_tucuman.png",
-                "uniform": "uniforms/san_martin_de_tucuman.png"
+                "logo": "logos/san_martin_de_tucuman.webp",
+                "uniform": "uniforms/san_martin_de_tucuman.webp"
             },
             {
                 "name": "San Miguel",
@@ -27851,8 +27776,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Trueno Verde of San Miguel.",
                 "active": true,
-                "logo": "logos/san_miguel.png",
-                "uniform": "uniforms/san_miguel.png"
+                "logo": "logos/san_miguel.webp",
+                "uniform": "uniforms/san_miguel.webp"
             },
             {
                 "name": "San Telmo",
@@ -27866,8 +27791,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Candombero of San Telmo.",
                 "active": true,
-                "logo": "logos/san_telmo.png",
-                "uniform": "uniforms/san_telmo.png"
+                "logo": "logos/san_telmo.webp",
+                "uniform": "uniforms/san_telmo.webp"
             },
             {
                 "name": "Talleres de Remedios de Escalada",
@@ -27881,8 +27806,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tallarines of Escalada.",
                 "active": true,
-                "logo": "logos/talleres_de_remedios_de_escalada.png",
-                "uniform": "uniforms/talleres_de_remedios_de_escalada.png"
+                "logo": "logos/ca_talleres.webp",
+                "uniform": "uniforms/ca_talleres.webp"
             },
             {
                 "name": "Temperley",
@@ -27896,8 +27821,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Gasolero of Temperley.",
                 "active": true,
-                "logo": "logos/temperley.png",
-                "uniform": "uniforms/temperley.png"
+                "logo": "logos/temperley.webp",
+                "uniform": "uniforms/temperley.webp"
             },
             {
                 "name": "Tristán Suárez",
@@ -27911,8 +27836,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lechero of Suárez.",
                 "active": true,
-                "logo": "logos/tristan_suarez.png",
-                "uniform": "uniforms/tristan_suarez.png"
+                "logo": "logos/tristan_suarez.webp",
+                "uniform": "uniforms/tristan_suarez.webp"
             },
             {
                 "name": "Aldosivi",
@@ -27926,8 +27851,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tiburón of Mar del Plata.",
                 "active": true,
-                "logo": "logos/aldosivi.png",
-                "uniform": "uniforms/aldosivi.png"
+                "logo": "logos/aldosivi.webp",
+                "uniform": "uniforms/aldosivi.webp"
             },
             {
                 "name": "Colón",
@@ -27941,8 +27866,8 @@ const teams = [
                 "trophies": "Primera División: 1",
                 "mustKnowFact": "Sabalero of Santa Fe.",
                 "active": true,
-                "logo": "logos/colon.png",
-                "uniform": "uniforms/colon.png"
+                "logo": "logos/colon.webp",
+                "uniform": "uniforms/colon.webp"
             },
             {
                 "name": "Deportivo Riestra",
@@ -27956,8 +27881,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Malevo of Riestra.",
                 "active": true,
-                "logo": "logos/deportivo_riestra.png",
-                "uniform": "uniforms/deportivo_riestra.png"
+                "logo": "logos/deportivo_riestra.webp",
+                "uniform": "uniforms/deportivo_riestra.webp"
             },
             {
                 "name": "Atlanta",
@@ -27971,8 +27896,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bohemios of Villa Crespo.",
                 "active": true,
-                "logo": "logos/atlanta.png",
-                "uniform": "uniforms/atlanta.png"
+                "logo": "logos/atlanta.webp",
+                "uniform": "uniforms/atlanta.webp"
             },
             {
                 "name": "Arsenal de Sarandí",
@@ -27986,8 +27911,8 @@ const teams = [
                 "trophies": "Primera División: 1, Copa Sudamericana: 1",
                 "mustKnowFact": "Arse of Sarandí.",
                 "active": true,
-                "logo": "logos/arsenal_de_sarandi.png",
-                "uniform": "uniforms/arsenal_de_sarandi.png"
+                "logo": "logos/arsenal_de_sarandi.webp",
+                "uniform": "uniforms/arsenal_de_sarandi.webp"
             },
             {
                 "name": "Bari",
@@ -28001,8 +27926,8 @@ const teams = [
                 "trophies": "Serie B: 2",
                 "mustKnowFact": "Galletti of Bari.",
                 "active": true,
-                "logo": "logos/bari.png",
-                "uniform": "uniforms/bari.png"
+                "logo": "logos/bari.webp",
+                "uniform": "uniforms/bari.webp"
             },
             {
                 "name": "Brescia",
@@ -28016,8 +27941,8 @@ const teams = [
                 "trophies": "Serie B: 4",
                 "mustKnowFact": "Rondinelle of Brescia.",
                 "active": true,
-                "logo": "logos/brescia.png",
-                "uniform": "uniforms/brescia.png"
+                "logo": "logos/brescia.webp",
+                "uniform": "uniforms/brescia.webp"
             },
             {
                 "name": "Carrarese",
@@ -28031,8 +27956,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Marmiferi of Carrara.",
                 "active": true,
-                "logo": "logos/carrarese.png",
-                "uniform": "uniforms/carrarese.png"
+                "logo": "logos/carrarese.webp",
+                "uniform": "uniforms/carrarese.webp"
             },
             {
                 "name": "Catanzaro",
@@ -28046,8 +27971,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Aquile of Catanzaro.",
                 "active": true,
-                "logo": "logos/catanzaro.png",
-                "uniform": "uniforms/catanzaro.png"
+                "logo": "logos/catanzaro.webp",
+                "uniform": "uniforms/catanzaro.webp"
             },
             {
                 "name": "Cesena",
@@ -28061,8 +27986,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cavallucci Marini of Cesena.",
                 "active": true,
-                "logo": "logos/cesena.png",
-                "uniform": "uniforms/cesena.png"
+                "logo": "logos/cesena.webp",
+                "uniform": "uniforms/cesena.webp"
             },
             {
                 "name": "Cittadella",
@@ -28076,8 +28001,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Granata of Cittadella.",
                 "active": true,
-                "logo": "logos/cittadella.png",
-                "uniform": "uniforms/cittadella.png"
+                "logo": "logos/cittadella.webp",
+                "uniform": "uniforms/cittadella.webp"
             },
             {
                 "name": "Cosenza",
@@ -28091,8 +28016,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lupi of Cosenza.",
                 "active": true,
-                "logo": "logos/cosenza.png",
-                "uniform": "uniforms/cosenza.png"
+                "logo": "logos/cosenza.webp",
+                "uniform": "uniforms/cosenza.webp"
             },
             {
                 "name": "Cremonese",
@@ -28106,8 +28031,8 @@ const teams = [
                 "trophies": "Serie B: 4",
                 "mustKnowFact": "Grigiorossi of Cremona.",
                 "active": true,
-                "logo": "logos/cremonese.png",
-                "uniform": "uniforms/cremonese.png"
+                "logo": "logos/cremonese.webp",
+                "uniform": "uniforms/cremonese.webp"
             },
             {
                 "name": "Frosinone",
@@ -28121,8 +28046,8 @@ const teams = [
                 "trophies": "Serie B: 1",
                 "mustKnowFact": "Canarini of Frosinone.",
                 "active": true,
-                "logo": "logos/frosinone.png",
-                "uniform": "uniforms/frosinone.png"
+                "logo": "logos/frosinone.webp",
+                "uniform": "uniforms/frosinone.webp"
             },
             {
                 "name": "Juve Stabia",
@@ -28136,8 +28061,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vespe of Stabia.",
                 "active": true,
-                "logo": "logos/juve_stabia.png",
-                "uniform": "uniforms/juve_stabia.png"
+                "logo": "logos/juve_stabia.webp",
+                "uniform": "uniforms/juve_stabia.webp"
             },
             {
                 "name": "Mantova",
@@ -28151,8 +28076,8 @@ const teams = [
                 "trophies": "Serie B: 1",
                 "mustKnowFact": "Virgiliani of Mantova.",
                 "active": true,
-                "logo": "logos/mantova.png",
-                "uniform": "uniforms/mantova.png"
+                "logo": "logos/mantova.webp",
+                "uniform": "uniforms/mantova.webp"
             },
             {
                 "name": "Modena",
@@ -28166,8 +28091,8 @@ const teams = [
                 "trophies": "Serie B: 2",
                 "mustKnowFact": "Canarini of Modena.",
                 "active": true,
-                "logo": "logos/modena.png",
-                "uniform": "uniforms/modena.png"
+                "logo": "logos/modena.webp",
+                "uniform": "uniforms/modena.webp"
             },
             {
                 "name": "Palermo",
@@ -28181,8 +28106,8 @@ const teams = [
                 "trophies": "Serie B: 5",
                 "mustKnowFact": "Rosanero of Palermo.",
                 "active": true,
-                "logo": "logos/palermo.png",
-                "uniform": "uniforms/palermo.png"
+                "logo": "logos/palermo.webp",
+                "uniform": "uniforms/palermo.webp"
             },
             {
                 "name": "Pisa",
@@ -28196,8 +28121,8 @@ const teams = [
                 "trophies": "Serie B: 2",
                 "mustKnowFact": "Nerazzurri of Pisa.",
                 "active": true,
-                "logo": "logos/pisa.png",
-                "uniform": "uniforms/pisa.png"
+                "logo": "logos/pisa.webp",
+                "uniform": "uniforms/pisa.webp"
             },
             {
                 "name": "Reggiana",
@@ -28211,8 +28136,8 @@ const teams = [
                 "trophies": "Serie B: 1",
                 "mustKnowFact": "Granata of Reggio.",
                 "active": true,
-                "logo": "logos/reggiana.png",
-                "uniform": "uniforms/reggiana.png"
+                "logo": "logos/reggiana.webp",
+                "uniform": "uniforms/reggiana.webp"
             },
             {
                 "name": "Sampdoria",
@@ -28226,8 +28151,8 @@ const teams = [
                 "trophies": "Serie A: 1, Coppa Italia: 4, UEFA Cup Winners' Cup: 1",
                 "mustKnowFact": "Blucerchiati of Genoa.",
                 "active": true,
-                "logo": "logos/sampdoria.png",
-                "uniform": "uniforms/sampdoria.png"
+                "logo": "logos/sampdoria.webp",
+                "uniform": "uniforms/sampdoria.webp"
             },
             {
                 "name": "Sassuolo",
@@ -28241,8 +28166,8 @@ const teams = [
                 "trophies": "Serie B: 1",
                 "mustKnowFact": "Neroverdi of Sassuolo.",
                 "active": true,
-                "logo": "logos/sassuolo.png",
-                "uniform": "uniforms/sassuolo.png"
+                "logo": "logos/sassuolo.webp",
+                "uniform": "uniforms/sassuolo.webp"
             },
             {
                 "name": "Spezia",
@@ -28256,8 +28181,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Aquilotti of Spezia.",
                 "active": true,
-                "logo": "logos/spezia.png",
-                "uniform": "uniforms/spezia.png"
+                "logo": "logos/spezia.webp",
+                "uniform": "uniforms/spezia.webp"
             },
             {
                 "name": "Südtirol",
@@ -28271,8 +28196,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Biancorossi of Südtirol.",
                 "active": true,
-                "logo": "logos/sudtirol.png",
-                "uniform": "uniforms/sudtirol.png"
+                "logo": "logos/sudtirol.webp",
+                "uniform": "uniforms/sudtirol.webp"
             },
             {
                 "name": "Amiens SC",
@@ -28286,8 +28211,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Unicorns of Amiens.",
                 "active": true,
-                "logo": "logos/amiens_sc.png",
-                "uniform": "uniforms/amiens_sc.png"
+                "logo": "logos/amiens_sc.webp",
+                "uniform": "uniforms/amiens_sc.webp"
             },
             {
                 "name": "Annecy FC",
@@ -28301,8 +28226,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Reds of Annecy.",
                 "active": true,
-                "logo": "logos/annecy_fc.png",
-                "uniform": "uniforms/annecy_fc.png"
+                "logo": "logos/annecy_fc.webp",
+                "uniform": "uniforms/annecy_fc.webp"
             },
             {
                 "name": "AC Ajaccio",
@@ -28316,8 +28241,8 @@ const teams = [
                 "trophies": "Ligue 2: 2",
                 "mustKnowFact": "Bears of Corsica.",
                 "active": true,
-                "logo": "logos/ajaccio.png",
-                "uniform": "uniforms/ajaccio.png"
+                "logo": "logos/ajaccio.webp",
+                "uniform": "uniforms/ajaccio.webp"
             },
             {
                 "name": "Bastia",
@@ -28331,8 +28256,8 @@ const teams = [
                 "trophies": "Ligue 1: 1, Coupe de France: 1",
                 "mustKnowFact": "Blues of Bastia.",
                 "active": true,
-                "logo": "logos/bastia.png",
-                "uniform": "uniforms/bastia.png"
+                "logo": "logos/bastia.webp",
+                "uniform": "uniforms/bastia.webp"
             },
             {
                 "name": "Caen",
@@ -28346,8 +28271,8 @@ const teams = [
                 "trophies": "Ligue 2: 2",
                 "mustKnowFact": "Vikings of Caen.",
                 "active": true,
-                "logo": "logos/caen.png",
-                "uniform": "uniforms/caen.png"
+                "logo": "logos/caen.webp",
+                "uniform": "uniforms/caen.webp"
             },
             {
                 "name": "Clermont Foot",
@@ -28361,8 +28286,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lancers of Clermont.",
                 "active": true,
-                "logo": "logos/clermont_foot.png",
-                "uniform": "uniforms/clermont_foot.png"
+                "logo": "logos/clermont_foot.webp",
+                "uniform": "uniforms/clermont_foot.webp"
             },
             {
                 "name": "Dunkerque",
@@ -28376,8 +28301,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Maritimes of Dunkerque.",
                 "active": true,
-                "logo": "logos/dunkerque.png",
-                "uniform": "uniforms/dunkerque.png"
+                "logo": "logos/dunkerque.webp",
+                "uniform": "uniforms/dunkerque.webp"
             },
             {
                 "name": "Grenoble Foot 38",
@@ -28391,8 +28316,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Alpines of Grenoble.",
                 "active": true,
-                "logo": "logos/grenoble_foot_38.png",
-                "uniform": "uniforms/grenoble_foot_38.png"
+                "logo": "logos/grenoble_foot_38.webp",
+                "uniform": "uniforms/grenoble_foot_38.webp"
             },
             {
                 "name": "Guingamp",
@@ -28406,8 +28331,8 @@ const teams = [
                 "trophies": "Coupe de France: 2",
                 "mustKnowFact": "En Avant of Guingamp.",
                 "active": true,
-                "logo": "logos/guingamp.png",
-                "uniform": "uniforms/guingamp.png"
+                "logo": "logos/guingamp.webp",
+                "uniform": "uniforms/guingamp.webp"
             },
             {
                 "name": "Laval",
@@ -28421,8 +28346,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tangos of Laval.",
                 "active": true,
-                "logo": "logos/laval.png",
-                "uniform": "uniforms/laval.png"
+                "logo": "logos/laval.webp",
+                "uniform": "uniforms/laval.webp"
             },
             {
                 "name": "Lorient",
@@ -28436,8 +28361,8 @@ const teams = [
                 "trophies": "Ligue 2: 1, Coupe de France: 1",
                 "mustKnowFact": "Merlus of Lorient.",
                 "active": true,
-                "logo": "logos/lorient.png",
-                "uniform": "uniforms/lorient.png"
+                "logo": "logos/lorient.webp",
+                "uniform": "uniforms/lorient.webp"
             },
             {
                 "name": "Martigues",
@@ -28451,8 +28376,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blood and Gold of Martigues.",
                 "active": true,
-                "logo": "logos/martigues.png",
-                "uniform": "uniforms/martigues.png"
+                "logo": "logos/martigues.webp",
+                "uniform": "uniforms/martigues.webp"
             },
             {
                 "name": "Metz",
@@ -28466,8 +28391,8 @@ const teams = [
                 "trophies": "Ligue 2: 4, Coupe de France: 2",
                 "mustKnowFact": "Grenats of Metz.",
                 "active": true,
-                "logo": "logos/metz.png",
-                "uniform": "uniforms/metz.png"
+                "logo": "logos/metz.webp",
+                "uniform": "uniforms/metz.webp"
             },
             {
                 "name": "Pau FC",
@@ -28481,8 +28406,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Yellows of Pau.",
                 "active": true,
-                "logo": "logos/pau_fc.png",
-                "uniform": "uniforms/pau_fc.png"
+                "logo": "logos/pau_fc.webp",
+                "uniform": "uniforms/pau_fc.webp"
             },
             {
                 "name": "Red Star",
@@ -28496,8 +28421,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Red Star of Paris.",
                 "active": true,
-                "logo": "logos/red_star.png",
-                "uniform": "uniforms/red_star.png"
+                "logo": "logos/red_star.webp",
+                "uniform": "uniforms/red_star.webp"
             },
             {
                 "name": "Rodez AF",
@@ -28511,8 +28436,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sang et Or of Rodez.",
                 "active": true,
-                "logo": "logos/rodez_af.png",
-                "uniform": "uniforms/rodez_af.png"
+                "logo": "logos/rodez_af.webp",
+                "uniform": "uniforms/rodez_af.webp"
             },
             {
                 "name": "Troyes",
@@ -28526,8 +28451,8 @@ const teams = [
                 "trophies": "Ligue 2: 2",
                 "mustKnowFact": "Blues of Troyes.",
                 "active": true,
-                "logo": "logos/troyes.png",
-                "uniform": "uniforms/troyes.png"
+                "logo": "logos/troyes.webp",
+                "uniform": "uniforms/troyes.webp"
             },
             {
                 "name": "Paris FC",
@@ -28541,8 +28466,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blues of Paris.",
                 "active": true,
-                "logo": "logos/paris_fc.png",
-                "uniform": "uniforms/paris_fc.png"
+                "logo": "logos/paris_fc.webp",
+                "uniform": "uniforms/paris_fc.webp"
             },
             {
                 "name": "SV Darmstadt 98",
@@ -28556,8 +28481,8 @@ const teams = [
                 "trophies": "2. Bundesliga: 2",
                 "mustKnowFact": "Lilies of Darmstadt.",
                 "active": true,
-                "logo": "logos/sv_darmstadt_98.png",
-                "uniform": "uniforms/sv_darmstadt_98.png"
+                "logo": "logos/sv_darmstadt_98.webp",
+                "uniform": "uniforms/sv_darmstadt_98.webp"
             },
             {
                 "name": "Eintracht Braunschweig",
@@ -28571,8 +28496,8 @@ const teams = [
                 "trophies": "Bundesliga: 1",
                 "mustKnowFact": "Lions of Braunschweig.",
                 "active": true,
-                "logo": "logos/eintracht.png",
-                "uniform": "uniforms/eintracht.png"
+                "logo": "logos/eintracht.webp",
+                "uniform": "uniforms/eintracht.webp"
             },
             {
                 "name": "Fortuna Düsseldorf",
@@ -28586,8 +28511,8 @@ const teams = [
                 "trophies": "Bundesliga: 1, DFB-Pokal: 2",
                 "mustKnowFact": "Flingeraner of Düsseldorf.",
                 "active": true,
-                "logo": "logos/fortuna_dusseldorf.png",
-                "uniform": "uniforms/fortuna_dusseldorf.png"
+                "logo": "logos/fortuna_dusseldorf.webp",
+                "uniform": "uniforms/fortuna_dusseldorf.webp"
             },
             {
                 "name": "SpVgg Greuther Fürth",
@@ -28601,8 +28526,8 @@ const teams = [
                 "trophies": "Bundesliga: 3",
                 "mustKnowFact": "Kleeblätter of Fürth.",
                 "active": true,
-                "logo": "logos/spvgg_greuther_furth.png",
-                "uniform": "uniforms/spvgg_greuther_furth.png"
+                "logo": "logos/spvgg_greuther_furth.webp",
+                "uniform": "uniforms/spvgg_greuther_furth.webp"
             },
             {
                 "name": "Hannover 96",
@@ -28616,8 +28541,8 @@ const teams = [
                 "trophies": "Bundesliga: 2, DFB-Pokal: 1",
                 "mustKnowFact": "Reds of Hannover.",
                 "active": true,
-                "logo": "logos/hannover_96.png",
-                "uniform": "uniforms/hannover_96.png"
+                "logo": "logos/hannover_96.webp",
+                "uniform": "uniforms/hannover_96.webp"
             },
             {
                 "name": "Hertha BSC",
@@ -28631,8 +28556,8 @@ const teams = [
                 "trophies": "Bundesliga: 2",
                 "mustKnowFact": "Old Lady of Berlin.",
                 "active": true,
-                "logo": "logos/hertha_bsc.png",
-                "uniform": "uniforms/hertha_bsc.png"
+                "logo": "logos/hertha_bsc.webp",
+                "uniform": "uniforms/hertha_bsc.webp"
             },
             {
                 "name": "Karlsruher SC",
@@ -28646,8 +28571,8 @@ const teams = [
                 "trophies": "Bundesliga: 1, DFB-Pokal: 2",
                 "mustKnowFact": "Blue-whites of Karlsruhe.",
                 "active": true,
-                "logo": "logos/karlsruher_sc.png",
-                "uniform": "uniforms/karlsruher_sc.png"
+                "logo": "logos/karlsruher_sc.webp",
+                "uniform": "uniforms/karlsruher_sc.webp"
             },
             {
                 "name": "1. FC Magdeburg",
@@ -28661,8 +28586,8 @@ const teams = [
                 "trophies": "European Cup Winners' Cup: 1",
                 "mustKnowFact": "Blue-whites of Magdeburg.",
                 "active": true,
-                "logo": "logos/1_fc_magdeburg.png",
-                "uniform": "uniforms/1_fc_magdeburg.png"
+                "logo": "logos/1_fc_magdeburg.webp",
+                "uniform": "uniforms/1_fc_magdeburg.webp"
             },
             {
                 "name": "1. FC Nürnberg",
@@ -28676,8 +28601,8 @@ const teams = [
                 "trophies": "Bundesliga: 9, DFB-Pokal: 4",
                 "mustKnowFact": "Club of Nuremberg.",
                 "active": true,
-                "logo": "logos/1_fc_nurnberg.png",
-                "uniform": "uniforms/1_fc_nurnberg.png"
+                "logo": "logos/1_fc_nurnberg.webp",
+                "uniform": "uniforms/1_fc_nurnberg.webp"
             },
             {
                 "name": "SC Paderborn 07",
@@ -28691,8 +28616,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Blue-blacks of Paderborn.",
                 "active": true,
-                "logo": "logos/sc_paderborn_07.png",
-                "uniform": "uniforms/sc_paderborn_07.png"
+                "logo": "logos/sc_paderborn_07.webp",
+                "uniform": "uniforms/sc_paderborn_07.webp"
             },
             {
                 "name": "Preußen Münster",
@@ -28706,8 +28631,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Münster.",
                 "active": true,
-                "logo": "logos/preussen_munster.png",
-                "uniform": "uniforms/preussen_munster.png"
+                "logo": "logos/preussen_munster.webp",
+                "uniform": "uniforms/preussen_munster.webp"
             },
             {
                 "name": "SSV Jahn Regensburg",
@@ -28721,8 +28646,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Jahnelf of Regensburg.",
                 "active": true,
-                "logo": "logos/ssv_jahn_regensburg.png",
-                "uniform": "uniforms/ssv_jahn_regensburg.png"
+                "logo": "logos/ssv_jahn_regensburg.webp",
+                "uniform": "uniforms/ssv_jahn_regensburg.webp"
             },
             {
                 "name": "SV Elversberg",
@@ -28736,8 +28661,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Black-whites of Elversberg.",
                 "active": true,
-                "logo": "logos/sv_elversberg.png",
-                "uniform": "uniforms/sv_elversberg.png"
+                "logo": "logos/sv_elversberg.webp",
+                "uniform": "uniforms/sv_elversberg.webp"
             },
             {
                 "name": "SSV Ulm 1846",
@@ -28751,8 +28676,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Spatzen of Ulm.",
                 "active": true,
-                "logo": "logos/ssv_ulm_1846.png",
-                "uniform": "uniforms/ssv_ulm_1846.png"
+                "logo": "logos/ssv_ulm_1846.webp",
+                "uniform": "uniforms/ssv_ulm_1846.webp"
             },
             {
                 "name": "Schalke 04",
@@ -28766,8 +28691,8 @@ const teams = [
                 "trophies": "Bundesliga: 7, DFB-Pokal: 5, UEFA Cup: 1",
                 "mustKnowFact": "Royal Blues of Schalke.",
                 "active": true,
-                "logo": "logos/schalke_04.png",
-                "uniform": "uniforms/schalke_04.png"
+                "logo": "logos/schalke_04.webp",
+                "uniform": "uniforms/schalke_04.webp"
             },
             {
                 "name": "SV Wehen Wiesbaden",
@@ -28781,8 +28706,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Red-blacks of Wiesbaden.",
                 "active": true,
-                "logo": "logos/sv_wehen_wiesbaden.png",
-                "uniform": "uniforms/sv_wehen_wiesbaden.png"
+                "logo": "logos/sv_wehen_wiesbaden.webp",
+                "uniform": "uniforms/sv_wehen_wiesbaden.webp"
             },
             {
                 "name": "Al-Arabi SC",
@@ -28796,8 +28721,8 @@ const teams = [
                 "trophies": "Kuwait Premier League: 17, Kuwait Emir Cup: 8",
                 "mustKnowFact": "Green giants of Kuwait.",
                 "active": true,
-                "logo": "logos/al_arabi_sc.png",
-                "uniform": "uniforms/al_arabi_sc.png"
+                "logo": "logos/al_arabi_sc.webp",
+                "uniform": "uniforms/al_arabi_sc.webp"
             },
             {
                 "name": "Qadsia SC",
@@ -28811,8 +28736,8 @@ const teams = [
                 "trophies": "Kuwait Premier League: 17, Kuwait Emir Cup: 16",
                 "mustKnowFact": "Yellow castle of Kuwait.",
                 "active": true,
-                "logo": "logos/qadsia_sc.png",
-                "uniform": "uniforms/qadsia_sc.png"
+                "logo": "logos/qadsia_sc.webp",
+                "uniform": "uniforms/qadsia_sc.webp"
             },
             {
                 "name": "Kuwait SC",
@@ -28826,8 +28751,8 @@ const teams = [
                 "trophies": "Kuwait Premier League: 18, AFC Cup: 3",
                 "mustKnowFact": "Brigadiers of Kuwait.",
                 "active": true,
-                "logo": "logos/kuwait_sc.png",
-                "uniform": "uniforms/kuwait_sc.png"
+                "logo": "logos/kuwait_sc.webp",
+                "uniform": "uniforms/kuwait_sc.webp"
             },
             {
                 "name": "Kazma SC",
@@ -28841,8 +28766,8 @@ const teams = [
                 "trophies": "Kuwait Premier League: 4",
                 "mustKnowFact": "Orange army of Kuwait.",
                 "active": true,
-                "logo": "logos/kazma_sc.png",
-                "uniform": "uniforms/kazma_sc.png"
+                "logo": "logos/kazma_sc.webp",
+                "uniform": "uniforms/kazma_sc.webp"
             },
             {
                 "name": "Al-Salmiya SC",
@@ -28856,8 +28781,8 @@ const teams = [
                 "trophies": "Kuwait Premier League: 4",
                 "mustKnowFact": "Blue waves of Salmiya.",
                 "active": true,
-                "logo": "logos/al_salmiya_sc.png",
-                "uniform": "uniforms/al_salmiya_sc.png"
+                "logo": "logos/al_salmiya_sc.webp",
+                "uniform": "uniforms/al_salmiya_sc.webp"
             },
             {
                 "name": "Al-Nasr SC",
@@ -28871,8 +28796,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wolves of Ardiya.",
                 "active": true,
-                "logo": "logos/al_nasr_sc.png",
-                "uniform": "uniforms/al_nasr_sc.png"
+                "logo": "logos/al_nasr_sc.webp",
+                "uniform": "uniforms/al_nasr_sc.webp"
             },
             {
                 "name": "Al-Fahaheel FC",
@@ -28886,8 +28811,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sailors of Fahaheel.",
                 "active": true,
-                "logo": "logos/al_fahaheel_fc.png",
-                "uniform": "uniforms/al_fahaheel_fc.png"
+                "logo": "logos/al_fahaheel_fc.webp",
+                "uniform": "uniforms/al_fahaheel_fc.webp"
             },
             {
                 "name": "Al-Shabab SC",
@@ -28901,8 +28826,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Farwaniya.",
                 "active": true,
-                "logo": "logos/al_shabab_sc.png",
-                "uniform": "uniforms/al_shabab_sc.png"
+                "logo": "logos/al_shabab_sc.webp",
+                "uniform": "uniforms/al_shabab_sc.webp"
             },
             {
                 "name": "Al-Jahra SC",
@@ -28916,8 +28841,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Knights of Jahra.",
                 "active": true,
-                "logo": "logos/al_jahra_sc.png",
-                "uniform": "uniforms/al_jahra_sc.png"
+                "logo": "logos/al_jahra_sc.webp",
+                "uniform": "uniforms/al_jahra_sc.webp"
             },
             {
                 "name": "Khaitan SC",
@@ -28931,8 +28856,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigers of Khaitan.",
                 "active": true,
-                "logo": "logos/khaitan_sc.png",
-                "uniform": "uniforms/khaitan_sc.png"
+                "logo": "logos/khaitan_sc.webp",
+                "uniform": "uniforms/khaitan_sc.webp"
             },
             {
                 "name": "Elect-Sport FC",
@@ -28946,8 +28871,8 @@ const teams = [
                 "trophies": "Chad Premier League: 7",
                 "mustKnowFact": "Electric force of N'Djamena.",
                 "active": true,
-                "logo": "logos/elect_sport_fc.png",
-                "uniform": "uniforms/elect_sport_fc.png"
+                "logo": "logos/elect_sport_fc.webp",
+                "uniform": "uniforms/elect_sport_fc.webp"
             },
             {
                 "name": "Gazelle FC",
@@ -28961,8 +28886,8 @@ const teams = [
                 "trophies": "Chad Premier League: 5",
                 "mustKnowFact": "Gazelles of the capital.",
                 "active": true,
-                "logo": "logos/gazelle_fc.png",
-                "uniform": "uniforms/gazelle_fc.png"
+                "logo": "logos/gazelle_fc.webp",
+                "uniform": "uniforms/gazelle_fc.webp"
             },
             {
                 "name": "Foullah Edifice FC",
@@ -28976,8 +28901,8 @@ const teams = [
                 "trophies": "Chad Premier League: 2",
                 "mustKnowFact": "Edifice of N'Djamena.",
                 "active": true,
-                "logo": "logos/foullah_edifice_fc.png",
-                "uniform": "uniforms/foullah_edifice_fc.png"
+                "logo": "logos/foullah_edifice_fc.webp",
+                "uniform": "uniforms/foullah_edifice_fc.webp"
             },
             {
                 "name": "AS CotonTchad",
@@ -28991,8 +28916,8 @@ const teams = [
                 "trophies": "Chad Premier League: 3",
                 "mustKnowFact": "Cotton kings of Chad.",
                 "active": true,
-                "logo": "logos/as_cotontchad.png",
-                "uniform": "uniforms/as_cotontchad.png"
+                "logo": "logos/as_cotontchad.webp",
+                "uniform": "uniforms/as_cotontchad.webp"
             },
             {
                 "name": "Renaissance FC",
@@ -29006,8 +28931,8 @@ const teams = [
                 "trophies": "Chad Premier League: 1",
                 "mustKnowFact": "Rebirth of N'Djamena.",
                 "active": true,
-                "logo": "logos/renaissance_fc.png",
-                "uniform": "uniforms/renaissance_fc.png"
+                "logo": "logos/renaissance_fc.webp",
+                "uniform": "uniforms/renaissance_fc.webp"
             },
             {
                 "name": "AS DGSSIE",
@@ -29021,8 +28946,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Security forces of Chad.",
                 "active": true,
-                "logo": "logos/as_dgssie.png",
-                "uniform": "uniforms/as_dgssie.png"
+                "logo": "logos/as_dgssie.webp",
+                "uniform": "uniforms/as_dgssie.webp"
             },
             {
                 "name": "Tourbillon FC",
@@ -29036,8 +28961,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Whirlwinds of N'Djamena.",
                 "active": true,
-                "logo": "logos/tourbillon_fc.png",
-                "uniform": "uniforms/tourbillon_fc.png"
+                "logo": "logos/tourbillon_fc.webp",
+                "uniform": "uniforms/tourbillon_fc.webp"
             },
             {
                 "name": "AS Miramar",
@@ -29051,8 +28976,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Mirrors of N'Djamena.",
                 "active": true,
-                "logo": "logos/as_miramar.png",
-                "uniform": "uniforms/as_miramar.png"
+                "logo": "logos/as_miramar.webp",
+                "uniform": "uniforms/as_miramar.webp"
             },
             {
                 "name": "AS PSI",
@@ -29066,8 +28991,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Students of N'Djamena.",
                 "active": true,
-                "logo": "logos/as_psi.png",
-                "uniform": "uniforms/as_psi.png"
+                "logo": "logos/as_psi.webp",
+                "uniform": "uniforms/as_psi.webp"
             },
             {
                 "name": "ASCOT N'Djamena",
@@ -29081,8 +29006,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Cotton workers of Chad.",
                 "active": true,
-                "logo": "logos/ascot_ndjamena.png",
-                "uniform": "uniforms/ascot_ndjamena.png"
+                "logo": "logos/ascot_ndjamena.webp",
+                "uniform": "uniforms/ascot_ndjamena.webp"
             },
             {
                 "name": "Vital'O FC",
@@ -29096,8 +29021,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 20",
                 "mustKnowFact": "Lions of Burundi.",
                 "active": true,
-                "logo": "logos/vitalo_fc.png",
-                "uniform": "uniforms/vitalo_fc.png"
+                "logo": "logos/vitalo_fc.webp",
+                "uniform": "uniforms/vitalo_fc.webp"
             },
             {
                 "name": "Le Messager Ngozi",
@@ -29111,8 +29036,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 4",
                 "mustKnowFact": "Messengers of Ngozi.",
                 "active": true,
-                "logo": "logos/le_messager_ngozi.png",
-                "uniform": "uniforms/le_messager_ngozi.png"
+                "logo": "logos/le_messager_ngozi.webp",
+                "uniform": "uniforms/le_messager_ngozi.webp"
             },
             {
                 "name": "Aigle Noir Makamba",
@@ -29126,8 +29051,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 2",
                 "mustKnowFact": "Black eagles of Makamba.",
                 "active": true,
-                "logo": "logos/aigle_noir_makamba.png",
-                "uniform": "uniforms/aigle_noir_makamba.png"
+                "logo": "logos/aigle_noir_makamba.webp",
+                "uniform": "uniforms/aigle_noir_makamba.webp"
             },
             {
                 "name": "Flambeau du Centre",
@@ -29141,8 +29066,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 1",
                 "mustKnowFact": "Flames of the center.",
                 "active": true,
-                "logo": "logos/flambeau_du_centre.png",
-                "uniform": "uniforms/flambeau_du_centre.png"
+                "logo": "logos/flambeau_du_centre.webp",
+                "uniform": "uniforms/flambeau_du_centre.webp"
             },
             {
                 "name": "Musongati FC",
@@ -29156,8 +29081,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Warriors of Gitega.",
                 "active": true,
-                "logo": "logos/musongati_fc.png",
-                "uniform": "uniforms/musongati_fc.png"
+                "logo": "logos/musongati_fc.webp",
+                "uniform": "uniforms/musongati_fc.webp"
             },
             {
                 "name": "Rukinzo FC",
@@ -29171,8 +29096,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Stars of Rukinzo.",
                 "active": true,
-                "logo": "logos/rukinzo_fc.png",
-                "uniform": "uniforms/rukinzo_fc.png"
+                "logo": "logos/rukinzo_fc.webp",
+                "uniform": "uniforms/rukinzo_fc.webp"
             },
             {
                 "name": "BS Dynamik",
@@ -29186,8 +29111,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dynamos of Bujumbura.",
                 "active": true,
-                "logo": "logos/bs_dynamik.png",
-                "uniform": "uniforms/bs_dynamik.png"
+                "logo": "logos/bs_dynamik.webp",
+                "uniform": "uniforms/bs_dynamik.webp"
             },
             {
                 "name": "Kayanza United",
@@ -29201,8 +29126,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Kayanza.",
                 "active": true,
-                "logo": "logos/kayanza_united.png",
-                "uniform": "uniforms/kayanza_united.png"
+                "logo": "logos/kayanza_united.webp",
+                "uniform": "uniforms/kayanza_united.webp"
             },
             {
                 "name": "Olympic Star",
@@ -29216,8 +29141,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Stars of Muyinga.",
                 "active": true,
-                "logo": "logos/olympic_star.png",
-                "uniform": "uniforms/olympic_star.png"
+                "logo": "logos/olympic_star.webp",
+                "uniform": "uniforms/olympic_star.webp"
             },
             {
                 "name": "Bumamuru FC",
@@ -29231,8 +29156,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 1",
                 "mustKnowFact": "Rising stars of Cibitoke.",
                 "active": true,
-                "logo": "logos/bumamuru_fc.png",
-                "uniform": "uniforms/bumamuru_fc.png"
+                "logo": "logos/bumamuru_fc.webp",
+                "uniform": "uniforms/bumamuru_fc.webp"
             },
             {
                 "name": "Inter Star",
@@ -29246,8 +29171,8 @@ const teams = [
                 "trophies": "Burundi Premier League: 2",
                 "mustKnowFact": "Interstellar of Bujumbura.",
                 "active": true,
-                "logo": "logos/inter_star.png",
-                "uniform": "uniforms/inter_star.png"
+                "logo": "logos/inter_star.webp",
+                "uniform": "uniforms/inter_star.webp"
             },
             {
                 "name": "Flambeau de l'Est",
@@ -29261,8 +29186,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eastern flames of Ruyigi.",
                 "active": true,
-                "logo": "logos/flambeau_de_lest.png",
-                "uniform": "uniforms/flambeau_de_lest.png"
+                "logo": "logos/flambeau_de_lest.webp",
+                "uniform": "uniforms/flambeau_de_lest.webp"
             },
             {
                 "name": "Lydia Ludic Burundi",
@@ -29276,8 +29201,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lydia's pride of Burundi.",
                 "active": true,
-                "logo": "logos/lydia_ludic_burundi.png",
-                "uniform": "uniforms/lydia_ludic_burundi.png"
+                "logo": "logos/lydia_ludic_burundi.webp",
+                "uniform": "uniforms/lydia_ludic_burundi.webp"
             },
             {
                 "name": "Tigre Noir",
@@ -29291,8 +29216,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Black tigers of Bujumbura.",
                 "active": true,
-                "logo": "logos/tigre_noir.png",
-                "uniform": "uniforms/tigre_noir.png"
+                "logo": "logos/tigre_noir.webp",
+                "uniform": "uniforms/tigre_noir.webp"
             },
             {
                 "name": "Moso Sugar Company",
@@ -29306,8 +29231,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sweet warriors of Moso.",
                 "active": true,
-                "logo": "logos/moso_sugar_company.png",
-                "uniform": "uniforms/moso_sugar_company.png"
+                "logo": "logos/moso_sugar_company.webp",
+                "uniform": "uniforms/moso_sugar_company.webp"
             },
             {
                 "name": "Athlético Olympique",
@@ -29321,8 +29246,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Olympians of Bujumbura.",
                 "active": true,
-                "logo": "logos/athletico_olympique.png",
-                "uniform": "uniforms/athletico_olympique.png"
+                "logo": "logos/athletico_olympique.webp",
+                "uniform": "uniforms/athletico_olympique.webp"
             },
             {
                 "name": "Guyana Defence Force FC",
@@ -29336,8 +29261,8 @@ const teams = [
                 "trophies": "GFF Elite League: 4",
                 "mustKnowFact": "Soldiers of Georgetown.",
                 "active": true,
-                "logo": "logos/guyana_defence_force_fc.png",
-                "uniform": "uniforms/guyana_defence_force_fc.png"
+                "logo": "logos/guyana_defence_force_fc.webp",
+                "uniform": "uniforms/guyana_defence_force_fc.webp"
             },
             {
                 "name": "Fruta Conquerors FC",
@@ -29351,8 +29276,8 @@ const teams = [
                 "trophies": "GFF Elite League: 2",
                 "mustKnowFact": "Fruit warriors of Guyana.",
                 "active": true,
-                "logo": "logos/fruta_conquerors_fc.png",
-                "uniform": "uniforms/fruta_conquerors_fc.png"
+                "logo": "logos/fruta_conquerors_fc.webp",
+                "uniform": "uniforms/fruta_conquerors_fc.webp"
             },
             {
                 "name": "Slingerz FC",
@@ -29366,8 +29291,8 @@ const teams = [
                 "trophies": "GFF Elite League: 1",
                 "mustKnowFact": "Slingers of Vergenoegen.",
                 "active": true,
-                "logo": "logos/slingerz_fc.png",
-                "uniform": "uniforms/slingerz_fc.png"
+                "logo": "logos/slingerz_fc.webp",
+                "uniform": "uniforms/slingerz_fc.webp"
             },
             {
                 "name": "Western Tigers FC",
@@ -29381,8 +29306,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Tigers of the west.",
                 "active": true,
-                "logo": "logos/western_tigers_fc.png",
-                "uniform": "uniforms/western_tigers_fc.png"
+                "logo": "logos/western_tigers_fc.webp",
+                "uniform": "uniforms/western_tigers_fc.webp"
             },
             {
                 "name": "Den Amstel FC",
@@ -29396,8 +29321,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pride of Den Amstel.",
                 "active": true,
-                "logo": "logos/den_amstel_fc.png",
-                "uniform": "uniforms/den_amstel_fc.png"
+                "logo": "logos/den_amstel_fc.webp",
+                "uniform": "uniforms/den_amstel_fc.webp"
             },
             {
                 "name": "Santos FC",
@@ -29411,8 +29336,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Saints of Georgetown.",
                 "active": true,
-                "logo": "logos/santos_fc.png",
-                "uniform": "uniforms/santos_fc.png"
+                "logo": "logos/santos_fc.webp",
+                "uniform": "uniforms/santos_fc.webp"
             },
             {
                 "name": "Police FC",
@@ -29426,8 +29351,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lawmen of Guyana.",
                 "active": true,
-                "logo": "logos/police_fc.png",
-                "uniform": "uniforms/police_fc.png"
+                "logo": "logos/police_fc.webp",
+                "uniform": "uniforms/police_fc.webp"
             },
             {
                 "name": "Ann's Grove United",
@@ -29441,8 +29366,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Ann's Grove.",
                 "active": true,
-                "logo": "logos/anns_grove_united.png",
-                "uniform": "uniforms/anns_grove_united.png"
+                "logo": "logos/anns_grove_united.webp",
+                "uniform": "uniforms/anns_grove_united.webp"
             },
             {
                 "name": "Milerock FC",
@@ -29456,8 +29381,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Rock miners of Linden.",
                 "active": true,
-                "logo": "logos/milerock_fc.png",
-                "uniform": "uniforms/milerock_fc.png"
+                "logo": "logos/milerock_fc.webp",
+                "uniform": "uniforms/milerock_fc.webp"
             },
             {
                 "name": "Buxton United",
@@ -29471,8 +29396,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Buxton.",
                 "active": true,
-                "logo": "logos/buxton_united.png",
-                "uniform": "uniforms/buxton_united.png"
+                "logo": "logos/buxton_united.webp",
+                "uniform": "uniforms/buxton_united.webp"
             },
             {
                 "name": "SV Robinhood",
@@ -29486,8 +29411,8 @@ const teams = [
                 "trophies": "SVB Topklasse: 25",
                 "mustKnowFact": "Red hoods of Suriname.",
                 "active": true,
-                "logo": "logos/sv_robinhood.png",
-                "uniform": "uniforms/sv_robinhood.png"
+                "logo": "logos/sv_robinhood.webp",
+                "uniform": "uniforms/sv_robinhood.webp"
             },
             {
                 "name": "Inter Moengotapoe",
@@ -29501,8 +29426,8 @@ const teams = [
                 "trophies": "SVB Topklasse: 10",
                 "mustKnowFact": "Moengo's pride.",
                 "active": true,
-                "logo": "logos/inter_moengotapoe.png",
-                "uniform": "uniforms/inter_moengotapoe.png"
+                "logo": "logos/inter_moengotapoe.webp",
+                "uniform": "uniforms/inter_moengotapoe.webp"
             },
             {
                 "name": "SV Transvaal",
@@ -29516,8 +29441,8 @@ const teams = [
                 "trophies": "SVB Topklasse: 19",
                 "mustKnowFact": "Green giants of Paramaribo.",
                 "active": true,
-                "logo": "logos/sv_transvaal.png",
-                "uniform": "uniforms/sv_transvaal.png"
+                "logo": "logos/sv_transvaal.webp",
+                "uniform": "uniforms/sv_transvaal.webp"
             },
             {
                 "name": "SV Leo Victor",
@@ -29531,8 +29456,8 @@ const teams = [
                 "trophies": "SVB Topklasse: 3",
                 "mustKnowFact": "Lions of Paramaribo.",
                 "active": true,
-                "logo": "logos/sv_leo_victor.png",
-                "uniform": "uniforms/sv_leo_victor.png"
+                "logo": "logos/sv_leo_victor.webp",
+                "uniform": "uniforms/sv_leo_victor.webp"
             },
             {
                 "name": "PVV",
@@ -29546,8 +29471,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Police force of Suriname.",
                 "active": true,
-                "logo": "logos/pvv.png",
-                "uniform": "uniforms/pvv.png"
+                "logo": "logos/pvv.webp",
+                "uniform": "uniforms/pvv.webp"
             },
             {
                 "name": "SV Notch",
@@ -29561,8 +29486,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Notchers of Moengo.",
                 "active": true,
-                "logo": "logos/sv_notch.png",
-                "uniform": "uniforms/sv_notch.png"
+                "logo": "logos/sv_notch.webp",
+                "uniform": "uniforms/sv_notch.webp"
             },
             {
                 "name": "SV Voorwaarts",
@@ -29576,8 +29501,8 @@ const teams = [
                 "trophies": "SVB Topklasse: 6",
                 "mustKnowFact": "Forwards of Paramaribo.",
                 "active": true,
-                "logo": "logos/sv_voorwaarts.png",
-                "uniform": "uniforms/sv_voorwaarts.png"
+                "logo": "logos/sv_voorwaarts.webp",
+                "uniform": "uniforms/sv_voorwaarts.webp"
             },
             {
                 "name": "SNA",
@@ -29591,8 +29516,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Army of Suriname.",
                 "active": true,
-                "logo": "logos/sna.png",
-                "uniform": "uniforms/sna.png"
+                "logo": "logos/sna.webp",
+                "uniform": "uniforms/sna.webp"
             },
             {
                 "name": "SV Santos",
@@ -29606,8 +29531,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Saints of Nickerie.",
                 "active": true,
-                "logo": "logos/sv_santos.png",
-                "uniform": "uniforms/sv_santos.png"
+                "logo": "logos/sv_santos.webp",
+                "uniform": "uniforms/sv_santos.webp"
             },
             {
                 "name": "Broki",
@@ -29621,8 +29546,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Warriors of Albina.",
                 "active": true,
-                "logo": "logos/broki.png",
-                "uniform": "uniforms/broki.png"
+                "logo": "logos/broki.webp",
+                "uniform": "uniforms/broki.webp"
             },
             {
                 "name": "AS SONIDEP",
@@ -29636,8 +29561,8 @@ const teams = [
                 "trophies": "Niger Premier League: 2",
                 "mustKnowFact": "Oilmen of Niamey.",
                 "active": true,
-                "logo": "logos/as_sonidep.png",
-                "uniform": "uniforms/as_sonidep.png"
+                "logo": "logos/as_sonidep.webp",
+                "uniform": "uniforms/as_sonidep.webp"
             },
             {
                 "name": "AS GNN",
@@ -29651,8 +29576,8 @@ const teams = [
                 "trophies": "Niger Premier League: 3",
                 "mustKnowFact": "Guards of Niger.",
                 "active": true,
-                "logo": "logos/as_gnn.png",
-                "uniform": "uniforms/as_gnn.png"
+                "logo": "logos/as_gnn.webp",
+                "uniform": "uniforms/as_gnn.webp"
             },
             {
                 "name": "Sahel SC",
@@ -29666,8 +29591,8 @@ const teams = [
                 "trophies": "Niger Premier League: 13",
                 "mustKnowFact": "Kings of the Sahel.",
                 "active": true,
-                "logo": "logos/sahel_sc.png",
-                "uniform": "uniforms/sahel_sc.png"
+                "logo": "logos/sahel_sc.webp",
+                "uniform": "uniforms/sahel_sc.webp"
             },
             {
                 "name": "AS Police",
@@ -29681,8 +29606,8 @@ const teams = [
                 "trophies": "Niger Premier League: 2",
                 "mustKnowFact": "Lawmen of Niamey.",
                 "active": true,
-                "logo": "logos/as_police.png",
-                "uniform": "uniforms/as_police.png"
+                "logo": "logos/as_police.webp",
+                "uniform": "uniforms/as_police.webp"
             },
             {
                 "name": "ASFAN",
@@ -29696,8 +29621,8 @@ const teams = [
                 "trophies": "Niger Premier League: 5",
                 "mustKnowFact": "Army of Niger.",
                 "active": true,
-                "logo": "logos/asfan.png",
-                "uniform": "uniforms/asfan.png"
+                "logo": "logos/asfan.webp",
+                "uniform": "uniforms/asfan.webp"
             },
             {
                 "name": "USGN",
@@ -29711,8 +29636,8 @@ const teams = [
                 "trophies": "Niger Premier League: 1",
                 "mustKnowFact": "Gendarmes of Niger.",
                 "active": true,
-                "logo": "logos/usgn.png",
-                "uniform": "uniforms/usgn.png"
+                "logo": "logos/usgn.webp",
+                "uniform": "uniforms/usgn.webp"
             },
             {
                 "name": "Jangorzo FC",
@@ -29726,8 +29651,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Warriors of Maradi.",
                 "active": true,
-                "logo": "logos/jangorzo_fc.png",
-                "uniform": "uniforms/jangorzo_fc.png"
+                "logo": "logos/jangorzo_fc.webp",
+                "uniform": "uniforms/jangorzo_fc.webp"
             },
             {
                 "name": "Urana FC",
@@ -29741,8 +29666,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Miners of Arlit.",
                 "active": true,
-                "logo": "logos/urana_fc.png",
-                "uniform": "uniforms/urana_fc.png"
+                "logo": "logos/urana_fc.webp",
+                "uniform": "uniforms/urana_fc.webp"
             },
             {
                 "name": "AS Douanes",
@@ -29756,8 +29681,8 @@ const teams = [
                 "trophies": "Niger Premier League: 2",
                 "mustKnowFact": "Customs of Niamey.",
                 "active": true,
-                "logo": "logos/as_douanes.png",
-                "uniform": "uniforms/as_douanes.png"
+                "logo": "logos/as_douanes.webp",
+                "uniform": "uniforms/as_douanes.webp"
             },
             {
                 "name": "Racing FC",
@@ -29771,8 +29696,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Racers of Niamey.",
                 "active": true,
-                "logo": "logos/racing_fc.png",
-                "uniform": "uniforms/racing_fc.png"
+                "logo": "logos/racing_fc.webp",
+                "uniform": "uniforms/racing_fc.webp"
             },
             {
                 "name": "Espoir FC",
@@ -29786,8 +29711,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hope of Zinder.",
                 "active": true,
-                "logo": "logos/espoir_fc.png",
-                "uniform": "uniforms/espoir_fc.png"
+                "logo": "logos/espoir_fc.webp",
+                "uniform": "uniforms/espoir_fc.webp"
             },
             {
                 "name": "Olympic FC",
@@ -29801,8 +29726,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Olympians of Niamey.",
                 "active": true,
-                "logo": "logos/olympic_fc.png",
-                "uniform": "uniforms/olympic_fc.png"
+                "logo": "logos/olympic_fc.webp",
+                "uniform": "uniforms/olympic_fc.webp"
             },
             {
                 "name": "Dan Kassawa FC",
@@ -29816,8 +29741,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Kassawa of Maradi.",
                 "active": true,
-                "logo": "logos/dan_kassawa_fc.png",
-                "uniform": "uniforms/dan_kassawa_fc.png"
+                "logo": "logos/dan_kassawa_fc.webp",
+                "uniform": "uniforms/dan_kassawa_fc.webp"
             },
             {
                 "name": "AS Niamey",
@@ -29831,8 +29756,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Capital club of Niamey.",
                 "active": true,
-                "logo": "logos/as_niamey.png",
-                "uniform": "uniforms/as_niamey.png"
+                "logo": "logos/as_niamey.webp",
+                "uniform": "uniforms/as_niamey.webp"
             },
             {
                 "name": "Shan United",
@@ -29846,8 +29771,8 @@ const teams = [
                 "trophies": "Myanmar National League: 5",
                 "mustKnowFact": "Mountain lions of Shan.",
                 "active": true,
-                "logo": "logos/shan_united.png",
-                "uniform": "uniforms/shan_united.png"
+                "logo": "logos/shan_united.webp",
+                "uniform": "uniforms/shan_united.webp"
             },
             {
                 "name": "Yangon United",
@@ -29861,8 +29786,8 @@ const teams = [
                 "trophies": "Myanmar National League: 5",
                 "mustKnowFact": "Lions of Yangon.",
                 "active": true,
-                "logo": "logos/yangon_united.png",
-                "uniform": "uniforms/yangon_united.png"
+                "logo": "logos/yangon_united.webp",
+                "uniform": "uniforms/yangon_united.webp"
             },
             {
                 "name": "Hantharwady United",
@@ -29876,8 +29801,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Bago.",
                 "active": true,
-                "logo": "logos/hantharwady_united.png",
-                "uniform": "uniforms/hantharwady_united.png"
+                "logo": "logos/hantharwady_united.webp",
+                "uniform": "uniforms/hantharwady_united.webp"
             },
             {
                 "name": "Ayeyawady United",
@@ -29891,8 +29816,8 @@ const teams = [
                 "trophies": "Myanmar National League: 2",
                 "mustKnowFact": "Delta warriors of Pathein.",
                 "active": true,
-                "logo": "logos/ayeyawady_united.png",
-                "uniform": "uniforms/ayeyawady_united.png"
+                "logo": "logos/ayeyawady_united.webp",
+                "uniform": "uniforms/ayeyawady_united.webp"
             },
             {
                 "name": "Yadanarbon FC",
@@ -29906,8 +29831,8 @@ const teams = [
                 "trophies": "Myanmar National League: 4",
                 "mustKnowFact": "Kings of Mandalay.",
                 "active": true,
-                "logo": "logos/yadanarbon_fc.png",
-                "uniform": "uniforms/yadanarbon_fc.png"
+                "logo": "logos/yadanarbon_fc.webp",
+                "uniform": "uniforms/yadanarbon_fc.webp"
             },
             {
                 "name": "Rakhine United",
@@ -29921,8 +29846,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sharks of Rakhine.",
                 "active": true,
-                "logo": "logos/rakhine_united.png",
-                "uniform": "uniforms/rakhine_united.png"
+                "logo": "logos/rakhine_united.webp",
+                "uniform": "uniforms/rakhine_united.webp"
             },
             {
                 "name": "Sagaing United",
@@ -29936,8 +29861,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Sagaing.",
                 "active": true,
-                "logo": "logos/sagaing_united.png",
-                "uniform": "uniforms/sagaing_united.png"
+                "logo": "logos/sagaing_united.webp",
+                "uniform": "uniforms/sagaing_united.webp"
             },
             {
                 "name": "Myawady FC",
@@ -29951,8 +29876,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Army of Myawady.",
                 "active": true,
-                "logo": "logos/myawady_fc.png",
-                "uniform": "uniforms/myawady_fc.png"
+                "logo": "logos/myawady_fc.webp",
+                "uniform": "uniforms/myawady_fc.webp"
             },
             {
                 "name": "ISPE FC",
@@ -29966,8 +29891,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Students of Yangon.",
                 "active": true,
-                "logo": "logos/ispe_fc.png",
-                "uniform": "uniforms/ispe_fc.png"
+                "logo": "logos/ispe_fc.webp",
+                "uniform": "uniforms/ispe_fc.webp"
             },
             {
                 "name": "Dagon FC",
@@ -29981,8 +29906,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dragons of Dagon.",
                 "active": true,
-                "logo": "logos/dagon_fc.png",
-                "uniform": "uniforms/dagon_fc.png"
+                "logo": "logos/dagon_fc.webp",
+                "uniform": "uniforms/dagon_fc.webp"
             },
             {
                 "name": "Chinland FC",
@@ -29996,8 +29921,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Highlanders of Chin.",
                 "active": true,
-                "logo": "logos/chinland_fc.png",
-                "uniform": "uniforms/chinland_fc.png"
+                "logo": "logos/chinland_fc.webp",
+                "uniform": "uniforms/chinland_fc.webp"
             },
             {
                 "name": "Mawyawadi FC",
@@ -30011,8 +29936,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Warriors of Mawlamyine.",
                 "active": true,
-                "logo": "logos/mawyawadi_fc.png",
-                "uniform": "uniforms/mawyawadi_fc.png"
+                "logo": "logos/mawyawadi_fc.webp",
+                "uniform": "uniforms/mawyawadi_fc.webp"
             },
             {
                 "name": "Paro FC",
@@ -30026,8 +29951,8 @@ const teams = [
                 "trophies": "Bhutan Premier League: 3",
                 "mustKnowFact": "Tigers of Paro.",
                 "active": true,
-                "logo": "logos/paro_fc.png",
-                "uniform": "uniforms/paro_fc.png"
+                "logo": "logos/paro_fc.webp",
+                "uniform": "uniforms/paro_fc.webp"
             },
             {
                 "name": "Thimphu City FC",
@@ -30041,8 +29966,8 @@ const teams = [
                 "trophies": "Bhutan Premier League: 2",
                 "mustKnowFact": "Capital kings of Thimphu.",
                 "active": true,
-                "logo": "logos/thimphu_city_fc.png",
-                "uniform": "uniforms/thimphu_city_fc.png"
+                "logo": "logos/thimphu_city_fc.webp",
+                "uniform": "uniforms/thimphu_city_fc.webp"
             },
             {
                 "name": "Transport United",
@@ -30056,8 +29981,8 @@ const teams = [
                 "trophies": "Bhutan Premier League: 4",
                 "mustKnowFact": "Transporters of Thimphu.",
                 "active": true,
-                "logo": "logos/transport_united.png",
-                "uniform": "uniforms/transport_united.png"
+                "logo": "logos/transport_united.webp",
+                "uniform": "uniforms/transport_united.webp"
             },
             {
                 "name": "Druk Lhayul FC",
@@ -30071,8 +29996,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dragons of Bhutan.",
                 "active": true,
-                "logo": "logos/druk_lhayul_fc.png",
-                "uniform": "uniforms/druk_lhayul_fc.png"
+                "logo": "logos/druk_lhayul_fc.webp",
+                "uniform": "uniforms/druk_lhayul_fc.webp"
             },
             {
                 "name": "Ugyen Academy FC",
@@ -30086,8 +30011,8 @@ const teams = [
                 "trophies": "Bhutan Premier League: 1",
                 "mustKnowFact": "Scholars of Punakha.",
                 "active": true,
-                "logo": "logos/ugyen_academy_fc.png",
-                "uniform": "uniforms/ugyen_academy_fc.png"
+                "logo": "logos/ugyen_academy_fc.webp",
+                "uniform": "uniforms/ugyen_academy_fc.webp"
             },
             {
                 "name": "RTC FC",
@@ -30101,8 +30026,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Teachers of Thimphu.",
                 "active": true,
-                "logo": "logos/rtc_fc.png",
-                "uniform": "uniforms/rtc_fc.png"
+                "logo": "logos/rtc_fc.webp",
+                "uniform": "uniforms/rtc_fc.webp"
             },
             {
                 "name": "Paro United",
@@ -30116,8 +30041,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Paro.",
                 "active": true,
-                "logo": "logos/paro_united.png",
-                "uniform": "uniforms/paro_united.png"
+                "logo": "logos/paro_united.webp",
+                "uniform": "uniforms/paro_united.webp"
             },
             {
                 "name": "Tensung FC",
@@ -30131,8 +30056,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Army of Bhutan.",
                 "active": true,
-                "logo": "logos/tensung_fc.png",
-                "uniform": "uniforms/tensung_fc.png"
+                "logo": "logos/tensung_fc.webp",
+                "uniform": "uniforms/tensung_fc.webp"
             },
             {
                 "name": "Gelephu FC",
@@ -30146,8 +30071,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Southern stars of Gelephu.",
                 "active": true,
-                "logo": "logos/gelephu_fc.png",
-                "uniform": "uniforms/gelephu_fc.png"
+                "logo": "logos/gelephu_fc.webp",
+                "uniform": "uniforms/gelephu_fc.webp"
             },
             {
                 "name": "BFF Academy",
@@ -30161,8 +30086,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Future stars of Bhutan.",
                 "active": true,
-                "logo": "logos/bff_academy.png",
-                "uniform": "uniforms/bff_academy.png"
+                "logo": "logos/bff_academy.webp",
+                "uniform": "uniforms/bff_academy.webp"
             },
             {
                 "name": "CF Mounana",
@@ -30176,8 +30101,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 3",
                 "mustKnowFact": "Miners of Mounana.",
                 "active": true,
-                "logo": "logos/cf_mounana.png",
-                "uniform": "uniforms/cf_mounana.png"
+                "logo": "logos/cf_mounana.webp",
+                "uniform": "uniforms/cf_mounana.webp"
             },
             {
                 "name": "AS Mangasport",
@@ -30191,8 +30116,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 9",
                 "mustKnowFact": "Kings of Moanda.",
                 "active": true,
-                "logo": "logos/as_mangasport.png",
-                "uniform": "uniforms/as_mangasport.png"
+                "logo": "logos/as_mangasport.webp",
+                "uniform": "uniforms/as_mangasport.webp"
             },
             {
                 "name": "US Bitam",
@@ -30206,8 +30131,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 2",
                 "mustKnowFact": "Northern stars of Bitam.",
                 "active": true,
-                "logo": "logos/us_bitam.png",
-                "uniform": "uniforms/us_bitam.png"
+                "logo": "logos/us_bitam.webp",
+                "uniform": "uniforms/us_bitam.webp"
             },
             {
                 "name": "CMS Libreville",
@@ -30221,8 +30146,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 1",
                 "mustKnowFact": "Mechanics of Libreville.",
                 "active": true,
-                "logo": "logos/cms_libreville.png",
-                "uniform": "uniforms/cms_libreville.png"
+                "logo": "logos/cms_libreville.webp",
+                "uniform": "uniforms/cms_libreville.webp"
             },
             {
                 "name": "AS Stade Mandji",
@@ -30236,8 +30161,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 2",
                 "mustKnowFact": "Coastal warriors of Port-Gentil.",
                 "active": true,
-                "logo": "logos/as_stade_mandji.png",
-                "uniform": "uniforms/as_stade_mandji.png"
+                "logo": "logos/as_stade_mandji.webp",
+                "uniform": "uniforms/as_stade_mandji.webp"
             },
             {
                 "name": "FC 105 Libreville",
@@ -30251,8 +30176,8 @@ const teams = [
                 "trophies": "Gabon Championnat National D1: 5",
                 "mustKnowFact": "Cannons of Libreville.",
                 "active": true,
-                "logo": "logos/fc_105_libreville.png",
-                "uniform": "uniforms/fc_105_libreville.png"
+                "logo": "logos/fc_105_libreville.webp",
+                "uniform": "uniforms/fc_105_libreville.webp"
             },
             {
                 "name": "AO CM Belinga",
@@ -30266,8 +30191,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of Belinga.",
                 "active": true,
-                "logo": "logos/ao_cm_belinga.png",
-                "uniform": "uniforms/ao_cm_belinga.png"
+                "logo": "logos/ao_cm_belinga.webp",
+                "uniform": "uniforms/ao_cm_belinga.webp"
             },
             {
                 "name": "Akanda FC",
@@ -30281,8 +30206,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pride of Akanda.",
                 "active": true,
-                "logo": "logos/akanda_fc.png",
-                "uniform": "uniforms/akanda_fc.png"
+                "logo": "logos/akanda_fc.webp",
+                "uniform": "uniforms/akanda_fc.webp"
             },
             {
                 "name": "Boulevard FC",
@@ -30296,8 +30221,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Boulevard boys of Libreville.",
                 "active": true,
-                "logo": "logos/boulevard_fc.png",
-                "uniform": "uniforms/boulevard_fc.png"
+                "logo": "logos/boulevard_fc.webp",
+                "uniform": "uniforms/boulevard_fc.webp"
             },
             {
                 "name": "Olympique de Mandji",
@@ -30311,8 +30236,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Olympians of Mandji.",
                 "active": true,
-                "logo": "logos/olympique_de_mandji.png",
-                "uniform": "uniforms/olympique_de_mandji.png"
+                "logo": "logos/olympique_de_mandji.webp",
+                "uniform": "uniforms/olympique_de_mandji.webp"
             },
             {
                 "name": "AS Pélican",
@@ -30326,8 +30251,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pelicans of Lambaréné.",
                 "active": true,
-                "logo": "logos/as_pelican.png",
-                "uniform": "uniforms/as_pelican.png"
+                "logo": "logos/as_pelican.webp",
+                "uniform": "uniforms/as_pelican.webp"
             },
             {
                 "name": "Missile FC",
@@ -30341,8 +30266,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Missiles of Libreville.",
                 "active": true,
-                "logo": "logos/missile_fc.png",
-                "uniform": "uniforms/missile_fc.png"
+                "logo": "logos/missile_fc.webp",
+                "uniform": "uniforms/missile_fc.webp"
             },
             {
                 "name": "Union Sportive d'Oyem",
@@ -30356,8 +30281,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sportsmen of Oyem.",
                 "active": true,
-                "logo": "logos/union_sportive_doyem.png",
-                "uniform": "uniforms/union_sportive_doyem.png"
+                "logo": "logos/union_sportive_doyem.webp",
+                "uniform": "uniforms/union_sportive_doyem.webp"
             },
             {
                 "name": "Cercle Mbéri Sportif",
@@ -30371,8 +30296,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Circle of Mbéri.",
                 "active": true,
-                "logo": "logos/cercle_mberi_sportif.png",
-                "uniform": "uniforms/cercle_mberi_sportif.png"
+                "logo": "logos/cercle_mberi_sportif.webp",
+                "uniform": "uniforms/cercle_mberi_sportif.webp"
             },
             {
                 "name": "Nyasa Big Bullets",
@@ -30386,8 +30311,8 @@ const teams = [
                 "trophies": "TNM Super League: 16",
                 "mustKnowFact": "People's team of Malawi.",
                 "active": true,
-                "logo": "logos/nyasa_big_bullets.png",
-                "uniform": "uniforms/nyasa_big_bullets.png"
+                "logo": "logos/nyasa_big_bullets.webp",
+                "uniform": "uniforms/nyasa_big_bullets.webp"
             },
             {
                 "name": "Mighty Wanderers",
@@ -30401,8 +30326,8 @@ const teams = [
                 "trophies": "TNM Super League: 6",
                 "mustKnowFact": "Nomads of Blantyre.",
                 "active": true,
-                "logo": "logos/mighty_wanderers.png",
-                "uniform": "uniforms/mighty_wanderers.png"
+                "logo": "logos/mighty_wanderers.webp",
+                "uniform": "uniforms/mighty_wanderers.webp"
             },
             {
                 "name": "Silver Strikers",
@@ -30416,8 +30341,8 @@ const teams = [
                 "trophies": "TNM Super League: 8",
                 "mustKnowFact": "Bankers of Lilongwe.",
                 "active": true,
-                "logo": "logos/silver_strikers.png",
-                "uniform": "uniforms/silver_strikers.png"
+                "logo": "logos/silver_strikers.webp",
+                "uniform": "uniforms/silver_strikers.webp"
             },
             {
                 "name": "Civil Service United",
@@ -30431,8 +30356,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Servants of Lilongwe.",
                 "active": true,
-                "logo": "logos/civil_service_united.png",
-                "uniform": "uniforms/civil_service_united.png"
+                "logo": "logos/civil_service_united.webp",
+                "uniform": "uniforms/civil_service_united.webp"
             },
             {
                 "name": "Kamuzu Barracks",
@@ -30446,8 +30371,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Soldiers of Kamuzu.",
                 "active": true,
-                "logo": "logos/kamuzu_barracks.png",
-                "uniform": "uniforms/kamuzu_barracks.png"
+                "logo": "logos/kamuzu_barracks.webp",
+                "uniform": "uniforms/kamuzu_barracks.webp"
             },
             {
                 "name": "Moyale Barracks",
@@ -30461,8 +30386,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Barracks of Mzuzu.",
                 "active": true,
-                "logo": "logos/moyale_barracks.png",
-                "uniform": "uniforms/moyale_barracks.png"
+                "logo": "logos/moyale_barracks.webp",
+                "uniform": "uniforms/moyale_barracks.webp"
             },
             {
                 "name": "Blue Eagles",
@@ -30476,8 +30401,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Eagles of the police.",
                 "active": true,
-                "logo": "logos/blue_eagles.png",
-                "uniform": "uniforms/blue_eagles.png"
+                "logo": "logos/blue_eagles.webp",
+                "uniform": "uniforms/blue_eagles.webp"
             },
             {
                 "name": "MAFCO FC",
@@ -30491,8 +30416,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Military of Salima.",
                 "active": true,
-                "logo": "logos/mafco_fc.png",
-                "uniform": "uniforms/mafco_fc.png"
+                "logo": "logos/mafco_fc.webp",
+                "uniform": "uniforms/mafco_fc.webp"
             },
             {
                 "name": "Dedza Dynamos",
@@ -30506,8 +30431,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Dynamos of Dedza.",
                 "active": true,
-                "logo": "logos/dedza_dynamos.png",
-                "uniform": "uniforms/dedza_dynamos.png"
+                "logo": "logos/dedza_dynamos.webp",
+                "uniform": "uniforms/dedza_dynamos.webp"
             },
             {
                 "name": "Chitipa United",
@@ -30521,8 +30446,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern warriors of Chitipa.",
                 "active": true,
-                "logo": "logos/chitipa_united.png",
-                "uniform": "uniforms/chitipa_united.png"
+                "logo": "logos/chitipa_united.webp",
+                "uniform": "uniforms/chitipa_united.webp"
             },
             {
                 "name": "Karonga United",
@@ -30536,8 +30461,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Crocodiles of Karonga.",
                 "active": true,
-                "logo": "logos/karonga_united.png",
-                "uniform": "uniforms/karonga_united.png"
+                "logo": "logos/karonga_united.webp",
+                "uniform": "uniforms/karonga_united.webp"
             },
             {
                 "name": "Bangwe All Stars",
@@ -30551,8 +30476,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Stars of Bangwe.",
                 "active": true,
-                "logo": "logos/bangwe_all_stars.png",
-                "uniform": "uniforms/bangwe_all_stars.png"
+                "logo": "logos/bangwe_all_stars.webp",
+                "uniform": "uniforms/bangwe_all_stars.webp"
             },
             {
                 "name": "Mzuzu City Hammers",
@@ -30566,8 +30491,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hammers of Mzuzu.",
                 "active": true,
-                "logo": "logos/mzuzu_city_hammers.png",
-                "uniform": "uniforms/mzuzu_city_hammers.png"
+                "logo": "logos/mzuzu_city_hammers.webp",
+                "uniform": "uniforms/mzuzu_city_hammers.webp"
             },
             {
                 "name": "Red Lions",
@@ -30581,8 +30506,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Lions of Zomba.",
                 "active": true,
-                "logo": "logos/red_lions.png",
-                "uniform": "uniforms/red_lions.png"
+                "logo": "logos/red_lions.webp",
+                "uniform": "uniforms/red_lions.webp"
             },
             {
                 "name": "FCB Nyasa Bullets Reserves",
@@ -30596,8 +30521,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Future Bullets of Blantyre.",
                 "active": true,
-                "logo": "logos/fcb_nyasa_bullets_reserves.png",
-                "uniform": "uniforms/fcb_nyasa_bullets_reserves.png"
+                "logo": "logos/fcb_nyasa_bullets_reserves.webp",
+                "uniform": "uniforms/fcb_nyasa_bullets_reserves.webp"
             },
             {
                 "name": "Creck Sporting Club",
@@ -30611,8 +30536,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sporting pride of Lilongwe.",
                 "active": true,
-                "logo": "logos/creck_sporting_club.png",
-                "uniform": "uniforms/creck_sporting_club.png"
+                "logo": "logos/creck_sporting_club.webp",
+                "uniform": "uniforms/creck_sporting_club.webp"
             },
             {
                 "name": "Al-Jaish",
@@ -30626,8 +30551,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 17, AFC Cup: 1",
                 "mustKnowFact": "Army of Damascus.",
                 "active": true,
-                "logo": "logos/al_jaish.png",
-                "uniform": "uniforms/al_jaish.png"
+                "logo": "logos/al_jaish.webp",
+                "uniform": "uniforms/al_jaish.webp"
             },
             {
                 "name": "Al-Karamah",
@@ -30641,8 +30566,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 11",
                 "mustKnowFact": "Pride of Homs.",
                 "active": true,
-                "logo": "logos/al_karamah.png",
-                "uniform": "uniforms/al_karamah.png"
+                "logo": "logos/al_karamah.webp",
+                "uniform": "uniforms/al_karamah.webp"
             },
             {
                 "name": "Tishreen SC",
@@ -30656,8 +30581,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 5",
                 "mustKnowFact": "Sailors of Latakia.",
                 "active": true,
-                "logo": "logos/tishreen_sc.png",
-                "uniform": "uniforms/tishreen_sc.png"
+                "logo": "logos/tishreen_sc.webp",
+                "uniform": "uniforms/tishreen_sc.webp"
             },
             {
                 "name": "Al-Ittihad Aleppo",
@@ -30671,8 +30596,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 6",
                 "mustKnowFact": "Red castle of Aleppo.",
                 "active": true,
-                "logo": "logos/al_ittihad_aleppo.png",
-                "uniform": "uniforms/al_ittihad_aleppo.png"
+                "logo": "logos/al_ittihad_aleppo.webp",
+                "uniform": "uniforms/al_ittihad_aleppo.webp"
             },
             {
                 "name": "Al-Wahda Damascus",
@@ -30686,8 +30611,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 2",
                 "mustKnowFact": "Unity of Damascus.",
                 "active": true,
-                "logo": "logos/al_wahda_damascus.png",
-                "uniform": "uniforms/al_wahda_damascus.png"
+                "logo": "logos/al_wahda_damascus.webp",
+                "uniform": "uniforms/al_wahda_damascus.webp"
             },
             {
                 "name": "Hutteen SC",
@@ -30701,8 +30626,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 1",
                 "mustKnowFact": "Whales of Latakia.",
                 "active": true,
-                "logo": "logos/hutteen_sc.png",
-                "uniform": "uniforms/hutteen_sc.png"
+                "logo": "logos/hutteen_sc.webp",
+                "uniform": "uniforms/hutteen_sc.webp"
             },
             {
                 "name": "Al-Fotuwa",
@@ -30716,8 +30641,8 @@ const teams = [
                 "trophies": "Syrian Premier League: 3",
                 "mustKnowFact": "Knights of Deir ez-Zor.",
                 "active": true,
-                "logo": "logos/al_fotuwa.png",
-                "uniform": "uniforms/al_fotuwa.png"
+                "logo": "logos/al_fotuwa.webp",
+                "uniform": "uniforms/al_fotuwa.webp"
             },
             {
                 "name": "Jableh SC",
@@ -30731,8 +30656,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sailors of Jableh.",
                 "active": true,
-                "logo": "logos/jableh_sc.png",
-                "uniform": "uniforms/jableh_sc.png"
+                "logo": "logos/jableh_sc.webp",
+                "uniform": "uniforms/jableh_sc.webp"
             },
             {
                 "name": "Al-Shorta Damascus",
@@ -30746,8 +30671,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Police of Damascus.",
                 "active": true,
-                "logo": "logos/al_shorta_damascus.png",
-                "uniform": "uniforms/al_shorta_damascus.png"
+                "logo": "logos/al_shorta_damascus.webp",
+                "uniform": "uniforms/al_shorta_damascus.webp"
             },
             {
                 "name": "Al-Taliya",
@@ -30761,8 +30686,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Vanguard of Hama.",
                 "active": true,
-                "logo": "logos/al_taliya.png",
-                "uniform": "uniforms/al_taliya.png"
+                "logo": "logos/al_taliya.webp",
+                "uniform": "uniforms/al_taliya.webp"
             },
             {
                 "name": "Al-Wathba",
@@ -30776,8 +30701,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Horses of Homs.",
                 "active": true,
-                "logo": "logos/al_wathba.png",
-                "uniform": "uniforms/al_wathba.png"
+                "logo": "logos/al_wathba.webp",
+                "uniform": "uniforms/al_wathba.webp"
             },
             {
                 "name": "Al-Sahel Tartus",
@@ -30791,8 +30716,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Coastal team of Tartus.",
                 "active": true,
-                "logo": "logos/al_sahel_tartus.png",
-                "uniform": "uniforms/al_sahel_tartus.png"
+                "logo": "logos/al_sahel_tartus.webp",
+                "uniform": "uniforms/al_sahel_tartus.webp"
             },
             {
                 "name": "Al Ansar",
@@ -30806,8 +30731,8 @@ const teams = [
                 "trophies": "Lebanese Premier League: 14",
                 "mustKnowFact": "Green giants of Beirut.",
                 "active": true,
-                "logo": "logos/al_ansar.png",
-                "uniform": "uniforms/al_ansar.png"
+                "logo": "logos/al_ansar.webp",
+                "uniform": "uniforms/al_ansar.webp"
             },
             {
                 "name": "Nejmeh SC",
@@ -30821,8 +30746,8 @@ const teams = [
                 "trophies": "Lebanese Premier League: 8",
                 "mustKnowFact": "Stars of Beirut.",
                 "active": true,
-                "logo": "logos/nejmeh_sc.png",
-                "uniform": "uniforms/nejmeh_sc.png"
+                "logo": "logos/nejmeh_sc.webp",
+                "uniform": "uniforms/nejmeh_sc.webp"
             },
             {
                 "name": "Al Ahed",
@@ -30836,8 +30761,8 @@ const teams = [
                 "trophies": "Lebanese Premier League: 9, AFC Cup: 1",
                 "mustKnowFact": "Yellow castle of Beirut.",
                 "active": true,
-                "logo": "logos/al_ahed.png",
-                "uniform": "uniforms/al_ahed.png"
+                "logo": "logos/al_ahed.webp",
+                "uniform": "uniforms/al_ahed.webp"
             },
             {
                 "name": "Safa SC",
@@ -30851,8 +30776,8 @@ const teams = [
                 "trophies": "Lebanese Premier League: 3",
                 "mustKnowFact": "Lions of Safa.",
                 "active": true,
-                "logo": "logos/safa_sc.png",
-                "uniform": "uniforms/safa_sc.png"
+                "logo": "logos/safa_sc.webp",
+                "uniform": "uniforms/safa_sc.webp"
             },
             {
                 "name": "Racing Beirut",
@@ -30866,8 +30791,8 @@ const teams = [
                 "trophies": "Lebanese Premier League: 3",
                 "mustKnowFact": "Racers of Beirut.",
                 "active": true,
-                "logo": "logos/racing_beirut.png",
-                "uniform": "uniforms/racing_beirut.png"
+                "logo": "logos/racing_beirut.webp",
+                "uniform": "uniforms/racing_beirut.webp"
             },
             {
                 "name": "Shabab Al Sahel",
@@ -30881,8 +30806,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of the coast.",
                 "active": true,
-                "logo": "logos/shabab_al_sahel.png",
-                "uniform": "uniforms/shabab_al_sahel.png"
+                "logo": "logos/shabab_al_sahel.webp",
+                "uniform": "uniforms/shabab_al_sahel.webp"
             },
             {
                 "name": "Tripoli SC",
@@ -30896,8 +30821,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Northern stars of Tripoli.",
                 "active": true,
-                "logo": "logos/tripoli_sc.png",
-                "uniform": "uniforms/tripoli_sc.png"
+                "logo": "logos/tripoli_sc.webp",
+                "uniform": "uniforms/tripoli_sc.webp"
             },
             {
                 "name": "Al Akhaa Al Ahli",
@@ -30911,8 +30836,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Brothers of Aley.",
                 "active": true,
-                "logo": "logos/al_akhaa_al_ahli.png",
-                "uniform": "uniforms/al_akhaa_al_ahli.png"
+                "logo": "logos/al_akhaa_al_ahli.webp",
+                "uniform": "uniforms/al_akhaa_al_ahli.webp"
             },
             {
                 "name": "Bourj FC",
@@ -30926,8 +30851,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Fortress of Bourj.",
                 "active": true,
-                "logo": "logos/bourj_fc.png",
-                "uniform": "uniforms/bourj_fc.png"
+                "logo": "logos/bourj_fc.webp",
+                "uniform": "uniforms/bourj_fc.webp"
             },
             {
                 "name": "Shabab Al Ghazieh",
@@ -30941,8 +30866,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Ghazieh.",
                 "active": true,
-                "logo": "logos/shabab_al_ghazieh.png",
-                "uniform": "uniforms/shabab_al_ghazieh.png"
+                "logo": "logos/shabab_al_ghazieh.webp",
+                "uniform": "uniforms/shabab_al_ghazieh.webp"
             },
             {
                 "name": "Tadamon Sour",
@@ -30956,8 +30881,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Solidarity of Tyre.",
                 "active": true,
-                "logo": "logos/tadamon_sour.png",
-                "uniform": "uniforms/tadamon_sour.png"
+                "logo": "logos/tadamon_sour.webp",
+                "uniform": "uniforms/tadamon_sour.webp"
             },
             {
                 "name": "Sagesse SC",
@@ -30971,8 +30896,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Wisdom of Beirut.",
                 "active": true,
-                "logo": "logos/sagesse_sc.png",
-                "uniform": "uniforms/sagesse_sc.png"
+                "logo": "logos/sagesse_sc.webp",
+                "uniform": "uniforms/sagesse_sc.webp"
             },
             {
                 "name": "Shabab Al-Khalil",
@@ -30986,8 +30911,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 5",
                 "mustKnowFact": "Lions of Hebron.",
                 "active": true,
-                "logo": "logos/shabab_al_khalil.png",
-                "uniform": "uniforms/shabab_al_khalil.png"
+                "logo": "logos/shabab_al_khalil.webp",
+                "uniform": "uniforms/shabab_al_khalil.webp"
             },
             {
                 "name": "Hilal Al-Quds",
@@ -31001,8 +30926,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 5",
                 "mustKnowFact": "Crescent of Jerusalem.",
                 "active": true,
-                "logo": "logos/hilal_al_quds.png",
-                "uniform": "uniforms/hilal_al_quds.png"
+                "logo": "logos/hilal_al_quds.webp",
+                "uniform": "uniforms/hilal_al_quds.webp"
             },
             {
                 "name": "Jabal Al-Mukaber",
@@ -31016,8 +30941,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 3",
                 "mustKnowFact": "Mountaineers of Jerusalem.",
                 "active": true,
-                "logo": "logos/jabal_al_mukaber.png",
-                "uniform": "uniforms/jabal_al_mukaber.png"
+                "logo": "logos/jabal_al_mukaber.webp",
+                "uniform": "uniforms/jabal_al_mukaber.webp"
             },
             {
                 "name": "Markaz Balata",
@@ -31031,8 +30956,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 1",
                 "mustKnowFact": "Center of Balata.",
                 "active": true,
-                "logo": "logos/markaz_balata.png",
-                "uniform": "uniforms/markaz_balata.png"
+                "logo": "logos/markaz_balata.webp",
+                "uniform": "uniforms/markaz_balata.webp"
             },
             {
                 "name": "Shabab Rafah",
@@ -31046,8 +30971,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Rafah.",
                 "active": true,
-                "logo": "logos/shabab_rafah.png",
-                "uniform": "uniforms/shabab_rafah.png"
+                "logo": "logos/shabab_rafah.webp",
+                "uniform": "uniforms/shabab_rafah.webp"
             },
             {
                 "name": "Thaqafi Tulkarem",
@@ -31061,8 +30986,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 1",
                 "mustKnowFact": "Cultural club of Tulkarem.",
                 "active": true,
-                "logo": "logos/thaqafi_tulkarem.png",
-                "uniform": "uniforms/thaqafi_tulkarem.png"
+                "logo": "logos/thaqafi_tulkarem.webp",
+                "uniform": "uniforms/thaqafi_tulkarem.webp"
             },
             {
                 "name": "Shabab Al-Dhahiriya",
@@ -31076,8 +31001,8 @@ const teams = [
                 "trophies": "West Bank Premier League: 2",
                 "mustKnowFact": "Youth of Dhahiriya.",
                 "active": true,
-                "logo": "logos/shabab_al_dhahiriya.png",
-                "uniform": "uniforms/shabab_al_dhahiriya.png"
+                "logo": "logos/shabab_al_dhahiriya.webp",
+                "uniform": "uniforms/shabab_al_dhahiriya.webp"
             },
             {
                 "name": "Ahli Al-Khalil",
@@ -31091,8 +31016,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Brothers of Hebron.",
                 "active": true,
-                "logo": "logos/ahli_al_khalil.png",
-                "uniform": "uniforms/ahli_al_khalil.png"
+                "logo": "logos/ahli_al_khalil.webp",
+                "uniform": "uniforms/ahli_al_khalil.webp"
             },
             {
                 "name": "Markaz Shabab Al-Am'ari",
@@ -31106,8 +31031,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth center of Al-Am'ari.",
                 "active": true,
-                "logo": "logos/markaz_shabab_al_amari.png",
-                "uniform": "uniforms/markaz_shabab_al_amari.png"
+                "logo": "logos/markaz_shabab_al_amari.webp",
+                "uniform": "uniforms/markaz_shabab_al_amari.webp"
             },
             {
                 "name": "Taraji Wadi Al-Nes",
@@ -31121,8 +31046,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Hope of Wadi Al-Nes.",
                 "active": true,
-                "logo": "logos/taraji_wadi_al_nes.png",
-                "uniform": "uniforms/taraji_wadi_al_nes.png"
+                "logo": "logos/taraji_wadi_al_nes.webp",
+                "uniform": "uniforms/taraji_wadi_al_nes.webp"
             },
             {
                 "name": "Shabab Al-Obaidiya",
@@ -31136,8 +31061,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Al-Obaidiya.",
                 "active": true,
-                "logo": "logos/shabab_al_obaidiya.png",
-                "uniform": "uniforms/shabab_al_obaidiya.png"
+                "logo": "logos/shabab_al_obaidiya.webp",
+                "uniform": "uniforms/shabab_al_obaidiya.webp"
             },
             {
                 "name": "Mosaset Al-Bireh",
@@ -31151,8 +31076,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Institution of Al-Bireh.",
                 "active": true,
-                "logo": "logos/mosaset_al_bireh.png",
-                "uniform": "uniforms/mosaset_al_bireh.png"
+                "logo": "logos/mosaset_al_bireh.webp",
+                "uniform": "uniforms/mosaset_al_bireh.webp"
             },
             {
                 "name": "AS Ali Sabieh",
@@ -31166,8 +31091,8 @@ const teams = [
                 "trophies": "Djibouti Premier League: 5",
                 "mustKnowFact": "Pride of Ali Sabieh.",
                 "active": true,
-                "logo": "logos/as_ali_sabieh.png",
-                "uniform": "uniforms/as_ali_sabieh.png"
+                "logo": "logos/as_ali_sabieh.webp",
+                "uniform": "uniforms/as_ali_sabieh.webp"
             },
             {
                 "name": "Djibouti Télécom",
@@ -31181,8 +31106,8 @@ const teams = [
                 "trophies": "Djibouti Premier League: 6",
                 "mustKnowFact": "Telecom giants of Djibouti.",
                 "active": true,
-                "logo": "logos/djibouti_telecom.png",
-                "uniform": "uniforms/djibouti_telecom.png"
+                "logo": "logos/djibouti_telecom.webp",
+                "uniform": "uniforms/djibouti_telecom.webp"
             },
             {
                 "name": "AS Port",
@@ -31196,8 +31121,8 @@ const teams = [
                 "trophies": "Djibouti Premier League: 3",
                 "mustKnowFact": "Dockers of the port.",
                 "active": true,
-                "logo": "logos/as_port.png",
-                "uniform": "uniforms/as_port.png"
+                "logo": "logos/as_port.webp",
+                "uniform": "uniforms/as_port.webp"
             },
             {
                 "name": "Garde Républicaine",
@@ -31211,8 +31136,8 @@ const teams = [
                 "trophies": "Djibouti Premier League: 2",
                 "mustKnowFact": "Guards of the republic.",
                 "active": true,
-                "logo": "logos/garde_republicaine.png",
-                "uniform": "uniforms/garde_republicaine.png"
+                "logo": "logos/garde_republicaine.webp",
+                "uniform": "uniforms/garde_republicaine.webp"
             },
             {
                 "name": "AS Arta/Solar7",
@@ -31226,8 +31151,8 @@ const teams = [
                 "trophies": "Djibouti Premier League: 2",
                 "mustKnowFact": "Solar stars of Arta.",
                 "active": true,
-                "logo": "logos/as_arta_solar7.png",
-                "uniform": "uniforms/as_arta_solar7.png"
+                "logo": "logos/as_arta_solar7.webp",
+                "uniform": "uniforms/as_arta_solar7.webp"
             },
             {
                 "name": "SDVK",
@@ -31241,8 +31166,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Youth of Djibouti.",
                 "active": true,
-                "logo": "logos/sdvk.png",
-                "uniform": "uniforms/sdvk.png"
+                "logo": "logos/sdvk.webp",
+                "uniform": "uniforms/sdvk.webp"
             },
             {
                 "name": "Q5 FC",
@@ -31256,8 +31181,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Quarter 5 warriors.",
                 "active": true,
-                "logo": "logos/q5_fc.png",
-                "uniform": "uniforms/q5_fc.png"
+                "logo": "logos/q5_fc.webp",
+                "uniform": "uniforms/q5_fc.webp"
             },
             {
                 "name": "AS Tadjourah",
@@ -31271,8 +31196,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Sailors of Tadjourah.",
                 "active": true,
-                "logo": "logos/as_tadjourah.png",
-                "uniform": "uniforms/as_tadjourah.png"
+                "logo": "logos/as_tadjourah.webp",
+                "uniform": "uniforms/as_tadjourah.webp"
             },
             {
                 "name": "Dikhil FC",
@@ -31286,8 +31211,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Pride of Dikhil.",
                 "active": true,
-                "logo": "logos/dikhil_fc.png",
-                "uniform": "uniforms/dikhil_fc.png"
+                "logo": "logos/dikhil_fc.webp",
+                "uniform": "uniforms/dikhil_fc.webp"
             },
             {
                 "name": "Hôpital Balbala",
@@ -31301,8 +31226,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Healers of Balbala.",
                 "active": true,
-                "logo": "logos/hopital_balbala.png",
-                "uniform": "uniforms/hopital_balbala.png"
+                "logo": "logos/hopital_balbala.webp",
+                "uniform": "uniforms/hopital_balbala.webp"
             },
             {
                 "name": "Harlem United",
@@ -31316,8 +31241,8 @@ const teams = [
                 "trophies": "Dominica Premier League: 8",
                 "mustKnowFact": "Harlem heroes of Roseau.",
                 "active": true,
-                "logo": "logos/harlem_united.png",
-                "uniform": "uniforms/harlem_united.png"
+                "logo": "logos/harlem_united.webp",
+                "uniform": "uniforms/harlem_united.webp"
             },
             {
                 "name": "Bath Estate FC",
@@ -31331,8 +31256,8 @@ const teams = [
                 "trophies": "Dominica Premier League: 3",
                 "mustKnowFact": "Estate warriors of Roseau.",
                 "active": true,
-                "logo": "logos/bath_estate_fc.png",
-                "uniform": "uniforms/bath_estate_fc.png"
+                "logo": "logos/bath_estate_fc.webp",
+                "uniform": "uniforms/bath_estate_fc.webp"
             },
             {
                 "name": "Dublanc FC",
@@ -31346,8 +31271,8 @@ const teams = [
                 "trophies": "Dominica Premier League: 2",
                 "mustKnowFact": "Pride of Dublanc.",
                 "active": true,
-                "logo": "logos/dublanc_fc.png",
-                "uniform": "uniforms/dublanc_fc.png"
+                "logo": "logos/dublanc_fc.webp",
+                "uniform": "uniforms/dublanc_fc.webp"
             },
             {
                 "name": "South East FC",
@@ -31361,8 +31286,8 @@ const teams = [
                 "trophies": "Dominica Premier League: 1",
                 "mustKnowFact": "Southeastern stars.",
                 "active": true,
-                "logo": "logos/south_east_fc.png",
-                "uniform": "uniforms/south_east_fc.png"
+                "logo": "logos/south_east_fc.webp",
+                "uniform": "uniforms/south_east_fc.webp"
             },
             {
                 "name": "Promex Harlem United",
@@ -31376,8 +31301,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Second Harlem of Roseau.",
                 "active": true,
-                "logo": "logos/promex_harlem_united.png",
-                "uniform": "uniforms/promex_harlem_united.png"
+                "logo": "logos/promex_harlem_united.webp",
+                "uniform": "uniforms/promex_harlem_united.webp"
             },
             {
                 "name": "Mahaut Soca Strikers",
@@ -31391,8 +31316,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Strikers of Mahaut.",
                 "active": true,
-                "logo": "logos/mahaut_soca_strikers.png",
-                "uniform": "uniforms/mahaut_soca_strikers.png"
+                "logo": "logos/mahaut_soca_strikers.webp",
+                "uniform": "uniforms/mahaut_soca_strikers.webp"
             },
             {
                 "name": "Portsmouth Bombers",
@@ -31406,8 +31331,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Bombers of the north.",
                 "active": true,
-                "logo": "logos/portsmouth_bombers.png",
-                "uniform": "uniforms/portsmouth_bombers.png"
+                "logo": "logos/portsmouth_bombers.webp",
+                "uniform": "uniforms/portsmouth_bombers.webp"
             },
             {
                 "name": "WE United",
@@ -31421,8 +31346,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Castle Bruce.",
                 "active": true,
-                "logo": "logos/we_united.png",
-                "uniform": "uniforms/we_united.png"
+                "logo": "logos/we_united.webp",
+                "uniform": "uniforms/we_united.webp"
             },
             {
                 "name": "Middleham United",
@@ -31436,8 +31361,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "United of Middleham.",
                 "active": true,
-                "logo": "logos/middleham_united.png",
-                "uniform": "uniforms/middleham_united.png"
+                "logo": "logos/middleham_united.webp",
+                "uniform": "uniforms/middleham_united.webp"
             },
             {
                 "name": "Exodus FC",
@@ -31451,8 +31376,8 @@ const teams = [
                 "trophies": "",
                 "mustKnowFact": "Journeyers of Roseau.",
                 "active": true,
-                "logo": "logos/exodus_fc.png",
-                "uniform": "uniforms/exodus_fc.png"
+                "logo": "logos/exodus_fc.webp",
+                "uniform": "uniforms/exodus_fc.webp"
             },        
 
 
