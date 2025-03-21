@@ -24,7 +24,8 @@
                 <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
                 <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
                 <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a> |
-                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a>
+                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a> |
+                <a href="world-cup-moments.html" onclick="navigateWithAdRefresh('world-cup-moments.html'); return false;">Greatest Moments</a>
             
             </nav>
         </header>
@@ -91,8 +92,8 @@
                         <li><strong>Midfielder:</strong> ${country.legendaryMidfielder || 'None listed'}</li>
                         <li><strong>Striker:</strong> ${country.legendaryStriker || 'None listed'}</li>
                     </ul>
-                    <img src="${country.flag || 'https://via.placeholder.com/200?text=Flag'}" alt="${country.name} Flag">
-                    <img src="${country.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${country.name} Uniform">
+                    <img src="${country.flag || 'https://via.placeholder.com/200?text=Flag'}" alt="${country.name} Flag" loading="lazy">
+                    <img src="${country.uniform || 'https://via.placeholder.com/200?text=Uniform'}" alt="${country.name} Uniform" loading="lazy">
                 `;
                 document.title = `${country.name} - Forever Football`;
             } else {

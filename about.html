@@ -4,49 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About Forever Football - Celebrating football teams from every FIFA nation.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://www.googletagmanager.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://* data:; connect-src 'self' https://*.google.com https://*.googlesyndication.com https://formspree.io; frame-src 'self' https://pagead2.googlesyndication.com; font-src 'self' https://fonts.gstatic.com">
     <title>About - Forever Football</title>
-    <link rel="stylesheet" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9925950012374716" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MZ66WWDR4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3MZ66WWDR4');
+    </script>
 </head>
 <body>
-    <header>
-        <h1>About Forever Football</h1>
-        <nav><a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a></nav>
-    </header>
-    <main>
-        <h2>The Forever Football Story</h2>
-        <p>Welcome to <strong>foreverfootball.online</strong>, where football's heartbeat echoes across every FIFA nation. Launched in 2025 by a lifelong fan who lives and breathes the beautiful game, this site is a tribute to teams big and small—from River Plate's trophy-laden legacy to Brest's gritty rise, and beyond. With over 1000 teams already, we are cataloging the world's football clubs, one story at a time.</p>
-        <p>Our mission? To showcase every team from FIFA's 211 member nations—stats, logos, uniforms, and legendary moments included. Whether it's the roar of the Maracanã or a hidden gem in a small town, we've got you covered with pure football data, interactive maps, and a passion for the pitch. This isn't just a site—it's a living archive for fans, by a fan. Explore over 1000 teams spanning FIFA's 211 member nations. From the roaring terraces of Camp Nou, where Barcelona's blaugrana dynasty reigns, to the gritty streets of Tunja, where Boyaca Chico's chessboard kit defied odds, we've got it all. Here, legends like Paolo Maldini, Diego Maradona, and Lionel Messi live forever alongside leyends like Sevilla's Europa League streak or Boca Juniors' 2000 Intercontinental triumph. Our mission? To catalog every club's soul—stats, logos, uniforms, and tales of glory—delivered through stats and deep dives that ignite your fandom.</p>
-        <p>This isn't just a site—it's a living archive. Picture Ajax's Total Football revolution, Arsenal's Invincibles swagger, or Corinthians' Timao army shaking Sao Paulo. We blend raw data (trophies, founding years) with the moments that define football—Zico's Flamengo flair, Totti's Roma loyalty, Henry's Arsenal magic. Whether you're chasing the giants or unearthing hidden gems like Arouca or Almere City, Forever Football is your playbook. Built for fans, by a fan, it's a celebration of the game's past, present, and future. No fuss, just pure football passion. Start your journey now: explore teams, zoom into our map, or dive into legendary highlights.</p> Got a team to cheer or an idea to share? Drop us a line below—we are here for it.</p>
-        <form name="contact" method="POST" data-netlify="true" action="/contact-success.html">
-            <input type="hidden" name="form-name" value="contact">
-            <p>
-                <label for="name">Name (optional):</label><br>
-                <input type="text" id="name" name="name" placeholder="Your name">
-            </p>
-            <p>
-                <label for="email">Email (optional, for replies):</label><br>
-                <input type="email" id="email" name="email" placeholder="Your email">
-            </p>
-            <p>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" placeholder="What’s your football take?" required></textarea>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
-    </main>
+    <div class="container">
+        <header>
+            <h1>Forever Football - About</h1>
+            <nav>
+                <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
+                <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
+                <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a> |
+                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a> |
+                <a href="world-cup-moments.html" onclick="navigateWithAdRefresh('world-cup-moments.html'); return false;">Greatest Moments</a>
+            </nav>
+        </header>
+        <main>
+            <h2>The Forever Football Story</h2>
+            <p>Welcome to <strong>foreverfootball.online</strong>, where football's heartbeat echoes across every FIFA nation. Launched in 2025 by a lifelong fan who lives and breathes the beautiful game, this site is a tribute to teams big and small—from River Plate's trophy-laden legacy to Brest's gritty rise, and beyond. With over 1000 teams already, we are cataloging the world's football clubs, one story at a time.</p>
+            <p>Our mission? To showcase every team from FIFA's 211 member nations—stats, logos, uniforms, and legendary moments included. Whether it's the roar of the Maracanã or a hidden gem in a small town, we've got you covered with pure football data, interactive maps, and a passion for the pitch. This isn't just a site—it's a living archive for fans, by a fan. Explore over 1000 teams spanning FIFA's 211 member nations. From the roaring terraces of Camp Nou, where Barcelona's blaugrana dynasty reigns, to the gritty streets of Tunja, where Boyaca Chico's chessboard kit defied odds, we've got it all. Here, legends like Paolo Maldini, Diego Maradona, and Lionel Messi live forever alongside leyends like Sevilla's Europa League streak or Boca Juniors' 2000 Intercontinental triumph. Our mission? To catalog every club's soul—stats, logos, uniforms, and tales of glory—delivered through stats and deep dives that ignite your fandom.</p>
+            <p>This isn't just a site—it's a living archive. Picture Ajax's Total Football revolution, Arsenal's Invincibles swagger, or Corinthians' Timao army shaking Sao Paulo. We blend raw data (trophies, founding years) with the moments that define football—Zico's Flamengo flair, Totti's Roma loyalty, Henry's Arsenal magic. Whether you're chasing the giants or unearthing hidden gems like Arouca or Almere City, Forever Football is your playbook. Built for fans, by a fan, it's a celebration of the game's past, present, and future. No fuss, just pure football passion. Start your journey now: explore teams, zoom into our map, or dive into legendary highlights. Got a team to cheer or an idea to share? Drop us a line on our <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact page</a>.</p>
+        </main>
+    </div>
     <footer>
-        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> | 
-        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> | 
-        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> | 
-        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a>
+        <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Home</a> |
+        <a href="about.html" onclick="navigateWithAdRefresh('about.html'); return false;">About</a> |
+        <a href="contact.html" onclick="navigateWithAdRefresh('contact.html'); return false;">Contact</a> |
+        <a href="privacy-policy.html" onclick="navigateWithAdRefresh('privacy-policy.html'); return false;">Privacy Policy</a> |
+        <a href="terms.html" onclick="navigateWithAdRefresh('terms.html'); return false;">Terms of Use</a>
     </footer>
     <script>
         function navigateWithAdRefresh(url) {
             window.location.href = url;
         }
     </script>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: 'Roboto', Arial, sans-serif; 
+            background: linear-gradient(to bottom, #2E7D32, #FFFFFF), url('images/footbg.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            background-blend-mode: overlay;
+            color: #333;
+        }
+        .container { 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        header { 
+            padding: 20px; 
+            background: rgba(255, 75, 0, 0.9); 
+            color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5em; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        nav a { 
+            color: #FFF3E0; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 0 10px; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+        main { 
+            flex: 1; 
+            padding: 30px; 
+            background: rgba(255, 255, 255, 0.85); 
+            border-radius: 10px; 
+            margin: 20px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 { 
+            font-size: 20px; 
+            color: #FF4500; 
+            margin-bottom: 10px; 
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        p { 
+            font-size: 16px; 
+            line-height: 1.6; 
+            margin: 10px 0; 
+        }
+        a { 
+            color: #1E88E5; 
+            text-decoration: none; 
+            font-weight: 700; 
+        }
+        a:hover { 
+            color: #1976D2; 
+            text-decoration: underline; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 15px; 
+            background: rgba(0, 0, 0, 0.8); 
+            color: white; 
+            width: 100%; 
+        }
+        footer a { 
+            color: #FFA500; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 700; 
+            transition: color 0.3s; 
+        }
+        footer a:hover { 
+            color: #FF5722; 
+            text-decoration: underline; 
+        }
+    </style>
 </body>
 </html>

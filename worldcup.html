@@ -25,7 +25,8 @@
                 <a href="index.html" onclick="navigateWithAdRefresh('index.html'); return false;">Teams</a> |
                 <a href="map.html" onclick="navigateWithAdRefresh('map.html'); return false;">Map</a> |
                 <a href="highlights.html" onclick="navigateWithAdRefresh('highlights.html'); return false;">Highlights</a> |
-                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a>
+                <a href="worldcup.html" onclick="navigateWithAdRefresh('worldcup.html'); return false;">World Cup</a> |
+                <a href="world-cup-moments.html" onclick="navigateWithAdRefresh('world-cup-moments.html'); return false;">Greatest Moments</a>
             
 
             </nav>
@@ -60,7 +61,7 @@
                 const countryDiv = document.createElement('div');
                 countryDiv.className = 'country-item';
                 countryDiv.innerHTML = `
-                    <img src="${country.flag || 'https://via.placeholder.com/100?text=Flag'}" alt="${country.name} Flag">
+                    <img src="${country.flag || 'https://via.placeholder.com/100?text=Flag'}" alt="${country.name} Flag" loading="lazy">
                     <a href="countries.html?country=${encodeURIComponent(country.name)}" onclick="navigateWithAdRefresh('countries.html?country=${encodeURIComponent(country.name)}'); return false;">${country.name}</a>
                     <p>${country.highlight || 'No highlight available'}</p>
                 `;
